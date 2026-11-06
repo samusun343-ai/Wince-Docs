@@ -1,0 +1,812 @@
+[
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Error C2284",
+"u": "ee479232(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Error C2729",
+"u": "ee480139(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Error C2759",
+"u": "ee479386(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Error C2822",
+"u": "ee480175(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Error C2840",
+"u": "ee479731(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Error C2880",
+"u": "ee479905(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Error C2887",
+"u": "ee479945(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Warning (Level 2) C4720",
+"u": "ee479558(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Warning (Level 1) C4721",
+"u": "ee479768(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Warning (Level 1) C4732",
+"u": "ee479901(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Device Compiler Error Messages",
+"t": "Compiler Warning (Level 1) C4567",
+"u": "ee480101(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1000",
+"u": "ee480144(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1001",
+"u": "ee479539(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1002",
+"u": "ee479904(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1003",
+"u": "ee479676(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1004",
+"u": "ee479923(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1005",
+"u": "ee479506(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1006",
+"u": "ee479722(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1007",
+"u": "ee479347(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1017",
+"u": "ee479915(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1018",
+"u": "ee479531(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1019",
+"u": "ee479706(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1020",
+"u": "ee479332(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1021",
+"u": "ee479732(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1022",
+"u": "ee479918(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1023",
+"u": "ee479500(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1024",
+"u": "ee479498(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1025",
+"u": "ee479727(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1031",
+"u": "ee479947(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1033",
+"u": "ee479243(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1034",
+"u": "ee479695(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1035",
+"u": "ee479962(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1036",
+"u": "ee479489(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1037",
+"u": "ee479503(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1038",
+"u": "ee479908(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1039",
+"u": "ee479702(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1040",
+"u": "ee479239(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1041",
+"u": "ee480126(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1042",
+"u": "ee479472(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1043",
+"u": "ee479400(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1045",
+"u": "ee479740(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1047",
+"u": "ee479691(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1048",
+"u": "ee479477(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1049",
+"u": "ee479729(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1050",
+"u": "ee479470(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1051",
+"u": "ee479331(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1052",
+"u": "ee480140(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1053",
+"u": "ee480131(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1054",
+"u": "ee480156(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1055",
+"u": "ee479491(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1056",
+"u": "ee479963(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1057",
+"u": "ee479499(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1058",
+"u": "ee480134(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1059",
+"u": "ee479934(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1060",
+"u": "ee480174(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1061",
+"u": "ee479929(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1062",
+"u": "ee480141(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1063",
+"u": "ee479322(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1064",
+"u": "ee480104(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1065",
+"u": "ee480125(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1069",
+"u": "ee479356(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1070",
+"u": "ee479754(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1071",
+"u": "ee479763(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1072",
+"u": "ee479747(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1073",
+"u": "ee480123(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1076",
+"u": "ee479225(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1077",
+"u": "ee479473(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1078",
+"u": "ee479766(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1079",
+"u": "ee479284(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1080",
+"u": "ee479509(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1081",
+"u": "ee479401(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1082",
+"u": "ee479286(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1083",
+"u": "ee479339(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1084",
+"u": "ee479881(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1085",
+"u": "ee479913(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1086",
+"u": "ee479943(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1087",
+"u": "ee479883(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1088",
+"u": "ee480114(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1089",
+"u": "ee480138(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1090",
+"u": "ee479957(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1092",
+"u": "ee479713(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1093",
+"u": "ee480163(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1094",
+"u": "ee480160(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1095",
+"u": "ee479561(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1096",
+"u": "ee480112(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1097",
+"u": "ee479224(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1098",
+"u": "ee479556(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1099",
+"u": "ee479959(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U1100",
+"u": "ee480169(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Fatal Error U2001",
+"u": "ee479683(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Warning U4001",
+"u": "ee479252(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Warning U4002",
+"u": "ee479238(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Warning U4004",
+"u": "ee479936(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Warning U4005",
+"u": "ee479714(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Warning U4006",
+"u": "ee479748(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Warning U4007",
+"u": "ee479240(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Warning U4008",
+"u": "ee479414(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Warning U4010",
+"u": "ee479423(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "NMAKE Errors U1000 through U4011",
+"t": "NMAKE Warning U4011",
+"u": "ee479926(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1500",
+"u": "ee479475(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1501",
+"u": "ee479739(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1502",
+"u": "ee479501(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1503",
+"u": "ee479948(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1504",
+"u": "ee479949(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1505",
+"u": "ee479522(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1506",
+"u": "ee479263(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1507",
+"u": "ee479717(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1508",
+"u": "ee480181(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1509",
+"u": "ee479307(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1510",
+"u": "ee479562(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1511",
+"u": "ee479759(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1512",
+"u": "ee480173(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1513",
+"u": "ee479737(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1514",
+"u": "ee479551(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1515",
+"u": "ee479318(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1516",
+"u": "ee479878(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Error BK1517",
+"u": "ee479351(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Warning BK4500",
+"u": "ee479566(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Warning BK4501",
+"u": "ee479741(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Warning BK4502",
+"u": "ee479469(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Warning BK4503",
+"u": "ee479891(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "BSCMAKE Errors BK1500 through BK4504",
+"t": "BSCMAKE Warning BK4504",
+"u": "ee480161(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "Net Errors - Alphabetical Order",
+"u": "ee488355(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "Net Errors - Numerical Order",
+"u": "ee487980(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "RAS Error Values",
+"u": "ee488627(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "System Errors - Alphabetical Order",
+"u": "ee487988(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "System Errors - Numerical Order",
+"u": "ee488398(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "NTE error codes",
+"u": "ee488369(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "CRYPT Error Codes",
+"u": "ee488560(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "CERTSRV Error Codes",
+"u": "ee488175(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "TRUST Error Codes",
+"u": "ee488436(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Error Functions",
+"t": "FormatMessage",
+"u": "ee488376(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Error Functions",
+"t": "SetLastError",
+"u": "ee487957(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "Error Functions",
+"t": "GetLastError",
+"u": "ee488182(v=winembedded.60)"
+},
+{
+"area": "error-values",
+"sub": "(top)",
+"t": "Formatting Specifications",
+"u": "ee488601(v=winembedded.60)"
+}
+]

@@ -1,0 +1,4472 @@
+[
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "AlphaBlend",
+"u": "aa452850(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BeginPaint",
+"u": "aa452871(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BitBlt",
+"u": "aa452879(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ChangeDisplaySettingsEx",
+"u": "ms908108(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ClientToScreen",
+"u": "ms928584(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CombineRgn",
+"u": "ms928608(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CopyRect",
+"u": "ms908152(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateBitmap",
+"u": "ms908163(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateCompatibleBitmap",
+"u": "ms908165(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateCompatibleDC",
+"u": "ms908166(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateDC",
+"u": "ms908168(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateDIBPatternBrushPt",
+"u": "ms908173(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateDIBSection",
+"u": "ms908174(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreatePalette (GDI)",
+"u": "ms908178(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreatePatternBrush",
+"u": "ms908179(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreatePen",
+"u": "ms908180(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreatePenIndirect",
+"u": "ms908181(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateRectRgn",
+"u": "ms908184(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateRectRgnIndirect",
+"u": "ms908185(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateSolidBrush",
+"u": "ms908187(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DeleteDC",
+"u": "aa452930(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DeleteObject",
+"u": "aa452933(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DrawEdge",
+"u": "aa452968(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DrawFocusRect",
+"u": "aa452969(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DrawFrameControl",
+"u": "aa452970(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Ellipse",
+"u": "aa452997(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EndPaint",
+"u": "aa453041(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EnumDisplayDevices",
+"u": "aa453048(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EnumDisplaySettings",
+"u": "aa453049(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EqualRect",
+"u": "aa453055(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EqualRgn",
+"u": "aa453056(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ExcludeClipRect",
+"u": "aa453058(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ExtCreateRegion",
+"u": "aa453061(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ExtEscape",
+"u": "aa453063(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "FillRect",
+"u": "aa453067(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "FillRgn",
+"u": "aa453068(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetBkColor",
+"u": "ms929205(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetBkMode",
+"u": "ms929206(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetBValue",
+"u": "ms929207(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetClipBox",
+"u": "ms929219(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetClipRgn",
+"u": "ms929221(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetCurrentObject",
+"u": "ms929223(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetCurrentPositionEx",
+"u": "ms929224(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetDC",
+"u": "ms929227(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetDCEx",
+"u": "ms929228(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetDeviceCaps",
+"u": "ms929230(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetDIBColorTable",
+"u": "ms929232(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetGValue",
+"u": "ms929246(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetLayout",
+"u": "aa453133(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetNearestColor",
+"u": "aa453140(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetNearestPaletteIndex",
+"u": "aa453141(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetObject",
+"u": "aa453147(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetObjectType",
+"u": "aa453148(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetOutlineTextMetrics",
+"u": "ms933897(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetPaletteEntries",
+"u": "aa453151(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetPixel",
+"u": "aa453153(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetRegionData",
+"u": "aa453157(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetRgnBox",
+"u": "aa453159(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetROP2",
+"u": "aa453160(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetRValue",
+"u": "aa453161(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetStockObject",
+"u": "aa453164(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetStretchBltMode",
+"u": "aa453165(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetSysColorBrush",
+"u": "aa453168(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetSystemPaletteEntries",
+"u": "aa453171(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetUpdateRect",
+"u": "aa453174(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetUpdateRgn",
+"u": "aa453175(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetViewportExtEx",
+"u": "aa453949(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetViewportOrgEx",
+"u": "aa453950(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetWindowDC",
+"u": "aa453179(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetWindowExtEx",
+"u": "aa453951(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetWindowOrgEx",
+"u": "aa453952(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetWindowRgn",
+"u": "aa453182(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GradientFill",
+"u": "aa453192(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "InflateRect",
+"u": "ms909847(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "IntersectClipRect",
+"u": "ms909855(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "IntersectRect",
+"u": "ms909856(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "InvalidateRect",
+"u": "ms909857(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "InvalidateRgn",
+"u": "ms909858(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "InvertRect",
+"u": "ms909859(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "IsRectEmpty",
+"u": "ms909894(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LineTo",
+"u": "aa453296(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LoadBitmap",
+"u": "aa453409(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "MapWindowPoints",
+"u": "ms911790(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "MaskBlt",
+"u": "ms911792(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "MoveToEx",
+"u": "ms931457(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "OffsetRect",
+"u": "ms911891(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "OffsetRgn",
+"u": "ms911892(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "OffsetViewportOrgEx",
+"u": "aa453953(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PatBlt",
+"u": "ms911916(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Polygon",
+"u": "ms911933(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Polyline",
+"u": "ms911934(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PtInRect",
+"u": "aa453601(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PtInRegion",
+"u": "aa453602(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RealizePalette",
+"u": "aa453638(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Rectangle",
+"u": "ms912947(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RectInRegion",
+"u": "ms913051(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RectVisible",
+"u": "ms913070(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RedrawWindow",
+"u": "ms913080(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ReleaseDC",
+"u": "ms939760(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RestoreDC",
+"u": "ms939800(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RoundRect",
+"u": "ms939867(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SaveDC",
+"u": "ms939894(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ScreenToClient",
+"u": "ms932582(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SelectClipRgn",
+"u": "ms932714(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SelectObject",
+"u": "ms932715(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SelectPalette",
+"u": "ms932716(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetBitmapBits",
+"u": "ms939987(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetBkColor",
+"u": "ms939988(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetBkMode",
+"u": "ms939989(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetBrushOrgEx",
+"u": "ms940010(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetDIBColorTable",
+"u": "ms940018(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetDIBitsToDevice",
+"u": "ms940019(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetLayout",
+"u": "ms940026(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetPaletteEntries",
+"u": "ms940028(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetPixel",
+"u": "aa453646(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetRect",
+"u": "aa453648(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetRectEmpty",
+"u": "aa453649(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetRectRgn",
+"u": "aa453650(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetROP2",
+"u": "aa453651(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetStretchBltMode",
+"u": "aa453655(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetViewportOrgEx",
+"u": "aa453660(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetWindowOrgEx",
+"u": "aa453954(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetWindowRgn",
+"u": "aa453663(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "StretchBlt",
+"u": "ms940373(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "StretchDIBits",
+"u": "ms940374(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SubtractRect",
+"u": "ms940381(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "TransparentBlt",
+"u": "aa453778(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "TransparentImage",
+"u": "aa453779(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "UnionRect",
+"u": "ms914081(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "UpdateWindow",
+"u": "ms914085(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ValidateRect",
+"u": "ms914091(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ValidateRgn",
+"u": "ms914092(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GDI Macros",
+"u": "ms927620(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_PAINT",
+"u": "aa453891(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_PALETTECHANGED",
+"u": "aa453892(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_QUERYNEWPALETTE",
+"u": "aa453894(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_SETREDRAW",
+"u": "aa453904(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_SYSCOLORCHANGE",
+"u": "aa453910(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAP",
+"u": "aa452880(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPCOREHEADER",
+"u": "aa452881(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPCOREINFO",
+"u": "aa452882(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPFILEHEADER",
+"u": "aa452883(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPINFO",
+"u": "aa452884(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPINFOHEADER",
+"u": "aa452885(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BLENDFUNCTION",
+"u": "aa452889(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "COLORREF",
+"u": "ms928589(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DEVMODE",
+"u": "aa452943(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DIBSECTION",
+"u": "aa452953(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DISPLAY_DEVICE",
+"u": "aa452957(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GRADIENT_RECT",
+"u": "aa453193(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LOGBRUSH",
+"u": "aa453418(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LOGPALETTE",
+"u": "aa453419(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LOGPEN",
+"u": "aa453420(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PAINTSTRUCT",
+"u": "ms911912(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PALETTEENTRY",
+"u": "ms911913(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "POINT",
+"u": "ms911930(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "POINTS",
+"u": "ms911931(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "OUTLINETEXTMETRICW",
+"u": "ms934025(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RECT",
+"u": "ms912843(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RECTL",
+"u": "ms913063(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGBQUAD",
+"u": "ms939815(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGBTRIPLE",
+"u": "ms939824(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGNDATA",
+"u": "ms939837(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGNDATAHEADER",
+"u": "ms939847(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SIZE",
+"u": "ms940344(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "TRIVERTEX",
+"u": "aa453818(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "VIDEOPARAMETERS",
+"u": "ms914096(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Binary Raster Operations",
+"u": "aa452878(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Ternary Raster Operations",
+"u": "aa452783(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "(top)",
+"t": "InsetRect",
+"u": "ms909854(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "(top)",
+"t": "MAKEROP4",
+"u": "ms911697(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "(top)",
+"t": "PALETTEINDEX2BPP",
+"u": "ms911914(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "(top)",
+"t": "PALETTERGB",
+"u": "ms911915(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "(top)",
+"t": "POINTSTOPOINT",
+"u": "ms911932(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "(top)",
+"t": "RGB",
+"u": "ms939803(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Interprocess Communication Reference",
+"t": "WM_COPYDATA",
+"u": "aa453921(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Interprocess Communication Reference",
+"t": "WM_SYSCOPYDATA",
+"u": "aa453912(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Interprocess Communication Reference",
+"t": "COPYDATASTRUCT",
+"u": "ms908151(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "ActivateKeyboardLayout",
+"u": "aa452845(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "CreateAcceleratorTable",
+"u": "ms908162(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "DestroyAcceleratorTable",
+"u": "aa452935(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "EnableWindow",
+"u": "aa453035(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetActiveWindow",
+"u": "ms929203(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetAsyncKeyState",
+"u": "ms929204(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetAsyncShiftFlags",
+"u": "aa453955(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetFocus",
+"u": "ms929240(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetForegroundInfo",
+"u": "ms929241(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetForegroundKeyboardLayoutHandle",
+"u": "ms929242(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetForegroundKeyboardTarget",
+"u": "ms929243(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetKeyboardLayout",
+"u": "ms929249(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetKeyboardLayoutList",
+"u": "ms929250(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetKeyboardLayoutName",
+"u": "ms929252(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetKeyboardStatus",
+"u": "ms929253(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetKeyboardType",
+"u": "ms929254(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GetKeyState",
+"u": "aa453132(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "IsWindowEnabled",
+"u": "aa453234(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "keybd_event",
+"u": "aa453245(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "KeybdGetDeviceInfo",
+"u": "aa453246(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "LoadAccelerators",
+"u": "aa453407(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "LoadKeyboardLayout",
+"u": "aa453414(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "MapVirtualKey",
+"u": "ms911789(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "PostKeybdMessage",
+"u": "ms911936(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "RegisterHotKey",
+"u": "ms913104(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "SendInput",
+"u": "ms932719(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "SetActiveWindow",
+"u": "ms939986(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "SetFocus",
+"u": "ms940023(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "TranslateAccelerator",
+"u": "aa453775(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "UnregisterHotKey",
+"u": "ms914083(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_ACTIVATE",
+"u": "ms914105(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_CHAR",
+"u": "ms914110(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_HOTKEY",
+"u": "aa453868(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_INITMENUPOPUP",
+"u": "aa453872(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_KEYDOWN",
+"u": "aa453873(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_KEYUP",
+"u": "aa453876(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_KILLFOCUS",
+"u": "aa453877(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_MENUCHAR",
+"u": "aa453884(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_SETFOCUS",
+"u": "aa453901(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_SYSCHAR",
+"u": "aa453909(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_SYSCOMMAND",
+"u": "aa453911(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_SYSDEADCHAR",
+"u": "aa453913(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_SYSKEYDOWN",
+"u": "aa453914(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "WM_SYSKEYUP",
+"u": "aa453915(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "ACCEL",
+"u": "aa452837(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "GET_FOREGROUND_INFO",
+"u": "aa453186(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "INPUT",
+"u": "ms909851(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "KEYBDINPUT",
+"u": "aa453247(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Keyboard Reference",
+"t": "MOUSEINPUT",
+"u": "ms931454(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "DispatchMessage",
+"u": "aa452956(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetMessage",
+"u": "aa453135(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetMessagePos",
+"u": "aa453136(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetMessageQueueReadyTimeStamp",
+"u": "aa453137(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetMessageSource",
+"u": "aa453138(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetQueueStatus",
+"u": "aa453156(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "InSendMessage",
+"u": "ms909852(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "PeekMessage",
+"u": "ms911928(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "PostMessage",
+"u": "ms911937(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "PostQuitMessage",
+"u": "ms911938(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "PostThreadMessage",
+"u": "ms911939(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "RegisterWindowMessage",
+"u": "ms939737(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "SendMessage",
+"u": "ms939980(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "SendMessageTimeout",
+"u": "ms939981(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "SendNotifyMessage",
+"u": "ms939983(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "TranslateMessage",
+"u": "aa453776(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "WM_APP",
+"u": "ms914107(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "WM_USER",
+"u": "aa453918(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "MSG",
+"u": "ms931459(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Synchronization Reference",
+"t": "MsgWaitForMultipleObjects",
+"u": "ms931460(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Message Synchronization Reference",
+"t": "MsgWaitForMultipleObjectsEx",
+"u": "ms931461(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "Notify Events",
+"u": "ms927912(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeClearUserNotification",
+"u": "ms908074(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeGetUserNotification",
+"u": "ms908076(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeGetUserNotificationHandles",
+"u": "ms908077(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeGetUserNotificationPreferences",
+"u": "ms908078(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeHandleAppNotifications",
+"u": "ms908079(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeRunAppAtEvent",
+"u": "ms908102(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeRunAppAtTime",
+"u": "ms908103(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeSetUserNotification",
+"u": "ms908104(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeSetUserNotificationEx",
+"u": "ms908105(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CE_NOTIFICATION_INFO_HEADER",
+"u": "ms908082(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CE_NOTIFICATION_TRIGGER",
+"u": "ms908083(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CE_USER_NOTIFICATION",
+"u": "ms908106(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "AbortDoc",
+"u": "aa452835(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "AbortProc",
+"u": "aa452836(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "EndDoc",
+"u": "aa453039(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "EndPage",
+"u": "aa453040(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "SetAbortProc",
+"u": "ms939985(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "StartDoc",
+"u": "ms940349(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "StartPage",
+"u": "ms940350(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "DOCINFO",
+"u": "aa452964(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "ACCELERATORS Resource",
+"u": "aa452838(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "AUTO3STATE Control",
+"u": "aa452864(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "AUTOCHECKBOX Control",
+"u": "aa452865(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "AUTORADIOBUTTON Control",
+"u": "aa452866(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "BITMAP Resource",
+"u": "aa452886(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "CAPTION Statement",
+"u": "aa452923(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "CHARACTERISTICS Statement",
+"u": "ms908109(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "CHECKBOX Control",
+"u": "ms928571(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "CLASS Statement",
+"u": "ms928583(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "COMBOBOX Control",
+"u": "ms928712(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "CONTROL Control",
+"u": "ms908149(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "CTEXT Control",
+"u": "ms908194(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "CURSOR Resource",
+"u": "ms908195(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "DEFPUSHBUTTON Control",
+"u": "ms908211(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "DIALOG Resource",
+"u": "aa452952(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "Generic Control Statements",
+"u": "aa452653(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "Static Control Statements",
+"u": "ms926856(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "Button Control Statements",
+"u": "ms926107(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "Edit Control Statements",
+"u": "aa452637(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "EDITTEXT Control",
+"u": "aa452996(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "EXSTYLE Statement",
+"u": "aa453060(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "FONT Resource",
+"u": "aa453071(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "FONT Statement",
+"u": "aa453072(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "GROUPBOX Control",
+"u": "aa453194(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "ICON Resource",
+"u": "ms929935(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "ICON Control",
+"u": "ms929932(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "LANGUAGE Statement",
+"u": "aa453250(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "LISTBOX Control",
+"u": "aa453298(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "LTEXT Control",
+"u": "aa453421(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "MENU Resource",
+"u": "ms911824(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "MENU Statement",
+"u": "ms911825(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "MENUEX Resource",
+"u": "ms911821(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "MENUITEM Statement",
+"u": "ms911823(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "MESSAGETABLE Resource",
+"u": "ms931428(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "POPUP Resource",
+"u": "ms911935(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "PUSHBUTTON Control",
+"u": "aa453603(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "RADIOBUTTON Control",
+"u": "aa453606(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "RCDATA Resource",
+"u": "aa453637(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "RTEXT Control",
+"u": "ms939875(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "SCROLLBAR Control",
+"u": "ms932592(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "STATE3 Control",
+"u": "ms940358(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "STRINGTABLE Resource",
+"u": "ms940376(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "STYLE Statement",
+"u": "ms940379(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "User-Defined Resource",
+"u": "ms927002(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "VERSION Statement",
+"u": "ms914095(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "VERSIONINFO Resource",
+"u": "ms914094(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "StringFileInfo Block",
+"u": "ms940375(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "VarFileInfo Block",
+"u": "ms914093(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "Common Control Parameters",
+"u": "ms926138(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "Common Resource Attributes",
+"u": "ms908146(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resource-Definition Statements",
+"t": "Sample Resource-Definition File",
+"u": "ms939886(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "CreateIconIndirect",
+"u": "ms908175(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "DestroyIcon",
+"u": "aa452938(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "DrawIconEx",
+"u": "aa452972(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "ExtractIconEx",
+"u": "aa453065(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "FindResource",
+"u": "aa453069(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "GetIconInfo",
+"u": "ms929247(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LoadIcon",
+"u": "aa453411(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LoadImage",
+"u": "aa453413(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LoadResource",
+"u": "aa453416(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LockResource",
+"u": "aa453417(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "SizeofResource",
+"u": "ms940346(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "MAKEINTRESOURCE",
+"u": "aa453542(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "EnableHardwareKeyboard",
+"u": "aa453033(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "GetSysColor",
+"u": "aa453167(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "GetSystemMetrics",
+"u": "aa453170(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "GetSystemPowerStatusEx",
+"u": "aa453172(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "GetSystemPowerStatusEx2",
+"u": "aa453173(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "SetSysColors",
+"u": "aa453656(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "SystemParametersInfo",
+"u": "ms940383(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "WM_SETTINGCHANGE",
+"u": "aa453906(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "SYSTEM_POWER_STATUS_EX",
+"u": "ms940384(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "SYSTEM_POWER_STATUS_EX2",
+"u": "ms940385(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Basic Window Styles",
+"u": "aa452869(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Message Box Styles",
+"u": "ms911829(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Non-client Area Styles",
+"u": "ms911872(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Basic Common Control Styles",
+"u": "aa452868(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Check Box Styles",
+"u": "ms928572(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Combo Box Styles",
+"u": "ms908112(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Date and Time Picker Styles",
+"u": "ms908197(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Edit Control Styles",
+"u": "aa452995(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Header Control Styles",
+"u": "ms929910(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "List Box Styles",
+"u": "aa453299(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "List View Styles",
+"u": "aa453379(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Month Calendar Control Styles",
+"u": "ms931430(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Progress Bar Styles",
+"u": "aa453546(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Push Button Styles",
+"u": "aa453604(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Radio Button Styles",
+"u": "aa453607(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Rebar Styles",
+"u": "aa453641(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Scroll Bar Styles",
+"u": "ms932612(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Static Control Styles",
+"u": "ms940359(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Tab Control Styles",
+"u": "ms940386(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Toolbar Styles",
+"u": "aa453749(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "ToolTip Styles",
+"u": "aa453759(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Trackbar Control Styles",
+"u": "aa453767(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Tree View Styles",
+"u": "aa453817(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Up-down Control Styles",
+"u": "ms914086(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GlobalAddAtom",
+"u": "aa453188(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GlobalDeleteAtom",
+"u": "aa453189(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GlobalFindAtom",
+"u": "aa453190(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MAKEINTATOM",
+"u": "aa453541(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CheckRadioButton",
+"u": "ms928577(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_CLICK",
+"u": "aa452890(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_GETCHECK",
+"u": "aa452891(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_GETSTATE",
+"u": "aa452892(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_SETCHECK",
+"u": "aa452893(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_SETSTATE",
+"u": "aa452894(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_SETSTYLE",
+"u": "aa452895(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BN_CLICKED",
+"u": "aa452896(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BN_KILLFOCUS",
+"u": "aa452897(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BN_SETFOCUS",
+"u": "aa452898(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORBTN",
+"u": "ms914119(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateCaret",
+"u": "ms908164(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DestroyCaret",
+"u": "aa452936(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetCaretBlinkTime",
+"u": "ms929209(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetCaretPos",
+"u": "ms929210(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "HideCaret",
+"u": "ms929930(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetCaretBlinkTime",
+"u": "ms940012(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetCaretPos",
+"u": "ms940013(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ShowCaret",
+"u": "aa453729(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CloseClipboard",
+"u": "ms928586(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CountClipboardFormats",
+"u": "ms908153(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EmptyClipboard",
+"u": "aa453019(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EnumClipboardFormats",
+"u": "aa453047(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetClipboardData",
+"u": "ms929215(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetClipboardDataAlloc",
+"u": "ms929216(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetClipboardFormatName",
+"u": "ms929217(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetClipboardOwner",
+"u": "ms929218(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetOpenClipboardWindow",
+"u": "aa453149(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetPriorityClipboardFormat",
+"u": "aa453154(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IsClipboardFormatAvailable",
+"u": "ms909863(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "OpenClipboard",
+"u": "ms911905(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "RegisterClipboardFormat",
+"u": "ms913094(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetClipboardData",
+"u": "ms940015(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CLEAR",
+"u": "ms914113(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_COPY",
+"u": "ms914117(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CUT",
+"u": "aa453852(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_PASTE",
+"u": "aa453893(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_RENDERALLFORMATS",
+"u": "aa453898(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_RENDERFORMAT",
+"u": "aa453899(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_ADDSTRING",
+"u": "aa452924(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_DELETESTRING",
+"u": "aa452925(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_FINDSTRING",
+"u": "aa452926(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_FINDSTRINGEXACT",
+"u": "aa452927(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETCOMBOBOXINFO",
+"u": "aa452928(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETCOUNT",
+"u": "ms939290(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETCURSEL",
+"u": "ms939382(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETDROPPEDCONTROLRECT",
+"u": "ms928334(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETDROPPEDSTATE",
+"u": "ms928340(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETDROPPEDWIDTH",
+"u": "ms928343(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETEDITSEL",
+"u": "ms928352(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETEXTENDEDUI",
+"u": "ms928359(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETHORIZONTALEXTENT",
+"u": "ms928366(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETITEMDATA",
+"u": "ms928374(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETITEMHEIGHT",
+"u": "ms928376(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETLBTEXT",
+"u": "ms928386(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETLBTEXTLEN",
+"u": "ms928395(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETLOCALE",
+"u": "ms907898(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETTOPINDEX",
+"u": "ms907963(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_INITSTORAGE",
+"u": "ms908027(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_INSERTSTRING",
+"u": "ms908036(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_LIMITTEXT",
+"u": "ms908045(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_RESETCONTENT",
+"u": "ms908059(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SELECTSTRING",
+"u": "ms908060(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETCURSEL",
+"u": "ms908061(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETDROPPEDWIDTH",
+"u": "ms908062(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETEDITSEL",
+"u": "ms908063(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETEXTENDEDUI",
+"u": "ms908064(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETHORIZONTALEXTENT",
+"u": "ms908065(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETITEMDATA",
+"u": "ms908066(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETITEMHEIGHT",
+"u": "ms908067(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETLOCALE",
+"u": "ms908068(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETTOPINDEX",
+"u": "ms908069(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SHOWDROPDOWN",
+"u": "ms908070(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_CLOSEUP",
+"u": "ms908046(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_DBLCLK",
+"u": "ms908047(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_DROPDOWN",
+"u": "ms908049(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_EDITCHANGE",
+"u": "ms908050(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_EDITUPDATE",
+"u": "ms908051(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_ERRSPACE",
+"u": "ms908053(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_KILLFOCUS",
+"u": "ms908054(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_SELCHANGE",
+"u": "ms908055(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_SELENDCANCEL",
+"u": "ms908056(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_SELENDOK",
+"u": "ms908057(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_SETFOCUS",
+"u": "ms908058(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_DRAWITEM",
+"u": "aa453855(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_MEASUREITEM",
+"u": "aa453883(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "COMBOBOXINFO",
+"u": "ms928818(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DRAWITEMSTRUCT",
+"u": "aa452974(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MEASUREITEMSTRUCT",
+"u": "ms911820(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CheckDlgButton",
+"u": "ms928573(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateDialog",
+"u": "ms908169(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateDialogIndirect",
+"u": "ms908170(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateDialogIndirectParam",
+"u": "ms908171(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateDialogParam",
+"u": "ms908172(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DefDlgProc",
+"u": "ms908209(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogBox",
+"u": "aa452947(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogBoxIndirect",
+"u": "aa452948(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogBoxIndirectParam",
+"u": "aa452949(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogBoxParam",
+"u": "aa452950(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogProc",
+"u": "aa452951(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EndDialog",
+"u": "aa453038(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDialogBaseUnits",
+"u": "ms929231(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDlgCtrlID",
+"u": "ms929233(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDlgItem",
+"u": "ms929234(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDlgItemInt",
+"u": "ms929235(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDlgItemText",
+"u": "ms929236(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetNextDlgGroupItem",
+"u": "aa453145(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetNextDlgTabItem",
+"u": "aa453146(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IsDialogMessage",
+"u": "ms909864(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IsDlgButtonChecked",
+"u": "ms909866(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MapDialogRect",
+"u": "ms911788(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MessageBeep",
+"u": "ms911826(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MessageBox",
+"u": "ms911827(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SendDlgItemMessage",
+"u": "ms932717(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetDlgItemInt",
+"u": "ms940020(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetDlgItemText",
+"u": "ms940021(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DM_GETDEFID",
+"u": "aa452962(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DM_SETDEFID",
+"u": "aa452963(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORDLG",
+"u": "aa453847(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_GETDLGCODE",
+"u": "aa453861(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_INITDIALOG",
+"u": "aa453871(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_NEXTDLGCTL",
+"u": "aa453889(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DLGITEMTEMPLATE",
+"u": "aa452958(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DLGITEMTEMPLATEEX",
+"u": "aa452959(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DLGTEMPLATE",
+"u": "aa452960(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DLGTEMPLATEEX",
+"u": "aa452961(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_CANUNDO",
+"u": "aa452998(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_CHARFROMPOS",
+"u": "aa453001(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_EMPTYUNDOBUFFER",
+"u": "aa453002(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_FMTLINES",
+"u": "aa453003(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETFIRSTVISIBLELINE",
+"u": "aa453004(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETLIMITTEXT",
+"u": "aa453005(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETLINE",
+"u": "aa453006(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETLINECOUNT",
+"u": "aa453007(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETMARGINS",
+"u": "aa453008(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETMODIFY",
+"u": "aa453009(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETPASSWORDCHAR",
+"u": "aa453010(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETRECT",
+"u": "aa453011(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETSEL",
+"u": "aa453012(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LIMITTEXT",
+"u": "aa453013(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LINEFROMCHAR",
+"u": "aa453014(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LINEINDEX",
+"u": "aa453015(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LINELENGTH",
+"u": "aa453016(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LINESCROLL",
+"u": "aa453017(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_POSFROMCHAR",
+"u": "aa453018(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_REPLACESEL",
+"u": "aa453020(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SCROLL",
+"u": "aa453021(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SCROLLCARET",
+"u": "aa453022(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETLIMITTEXT",
+"u": "aa453023(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETMARGINS",
+"u": "aa453024(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETMODIFY",
+"u": "aa453025(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETPASSWORDCHAR",
+"u": "aa453026(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETREADONLY",
+"u": "aa453027(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETRECT",
+"u": "aa453028(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETRECTNP",
+"u": "aa453029(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETSEL",
+"u": "aa453030(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETTABSTOPS",
+"u": "aa453031(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_UNDO",
+"u": "aa453032(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_CHANGE",
+"u": "aa453036(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_ERRSPACE",
+"u": "aa453042(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_HSCROLL",
+"u": "aa453043(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_KILLFOCUS",
+"u": "aa453044(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_MAXTEXT",
+"u": "aa453045(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_SETFOCUS",
+"u": "aa453046(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_UPDATE",
+"u": "aa453053(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_VSCROLL",
+"u": "aa453054(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLOREDIT",
+"u": "aa453848(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_UNDO",
+"u": "aa453917(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Add",
+"u": "ms909786(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_AddMasked",
+"u": "ms909795(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_BeginDrag",
+"u": "ms909799(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Copy",
+"u": "ms909805(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Create",
+"u": "ms909810(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Destroy",
+"u": "ms909811(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DragEnter",
+"u": "ms909812(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DragLeave",
+"u": "ms909813(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DragMove",
+"u": "ms909814(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DragShowNolock",
+"u": "ms909815(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Draw",
+"u": "ms909816(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DrawEx",
+"u": "ms909817(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DrawIndirect",
+"u": "ms909818(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Duplicate",
+"u": "ms909820(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_EndDrag",
+"u": "ms909821(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetBkColor",
+"u": "ms909823(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetDragImage",
+"u": "ms909824(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetIcon",
+"u": "ms909825(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetIconSize",
+"u": "ms909826(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetImageCount",
+"u": "ms909827(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetImageInfo",
+"u": "ms909828(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_LoadImage",
+"u": "ms909830(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Merge",
+"u": "ms909831(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Remove",
+"u": "ms909832(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_RemoveAll",
+"u": "ms909833(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Replace",
+"u": "ms909834(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_ReplaceIcon",
+"u": "ms909835(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetBkColor",
+"u": "ms909836(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetDragCursorImage",
+"u": "ms909837(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetIconSize",
+"u": "ms909838(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetImageCount",
+"u": "ms909839(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetOverlayImage",
+"u": "ms909840(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_AddIcon",
+"u": "ms909790(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_ExtractIcon",
+"u": "ms909822(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_LoadBitmap",
+"u": "ms909829(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "INDEXTOOVERLAYMASK",
+"u": "ms909843(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IMAGEINFO (Graphics, Windowing and Events)",
+"u": "ms909781(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IMAGELISTDRAWPARAMS",
+"u": "ms909819(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_ADDSTRING",
+"u": "aa453251(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_DELETESTRING",
+"u": "aa453252(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_FINDSTRING",
+"u": "aa453253(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_FINDSTRINGEXACT",
+"u": "aa453254(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETANCHORINDEX",
+"u": "aa453255(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETCARETINDEX",
+"u": "aa453256(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETCOUNT",
+"u": "aa453257(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETCURSEL",
+"u": "aa453258(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETHORIZONTALEXTENT",
+"u": "aa453259(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETITEMDATA",
+"u": "aa453260(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETITEMHEIGHT",
+"u": "aa453261(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETITEMRECT",
+"u": "aa453262(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETLOCALE",
+"u": "aa453263(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETSEL",
+"u": "aa453264(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETSELCOUNT",
+"u": "aa453265(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETSELITEMS",
+"u": "aa453266(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETTEXT",
+"u": "aa453267(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETTEXTLEN",
+"u": "aa453268(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETTOPINDEX",
+"u": "aa453269(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_INITSTORAGE",
+"u": "aa453270(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_INSERTSTRING",
+"u": "aa453271(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_ITEMFROMPOINT",
+"u": "aa453272(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_RESETCONTENT",
+"u": "aa453279(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SELECTSTRING",
+"u": "aa453280(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SELITEMRANGE",
+"u": "aa453281(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SELITEMRANGEEX",
+"u": "aa453282(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETANCHORINDEX",
+"u": "aa453283(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETCARETINDEX",
+"u": "aa453284(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETCOLUMNWIDTH",
+"u": "aa453285(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETCURSEL",
+"u": "aa453286(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETHORIZONTALEXTENT",
+"u": "aa453287(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETITEMDATA",
+"u": "aa453288(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETITEMHEIGHT",
+"u": "aa453289(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETLOCALE",
+"u": "aa453290(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETSEL",
+"u": "aa453291(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETTABSTOPS",
+"u": "aa453292(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETTOPINDEX",
+"u": "aa453293(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_DBLCLK",
+"u": "aa453273(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_ERRSPACE",
+"u": "aa453274(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_KILLFOCUS",
+"u": "aa453275(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_SELCANCEL",
+"u": "aa453276(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_SELCHANGE",
+"u": "aa453277(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_SETFOCUS",
+"u": "aa453278(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORLISTBOX",
+"u": "aa453849(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_DELETEITEM",
+"u": "aa453853(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DELETEITEMSTRUCT",
+"u": "aa452931(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "AppendMenu",
+"u": "aa452862(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CheckMenuItem",
+"u": "ms928575(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CheckMenuRadioItem",
+"u": "ms928576(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateMenu",
+"u": "ms908177(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreatePopupMenu",
+"u": "ms908182(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DeleteMenu",
+"u": "aa452932(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DestroyMenu",
+"u": "aa452940(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DrawMenuBar",
+"u": "aa452975(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EnableMenuItem",
+"u": "aa453034(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetMenuItemInfo",
+"u": "aa453134(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetSubMenu",
+"u": "aa453166(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetSystemMenu",
+"u": "aa453169(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "InsertMenu",
+"u": "ms909853(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LoadMenu",
+"u": "aa453415(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "RemoveMenu",
+"u": "ms939775(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetMenuItemInfo",
+"u": "ms940027(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "TrackPopupMenu",
+"u": "aa453773(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "TrackPopupMenuEx",
+"u": "aa453774(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_COMMAND",
+"u": "ms914115(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CONTEXTMENU",
+"u": "ms914116(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_ENTERMENULOOP",
+"u": "aa453857(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_EXITMENULOOP",
+"u": "aa453859(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MENUITEMINFO",
+"u": "ms911822(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "TPMPARAMS",
+"u": "aa453766(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "Menus Constants",
+"u": "ms934006(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetScrollInfo",
+"u": "aa453163(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ScrollDC",
+"u": "ms932696(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ScrollWindowEx",
+"u": "ms932713(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetScrollInfo",
+"u": "aa453652(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetScrollPos",
+"u": "aa453653(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetScrollRange",
+"u": "aa453654(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_GETPOS",
+"u": "ms913219(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_GETRANGE",
+"u": "ms913229(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_GETSCROLLINFO",
+"u": "ms913236(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_SETPOS",
+"u": "ms913244(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_SETRANGE",
+"u": "ms913253(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_SETRANGEREDRAW",
+"u": "ms913263(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_SETSCROLLINFO",
+"u": "ms913272(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORSCROLLBAR",
+"u": "aa453850(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_HSCROLL",
+"u": "aa453869(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_VSCROLL",
+"u": "aa453919(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SCROLLINFO",
+"u": "ms932706(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STM_GETIMAGE",
+"u": "ms940366(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STM_SETIMAGE",
+"u": "ms940367(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STN_CLICKED",
+"u": "ms940368(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STN_DISABLE",
+"u": "ms940369(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STN_ENABLE",
+"u": "ms940370(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORSTATIC",
+"u": "aa453851(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "GetClassInfo",
+"u": "ms929211(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "GetClassLong",
+"u": "ms929212(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "GetClassName",
+"u": "ms929213(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "GetWindowLong",
+"u": "aa453180(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "RegisterClass",
+"u": "ms913089(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "SetClassLong",
+"u": "ms940014(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "SetWindowLong",
+"u": "aa453661(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "UnregisterClass",
+"u": "ms914082(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "WNDCLASS",
+"u": "aa453922(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "EnumPropsEx",
+"u": "aa453050(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "GetProp",
+"u": "aa453155(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "PropEnumProcEx",
+"u": "aa453551(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "RemoveProp",
+"u": "ms939781(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "SetProp",
+"u": "aa453647(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "Windows Data Types",
+"u": "ms927189(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "AdjustWindowRectEx",
+"u": "aa452849(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "BeginDeferWindowPos",
+"u": "aa452870(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "BringWindowToTop",
+"u": "aa452899(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "CallWindowProc",
+"u": "aa452919(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "ChildWindowFromPoint",
+"u": "ms928578(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "CreateWindow",
+"u": "ms908192(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "CreateWindowEx",
+"u": "ms908193(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "DeferWindowPos",
+"u": "ms908210(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "DefWindowProc",
+"u": "aa452929(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "DestroyWindow",
+"u": "aa452942(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "EndDeferWindowPos",
+"u": "aa453037(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "EnumWindows",
+"u": "aa453051(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "EnumWindowsProc",
+"u": "aa453052(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "FindWindow",
+"u": "aa453070(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetClientRect",
+"u": "ms929214(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetDesktopWindow",
+"u": "ms929229(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetForegroundWindow",
+"u": "ms929244(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetParent",
+"u": "aa453152(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindow",
+"u": "aa453178(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindowRect",
+"u": "aa453181(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindowText",
+"u": "aa453183(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindowTextLength",
+"u": "aa453184(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindowThreadProcessId",
+"u": "aa453185(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "IsChild",
+"u": "ms909862(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "IsWindow",
+"u": "aa453233(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "IsWindowVisible",
+"u": "aa453235(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "MoveWindow",
+"u": "ms931458(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "SetForegroundWindow",
+"u": "ms940024(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "SetParent",
+"u": "aa453645(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "SetWindowPos",
+"u": "aa453662(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "SetWindowText",
+"u": "aa453664(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "ShowWindow",
+"u": "aa453731(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WindowFromPoint",
+"u": "ms914099(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WindowProc",
+"u": "ms914102(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WinMain",
+"u": "ms914104(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "CREATESTRUCT",
+"u": "ms908189(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "MAKELPARAM",
+"u": "aa453543(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "MAKELRESULT",
+"u": "ms911640(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "MAKEWPARAM",
+"u": "ms911780(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "STYLESTRUCT",
+"u": "ms940380(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WINDOWPOS",
+"u": "ms914101(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_CANCELMODE",
+"u": "ms914108(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_CLOSE",
+"u": "ms914114(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_CREATE",
+"u": "ms914118(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_DESTROY",
+"u": "aa453854(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_ENABLE",
+"u": "aa453856(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_ERASEBKGND",
+"u": "aa453858(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_GETTEXT",
+"u": "aa453864(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_GETTEXTLENGTH",
+"u": "aa453865(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_MOVE",
+"u": "aa453887(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_QUIT",
+"u": "aa453895(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_SETTEXT",
+"u": "aa453905(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_SIZE",
+"u": "aa453907(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_STYLECHANGED",
+"u": "aa453908(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_WINDOWPOSCHANGED",
+"u": "aa453920(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "KillTimer",
+"u": "aa453248(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "SetTimer",
+"u": "aa453657(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "SystemIdleTimerReset",
+"u": "ms940382(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "TimerProc",
+"u": "aa453746(v=msdn.10)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "WM_TIMER",
+"u": "aa453916(v=msdn.10)"
+}
+]

@@ -1,0 +1,138 @@
+{
+ "core-os": {
+  "pages": 358,
+  "subareas": {
+   "CeLog Event Tracking Reference": 76,
+   "Debugging Reference": 29,
+   "DLL Reference": 11,
+   "Error Values": 13,
+   "Exception Reference": 7,
+   "Fiber Reference": 7,
+   "Memory Management Reference": 26,
+   "Message Queue Point-to-Point Reference": 8,
+   "Network Address Translation Reference": 20,
+   "Process and Thread Reference": 39,
+   "Serial Communications Reference": 20,
+   "Strings Reference": 13,
+   "Synchronization Reference": 25,
+   "System Management Reference": 15,
+   "Time Reference": 23,
+   "ToolHelp Reference": 18,
+   "Unicode Reference": 8
+  }
+ },
+ "file-io": {
+  "pages": 293,
+  "subareas": {
+   "Copy External Reference": 7,
+   "Database Reference": 98,
+   "File I/O Reference": 48,
+   "File Mapping Reference": 5,
+   "File System Password Reference": 6,
+   "FSD Reference": 85,
+   "Registry Reference": 14,
+   "Storage Manager Reference": 27,
+   "User Management Reference": 3
+  }
+ },
+ "gwes": {
+  "pages": 745,
+  "subareas": {
+   "GDI Reference": 169,
+   "(top)": 6,
+   "Interprocess Communication Reference": 3,
+   "Keyboard Reference": 49,
+   "Message Queue Reference": 19,
+   "Message Synchronization Reference": 2,
+   "Notify Reference": 13,
+   "Printing Reference": 8,
+   "Resource-Definition Statements": 51,
+   "Resources Reference": 12,
+   "System Information Reference": 10,
+   "Window and Control Styles": 24,
+   "Window Control Reference": 304,
+   "Window Class Reference": 9,
+   "Window Properties Reference": 5,
+   "Windows Reference": 56,
+   "Windows Timer Reference": 5
+  }
+ },
+ "gdi": {
+  "pages": 169,
+  "subareas": {
+   "GDI Functions": 132,
+   "(top)": 1,
+   "GDI Messages": 5,
+   "GDI Structures": 29,
+   "Raster Operation Codes": 2
+  }
+ },
+ "window-control": {
+  "pages": 304,
+  "subareas": {
+   "Atoms Reference": 4,
+   "Buttons Reference": 11,
+   "Carets Reference": 8,
+   "Clipboards Reference": 20,
+   "Combo Boxes Reference": 50,
+   "Dialog Boxes Reference": 37,
+   "Edit Boxes Reference": 42,
+   "Image Lists Reference": 38,
+   "List Boxes Reference": 46,
+   "Menus Reference": 25,
+   "Scroll Bars Reference": 17,
+   "Static Controls Reference": 6
+  }
+ },
+ "shell": {
+  "pages": 143,
+  "subareas": {
+   "AYGShell Reference": 60,
+   "Standard Shell Reference": 83
+  }
+ },
+ "winsock": {
+  "pages": 165,
+  "subareas": {
+   "Winsock Reference": 108,
+   "Winsock SPI Reference": 57
+  }
+ },
+ "common-controls": {
+  "pages": 826,
+  "subareas": {
+   "Animation Controls Reference": 13,
+   "CapEdit Controls Reference": 3,
+   "Command Bands Reference": 8,
+   "Command Bars Reference": 16,
+   "Common Control Reference": 20,
+   "Common Dialog Boxes Reference": 21,
+   "Controls Reference": 2,
+   "Custom Draw Reference": 2,
+   "Date and Time Picker Controls Reference": 32,
+   "Header Controls Reference": 45,
+   "List-View Controls Reference": 216,
+   "Month Calendar Controls Reference": 50,
+   "Progress Bar Controls Reference": 9,
+   "Property Sheets Reference": 52,
+   "Rebar Controls Reference": 33,
+   "SbEdit Controls Reference": 1,
+   "Status Bars Reference": 16,
+   "Tab Controls Reference": 57,
+   "Toolbar Controls Reference": 65,
+   "ToolTips Reference": 35,
+   "Trackbar Controls Reference": 30,
+   "Tree View Controls Reference": 84,
+   "Up-Down Controls Reference": 16
+  }
+ },
+ "error-values": {
+  "pages": 2105,
+  "subareas": {
+   "Build Errors": 1899,
+   "Resource Compiler Errors": 193,
+   "Error Functions": 3,
+   "(top)": 10
+  }
+ }
+}

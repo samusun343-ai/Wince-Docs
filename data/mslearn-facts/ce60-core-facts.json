@@ -1,0 +1,568 @@
+[
+ {
+  "name": "CreateProcess",
+  "title": "CreateProcess (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488927(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CreateProcess( LPCWSTR pszImageName, LPCWSTR pszCmdLine, LPSECURITY_ATTRIBUTES psaProcess, LPSECURITY_ATTRIBUTES psaThread, BOOL fInheritHandles, DWORD fdwCreate, LPVOID pvEnvironment, LPWSTR pszCurDir, LPSTARTUPINFOW psiStartInfo, LPPROCESS_INFORMATION pProcInfo );",
+  "code_blocks": [
+   "BOOL CreateProcess( LPCWSTR pszImageName, LPCWSTR pszCmdLine, LPSECURITY_ATTRIBUTES psaProcess, LPSECURITY_ATTRIBUTES psaThread, BOOL fInheritHandles, DWORD fdwCreate, LPVOID pvEnvironment, LPWSTR pszCurDir, LPSTARTUPINFOW psiStartInfo, LPPROCESS_INFORMATION pProcInfo );",
+   "Functions such as [ReadProcessMemory](ee488931(v=winembedded.60).md), [WriteProcessMemory](ee488243(v=winembedded.60).md), and [TerminateProcess](ee488378(v=winembedded.60).md) must use the handle returned from [OpenProcess](ee488418(v=winembedded.60).md). This prevents a low privilege application from owning the process space of the high privilege application that it launched. To obtain access to the space of the spawned process, the application must call the **OpenProcess** function to obtain a full handle to the process. **OpenProcess** checks the privilege level of the caller before returning a handle to the process. This allows a low privilege application to spawn a high privilege application without then compromising the security of the high privilege application. For example, a shell can launch an administrative or a digital rights management (DRM) application without automatically giving it control over that application.**",
+   "HKEY_LOCAL_MACHINE\\Loader \"SystemPath\" = multi_sz:\"\\\\path1\\\\\" \"\\\\path2\\\\\""
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "The following list shows the directories indicated by the pszImageName parameter in the order that Windows Embedded CE searches them: The windows (\\windows) directory. The following list shows the directories indicated by the pszImageName parameter in the order that Windows CE 2.10 and later search them: The windows (\\windows) directory. The following list shows the directories indicated by the pszImageName parameter in the order Windows CE 1.0 through 2.01 searches them: The root of the PC Card, if it exists. If the length of the SystemPath value exceeds 260 characters, the path is ignored. A change to the SystemPath key does not take effect until a Windows Embedded CE-based device is reset."
+ },
+ {
+  "name": "CreateThread",
+  "title": "CreateThread (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488162(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateThread( LPSECURITY_ATTRIBUTES lpsa, DWORD cbStack, LPTHREAD_START_ROUTINE lpStartAddr, LPVOID lpvThreadParam, DWORD fdwCreate, LPDWORD lpIDThread );",
+  "code_blocks": [
+   "HANDLE CreateThread( LPSECURITY_ATTRIBUTES lpsa, DWORD cbStack, LPTHREAD_START_ROUTINE lpStartAddr, LPVOID lpvThreadParam, DWORD fdwCreate, LPDWORD lpIDThread );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "OpenProcess",
+  "title": "OpenProcess (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488418(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE OpenProcess( DWORD fdwAccess, BOOL fInherit, DWORD IDProcess );",
+  "code_blocks": [
+   "HANDLE OpenProcess( DWORD fdwAccess, BOOL fInherit, DWORD IDProcess );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "TerminateProcess",
+  "title": "TerminateProcess (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488378(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL TerminateProcess( HANDLE hProcess, DWORD uExitCode );",
+  "code_blocks": [
+   "BOOL TerminateProcess( HANDLE hProcess, DWORD uExitCode );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "VirtualAlloc",
+  "title": "VirtualAlloc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488564(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID VirtualAlloc( LPVOID lpAddress, DWORD dwSize, DWORD flAllocationType, DWORD flProtect );",
+  "code_blocks": [
+   "LPVOID VirtualAlloc( LPVOID lpAddress, DWORD dwSize, DWORD flAllocationType, DWORD flProtect );",
+   "LPBYTE p = (LPBYTE) VirtualAllocEx(hClientProc, NULL, 0x1000, MEM_COMMIT, PAGE_READWRITE);",
+   "*p = whatever;",
+   "WriteProcessMemory(hClientProc, p, &whatever, 1, &cbReturned);"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "For example: WriteProcessMemory(hClientProc, p, &whatever, 1, &cbReturned); The following flProtect flags are not supported: PAGE_WRITECOPY PAGE_EXECUTE_WRITECOPY VirtualAlloc can perform the following operations: Commit a region of pages reserved by a previous call to the VirtualAlloc function. Before Windows Embedded CE 6.0 , if you call VirtualAlloc with dwSize >= 2 MB, flAllocationType set to MEM_RESERVE, and flProtect set to PAGE_NOACCESS, it automatically reserves memory at the shared memory region."
+ },
+ {
+  "name": "LocalAlloc",
+  "title": "LocalAlloc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487963(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HLOCAL LocalAlloc( UINT uFlags, UINT uBytes );",
+  "code_blocks": [
+   "HLOCAL LocalAlloc( UINT uFlags, UINT uBytes );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "In the linear Windows Embedded CE API environment, there is no difference between the local heap and the global heap. For Windows Embedded CE versions 1.0 and 1.01, the local heap for each process cannot exceed 1 MB. For Windows Embedded CE versions 1.0 through 2.12, allocating memory approximately 7 or fewer bytes than 192K in size causes the corresponding call to LocalFree to fail for certain memory blocks in this size range."
+ },
+ {
+  "name": "HeapCreate",
+  "title": "HeapCreate (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488381(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE HeapCreate( DWORD flOptions, DWORD dwInitialSize, DWORD dwMaximumSize );",
+  "code_blocks": [
+   "HANDLE HeapCreate( DWORD flOptions, DWORD dwInitialSize, DWORD dwMaximumSize );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "All kernel mode threads can write to the heap, and all other threads can read from the heap.** For Windows Embedded CE, if you want to use shared heaps as if they are regular heaps, your applications must be trusted*.* Shared heap memory resides in the shared memory area, so any module can read the shared heap memory."
+ },
+ {
+  "name": "WaitForSingleObject",
+  "title": "WaitForSingleObject (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488762(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WaitForSingleObject( HANDLE hHandle, DWORD dwMilliseconds );",
+  "code_blocks": [
+   "DWORD WaitForSingleObject( HANDLE hHandle, DWORD dwMilliseconds );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Remarks Windows CE 1.0 through 2.12 do not support waiting for semaphores, change notification objects, input, and timers. Windows CE 3.0 and later support waiting for semaphores. For Windows CE 1.0 and 1.01, this function cannot wait on process or thread handles."
+ },
+ {
+  "name": "WaitForMultipleObjects",
+  "title": "WaitForMultipleObjects (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487972(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WaitForMultipleObjects( DWORD nCount, CONST HANDLE* lpHandles, BOOL fWaitAll, DWORD dwMilliseconds );",
+  "code_blocks": [
+   "DWORD WaitForMultipleObjects( DWORD nCount, CONST HANDLE* lpHandles, BOOL fWaitAll, DWORD dwMilliseconds );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "Remarks Windows CE 1.0 through 2.12 do not support waiting for semaphores, change notification objects, input, and timers. Windows CE 3.0 and later supports waiting for semaphores. For Windows CE 1.0 and 1.01, this function cannot wait on process or thread handles."
+ },
+ {
+  "name": "CreateEvent",
+  "title": "CreateEvent (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488008(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateEvent( LPSECURITY_ATTRIBUTES lpEventAttributes, BOOL bManualReset, BOOL InitialState, LPTSTR lpName );",
+  "code_blocks": [
+   "HANDLE CreateEvent( LPSECURITY_ATTRIBUTES lpEventAttributes, BOOL bManualReset, BOOL InitialState, LPTSTR lpName );",
+   "HANDLE CreateEvent(LPSECURITY_ATTRIBUTES, Null, False, False, PointerName);"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "CreateMutex",
+  "title": "CreateMutex (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488798(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateMutex( LPSECURITY_ATTRIBUTES lpMutexAttributes, BOOL bInitialOwner, LPCTSTR lpName );",
+  "code_blocks": [
+   "HANDLE CreateMutex( LPSECURITY_ATTRIBUTES lpMutexAttributes, BOOL bInitialOwner, LPCTSTR lpName );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "GetVersionEx",
+  "title": "GetVersionEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488165(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetVersionEx( LPOSVERSIONINFO lpVersionInformation );",
+  "code_blocks": [
+   "BOOL GetVersionEx( LPOSVERSIONINFO lpVersionInformation );",
+   "GetVersionEx (&osvi); bIsWindows98orLater = (osvi.dwPlatformId == VER_PLATFORM_WIN32_WINDOWS) && ( (osvi.dwMajorVersion > 4) || ( (osvi.dwMajorVersion == 4) && (osvi.dwMinorVersion > 0) ) );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "OSVERSIONINFO",
+  "title": "OSVERSIONINFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488619(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _OSVERSIONINFO{ DWORD dwOSVersionInfoSize; DWORD dwMajorVersion; DWORD dwMinorVersion; DWORD dwBuildNumber; DWORD dwPlatformId; TCHAR szCSDVersion[128]; } OSVERSIONINFO;",
+  "code_blocks": [
+   "typedef struct _OSVERSIONINFO{ DWORD dwOSVersionInfoSize; DWORD dwMajorVersion; DWORD dwMinorVersion; DWORD dwBuildNumber; DWORD dwPlatformId; TCHAR szCSDVersion[128]; } OSVERSIONINFO;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "GetSystemInfo",
+  "title": "GetSystemInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488900(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID GetSystemInfo( LPSYSTEM_INFO lpSystemInfo );",
+  "code_blocks": [
+   "VOID GetSystemInfo( LPSYSTEM_INFO lpSystemInfo );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "SYSTEM_INFO",
+  "title": "SYSTEM_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488780(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SYSTEM_INFO { union { DWORD dwOemId; struct { WORD wProcessorArchitecture; WORD wReserved; }; }; DWORD dwPageSize; LPVOID lpMinimumApplicationAddress; LPVOID lpMaximumApplicationAddress; DWORD dwActiveProcessorMask; DWORD dwNumberOfProcessors; DWORD dwProcessorType; DWORD dwAllocationGranularity; WORD wProcessorLevel; WORD wProcessorRevision; } SYSTEM_INFO, *LPSYSTEM_INFO;",
+  "code_blocks": [
+   "typedef struct _SYSTEM_INFO { union { DWORD dwOemId; struct { WORD wProcessorArchitecture; WORD wReserved; }; }; DWORD dwPageSize; LPVOID lpMinimumApplicationAddress; LPVOID lpMaximumApplicationAddress; DWORD dwActiveProcessorMask; DWORD dwNumberOfProcessors; DWORD dwProcessorType; DWORD dwAllocationGranularity; WORD wProcessorLevel; WORD wProcessorRevision; } SYSTEM_INFO, *LPSYSTEM_INFO;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "GetLastError",
+  "title": "GetLastError (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488182(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetLastError(void);",
+  "code_blocks": [
+   "DWORD GetLastError(void);"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "SetLastError",
+  "title": "SetLastError (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487957(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void SetLastError( DWORD dwErrCode );",
+  "code_blocks": [
+   "void SetLastError( DWORD dwErrCode );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "Sleep",
+  "title": "Sleep (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488158(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void Sleep( DWORD dwMilliseconds );",
+  "code_blocks": [
+   "void Sleep( DWORD dwMilliseconds );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Calling Sleep( INFINITE ) is different on Windows Embedded CE-based platforms than it is for Windows-based desktop platforms. For Windows Embedded CE-based platforms, Sleep( INFINITE ) is equivalent to calling SuspendThread(GetCurrentThread()) . Some Windows Embedded CE devices have an internal capacitor or backup battery to allow for swapping the main battery while the device is in sleep mode without losing any device state information."
+ },
+ {
+  "name": "LoadLibrary",
+  "title": "LoadLibrary (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488148(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HINSTANCE LoadLibrary( LPCTSTR lpLibFileName );",
+  "code_blocks": [
+   "HINSTANCE LoadLibrary( LPCTSTR lpLibFileName );",
+   "HKEY_LOCAL_MACHINE\\Loader SystemPath=multi_sz:\\\\path1\\\\ \\\\path2\\\\"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "In Windows Embedded CE, a DLL is loaded once, but is then mapped into each process's address space when a process implicitly or explicitly loads the library with the LoadLibrary function. When Windows Embedded CE loads a DLL, all path information is ignored when determining if the DLL is already loaded. Unless the full path to the module is specified, Windows Embedded CE searches the following path for the module: The absolute path specified by the lpLibFileName parameter. If it does, the path is ignored. A change to the SystemPath key does not take effect until a Windows Embedded CE–based device is reset."
+ },
+ {
+  "name": "GetProcAddress",
+  "title": "GetProcAddress (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488623(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "FARPROC GetProcAddress( HMODULE hModule, LPCWSTR lpProcName );",
+  "code_blocks": [
+   "FARPROC GetProcAddress( HMODULE hModule, LPCWSTR lpProcName );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "For Windows CE 3.0 and later, the ASCII version of this function, GetProcAddressA , is supported."
+ },
+ {
+  "name": "CreateFile",
+  "title": "CreateFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490417(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateFile( LPCTSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile );",
+  "code_blocks": [
+   "HANDLE CreateFile( LPCTSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "ReadFile",
+  "title": "ReadFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489594(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ReadFile( HANDLE hFile, LPVOID lpBuffer, DWORD nNumberOfBytesToRead, LPDWORD lpNumberOfBytesRead, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL ReadFile( HANDLE hFile, LPVOID lpBuffer, DWORD nNumberOfBytesToRead, LPDWORD lpNumberOfBytesRead, LPOVERLAPPED lpOverlapped );",
+   "// Attempt a synchronous read operation. bResult = ReadFile(hFile, &inBuffer, nBytesToRead, &nBytesRead, NULL) ; // Check for end of file. if (bResult && (nBytesRead == 0) ) { // you are at the end of the file. }"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE does not support asynchronous read operations on files."
+ },
+ {
+  "name": "WriteFile",
+  "title": "WriteFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490774(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WriteFile( HANDLE hFile, LPCVOID lpBuffer, DWORD nNumberOfBytesToWrite, LPDWORD lpNumberOfBytesWritten, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL WriteFile( HANDLE hFile, LPCVOID lpBuffer, DWORD nNumberOfBytesToWrite, LPDWORD lpNumberOfBytesWritten, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "CloseHandle",
+  "title": "CloseHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490442(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CloseHandle( HANDLE hObject );",
+  "code_blocks": [
+   "BOOL CloseHandle( HANDLE hObject );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "With Windows Embedded CE 6.0 and later, this function succeeds on any valid handle, regardless of results that might be returned by the internal preclose and close functions.**"
+ },
+ {
+  "name": "FindFirstFile",
+  "title": "FindFirstFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489744(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstFile( LPCTSTR lpFileName, LPWIN32_FIND_DATA lpFindFileData );",
+  "code_blocks": [
+   "HANDLE FindFirstFile( LPCTSTR lpFileName, LPWIN32_FIND_DATA lpFindFileData );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "MessageBox",
+  "title": "MessageBox (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503608(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int MessageBox( HWND hWnd, LPCTSTR lpText, LPCTSTR lpCaption, UINT uType );",
+  "code_blocks": [
+   "int MessageBox( HWND hWnd, LPCTSTR lpText, LPCTSTR lpCaption, UINT uType );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "Msgbox.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "CreateWindow",
+  "title": "CreateWindow (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee500617(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HWND CreateWindow( LPCTSTR lpClassName, LPCTSTR lpWindowName, DWORD dwStyle, int x, int y, int nWidth, int nHeight, HWND hWndParent, HMENU hMenu, HANDLE hInstance, PVOID lpParam );",
+  "code_blocks": [
+   "HWND CreateWindow( LPCTSTR lpClassName, LPCTSTR lpWindowName, DWORD dwStyle, int x, int y, int nWidth, int nHeight, HWND hWndParent, HMENU hMenu, HANDLE hInstance, PVOID lpParam );",
+   "g_hwndMain = CreateWindow ( TEXT (\"AnxJTest Class\"), lpstrWndTitle, WS_VISIBLE, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, NULL, NULL, g_hInstance, NULL); if (!g_hwndMain) { DEBUGMSG(ZONE_VERBOSE | ZONE_ERROR, (TEXT (\"Could not create main window.\"))); return FALSE; }"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Note: Although WS_OVERLAPPEDWINDOW is not supported in Windows Embedded CE, the functionality can still be achieved by obtaining a bitwise OR of the style flags WS_OVERLAPPED, WS_CAPTION, WS_SYSMENU, WS_THICKFRAME, WS_MINIMIZEBOX, and WS_MAXIMIZEBOX. Code Example Here, failure to create a window initiates DEBUGMSG: g_hwndMain = CreateWindow ( TEXT (\"AnxJTest Class\"), lpstrWndTitle, WS_VISIBLE, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, NULL, NULL, g_hInstance, NULL); if (!g_hwndMain) { DEBUGMSG(ZONE_VERBOSE | ZONE_ERROR, (TEXT (\"Could not create main window.\"))); return FALSE; } Remarks The CreateWindow function does not support the WM_PARENTNOTIFY message. Menu bars are not supported. The hMenu parameter must be NULL, unless it is used as a child-window identifier. The MDICLIENT window class is not supported. The following dwStyle flags are not supported for Windows Embedded CE: WS_CHILDWINDOW "
+ },
+ {
+  "name": "RegisterClass",
+  "title": "RegisterClass (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee506270(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "ATOM RegisterClass( const WNDCLASS* lpWndClass );",
+  "code_blocks": [
+   "ATOM RegisterClass( const WNDCLASS* lpWndClass );"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "If you register the window class by using RegisterClassA , the application tells the system that the windows of the created class expect messages with text or character parameters to use the ANSI character set; if you register it by using RegisterClassW , the application requests that the system pass text parameters of messages as Unicode. The WNDCLASS structure pointed to by the lpWndClass parameter does not support the lpszMenuName member because Windows Embedded CE does not support default menus. Unless you are using the Windows Embedded CE Iconcurs component, which provides mouse cursor support on appropriate target platforms, you cannot use the hCursor member in the WNDCLASS structure pointed to by lpWndClass ."
+ },
+ {
+  "name": "DefWindowProc",
+  "title": "DefWindowProc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503409(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LRESULT DefWindowProc( HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam );",
+  "code_blocks": [
+   "LRESULT DefWindowProc( HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam );",
+   "case WM_MOUSEMOVE: { hUIWnd = GetWindow(hStatusWnd, GW_OWNER); hUIPrivate = (HLOCAL)GetWindowLong(hUIWnd, IMMGWL_PRIVATE); if (!hUIPrivate) return DefWindowProc (hStatusWnd, uMsg, wParam, lParam); lpUIPrivate = (LPUIPRIV)LocalLock(hUIPrivate); if (!lpUIPrivate) return DefWindowProc (hStatusWnd, uMsg, wParam, lParam); if (lpUIPrivate->dwUIMoveOffset != WINDOW_NOT_DRAG) { POINT ptCursor; DrawDragBorder(hStatusWnd, lpUIPrivate->dwUIMoveXY, lpUIPrivate->dwUIMoveOffset, lpUIPrivate->rcWorkArea); GetCursorPos(&ptCursor); lpUIPrivate->dwUIMoveXY = MAKELONG(ptCursor.x, ptCursor.y); DrawDragBorder(hStatusWnd, lpUIPrivate->dwUIMoveXY, lpUIPrivate->dwUIMoveOffset, lpUIPrivate->rcWorkArea); } else { LocalUnlock(hUIPrivate); return DefWindowProc (hStatusWnd, uMsg, wParam, lParam); } LocalUnlock(hUIPrivate); }"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "GetMessage",
+  "title": "GetMessage (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503715(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetMessage( LPMSG lpMsg, HWND hWnd, UINT wMsgFilterMin, UINT wMsgFilterMax );",
+  "code_blocks": [
+   "BOOL GetMessage( LPMSG lpMsg, HWND hWnd, UINT wMsgFilterMin, UINT wMsgFilterMax );"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "WinMain",
+  "title": "WinMain (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499679(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine, int nShowCmd );",
+  "code_blocks": [
+   "int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine, int nShowCmd );"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "PROCESS_INFORMATION",
+  "title": "PROCESS_INFORMATION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488245(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _PROCESS_INFORMATION { HANDLE hProcess; HANDLE hThread; DWORD dwProcessId; DWORD dwThreadId; } PROCESS_INFORMATION;",
+  "code_blocks": [
+   "typedef struct _PROCESS_INFORMATION { HANDLE hProcess; HANDLE hThread; DWORD dwProcessId; DWORD dwThreadId; } PROCESS_INFORMATION;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ },
+ {
+  "name": "WSAStartup",
+  "title": "WSAStartup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee495252(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int WSAStartup( WORD wVersionRequested, LPWSADATA lpWSAData );",
+  "code_blocks": [
+   "int WSAStartup( WORD wVersionRequested, LPWSADATA lpWSAData );",
+   "WORD wVersionRequested; WSADATA wsaData; int err; wVersionRequested = MAKEWORD( 2, 2 ); err = WSAStartup( wVersionRequested, &wsaData ); if ( err != 0 ) { /* Tell the user that we could not find a usable */ /* WinSock DLL. */ return; } /* Confirm that the WinSock DLL supports 2.2.*/ /* Note that if the DLL supports versions later */ /* than 2.2 in addition to 2.2, it will still return */ /* 2.2 in wVersion since that is the version we */ /* requested. */ if ( LOBYTE( wsaData.wVersion ) != 2 || HIBYTE( wsaData.wVersion ) != 2 ) { /* Tell the user that we could not find a usable */ /* WinSock DLL. */ WSACleanup( ); return; } /* The WinSock DLL is acceptable. Proceed. */"
+  ],
+  "requirements": {
+   "header": "winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": ""
+ }
+]

@@ -1,0 +1,6044 @@
+[
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "AlphaBlend",
+"u": "ee501410(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BeginPaint",
+"u": "ee505465(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BitBlt",
+"u": "ee501981(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ChangeDisplaySettingsEx",
+"u": "ee505713(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ClientToScreen",
+"u": "ee505933(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CombineRgn",
+"u": "ee504827(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CopyRect",
+"u": "ee500892(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateBitmap",
+"u": "ee505308(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateCompatibleBitmap",
+"u": "ee505724(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateCompatibleDC",
+"u": "ee504853(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateDC",
+"u": "ee500930(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateDIBPatternBrushPt",
+"u": "ee501785(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateDIBSection",
+"u": "ee502255(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreatePalette (GDI)",
+"u": "ee502315(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreatePatternBrush",
+"u": "ee503397(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreatePen",
+"u": "ee501713(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreatePenIndirect",
+"u": "ee500189(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateRectRgn",
+"u": "ee503633(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateRectRgnIndirect",
+"u": "ee505867(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "CreateSolidBrush",
+"u": "ee501459(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DeleteDC",
+"u": "ee502851(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DeleteObject",
+"u": "ee503315(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DrawEdge",
+"u": "ee501983(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DrawFocusRect",
+"u": "ee500893(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DrawFrameControl",
+"u": "ee503654(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Ellipse",
+"u": "ee502230(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EndPaint",
+"u": "ee499422(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EnumDisplayDevices",
+"u": "ee504895(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EnumDisplaySettings",
+"u": "ee504298(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EqualRect",
+"u": "ee500525(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "EqualRgn",
+"u": "ee504300(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ExcludeClipRect",
+"u": "ee505422(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ExtCreateRegion",
+"u": "ee501408(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ExtEscape",
+"u": "ee506103(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "FillRect",
+"u": "ee499094(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "FillRgn",
+"u": "ee502289(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetBkColor",
+"u": "ee499127(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetBkMode",
+"u": "ee502613(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetBValue",
+"u": "ee505880(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetClipBox",
+"u": "ee501949(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetClipRgn",
+"u": "ee504572(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetCurrentObject",
+"u": "ee505940(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetCurrentPositionEx",
+"u": "ee501980(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetDC",
+"u": "ee499088(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetDCEx",
+"u": "ee501177(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetDeviceCaps",
+"u": "ee503230(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetDIBColorTable",
+"u": "ee500282(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetGValue",
+"u": "ee502875(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetLayout",
+"u": "ee500452(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetNearestColor",
+"u": "ee506255(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetNearestPaletteIndex",
+"u": "ee501123(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetObject",
+"u": "ee506071(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetObjectType",
+"u": "ee499386(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetOutlineTextMetrics",
+"u": "ee502871(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetPaletteEntries",
+"u": "ee502303(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetPixel",
+"u": "ee504020(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetRegionData",
+"u": "ee505860(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetRgnBox",
+"u": "ee504142(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetROP2",
+"u": "ee501104(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetRValue",
+"u": "ee502900(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetStockObject",
+"u": "ee505070(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetStretchBltMode",
+"u": "ee504329(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetSysColorBrush",
+"u": "ee501395(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetSystemPaletteEntries",
+"u": "ee503127(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetUpdateRect",
+"u": "ee501189(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetUpdateRgn",
+"u": "ee500868(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetViewportExtEx",
+"u": "ee505861(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetViewportOrgEx",
+"u": "ee504872(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetWindowDC",
+"u": "ee500451(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetWindowExtEx",
+"u": "ee501438(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetWindowOrgEx",
+"u": "ee501951(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GetWindowRgn",
+"u": "ee505457(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GradientFill",
+"u": "ee499729(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "InflateRect",
+"u": "ee501937(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "IntersectClipRect",
+"u": "ee502890(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "IntersectRect",
+"u": "ee500197(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "InvalidateRect",
+"u": "ee505051(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "InvalidateRgn",
+"u": "ee502864(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "InvertRect",
+"u": "ee503209(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "IsRectEmpty",
+"u": "ee506063(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LineTo",
+"u": "ee505695(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LoadBitmap",
+"u": "ee504579(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "MapWindowPoints",
+"u": "ee501159(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "MaskBlt",
+"u": "ee505239(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "MoveToEx",
+"u": "ee503724(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "OffsetRect",
+"u": "ee504901(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "OffsetRgn",
+"u": "ee501910(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "OffsetViewportOrgEx",
+"u": "ee504540(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PatBlt",
+"u": "ee503352(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Polygon",
+"u": "ee505249(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Polyline",
+"u": "ee501424(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PtInRect",
+"u": "ee505698(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PtInRegion",
+"u": "ee503452(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RealizePalette",
+"u": "ee499061(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Rectangle",
+"u": "ee505883(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RectInRegion",
+"u": "ee505688(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RectVisible",
+"u": "ee504305(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RedrawWindow",
+"u": "ee503183(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ReleaseDC",
+"u": "ee500245(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RestoreDC",
+"u": "ee500251(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RoundRect",
+"u": "ee500905(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SaveDC",
+"u": "ee501223(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ScreenToClient",
+"u": "ee503589(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SelectClipRgn",
+"u": "ee502828(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SelectObject",
+"u": "ee506271(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SelectPalette",
+"u": "ee501382(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetBitmapBits",
+"u": "ee499432(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetBkColor",
+"u": "ee506089(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetBkMode",
+"u": "ee499678(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetBrushOrgEx",
+"u": "ee505889(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetDIBColorTable",
+"u": "ee502593(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetDIBitsToDevice",
+"u": "ee503196(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetLayout",
+"u": "ee503626(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetPaletteEntries",
+"u": "ee503899(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetPixel",
+"u": "ee503104(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetRect",
+"u": "ee502266(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetRectEmpty",
+"u": "ee504846(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetRectRgn",
+"u": "ee505099(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetROP2",
+"u": "ee505650(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetStretchBltMode",
+"u": "ee501241(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetViewportOrgEx",
+"u": "ee500818(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetWindowOrgEx",
+"u": "ee505638(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SetWindowRgn",
+"u": "ee501413(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "StretchBlt",
+"u": "ee504535(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "StretchDIBits",
+"u": "ee502921(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SubtractRect",
+"u": "ee504025(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "TransparentBlt",
+"u": "ee500253(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "TransparentImage",
+"u": "ee499350(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "UnionRect",
+"u": "ee499433(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "UpdateWindow",
+"u": "ee501696(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ValidateRect",
+"u": "ee502605(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "ValidateRgn",
+"u": "ee505903(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_PAINT",
+"u": "ee505047(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_PALETTECHANGED",
+"u": "ee501482(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_QUERYNEWPALETTE",
+"u": "ee501995(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_SETREDRAW",
+"u": "ee501732(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "WM_SYSCOLORCHANGE",
+"u": "ee503622(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAP",
+"u": "ee503208(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPCOREHEADER",
+"u": "ee502290(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPCOREINFO",
+"u": "ee505513(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPFILEHEADER",
+"u": "ee500466(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPINFO",
+"u": "ee500572(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BITMAPINFOHEADER",
+"u": "ee499706(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "BLENDFUNCTION",
+"u": "ee506302(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "COLORREF",
+"u": "ee505694(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DEVMODE",
+"u": "ee506078(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DIBSECTION",
+"u": "ee503509(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "DISPLAY_DEVICE",
+"u": "ee499040(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "GRADIENT_RECT",
+"u": "ee504211(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LOGBRUSH",
+"u": "ee503661(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LOGPALETTE",
+"u": "ee505709(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "LOGPEN",
+"u": "ee502585(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "OUTLINETEXTMETRICW",
+"u": "ee505879(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PAINTSTRUCT",
+"u": "ee499378(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PALETTEENTRY",
+"u": "ee504876(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "POINT",
+"u": "ee504157(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "POINTS",
+"u": "ee503619(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RECT",
+"u": "ee499335(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RECTL",
+"u": "ee500544(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGBQUAD",
+"u": "ee503753(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGBTRIPLE",
+"u": "ee500218(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGNDATA",
+"u": "ee500234(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGNDATAHEADER",
+"u": "ee499122(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "SIZE",
+"u": "ee505301(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "TRIVERTEX",
+"u": "ee504868(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "VIDEOPARAMETERS",
+"u": "ee502855(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Binary Raster Operations",
+"u": "ee499662(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "Ternary Raster Operations",
+"u": "ee501409(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "InsetRect",
+"u": "ee500499(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "MAKEROP4",
+"u": "ee499113(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PALETTEINDEX2BPP",
+"u": "ee505299(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "PALETTERGB",
+"u": "ee500162(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "POINTSTOPOINT",
+"u": "ee503227(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGB",
+"u": "ee499655(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GDI Reference",
+"t": "RGBA",
+"u": "ee501471(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonView_t::DrawCheckBoxandRadioStyle",
+"u": "ee504387(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonView_t::DrawGroupBoxText",
+"u": "ee503381(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonView_t::DrawPushable",
+"u": "ee501192(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonView_t::DrawPushStyle",
+"u": "ee499126(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonView_t::DrawText",
+"u": "ee499062(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonView_t::HitDetect",
+"u": "ee502250(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonView_t::InitDC",
+"u": "ee504530(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonView_t::PaintGroupBox",
+"u": "ee501806(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonView_t::PaintNonPushStyle",
+"u": "ee499680(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "CacheView_t::ComputeMinWindowSize",
+"u": "ee506247(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "CacheView_t::GWECacheSetSysColors",
+"u": "ee502858(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "CacheView_t::Init",
+"u": "ee502305(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "CacheView_t::SystemMetrics",
+"u": "ee505269(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ComboBoxView_t::BackgroundBrush",
+"u": "ee501787(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ComboBoxView_t::DrawBackground",
+"u": "ee504334(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ComboBoxView_t::DrawFocus",
+"u": "ee505651(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ComboBoxView_t::DrawSelection",
+"u": "ee505310(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ComboBoxView_t::TextColor",
+"u": "ee503154(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ComboBoxView_t::TopCoordinate",
+"u": "ee504818(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ComboBoxView_t::WindowStyleCustomization",
+"u": "ee503751(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "CommCtrlView_t::Init",
+"u": "ee505484(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "EditView_t::BackgroundBrush",
+"u": "ee501778(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "EditView_t::DrawBackground",
+"u": "ee505240(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "EditView_t::DrawSelection",
+"u": "ee500842(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "EditView_t::TextColor",
+"u": "ee501711(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::AbortDoc_I",
+"u": "ee501725(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::AddFontResourceW_I",
+"u": "ee500483(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::AlphaBlend_I",
+"u": "ee506162(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::BitBlt_I",
+"u": "ee503683(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CeRemoveFontResource_I",
+"u": "ee504854(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CombineRgn_I",
+"u": "ee506061(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreateBitmap_I",
+"u": "ee503200(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreateCompatibleBitmap_I",
+"u": "ee504843(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreateCompatibleDC_I",
+"u": "ee506273(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreateDCW_I",
+"u": "ee505884(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreateDIBPatternBrushPt_I",
+"u": "ee500861(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreateFontIndirectW_I",
+"u": "ee499101(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreatePalette_I",
+"u": "ee499724(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreatePatternBrush_I",
+"u": "ee505674(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreatePen_I",
+"u": "ee504826(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreatePenIndirect_I",
+"u": "ee505298(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreatePermanentDIBSection",
+"u": "ee501992(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreateRectRgn_I",
+"u": "ee501434(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreateRectRgnIndirect_I",
+"u": "ee505237(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::CreateSolidBrush_I",
+"u": "ee505312(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::DeleteDC_I",
+"u": "ee501966(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::DeleteObject_I",
+"u": "ee505476(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::DibByteWidth",
+"u": "ee501919(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::DibSize",
+"u": "ee500285(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::DrawEdge_I",
+"u": "ee502826(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::DrawFocusRect_I",
+"u": "ee504357(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::DrawTextW_I",
+"u": "ee505868(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::Ellipse_I",
+"u": "ee499731(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::EnableEUDC_I",
+"u": "ee504907(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::EndDoc_I",
+"u": "ee500778(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::EndPage_I",
+"u": "ee500789(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::EnumDisplayMonitors_I",
+"u": "ee503584(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::EnumFontFamiliesExW_I",
+"u": "ee501466(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::EnumFontFamiliesW_I",
+"u": "ee505112(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::EnumFontsW_I",
+"u": "ee501973(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::ExcludeClipRect_I",
+"u": "ee503115(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::ExtEscape_I",
+"u": "ee505646(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::ExtTextOutW_I",
+"u": "ee504098(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::FillRect_I",
+"u": "ee503442(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::FillRgn_I",
+"u": "ee500526(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GdiSetObjectOwner_I",
+"u": "ee506263(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetBkColor_I",
+"u": "ee500556(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetBkMode_I",
+"u": "ee505060(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetClipBox_I",
+"u": "ee501979(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetClipRgn_I",
+"u": "ee504514(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetCurrentObject_I",
+"u": "ee504054(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetDeviceCaps_I",
+"u": "ee505285(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetMonitorInfo_I",
+"u": "ee504112(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetNearestColor_I",
+"u": "ee501420(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetNearestPaletteIndex_I",
+"u": "ee499385(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetObjectType_I",
+"u": "ee505260(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetObjectW_I",
+"u": "ee503102(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetOutlineTextMetricsW_I",
+"u": "ee499674(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetPaletteEntries_I",
+"u": "ee499355(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetPixel_I",
+"u": "ee500600(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetRegionData_I",
+"u": "ee499670(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetRgnBox_I",
+"u": "ee502277(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi_GetStretchBltMode_I",
+"u": "ee503159(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetSysColorBrush_I",
+"u": "ee501803(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetSystemPaletteEntries_I",
+"u": "ee499123(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GDI::GetTextCharacterExtra_I",
+"u": "ee505885(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetTextColor_I",
+"u": "ee501991(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetTextExtentExPointW_I",
+"u": "ee500598(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetTextFaceW_I",
+"u": "ee502922(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::GetTextMetricsW_I",
+"u": "ee503943(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::IntersectClipRect_I",
+"u": "ee504314(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::InvertRect_I",
+"u": "ee503883(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::MaskBlt_I",
+"u": "ee504849(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::MonitorFromPoint_I",
+"u": "ee505038(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::MonitorFromRect_I",
+"u": "ee504893(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::MonitorFromWindow_I",
+"u": "ee502526(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::OffsetRgn_I",
+"u": "ee503917(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::PatBlt_I",
+"u": "ee500268(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::Polygon_I",
+"u": "ee500890(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::Polyline_I",
+"u": "ee500520(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::PtInRegion_I",
+"u": "ee505961(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::RealizePalette_I",
+"u": "ee506279(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::Rectangle_I",
+"u": "ee503614(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::RectInRegion_I",
+"u": "ee506240(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::RectVisible_I",
+"u": "ee503900(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::RemoveFontResourceW_I",
+"u": "ee505243(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::RestoreDC_I",
+"u": "ee500535(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::RoundRect_I",
+"u": "ee505048(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SaveDC_I",
+"u": "ee499106(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::ScrollDC_I",
+"u": "ee499037(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SelectClipRgn_I",
+"u": "ee499132(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SelectObject_I",
+"u": "ee502870(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SelectPalette_I",
+"u": "ee505944(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetAbortProc_I",
+"u": "ee500150(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetBkColor_I",
+"u": "ee505275(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetBkMode_I",
+"u": "ee502882(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetBrushOrgEx_I",
+"u": "ee500604(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetPaletteEntries_I",
+"u": "ee501402(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetPixel_I",
+"u": "ee503395(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetRectRgn_I",
+"u": "ee503463(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetROP2_I",
+"u": "ee501994(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi_SetStretchBltMode_I",
+"u": "ee499686(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GDI::SetTextCharacterExtra_I",
+"u": "ee505649(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetTextColor_I",
+"u": "ee503218(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::SetViewportOrgEx_I",
+"u": "ee501396(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::StartDocW_I",
+"u": "ee506300(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::StartPage_I",
+"u": "ee505886(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::StretchBlt_I",
+"u": "ee503602(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::TranslateCharsetInfo_I",
+"u": "ee504147(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "Gdi::TransparentImage_I",
+"u": "ee504839(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::BeginPaint_I",
+"u": "ee503690(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::BringWindowToTop_I",
+"u": "ee505496(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::ChildWindowFromPoint_I",
+"u": "ee502296(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::ClientToScreen_I",
+"u": "ee502557(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::DefWindowProcW_I",
+"u": "ee500927(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::DestroyWindow_I",
+"u": "ee500805(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::EnableWindow_I",
+"u": "ee502847(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::EndPaint_I",
+"u": "ee502827(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::EnumPropsEx_I",
+"u": "ee506288(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetAssociatedMenu_I",
+"u": "ee501407(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetClassLongW_I",
+"u": "ee505439(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetClassNameW_I",
+"u": "ee501086(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetClientRect_I",
+"u": "ee505679(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetDC_I",
+"u": "ee504205(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetDCEx_I",
+"u": "ee503577(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetParent_I",
+"u": "ee505253(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetProp_I",
+"u": "ee503120(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetSBInfoInternal",
+"u": "ee506076(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetUpdateRect_I",
+"u": "ee501229(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetUpdateRgn_I",
+"u": "ee503491(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetWindow_I",
+"u": "ee501940(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetWindowDC_I",
+"u": "ee499701(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetWindowLongW_I",
+"u": "ee505731(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetWindowRect_I",
+"u": "ee504608(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetWindowRgn_I",
+"u": "ee505068(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetWindowTextLengthW_I",
+"u": "ee506281(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetWindowTextW_I",
+"u": "ee502261(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::GetWindowThreadProcessId_I",
+"u": "ee504092(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::InvalidateRect_I",
+"u": "ee503470(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::IsChild_I",
+"u": "ee505958(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::IsWindow_I",
+"u": "ee501998(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::IsWindowEnabled_I",
+"u": "ee504036(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::IsWindowVisible_I",
+"u": "ee505259(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::MoveWindow_I",
+"u": "ee499130(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::RectangleAnimation_I",
+"u": "ee505508(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::ReleaseDC_I",
+"u": "ee501394(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::RemoveProp_I",
+"u": "ee505642(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::ScreenToClient_I",
+"u": "ee501174(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::ScrollWindowEx_I",
+"u": "ee504327(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::SetAssociatedMenu_I",
+"u": "ee500523(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::SetClassLongW_I",
+"u": "ee504563(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::SetParent_I",
+"u": "ee501929(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::SetProp_I",
+"u": "ee500586(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::SetWindowLongW_I",
+"u": "ee503916(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::SetWindowPos_I",
+"u": "ee504108(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::SetWindowRgn_I",
+"u": "ee503419(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::SetWindowTextW_I",
+"u": "ee501737(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::ShowWindow_I",
+"u": "ee501798(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::UpdateWindow_I",
+"u": "ee500816(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GweBypassCoredllThunk_t::ValidateRect_I",
+"u": "ee501757(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "HeaderView_t::CalcOffset",
+"u": "ee506256(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "HeaderView_t::DrawButtonBorder",
+"u": "ee501802(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "HeaderView_t::Height",
+"u": "ee504618(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ListBoxView_t::DrawBackground",
+"u": "ee501728(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ListBoxView_t::DrawFocus",
+"u": "ee505091(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ListBoxView_t::DrawSelection",
+"u": "ee504322(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ListBoxView_t::ItemHeight",
+"u": "ee505656(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ListBoxView_t::TextColor",
+"u": "ee503496(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ListBoxView_t::TopCoordinate",
+"u": "ee506056(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::CascadeArrowWidth",
+"u": "ee506292(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::ColumnComputeWidth",
+"u": "ee503096(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::DrawCascadeArrow",
+"u": "ee500869(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::DrawCheckMark",
+"u": "ee504133(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::DrawColumnBreak",
+"u": "ee500583(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::DrawScrollArrows",
+"u": "ee503978(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::DrawSeparator",
+"u": "ee503919(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::DrawString",
+"u": "ee505960(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::EraseBackground",
+"u": "ee504330(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::MenuBarFont",
+"u": "ee499338(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::NotPopupStringItemComputeSize",
+"u": "ee499641(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::PopupMenuFont",
+"u": "ee504648(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::PopupStringItemComputeSize",
+"u": "ee502579(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::ScrollArrowHeight",
+"u": "ee500775(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::SeparatorItemComputeSize",
+"u": "ee504844(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::SetupColors",
+"u": "ee504534(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "MenuView_t::SingleColumnComputeWidth",
+"u": "ee503364(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::BoundingRect",
+"u": "ee503318(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::BoundPoint",
+"u": "ee501968(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::CalcCaptionRect",
+"u": "ee505472(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::CalcClientRectWithHorzScrollBars",
+"u": "ee501437(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::CalcClientRectWithNoScrollBars",
+"u": "ee501788(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::CalcClientRectWithVertScrollBars",
+"u": "ee506125(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::DoesHorzScrollBarFit",
+"u": "ee503363(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::DoesVertScrollBarFit",
+"u": "ee503957(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::DoHitTest",
+"u": "ee499351(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::DoPaint",
+"u": "ee503728(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::DrawBorder",
+"u": "ee499399(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::DrawFrameControl",
+"u": "ee505019(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::ExposedDrawFrameControl",
+"u": "ee504178(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NonClientView_t::WidgetRect",
+"u": "ee505865(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ProgressBarView_t::Draw",
+"u": "ee502279(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ProgressBarView_t::SetBorder",
+"u": "ee505874(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "RebarView_t::DrawGripper",
+"u": "ee501917(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "RebarView_t::InitSpacingValues",
+"u": "ee500565(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "RebarView_t::SetEdgeBorderType",
+"u": "ee503455(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ScrollBarView_t::DrawScrollBar",
+"u": "ee505700(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ScrollBarView_t::GetScrollRects",
+"u": "ee499120(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ScrollBarView_t::GetThumbPixel",
+"u": "ee500630(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ScrollBarView_t::ScrollHitTest",
+"u": "ee506086(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ScrollBarView_t::TrackThumb",
+"u": "ee504558(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "StaticControlView_t::DrawStaticImage",
+"u": "ee505481(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "StaticControlView_t::DrawStaticText",
+"u": "ee501453(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "StaticControlView_t::ResizeRectToImage",
+"u": "ee504528(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "StockObjectHandles::GetStockObject_I",
+"u": "ee504184(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "TabView_t::Draw",
+"u": "ee504116(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ToolBarView_t::CalcOffset",
+"u": "ee502861(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ToolBarView_t::DrawButtonBorder",
+"u": "ee506291(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ToolBarView_t::DrawDropdownArrow",
+"u": "ee505056(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ToolBarView_t::FaceRect",
+"u": "ee505309(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ToolBarView_t::InitializeButtonSlopValue",
+"u": "ee500795(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ToolBarView_t::LoadSystemBitmap",
+"u": "ee502912(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "TrackBarView_t::DrawChannel",
+"u": "ee501738(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "TrackBarView_t::DrawFocus",
+"u": "ee499068(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "TrackBarView_t::DrawThumb",
+"u": "ee501250(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "TrackBarView_t::DrawTics",
+"u": "ee501987(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "UpdownView_t::HorzDrawSettings",
+"u": "ee502005(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "UpdownView_t::SetSunkenBorder",
+"u": "ee503178(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "UpdownView_t::VertDrawSettings",
+"u": "ee499071(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "CreateIconIndirect_I",
+"u": "ee503991(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "DestroyIcon_I",
+"u": "ee504624(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "DPA_GetPtr",
+"u": "ee501440(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "DrawIconEx_I",
+"u": "ee505250(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "GetForegroundWindow_I",
+"u": "ee504310(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "KillTimer_I",
+"u": "ee499657(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "LoadIconW_I",
+"u": "ee503350(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "RegisterDesktop",
+"u": "ee503965(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "RegisterTaskBar",
+"u": "ee505445(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "RegisterTaskBarEx",
+"u": "ee503897(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "SendMessageW_I",
+"u": "ee501800(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "SetForegroundWindow_I",
+"u": "ee504549(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "SetTimer_I",
+"u": "ee499069(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "DPA_FastGetPtr",
+"u": "ee501985(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "DPA",
+"u": "ee500152(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ScrollBarInfoInternal",
+"u": "ee501970(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "BitmapType",
+"u": "ee505461(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "ButtonControlRectangleStyle_t",
+"u": "ee505055(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "SCROLL_STATE",
+"u": "ee505459(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "StaticControlType",
+"u": "ee503905(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "WidgetId",
+"u": "ee505498(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "GWES OS Reference",
+"t": "NcHitTestCode",
+"u": "ee506259(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Interprocess Communication Reference",
+"t": "WM_COPYDATA",
+"u": "ee506246(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Interprocess Communication Reference",
+"t": "WM_SYSCOPYDATA",
+"u": "ee500595(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Interprocess Communication Reference",
+"t": "COPYDATASTRUCT",
+"u": "ee501053(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "MSG",
+"u": "ee504858(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "DispatchMessage",
+"u": "ee500517(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetMessage",
+"u": "ee503715(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetMessagePos",
+"u": "ee501753(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetMessageQueueReadyTimeStamp",
+"u": "ee506134(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetMessageSource",
+"u": "ee504356(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "GetQueueStatus",
+"u": "ee503606(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "InSendMessage",
+"u": "ee505296(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "PeekMessage",
+"u": "ee502843(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "PostMessage",
+"u": "ee505901(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "PostQuitMessage",
+"u": "ee504315(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "PostThreadMessage",
+"u": "ee506038(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "RegisterWindowMessage",
+"u": "ee503986(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "SendMessage",
+"u": "ee504840(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "SendMessageTimeout",
+"u": "ee499352(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "SendNotifyMessage",
+"u": "ee500168(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "TranslateMessage",
+"u": "ee502837(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "WM_APP",
+"u": "ee505517(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Queue Reference",
+"t": "WM_USER",
+"u": "ee504638(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Synchronization Reference",
+"t": "MsgWaitForMultipleObjects",
+"u": "ee499430(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Message Synchronization Reference",
+"t": "MsgWaitForMultipleObjectsEx",
+"u": "ee505033(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeEventHasOccurred",
+"u": "ee504583(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPrivate_ClearUserAlarm",
+"u": "ee504311(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPrivate_DeleteNotification",
+"u": "ee504821(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPrivate_FilterType",
+"u": "ee505053(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPrivate_Lock",
+"u": "ee504033(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPrivate_Reschedule",
+"u": "ee499717(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPrivate_SetUserAlarm",
+"u": "ee503628(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPrivate_TranslateOID",
+"u": "ee501996(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPrivate_Unlock",
+"u": "ee504369(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_DisposeOfPacket",
+"u": "ee501975(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_FilterEvent",
+"u": "ee504877(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_FilterUserNotification",
+"u": "ee505712(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_Initialize",
+"u": "ee500613(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_InitializeUI",
+"u": "ee501457(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_NewPacket",
+"u": "ee500923(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_PresentSettingsBox",
+"u": "ee505452(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_UIWndProc",
+"u": "ee505086(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_Uninitialize",
+"u": "ee504909(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "CeNotifyPublic_UserAlarmSignalled",
+"u": "ee503621(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "NotifyPacket",
+"u": "ee500292(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "PersistentPacket",
+"u": "ee504204(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "SettingsDialogData",
+"u": "ee501718(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notification Reference",
+"t": "g_fShellAPI",
+"u": "ee503453(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "Notify Events",
+"u": "ee501387(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CE_NOTIFICATION_INFO_HEADER",
+"u": "ee505719(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CE_NOTIFICATION_TRIGGER",
+"u": "ee506153(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CE_USER_NOTIFICATION",
+"u": "ee505252(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeClearUserNotification",
+"u": "ee506252(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeGetUserNotification",
+"u": "ee505678(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeGetUserNotificationHandles",
+"u": "ee499694(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeGetUserNotificationPreferences",
+"u": "ee503893(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeHandleAppNotifications",
+"u": "ee499110(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeRunAppAtEvent",
+"u": "ee504578(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeRunAppAtTime",
+"u": "ee506251(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeSetUserNotification",
+"u": "ee501051(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Notify Reference",
+"t": "CeSetUserNotificationEx",
+"u": "ee501928(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUI_CreateNotRespondingWindow",
+"u": "ee504386(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUI_CreateOomWindow",
+"u": "ee502236(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUI_FShowOomWindow",
+"u": "ee499072(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUI_Initialize",
+"u": "ee505028(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUI_NotRespondingWndProc",
+"u": "ee504870(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUI_OnShow",
+"u": "ee503935(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUI_OomWndProc",
+"u": "ee500623(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUI_SetWindowsInfo",
+"u": "ee500238(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUICallback_CloseWindow",
+"u": "ee505639(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUICallback_IsCritical",
+"u": "ee501176(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "OomUICallback_NonClientPaint",
+"u": "ee500200(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Out of Memory User Interface Reference",
+"t": "WINDOWINFO",
+"u": "ee503423(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "AbortDoc",
+"u": "ee503766(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "AbortProc",
+"u": "ee505034(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "EndDoc",
+"u": "ee505837(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "EndPage",
+"u": "ee505849(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "SetAbortProc",
+"u": "ee502926(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "StartDoc",
+"u": "ee505661(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "StartPage",
+"u": "ee502541(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Printing Reference",
+"t": "DOCINFO",
+"u": "ee502297(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "CreateIconIndirect",
+"u": "ee503639(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "DestroyIcon",
+"u": "ee505704(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "DrawIconEx",
+"u": "ee506107(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "ExtractIconEx",
+"u": "ee503636(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "FindResource",
+"u": "ee503121(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "GetIconInfo",
+"u": "ee504094(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LoadIcon",
+"u": "ee499345(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LoadImage",
+"u": "ee505907(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LoadResource",
+"u": "ee505293(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LockResource",
+"u": "ee502002(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "SizeofResource",
+"u": "ee504352(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "MAKEINTRESOURCE",
+"u": "ee501178(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "ACCELERATORS Resource",
+"u": "ee503393(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "AUTO3STATE Control",
+"u": "ee504291(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "AUTOCHECKBOX Control",
+"u": "ee502318(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "AUTORADIOBUTTON Control",
+"u": "ee500203(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "BITMAP Resource",
+"u": "ee504548(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "Button Control Statements",
+"u": "ee505072(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "CAPTION Statement",
+"u": "ee505030(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "CHARACTERISTICS Statement",
+"u": "ee499692(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "CHECKBOX Control",
+"u": "ee500484(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "CLASS Statement",
+"u": "ee505230(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "COMBOBOX Control",
+"u": "ee499709(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "Common Control Parameters",
+"u": "ee499038(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "Common Resource Attributes",
+"u": "ee503388(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "CONTROL Control",
+"u": "ee506278(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "CTEXT Control",
+"u": "ee500828(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "CURSOR Resource",
+"u": "ee502213(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "DEFPUSHBUTTON Control",
+"u": "ee503516(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "DIALOG Resource",
+"u": "ee499099(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "Edit Control Statements",
+"u": "ee500456(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "EDITTEXT Control",
+"u": "ee500143(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "EXSTYLE Statement",
+"u": "ee502214(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "FONT Resource",
+"u": "ee499389(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "FONT Statement",
+"u": "ee501161(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "Generic Control Statements",
+"u": "ee503461(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "GROUPBOX Control",
+"u": "ee505288(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "ICON Control",
+"u": "ee502604(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "ICON Resource",
+"u": "ee506148(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LANGUAGE Statement",
+"u": "ee500913(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LISTBOX Control",
+"u": "ee503984(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "LTEXT Control",
+"u": "ee501805(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "MENU Resource",
+"u": "ee502615(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "MENU Statement",
+"u": "ee500511(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "MENUEX Resource",
+"u": "ee501403(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "MENUITEM Statement",
+"u": "ee501913(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "MESSAGETABLE Resource",
+"u": "ee505648(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "POPUP Resource",
+"u": "ee504364(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "PUSHBUTTON Control",
+"u": "ee505909(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "RADIOBUTTON Control",
+"u": "ee503438(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "RCDATA Resource",
+"u": "ee504836(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "RTEXT Control",
+"u": "ee505846(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "Sample Resource-Definition File",
+"u": "ee504376(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "SCROLLBAR Control",
+"u": "ee504190(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "STATE3 Control",
+"u": "ee505950(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "Static Control Statements",
+"u": "ee505246(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "StringFileInfo Block",
+"u": "ee501988(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "STRINGTABLE Resource",
+"u": "ee504862(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "STYLE Statement",
+"u": "ee499370(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "User-Defined Resource",
+"u": "ee503582(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "VarFileInfo Block",
+"u": "ee505020(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "VERSION Statement",
+"u": "ee506054(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Resources Reference",
+"t": "VERSIONINFO Resource",
+"u": "ee505273(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Startup User Interface Reference",
+"t": "Startup_DestroyDialogCallback",
+"u": "ee503134(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Startup User Interface Reference",
+"t": "Startup_DlgProc",
+"u": "ee502285(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Startup User Interface Reference",
+"t": "Startup_Initialize",
+"u": "ee504302(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Startup User Interface Reference",
+"t": "Startup_PowerOffWhileStartupActiveNotification",
+"u": "ee499065(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Startup User Interface Reference",
+"t": "Startup_PowerOnNotification",
+"u": "ee502009(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Startup User Interface Reference",
+"t": "Startup_WantStartupScreen",
+"u": "ee501481(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "GetSysColor",
+"u": "ee505488(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "GetSystemMetrics",
+"u": "ee499415(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "GetSystemPowerStatusEx",
+"u": "ee500626(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "GetSystemPowerStatusEx2",
+"u": "ee505675(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "SetSysColors",
+"u": "ee501233(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "SystemParametersInfo",
+"u": "ee499131(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "SYSTEM_POWER_STATUS_EX",
+"u": "ee505043(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "SYSTEM_POWER_STATUS_EX2",
+"u": "ee499341(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "System Information Reference",
+"t": "WM_SETTINGCHANGE",
+"u": "ee501447(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "GetClassInfo",
+"u": "ee500575(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "GetClassLong",
+"u": "ee502892(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "GetClassName",
+"u": "ee499075(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "GetWindowLong",
+"u": "ee504521(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "RegisterClass",
+"u": "ee506270(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "SetClassLong",
+"u": "ee504860(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "SetWindowLong",
+"u": "ee501419(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "UnregisterClass",
+"u": "ee499426(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Class Reference",
+"t": "WNDCLASS",
+"u": "ee505233(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GlobalAddAtom",
+"u": "ee506286(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GlobalDeleteAtom",
+"u": "ee504119(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GlobalFindAtom",
+"u": "ee501431(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MAKEINTATOM",
+"u": "ee500463(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateCaret",
+"u": "ee502564(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DestroyCaret",
+"u": "ee499400(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetCaretBlinkTime",
+"u": "ee505236(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetCaretPos",
+"u": "ee501385(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "HideCaret",
+"u": "ee503185(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetCaretBlinkTime",
+"u": "ee505058(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetCaretPos",
+"u": "ee502546(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ShowCaret",
+"u": "ee502542(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CloseClipboard",
+"u": "ee499346(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CountClipboardFormats",
+"u": "ee499055(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EmptyClipboard",
+"u": "ee505658(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EnumClipboardFormats",
+"u": "ee505881(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetClipboardData",
+"u": "ee500850(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetClipboardDataAlloc",
+"u": "ee501066(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetClipboardFormatName",
+"u": "ee503193(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetClipboardOwner",
+"u": "ee501914(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetOpenClipboardWindow",
+"u": "ee503207(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetPriorityClipboardFormat",
+"u": "ee505514(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IsClipboardFormatAvailable",
+"u": "ee501144(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "OpenClipboard",
+"u": "ee503328(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "RegisterClipboardFormat",
+"u": "ee506040(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetClipboardData",
+"u": "ee504536(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CLEAR",
+"u": "ee503655(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_COPY",
+"u": "ee504380(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CUT",
+"u": "ee506101(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_PASTE",
+"u": "ee503189(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_RENDERALLFORMATS",
+"u": "ee503187(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_RENDERFORMAT",
+"u": "ee501247(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CheckDlgButton",
+"u": "ee499366(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateDialog",
+"u": "ee502874(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateDialogIndirect",
+"u": "ee504589(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateDialogIndirectParam",
+"u": "ee504612(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateDialogParam",
+"u": "ee503494(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DefDlgProc",
+"u": "ee499719(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogBox",
+"u": "ee505643(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogBoxIndirect",
+"u": "ee500191(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogBoxIndirectParam",
+"u": "ee502860(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogBoxParam",
+"u": "ee502598(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DialogProc",
+"u": "ee504362(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EndDialog",
+"u": "ee506301(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDialogBaseUnits",
+"u": "ee499648(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDlgCtrlID",
+"u": "ee505952(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDlgItem",
+"u": "ee500513(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDlgItemInt",
+"u": "ee500607(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetDlgItemText",
+"u": "ee506059(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetNextDlgGroupItem",
+"u": "ee505040(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetNextDlgTabItem",
+"u": "ee499080(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IsDialogMessage",
+"u": "ee500858(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IsDlgButtonChecked",
+"u": "ee499082(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MapDialogRect",
+"u": "ee503734(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MessageBeep",
+"u": "ee506099(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MessageBox",
+"u": "ee503608(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SendDlgItemMessage",
+"u": "ee501193(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetDlgItemInt",
+"u": "ee504580(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetDlgItemText",
+"u": "ee499688(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DLGITEMTEMPLATE",
+"u": "ee503177(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DLGITEMTEMPLATEEX",
+"u": "ee504110(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DLGTEMPLATE",
+"u": "ee504037(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DLGTEMPLATEEX",
+"u": "ee504551(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DM_GETDEFID",
+"u": "ee501934(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DM_SETDEFID",
+"u": "ee501770(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORDLG",
+"u": "ee499647(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_GETDLGCODE",
+"u": "ee500227(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_INITDIALOG",
+"u": "ee505663(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_NEXTDLGCTL",
+"u": "ee503433(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_CANUNDO",
+"u": "ee504564(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_CHARFROMPOS",
+"u": "ee505025(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_EMPTYUNDOBUFFER",
+"u": "ee503116(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_FMTLINES",
+"u": "ee502582(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETFIRSTVISIBLELINE",
+"u": "ee503383(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETLIMITTEXT",
+"u": "ee504882(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETLINE",
+"u": "ee503210(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETLINECOUNT",
+"u": "ee500297(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETMARGINS",
+"u": "ee501766(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETMODIFY",
+"u": "ee503675(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETPASSWORDCHAR",
+"u": "ee505841(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETRECT",
+"u": "ee504105(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_GETSEL",
+"u": "ee503313(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LIMITTEXT",
+"u": "ee503913(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LINEFROMCHAR",
+"u": "ee503723(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LINEINDEX",
+"u": "ee499664(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LINELENGTH",
+"u": "ee504896(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_LINESCROLL",
+"u": "ee501961(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_POSFROMCHAR",
+"u": "ee499696(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_REPLACESEL",
+"u": "ee500147(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SCROLL",
+"u": "ee504165(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SCROLLCARET",
+"u": "ee499403(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETLIMITTEXT",
+"u": "ee499421(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETMARGINS",
+"u": "ee503961(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETMODIFY",
+"u": "ee502889(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETPASSWORDCHAR",
+"u": "ee502924(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETREADONLY",
+"u": "ee500448(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETRECT",
+"u": "ee505717(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETRECTNP",
+"u": "ee501418(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETSEL",
+"u": "ee504123(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_SETTABSTOPS",
+"u": "ee503176(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EM_UNDO",
+"u": "ee503101(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_CHANGE",
+"u": "ee500784(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_ERRSPACE",
+"u": "ee503705(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_HSCROLL",
+"u": "ee501909(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_KILLFOCUS",
+"u": "ee499374(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_MAXTEXT",
+"u": "ee505280(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_SETFOCUS",
+"u": "ee501087(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_UPDATE",
+"u": "ee503885(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EN_VSCROLL",
+"u": "ee503125(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLOREDIT",
+"u": "ee503430(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_UNDO",
+"u": "ee503910(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_ADDSTRING",
+"u": "ee500161(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_DELETESTRING",
+"u": "ee502901(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_FINDSTRING",
+"u": "ee505683(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_FINDSTRINGEXACT",
+"u": "ee499658(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETANCHORINDEX",
+"u": "ee502917(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETCARETINDEX",
+"u": "ee505268(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETCOUNT",
+"u": "ee504855(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETCURSEL",
+"u": "ee504323(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETHORIZONTALEXTENT",
+"u": "ee502001(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETITEMDATA",
+"u": "ee502241(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETITEMHEIGHT",
+"u": "ee505483(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETITEMRECT",
+"u": "ee500214(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETLOCALE",
+"u": "ee504908(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETSEL",
+"u": "ee501125(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETSELCOUNT",
+"u": "ee506055(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETSELITEMS",
+"u": "ee505228(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETTEXT",
+"u": "ee501398(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETTEXTLEN",
+"u": "ee499369(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_GETTOPINDEX",
+"u": "ee503195(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_INITSTORAGE",
+"u": "ee504335(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_INSERTSTRING",
+"u": "ee504297(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_ITEMFROMPOINT",
+"u": "ee499424(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_RESETCONTENT",
+"u": "ee506303(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SELECTSTRING",
+"u": "ee504881(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SELITEMRANGE",
+"u": "ee502006(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SELITEMRANGEEX",
+"u": "ee500895(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETANCHORINDEX",
+"u": "ee505302(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETCARETINDEX",
+"u": "ee500208(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETCOLUMNWIDTH",
+"u": "ee503149(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETCURSEL",
+"u": "ee503738(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETHORIZONTALEXTENT",
+"u": "ee501451(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETITEMDATA",
+"u": "ee506123(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETITEMHEIGHT",
+"u": "ee504149(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETLOCALE",
+"u": "ee499410(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETSEL",
+"u": "ee505219(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETTABSTOPS",
+"u": "ee499115(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LB_SETTOPINDEX",
+"u": "ee503399(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_DBLCLK",
+"u": "ee505854(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_ERRSPACE",
+"u": "ee500763(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_KILLFOCUS",
+"u": "ee501959(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_SELCANCEL",
+"u": "ee503963(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_SELCHANGE",
+"u": "ee504288(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LBN_SETFOCUS",
+"u": "ee502896(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORLISTBOX",
+"u": "ee504886(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_DELETEITEM",
+"u": "ee501957(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DELETEITEMSTRUCT",
+"u": "ee501470(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Add",
+"u": "ee502231(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_AddMasked",
+"u": "ee503446(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_BeginDrag",
+"u": "ee500766(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Copy",
+"u": "ee499691(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Create",
+"u": "ee500447(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Destroy",
+"u": "ee501989(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DragEnter",
+"u": "ee505711(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DragLeave",
+"u": "ee501729(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DragMove",
+"u": "ee503204(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DragShowNolock",
+"u": "ee501254(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Draw",
+"u": "ee502905(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DrawEx",
+"u": "ee506293(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_DrawIndirect",
+"u": "ee504032(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Duplicate",
+"u": "ee502893(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_EndDrag",
+"u": "ee499743(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetBkColor",
+"u": "ee501730(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetDragImage",
+"u": "ee500265(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetIcon",
+"u": "ee506299(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetIconSize",
+"u": "ee503580(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetImageCount",
+"u": "ee504304(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_GetImageInfo",
+"u": "ee499663(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_LoadImage",
+"u": "ee504385(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Merge",
+"u": "ee503132(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Remove",
+"u": "ee506284(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_RemoveAll",
+"u": "ee504892(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_Replace",
+"u": "ee504557(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_ReplaceIcon",
+"u": "ee500224(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetBkColor",
+"u": "ee504889(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetDragCursorImage",
+"u": "ee503586(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetIconSize",
+"u": "ee500889(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetImageCount",
+"u": "ee501924(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_SetOverlayImage",
+"u": "ee506087(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IMAGEINFO (Graphics, Windowing and Events)",
+"u": "ee504824(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "IMAGELISTDRAWPARAMS",
+"u": "ee504136(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_AddIcon",
+"u": "ee504543(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_ExtractIcon",
+"u": "ee503909(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ImageList_LoadBitmap",
+"u": "ee504299(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "INDEXTOOVERLAYMASK",
+"u": "ee502218(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_ADDSTRING",
+"u": "ee501454(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_DELETESTRING",
+"u": "ee500187(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_FINDSTRING",
+"u": "ee500894(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_FINDSTRINGEXACT",
+"u": "ee501926(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETCOMBOBOXINFO",
+"u": "ee500450(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETCOUNT",
+"u": "ee499337(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETCURSEL",
+"u": "ee504632(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETDROPPEDCONTROLRECT",
+"u": "ee501948(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETDROPPEDSTATE",
+"u": "ee501436(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETDROPPEDWIDTH",
+"u": "ee501971(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETEDITSEL",
+"u": "ee504104(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETEXTENDEDUI",
+"u": "ee500833(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETHORIZONTALEXTENT",
+"u": "ee504303(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETITEMDATA",
+"u": "ee502260(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETITEMHEIGHT",
+"u": "ee505512(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETLBTEXT",
+"u": "ee504874(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETLBTEXTLEN",
+"u": "ee506050(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETLOCALE",
+"u": "ee501921(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_GETTOPINDEX",
+"u": "ee502609(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_INITSTORAGE",
+"u": "ee502278(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_INSERTSTRING",
+"u": "ee500754(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_LIMITTEXT",
+"u": "ee502903(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_RESETCONTENT",
+"u": "ee499056(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SELECTSTRING",
+"u": "ee505850(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETCURSEL",
+"u": "ee501397(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETDROPPEDWIDTH",
+"u": "ee502560(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETEDITSEL",
+"u": "ee505493(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETEXTENDEDUI",
+"u": "ee499715(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETHORIZONTALEXTENT",
+"u": "ee501076(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETITEMDATA",
+"u": "ee502898(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETITEMHEIGHT",
+"u": "ee504645(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETLOCALE",
+"u": "ee503487(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SETTOPINDEX",
+"u": "ee499036(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CB_SHOWDROPDOWN",
+"u": "ee504102(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_CLOSEUP",
+"u": "ee505701(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_DBLCLK",
+"u": "ee504863(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_DROPDOWN",
+"u": "ee500915(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_EDITCHANGE",
+"u": "ee504383(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_EDITUPDATE",
+"u": "ee500255(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_ERRSPACE",
+"u": "ee505434(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_KILLFOCUS",
+"u": "ee504006(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_SELCHANGE",
+"u": "ee506091(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_SELENDCANCEL",
+"u": "ee505669(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_SELENDOK",
+"u": "ee499428(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CBN_SETFOCUS",
+"u": "ee502531(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_DRAWITEM",
+"u": "ee505834(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_MEASUREITEM",
+"u": "ee503711(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "COMBOBOXINFO",
+"u": "ee505276(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DRAWITEMSTRUCT",
+"u": "ee501739(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MEASUREITEMSTRUCT",
+"u": "ee503680(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CheckRadioButton",
+"u": "ee500159(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_CLICK",
+"u": "ee505041(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_GETCHECK",
+"u": "ee503368(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_GETSTATE",
+"u": "ee503612(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_SETCHECK",
+"u": "ee503955(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_SETSTATE",
+"u": "ee500163(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BM_SETSTYLE",
+"u": "ee503911(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BN_CLICKED",
+"u": "ee500278(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BN_KILLFOCUS",
+"u": "ee505714(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "BN_SETFOCUS",
+"u": "ee502311(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORBTN",
+"u": "ee504523(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STM_GETIMAGE",
+"u": "ee503757(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STM_SETIMAGE",
+"u": "ee499348(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STN_CLICKED",
+"u": "ee506100(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STN_DISABLE",
+"u": "ee501781(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "STN_ENABLE",
+"u": "ee504016(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORSTATIC",
+"u": "ee502610(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetScrollInfo",
+"u": "ee504048(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ScrollDC",
+"u": "ee499718(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "ScrollWindowEx",
+"u": "ee500480(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetScrollInfo",
+"u": "ee503641(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetScrollPos",
+"u": "ee503730(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetScrollRange",
+"u": "ee501477(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SCROLLINFO",
+"u": "ee504371(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_GETPOS",
+"u": "ee506275(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_GETRANGE",
+"u": "ee504568(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_GETSCROLLINFO",
+"u": "ee504823(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_SETPOS",
+"u": "ee500615(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_SETRANGE",
+"u": "ee500899(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_SETRANGEREDRAW",
+"u": "ee501461(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SBM_SETSCROLLINFO",
+"u": "ee505716(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CTLCOLORSCROLLBAR",
+"u": "ee505263(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_HSCROLL",
+"u": "ee501974(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_VSCROLL",
+"u": "ee504125(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "AppendMenu",
+"u": "ee502212(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CheckMenuItem",
+"u": "ee499672(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CheckMenuRadioItem",
+"u": "ee502246(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreateMenu",
+"u": "ee503486(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CreatePopupMenu",
+"u": "ee502545(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DeleteMenu",
+"u": "ee504306(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DestroyMenu",
+"u": "ee505063(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "DrawMenuBar",
+"u": "ee504537(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "EnableMenuItem",
+"u": "ee501426(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetMenuItemInfo",
+"u": "ee505664(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetSubMenu",
+"u": "ee505084(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "GetSystemMenu",
+"u": "ee505863(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "InsertMenu",
+"u": "ee502866(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "LoadMenu",
+"u": "ee501468(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "RemoveMenu",
+"u": "ee503476(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "SetMenuItemInfo",
+"u": "ee503422(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "TrackPopupMenu",
+"u": "ee503594(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "TrackPopupMenuEx",
+"u": "ee504060(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "CustomTrackPopupMenu",
+"u": "ee505492(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "MENUITEMINFO",
+"u": "ee502561(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "TPMPARAMS",
+"u": "ee500588(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "Menus Constants",
+"u": "ee504295(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_COMMAND",
+"u": "ee503387(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_CONTEXTMENU",
+"u": "ee502540(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_ENTERMENULOOP",
+"u": "ee499673(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Control Reference",
+"t": "WM_EXITMENULOOP",
+"u": "ee503325(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Non-client Area Styles",
+"u": "ee506097(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Basic Window Styles",
+"u": "ee504355(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Message Box Styles",
+"u": "ee502245(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Basic Common Control Styles",
+"u": "ee504838(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Check Box Styles",
+"u": "ee504569(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Combo Box Styles",
+"u": "ee501099(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Date and Time Picker Styles",
+"u": "ee503895(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Edit Control Styles",
+"u": "ee504833(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Header Control Styles",
+"u": "ee499044(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "List Box Styles",
+"u": "ee501958(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "List View Styles",
+"u": "ee505098(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Month Calendar Control Styles",
+"u": "ee505077(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Progress Bar Styles",
+"u": "ee499649(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Push Button Styles",
+"u": "ee501475(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Radio Button Styles",
+"u": "ee505912(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Rebar Styles",
+"u": "ee502314(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Scroll Bar Styles",
+"u": "ee505682(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Static Control Styles",
+"u": "ee505845(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Tab Control Styles",
+"u": "ee505852(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Toolbar Styles",
+"u": "ee505463(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "ToolTip Styles",
+"u": "ee502891(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Trackbar Control Styles",
+"u": "ee502608(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Tree View Styles",
+"u": "ee502852(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window and Control Styles",
+"t": "Up-down Control Styles",
+"u": "ee504056(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "EnumPropsEx",
+"u": "ee503514(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "GetProp",
+"u": "ee499391(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "PropEnumProcEx",
+"u": "ee500149(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "RemoveProp",
+"u": "ee500897(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Window Properties Reference",
+"t": "SetProp",
+"u": "ee504325(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "CREATESTRUCT",
+"u": "ee505636(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "MAKELPARAM",
+"u": "ee505062(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "MAKELRESULT",
+"u": "ee501245(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "MAKEWPARAM",
+"u": "ee499034(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "STYLESTRUCT",
+"u": "ee503374(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WINDOWPOS",
+"u": "ee501783(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_CANCELMODE",
+"u": "ee499379(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_CLOSE",
+"u": "ee503214(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_CREATE",
+"u": "ee505447(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_DESTROY",
+"u": "ee501771(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_ENABLE",
+"u": "ee502850(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_ERASEBKGND",
+"u": "ee506254(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_GETTEXT",
+"u": "ee505670(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_GETTEXTLENGTH",
+"u": "ee505257(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_MOVE",
+"u": "ee499342(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_QUIT",
+"u": "ee503194(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_SETTEXT",
+"u": "ee505426(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_SIZE",
+"u": "ee506110(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_STYLECHANGED",
+"u": "ee505715(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WM_WINDOWPOSCHANGED",
+"u": "ee505095(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "Windows Data Types",
+"u": "ee504522(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "AdjustWindowRectEx",
+"u": "ee506242(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "BeginDeferWindowPos",
+"u": "ee501388(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "BringWindowToTop",
+"u": "ee504610(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "CallWindowProc",
+"u": "ee499393(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "ChildWindowFromPoint",
+"u": "ee504384(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "CreateWindow",
+"u": "ee500617(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "CreateWindowEx",
+"u": "ee503435(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "DeferWindowPos",
+"u": "ee500478(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "DefWindowProc",
+"u": "ee503409(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "DestroyWindow",
+"u": "ee501955(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "EndDeferWindowPos",
+"u": "ee503902(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "EnumWindows",
+"u": "ee501060(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "EnumWindowsProc",
+"u": "ee506170(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "FindWindow",
+"u": "ee505735(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetClientRect",
+"u": "ee499340(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetDesktopWindow",
+"u": "ee504867(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetForegroundWindow",
+"u": "ee503376(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetParent",
+"u": "ee501080(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindow",
+"u": "ee506081(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindowRect",
+"u": "ee502589(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindowText",
+"u": "ee506164(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindowTextLength",
+"u": "ee504202(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "GetWindowThreadProcessId",
+"u": "ee505723(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "IsChild",
+"u": "ee500846(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "IsWindow",
+"u": "ee502316(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "IsWindowVisible",
+"u": "ee504915(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "MoveWindow",
+"u": "ee502616(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "SetForegroundWindow",
+"u": "ee505432(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "SetParent",
+"u": "ee505900(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "SetWindowPos",
+"u": "ee499098(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "SetWindowText",
+"u": "ee501199(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "ShowWindow",
+"u": "ee499640(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WindowFromPoint",
+"u": "ee499070(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WindowProc",
+"u": "ee499079(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Reference",
+"t": "WinMain",
+"u": "ee499679(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "KillTimer",
+"u": "ee505654(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "SetTimer",
+"u": "ee502602(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "SystemIdleTimerReset",
+"u": "ee502574(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "TimerProc",
+"u": "ee505677(v=winembedded.60)"
+},
+{
+"area": "gwes",
+"sub": "Windows Timer Reference",
+"t": "WM_TIMER",
+"u": "ee503206(v=winembedded.60)"
+}
+]

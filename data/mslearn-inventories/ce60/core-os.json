@@ -1,0 +1,2450 @@
+[
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLog Event Identifiers",
+"u": "ee487955(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLog Pre-Defined Data Types",
+"u": "ee488011(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLog Zones",
+"u": "ee488414(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogData",
+"u": "ee488639(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogGetZones",
+"u": "ee488351(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogInterrupt",
+"u": "ee488562(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogMsg",
+"u": "ee488366(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogQueryZones",
+"u": "ee488630(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogReSync",
+"u": "ee488638(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogSetZones",
+"u": "ee487969(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLog Event Tracking Macros",
+"u": "ee487967(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_BOOT_TIME",
+"u": "ee488770(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_CRITSEC_DELETE",
+"u": "ee488553(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_CRITSEC_ENTER",
+"u": "ee488566(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_CRITSEC_INIT",
+"u": "ee488206(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_CRITSEC_LEAVE",
+"u": "ee488179(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_DATA_LOSS",
+"u": "ee487975(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_DEBUG_MSG",
+"u": "ee488213(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_CLOSE",
+"u": "ee488190(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_CREATE",
+"u": "ee488634(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_DELETE",
+"u": "ee487946(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_PULSE",
+"u": "ee487956(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_RESET",
+"u": "ee488006(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_SET",
+"u": "ee488633(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EXTRA_MODULE_INFO",
+"u": "ee488774(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EXTRA_PROCESS_INFO",
+"u": "ee487961(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEADER",
+"u": "ee488389(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_ALLOC",
+"u": "ee488571(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_CREATE",
+"u": "ee488643(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_DESTROY",
+"u": "ee488212(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_FREE",
+"u": "ee488360(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_REALLOC",
+"u": "ee488647(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_INT_DATA",
+"u": "ee488210(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_INTERRUPTS",
+"u": "ee488029(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_LOG_MARKER",
+"u": "ee488782(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_CREATE",
+"u": "ee488044(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_DESTROY",
+"u": "ee488760(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_FLUSH",
+"u": "ee488425(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_VIEW_CLOSE",
+"u": "ee488589(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_VIEW_OPEN",
+"u": "ee488407(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFLUSH_TYPE",
+"u": "ee488396(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MEMTRACK_BASELINE",
+"u": "ee488775(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MODULE_FREE",
+"u": "ee488936(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MODULE_LOAD",
+"u": "ee488239(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MODULE_REFERENCES",
+"u": "ee488559(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MUTEX_CLOSE",
+"u": "ee488015(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MUTEX_CREATE",
+"u": "ee488397(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MUTEX_DELETE",
+"u": "ee488359(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MUTEX_RELEASE",
+"u": "ee488424(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_CLOSE",
+"u": "ee488224(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_CREATE",
+"u": "ee488001(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_DELETE",
+"u": "ee488598(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_REFCOUNT",
+"u": "ee488217(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_TERMINATE",
+"u": "ee488226(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SEM_CLOSE",
+"u": "ee488602(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SEM_CREATE",
+"u": "ee488759(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SEM_DELETE",
+"u": "ee488905(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SEM_RELEASE",
+"u": "ee488788(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SLEEP",
+"u": "ee488597(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SYSTEM_INVERT",
+"u": "ee488594(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SYSTEM_PAGE",
+"u": "ee487952(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SYSTEM_TLB",
+"u": "ee488790(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_CLOSE",
+"u": "ee488935(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_CREATE",
+"u": "ee488018(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_DELETE",
+"u": "ee488229(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_MIGRATE",
+"u": "ee488371(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_PRIORITY",
+"u": "ee488628(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_QUANTUM",
+"u": "ee488198(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_RESUME",
+"u": "ee488584(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_SUSPEND",
+"u": "ee488420(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_SWITCH",
+"u": "ee488435(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_TERMINATE",
+"u": "ee488411(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_VIRTUAL_ALLOC",
+"u": "ee488395(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_VIRTUAL_COPY",
+"u": "ee488194(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_VIRTUAL_FREE",
+"u": "ee488195(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_WAIT_MULTI",
+"u": "ee488914(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "MAPHEADER",
+"u": "ee488608(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "CheckRemoteDebuggerPresent",
+"u": "ee488625(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "ContinueDebugEvent",
+"u": "ee488380(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DebugActiveProcess",
+"u": "ee488781(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DebugActiveProcessStop",
+"u": "ee488909(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DebugBreak",
+"u": "ee488413(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "IsDebuggerPresent",
+"u": "ee488799(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "NKDbgPrintfW",
+"u": "ee488771(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "OutputDebugString",
+"u": "ee488209(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "RegisterDbgZones",
+"u": "ee488024(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "WaitForDebugEvent",
+"u": "ee488758(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "WriteDebugLED",
+"u": "ee487992(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "CONTEXT",
+"u": "ee488930(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "CREATE_PROCESS_DEBUG_INFO",
+"u": "ee487965(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "CREATE_THREAD_DEBUG_INFO",
+"u": "ee488441(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DBGPARAM",
+"u": "ee487951(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUG_EVENT",
+"u": "ee488558(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "EXCEPTION_DEBUG_INFO",
+"u": "ee488028(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "EXIT_PROCESS_DEBUG_INFO",
+"u": "ee488920(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "EXIT_THREAD_DEBUG_INFO",
+"u": "ee487970(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "LOAD_DLL_DEBUG_INFO",
+"u": "ee488203(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "OUTPUT_DEBUG_STRING_INFO",
+"u": "ee488772(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "UNLOAD_DLL_DEBUG_INFO",
+"u": "ee488907(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "ASSERT",
+"u": "ee488166(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "ASSERTMSG",
+"u": "ee488600(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGCHK",
+"u": "ee488167(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGLED",
+"u": "ee488408(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGMSG",
+"u": "ee488430(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGREGISTER, RETAILREGISTERZONES",
+"u": "ee488796(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGZONE",
+"u": "ee488354(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "ERRORMSG",
+"u": "ee488563(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "RETAILLED",
+"u": "ee488432(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "RETAILMSG",
+"u": "ee488919(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "CeSetProcessVersion",
+"u": "ee488003(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "DisableThreadLibraryCalls",
+"u": "ee487996(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "DllMain",
+"u": "ee488450(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "FreeLibrary",
+"u": "ee488241(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "FreeLibraryAndExitThread",
+"u": "ee488352(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "GetModuleFileName",
+"u": "ee488356(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "GetModuleHandle",
+"u": "ee487994(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "GetModuleInformation",
+"u": "ee488196(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "GetProcAddress",
+"u": "ee488623(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "LoadLibrary",
+"u": "ee488148(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "LoadLibraryEx",
+"u": "ee488215(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "MODULEINFO",
+"u": "ee488924(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "Net Errors - Alphabetical Order",
+"u": "ee488355(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "Net Errors - Numerical Order",
+"u": "ee487980(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "RAS Error Values",
+"u": "ee488627(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "System Errors - Alphabetical Order",
+"u": "ee487988(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "System Errors - Numerical Order",
+"u": "ee488398(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "NTE error codes",
+"u": "ee488369(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "CRYPT Error Codes",
+"u": "ee488560(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "CERTSRV Error Codes",
+"u": "ee488175(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "TRUST Error Codes",
+"u": "ee488436(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "FormatMessage",
+"u": "ee488376(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "SetLastError",
+"u": "ee487957(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "GetLastError",
+"u": "ee488182(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "Formatting Specifications",
+"u": "ee488601(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "AbnormalTermination",
+"u": "ee488043(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "AddVectoredExceptionHandler",
+"u": "ee488606(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "GetExceptionCode",
+"u": "ee488042(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "GetExceptionInformation",
+"u": "ee488612(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "RaiseException",
+"u": "ee488557(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "RemoveVectoredExceptionHandler",
+"u": "ee488595(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "ReportFault",
+"u": "ee488765(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "VectoredHandler",
+"u": "ee488629(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "EXCEPTION_POINTERS",
+"u": "ee488588(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "EXCEPTION_RECORD",
+"u": "ee487973(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "ConvertThreadToFiber",
+"u": "ee488149(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "CreateFiber",
+"u": "ee488035(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "DeleteFiber",
+"u": "ee488154(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "FiberProc",
+"u": "ee488613(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "GetCurrentFiber",
+"u": "ee488624(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "GetFiberData",
+"u": "ee488921(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "SwitchToFiber",
+"u": "ee488422(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "CeOpenCallerBuffer",
+"u": "ee488382(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "CeCloseCallerBuffer",
+"u": "ee488934(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "CeAllocAsynchronousBuffer",
+"u": "ee488604(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "CeFreeAsynchronousBuffer",
+"u": "ee488607(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "CeFlushAsynchronousBuffer",
+"u": "ee488374(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "CeAllocDuplicateBuffer",
+"u": "ee488789(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "CeFreeDuplicateBuffer",
+"u": "ee488644(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "AsynchronousBuffer_t",
+"u": "ee487986(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "DuplicatedBuffer_t",
+"u": "ee488791(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Kernel Buffer Marshaling Reference",
+"t": "MarshalledBuffer_t",
+"u": "ee488570(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "CeHeapCreate",
+"u": "ee488377(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "CeRemoteHeapCreate",
+"u": "ee487990(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "CeRemoteHeapTranslatePointer",
+"u": "ee487998(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "GetDllVersion",
+"u": "ee488161(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "GetProcessHeap",
+"u": "ee488912(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "GlobalMemoryStatus",
+"u": "ee488170(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapAlloc",
+"u": "ee488197(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapCompact",
+"u": "ee488005(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapCreate",
+"u": "ee488381(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapDestroy",
+"u": "ee488651(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapFree",
+"u": "ee488228(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapReAlloc",
+"u": "ee488385(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapSize",
+"u": "ee488405(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapValidate",
+"u": "ee488778(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "IsBadCodePtr",
+"u": "ee488573(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "IsBadReadPtr",
+"u": "ee488585(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "IsBadWritePtr",
+"u": "ee488361(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "LocalAlloc",
+"u": "ee487963(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "LocalFree",
+"u": "ee488030(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "LocalReAlloc",
+"u": "ee488426(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "LocalSize",
+"u": "ee488019(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "SecureZeroMemory",
+"u": "ee488421(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualAlloc",
+"u": "ee488564(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualAllocCopyEx",
+"u": "ee488184(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualAllocEx",
+"u": "ee488642(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualCopyEx",
+"u": "ee488448(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualFree",
+"u": "ee488784(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualFreeEx",
+"u": "ee488440(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualProtect",
+"u": "ee488353(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualProtectEx",
+"u": "ee488232(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualQuery",
+"u": "ee488918(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualQueryEx",
+"u": "ee488556(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualSetAttributesEx",
+"u": "ee488757(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "MEMORY_BASIC_INFORMATION",
+"u": "ee488437(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "MEMORYSTATUS",
+"u": "ee488368(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "CloseMsgQueue",
+"u": "ee488787(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "CreateMsgQueue",
+"u": "ee488163(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "GetMsgQueueInfo",
+"u": "ee488429(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "OpenMsgQueue",
+"u": "ee488036(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "ReadMsgQueue",
+"u": "ee488410(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "ReadMsgQueueEx",
+"u": "ee488391(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "WriteMsgQueue",
+"u": "ee488786(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "MSGQUEUEINFO",
+"u": "ee487993(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "MSGQUEUEOPTIONS",
+"u": "ee488171(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "CreateHandler",
+"u": "ee488445(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "CreateTicket",
+"u": "ee488031(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "DataHandler",
+"u": "ee488191(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "DeleteHandler",
+"u": "ee488399(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "DeleteTicket",
+"u": "ee488574(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "DisassociateSession",
+"u": "ee488779(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "EditorDeregister",
+"u": "ee487982(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "EditorInitialize",
+"u": "ee487968(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "EditSession",
+"u": "ee488177(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "LogConnectionCreation",
+"u": "ee488586(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "LogConnectionDeletion",
+"u": "ee488387(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "LogDroppedPacket",
+"u": "ee488367(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "LogInit",
+"u": "ee488567(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "QueryInfoSession",
+"u": "ee488157(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "RegisterEditor",
+"u": "ee488599(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "TimeoutSession",
+"u": "ee488438(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "IP_NAT_DIRECTION",
+"u": "ee488393(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "IP_NAT_REGISTER_EDITOR",
+"u": "ee488577(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "IP_NAT_SESSION_MAPPING_STATISTICS",
+"u": "ee488635(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "IPRcvBuf",
+"u": "ee488023(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeGetCallerTrust",
+"u": "ee488579(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeGetThreadPriority",
+"u": "ee488181(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeGetThreadQuantum",
+"u": "ee488423(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeSetThreadPriority",
+"u": "ee488041(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeSetThreadQuantum",
+"u": "ee488622(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeZeroPointer",
+"u": "ee488151(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CreateProcess",
+"u": "ee488927(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CreateThread",
+"u": "ee488162(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ExitProcess",
+"u": "ee488596(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ExitThread",
+"u": "ee488591(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "FlushInstructionCache",
+"u": "ee487964(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCommandLine",
+"u": "ee488561(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCurrentProcess",
+"u": "ee488443(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCurrentProcessId",
+"u": "ee488631(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCurrentThread",
+"u": "ee488202(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCurrentThreadId",
+"u": "ee488409(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetExitCodeProcess",
+"u": "ee488446(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetExitCodeThread",
+"u": "ee488756(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetProcessVersion",
+"u": "ee488575(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetThreadContext",
+"u": "ee488046(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetThreadPriority",
+"u": "ee488168(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetThreadTimes",
+"u": "ee487997(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "OpenProcess",
+"u": "ee488418(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "OpenThread",
+"u": "ee488755(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ReadProcessMemory",
+"u": "ee488931(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ResumeThread",
+"u": "ee488648(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "SetThreadContext",
+"u": "ee487947(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "SetThreadPriority",
+"u": "ee488350(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "Sleep",
+"u": "ee488158(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "SuspendThread",
+"u": "ee488373(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TerminateProcess",
+"u": "ee488378(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TerminateThread",
+"u": "ee488176(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ThreadProc",
+"u": "ee488554(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TlsAlloc",
+"u": "ee488159(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TlsFree",
+"u": "ee488903(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TlsGetValue",
+"u": "ee488590(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TlsSetValue",
+"u": "ee488026(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "WriteProcessMemory",
+"u": "ee488243(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "PROCESS_INFORMATION",
+"u": "ee488245(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "ClearCommBreak",
+"u": "ee488216(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "ClearCommError",
+"u": "ee488605(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "EscapeCommFunction",
+"u": "ee488402(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommMask",
+"u": "ee488193(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommModemStatus",
+"u": "ee488617(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommProperties",
+"u": "ee488603(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommState",
+"u": "ee488362(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommTimeouts",
+"u": "ee488240(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "PurgeComm",
+"u": "ee488020(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetCommBreak",
+"u": "ee488578(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetCommMask",
+"u": "ee488916(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetCommState",
+"u": "ee487991(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetCommTimeouts",
+"u": "ee488388(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetupComm",
+"u": "ee488358(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "TransmitCommChar",
+"u": "ee488400(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "WaitCommEvent",
+"u": "ee488449(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "COMMPROP",
+"u": "ee488214(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "COMMTIMEOUTS",
+"u": "ee488247(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "COMSTAT",
+"u": "ee488223(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "DCB",
+"u": "ee488022(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "REG_COMPARISONTYPE",
+"u": "ee488568(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryBatchNotification",
+"u": "ee488009(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryCloseNotification",
+"u": "ee488922(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryDeleteValue",
+"u": "ee488640(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryGetDWORD",
+"u": "ee488582(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryGetString",
+"u": "ee488928(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryNotifyApp",
+"u": "ee488776(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryNotifyCallback",
+"u": "ee487978(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryNotifyMsgQueue",
+"u": "ee488614(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryNotifyWindow",
+"u": "ee488231(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistrySetDWORD",
+"u": "ee488764(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistrySetString",
+"u": "ee488611(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryStopNotification",
+"u": "ee488205(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "RegistryTestExchangeDWORD",
+"u": "ee488186(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "NOTIFICATIONCONDITION",
+"u": "ee488645(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "NOTIFYMSGQUEUEPACKET",
+"u": "ee488220(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "State and Notifications Broker Reference",
+"t": "REGISTRYNOTIFYCALLBACK Structure",
+"u": "ee488033(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "CharLower",
+"u": "ee488761(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "CharLowerBuff",
+"u": "ee488766(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "CharNext",
+"u": "ee488221(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "CharPrev",
+"u": "ee488364(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "CharUpper",
+"u": "ee488230(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "CharUpperBuff",
+"u": "ee488447(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "IsCharAlpha",
+"u": "ee488793(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "IsCharAlphaNumeric",
+"u": "ee487949(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "IsCharLower",
+"u": "ee487984(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "IsCharUpper",
+"u": "ee488199(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "LoadString",
+"u": "ee488763(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "wsprintf",
+"u": "ee487981(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "String Reference",
+"t": "wvsprintf",
+"u": "ee488164(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "CreateEvent",
+"u": "ee488008(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "CreateMutex",
+"u": "ee488798(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "CreateSemaphore",
+"u": "ee488431(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "DeleteCriticalSection",
+"u": "ee488901(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "DuplicateHandle",
+"u": "ee488902(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "EnterCriticalSection",
+"u": "ee488915(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InitializeCriticalSection",
+"u": "ee488434(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedCompareExchange",
+"u": "ee488207(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedCompareExchangePointer",
+"u": "ee487958(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedDecrement",
+"u": "ee488204(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedExchange",
+"u": "ee488427(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedExchangeAdd",
+"u": "ee488632(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedExchangePointer",
+"u": "ee488192(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedIncrement",
+"u": "ee488178(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedTestExchange",
+"u": "ee488428(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "LeaveCriticalSection",
+"u": "ee488246(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "OpenEvent",
+"u": "ee488185(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "PulseEvent",
+"u": "ee488021(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "ReleaseMutex",
+"u": "ee488152(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "ReleaseSemaphore",
+"u": "ee488572(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "ResetEvent",
+"u": "ee487974(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "SetEvent",
+"u": "ee488785(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "TryEnterCriticalSection",
+"u": "ee488592(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "WaitForMultipleObjects",
+"u": "ee487972(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "WaitForSingleObject",
+"u": "ee488762(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "GetDeviceUniqueID",
+"u": "ee488618(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "GetSystemInfo",
+"u": "ee488900(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "GetVersionEx",
+"u": "ee488165(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "IsProcessorFeaturePresent",
+"u": "ee488016(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "KernelIoControl",
+"u": "ee488646(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "QueryInstructionSet",
+"u": "ee488150(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "SignalStarted",
+"u": "ee488242(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "VerQueryValue",
+"u": "ee488392(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "OSVERSIONINFO",
+"u": "ee488619(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "String",
+"u": "ee488753(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "StringFileInfo",
+"u": "ee488169(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "StringTable",
+"u": "ee488384(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "SYSTEM_INFO",
+"u": "ee488780(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "Var",
+"u": "ee488649(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "VarFileInfo",
+"u": "ee488583(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "VS_FIXEDFILEINFO",
+"u": "ee488004(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "VS_VERSIONINFO",
+"u": "ee488187(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "CeGetRawTime",
+"u": "ee488174(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "CeGetRawTimeOffset",
+"u": "ee488363(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "CompareFileTime",
+"u": "ee488173(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "FileTimeToLocalFileTime",
+"u": "ee488768(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "FileTimeToSystemTime",
+"u": "ee488551(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetCurrentFT",
+"u": "ee488383(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetFileTime",
+"u": "ee487950(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetIdleTime",
+"u": "ee488013(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetLocalTime",
+"u": "ee487966(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetSystemTime",
+"u": "ee488017(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetSystemTimeAsFileTime",
+"u": "ee488937(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetTickCount",
+"u": "ee487985(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetTimeZoneInformation",
+"u": "ee488172(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "LocalFileTimeToFileTime",
+"u": "ee487989(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "QueryPerformanceCounter",
+"u": "ee488415(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "QueryPerformanceFrequency",
+"u": "ee488620(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "Random",
+"u": "ee487948(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetDaylightTime",
+"u": "ee488917(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetFileTime",
+"u": "ee488233(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetLocalTime",
+"u": "ee488183(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetSystemTime",
+"u": "ee488615(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetTimeZoneInformation",
+"u": "ee488386(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SystemTimeToFileTime",
+"u": "ee488792(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "FILETIME",
+"u": "ee488581(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SYSTEMTIME",
+"u": "ee488248(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "TIME_ZONE_INFORMATION",
+"u": "ee488576(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "CloseToolhelp32Snapshot",
+"u": "ee488394(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "CreateToolhelp32Snapshot",
+"u": "ee487995(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Heap32First",
+"u": "ee487960(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Heap32ListFirst",
+"u": "ee488906(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Heap32ListNext",
+"u": "ee488180(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Heap32Next",
+"u": "ee488032(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Module32First",
+"u": "ee488610(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Module32Next",
+"u": "ee488238(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Process32First",
+"u": "ee488156(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Process32Next",
+"u": "ee488794(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Thread32First",
+"u": "ee488375(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Thread32Next",
+"u": "ee487953(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Toolhelp32ReadProcessMemory",
+"u": "ee488417(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "HEAPENTRY32",
+"u": "ee488609(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "HEAPLIST32",
+"u": "ee488401(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "MODULEENTRY32",
+"u": "ee488045(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "PROCESSENTRY32",
+"u": "ee488007(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "THREADENTRY32",
+"u": "ee488795(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "IsDBCSLeadByte",
+"u": "ee487962(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "IsDBCSLeadByteEx",
+"u": "ee488433(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "MultiByteToWideChar",
+"u": "ee488225(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "TranslateCharsetInfo",
+"u": "ee487979(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "WideCharToMultiByte",
+"u": "ee488911(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "CHARSETINFO",
+"u": "ee488442(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "FONTSIGNATURE",
+"u": "ee488208(v=winembedded.60)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "TEXT",
+"u": "ee487976(v=winembedded.60)"
+}
+]

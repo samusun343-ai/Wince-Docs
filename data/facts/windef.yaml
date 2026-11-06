@@ -1,0 +1,95 @@
+# Fact database — windef.h (complete enumeration, P0)
+# Schema: docs/01-methodology/verification-policy.md §1
+# Sources: mingw-org-w32api (public domain, audited), cegcc (docs evidence), mslearn-ce60/ce50
+- {id: windef-WIN32, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define WIN32", target_header: windef.h, src: [mingw-org-w32api, cegcc]}
+- {id: windef-_WIN32, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define _WIN32", target_header: windef.h, src: [mingw-org-w32api, cegcc]}
+- {id: windef-UNDER_CE, kind: macro, class: ce-only, status: verified, introduced: "1.0", definition: "#define UNDER_CE (toolchain-level)", target_header: windef.h, src: [cegcc]}
+- {id: windef-FAR, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define FAR", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-far, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define far", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-NEAR, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define NEAR", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-near, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define near", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-CONST, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define CONST const", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-MAX_PATH, kind: constant, class: common, status: verified, introduced: "1.0", value: "260", definition: "#define MAX_PATH 260", target_header: windef.h, src: [mingw-org-w32api, mslearn-ce60], notes: "CreateProcess CE6 remarks reference the 260-character SystemPath limit"}
+- {id: windef-NULL, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define NULL ((void*)0) / 0 in C++", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-FALSE, kind: constant, class: common, status: verified, introduced: "1.0", value: "0", definition: "#define FALSE 0", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-TRUE, kind: constant, class: common, status: verified, introduced: "1.0", value: "1", definition: "#define TRUE 1", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-IN, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define IN", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-OUT, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define OUT", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-OPTIONAL, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define OPTIONAL", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-__stdcall, kind: macro, class: common, status: verified, introduced: "1.0", definition: "compiler stdcall attribute mapping", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-STDCALL, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define STDCALL __stdcall", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-__cdecl, kind: macro, class: common, status: verified, introduced: "1.0", definition: "compiler cdecl attribute mapping", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-CDECL, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define CDECL _cdecl", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-__fastcall, kind: macro, class: common, status: verified, introduced: "1.0", definition: "compiler fastcall attribute mapping", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-FASTCALL, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define FASTCALL __fastcall", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PASCAL, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define PASCAL _pascal (= __stdcall)", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-WINAPI, kind: macro, class: common, status: verify-runtime, introduced: "1.0", definition: "#define WINAPI __stdcall", target_header: windef.h, src: [mingw-org-w32api, mslearn-ce60], notes: "cosmetic on ARM/MIPS/SH; x86 CEPC convention is OQ-3; documented entry point int WINAPI WinMain uses it"}
+- {id: windef-WINAPIV, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define WINAPIV __cdecl", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-APIENTRY, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define APIENTRY __stdcall", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-CALLBACK, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define CALLBACK __stdcall", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-APIPRIVATE, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define APIPRIVATE __stdcall", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-DECLARE_STDCALL_P, kind: macro, class: common, status: verified, introduced: "1.0", definition: "#define DECLARE_STDCALL_P(type) __stdcall type", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-DECLSPEC_IMPORT, kind: macro, class: common, status: verified, introduced: "1.0", definition: "__declspec(dllimport) mapping", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-DECLSPEC_EXPORT, kind: macro, class: common, status: verified, introduced: "1.0", definition: "__declspec(dllexport) mapping", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-DECLSPEC_NORETURN, kind: macro, class: common, status: verified, introduced: "1.0", definition: "__declspec(noreturn) mapping", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PACKED, kind: macro, class: common, status: verified, introduced: "1.0", definition: "__attribute__((packed)) on GNUC", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-_ANONYMOUS_UNION, kind: macro, class: common, status: verified, introduced: "1.0", definition: "compiler anonymous-union extension mapping", target_header: windef.h, src: [mingw-org-w32api, mslearn-ce60], notes: "consumed by documented SYSTEM_INFO union layout"}
+- {id: windef-_ANONYMOUS_STRUCT, kind: macro, class: common, status: verified, introduced: "1.0", definition: "compiler anonymous-struct extension mapping", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-DUMMYUNIONNAME, kind: macro, class: common, status: verified, introduced: "1.0", definition: "u (and u2..u8 variants)", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-DWORD, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef unsigned long DWORD;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-WINBOOL, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef int WINBOOL;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-BOOL, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef WINBOOL BOOL;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-BYTE, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef unsigned char BYTE;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-WORD, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef unsigned short WORD;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-FLOAT, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef float FLOAT;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-INT, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef int INT;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-UINT, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef unsigned int UINT;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-WPARAM, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef UINT_PTR WPARAM;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-LPARAM, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef LONG_PTR LPARAM;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-LRESULT, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef LONG_PTR LRESULT;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-HRESULT, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef LONG HRESULT;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-ATOM, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef WORD ATOM;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-COLORREF, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef DWORD COLORREF;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-HFILE, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef int HFILE;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PBOOL-LPBOOL, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef BOOL *PBOOL,*LPBOOL;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PBYTE-LPBYTE, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef BYTE *PBYTE,*LPBYTE;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PINT-LPINT, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef int *PINT,*LPINT;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PWORD-LPWORD, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef WORD *PWORD,*LPWORD;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-LPLONG, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef long *LPLONG;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PDWORD-LPDWORD, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef DWORD *PDWORD,*LPDWORD;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PFLOAT, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef FLOAT *PFLOAT;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PUINT-LPUINT, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef UINT *PUINT,*LPUINT;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PCVOID-LPCVOID, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef CONST void *PCVOID,*LPCVOID;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-FARPROC, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef int (WINAPI *FARPROC)();", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-NEARPROC, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef int (WINAPI *NEARPROC)();", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PROC, kind: type, class: common, status: verified, introduced: "1.0", definition: "typedef int (WINAPI *PROC)();", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-HHOOK, kind: handle-type, class: common, status: verified, introduced: "1.0", definition: "typedef HANDLE HHOOK;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-HGLOBAL, kind: handle-type, class: common, status: verified, introduced: "1.0", definition: "typedef HANDLE HGLOBAL;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-HLOCAL, kind: handle-type, class: common, status: verified, introduced: "1.0", definition: "typedef HANDLE HLOCAL;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-GLOBALHANDLE, kind: handle-type, class: common, status: verified, introduced: "1.0", definition: "typedef HANDLE GLOBALHANDLE;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-LOCALHANDLE, kind: handle-type, class: common, status: verified, introduced: "1.0", definition: "typedef HANDLE LOCALHANDLE;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-HGDIOBJ, kind: handle-type, class: common, status: verified, introduced: "1.0", definition: "typedef void *HGDIOBJ;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-HMODULE, kind: handle-type, class: common, status: verified, introduced: "1.0", definition: "typedef HINSTANCE HMODULE;", target_header: windef.h, src: [mingw-org-w32api], notes: "LoadLibrary/GetProcAddress documented with HMODULE consumption"}
+- {id: windef-HCURSOR, kind: handle-type, class: common, status: verified, introduced: "1.0", definition: "typedef HICON HCURSOR;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-PHKEY, kind: handle-type, class: common, status: verified, introduced: "1.0", definition: "typedef HKEY *PHKEY;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-MAKEWORD, kind: macro, class: common, status: verified, introduced: "1.0", definition: "((WORD)(((BYTE)(a))|(((WORD)((BYTE)(b)))<<8)))", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-MAKELONG, kind: macro, class: common, status: verified, introduced: "1.0", definition: "((LONG)(((WORD)(a))|(((DWORD)((WORD)(b)))<<16)))", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-LOWORD, kind: macro, class: common, status: verified, introduced: "1.0", definition: "((WORD)((DWORD)(l)))", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-HIWORD, kind: macro, class: common, status: verified, introduced: "1.0", definition: "((WORD)(((DWORD)(l)>>16)&0xFFFF))", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-LOBYTE, kind: macro, class: common, status: verified, introduced: "1.0", definition: "((BYTE)(w))", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-HIBYTE, kind: macro, class: common, status: verified, introduced: "1.0", definition: "((BYTE)(((WORD)(w)>>8)&0xFF))", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-min, kind: macro, class: common, status: verified, introduced: "1.0", definition: "classic min(a,b) (NOMINMAX-gated at umbrella)", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-max, kind: macro, class: common, status: verified, introduced: "1.0", definition: "classic max(a,b) (NOMINMAX-gated at umbrella)", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-UNREFERENCED_PARAMETER, kind: macro, class: common, status: verified, introduced: "1.0", definition: "{(P)=(P);}", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-UNREFERENCED_LOCAL_VARIABLE, kind: macro, class: common, status: verified, introduced: "1.0", definition: "{(L)=(L);}", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-DBG_UNREFERENCED_PARAMETER, kind: macro, class: common, status: verified, introduced: "1.0", definition: "debug variant no-op", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-DBG_UNREFERENCED_LOCAL_VARIABLE, kind: macro, class: common, status: verified, introduced: "1.0", definition: "debug variant no-op", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-_export, kind: macro, class: common, status: verified, introduced: "1.0", definition: "empty", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-RECT, kind: structure, class: common, status: verified, introduced: "1.0", definition: "typedef struct tagRECT { LONG left, top, right, bottom; } RECT;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-RECTL, kind: structure, class: common, status: verified, introduced: "1.0", definition: "typedef struct _RECTL { LONG left, top, right, bottom; } RECTL;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-POINT, kind: structure, class: common, status: verified, introduced: "1.0", definition: "typedef struct tagPOINT { LONG x, y; } POINT;", target_header: windef.h, src: [mingw-org-w32api, mslearn-ce60], notes: "consumed by documented GWES APIs (MonitorFromPoint in cegcc-lineage ChangeLog.ce)"}
+- {id: windef-POINTL, kind: structure, class: common, status: verified, introduced: "1.0", definition: "typedef struct _POINTL { LONG x, y; } POINTL;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-SIZE, kind: structure, class: common, status: verified, introduced: "1.0", definition: "typedef struct tagSIZE { LONG cx, cy; } SIZE;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-SIZEL, kind: structure, class: common, status: verified, introduced: "1.0", definition: "typedef struct tagSIZEL { LONG cx, cy; } SIZEL;", target_header: windef.h, src: [mingw-org-w32api]}
+- {id: windef-MAKEINTATOM, kind: macro, class: common, status: verify-runtime, introduced: "1.0", definition: "((LPTSTR)((ULONG_PTR)((WORD)(i))))", target_header: windef.h, src: [mingw-org-w32api], notes: "depends on winnt pointer types; LPTSTR resolves wide per R-AW-4"}
+- {id: windef-_WNAME, kind: macro, class: ce-only, status: verified, introduced: "4.0", definition: "#ifdef _WIN32_WCE -> name; #else name##W", target_header: windef.h, src: [mingw-org-w32api], notes: "CeGCC-lineage machinery encoding the CE implicitly-wide-suffix-less export rule (unicode-aw-policy.md §2)"}

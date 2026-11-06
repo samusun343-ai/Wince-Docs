@@ -1,0 +1,992 @@
+[
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "IPPROTO_IP",
+"u": "aa450063(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "Using IPV6_PROTECTION_LEVEL",
+"u": "ms885779(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "IPPROTO_TCP",
+"u": "aa450065(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "IPPROTO_UDP",
+"u": "aa450066(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SOL_SOCKET",
+"u": "ms884940(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SOL_IRLMP",
+"u": "ms900408(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAECOMPARATOR",
+"u": "ms898736(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "accept (Windows Sockets)",
+"u": "aa450277(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "bind (Windows Sockets)",
+"u": "aa450301(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "closesocket",
+"u": "ms887908(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "connect (Windows Sockets)",
+"u": "ms887913(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "freeaddrinfo",
+"u": "aa450383(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getaddrinfo",
+"u": "aa450395(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "gethostbyaddr",
+"u": "aa450403(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "gethostbyname",
+"u": "aa450404(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "gethostname",
+"u": "aa450405(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getnameinfo",
+"u": "aa450416(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getpeername (Windows Sockets)",
+"u": "aa450420(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getsockname (Windows Sockets)",
+"u": "ms890293(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getsockopt (Windows Sockets)",
+"u": "ms890305(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "htonl",
+"u": "ms890324(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "htons",
+"u": "ms890325(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "inet_addr",
+"u": "ms890981(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "inet_ntoa",
+"u": "ms890984(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "ioctlsocket",
+"u": "ms891129(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "listen",
+"u": "ms894564(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "ntohl",
+"u": "ms895778(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "ntohs",
+"u": "ms895783(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "recv",
+"u": "aa450869(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "recvfrom",
+"u": "aa450870(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "select",
+"u": "aa450882(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "send",
+"u": "aa450883(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sendto",
+"u": "aa450885(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sethostname",
+"u": "aa450918(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "setsockopt (Windows Sockets)",
+"u": "aa450935(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "shutdown",
+"u": "aa450939(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "socket (Windows Sockets)",
+"u": "aa450958(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAAccept",
+"u": "ms898727(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAAddressToString",
+"u": "ms898728(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSACleanup",
+"u": "ms898730(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSACloseEvent",
+"u": "ms898731(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAConnect",
+"u": "ms898733(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSACreateEvent",
+"u": "ms898734(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAEnumNameSpaceProviders",
+"u": "ms898737(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAEnumNetworkEvents",
+"u": "ms898738(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAEnumProtocols",
+"u": "ms898739(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAEventSelect",
+"u": "ms898740(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAGetLastError",
+"u": "ms898741(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAGetOverlappedResult",
+"u": "ms898742(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAHtonl",
+"u": "ms898743(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAHtons",
+"u": "ms898744(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAIoctl",
+"u": "ms898745(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAJoinLeaf",
+"u": "ms898746(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSALookupServiceBegin (Windows Sockets)",
+"u": "ms898748(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSALookupServiceEnd (Windows Sockets)",
+"u": "ms898750(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSALookupServiceNext (Windows Sockets)",
+"u": "ms898752(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANSPIoctl",
+"u": "ms898755(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANtohl",
+"u": "ms898756(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANtohs",
+"u": "ms898757(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSARecv",
+"u": "ms898763(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSARecvFrom",
+"u": "ms898764(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAResetEvent",
+"u": "ms898765(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASend",
+"u": "ms898766(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASendTo",
+"u": "ms898767(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASetEvent",
+"u": "ms898769(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASetLastError",
+"u": "ms898770(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASetService (Windows Sockets)",
+"u": "ms898772(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASocket",
+"u": "ms898773(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAStartup",
+"u": "ms898774(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAStringToAddress",
+"u": "ms898775(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAWaitForMultipleEvents",
+"u": "ms900456(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "addrinfo",
+"u": "aa450282(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "AFPROTOCOLS",
+"u": "aa450284(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "BLOB (Windows Sockets)",
+"u": "aa450302(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "CSADDR_INFO",
+"u": "ms887919(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "fd_set",
+"u": "aa450370(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "hostent",
+"u": "ms890319(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "in_addr",
+"u": "ms890973(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "in6_addr",
+"u": "ms890972(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "linger",
+"u": "ms894561(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "NS_SERVICE_INFO",
+"u": "ms895775(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "PROTOCOL_INFO",
+"u": "ms896340(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "protoent",
+"u": "ms896341(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "servent",
+"u": "aa450886(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_ADDRESS",
+"u": "aa450894(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_ADDRESSES",
+"u": "aa450895(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_INFO",
+"u": "aa450902(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_TYPE_INFO_ABS",
+"u": "aa450910(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_TYPE_VALUE_ABS",
+"u": "aa450912(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sockaddr",
+"u": "aa450942(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sockaddr_in",
+"u": "aa450946(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sockaddr_in6",
+"u": "aa450948(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SOCKADDR_STORAGE",
+"u": "aa450952(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SOCKET_ADDRESS",
+"u": "aa450954(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "timeval",
+"u": "aa450970(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "TRANSMIT_FILE_BUFFERS",
+"u": "aa450974(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSABUF",
+"u": "ms898729(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSADATA",
+"u": "ms898735(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSACOMPLETION",
+"u": "ms898732(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANAMESPACE_INFO",
+"u": "ms898753(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANETWORKEVENTS",
+"u": "ms898754(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAOVERLAPPED",
+"u": "ms898758(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAPROTOCOL_INFO",
+"u": "ms898760(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAPROTOCOLCHAIN",
+"u": "ms898759(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAQUERYSET (Windows Sockets)",
+"u": "ms898762(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASERVICECLASSINFO",
+"u": "ms898768(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "Winsock Error Codes",
+"u": "aa450263(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "Secure Socket Control Codes",
+"u": "ms885824(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPCleanup",
+"u": "ms895725(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPGetServiceClassInfo",
+"u": "ms895733(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPInstallServiceClass",
+"u": "ms895740(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPLookupServiceBegin",
+"u": "ms895748(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPLookupServiceEnd",
+"u": "ms895751(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPLookupServiceNext",
+"u": "ms895756(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPRemoveServiceClass",
+"u": "ms895758(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPSetService",
+"u": "ms895766(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPStartup",
+"u": "ms895771(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCloseEvent",
+"u": "ms898715(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCloseSocketHandle",
+"u": "ms898716(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCompleteOverlappedRequest",
+"u": "ms900454(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCreateEvent",
+"u": "ms898717(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCreateSocketHandle",
+"u": "ms898718(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUFDIsSet",
+"u": "ms898719(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUGetProviderPath",
+"u": "ms898720(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUQueryBlockingCallback",
+"u": "ms898721(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUQuerySocketHandleContext",
+"u": "ms898722(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUResetEvent",
+"u": "ms898723(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUSetEvent",
+"u": "ms898724(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCDeinstallProvider",
+"u": "ms898778(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCEnumProtocols",
+"u": "ms898779(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCInstallNameSpace",
+"u": "ms898780(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCInstallProvider",
+"u": "ms898781(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCUnInstallNameSpace",
+"u": "ms898782(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPAccept",
+"u": "ms898783(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPAddressToString",
+"u": "ms898784(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPAsyncSelect",
+"u": "ms898785(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPBind",
+"u": "ms898786(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPCleanup",
+"u": "ms898787(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPCloseSocket",
+"u": "ms898788(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPConnect",
+"u": "ms898789(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPDuplicateSocket",
+"u": "ms898790(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPEnumNetworkEvents",
+"u": "ms898791(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPEventSelect",
+"u": "ms898792(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPGetOverlappedResult",
+"u": "ms898793(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPGetPeerName",
+"u": "ms898794(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPGetSockName",
+"u": "ms898811(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPGetSockOpt",
+"u": "ms898877(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPIoctl",
+"u": "ms898897(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPJoinLeaf",
+"u": "ms898901(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPListen",
+"u": "ms898902(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPRecv",
+"u": "ms898903(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPRecvDisconnect",
+"u": "ms898904(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPRecvFrom",
+"u": "ms898905(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSelect",
+"u": "ms898906(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSend",
+"u": "ms898907(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSendDisconnect",
+"u": "ms898908(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSendTo",
+"u": "ms898909(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSetSockOpt",
+"u": "ms898910(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPShutdown",
+"u": "ms898911(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSocket",
+"u": "ms898912(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPStartup",
+"u": "ms898913(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPStringToAddress",
+"u": "ms898915(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSP_Routine",
+"u": "ms895763(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSATHREADID",
+"u": "ms898776(v=msdn.10)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPDATA",
+"u": "ms900586(v=msdn.10)"
+}
+]

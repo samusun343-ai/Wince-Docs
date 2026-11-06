@@ -1,0 +1,860 @@
+[
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "WC_SIPPREF",
+"u": "ms914097(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNP",
+"u": "aa453728(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHChangeNotifyDeregister",
+"u": "aa453670(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHChangeNotifyFree",
+"u": "aa453672(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHChangeNotifyRegister",
+"u": "aa453673(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCloseApps",
+"u": "aa453674(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCreateMenuBar",
+"u": "aa453678(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCreateNewItem",
+"u": "aa453679(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHDoneButton",
+"u": "aa453682(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHEnumPropSheetHandlers",
+"u": "aa453688(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHFindMenuBar",
+"u": "aa453692(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHFreeContextMenuExtensions",
+"u": "aa453693(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHFullScreen",
+"u": "aa453694(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetAppKeyAssoc",
+"u": "aa453695(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetAutoRunPath",
+"u": "aa453696(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetEmergencyCallList",
+"u": "aa453699(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetInputContext",
+"u": "aa453701(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHHandleWMActivate",
+"u": "aa453710(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHHandleWMSettingChange",
+"u": "aa453711(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHInitDialog",
+"u": "aa453713(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHInitExtraControls",
+"u": "aa453715(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHInputDialog",
+"u": "aa453716(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHInvokeContextMenuCommand",
+"u": "aa453717(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHLoadContextMenuExtensions",
+"u": "aa453719(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNavigateBack",
+"u": "aa453722(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNotificationAdd",
+"u": "aa453723(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNotificationGetData",
+"u": "aa453725(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNotificationRemove",
+"u": "aa453726(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNotificationUpdate",
+"u": "aa453727(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHRecognizeGesture",
+"u": "aa453732(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetAppKeyWndAssoc",
+"u": "aa453734(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetBack",
+"u": "aa453735(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetInputContext",
+"u": "aa453736(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetNavBarText",
+"u": "aa453737(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSipInfo",
+"u": "aa453740(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSipPreference",
+"u": "aa453741(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "INewMenuItemServer::CreateNewItem",
+"u": "ms909846(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "IShellNotificationCallback::OnCommandSelected",
+"u": "ms909878(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "IShellNotificationCallback::OnDismiss",
+"u": "ms909879(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "IShellNotificationCallback::OnLinkSelected",
+"u": "ms909880(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetMenu",
+"u": "aa453703(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetSubMenu",
+"u": "aa453708(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetSubMenu",
+"u": "aa453738(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_GETAPPREGKEY",
+"u": "ms931663(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_GETPROPERTYBAG",
+"u": "ms931668(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_INVOKECOMMAND",
+"u": "ms931673(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_NEWBUTTONUPDATED",
+"u": "ms931677(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_NEWMENUDESTROY",
+"u": "ms931683(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCMBM_GETMENU",
+"u": "aa453675(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCMBM_GETSUBMENU",
+"u": "aa453676(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCMBM_SETSUBMENU",
+"u": "aa453677(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "WM_FILECHANGEINFO",
+"u": "aa453860(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "FILECHANGENOTIFY",
+"u": "aa453066(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMNEWMENU",
+"u": "ms931659(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHACTIVATEINFO",
+"u": "aa453665(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCHANGENOTIFYENTRY",
+"u": "aa453671(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHINITDLGINFO",
+"u": "aa453714(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHMENUBARINFO",
+"u": "aa453721(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNOTIFICATIONDATA",
+"u": "aa453724(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHRGINFO",
+"u": "aa453733(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGNO",
+"u": "aa453709(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BrowseCallbackProc",
+"u": "aa452900(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPlApplet",
+"u": "ms908154(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHAddToRecentDocs",
+"u": "aa453667(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHBindToParent",
+"u": "aa453668(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHBrowseForFolder",
+"u": "aa453669(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHCreateShortcut",
+"u": "aa453680(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHCreateShortcutEx",
+"u": "aa453681(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "Shell_NotifyIcon",
+"u": "aa453686(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ShellExecuteEx",
+"u": "aa453684(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHFileOperation",
+"u": "aa453690(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetDesktopFolder",
+"u": "aa453697(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetDocumentsFolder",
+"u": "aa453698(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetFileInfo",
+"u": "aa453700(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetMalloc",
+"u": "aa453702(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetPathFromIDList",
+"u": "aa453704(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetShortcutTarget",
+"u": "aa453705(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetSpecialFolderLocation",
+"u": "aa453706(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetSpecialFolderPath",
+"u": "aa453707(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHLoadDIBitmap",
+"u": "aa453720(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHShowOutOfMemory",
+"u": "aa453739(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "StrRetToBuf",
+"u": "ms940378(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IDropTarget::DragEnter",
+"u": "ms929937(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IDropTarget::DragLeave",
+"u": "ms929938(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IDropTarget::DragOver",
+"u": "ms929939(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IDropTarget::Drop",
+"u": "ms929940(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IPersistFolder::Initialize",
+"u": "ms909861(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::BindToObject",
+"u": "ms909868(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::CompareIDs",
+"u": "ms909869(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::CreateViewObject",
+"u": "ms909870(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::EnumObjects",
+"u": "ms909871(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::GetAttributesOf",
+"u": "ms909872(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::GetDisplayNameOf",
+"u": "ms909873(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::GetUIObjectOf",
+"u": "ms909874(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::ParseDisplayName",
+"u": "ms909875(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::SetNameOf",
+"u": "ms909876(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::AddPropertySheetPages",
+"u": "ms909882(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::CreateViewWindow",
+"u": "ms909883(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::DestroyViewWindow",
+"u": "ms909884(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::EnableModeless",
+"u": "ms909885(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::GetCurrentInfo",
+"u": "ms909886(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::GetItemObject",
+"u": "ms909887(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::Refresh",
+"u": "ms909889(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::SaveViewState",
+"u": "ms909890(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::SelectItem",
+"u": "ms909891(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::TranslateAccelerator",
+"u": "ms909892(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::UIActivate",
+"u": "ms909893(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::ActivateTab",
+"u": "aa453239(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::AddTab",
+"u": "aa453240(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::DeleteTab",
+"u": "aa453241(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::HrInit",
+"u": "aa453242(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::SetActiveAlt",
+"u": "aa453243(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList2::MarkFullscreenWindow",
+"u": "aa453238(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "MapWindowRect",
+"u": "ms911791(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SetDlgMsgResult",
+"u": "ms940022(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_ENABLEOK",
+"u": "aa452872(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_INITIALIZED",
+"u": "aa452873(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_SELCHANGED",
+"u": "aa452874(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_SETSELECTION",
+"u": "aa452875(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_SETSTATUSTEXT",
+"u": "aa452876(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_VALIDATEFAILED",
+"u": "aa452877(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_DBLCLK",
+"u": "ms908155(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_EXIT",
+"u": "ms908156(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_GETCOUNT",
+"u": "ms908157(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_INIT",
+"u": "ms908159(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_NEWINQUIRE",
+"u": "ms908160(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_STOP",
+"u": "ms908161(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_CHOOSEFONT_GETLOGFONT",
+"u": "ms914112(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_HELP",
+"u": "aa453866(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_HIBERNATE",
+"u": "aa453867(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_IM_INFO",
+"u": "aa453870(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_KEYFIRST",
+"u": "aa453874(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_KEYLAST",
+"u": "aa453875(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BROWSEINFO",
+"u": "aa452901(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPLINFO",
+"u": "ms908158(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITEMIDLIST",
+"u": "aa453244(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "NEWCPLINFO",
+"u": "ms931468(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "NOTIFYICONDATA",
+"u": "ms911889(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHELLEXECUTEINFO",
+"u": "aa453685(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHFILEINFO",
+"u": "aa453689(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHFILEOPSTRUCT",
+"u": "aa453691(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHITEMID",
+"u": "aa453718(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "STRRET",
+"u": "ms940377(v=msdn.10)"
+}
+]

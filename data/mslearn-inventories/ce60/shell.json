@@ -1,0 +1,5912 @@
+[
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "WC_SIPPREF",
+"u": "ee505451(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHChangeNotifyDeregister",
+"u": "ee503749(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHChangeNotifyFree",
+"u": "ee501944(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHChangeNotifyRegister",
+"u": "ee505504(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCloseApps",
+"u": "ee504878(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCreateMenuBar",
+"u": "ee505733(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCreateNewItem",
+"u": "ee499711(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHDoneButton",
+"u": "ee501411(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHEnumPropSheetHandlers",
+"u": "ee503460(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHFindMenuBar",
+"u": "ee502895(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHFreeContextMenuExtensions",
+"u": "ee504002(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHFullScreen",
+"u": "ee499392(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetAppKeyAssoc",
+"u": "ee504913(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetAutoRunPath",
+"u": "ee499395(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetEmergencyCallList",
+"u": "ee505687(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetInputContext",
+"u": "ee503391(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHHandleWMActivate",
+"u": "ee505093(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHHandleWMSettingChange",
+"u": "ee503952(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHInitDialog",
+"u": "ee501722(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHInitExtraControls",
+"u": "ee505073(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHInputDialog",
+"u": "ee505728(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHInvokeContextMenuCommand",
+"u": "ee504374(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHLoadContextMenuExtensions",
+"u": "ee500304(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNavigateBack",
+"u": "ee505691(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNotificationAdd",
+"u": "ee502854(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNotificationGetData",
+"u": "ee505032(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNotificationRemove",
+"u": "ee506289(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNotificationUpdate",
+"u": "ee505955(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHRecognizeGesture",
+"u": "ee503202(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetAppKeyWndAssoc",
+"u": "ee502925(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetBack",
+"u": "ee505469(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetInputContext",
+"u": "ee502532(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetNavBarText",
+"u": "ee503372(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSipInfo",
+"u": "ee504137(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSipPreference",
+"u": "ee506057(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "INewMenuItemServer::CreateNewItem",
+"u": "ee499368(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "IShellNotificationCallback::OnCommandSelected",
+"u": "ee505703(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "IShellNotificationCallback::OnDismiss",
+"u": "ee501149(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "IShellNotificationCallback::OnLinkSelected",
+"u": "ee502569(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetMenu",
+"u": "ee505261(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHGetSubMenu",
+"u": "ee506250(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHSetSubMenu",
+"u": "ee504533(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_GETAPPREGKEY",
+"u": "ee503945(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_GETPROPERTYBAG",
+"u": "ee505265(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_INVOKECOMMAND",
+"u": "ee502621(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_NEWBUTTONUPDATED",
+"u": "ee501920(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMN_NEWMENUDESTROY",
+"u": "ee505277(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCMBM_GETMENU",
+"u": "ee501734(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCMBM_GETSUBMENU",
+"u": "ee506060(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCMBM_SETSUBMENU",
+"u": "ee501721(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "WM_FILECHANGEINFO",
+"u": "ee501796(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "NMNEWMENU",
+"u": "ee501430(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHACTIVATEINFO",
+"u": "ee504903(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHCHANGENOTIFYENTRY",
+"u": "ee505840(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHINITDLGINFO",
+"u": "ee504339(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHMENUBARINFO",
+"u": "ee503215(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNOTIFICATIONDATA",
+"u": "ee499049(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHRGINFO",
+"u": "ee500594(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "FILECHANGENOTIFY",
+"u": "ee500811(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "AYGShell Reference",
+"t": "SHNP",
+"u": "ee501911(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ACN_START",
+"u": "ee506298(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ACN_STOP",
+"u": "ee505316(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Animation Controls Styles",
+"u": "ee502301(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ACM_OPEN (Shell and User Interface)",
+"u": "ee500212(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ACM_PLAY",
+"u": "ee503907(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ACM_STOP",
+"u": "ee504546(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Animate_Close",
+"u": "ee504340(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Animate_Create",
+"u": "ee502308(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Animate_Open",
+"u": "ee504130(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Animate_OpenEx",
+"u": "ee505264(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Animate_Play",
+"u": "ee502577(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Animate_Seek",
+"u": "ee500898(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Animate_Stop",
+"u": "ee501400(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CEM_ENABLEUPCASE",
+"u": "ee503180(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CEM_UPCASEALLWORDS",
+"u": "ee501760(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CAPEDIT Control",
+"u": "ee500173(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBands_AddAdornments",
+"u": "ee503915(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBands_AddBands",
+"u": "ee501773(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBands_Create",
+"u": "ee500877(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBands_GetCommandBar",
+"u": "ee505676(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBands_GetRestoreInformation",
+"u": "ee505304(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBands_Show",
+"u": "ee505887(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBands_Height",
+"u": "ee503950(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "COMMANDBANDSRESTOREINFO",
+"u": "ee505507(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_AddAdornments",
+"u": "ee501392(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_AddBitmap",
+"u": "ee504155(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_AlignAdornments",
+"u": "ee501797(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_Create",
+"u": "ee504517(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_DrawMenuBar",
+"u": "ee505864(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_GetMenu",
+"u": "ee500487(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_Height",
+"u": "ee500881(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_InsertComboBox",
+"u": "ee503989(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_InsertMenubar",
+"u": "ee505113(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_InsertMenubarEx",
+"u": "ee501421(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_Show",
+"u": "ee502524(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_AddButtons",
+"u": "ee505835(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_AddToolTips",
+"u": "ee501782(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_Destroy",
+"u": "ee502232(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_InsertButton",
+"u": "ee501745(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommandBar_IsVisible",
+"u": "ee503181(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_CLICK",
+"u": "ee506064(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_DBLCLK",
+"u": "ee503197(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_HOVER",
+"u": "ee502909(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_KEYDOWN",
+"u": "ee501423(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_KILLFOCUS",
+"u": "ee504121(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_OUTOFMEMORY",
+"u": "ee500887(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_RCLICK",
+"u": "ee505737(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_RDBLCLK",
+"u": "ee502829(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_RETURN",
+"u": "ee501954(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_SETFOCUS",
+"u": "ee499097(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "WM_NOTIFY",
+"u": "ee499390(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "INITCOMMONCONTROLSEX (structure)",
+"u": "ee503993(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMHDR",
+"u": "ee499357(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMKEY",
+"u": "ee499084(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMMOUSE",
+"u": "ee503139(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "InitCommonControls",
+"u": "ee501415(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "InitCommonControlsEx (function)",
+"u": "ee499702(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "FORWARD_WM_NOTIFY",
+"u": "ee505696(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HANDLE_WM_NOTIFY",
+"u": "ee501433(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "INDEXTOSTATEIMAGEMASK",
+"u": "ee505436(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CHOOSECOLOR (structure)",
+"u": "ee504571(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CHOOSEFONT (structure)",
+"u": "ee501939(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DEVNAMES",
+"u": "ee501791(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "OFNOTIFY",
+"u": "ee505954(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "OPENFILENAME",
+"u": "ee504545(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PAGESETUPDLG (structure)",
+"u": "ee499117(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PRINTDLG (structure)",
+"u": "ee499707(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CCHookProc",
+"u": "ee504873(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CFHookProc",
+"u": "ee505435(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ChooseColor (function)",
+"u": "ee499396(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ChooseFont (function)",
+"u": "ee504559(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CommDlgExtendedError",
+"u": "ee501735(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "GetOpenFileName",
+"u": "ee504341(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "GetSaveFileName",
+"u": "ee502844(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PagePaintHook",
+"u": "ee504096(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PageSetupDlg (function)",
+"u": "ee501755(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PageSetupHook",
+"u": "ee500247(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PrintDlg (function)",
+"u": "ee503940(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PrintHookProc",
+"u": "ee501756(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CDM_SETDEFEXT",
+"u": "ee501997(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CDN_TYPECHANGE",
+"u": "ee500501(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "WM_GETFONT",
+"u": "ee505668(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "WM_SETFONT",
+"u": "ee505942(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMCUSTOMDRAW",
+"u": "ee503123(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_CUSTOMDRAW",
+"u": "ee503743(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_GETMCCOLOR",
+"u": "ee506132(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_GETMCFONT",
+"u": "ee502254(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_GETMONTHCAL",
+"u": "ee504318(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_GETRANGE",
+"u": "ee504345(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_GETSYSTEMTIME",
+"u": "ee502299(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_SETFORMAT",
+"u": "ee500171(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_SETMCCOLOR",
+"u": "ee503164(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_SETMCFONT",
+"u": "ee503896(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_SETRANGE",
+"u": "ee499046(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTM_SETSYSTEMTIME",
+"u": "ee502617(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTN_CLOSEUP",
+"u": "ee499365(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTN_DATETIMECHANGE",
+"u": "ee503671(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTN_DROPDOWN",
+"u": "ee500854(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTN_FORMAT",
+"u": "ee501747(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTN_FORMATQUERY",
+"u": "ee499119(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTN_USERSTRING",
+"u": "ee505238(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DTN_WMKEYDOWN",
+"u": "ee503361(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMDATETIMECHANGE",
+"u": "ee504346(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMDATETIMEFORMAT",
+"u": "ee504553(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMDATETIMEFORMATQUERY",
+"u": "ee500862(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMDATETIMESTRING",
+"u": "ee504146(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMDATETIMEWMKEYDOWN",
+"u": "ee501427(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_GetMonthCal",
+"u": "ee501432(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_GetMonthCalColor",
+"u": "ee504312(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_GetMonthCalFont",
+"u": "ee499054(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_GetRange",
+"u": "ee503084(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_GetSystemtime",
+"u": "ee501443(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_SetFormat",
+"u": "ee504360(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_SetMonthCalColor",
+"u": "ee505061(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_SetMonthCalFont",
+"u": "ee499032(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_SetRange",
+"u": "ee502835(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DateTime_SetSystemtime",
+"u": "ee501963(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_BEGINDRAG",
+"u": "ee504847(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_BEGINTRACK",
+"u": "ee502304(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_DIVIDERDBLCLICK",
+"u": "ee504014(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_ENDDRAG",
+"u": "ee504309(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_ENDTRACK",
+"u": "ee503203(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_GETDISPINFO",
+"u": "ee503932(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_ITEMCHANGED",
+"u": "ee500299(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_ITEMCHANGING",
+"u": "ee502838(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_ITEMCLICK",
+"u": "ee502599(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_ITEMDBLCLICK",
+"u": "ee506239(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDN_TRACK",
+"u": "ee504148(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDHITTESTINFO",
+"u": "ee500875(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDITEM",
+"u": "ee502857(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDLAYOUT",
+"u": "ee499638(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMHDDISPINFO",
+"u": "ee500179(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMHEADER",
+"u": "ee503657(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_CreateDragImage",
+"u": "ee502565(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_DeleteItem",
+"u": "ee503380(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_GetImageList",
+"u": "ee505870(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_GetItem",
+"u": "ee504169(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_GetItemCount",
+"u": "ee503912(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_GetItemRect",
+"u": "ee499644(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_GetOrderArray",
+"u": "ee502527(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_InsertItem",
+"u": "ee500935(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_Layout",
+"u": "ee505662(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_OrderToIndex",
+"u": "ee499128(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_SetHotDivider",
+"u": "ee501240(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_SetImageList",
+"u": "ee501255(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_SetItem",
+"u": "ee505319(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "Header_SetOrderArray",
+"u": "ee503343(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_CREATEDRAGIMAGE",
+"u": "ee505503(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_DELETEITEM",
+"u": "ee503980(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_GETIMAGELIST",
+"u": "ee502008(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_GETITEM",
+"u": "ee505105(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_GETITEMCOUNT",
+"u": "ee504328(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_GETITEMRECT",
+"u": "ee504841(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_GETORDERARRAY",
+"u": "ee505423(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_HITTEST",
+"u": "ee502242(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_INSERTITEM",
+"u": "ee504887(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_LAYOUT",
+"u": "ee499651(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_ORDERTOINDEX",
+"u": "ee503497(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_SETHOTDIVIDER",
+"u": "ee503192(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_SETIMAGELIST",
+"u": "ee503094(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_SETITEM",
+"u": "ee499653(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "HDM_SETORDERARRAY",
+"u": "ee505702(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_ApproximateViewRect",
+"u": "ee499050(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_Arrange",
+"u": "ee502287(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_CreateDragImage",
+"u": "ee500891(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_DeleteAllItems",
+"u": "ee499740(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_DeleteColumn",
+"u": "ee501464(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_DeleteItem",
+"u": "ee504864(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_EditLabel",
+"u": "ee502543(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_EnableGroupView",
+"u": "ee500771(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_EnsureVisible",
+"u": "ee503137(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_FindItem",
+"u": "ee505059(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetBkColor",
+"u": "ee504851(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetBkImage",
+"u": "ee506277(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetCallbackMask",
+"u": "ee505891(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetCheckState",
+"u": "ee506114(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetColumn",
+"u": "ee501724(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetColumnOrderArray",
+"u": "ee505087(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetColumnWidth",
+"u": "ee504343(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetCountPerPage",
+"u": "ee503481(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetEditControl",
+"u": "ee502606(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetExtendedListViewStyle",
+"u": "ee505902(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetGroupCount",
+"u": "ee505433(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetGroupInfo",
+"u": "ee501238(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetGroupInfoByIndex",
+"u": "ee503717(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetGroupMetrics",
+"u": "ee505106(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetHeader",
+"u": "ee502883(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetImageList",
+"u": "ee502215(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetISearchString",
+"u": "ee503977(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetItem",
+"u": "ee505115(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetItemCount",
+"u": "ee505862(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetItemPosition",
+"u": "ee506062(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetItemRect",
+"u": "ee504338(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetItemSpacing",
+"u": "ee500216(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetItemState",
+"u": "ee504319(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetItemText",
+"u": "ee499661(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetNextItem",
+"u": "ee500160(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetNumberOfWorkAreas",
+"u": "ee505893(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetOrigin",
+"u": "ee501709(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetSelectedCount",
+"u": "ee499073(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetSelectionMark",
+"u": "ee504124(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetStringWidth",
+"u": "ee505083(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetSubItemRect",
+"u": "ee502309(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetTextBkColor",
+"u": "ee502537(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetTextColor",
+"u": "ee500184(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetToolTips",
+"u": "ee499377(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetTopIndex",
+"u": "ee505487(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetViewRect",
+"u": "ee501990(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_GetWorkAreas",
+"u": "ee501455(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_HasGroup",
+"u": "ee500841(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_HitTest",
+"u": "ee503175(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_InsertColumn",
+"u": "ee505104(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_InsertGroup",
+"u": "ee504520(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_InsertGroupSorted",
+"u": "ee500581(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_InsertItem",
+"u": "ee504899(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_IsGroupViewEnabled",
+"u": "ee502584(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_MapIDToIndex",
+"u": "ee502575(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_MapIndexToID",
+"u": "ee501716(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_MoveGroup",
+"u": "ee505894(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_MoveItemToGroup",
+"u": "ee500821(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_RedrawItems",
+"u": "ee501931(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_RemoveAllGroups",
+"u": "ee502288(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_RemoveGroup",
+"u": "ee505291(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_Scroll",
+"u": "ee504587(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetBkColor",
+"u": "ee500756(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetBkImage",
+"u": "ee500538(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetCallbackMask",
+"u": "ee505502(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetColumn",
+"u": "ee503366(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetColumnOrderArray",
+"u": "ee502253(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetColumnWidth",
+"u": "ee502910(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetExtendedListViewStyle",
+"u": "ee503709(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetExtendedListViewStyleEx",
+"u": "ee502551(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetGroupInfo",
+"u": "ee503147(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetGroupMetrics",
+"u": "ee500489(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetIconSpacing",
+"u": "ee504831(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetImageList",
+"u": "ee502596(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetInfoTip",
+"u": "ee504122(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetItem",
+"u": "ee499339(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetItemCount",
+"u": "ee504342(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetItemCountEx",
+"u": "ee501964(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetItemPosition",
+"u": "ee504890(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetItemPosition32",
+"u": "ee504349(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetItemState",
+"u": "ee499689(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetItemText",
+"u": "ee503906(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetSelectionMark",
+"u": "ee505244(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetTextBkColor",
+"u": "ee500787(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetTextColor",
+"u": "ee503687(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetToolTips",
+"u": "ee502881(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SetWorkAreas",
+"u": "ee500902(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SortGroups",
+"u": "ee500240(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SortItems",
+"u": "ee504158(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_SubItemHitTest",
+"u": "ee500933(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ListView_Update",
+"u": "ee500551(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_BEGINDRAG",
+"u": "ee502591(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_BEGINLABELEDIT",
+"u": "ee501422(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_COLUMNCLICK",
+"u": "ee501425(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_DELETEALLITEMS",
+"u": "ee499637(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_DELETEITEM",
+"u": "ee500597(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_ENDDRAG",
+"u": "ee505479(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_ENDLABELEDIT",
+"u": "ee505929(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_GETDISPINFO",
+"u": "ee504153(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_GETINFOTIP",
+"u": "ee504293(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_INSERTITEM",
+"u": "ee504880(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_ITEMACTIVATE",
+"u": "ee500812(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_ITEMCHANGED",
+"u": "ee504375(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_ITEMCHANGING",
+"u": "ee503403(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_KEYDOWN",
+"u": "ee500611(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_MARQUEEBEGIN",
+"u": "ee501068(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_ODCACHEHINT",
+"u": "ee501082(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_ODFINDITEM",
+"u": "ee504891(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_ODSTATECHANGED",
+"u": "ee499704(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVN_SETDISPINFO",
+"u": "ee506088(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LV_DISPINFO",
+"u": "ee501952(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LV_FINDINFO",
+"u": "ee506280(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVBKIMAGE",
+"u": "ee503719(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVCOLUMN",
+"u": "ee499089(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVFINDINFO",
+"u": "ee502876(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVGROUP",
+"u": "ee505521(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVGROUPMETRICS",
+"u": "ee499646(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVHITTESTINFO",
+"u": "ee499668(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVINSERTGROUPSORTED",
+"u": "ee501165(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVITEM",
+"u": "ee499667(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVSETINFOTIP",
+"u": "ee499045(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMLISTVIEW",
+"u": "ee504134(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMLVCACHEHINT",
+"u": "ee501127(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMLVCUSTOMDRAW",
+"u": "ee502571(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMLVFINDITEM",
+"u": "ee505948(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMLVGETINFOTIP",
+"u": "ee505839(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMLVKEYDOWN",
+"u": "ee502281(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMLVODSTATECHANGE",
+"u": "ee505905(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_APPROXIMATEVIEWRECT",
+"u": "ee504869(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_ARRANGE",
+"u": "ee502885(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_CREATEDRAGIMAGE",
+"u": "ee501078(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_DELETEALLITEMS",
+"u": "ee506080(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_DELETECOLUMN",
+"u": "ee506093(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_DELETEITEM",
+"u": "ee501445(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_EDITLABEL",
+"u": "ee500546(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_ENABLEGROUPVIEW",
+"u": "ee506260(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_ENSUREVISIBLE",
+"u": "ee501758(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_FINDITEM",
+"u": "ee505468(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETBKCOLOR",
+"u": "ee501050(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETBKIMAGE",
+"u": "ee502262(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETCALLBACKMASK",
+"u": "ee501956(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETCOLUMN",
+"u": "ee505847(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETCOLUMNORDERARRAY",
+"u": "ee504127(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETCOLUMNWIDTH",
+"u": "ee501953(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETCOUNTPERPAGE",
+"u": "ee501768(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETEDITCONTROL",
+"u": "ee499397(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETEXTENDEDLISTVIEWSTYLE",
+"u": "ee500852(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETGROUPCOUNT",
+"u": "ee502550(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETGROUPINFO",
+"u": "ee501072(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETGROUPINFOBYINDEX",
+"u": "ee503981(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETGROUPMETRICS",
+"u": "ee504565(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETHEADER",
+"u": "ee505510(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETIMAGELIST",
+"u": "ee505279(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETISEARCHSTRING",
+"u": "ee501476(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETITEM",
+"u": "ee504183(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETITEMCOUNT",
+"u": "ee501439(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETITEMPOSITION",
+"u": "ee502907(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETITEMRECT",
+"u": "ee501198(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETITEMSPACING",
+"u": "ee505448(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETITEMSTATE",
+"u": "ee505897(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETITEMTEXT",
+"u": "ee501055(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETNEXTITEM",
+"u": "ee503511(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETNUMBEROFWORKAREAS",
+"u": "ee499347(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETORIGIN",
+"u": "ee502251(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETSELECTEDCOUNT",
+"u": "ee505441(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETSELECTIONMARK",
+"u": "ee499388(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETSTRINGWIDTH",
+"u": "ee505647(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETSUBITEMRECT",
+"u": "ee506129(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETTEXTBKCOLOR",
+"u": "ee500866(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETTEXTCOLOR",
+"u": "ee501759(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETTOOLTIPS",
+"u": "ee503323(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETTOPINDEX",
+"u": "ee505720(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETVIEWRECT",
+"u": "ee501156(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_GETWORKAREAS",
+"u": "ee505108(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_HASGROUP",
+"u": "ee501154(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_HITTEST",
+"u": "ee500151(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_INSERTCOLUMN",
+"u": "ee500914(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_INSERTGROUP",
+"u": "ee502600(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_INSERTGROUPSORTED",
+"u": "ee504126(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_INSERTITEM",
+"u": "ee505858(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_ISGROUPVIEWENABLED",
+"u": "ee504885(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_MAPIDTOINDEX",
+"u": "ee502237(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_MAPINDEXTOID",
+"u": "ee502563(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_MOVEGROUP",
+"u": "ee503663(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_MOVEITEMTOGROUP",
+"u": "ee499639(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_REDRAWITEMS",
+"u": "ee502588(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_REMOVEALLGROUPS",
+"u": "ee506045(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_REMOVEGROUP",
+"u": "ee502603(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SCROLL",
+"u": "ee502580(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETBKCOLOR",
+"u": "ee500910(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETBKIMAGE",
+"u": "ee505470(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETCALLBACKMASK",
+"u": "ee506290(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETCOLUMN",
+"u": "ee502276(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETCOLUMNORDERARRAY",
+"u": "ee502623(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETCOLUMNWIDTH",
+"u": "ee503088(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETEXTENDEDLISTVIEWSTYLE",
+"u": "ee501472(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETGROUPINFO",
+"u": "ee500145(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETGROUPMETRICS",
+"u": "ee504552(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETICONSPACING",
+"u": "ee502839(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETIMAGELIST",
+"u": "ee506262(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETINFOTIP",
+"u": "ee503490(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETITEM",
+"u": "ee506098(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETITEMCOUNT",
+"u": "ee499659(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETITEMPOSITION",
+"u": "ee505242(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETITEMPOSITION32",
+"u": "ee499654(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETITEMSTATE",
+"u": "ee505229(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETITEMTEXT",
+"u": "ee500157(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETSELECTIONMARK",
+"u": "ee502004(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETTEXTBKCOLOR",
+"u": "ee506249(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETTEXTCOLOR",
+"u": "ee499394(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETTOOLTIPS",
+"u": "ee501405(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SETWORKAREAS",
+"u": "ee505305(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SORTGROUPS",
+"u": "ee504139(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SORTITEMS",
+"u": "ee501456(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_SUBITEMHITTEST",
+"u": "ee506095(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "LVM_UPDATE",
+"u": "ee503216(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetColor",
+"u": "ee506257(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetCurSel",
+"u": "ee506152(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetFirstDayOfWeek",
+"u": "ee501916(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetMaxSelCount",
+"u": "ee505289(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetMaxTodayWidth",
+"u": "ee504861(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetMinReqRect",
+"u": "ee499093(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetMonthDelta",
+"u": "ee505082(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetMonthRange",
+"u": "ee504172(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetRange",
+"u": "ee505267(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetSelRange",
+"u": "ee505027(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_GetToday",
+"u": "ee503704(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_HitTest",
+"u": "ee503201(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_SetColor",
+"u": "ee499685(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_SetCurSel",
+"u": "ee501962(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_SetDayState",
+"u": "ee503205(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_SetFirstDayOfWeek",
+"u": "ee499074(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_SetMaxSelCount",
+"u": "ee501474(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_SetMonthDelta",
+"u": "ee506272(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_SetRange",
+"u": "ee500155(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_SetSelRange",
+"u": "ee501761(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MonthCal_SetToday",
+"u": "ee503478(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCN_GETDAYSTATE",
+"u": "ee505102(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCN_SELCHANGE",
+"u": "ee502256(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCN_SELECT",
+"u": "ee499035(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCN_SELECTNONE",
+"u": "ee503677(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCHITTESTINFO",
+"u": "ee499735(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMDAYSTATE",
+"u": "ee499660(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMSELCHANGE",
+"u": "ee500921(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETCOLOR",
+"u": "ee502859(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETCURSEL",
+"u": "ee503697(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETFIRSTDAYOFWEEK",
+"u": "ee501258(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETMAXNONEWIDTH",
+"u": "ee501469(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETMAXSELCOUNT",
+"u": "ee505467(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETMAXTODAYWIDTH",
+"u": "ee504570(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETMINREQRECT",
+"u": "ee501793(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETMONTHDELTA",
+"u": "ee506112(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETMONTHRANGE",
+"u": "ee504331(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETRANGE",
+"u": "ee500802(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETSELRANGE",
+"u": "ee502920(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_GETTODAY",
+"u": "ee502312(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_HITTEST",
+"u": "ee499759(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_SETCOLOR",
+"u": "ee504018(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_SETCURSEL",
+"u": "ee504538(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_SETDAYSTATE",
+"u": "ee501452(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_SETFIRSTDAYOFWEEK",
+"u": "ee504544(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_SETMAXSELCOUNT",
+"u": "ee505118(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_SETMONTHDELTA",
+"u": "ee502310(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_SETRANGE",
+"u": "ee499382(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_SETSELRANGE",
+"u": "ee500468(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "MCM_SETTODAY",
+"u": "ee499078(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PBM_DELTAPOS",
+"u": "ee505116(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PBM_GETPOS",
+"u": "ee502856(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PBM_GETRANGE",
+"u": "ee503651(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PBM_SETPOS",
+"u": "ee500225(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PBM_SETRANGE",
+"u": "ee505035(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PBM_SETRANGE32",
+"u": "ee499086(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PBM_SETSTEP",
+"u": "ee499652(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PBM_STEPIT",
+"u": "ee500534(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PBRANGE",
+"u": "ee502904(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "AddPropSheetPageProc",
+"u": "ee502294(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CreatePropertySheetPage",
+"u": "ee504871(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DestroyPropertySheetPage",
+"u": "ee504609(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "ExtensionPropSheetPageProc",
+"u": "ee501163(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropertySheet",
+"u": "ee504087(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheetPageProc",
+"u": "ee505101(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheetProc",
+"u": "ee503922(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_ADDPAGE",
+"u": "ee501932(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_APPLY",
+"u": "ee505497(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_CANCELTOCLOSE",
+"u": "ee503340(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_CHANGED",
+"u": "ee506070(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_GETCURRENTPAGEHWND",
+"u": "ee502886(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_GETTABCONTROL",
+"u": "ee502292(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_ISDIALOGMESSAGE",
+"u": "ee504045(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_PRESSBUTTON",
+"u": "ee505307(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_QUERYSIBLINGS",
+"u": "ee505844(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_REBOOTSYSTEM",
+"u": "ee505878(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_REMOVEPAGE",
+"u": "ee500832(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_RESTARTWINDOWS",
+"u": "ee501227(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_SETCURSEL",
+"u": "ee503129(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_SETCURSELID",
+"u": "ee502302(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_SETFINISHTEXT",
+"u": "ee501707(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_SETTITLE",
+"u": "ee506039(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_SETWIZBUTTONS",
+"u": "ee504897(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSM_UNCHANGED",
+"u": "ee503212(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSN_APPLY",
+"u": "ee505667(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSN_HELP",
+"u": "ee505843(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSN_KILLACTIVE",
+"u": "ee502529(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSN_QUERYCANCEL",
+"u": "ee505046(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSN_RESET",
+"u": "ee499039(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSN_SETACTIVE",
+"u": "ee505842(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PROPSHEETHEADER",
+"u": "ee503225(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PROPSHEETPAGE",
+"u": "ee504213(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PSHNOTIFY",
+"u": "ee501184(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_AddPage",
+"u": "ee504324(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_Apply",
+"u": "ee501234(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_CancelToClose",
+"u": "ee500153(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_Changed",
+"u": "ee503741(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_GetCurrentPageHwnd",
+"u": "ee504576(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_GetTabControl",
+"u": "ee500476(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_IsDialogMessage",
+"u": "ee500814(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_PressButton",
+"u": "ee503170(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_QuerySiblings",
+"u": "ee499405(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_RebootSystem",
+"u": "ee502868(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_RemovePage",
+"u": "ee501220(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_RestartWindows",
+"u": "ee499121(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_SetCurSel",
+"u": "ee500580(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_SetCurSelByID",
+"u": "ee504902(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_SetFinishText",
+"u": "ee499642(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_SetTitle",
+"u": "ee505454(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_SetWizButtons",
+"u": "ee500824(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "PropSheet_UnChanged",
+"u": "ee502578(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMRBAUTOSIZE",
+"u": "ee505109(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMREBAR",
+"u": "ee502576(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RBHITTESTINFO",
+"u": "ee505740(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "REBARBANDINFO",
+"u": "ee503418(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "REBARINFO",
+"u": "ee504635(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_DELETEBAND",
+"u": "ee503726(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETBANDBORDERS",
+"u": "ee499684(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETBANDCOUNT",
+"u": "ee503692(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETBANDINFO",
+"u": "ee502274(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETBARHEIGHT",
+"u": "ee499361(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETBARINFO",
+"u": "ee501130(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETBKCOLOR",
+"u": "ee506118(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETRECT",
+"u": "ee500235(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETROWCOUNT",
+"u": "ee504894(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETROWHEIGHT",
+"u": "ee504290(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_GETTEXTCOLOR",
+"u": "ee503696(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_HITTEST",
+"u": "ee503401(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_IDTOINDEX",
+"u": "ee501727(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_INSERTBAND",
+"u": "ee504296(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_MAXIMIZEBAND",
+"u": "ee502622(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_MINIMIZEBAND",
+"u": "ee505076(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_SETBANDINFO",
+"u": "ee504906(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_SETBARINFO",
+"u": "ee503678(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_SETBKCOLOR",
+"u": "ee501790(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_SETPARENT",
+"u": "ee506092(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_SETTEXTCOLOR",
+"u": "ee503378(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_SHOWBAND",
+"u": "ee503162(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RB_SIZETORECT",
+"u": "ee506157(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RBN_AUTOSIZE",
+"u": "ee505917(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RBN_BEGINDRAG",
+"u": "ee502918(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RBN_ENDDRAG",
+"u": "ee502275(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RBN_HEIGHTCHANGE",
+"u": "ee500142(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "RBN_LAYOUTCHANGED",
+"u": "ee505303(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SBEDIT Control",
+"u": "ee505080(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CreateStatusWindow",
+"u": "ee500873(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "DrawStatusText",
+"u": "ee505247(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SBN_SIMPLEMODECHANGE",
+"u": "ee501969(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_GETBORDERS",
+"u": "ee501096(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_GETICON",
+"u": "ee503475(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_GETPARTS",
+"u": "ee503172(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_GETRECT",
+"u": "ee506167(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_GETTEXT",
+"u": "ee504107(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_GETTEXTLENGTH",
+"u": "ee503610(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_ISSIMPLE",
+"u": "ee505464(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_SETBKCOLOR",
+"u": "ee501923(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_SETICON",
+"u": "ee503971(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_SETMINHEIGHT",
+"u": "ee506083(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_SETPARTS",
+"u": "ee503146(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_SETTEXT",
+"u": "ee505892(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "SB_SIMPLE",
+"u": "ee505297(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_AdjustRect",
+"u": "ee506296(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_DeleteAllItems",
+"u": "ee505090(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_DeleteItem",
+"u": "ee502840(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_DeselectAll",
+"u": "ee501093(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_GetCurFocus",
+"u": "ee499418(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_GetCurSel",
+"u": "ee503211(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_GetExtendedStyle",
+"u": "ee504629(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_GetImageList",
+"u": "ee501795(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_GetItem",
+"u": "ee500280(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_GetItemCount",
+"u": "ee503407(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_GetItemRect",
+"u": "ee502601(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_GetRowCount",
+"u": "ee499100(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_HighlightItem",
+"u": "ee501986(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_HitTest",
+"u": "ee506074(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_InsertItem",
+"u": "ee503997(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_RemoveImage",
+"u": "ee501142(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_SetCurFocus",
+"u": "ee501136(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_SetCurSel",
+"u": "ee500759(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_SetExtendedStyle",
+"u": "ee502211(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_SetImageList",
+"u": "ee502880(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_SetItem",
+"u": "ee504372(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_SetItemExtra",
+"u": "ee503758(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_SetItemSize",
+"u": "ee505904(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_SetMinTabWidth",
+"u": "ee503228(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TabCtrl_SetPadding",
+"u": "ee499359(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCN_KEYDOWN",
+"u": "ee504524(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCN_SELCHANGE",
+"u": "ee506058(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCN_SELCHANGING",
+"u": "ee504382(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMTCKEYDOWN",
+"u": "ee503518(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCHITTESTINFO",
+"u": "ee503649(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCITEM",
+"u": "ee504373(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCITEMHEADER",
+"u": "ee501148(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_ADJUSTRECT",
+"u": "ee505049(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_DELETEALLITEMS",
+"u": "ee505042(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_DELETEITEM",
+"u": "ee501062(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_DESELECTALL",
+"u": "ee501106(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_GETCURFOCUS",
+"u": "ee499677(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_GETCURSEL",
+"u": "ee505438(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_GETEXTENDEDSTYLE",
+"u": "ee501705(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_GETIMAGELIST",
+"u": "ee501776(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_GETITEM",
+"u": "ee499064(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_GETITEMCOUNT",
+"u": "ee504090(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_GETITEMRECT",
+"u": "ee500844(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_GETROWCOUNT",
+"u": "ee499760(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_HIGHLIGHTITEM",
+"u": "ee505489(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_HITTEST",
+"u": "ee506090(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_INSERTITEM",
+"u": "ee499671(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_REMOVEIMAGE",
+"u": "ee500458(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_SETCURFOCUS",
+"u": "ee500560(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_SETCURSEL",
+"u": "ee506073(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_SETEXTENDEDSTYLE",
+"u": "ee504100(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_SETIMAGELIST",
+"u": "ee506066(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_SETITEM",
+"u": "ee501950(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_SETITEMEXTRA",
+"u": "ee504531(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_SETITEMSIZE",
+"u": "ee501449(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_SETMINTABWIDTH",
+"u": "ee504118(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TCM_SETPADDING",
+"u": "ee506165(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CreateToolbarEx",
+"u": "ee501151(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBN_BEGINDRAG",
+"u": "ee505645(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBN_DRAGOUT",
+"u": "ee505665(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBN_DROPDOWN",
+"u": "ee501733(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBN_ENDDRAG",
+"u": "ee502548(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBN_GETBUTTONINFO",
+"u": "ee504850(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBBUTTON",
+"u": "ee500628(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBBUTTONINFO",
+"u": "ee503445(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBREPLACEBITMAP",
+"u": "ee500497(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMTOOLBAR",
+"u": "ee500768(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBADDBITMAP",
+"u": "ee503190(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ADDBITMAP",
+"u": "ee501069(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ADDBUTTONS",
+"u": "ee505248(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ADDSTRING",
+"u": "ee505877(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_AUTOSIZE",
+"u": "ee504914(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_BUTTONCOUNT",
+"u": "ee503151(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_BUTTONSTRUCTSIZE",
+"u": "ee505946(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_CHANGEBITMAP",
+"u": "ee503694(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_CHECKBUTTON",
+"u": "ee506077(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_COMMANDTOINDEX",
+"u": "ee503087(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_DELETEBUTTON",
+"u": "ee503754(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ENABLEBUTTON",
+"u": "ee505866(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETBITMAP",
+"u": "ee501390(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETBITMAPFLAGS",
+"u": "ee505869(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETBUTTON",
+"u": "ee502525(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETBUTTONINFO",
+"u": "ee506276(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETBUTTONSIZE",
+"u": "ee504030(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETBUTTONTEXT",
+"u": "ee505924(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETDISABLEDIMAGELIST",
+"u": "ee503930(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETIMAGELIST",
+"u": "ee500919(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETITEMRECT",
+"u": "ee503947(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETRECT",
+"u": "ee505937(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETROWS",
+"u": "ee499336(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETSTATE",
+"u": "ee504613(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETSTYLE",
+"u": "ee501945(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETTEXTROWS",
+"u": "ee505079(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_GETTOOLTIPS",
+"u": "ee503411(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_HIDEBUTTON",
+"u": "ee499643(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_HIGHLIGHTBUTTON",
+"u": "ee503901(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_INDETERMINATE",
+"u": "ee499414(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_INSERTBUTTON",
+"u": "ee505255(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ISBUTTONCHECKED",
+"u": "ee501167(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ISBUTTONENABLED",
+"u": "ee503360(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ISBUTTONHIDDEN",
+"u": "ee499417(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ISBUTTONHIGHLIGHTED",
+"u": "ee503890(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ISBUTTONINDETERMINATE",
+"u": "ee499406(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_ISBUTTONPRESSED",
+"u": "ee502877(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_LOADIMAGES",
+"u": "ee504825(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_PRESSBUTTON",
+"u": "ee506265(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_REPLACEBITMAP",
+"u": "ee503891(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETBITMAPSIZE",
+"u": "ee505462(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETBUTTONINFO",
+"u": "ee502217(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETBUTTONSIZE",
+"u": "ee500169(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETBUTTONWIDTH",
+"u": "ee505081(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETCMDID",
+"u": "ee499085(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETDISABLEDIMAGELIST",
+"u": "ee504539(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETDRAWTEXTFLAGS",
+"u": "ee505659(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETIMAGELIST",
+"u": "ee506041(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETINDENT",
+"u": "ee503713(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETMAXTEXTROWS",
+"u": "ee501922(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETPARENT",
+"u": "ee505640(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETROWS",
+"u": "ee505290(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETSTATE",
+"u": "ee505449(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETSTYLE",
+"u": "ee506082(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TB_SETTOOLTIPS",
+"u": "ee501391(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_ACTIVATE",
+"u": "ee504837(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_ADDTOOL",
+"u": "ee505490(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_DELTOOL",
+"u": "ee505097(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_ENUMTOOLS",
+"u": "ee500773(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_GETCURRENTTOOL",
+"u": "ee502853(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_GETDELAYTIME",
+"u": "ee501442(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_GETMARGIN",
+"u": "ee500156(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_GETMAXTIPWIDTH",
+"u": "ee505692(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_GETTEXT",
+"u": "ee503413(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_GETTIPBKCOLOR",
+"u": "ee503106(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_GETTIPTEXTCOLOR",
+"u": "ee500864(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_GETTOOLCOUNT",
+"u": "ee503904(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_GETTOOLINFO",
+"u": "ee506241(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_HITTEST",
+"u": "ee503499(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_NEWTOOLRECT",
+"u": "ee504023(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_POP",
+"u": "ee501134(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_RELAYEVENT",
+"u": "ee505500(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_SETDELAYTIME",
+"u": "ee502284(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_SETMARGIN",
+"u": "ee504022(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_SETMAXTIPWIDTH",
+"u": "ee502291(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_SETTIPBKCOLOR",
+"u": "ee505317(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_SETTIPTEXTCOLOR",
+"u": "ee503320(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_SETTOOLINFO",
+"u": "ee500515(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_TRACKACTIVATE",
+"u": "ee501190(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_TRACKPOSITION",
+"u": "ee504351(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_UPDATETIPTEXT",
+"u": "ee502841(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTM_WINDOWFROMPOINT",
+"u": "ee504156(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMTTCUSTOMDRAW",
+"u": "ee505425(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMTTDISPINFO",
+"u": "ee503357(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TOOLINFO",
+"u": "ee500609(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTHITTESTINFO",
+"u": "ee500158(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTN_GETDISPINFO",
+"u": "ee503153(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTN_NEEDTEXT",
+"u": "ee505306(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTN_POP",
+"u": "ee503685(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TTN_SHOW",
+"u": "ee505637(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_CLEARSEL",
+"u": "ee504368(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_CLEARTICS",
+"u": "ee502306(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETBUDDY",
+"u": "ee504912(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETCHANNELRECT",
+"u": "ee503385(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETLINESIZE",
+"u": "ee505052(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETNUMTICS",
+"u": "ee500908(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETPAGESIZE",
+"u": "ee502583(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETPOS",
+"u": "ee500800(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETPTICS",
+"u": "ee499411(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETRANGEMAX",
+"u": "ee505495(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETRANGEMIN",
+"u": "ee502258(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETSELEND",
+"u": "ee504188(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETSELSTART",
+"u": "ee504835(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETTHUMBLENGTH",
+"u": "ee505270(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETTHUMBRECT",
+"u": "ee504354(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETTIC",
+"u": "ee499425(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_GETTICPOS",
+"u": "ee505899(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETBUDDY",
+"u": "ee499118(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETLINESIZE",
+"u": "ee506053(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETPAGESIZE",
+"u": "ee499364(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETPOS",
+"u": "ee505726(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETRANGE",
+"u": "ee505475(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETRANGEMAX",
+"u": "ee506155(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETRANGEMIN",
+"u": "ee501965(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETSEL",
+"u": "ee505633(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETSELEND",
+"u": "ee500836(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETSELSTART",
+"u": "ee504527(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETTHUMBLENGTH",
+"u": "ee500454(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETTIC",
+"u": "ee499343(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TBM_SETTICFREQ",
+"u": "ee499362(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_CreateDragImage",
+"u": "ee502528(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_DeleteAllItems",
+"u": "ee504099(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_DeleteItem",
+"u": "ee505641(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_EditLabel",
+"u": "ee502832(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_EndEditLabelNow",
+"u": "ee505838(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_EnsureVisible",
+"u": "ee499349(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_Expand",
+"u": "ee502902(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetChild",
+"u": "ee499401(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetCount",
+"u": "ee506069(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetDropHilight",
+"u": "ee501172(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetEditControl",
+"u": "ee505224(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetFirstVisible",
+"u": "ee501428(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetImageList",
+"u": "ee504911(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetIndent",
+"u": "ee502831(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetISearchString",
+"u": "ee505876(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetItem",
+"u": "ee505421(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetItemRect",
+"u": "ee501746(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetNextItem",
+"u": "ee500194(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetNextSibling",
+"u": "ee504529(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetNextVisible",
+"u": "ee499747(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetParent",
+"u": "ee502219(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetPrevSibling",
+"u": "ee504301(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetPrevVisible",
+"u": "ee505511(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetRoot",
+"u": "ee506138(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetSelection",
+"u": "ee501978(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_GetVisibleCount",
+"u": "ee504361(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_HitTest",
+"u": "ee500474(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_InsertItem",
+"u": "ee502849(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_Select",
+"u": "ee505673(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_SelectDropTarget",
+"u": "ee499096(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_SelectItem",
+"u": "ee505094(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_SelectSetFirstVisible",
+"u": "ee504143(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_SetImageList",
+"u": "ee503428(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_SetIndent",
+"u": "ee504643(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_SetItem",
+"u": "ee504381(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_SortChildren",
+"u": "ee504879(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TreeView_SortChildrenCB",
+"u": "ee503702(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_BEGINDRAG",
+"u": "ee500856(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_BEGINLABELEDIT",
+"u": "ee506051(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_DELETEITEM",
+"u": "ee499402(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_ENDLABELEDIT",
+"u": "ee502567(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_GETDISPINFO",
+"u": "ee506261(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_ITEMEXPANDED",
+"u": "ee502307(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_ITEMEXPANDING",
+"u": "ee506244(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_KEYDOWN",
+"u": "ee501446(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_SELCHANGED",
+"u": "ee499067(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_SELCHANGING",
+"u": "ee504150(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVN_SETDISPINFO",
+"u": "ee505652(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NM_TREEVIEW",
+"u": "ee502581(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMTVCUSTOMDRAW",
+"u": "ee499431(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMTVKEYDOWN",
+"u": "ee505088(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TV_DISPINFO",
+"u": "ee502271(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TV_HITTESTINFO",
+"u": "ee505458(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TV_INSERTSTRUCT",
+"u": "ee505024(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TV_ITEM",
+"u": "ee505875(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TV_KEYDOWN",
+"u": "ee501252(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TV_SORTCB",
+"u": "ee502594(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVHITTESTINFO",
+"u": "ee501207(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVITEM",
+"u": "ee502863(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVSORTCB",
+"u": "ee503747(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_CREATEDRAGIMAGE",
+"u": "ee503908(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_DELETEITEM",
+"u": "ee501463(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_EDITLABEL",
+"u": "ee500504(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_ENDEDITLABELNOW",
+"u": "ee503903(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_ENSUREVISIBLE",
+"u": "ee506295(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_EXPAND",
+"u": "ee505064(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_GETCOUNT",
+"u": "ee500900(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_GETEDITCONTROL",
+"u": "ee500257(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_GETIMAGELIST",
+"u": "ee505730(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_GETINDENT",
+"u": "ee503141(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_GETISEARCHSTRING",
+"u": "ee505443(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_GETITEM",
+"u": "ee499698(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_GETITEMRECT",
+"u": "ee503167(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_GETNEXTITEM",
+"u": "ee503974(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_GETVISIBLECOUNT",
+"u": "ee504581(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_HITTEST",
+"u": "ee505066(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_INSERTITEM",
+"u": "ee505890(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_SELECTITEM",
+"u": "ee505440(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_SETIMAGELIST",
+"u": "ee501196(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_SETINDENT",
+"u": "ee500925(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_SETITEM",
+"u": "ee501181(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_SETITEMSPACING",
+"u": "ee500493(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_SORTCHILDREN",
+"u": "ee499373(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "TVM_SORTCHILDRENCB",
+"u": "ee503699(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "CreateUpDownControl",
+"u": "ee499376(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "NMUPDOWN",
+"u": "ee505848(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDACCEL",
+"u": "ee505089(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_GETACCEL",
+"u": "ee501736(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_GETBASE",
+"u": "ee501479(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_GETBUDDY",
+"u": "ee504095(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_GETPOS",
+"u": "ee503590(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_GETPOS32",
+"u": "ee499104(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_GETRANGE",
+"u": "ee503645(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_GETRANGE32",
+"u": "ee499690(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_SETACCEL",
+"u": "ee505686(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_SETBASE",
+"u": "ee502319(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_SETBUDDY",
+"u": "ee506079(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_SETPOS",
+"u": "ee500233(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_SETPOS32",
+"u": "ee500793(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_SETRANGE",
+"u": "ee505671(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDM_SETRANGE32",
+"u": "ee500809(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Common Controls Reference",
+"t": "UDN_DELTAPOS",
+"u": "ee503889(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "IOCTL_CONSOLE_CLS",
+"u": "ee499705(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "IOCTL_CONSOLE_FLUSHINPUT",
+"u": "ee505286(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "IOCTL_CONSOLE_GETMODE",
+"u": "ee500290(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "IOCTL_CONSOLE_GETSCREENCOLS",
+"u": "ee503425(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "IOCTL_CONSOLE_GETSCREENROWS",
+"u": "ee499109(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "IOCTL_CONSOLE_GETTITLE",
+"u": "ee505272(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "IOCTL_CONSOLE_SETCONTROLCEVENT",
+"u": "ee504518(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "IOCTL_CONSOLE_SETMODE",
+"u": "ee505685(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "IOCTL_CONSOLE_SETTITLE",
+"u": "ee502566(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Console Reference",
+"t": "Console Flags",
+"u": "ee500903(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Shell OS Reference",
+"t": "ShellRegisterCallbacks",
+"u": "ee504307(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Shell OS Reference",
+"t": "BacklightAdvApplet",
+"u": "ee500202(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Shell OS Reference",
+"t": "DrvAdvPageSetupDlg",
+"u": "ee505021(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Shell OS Reference",
+"t": "SHELLCALLBACKS",
+"u": "ee505266(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGNO",
+"u": "ee504556(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IDropTarget::DragEnter",
+"u": "ee501480(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IDropTarget::DragLeave",
+"u": "ee502265(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IDropTarget::DragOver",
+"u": "ee504910(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IDropTarget::Drop",
+"u": "ee502554(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::BindToObject",
+"u": "ee505518(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::CompareIDs",
+"u": "ee504852(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::CreateViewObject",
+"u": "ee500549(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::EnumObjects",
+"u": "ee504145(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::GetAttributesOf",
+"u": "ee499033(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::GetDisplayNameOf",
+"u": "ee501912(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::GetUIObjectOf",
+"u": "ee501993(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::ParseDisplayName",
+"u": "ee499114(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellFolder::SetNameOf",
+"u": "ee505705(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::AddPropertySheetPages",
+"u": "ee504363(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::CreateViewWindow",
+"u": "ee505424(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::DestroyViewWindow",
+"u": "ee504151(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::EnableModeless",
+"u": "ee502614(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::GetCurrentInfo",
+"u": "ee499427(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::GetItemObject",
+"u": "ee499092(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::Refresh",
+"u": "ee504573(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::SaveViewState",
+"u": "ee503762(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::SelectItem",
+"u": "ee505251(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::TranslateAccelerator",
+"u": "ee504347(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IShellView::UIActivate",
+"u": "ee505505(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::ActivateTab",
+"u": "ee502836(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::AddTab",
+"u": "ee504174(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::DeleteTab",
+"u": "ee503667(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::HrInit",
+"u": "ee501786(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList::SetActiveAlt",
+"u": "ee505706(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITaskbarList2::MarkFullscreenWindow",
+"u": "ee502280(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "IPersistFolder::Initialize",
+"u": "ee500578(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "MapWindowRect",
+"u": "ee503118(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SetDlgMsgResult",
+"u": "ee505739(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_ENABLEOK",
+"u": "ee502534(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_INITIALIZED",
+"u": "ee504577(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_SELCHANGED",
+"u": "ee501689(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_SETSELECTION",
+"u": "ee505690(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_SETSTATUSTEXT",
+"u": "ee499721(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BFFM_VALIDATEFAILED",
+"u": "ee504585(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_DBLCLK",
+"u": "ee499358(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_EXIT",
+"u": "ee504637(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_GETCOUNT",
+"u": "ee504348(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_INIT",
+"u": "ee503630(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_NEWINQUIRE",
+"u": "ee502867(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPL_STOP",
+"u": "ee502618(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_CHOOSEFONT_GETLOGFONT",
+"u": "ee501141(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_HELP",
+"u": "ee499363(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_HIBERNATE",
+"u": "ee500871(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_IM_INFO",
+"u": "ee502619(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_KEYFIRST",
+"u": "ee503927(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "WM_KEYLAST",
+"u": "ee502320(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BROWSEINFO",
+"u": "ee501763(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPLINFO",
+"u": "ee505681(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ITEMIDLIST",
+"u": "ee500170(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "NEWCPLINFO",
+"u": "ee501120(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "NOTIFYICONDATA",
+"u": "ee501435(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHELLEXECUTEINFO",
+"u": "ee501202(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHFILEINFO",
+"u": "ee506136(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHFILEOPSTRUCT",
+"u": "ee505480(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHITEMID",
+"u": "ee500470(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "STRRET",
+"u": "ee505036(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "BrowseCallbackProc",
+"u": "ee506142(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "CPlApplet",
+"u": "ee500904(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHAddToRecentDocs",
+"u": "ee503186(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHBindToParent",
+"u": "ee501784(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHBrowseForFolder",
+"u": "ee503764(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHCreateShortcut",
+"u": "ee506084(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHCreateShortcutEx",
+"u": "ee500449(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "Shell_NotifyIcon",
+"u": "ee506052(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "ShellExecuteEx",
+"u": "ee500446(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHFileOperation",
+"u": "ee504641(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetDesktopFolder",
+"u": "ee503191(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetDocumentsFolder",
+"u": "ee501740(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetFileInfo",
+"u": "ee499381(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetMalloc",
+"u": "ee500848(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetPathFromIDList",
+"u": "ee499703(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetShortcutTarget",
+"u": "ee505315(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetSpecialFolderLocation",
+"u": "ee505271(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHGetSpecialFolderPath",
+"u": "ee504365(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHLoadDIBitmap",
+"u": "ee505632(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "SHShowOutOfMemory",
+"u": "ee499745(v=winembedded.60)"
+},
+{
+"area": "shell",
+"sub": "Standard Shell Reference",
+"t": "StrRetToBuf",
+"u": "ee504628(v=winembedded.60)"
+}
+]

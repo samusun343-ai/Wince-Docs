@@ -1,0 +1,122 @@
+[
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "CeGetFileNotificationInfo",
+"u": "ms923919(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "CloseHandle",
+"u": "ms923946(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "CopyFile",
+"u": "ms923947(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "CreateDirectory",
+"u": "ms923948(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "CreateFile",
+"u": "ms923949(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "DeleteAndRenameFile",
+"u": "ms923960(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "DeleteFile",
+"u": "ms923961(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "FindClose",
+"u": "ms923963(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "FindCloseChangeNotification",
+"u": "ms923964(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "FindFirstChangeNotification",
+"u": "ms923967(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "FindFirstFile",
+"u": "ms923968(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "FindFirstFileEx",
+"u": "ms923969(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "FindNextChangeNotification",
+"u": "ms923970(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "FindNextFile",
+"u": "ms923971(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Functions",
+"t": "FlushFileBuffers",
+"u": "ms923972(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Structures",
+"t": "BY_HANDLE_FILE_INFORMATION",
+"u": "ms923882(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Structures",
+"t": "CEDIRINFO",
+"u": "ms923908(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Structures",
+"t": "CEFILEINFO",
+"u": "ms923910(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Enumerations",
+"t": "FINDEX_INFO_LEVELS",
+"u": "ms923965(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Enumerations",
+"t": "FINDEX_SEARCH_OPS",
+"u": "ms923966(v=msdn.10)"
+}
+]

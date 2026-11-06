@@ -1,0 +1,25 @@
+{
+ "file-io": {
+  "pages": 20,
+  "subareas": {
+   "File I/O Functions": 15,
+   "File I/O Structures": 3,
+   "File I/O Enumerations": 2
+  }
+ },
+ "shell": {
+  "pages": 4,
+  "subareas": {
+   "Shell Functions": 3,
+   "Shell Structures": 1
+  }
+ },
+ "winsock": {
+  "pages": 66,
+  "subareas": {
+   "(top)": 1,
+   "Winsock Functions": 60,
+   "Winsock Structures": 5
+  }
+ }
+}

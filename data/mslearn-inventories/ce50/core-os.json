@@ -1,0 +1,2150 @@
+[
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogData",
+"u": "aa450823(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogGetZones",
+"u": "aa450824(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogInterrupt",
+"u": "aa451043(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogMsg",
+"u": "aa450825(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogQueryZones",
+"u": "aa450826(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogReSync",
+"u": "aa450827(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLogSetZones",
+"u": "aa450828(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLog Event Tracking Macros",
+"u": "aa451019(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_CRITSEC_DELETE",
+"u": "ms885146(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_CRITSEC_ENTER",
+"u": "aa450798(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_CRITSEC_INIT",
+"u": "ms885147(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_CRITSEC_LEAVE",
+"u": "aa450799(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_DATA_LOSS",
+"u": "aa450800(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_DEBUG_MSG",
+"u": "aa451045(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_CLOSE",
+"u": "aa450801(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_CREATE",
+"u": "aa450802(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_DELETE",
+"u": "aa450803(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_PULSE",
+"u": "aa450804(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_RESET",
+"u": "aa450805(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EVENT_SET",
+"u": "aa450806(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EXTRA_MODULE_INFO",
+"u": "ms885148(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_EXTRA_PROCESS_INFO",
+"u": "ms885149(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEADER",
+"u": "aa450807(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_ALLOC",
+"u": "aa450808(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_CREATE",
+"u": "aa450809(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_DESTROY",
+"u": "aa450810(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_FREE",
+"u": "aa450811(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_HEAP_REALLOC",
+"u": "aa450812(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_INT_DATA",
+"u": "aa450813(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_INTERRUPTS",
+"u": "aa450814(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_LOG_MARKER",
+"u": "aa450815(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_CREATE",
+"u": "aa451047(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_DESTROY",
+"u": "aa451049(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_FLUSH",
+"u": "aa451051(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_VIEW_CLOSE",
+"u": "aa451053(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFILE_VIEW_OPEN",
+"u": "aa451055(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MAPFLUSH_TYPE",
+"u": "aa451058(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MEMTRACK_BASELINE",
+"u": "aa450816(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MODULE_FREE",
+"u": "aa450817(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MODULE_LOAD",
+"u": "aa450818(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MODULE_REFERENCES",
+"u": "ms885150(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MUTEX_CLOSE",
+"u": "aa450819(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MUTEX_CREATE",
+"u": "aa450820(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MUTEX_DELETE",
+"u": "aa450821(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_MUTEX_RELEASE",
+"u": "aa450822(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_CLOSE",
+"u": "aa450829(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_CREATE",
+"u": "aa450830(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_DELETE",
+"u": "ms884894(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_REFCOUNT",
+"u": "ms885151(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_PROCESS_TERMINATE",
+"u": "ms884998(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SEM_CLOSE",
+"u": "ms885107(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SEM_CREATE",
+"u": "ms885117(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SEM_DELETE",
+"u": "ms885125(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SEM_RELEASE",
+"u": "ms885126(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SLEEP",
+"u": "ms885127(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SYSTEM_INVERT",
+"u": "ms885128(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SYSTEM_PAGE",
+"u": "ms885129(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_SYSTEM_TLB",
+"u": "ms885130(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_CLOSE",
+"u": "ms885131(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_CREATE",
+"u": "ms885132(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_DELETE",
+"u": "ms885133(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_MIGRATE",
+"u": "ms885134(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_PRIORITY",
+"u": "ms885135(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_QUANTUM",
+"u": "ms885136(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_RESUME",
+"u": "ms885137(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_SUSPEND",
+"u": "ms885138(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_SWITCH",
+"u": "ms885139(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_THREAD_TERMINATE",
+"u": "ms885140(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_VIRTUAL_ALLOC",
+"u": "ms885141(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_VIRTUAL_COPY",
+"u": "ms885142(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_VIRTUAL_FREE",
+"u": "ms885143(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CEL_WAIT_MULTI",
+"u": "ms885145(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "MAPHEADER",
+"u": "ms886750(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLog Event Identifiers",
+"u": "aa450677(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLog Pre-Defined Data Types",
+"u": "aa451021(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "CeLog Event Tracking Reference",
+"t": "CeLog Zones",
+"u": "aa450700(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "ContinueDebugEvent",
+"u": "ms885175(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DebugActiveProcess",
+"u": "ms885193(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DebugBreak",
+"u": "ms885194(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "NKDbgPrintfW",
+"u": "aa451081(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "OutputDebugString",
+"u": "ms886769(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "RegisterDbgZones",
+"u": "aa451083(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "WaitForDebugEvent",
+"u": "aa450986(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "WriteDebugLED",
+"u": "aa450990(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "CONTEXT",
+"u": "ms885174(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "CREATE_PROCESS_DEBUG_INFO",
+"u": "ms885183(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "CREATE_THREAD_DEBUG_INFO",
+"u": "ms885187(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DBGPARAM",
+"u": "aa451060(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUG_EVENT",
+"u": "ms885195(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "EXCEPTION_DEBUG_INFO",
+"u": "ms885214(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "EXIT_PROCESS_DEBUG_INFO",
+"u": "ms885218(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "EXIT_THREAD_DEBUG_INFO",
+"u": "ms885220(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "LOAD_DLL_DEBUG_INFO",
+"u": "ms886734(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "OUTPUT_DEBUG_STRING_INFO",
+"u": "ms886770(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "UNLOAD_DLL_DEBUG_INFO",
+"u": "aa450963(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "ASSERT",
+"u": "aa451037(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "ASSERTMSG",
+"u": "aa451039(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGCHK",
+"u": "aa451062(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGLED",
+"u": "aa451064(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGMSG",
+"u": "aa451065(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGREGISTER, RETAILREGISTERZONES",
+"u": "aa451067(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "DEBUGZONE",
+"u": "aa451070(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "ERRORMSG",
+"u": "aa451079(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "RETAILLED",
+"u": "aa451085(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Debugging Reference",
+"t": "RETAILMSG",
+"u": "aa451087(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "DisableThreadLibraryCalls",
+"u": "ms885200(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "DllMain",
+"u": "ms885202(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "FreeLibrary",
+"u": "ms885601(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "FreeLibraryAndExitThread",
+"u": "ms885602(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "GetModuleFileName",
+"u": "ms885629(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "GetModuleHandle",
+"u": "ms885630(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "GetModuleInformation",
+"u": "ms885631(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "GetProcAddress",
+"u": "ms885634(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "LoadLibrary",
+"u": "ms886736(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "LoadLibraryEx",
+"u": "ms886737(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "DLL Reference",
+"t": "MODULEINFO",
+"u": "ms886757(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "FormatMessage",
+"u": "ms885599(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "GetLastError",
+"u": "ms885627(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "SetLastError",
+"u": "ms886817(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "Formatting Specifications",
+"u": "ms885600(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "Net Errors - Alphabetical Order",
+"u": "ms886761(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "Net Errors - Numerical Order",
+"u": "ms886762(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "RAS Error Values",
+"u": "ms886792(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "System Errors - Alphabetical Order",
+"u": "aa450917(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "System Errors - Numerical Order",
+"u": "aa450919(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "NTE error codes",
+"u": "aa451033(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "CRYPT Error Codes",
+"u": "aa451026(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "CERTSRV Error Codes",
+"u": "aa451023(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Error Values",
+"t": "TRUST Error Codes",
+"u": "aa451035(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "AbnormalTermination",
+"u": "aa450784(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "GetExceptionCode",
+"u": "ms885620(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "GetExceptionInformation",
+"u": "ms885621(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "RaiseException",
+"u": "ms886790(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "ReportFault",
+"u": "ms886799(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "EXCEPTION_POINTERS",
+"u": "ms885215(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Exception Reference",
+"t": "EXCEPTION_RECORD",
+"u": "ms885216(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "CreateFiber",
+"u": "ms885178(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "ConvertThreadToFiber",
+"u": "ms885176(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "DeleteFiber",
+"u": "ms885197(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "FiberProc",
+"u": "ms885221(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "GetCurrentFiber",
+"u": "ms885611(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "GetFiberData",
+"u": "ms885624(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Fiber Reference",
+"t": "SwitchToFiber",
+"u": "aa450915(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "CeHeapCreate",
+"u": "aa450797(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "GetDllVersion",
+"u": "ms885617(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "GetProcessHeap",
+"u": "ms885635(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "GlobalMemoryStatus",
+"u": "ms885649(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapAlloc",
+"u": "ms885654(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapCompact",
+"u": "ms885655(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapCreate",
+"u": "ms885656(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapDestroy",
+"u": "ms885657(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapFree",
+"u": "ms885659(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapReAlloc",
+"u": "ms885661(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapSize",
+"u": "ms885662(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "HeapValidate",
+"u": "ms885663(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "IsBadCodePtr",
+"u": "ms885687(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "IsBadReadPtr",
+"u": "ms885688(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "IsBadWritePtr",
+"u": "ms885689(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "LocalAlloc",
+"u": "ms886739(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "LocalFree",
+"u": "ms886741(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "LocalReAlloc",
+"u": "ms886742(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "LocalSize",
+"u": "ms886743(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "SecureZeroMemory",
+"u": "ms886803(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualAlloc",
+"u": "aa450975(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualFree",
+"u": "aa450979(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualProtect",
+"u": "aa450980(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "VirtualQuery",
+"u": "aa450981(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "MEMORY_BASIC_INFORMATION",
+"u": "ms886752(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Memory Management Reference",
+"t": "MEMORYSTATUS",
+"u": "ms886753(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "CloseMsgQueue",
+"u": "ms885168(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "CreateMsgQueue",
+"u": "ms885180(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "GetMsgQueueInfo",
+"u": "ms885632(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "OpenMsgQueue",
+"u": "ms886765(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "ReadMsgQueue",
+"u": "ms886793(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "WriteMsgQueue",
+"u": "aa450991(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "MSGQUEUEINFO",
+"u": "ms886758(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Message Queue Point-to-Point Reference",
+"t": "MSGQUEUEOPTIONS",
+"u": "ms886759(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "CreateHandler",
+"u": "ms885179(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "CreateTicket",
+"u": "ms885188(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "DataHandler",
+"u": "ms885191(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "DeleteHandler",
+"u": "ms885198(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "DeleteTicket",
+"u": "ms885199(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "DisassociateSession",
+"u": "ms885201(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "EditorDeregister",
+"u": "ms885209(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "EditorInitialize",
+"u": "ms885210(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "EditSession",
+"u": "ms885211(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "LogConnectionCreation",
+"u": "ms886745(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "LogConnectionDeletion",
+"u": "ms886746(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "LogDroppedPacket",
+"u": "ms886747(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "LogInit",
+"u": "ms886748(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "QueryInfoSession",
+"u": "ms886786(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "RegisterEditor",
+"u": "ms886796(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "TimeoutSession",
+"u": "aa450941(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "IP_NAT_DIRECTION",
+"u": "ms885682(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "IP_NAT_REGISTER_EDITOR",
+"u": "ms885683(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "IP_NAT_SESSION_MAPPING_STATISTICS",
+"u": "ms885684(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Network Address Translation Reference",
+"t": "IPRcvBuf",
+"u": "ms885685(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeGetCallerTrust",
+"u": "aa450792(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeGetThreadPriority",
+"u": "aa450795(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeGetThreadQuantum",
+"u": "aa450796(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeSetThreadPriority",
+"u": "ms885155(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeSetThreadQuantum",
+"u": "ms885156(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CeZeroPointer",
+"u": "ms885158(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CreateProcess",
+"u": "ms885182(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "CreateThread",
+"u": "ms885186(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ExitProcess",
+"u": "ms885217(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ExitThread",
+"u": "ms885219(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "FlushInstructionCache",
+"u": "ms885595(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCommandLine",
+"u": "ms885605(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCurrentProcess",
+"u": "ms885613(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCurrentProcessId",
+"u": "ms885614(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCurrentThread",
+"u": "ms885615(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetCurrentThreadId",
+"u": "ms885616(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetExitCodeProcess",
+"u": "ms885622(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetExitCodeThread",
+"u": "ms885623(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetProcessVersion",
+"u": "ms885636(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetThreadContext",
+"u": "ms885642(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetThreadPriority",
+"u": "ms885643(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetThreadTimes",
+"u": "ms885644(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "GetUserNameEx",
+"u": "aa517595(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "OpenProcess",
+"u": "ms886766(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ReadProcessMemory",
+"u": "ms886794(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ResumeThread",
+"u": "ms886801(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "SetThreadContext",
+"u": "aa450889(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "SetThreadPriority",
+"u": "aa450891(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "Sleep",
+"u": "aa450900(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "SuspendThread",
+"u": "aa450913(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TerminateProcess",
+"u": "aa450927(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TerminateThread",
+"u": "aa450930(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "ThreadProc",
+"u": "aa450940(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TlsAlloc",
+"u": "aa450945(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TlsFree",
+"u": "aa450947(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TlsGetValue",
+"u": "aa450949(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "TlsSetValue",
+"u": "aa450951(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "WriteProcessMemory",
+"u": "aa450992(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Process and Thread Reference",
+"t": "PROCESS_INFORMATION",
+"u": "ms886775(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "ClearCommBreak",
+"u": "ms885166(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "ClearCommError",
+"u": "ms885167(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "EscapeCommFunction",
+"u": "ms885213(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommMask",
+"u": "ms885606(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommModemStatus",
+"u": "ms885607(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommProperties",
+"u": "ms885608(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommState",
+"u": "ms885609(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "GetCommTimeouts",
+"u": "ms885610(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "PurgeComm",
+"u": "ms886785(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetCommBreak",
+"u": "ms886804(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetCommMask",
+"u": "ms886805(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetCommState",
+"u": "ms886806(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetCommTimeouts",
+"u": "ms886807(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "SetupComm",
+"u": "aa450896(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "TransmitCommChar",
+"u": "aa450957(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "WaitCommEvent",
+"u": "aa450985(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "COMMPROP",
+"u": "ms885170(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "COMMTIMEOUTS",
+"u": "ms885171(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "COMSTAT",
+"u": "ms885173(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Serial Communications Reference",
+"t": "DCB",
+"u": "ms885192(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "CharLower",
+"u": "ms885159(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "CharLowerBuff",
+"u": "ms885160(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "CharNext",
+"u": "ms885161(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "CharPrev",
+"u": "ms885162(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "CharUpper",
+"u": "ms885164(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "CharUpperBuff",
+"u": "ms885165(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "IsCharAlpha",
+"u": "ms885690(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "IsCharAlphaNumeric",
+"u": "ms885691(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "IsCharLower",
+"u": "ms885692(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "IsCharUpper",
+"u": "ms885693(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "LoadString",
+"u": "ms886738(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "wsprintf",
+"u": "aa450993(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Strings Reference",
+"t": "wvsprintf",
+"u": "aa450994(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "CreateEvent",
+"u": "ms885177(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "CreateMutex",
+"u": "ms885181(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "CreateSemaphore",
+"u": "ms885184(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "DeleteCriticalSection",
+"u": "ms885196(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "DuplicateHandle",
+"u": "ms885208(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "EnterCriticalSection",
+"u": "ms885212(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InitializeCriticalSection",
+"u": "ms885665(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedCompareExchange",
+"u": "ms885667(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedCompareExchangePointer",
+"u": "ms885668(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedDecrement",
+"u": "ms885669(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedExchange",
+"u": "ms885670(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedExchangeAdd",
+"u": "ms885671(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedExchangePointer",
+"u": "ms885672(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedIncrement",
+"u": "ms885673(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "InterlockedTestExchange",
+"u": "ms885674(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "LeaveCriticalSection",
+"u": "ms886733(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "OpenEvent",
+"u": "ms886764(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "PulseEvent",
+"u": "ms886784(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "ReleaseMutex",
+"u": "ms886797(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "ReleaseSemaphore",
+"u": "ms886798(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "ResetEvent",
+"u": "ms886800(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "SetEvent",
+"u": "ms886810(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "TryEnterCriticalSection",
+"u": "aa450959(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "WaitForMultipleObjects",
+"u": "aa450987(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Synchronization Reference",
+"t": "WaitForSingleObject",
+"u": "aa450988(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "GetSystemInfo",
+"u": "ms885638(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "GetVersionEx",
+"u": "ms885648(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "IsProcessorFeaturePresent",
+"u": "ms886726(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "QueryInstructionSet",
+"u": "ms886787(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "SignalStarted",
+"u": "aa450898(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "VerQueryValue",
+"u": "aa450973(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "OSVERSIONINFO",
+"u": "ms886768(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "String",
+"u": "aa450907(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "StringFileInfo",
+"u": "aa450909(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "StringTable",
+"u": "aa450911(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "SYSTEM_INFO",
+"u": "aa450921(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "Var",
+"u": "aa450969(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "VarFileInfo",
+"u": "aa450972(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "VS_FIXEDFILEINFO",
+"u": "aa450983(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "System Management Reference",
+"t": "VS_VERSIONINFO",
+"u": "aa450984(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "CompareFileTime",
+"u": "ms885172(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "FileTimeToLocalFileTime",
+"u": "ms885589(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "FileTimeToSystemTime",
+"u": "ms885593(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetCurrentFT",
+"u": "aa451027(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetFileTime",
+"u": "ms885625(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetIdleTime",
+"u": "ms885626(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetLocalTime",
+"u": "ms885628(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetSystemTime",
+"u": "ms885640(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetTickCount",
+"u": "ms885645(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "GetTimeZoneInformation",
+"u": "ms885646(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "LocalFileTimeToFileTime",
+"u": "ms886740(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "QueryPerformanceCounter",
+"u": "ms886788(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "QueryPerformanceFrequency",
+"u": "ms886789(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "Random",
+"u": "ms886791(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetDaylightTime",
+"u": "ms886808(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetFileTime",
+"u": "ms886812(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetLocalTime",
+"u": "ms886818(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetSystemTime",
+"u": "aa450867(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SetTimeZoneInformation",
+"u": "aa450893(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SystemTimeToFileTime",
+"u": "aa450925(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "FILETIME",
+"u": "ms885586(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "SYSTEMTIME",
+"u": "aa450923(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Time Reference",
+"t": "TIME_ZONE_INFORMATION",
+"u": "aa450943(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "CloseToolhelp32Snapshot",
+"u": "ms885169(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "CreateToolhelp32Snapshot",
+"u": "ms885189(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Heap32First",
+"u": "ms885650(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Heap32ListFirst",
+"u": "ms885651(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Heap32ListNext",
+"u": "ms885652(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Heap32Next",
+"u": "ms885653(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Module32First",
+"u": "ms886754(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Module32Next",
+"u": "ms886755(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Process32First",
+"u": "ms886772(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Process32Next",
+"u": "ms886773(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Thread32First",
+"u": "aa450934(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Thread32Next",
+"u": "aa450936(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "Toolhelp32ReadProcessMemory",
+"u": "aa450953(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "HEAPENTRY32",
+"u": "ms885658(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "HEAPLIST32",
+"u": "ms885660(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "MODULEENTRY32",
+"u": "ms886756(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "PROCESSENTRY32",
+"u": "ms886774(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "ToolHelp Reference",
+"t": "THREADENTRY32",
+"u": "aa450938(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "IsDBCSLeadByte",
+"u": "ms886515(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "IsDBCSLeadByteEx",
+"u": "ms886608(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "MultiByteToWideChar",
+"u": "ms886760(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "TranslateCharsetInfo",
+"u": "aa450955(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "WideCharToMultiByte",
+"u": "aa450989(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "TEXT",
+"u": "aa450932(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "CHARSETINFO",
+"u": "ms885163(v=msdn.10)"
+},
+{
+"area": "core-os",
+"sub": "Unicode Reference",
+"t": "FONTSIGNATURE",
+"u": "ms885597(v=msdn.10)"
+}
+]

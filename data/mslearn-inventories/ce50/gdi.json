@@ -1,0 +1,1016 @@
+[
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "AlphaBlend",
+"u": "aa452850(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "BeginPaint",
+"u": "aa452871(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "BitBlt",
+"u": "aa452879(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ChangeDisplaySettingsEx",
+"u": "ms908108(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ClientToScreen",
+"u": "ms928584(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CombineRgn",
+"u": "ms928608(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CopyRect",
+"u": "ms908152(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateBitmap",
+"u": "ms908163(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateCompatibleBitmap",
+"u": "ms908165(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateCompatibleDC",
+"u": "ms908166(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateDC",
+"u": "ms908168(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateDIBPatternBrushPt",
+"u": "ms908173(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateDIBSection",
+"u": "ms908174(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreatePalette (GDI)",
+"u": "ms908178(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreatePatternBrush",
+"u": "ms908179(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreatePen",
+"u": "ms908180(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreatePenIndirect",
+"u": "ms908181(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateRectRgn",
+"u": "ms908184(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateRectRgnIndirect",
+"u": "ms908185(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateSolidBrush",
+"u": "ms908187(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DeleteDC",
+"u": "aa452930(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DeleteObject",
+"u": "aa452933(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DrawEdge",
+"u": "aa452968(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DrawFocusRect",
+"u": "aa452969(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DrawFrameControl",
+"u": "aa452970(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "Ellipse",
+"u": "aa452997(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EndPaint",
+"u": "aa453041(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EnumDisplayDevices",
+"u": "aa453048(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EnumDisplaySettings",
+"u": "aa453049(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EqualRect",
+"u": "aa453055(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EqualRgn",
+"u": "aa453056(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ExcludeClipRect",
+"u": "aa453058(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ExtCreateRegion",
+"u": "aa453061(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ExtEscape",
+"u": "aa453063(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "FillRect",
+"u": "aa453067(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "FillRgn",
+"u": "aa453068(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetBkColor",
+"u": "ms929205(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetBkMode",
+"u": "ms929206(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetBValue",
+"u": "ms929207(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetClipBox",
+"u": "ms929219(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetClipRgn",
+"u": "ms929221(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetCurrentObject",
+"u": "ms929223(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetCurrentPositionEx",
+"u": "ms929224(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetDC",
+"u": "ms929227(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetDCEx",
+"u": "ms929228(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetDeviceCaps",
+"u": "ms929230(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetDIBColorTable",
+"u": "ms929232(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetGValue",
+"u": "ms929246(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetLayout",
+"u": "aa453133(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetNearestColor",
+"u": "aa453140(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetNearestPaletteIndex",
+"u": "aa453141(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetObject",
+"u": "aa453147(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetObjectType",
+"u": "aa453148(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetOutlineTextMetrics",
+"u": "ms933897(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetPaletteEntries",
+"u": "aa453151(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetPixel",
+"u": "aa453153(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetRegionData",
+"u": "aa453157(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetRgnBox",
+"u": "aa453159(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetROP2",
+"u": "aa453160(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetRValue",
+"u": "aa453161(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetStockObject",
+"u": "aa453164(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetStretchBltMode",
+"u": "aa453165(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetSysColorBrush",
+"u": "aa453168(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetSystemPaletteEntries",
+"u": "aa453171(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetUpdateRect",
+"u": "aa453174(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetUpdateRgn",
+"u": "aa453175(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetViewportExtEx",
+"u": "aa453949(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetViewportOrgEx",
+"u": "aa453950(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetWindowDC",
+"u": "aa453179(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetWindowExtEx",
+"u": "aa453951(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetWindowOrgEx",
+"u": "aa453952(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetWindowRgn",
+"u": "aa453182(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GradientFill",
+"u": "aa453192(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "InflateRect",
+"u": "ms909847(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "IntersectClipRect",
+"u": "ms909855(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "IntersectRect",
+"u": "ms909856(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "InvalidateRect",
+"u": "ms909857(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "InvalidateRgn",
+"u": "ms909858(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "InvertRect",
+"u": "ms909859(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "IsRectEmpty",
+"u": "ms909894(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "LineTo",
+"u": "aa453296(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "LoadBitmap",
+"u": "aa453409(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "MapWindowPoints",
+"u": "ms911790(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "MaskBlt",
+"u": "ms911792(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "MoveToEx",
+"u": "ms931457(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "OffsetRect",
+"u": "ms911891(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "OffsetRgn",
+"u": "ms911892(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "OffsetViewportOrgEx",
+"u": "aa453953(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "PatBlt",
+"u": "ms911916(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "Polygon",
+"u": "ms911933(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "Polyline",
+"u": "ms911934(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "PtInRect",
+"u": "aa453601(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "PtInRegion",
+"u": "aa453602(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RealizePalette",
+"u": "aa453638(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "Rectangle",
+"u": "ms912947(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RectInRegion",
+"u": "ms913051(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RectVisible",
+"u": "ms913070(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RedrawWindow",
+"u": "ms913080(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ReleaseDC",
+"u": "ms939760(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RestoreDC",
+"u": "ms939800(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RoundRect",
+"u": "ms939867(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SaveDC",
+"u": "ms939894(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ScreenToClient",
+"u": "ms932582(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SelectClipRgn",
+"u": "ms932714(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SelectObject",
+"u": "ms932715(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SelectPalette",
+"u": "ms932716(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetBitmapBits",
+"u": "ms939987(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetBkColor",
+"u": "ms939988(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetBkMode",
+"u": "ms939989(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetBrushOrgEx",
+"u": "ms940010(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetDIBColorTable",
+"u": "ms940018(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetDIBitsToDevice",
+"u": "ms940019(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetLayout",
+"u": "ms940026(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetPaletteEntries",
+"u": "ms940028(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetPixel",
+"u": "aa453646(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetRect",
+"u": "aa453648(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetRectEmpty",
+"u": "aa453649(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetRectRgn",
+"u": "aa453650(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetROP2",
+"u": "aa453651(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetStretchBltMode",
+"u": "aa453655(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetViewportOrgEx",
+"u": "aa453660(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetWindowOrgEx",
+"u": "aa453954(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetWindowRgn",
+"u": "aa453663(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "StretchBlt",
+"u": "ms940373(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "StretchDIBits",
+"u": "ms940374(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SubtractRect",
+"u": "ms940381(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "TransparentBlt",
+"u": "aa453778(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "TransparentImage",
+"u": "aa453779(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "UnionRect",
+"u": "ms914081(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "UpdateWindow",
+"u": "ms914085(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ValidateRect",
+"u": "ms914091(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ValidateRgn",
+"u": "ms914092(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "(top)",
+"t": "GDI Macros",
+"u": "ms927620(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_PAINT",
+"u": "aa453891(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_PALETTECHANGED",
+"u": "aa453892(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_QUERYNEWPALETTE",
+"u": "aa453894(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_SETREDRAW",
+"u": "aa453904(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_SYSCOLORCHANGE",
+"u": "aa453910(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAP",
+"u": "aa452880(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPCOREHEADER",
+"u": "aa452881(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPCOREINFO",
+"u": "aa452882(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPFILEHEADER",
+"u": "aa452883(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPINFO",
+"u": "aa452884(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPINFOHEADER",
+"u": "aa452885(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BLENDFUNCTION",
+"u": "aa452889(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "COLORREF",
+"u": "ms928589(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "DEVMODE",
+"u": "aa452943(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "DIBSECTION",
+"u": "aa452953(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "DISPLAY_DEVICE",
+"u": "aa452957(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "GRADIENT_RECT",
+"u": "aa453193(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "LOGBRUSH",
+"u": "aa453418(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "LOGPALETTE",
+"u": "aa453419(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "LOGPEN",
+"u": "aa453420(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "PAINTSTRUCT",
+"u": "ms911912(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "PALETTEENTRY",
+"u": "ms911913(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "POINT",
+"u": "ms911930(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "POINTS",
+"u": "ms911931(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "OUTLINETEXTMETRICW",
+"u": "ms934025(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RECT",
+"u": "ms912843(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RECTL",
+"u": "ms913063(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RGBQUAD",
+"u": "ms939815(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RGBTRIPLE",
+"u": "ms939824(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RGNDATA",
+"u": "ms939837(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RGNDATAHEADER",
+"u": "ms939847(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "SIZE",
+"u": "ms940344(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "TRIVERTEX",
+"u": "aa453818(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "VIDEOPARAMETERS",
+"u": "ms914096(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "Raster Operation Codes",
+"t": "Binary Raster Operations",
+"u": "aa452878(v=msdn.10)"
+},
+{
+"area": "gdi",
+"sub": "Raster Operation Codes",
+"t": "Ternary Raster Operations",
+"u": "aa452783(v=msdn.10)"
+}
+]

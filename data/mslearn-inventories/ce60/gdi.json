@@ -1,0 +1,1052 @@
+[
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "AlphaBlend",
+"u": "ee501410(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "BeginPaint",
+"u": "ee505465(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "BitBlt",
+"u": "ee501981(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ChangeDisplaySettingsEx",
+"u": "ee505713(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ClientToScreen",
+"u": "ee505933(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CombineRgn",
+"u": "ee504827(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CopyRect",
+"u": "ee500892(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateBitmap",
+"u": "ee505308(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateCompatibleBitmap",
+"u": "ee505724(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateCompatibleDC",
+"u": "ee504853(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateDC",
+"u": "ee500930(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateDIBPatternBrushPt",
+"u": "ee501785(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateDIBSection",
+"u": "ee502255(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreatePalette (GDI)",
+"u": "ee502315(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreatePatternBrush",
+"u": "ee503397(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreatePen",
+"u": "ee501713(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreatePenIndirect",
+"u": "ee500189(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateRectRgn",
+"u": "ee503633(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateRectRgnIndirect",
+"u": "ee505867(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "CreateSolidBrush",
+"u": "ee501459(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DeleteDC",
+"u": "ee502851(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DeleteObject",
+"u": "ee503315(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DrawEdge",
+"u": "ee501983(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DrawFocusRect",
+"u": "ee500893(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "DrawFrameControl",
+"u": "ee503654(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "Ellipse",
+"u": "ee502230(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EndPaint",
+"u": "ee499422(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EnumDisplayDevices",
+"u": "ee504895(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EnumDisplaySettings",
+"u": "ee504298(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EqualRect",
+"u": "ee500525(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "EqualRgn",
+"u": "ee504300(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ExcludeClipRect",
+"u": "ee505422(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ExtCreateRegion",
+"u": "ee501408(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ExtEscape",
+"u": "ee506103(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "FillRect",
+"u": "ee499094(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "FillRgn",
+"u": "ee502289(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetBkColor",
+"u": "ee499127(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetBkMode",
+"u": "ee502613(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetBValue",
+"u": "ee505880(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetClipBox",
+"u": "ee501949(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetClipRgn",
+"u": "ee504572(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetCurrentObject",
+"u": "ee505940(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetCurrentPositionEx",
+"u": "ee501980(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetDC",
+"u": "ee499088(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetDCEx",
+"u": "ee501177(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetDeviceCaps",
+"u": "ee503230(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetDIBColorTable",
+"u": "ee500282(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetGValue",
+"u": "ee502875(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetLayout",
+"u": "ee500452(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetNearestColor",
+"u": "ee506255(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetNearestPaletteIndex",
+"u": "ee501123(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetObject",
+"u": "ee506071(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetObjectType",
+"u": "ee499386(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetOutlineTextMetrics",
+"u": "ee502871(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetPaletteEntries",
+"u": "ee502303(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetPixel",
+"u": "ee504020(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetRegionData",
+"u": "ee505860(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetRgnBox",
+"u": "ee504142(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetROP2",
+"u": "ee501104(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetRValue",
+"u": "ee502900(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetStockObject",
+"u": "ee505070(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetStretchBltMode",
+"u": "ee504329(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetSysColorBrush",
+"u": "ee501395(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetSystemPaletteEntries",
+"u": "ee503127(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetUpdateRect",
+"u": "ee501189(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetUpdateRgn",
+"u": "ee500868(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetViewportExtEx",
+"u": "ee505861(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetViewportOrgEx",
+"u": "ee504872(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetWindowDC",
+"u": "ee500451(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetWindowExtEx",
+"u": "ee501438(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetWindowOrgEx",
+"u": "ee501951(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GetWindowRgn",
+"u": "ee505457(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "GradientFill",
+"u": "ee499729(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "InflateRect",
+"u": "ee501937(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "IntersectClipRect",
+"u": "ee502890(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "IntersectRect",
+"u": "ee500197(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "InvalidateRect",
+"u": "ee505051(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "InvalidateRgn",
+"u": "ee502864(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "InvertRect",
+"u": "ee503209(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "IsRectEmpty",
+"u": "ee506063(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "LineTo",
+"u": "ee505695(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "LoadBitmap",
+"u": "ee504579(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "MapWindowPoints",
+"u": "ee501159(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "MaskBlt",
+"u": "ee505239(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "MoveToEx",
+"u": "ee503724(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "OffsetRect",
+"u": "ee504901(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "OffsetRgn",
+"u": "ee501910(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "OffsetViewportOrgEx",
+"u": "ee504540(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "PatBlt",
+"u": "ee503352(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "Polygon",
+"u": "ee505249(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "Polyline",
+"u": "ee501424(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "PtInRect",
+"u": "ee505698(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "PtInRegion",
+"u": "ee503452(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RealizePalette",
+"u": "ee499061(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "Rectangle",
+"u": "ee505883(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RectInRegion",
+"u": "ee505688(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RectVisible",
+"u": "ee504305(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RedrawWindow",
+"u": "ee503183(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ReleaseDC",
+"u": "ee500245(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RestoreDC",
+"u": "ee500251(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "RoundRect",
+"u": "ee500905(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SaveDC",
+"u": "ee501223(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ScreenToClient",
+"u": "ee503589(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SelectClipRgn",
+"u": "ee502828(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SelectObject",
+"u": "ee506271(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SelectPalette",
+"u": "ee501382(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetBitmapBits",
+"u": "ee499432(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetBkColor",
+"u": "ee506089(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetBkMode",
+"u": "ee499678(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetBrushOrgEx",
+"u": "ee505889(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetDIBColorTable",
+"u": "ee502593(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetDIBitsToDevice",
+"u": "ee503196(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetLayout",
+"u": "ee503626(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetPaletteEntries",
+"u": "ee503899(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetPixel",
+"u": "ee503104(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetRect",
+"u": "ee502266(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetRectEmpty",
+"u": "ee504846(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetRectRgn",
+"u": "ee505099(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetROP2",
+"u": "ee505650(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetStretchBltMode",
+"u": "ee501241(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetViewportOrgEx",
+"u": "ee500818(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetWindowOrgEx",
+"u": "ee505638(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SetWindowRgn",
+"u": "ee501413(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "StretchBlt",
+"u": "ee504535(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "StretchDIBits",
+"u": "ee502921(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "SubtractRect",
+"u": "ee504025(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "TransparentBlt",
+"u": "ee500253(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "TransparentImage",
+"u": "ee499350(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "UnionRect",
+"u": "ee499433(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "UpdateWindow",
+"u": "ee501696(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ValidateRect",
+"u": "ee502605(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Functions",
+"t": "ValidateRgn",
+"u": "ee505903(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_PAINT",
+"u": "ee505047(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_PALETTECHANGED",
+"u": "ee501482(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_QUERYNEWPALETTE",
+"u": "ee501995(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_SETREDRAW",
+"u": "ee501732(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Messages",
+"t": "WM_SYSCOLORCHANGE",
+"u": "ee503622(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAP",
+"u": "ee503208(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPCOREHEADER",
+"u": "ee502290(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPCOREINFO",
+"u": "ee505513(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPFILEHEADER",
+"u": "ee500466(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPINFO",
+"u": "ee500572(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BITMAPINFOHEADER",
+"u": "ee499706(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "BLENDFUNCTION",
+"u": "ee506302(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "COLORREF",
+"u": "ee505694(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "DEVMODE",
+"u": "ee506078(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "DIBSECTION",
+"u": "ee503509(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "DISPLAY_DEVICE",
+"u": "ee499040(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "GRADIENT_RECT",
+"u": "ee504211(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "LOGBRUSH",
+"u": "ee503661(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "LOGPALETTE",
+"u": "ee505709(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "LOGPEN",
+"u": "ee502585(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "OUTLINETEXTMETRICW",
+"u": "ee505879(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "PAINTSTRUCT",
+"u": "ee499378(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "PALETTEENTRY",
+"u": "ee504876(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "POINT",
+"u": "ee504157(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "POINTS",
+"u": "ee503619(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RECT",
+"u": "ee499335(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RECTL",
+"u": "ee500544(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RGBQUAD",
+"u": "ee503753(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RGBTRIPLE",
+"u": "ee500218(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RGNDATA",
+"u": "ee500234(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "RGNDATAHEADER",
+"u": "ee499122(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "SIZE",
+"u": "ee505301(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "TRIVERTEX",
+"u": "ee504868(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Structures",
+"t": "VIDEOPARAMETERS",
+"u": "ee502855(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "Raster Operation Codes",
+"t": "Binary Raster Operations",
+"u": "ee499662(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "Raster Operation Codes",
+"t": "Ternary Raster Operations",
+"u": "ee501409(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Macros",
+"t": "InsetRect",
+"u": "ee500499(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Macros",
+"t": "MAKEROP4",
+"u": "ee499113(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Macros",
+"t": "PALETTEINDEX2BPP",
+"u": "ee505299(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Macros",
+"t": "PALETTERGB",
+"u": "ee500162(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Macros",
+"t": "POINTSTOPOINT",
+"u": "ee503227(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Macros",
+"t": "RGB",
+"u": "ee499655(v=winembedded.60)"
+},
+{
+"area": "gdi",
+"sub": "GDI Macros",
+"t": "RGBA",
+"u": "ee501471(v=winembedded.60)"
+}
+]

@@ -1,0 +1,1832 @@
+[
+{
+"area": "window-control",
+"sub": "Atoms Reference",
+"t": "GlobalAddAtom",
+"u": "ee506286(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Atoms Reference",
+"t": "GlobalDeleteAtom",
+"u": "ee504119(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Atoms Reference",
+"t": "GlobalFindAtom",
+"u": "ee501431(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Atoms Reference",
+"t": "MAKEINTATOM",
+"u": "ee500463(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Carets Reference",
+"t": "CreateCaret",
+"u": "ee502564(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Carets Reference",
+"t": "DestroyCaret",
+"u": "ee499400(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Carets Reference",
+"t": "GetCaretBlinkTime",
+"u": "ee505236(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Carets Reference",
+"t": "GetCaretPos",
+"u": "ee501385(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Carets Reference",
+"t": "HideCaret",
+"u": "ee503185(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Carets Reference",
+"t": "SetCaretBlinkTime",
+"u": "ee505058(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Carets Reference",
+"t": "SetCaretPos",
+"u": "ee502546(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Carets Reference",
+"t": "ShowCaret",
+"u": "ee502542(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "CloseClipboard",
+"u": "ee499346(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "CountClipboardFormats",
+"u": "ee499055(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "EmptyClipboard",
+"u": "ee505658(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "EnumClipboardFormats",
+"u": "ee505881(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "GetClipboardData",
+"u": "ee500850(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "GetClipboardDataAlloc",
+"u": "ee501066(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "GetClipboardFormatName",
+"u": "ee503193(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "GetClipboardOwner",
+"u": "ee501914(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "GetOpenClipboardWindow",
+"u": "ee503207(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "GetPriorityClipboardFormat",
+"u": "ee505514(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "IsClipboardFormatAvailable",
+"u": "ee501144(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "OpenClipboard",
+"u": "ee503328(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "RegisterClipboardFormat",
+"u": "ee506040(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "SetClipboardData",
+"u": "ee504536(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "WM_CLEAR",
+"u": "ee503655(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "WM_COPY",
+"u": "ee504380(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "WM_CUT",
+"u": "ee506101(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "WM_PASTE",
+"u": "ee503189(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "WM_RENDERALLFORMATS",
+"u": "ee503187(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Clipboards Reference",
+"t": "WM_RENDERFORMAT",
+"u": "ee501247(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "CheckDlgButton",
+"u": "ee499366(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "CreateDialog",
+"u": "ee502874(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "CreateDialogIndirect",
+"u": "ee504589(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "CreateDialogIndirectParam",
+"u": "ee504612(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "CreateDialogParam",
+"u": "ee503494(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DefDlgProc",
+"u": "ee499719(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DialogBox",
+"u": "ee505643(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DialogBoxIndirect",
+"u": "ee500191(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DialogBoxIndirectParam",
+"u": "ee502860(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DialogBoxParam",
+"u": "ee502598(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DialogProc",
+"u": "ee504362(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "EndDialog",
+"u": "ee506301(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "GetDialogBaseUnits",
+"u": "ee499648(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "GetDlgCtrlID",
+"u": "ee505952(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "GetDlgItem",
+"u": "ee500513(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "GetDlgItemInt",
+"u": "ee500607(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "GetDlgItemText",
+"u": "ee506059(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "GetNextDlgGroupItem",
+"u": "ee505040(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "GetNextDlgTabItem",
+"u": "ee499080(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "IsDialogMessage",
+"u": "ee500858(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "IsDlgButtonChecked",
+"u": "ee499082(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "MapDialogRect",
+"u": "ee503734(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "MessageBeep",
+"u": "ee506099(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "MessageBox",
+"u": "ee503608(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "SendDlgItemMessage",
+"u": "ee501193(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "SetDlgItemInt",
+"u": "ee504580(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "SetDlgItemText",
+"u": "ee499688(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DLGITEMTEMPLATE",
+"u": "ee503177(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DLGITEMTEMPLATEEX",
+"u": "ee504110(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DLGTEMPLATE",
+"u": "ee504037(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DLGTEMPLATEEX",
+"u": "ee504551(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DM_GETDEFID",
+"u": "ee501934(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "DM_SETDEFID",
+"u": "ee501770(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "WM_CTLCOLORDLG",
+"u": "ee499647(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "WM_GETDLGCODE",
+"u": "ee500227(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "WM_INITDIALOG",
+"u": "ee505663(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Dialog Boxes Reference",
+"t": "WM_NEXTDLGCTL",
+"u": "ee503433(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_CANUNDO",
+"u": "ee504564(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_CHARFROMPOS",
+"u": "ee505025(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_EMPTYUNDOBUFFER",
+"u": "ee503116(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_FMTLINES",
+"u": "ee502582(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_GETFIRSTVISIBLELINE",
+"u": "ee503383(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_GETLIMITTEXT",
+"u": "ee504882(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_GETLINE",
+"u": "ee503210(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_GETLINECOUNT",
+"u": "ee500297(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_GETMARGINS",
+"u": "ee501766(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_GETMODIFY",
+"u": "ee503675(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_GETPASSWORDCHAR",
+"u": "ee505841(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_GETRECT",
+"u": "ee504105(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_GETSEL",
+"u": "ee503313(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_LIMITTEXT",
+"u": "ee503913(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_LINEFROMCHAR",
+"u": "ee503723(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_LINEINDEX",
+"u": "ee499664(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_LINELENGTH",
+"u": "ee504896(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_LINESCROLL",
+"u": "ee501961(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_POSFROMCHAR",
+"u": "ee499696(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_REPLACESEL",
+"u": "ee500147(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SCROLL",
+"u": "ee504165(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SCROLLCARET",
+"u": "ee499403(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SETLIMITTEXT",
+"u": "ee499421(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SETMARGINS",
+"u": "ee503961(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SETMODIFY",
+"u": "ee502889(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SETPASSWORDCHAR",
+"u": "ee502924(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SETREADONLY",
+"u": "ee500448(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SETRECT",
+"u": "ee505717(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SETRECTNP",
+"u": "ee501418(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SETSEL",
+"u": "ee504123(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_SETTABSTOPS",
+"u": "ee503176(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EM_UNDO",
+"u": "ee503101(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EN_CHANGE",
+"u": "ee500784(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EN_ERRSPACE",
+"u": "ee503705(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EN_HSCROLL",
+"u": "ee501909(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EN_KILLFOCUS",
+"u": "ee499374(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EN_MAXTEXT",
+"u": "ee505280(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EN_SETFOCUS",
+"u": "ee501087(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EN_UPDATE",
+"u": "ee503885(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "EN_VSCROLL",
+"u": "ee503125(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "WM_CTLCOLOREDIT",
+"u": "ee503430(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Edit Boxes Reference",
+"t": "WM_UNDO",
+"u": "ee503910(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_ADDSTRING",
+"u": "ee500161(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_DELETESTRING",
+"u": "ee502901(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_FINDSTRING",
+"u": "ee505683(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_FINDSTRINGEXACT",
+"u": "ee499658(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETANCHORINDEX",
+"u": "ee502917(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETCARETINDEX",
+"u": "ee505268(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETCOUNT",
+"u": "ee504855(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETCURSEL",
+"u": "ee504323(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETHORIZONTALEXTENT",
+"u": "ee502001(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETITEMDATA",
+"u": "ee502241(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETITEMHEIGHT",
+"u": "ee505483(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETITEMRECT",
+"u": "ee500214(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETLOCALE",
+"u": "ee504908(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETSEL",
+"u": "ee501125(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETSELCOUNT",
+"u": "ee506055(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETSELITEMS",
+"u": "ee505228(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETTEXT",
+"u": "ee501398(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETTEXTLEN",
+"u": "ee499369(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_GETTOPINDEX",
+"u": "ee503195(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_INITSTORAGE",
+"u": "ee504335(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_INSERTSTRING",
+"u": "ee504297(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_ITEMFROMPOINT",
+"u": "ee499424(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_RESETCONTENT",
+"u": "ee506303(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SELECTSTRING",
+"u": "ee504881(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SELITEMRANGE",
+"u": "ee502006(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SELITEMRANGEEX",
+"u": "ee500895(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETANCHORINDEX",
+"u": "ee505302(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETCARETINDEX",
+"u": "ee500208(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETCOLUMNWIDTH",
+"u": "ee503149(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETCURSEL",
+"u": "ee503738(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETHORIZONTALEXTENT",
+"u": "ee501451(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETITEMDATA",
+"u": "ee506123(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETITEMHEIGHT",
+"u": "ee504149(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETLOCALE",
+"u": "ee499410(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETSEL",
+"u": "ee505219(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETTABSTOPS",
+"u": "ee499115(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LB_SETTOPINDEX",
+"u": "ee503399(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LBN_DBLCLK",
+"u": "ee505854(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LBN_ERRSPACE",
+"u": "ee500763(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LBN_KILLFOCUS",
+"u": "ee501959(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LBN_SELCANCEL",
+"u": "ee503963(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LBN_SELCHANGE",
+"u": "ee504288(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "LBN_SETFOCUS",
+"u": "ee502896(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "WM_CTLCOLORLISTBOX",
+"u": "ee504886(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "WM_DELETEITEM",
+"u": "ee501957(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "List Boxes Reference",
+"t": "DELETEITEMSTRUCT",
+"u": "ee501470(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_Add",
+"u": "ee502231(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_AddMasked",
+"u": "ee503446(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_BeginDrag",
+"u": "ee500766(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_Copy",
+"u": "ee499691(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_Create",
+"u": "ee500447(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_Destroy",
+"u": "ee501989(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_DragEnter",
+"u": "ee505711(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_DragLeave",
+"u": "ee501729(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_DragMove",
+"u": "ee503204(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_DragShowNolock",
+"u": "ee501254(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_Draw",
+"u": "ee502905(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_DrawEx",
+"u": "ee506293(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_DrawIndirect",
+"u": "ee504032(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_Duplicate",
+"u": "ee502893(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_EndDrag",
+"u": "ee499743(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_GetBkColor",
+"u": "ee501730(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_GetDragImage",
+"u": "ee500265(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_GetIcon",
+"u": "ee506299(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_GetIconSize",
+"u": "ee503580(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_GetImageCount",
+"u": "ee504304(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_GetImageInfo",
+"u": "ee499663(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_LoadImage",
+"u": "ee504385(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_Merge",
+"u": "ee503132(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_Remove",
+"u": "ee506284(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_RemoveAll",
+"u": "ee504892(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_Replace",
+"u": "ee504557(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_ReplaceIcon",
+"u": "ee500224(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_SetBkColor",
+"u": "ee504889(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_SetDragCursorImage",
+"u": "ee503586(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_SetIconSize",
+"u": "ee500889(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_SetImageCount",
+"u": "ee501924(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_SetOverlayImage",
+"u": "ee506087(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "IMAGEINFO (Graphics, Windowing and Events)",
+"u": "ee504824(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "IMAGELISTDRAWPARAMS",
+"u": "ee504136(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_AddIcon",
+"u": "ee504543(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_ExtractIcon",
+"u": "ee503909(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "ImageList_LoadBitmap",
+"u": "ee504299(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Image Lists Reference",
+"t": "INDEXTOOVERLAYMASK",
+"u": "ee502218(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_ADDSTRING",
+"u": "ee501454(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_DELETESTRING",
+"u": "ee500187(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_FINDSTRING",
+"u": "ee500894(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_FINDSTRINGEXACT",
+"u": "ee501926(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETCOMBOBOXINFO",
+"u": "ee500450(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETCOUNT",
+"u": "ee499337(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETCURSEL",
+"u": "ee504632(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETDROPPEDCONTROLRECT",
+"u": "ee501948(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETDROPPEDSTATE",
+"u": "ee501436(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETDROPPEDWIDTH",
+"u": "ee501971(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETEDITSEL",
+"u": "ee504104(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETEXTENDEDUI",
+"u": "ee500833(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETHORIZONTALEXTENT",
+"u": "ee504303(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETITEMDATA",
+"u": "ee502260(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETITEMHEIGHT",
+"u": "ee505512(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETLBTEXT",
+"u": "ee504874(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETLBTEXTLEN",
+"u": "ee506050(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETLOCALE",
+"u": "ee501921(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_GETTOPINDEX",
+"u": "ee502609(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_INITSTORAGE",
+"u": "ee502278(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_INSERTSTRING",
+"u": "ee500754(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_LIMITTEXT",
+"u": "ee502903(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_RESETCONTENT",
+"u": "ee499056(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SELECTSTRING",
+"u": "ee505850(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SETCURSEL",
+"u": "ee501397(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SETDROPPEDWIDTH",
+"u": "ee502560(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SETEDITSEL",
+"u": "ee505493(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SETEXTENDEDUI",
+"u": "ee499715(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SETHORIZONTALEXTENT",
+"u": "ee501076(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SETITEMDATA",
+"u": "ee502898(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SETITEMHEIGHT",
+"u": "ee504645(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SETLOCALE",
+"u": "ee503487(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SETTOPINDEX",
+"u": "ee499036(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CB_SHOWDROPDOWN",
+"u": "ee504102(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_CLOSEUP",
+"u": "ee505701(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_DBLCLK",
+"u": "ee504863(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_DROPDOWN",
+"u": "ee500915(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_EDITCHANGE",
+"u": "ee504383(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_EDITUPDATE",
+"u": "ee500255(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_ERRSPACE",
+"u": "ee505434(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_KILLFOCUS",
+"u": "ee504006(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_SELCHANGE",
+"u": "ee506091(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_SELENDCANCEL",
+"u": "ee505669(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_SELENDOK",
+"u": "ee499428(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "CBN_SETFOCUS",
+"u": "ee502531(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "WM_DRAWITEM",
+"u": "ee505834(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "WM_MEASUREITEM",
+"u": "ee503711(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "COMBOBOXINFO",
+"u": "ee505276(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "DRAWITEMSTRUCT",
+"u": "ee501739(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Combo Boxes Reference",
+"t": "MEASUREITEMSTRUCT",
+"u": "ee503680(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "CheckRadioButton",
+"u": "ee500159(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "BM_CLICK",
+"u": "ee505041(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "BM_GETCHECK",
+"u": "ee503368(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "BM_GETSTATE",
+"u": "ee503612(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "BM_SETCHECK",
+"u": "ee503955(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "BM_SETSTATE",
+"u": "ee500163(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "BM_SETSTYLE",
+"u": "ee503911(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "BN_CLICKED",
+"u": "ee500278(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "BN_KILLFOCUS",
+"u": "ee505714(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "BN_SETFOCUS",
+"u": "ee502311(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Buttons Reference",
+"t": "WM_CTLCOLORBTN",
+"u": "ee504523(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Static Controls Reference",
+"t": "STM_GETIMAGE",
+"u": "ee503757(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Static Controls Reference",
+"t": "STM_SETIMAGE",
+"u": "ee499348(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Static Controls Reference",
+"t": "STN_CLICKED",
+"u": "ee506100(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Static Controls Reference",
+"t": "STN_DISABLE",
+"u": "ee501781(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Static Controls Reference",
+"t": "STN_ENABLE",
+"u": "ee504016(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Static Controls Reference",
+"t": "WM_CTLCOLORSTATIC",
+"u": "ee502610(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "GetScrollInfo",
+"u": "ee504048(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "ScrollDC",
+"u": "ee499718(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "ScrollWindowEx",
+"u": "ee500480(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SetScrollInfo",
+"u": "ee503641(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SetScrollPos",
+"u": "ee503730(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SetScrollRange",
+"u": "ee501477(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SCROLLINFO",
+"u": "ee504371(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SBM_GETPOS",
+"u": "ee506275(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SBM_GETRANGE",
+"u": "ee504568(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SBM_GETSCROLLINFO",
+"u": "ee504823(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SBM_SETPOS",
+"u": "ee500615(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SBM_SETRANGE",
+"u": "ee500899(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SBM_SETRANGEREDRAW",
+"u": "ee501461(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "SBM_SETSCROLLINFO",
+"u": "ee505716(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "WM_CTLCOLORSCROLLBAR",
+"u": "ee505263(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "WM_HSCROLL",
+"u": "ee501974(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Scroll Bars Reference",
+"t": "WM_VSCROLL",
+"u": "ee504125(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "AppendMenu",
+"u": "ee502212(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "CheckMenuItem",
+"u": "ee499672(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "CheckMenuRadioItem",
+"u": "ee502246(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "CreateMenu",
+"u": "ee503486(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "CreatePopupMenu",
+"u": "ee502545(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "DeleteMenu",
+"u": "ee504306(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "DestroyMenu",
+"u": "ee505063(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "DrawMenuBar",
+"u": "ee504537(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "EnableMenuItem",
+"u": "ee501426(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "GetMenuItemInfo",
+"u": "ee505664(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "GetSubMenu",
+"u": "ee505084(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "GetSystemMenu",
+"u": "ee505863(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "InsertMenu",
+"u": "ee502866(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "LoadMenu",
+"u": "ee501468(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "RemoveMenu",
+"u": "ee503476(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "SetMenuItemInfo",
+"u": "ee503422(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "TrackPopupMenu",
+"u": "ee503594(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "TrackPopupMenuEx",
+"u": "ee504060(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "CustomTrackPopupMenu",
+"u": "ee505492(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "MENUITEMINFO",
+"u": "ee502561(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "TPMPARAMS",
+"u": "ee500588(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "Menus Constants",
+"u": "ee504295(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "WM_COMMAND",
+"u": "ee503387(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "WM_CONTEXTMENU",
+"u": "ee502540(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "WM_ENTERMENULOOP",
+"u": "ee499673(v=winembedded.60)"
+},
+{
+"area": "window-control",
+"sub": "Menus Reference",
+"t": "WM_EXITMENULOOP",
+"u": "ee503325(v=winembedded.60)"
+}
+]

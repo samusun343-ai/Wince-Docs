@@ -1,0 +1,8 @@
+# Raw (uncompressed) doc indexes are regenerable from the .gz snapshots /
+# the TOC; do not track them.
+data/mslearn-doc-index/*-doc-index.json
+!data/mslearn-doc-index/ce30-doc-index.json
+
+# Python
+__pycache__/
+*.pyc

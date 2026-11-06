@@ -1,0 +1,1760 @@
+[
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "FSCTL_COPY_EXTERNAL_COMPLETE",
+"u": "ms890532(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "FSCTL_COPY_EXTERNAL_START",
+"u": "ms890545(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "IOCTL_DISK_COPY_EXTERNAL_COMPLETE",
+"u": "ms891378(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "IOCTL_DISK_COPY_EXTERNAL_START",
+"u": "ms891382(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "DISK_COPY_EXTERNAL",
+"u": "ms889011(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "FILE_COPY_EXTERNAL",
+"u": "ms889492(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "SECTOR_LIST_ENTRY",
+"u": "ms891894(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeChangeDatabaseLCID (CEDB)",
+"u": "aa516982(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabase (CEDB)",
+"u": "aa516985(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabaseEx (CEDB)",
+"u": "aa516986(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabaseEx2 (CEDB)",
+"u": "aa516987(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteDatabase (CEDB)",
+"u": "aa516994(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteDatabaseEx (CEDB)",
+"u": "aa516996(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteRecord (CEDB)",
+"u": "aa516997(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeEnumDBVolumes (CEDB)",
+"u": "aa517003(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindFirstDatabase (CEDB)",
+"u": "aa517106(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindFirstDatabaseEx (CEDB)",
+"u": "aa517109(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindNextDatabase (CEDB)",
+"u": "aa517118(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindNextDatabaseEx (CEDB)",
+"u": "aa517120(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFlushDBVol (CEDB)",
+"u": "aa517128(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFreeNotification (CEDB)",
+"u": "aa517132(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetDBInformationByHandle (CEDB)",
+"u": "aa517152(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeMountDBVol (CEDB)",
+"u": "aa517177(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOidGetInfo (CEDB)",
+"u": "aa517194(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOidGetInfoEx (CEDB)",
+"u": "aa517197(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOidGetInfoEx2 (CEDB)",
+"u": "aa517198(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenDatabase (CEDB)",
+"u": "aa517213(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenDatabaseEx (CEDB)",
+"u": "aa517216(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenDatabaseEx2 (CEDB)",
+"u": "aa517218(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeReadRecordProps (CEDB)",
+"u": "aa517229(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeReadRecordPropsEx (CEDB)",
+"u": "aa517235(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSeekDatabase (CEDB)",
+"u": "aa517246(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSeekDatabaseEx (CEDB)",
+"u": "aa517251(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetDatabaseInfo (CEDB)",
+"u": "aa517254(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetDatabaseInfoEx (CEDB)",
+"u": "aa517258(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetDatabaseInfoEx2 (CEDB)",
+"u": "aa517259(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeUnmountDBVol (CEDB)",
+"u": "aa517280(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeWriteRecordProps (CEDB)",
+"u": "aa517285(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "BY_HANDLE_DB_INFORMATION (CEDB)",
+"u": "aa516972(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEBLOB (CEDB)",
+"u": "aa516981(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEDBASEINFO (CEDB)",
+"u": "aa516991(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEDBASEINFOEX (CEDB)",
+"u": "aa516992(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CENOTIFICATION (CEDB)",
+"u": "aa517186(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CENOTIFYREQUEST (CEDB)",
+"u": "aa517189(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEOIDINFO (CEDB)",
+"u": "aa517207(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEOIDINFOEX (CEDB)",
+"u": "aa517208(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEPROPVAL (CEDB)",
+"u": "aa517227(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CERECORDINFO (CEDB)",
+"u": "aa517237(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEVALUNION (CEDB)",
+"u": "aa517283(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "SORTORDERSPEC (CEDB)",
+"u": "ms891997(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "SORTORDERSPECEX (CEDB)",
+"u": "ms892001(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeAddDatabaseProps (EDB)",
+"u": "aa516979(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeBeginTransaction (EDB)",
+"u": "aa516980(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeChangeDatabaseLCID (EDB)",
+"u": "aa516983(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabaseEx2 (EDB)",
+"u": "aa516988(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabaseWithProps (EDB)",
+"u": "aa516989(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateSession (EDB)",
+"u": "aa516990(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteDatabase (EDB)",
+"u": "aa516995(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteRecord (EDB)",
+"u": "aa516998(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeEndTransaction (EDB)",
+"u": "aa517002(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeEnumDBVolumes (EDB)",
+"u": "aa517004(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindFirstDatabaseEx (EDB)",
+"u": "aa517114(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindNextDatabaseEx (EDB)",
+"u": "aa517122(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFlushDBVol (EDB)",
+"u": "aa517130(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFreeNotification (EDB)",
+"u": "aa517135(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetDatabaseProps (EDB)",
+"u": "aa517146(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetDatabaseSession (EDB)",
+"u": "aa517147(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetDBInformationByHandle (EDB)",
+"u": "aa517155(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeMountDBVol (EDB)",
+"u": "aa517180(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeMountDBVolEx (EDB)",
+"u": "aa517182(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOidGetInfoEx2 (EDB)",
+"u": "aa517204(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenDatabaseInSession (EDB)",
+"u": "aa517220(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenStream (EDB)",
+"u": "aa517223(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeReadRecordProps (EDB)",
+"u": "aa517232(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeReadRecordPropsEx (EDB)",
+"u": "aa517236(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeRemoveDatabaseProps (EDB)",
+"u": "aa517242(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSeekDatabase (EDB)",
+"u": "aa517250(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSeekDatabaseEx (EDB)",
+"u": "aa517253(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetDatabaseInfo (EDB)",
+"u": "aa517256(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetSessionOption (EDB)",
+"u": "aa517268(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamRead (EDB)",
+"u": "aa517270(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamSaveChanges (EDB)",
+"u": "aa517272(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamSeek (EDB)",
+"u": "aa517274(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamSetSize (EDB)",
+"u": "aa517275(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamWrite (EDB)",
+"u": "aa517278(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeUnmountDBVol (EDB)",
+"u": "aa517282(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeWriteRecordProps (EDB)",
+"u": "aa517288(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "BY_HANDLE_DB_INFORMATION (EDB)",
+"u": "aa516974(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEDBASEINFOEX (EDB)",
+"u": "aa516993(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEOIDINFOEX (EDB)",
+"u": "aa517210(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEPROPSPEC (EDB)",
+"u": "aa517225(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEVOLUMEOPTIONS (EDB)",
+"u": "aa516924(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "SORTORDERSPECEX (EDB)",
+"u": "ms892010(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CHECK_INVALIDGUID",
+"u": "aa517295(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CHECK_SYSTEMGUID",
+"u": "aa517298(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CREATE_INVALIDGUID",
+"u": "aa517332(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CREATE_SYSTEMGUID",
+"u": "aa517336(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "TypeFromPropID",
+"u": "ms892256(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_CHANGED",
+"u": "aa517338(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_CREATED",
+"u": "aa517339(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_DATABASE_DELETED",
+"u": "aa517340(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_DIRECTORY_DELETED",
+"u": "aa517341(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_FILE_DELETED",
+"u": "ms887719(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_RECORD_DELETED",
+"u": "ms887825(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "WM_DBNOTIFICATION",
+"u": "ms892379(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CeGenRandom",
+"u": "aa517140(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CeGetCanonicalPathName",
+"u": "aa517144(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CeGetFileNotificationInfo",
+"u": "aa517158(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CloseHandle",
+"u": "aa517300(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CopyFile",
+"u": "aa517309(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CopyFileEx",
+"u": "aa517311(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CreateDirectory",
+"u": "aa517316(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CreateFile",
+"u": "aa517318(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "DeleteAndRenameFile",
+"u": "ms887981(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "DeleteFile",
+"u": "ms889001(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindClose",
+"u": "ms889619(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindCloseChangeNotification",
+"u": "ms889625(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindFirstChangeNotification",
+"u": "ms889670(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindFirstFile",
+"u": "ms889678(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindFirstFileEx",
+"u": "ms889683(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindNextChangeNotification",
+"u": "ms889784(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindNextFile",
+"u": "ms889873(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FlushFileBuffers",
+"u": "ms890238(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetDiskFreeSpaceEx",
+"u": "ms890887(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileAttributes",
+"u": "ms890895(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileAttributesEx",
+"u": "ms890909(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileInformationByHandle",
+"u": "ms890926(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileSize",
+"u": "ms890939(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileVersionInfo",
+"u": "ms890951(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileVersionInfoSize",
+"u": "ms890963(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetStoreInformation",
+"u": "ms891023(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetTempFileName",
+"u": "ms891186(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetTempPath",
+"u": "ms891189(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "LockFileEx",
+"u": "ms891385(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "MoveFile",
+"u": "ms891388(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "ReadFile",
+"u": "ms891445(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "RemoveDirectory",
+"u": "ms891470(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "SetEndOfFile",
+"u": "ms891916(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "SetFileAttributes",
+"u": "ms891925(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "SetFilePointer",
+"u": "ms891933(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "UnlockFileEx",
+"u": "ms892364(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "WriteFile",
+"u": "ms892380(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "BY_HANDLE_FILE_INFORMATION",
+"u": "aa516973(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CEDIRINFO",
+"u": "aa517001(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CEFILEINFO",
+"u": "aa517101(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FILE_NOTIFY_INFORMATION",
+"u": "ms889597(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FILECHANGEINFO",
+"u": "ms889030(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "OVERLAPPED",
+"u": "ms891422(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "WIN32_FILE_ATTRIBUTE_DATA",
+"u": "ms892377(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "WIN32_FIND_DATA",
+"u": "ms892378(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FINDEX_INFO_LEVELS",
+"u": "ms889654(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FINDEX_SEARCH_OPS",
+"u": "ms889664(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GET_FILEEX_INFO_LEVELS",
+"u": "ms890917(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "CreateFileForMapping",
+"u": "aa517321(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "CreateFileMapping",
+"u": "aa517331(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "FlushViewOfFile",
+"u": "ms890303(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "MapViewOfFile",
+"u": "ms891386(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "UnmapViewOfFile",
+"u": "ms892373(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "CheckPassword",
+"u": "aa517297(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "GetPasswordActive",
+"u": "ms890993(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "GetPasswordStatus",
+"u": "ms891004(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "SetPassword",
+"u": "ms891953(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "SetPasswordActive",
+"u": "ms891968(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "SetPasswordStatus",
+"u": "ms891976(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "PACQUIREFILELOCKSTATE",
+"u": "aa517930(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "PEMPTYLOCKCONTAINER",
+"u": "aa517931(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "SHELLFILECHANGEFUNC_t",
+"u": "ms891992(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "CeFsIoControl",
+"u": "aa517137(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "CeResyncFilesys",
+"u": "aa517244(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_HookVolume",
+"u": "ms890702(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_MountDisk",
+"u": "ms890837(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_UnhookVolume",
+"u": "ms890860(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_UnmountDisk",
+"u": "ms890869(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_AcquireFileLock",
+"u": "aa517919(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CloseFileLockState",
+"u": "aa517920(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CreateFileHandle",
+"u": "ms890708(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CreateSearchHandle",
+"u": "ms890716(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_DeregisterVolume",
+"u": "ms890721(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_DeviceHandleToHDSK",
+"u": "ms890822(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_DiskIoControl",
+"u": "ms890829(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_EmptyLockContainer",
+"u": "aa517921(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetDiskInfo",
+"u": "ms890738(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetRegistryFlag",
+"u": "ms890745(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetRegistryString",
+"u": "ms890753(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetRegistryValue",
+"u": "ms890762(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetVolumeName",
+"u": "ms890773(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_OpenFileLockState",
+"u": "aa517922(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_ReadDisk",
+"u": "ms890782(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_ReadDiskEx",
+"u": "ms890792(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_RegisterVolume",
+"u": "ms890800(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_RemoveFileLock",
+"u": "aa517923(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_WriteDisk",
+"u": "ms890807(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_WriteDiskEx",
+"u": "ms890814(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "LoadFSD",
+"u": "ms891383(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "LoadFSDEx",
+"u": "ms891384(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_CloseFile",
+"u": "ms891389(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_CloseVolume",
+"u": "ms891390(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_CreateDirectoryW",
+"u": "ms891391(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_CreateFileW",
+"u": "ms891392(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_DeleteAndRenameFileW",
+"u": "ms891393(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_DeleteFileW",
+"u": "ms891394(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_DeviceIoControl",
+"u": "ms891395(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FindClose",
+"u": "ms891396(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FindFirstFileW",
+"u": "ms891397(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FindNextFileW",
+"u": "ms891398(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FlushFileBuffers",
+"u": "ms891399(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FsIoControl",
+"u": "ms891419(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetDiskFreeSpaceW",
+"u": "ms891400(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetFileAttributesW",
+"u": "ms891401(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetFileInformationByHandle",
+"u": "ms891402(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetFileSize",
+"u": "ms891403(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetFileTime",
+"u": "ms891404(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetVolumeInfo",
+"u": "aa517925(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_LockFileEx",
+"u": "aa517926(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_MountDisk",
+"u": "ms891405(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_MoveFileW",
+"u": "ms891406(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_Notify",
+"u": "ms891407(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_ReadFile",
+"u": "ms891408(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_ReadFileWithSeek",
+"u": "ms891409(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_ReadFileScatter",
+"u": "aa517927(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_RegisterFileSystemFunction",
+"u": "ms891410(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_RemoveDirectoryW",
+"u": "ms891411(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_SetEndOfFile",
+"u": "ms891412(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_SetFileAttributesW",
+"u": "ms891413(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_SetFilePointer",
+"u": "ms891414(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_SetFileTime",
+"u": "ms891415(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_UnLockFileEx",
+"u": "aa517928(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_UnmountDisk",
+"u": "ms891416(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_WriteFile",
+"u": "ms891417(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_WriteFileGather",
+"u": "aa517929(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_WriteFileWithSeek",
+"u": "ms891418(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_GET_COMPRESSION",
+"u": "ms890558(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_GET_REGISTRY_INFO",
+"u": "ms890569(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_QUERY_ALLOCATED_RANGES",
+"u": "ms890585(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_SET_COMPRESSION",
+"u": "ms890601(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_SET_SPARSE",
+"u": "ms890611(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_SET_ZERO_DATA",
+"u": "ms890637(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_USER",
+"u": "ms890651(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSSCTL_FLUSH_BUFFERS",
+"u": "ms890878(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "CE_REGISTRY_INFO",
+"u": "aa517289(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FILE_ALLOCATED_RANGE_BUFFER",
+"u": "ms889307(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FILELOCKSTATE",
+"u": "aa517917(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FILE_ZERO_DATA_INFORMATION",
+"u": "ms889606(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FILTERHOOK",
+"u": "ms889612(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_BUFFER_INFO",
+"u": "ms890667(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_DISK_INFO",
+"u": "ms890695(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_SCATTER_GATHER_INFO",
+"u": "ms890842(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_SCATTER_GATHER_RESULTS",
+"u": "ms890852(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_VOLUME_INFO",
+"u": "aa517924(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegCloseKey",
+"u": "ms891448(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegCreateKeyEx",
+"u": "ms891450(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegDeleteKey",
+"u": "ms891451(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegDeleteValue",
+"u": "ms891452(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegEnumKeyEx",
+"u": "ms891453(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegEnumValue",
+"u": "ms891454(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegFlushKey",
+"u": "ms891455(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegOpenKeyEx",
+"u": "ms891460(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegQueryInfoKey",
+"u": "ms891461(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegQueryValueEx",
+"u": "ms891462(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegSetValueEx",
+"u": "ms891469(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "CeFindCloseRegChange",
+"u": "aa517103(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "CeFindFirstRegChange",
+"u": "aa517116(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "CeFindNextRegChange",
+"u": "aa517123(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "CeGetVolumeInfo",
+"u": "aa517175(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "CreatePartition",
+"u": "aa517334(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "CreatePartitionEx",
+"u": "aa517335(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "DeletePartition",
+"u": "ms889008(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "DismountPartition",
+"u": "ms889019(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "DismountStore",
+"u": "ms889024(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindClosePartition",
+"u": "ms889632(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindCloseStore",
+"u": "ms889642(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindFirstPartition",
+"u": "ms889689(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindFirstStore",
+"u": "ms889696(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindNextPartition",
+"u": "ms889968(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindNextStore",
+"u": "ms890093(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FormatPartition",
+"u": "ms890426(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FormatPartitionEx",
+"u": "ms890434(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FormatStore",
+"u": "ms890450(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "GetPartitionInfo",
+"u": "ms890985(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "GetStoreInfo",
+"u": "ms891013(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "MountPartition",
+"u": "ms891387(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "OpenPartition",
+"u": "ms891420(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "OpenStore",
+"u": "ms891421(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "RenamePartition",
+"u": "ms891471(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "SetPartitionAttributes",
+"u": "ms891941(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "CE_VOLUME_INFO",
+"u": "aa517292(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "PARTINFO",
+"u": "ms891424(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "STORAGECONTEXT",
+"u": "ms892014(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "STORAGEDEVICEINFO",
+"u": "ms892022(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "STOREINFO (Storage Manager)",
+"u": "ms892106(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "User Management Reference",
+"t": "GetUserDirectory",
+"u": "ms891226(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "User Management Reference",
+"t": "SetCurrentUser",
+"u": "ms891903(v=msdn.10)"
+},
+{
+"area": "file-io",
+"sub": "User Management Reference",
+"t": "SetUserData",
+"u": "ms891984(v=msdn.10)"
+}
+]

@@ -1,0 +1,1004 @@
+[
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSP_Routine",
+"u": "ee493671(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSATHREADID",
+"u": "ee494849(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPDATA",
+"u": "ee494928(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPCleanup",
+"u": "ee493494(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPGetServiceClassInfo",
+"u": "ee493096(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPInstallServiceClass",
+"u": "ee493708(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPLookupServiceBegin",
+"u": "ee495156(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPLookupServiceEnd",
+"u": "ee495113(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPLookupServiceNext",
+"u": "ee493028(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPRemoveServiceClass",
+"u": "ee494864(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPSetService",
+"u": "ee494884(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "NSPStartup",
+"u": "ee494898(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCloseEvent",
+"u": "ee495068(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCloseSocketHandle",
+"u": "ee494269(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCompleteOverlappedRequest",
+"u": "ee494931(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCreateEvent",
+"u": "ee495144(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUCreateSocketHandle",
+"u": "ee494229(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUFDIsSet",
+"u": "ee494870(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUGetProviderPath",
+"u": "ee494536(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUQueryBlockingCallback",
+"u": "ee493690(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUQuerySocketHandleContext",
+"u": "ee495110(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUResetEvent",
+"u": "ee493070(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WPUSetEvent",
+"u": "ee494284(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCDeinstallProvider",
+"u": "ee493720(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCEnumProtocols",
+"u": "ee493452(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCInstallNameSpace",
+"u": "ee493457(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCInstallProvider",
+"u": "ee494476(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSCUnInstallNameSpace",
+"u": "ee493016(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPAccept",
+"u": "ee493045(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPAddressToString",
+"u": "ee493021(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPAsyncSelect",
+"u": "ee494249(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPBind",
+"u": "ee494250(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPCleanup",
+"u": "ee493098(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPCloseSocket",
+"u": "ee494429(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPConnect",
+"u": "ee494433(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPDuplicateSocket",
+"u": "ee494669(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPEnumNetworkEvents",
+"u": "ee494242(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPEventSelect",
+"u": "ee493866(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPGetOverlappedResult",
+"u": "ee493240(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPGetPeerName",
+"u": "ee493897(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPGetSockName",
+"u": "ee494477(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPGetSockOpt",
+"u": "ee493870(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPIoctl",
+"u": "ee495069(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPJoinLeaf",
+"u": "ee493632(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPListen",
+"u": "ee493649(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPRecv",
+"u": "ee493650(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPRecvDisconnect",
+"u": "ee494067(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPRecvFrom",
+"u": "ee494321(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSelect",
+"u": "ee493305(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSend",
+"u": "ee495079(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSendDisconnect",
+"u": "ee494232(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSendTo",
+"u": "ee494709(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSetSockOpt",
+"u": "ee493510(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPShutdown",
+"u": "ee494276(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPSocket",
+"u": "ee493009(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPStartup",
+"u": "ee494873(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock SPI Reference",
+"t": "WSPStringToAddress",
+"u": "ee495118(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAECOMPARATOR",
+"u": "ee494452(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "_DSCP_TRAFFIC_TYPE",
+"u": "ee494854(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAAccept",
+"u": "ee493252(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAAddressToString",
+"u": "ee494274(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSACleanup",
+"u": "ee493918(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSACloseEvent",
+"u": "ee493269(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAConnect",
+"u": "ee493678(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSACreateEvent",
+"u": "ee494935(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAEnumNameSpaceProviders",
+"u": "ee494495(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAEnumNetworkEvents",
+"u": "ee495246(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAEnumProtocols",
+"u": "ee493255(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAEventSelect",
+"u": "ee495095(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAGetLastError",
+"u": "ee494112(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAGetOverlappedResult",
+"u": "ee493265(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAHtonl",
+"u": "ee493085(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAHtons",
+"u": "ee493714(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAIoctl",
+"u": "ee493869(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAJoinLeaf",
+"u": "ee494733(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSALookupServiceBegin (Windows Sockets)",
+"u": "ee494273(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSALookupServiceEnd (Windows Sockets)",
+"u": "ee493484(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSALookupServiceNext (Windows Sockets)",
+"u": "ee493461(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANSPIoctl",
+"u": "ee494859(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANtohl",
+"u": "ee495092(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANtohs",
+"u": "ee494684(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSARecv",
+"u": "ee494047(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSARecvFrom",
+"u": "ee495083(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAResetEvent",
+"u": "ee494941(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASend",
+"u": "ee494227(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASendTo",
+"u": "ee494438(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASetEvent",
+"u": "ee494648(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASetLastError",
+"u": "ee493103(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASetService (Windows Sockets)",
+"u": "ee493906(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASocket",
+"u": "ee493507(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAStartup",
+"u": "ee495252(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAStringToAddress",
+"u": "ee493635(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAWaitForMultipleEvents",
+"u": "ee495059(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "accept (Windows Sockets)",
+"u": "ee494107(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "bind (Windows Sockets)",
+"u": "ee493823(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "closesocket",
+"u": "ee495071(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "connect (Windows Sockets)",
+"u": "ee493258(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "freeaddrinfo",
+"u": "ee494081(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getaddrinfo",
+"u": "ee494084(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "gethostbyaddr",
+"u": "ee495081(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "gethostbyname",
+"u": "ee494108(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "gethostname",
+"u": "ee494703(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getnameinfo",
+"u": "ee493879(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getpeername (Windows Sockets)",
+"u": "ee493684(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getsockname (Windows Sockets)",
+"u": "ee494241(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "getsockopt (Windows Sockets)",
+"u": "ee494641(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "htonl",
+"u": "ee495085(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "htons",
+"u": "ee494895(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "inet_addr",
+"u": "ee493672(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "inet_ntoa",
+"u": "ee493686(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "ioctlsocket",
+"u": "ee493921(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "listen",
+"u": "ee494280(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "ntohl",
+"u": "ee493881(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "ntohs",
+"u": "ee493257(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "recv",
+"u": "ee494737(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "recvfrom",
+"u": "ee494234(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "select",
+"u": "ee494856(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "send",
+"u": "ee494435(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sendto",
+"u": "ee493058(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sethostname",
+"u": "ee493673(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "setsockopt (Windows Sockets)",
+"u": "ee493640(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "shutdown",
+"u": "ee493012(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "socket (Windows Sockets)",
+"u": "ee495044(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "addrinfo",
+"u": "ee493833(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "AFPROTOCOLS",
+"u": "ee494887(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "BLOB (Windows Sockets)",
+"u": "ee493845(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "CSADDR_INFO",
+"u": "ee493049(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "fd_set",
+"u": "ee493076(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "hostent",
+"u": "ee495093(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "in_addr",
+"u": "ee493303(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "in6_addr",
+"u": "ee495157(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "linger",
+"u": "ee494307(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "NS_SERVICE_INFO",
+"u": "ee495154(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "PROTOCOL_INFO",
+"u": "ee494118(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "protoent",
+"u": "ee495065(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "servent",
+"u": "ee493621(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_ADDRESS",
+"u": "ee493466(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_ADDRESSES",
+"u": "ee493430(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_INFO",
+"u": "ee493014(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_TYPE_INFO_ABS",
+"u": "ee493041(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SERVICE_TYPE_VALUE_ABS",
+"u": "ee495098(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sockaddr",
+"u": "ee493256(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sockaddr_in",
+"u": "ee494732(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "sockaddr_in6",
+"u": "ee493465(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SOCKADDR_STORAGE",
+"u": "ee494048(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SOCKET_ADDRESS",
+"u": "ee493623(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "timeval",
+"u": "ee494072(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "TRANSMIT_FILE_BUFFERS",
+"u": "ee493636(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSABUF",
+"u": "ee495253(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSACOMPLETION",
+"u": "ee495046(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSADATA",
+"u": "ee493834(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANAMESPACE_INFO",
+"u": "ee493886(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSANETWORKEVENTS",
+"u": "ee493032(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAOVERLAPPED",
+"u": "ee495102(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAPROTOCOL_INFO",
+"u": "ee494294(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAPROTOCOLCHAIN",
+"u": "ee493837(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSAQUERYSET (Windows Sockets)",
+"u": "ee494253(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "WSASERVICECLASSINFO",
+"u": "ee493006(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "Winsock Error Codes",
+"u": "ee493863(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "Secure Socket Control Codes",
+"u": "ee495088(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "Using IPV6_PROTECTION_LEVEL",
+"u": "ee493492(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "IPPROTO_IP",
+"u": "ee493276(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "IPPROTO_TCP",
+"u": "ee494726(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "IPPROTO_UDP",
+"u": "ee494697(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SOL_SOCKET",
+"u": "ee493249(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "SOL_IRLMP",
+"u": "ee493092(v=winembedded.60)"
+},
+{
+"area": "winsock",
+"sub": "Winsock Reference",
+"t": "IPPROTO_RAW",
+"u": "ee494434(v=winembedded.60)"
+}
+]

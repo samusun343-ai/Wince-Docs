@@ -1,0 +1,149 @@
+{
+ "core-os": {
+  "pages": 408,
+  "subareas": {
+   "CeLog Event Tracking Reference": 77,
+   "Debugging Reference": 32,
+   "DLL Reference": 12,
+   "Error Values": 13,
+   "Exception Reference": 10,
+   "Fiber Reference": 7,
+   "Kernel Buffer Marshaling Reference": 10,
+   "Memory Management Reference": 35,
+   "Message Queue Point-to-Point Reference": 9,
+   "Network Address Translation Reference": 20,
+   "Process and Thread Reference": 39,
+   "Serial Communications Reference": 20,
+   "State and Notifications Broker Reference": 17,
+   "String Reference": 13,
+   "Synchronization Reference": 25,
+   "System Management Reference": 17,
+   "Time Reference": 26,
+   "ToolHelp Reference": 18,
+   "Unicode Reference": 8
+  }
+ },
+ "file-io": {
+  "pages": 417,
+  "subareas": {
+   "Bootpart Reference": 8,
+   "Disk Cache Manager Reference": 9,
+   "Copy External Reference": 7,
+   "Database Reference": 134,
+   "FAT File System Reference": 21,
+   "File I/O Reference": 48,
+   "File Mapping Reference": 5,
+   "File System Password Reference": 6,
+   "Partition Manager Reference": 19,
+   "FSD Reference": 99,
+   "Registry Reference": 30,
+   "Storage Manager Reference": 27,
+   "User Management Reference": 4
+  }
+ },
+ "gwes": {
+  "pages": 1007,
+  "subareas": {
+   "GDI Reference": 175,
+   "GWES OS Reference": 270,
+   "Interprocess Communication Reference": 3,
+   "Message Queue Reference": 19,
+   "Message Synchronization Reference": 2,
+   "Notification Reference": 23,
+   "Notify Reference": 13,
+   "Out of Memory User Interface Reference": 12,
+   "Printing Reference": 8,
+   "Resources Reference": 63,
+   "Startup User Interface Reference": 6,
+   "System Information Reference": 9,
+   "Window Class Reference": 9,
+   "Window Control Reference": 305,
+   "Window and Control Styles": 24,
+   "Window Properties Reference": 5,
+   "Windows Reference": 56,
+   "Windows Timer Reference": 5
+  }
+ },
+ "gdi": {
+  "pages": 175,
+  "subareas": {
+   "GDI Functions": 132,
+   "GDI Messages": 5,
+   "GDI Structures": 29,
+   "Raster Operation Codes": 2,
+   "GDI Macros": 7
+  }
+ },
+ "window-control": {
+  "pages": 305,
+  "subareas": {
+   "Atoms Reference": 4,
+   "Carets Reference": 8,
+   "Clipboards Reference": 20,
+   "Dialog Boxes Reference": 37,
+   "Edit Boxes Reference": 42,
+   "List Boxes Reference": 46,
+   "Image Lists Reference": 38,
+   "Combo Boxes Reference": 50,
+   "Buttons Reference": 11,
+   "Static Controls Reference": 6,
+   "Scroll Bars Reference": 17,
+   "Menus Reference": 26
+  }
+ },
+ "shell": {
+  "pages": 985,
+  "subareas": {
+   "AYGShell Reference": 60,
+   "Common Controls Reference": 828,
+   "Console Reference": 10,
+   "Shell OS Reference": 4,
+   "Standard Shell Reference": 83
+  }
+ },
+ "winsock": {
+  "pages": 167,
+  "subareas": {
+   "Winsock SPI Reference": 57,
+   "Winsock Reference": 110
+  }
+ },
+ "common-controls": {
+  "pages": 828,
+  "subareas": {
+   "Animation Controls Reference": 13,
+   "CapEdit Controls Reference": 3,
+   "Command Bands Reference": 8,
+   "Command Bars Reference": 16,
+   "Common Control Reference": 20,
+   "Common Dialog Boxes Reference": 21,
+   "Controls Reference": 2,
+   "Custom Draw Reference": 2,
+   "Date and Time Picker Controls Reference": 32,
+   "Header Controls Reference": 45,
+   "List-View Controls Reference": 216,
+   "Month Calendar Controls Reference": 50,
+   "Progress Bar Controls Reference": 9,
+   "Property Sheets Reference": 52,
+   "Rebar Controls Reference": 33,
+   "SbEdit Controls Reference": 1,
+   "Status Bars Reference": 16,
+   "Tab Controls Reference": 57,
+   "Toolbar Controls Reference": 65,
+   "ToolTips Reference": 35,
+   "Trackbar Controls Reference": 30,
+   "Tree View Controls Reference": 84,
+   "Up-Down Controls Reference": 18
+  }
+ },
+ "error-values": {
+  "pages": 135,
+  "subareas": {
+   "Device Compiler Error Messages": 11,
+   "NMAKE Errors U1000 through U4011": 88,
+   "BSCMAKE Errors BK1500 through BK4504": 23,
+   "(top)": 10,
+   "Error Functions": 3
+  }
+ }
+}

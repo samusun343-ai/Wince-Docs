@@ -1,0 +1,2504 @@
+[
+{
+"area": "file-io",
+"sub": "Bootpart Reference",
+"t": "BP_GetPartitionInfo",
+"u": "ee489819(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Bootpart Reference",
+"t": "BP_Init",
+"u": "ee489535(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Bootpart Reference",
+"t": "BP_LowLevelFormat",
+"u": "ee490571(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Bootpart Reference",
+"t": "BP_OpenPartition",
+"u": "ee490346(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Bootpart Reference",
+"t": "BP_ReadData",
+"u": "ee490171(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Bootpart Reference",
+"t": "BP_SetDataPointer",
+"u": "ee490351(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Bootpart Reference",
+"t": "BP_WriteData",
+"u": "ee490583(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Bootpart Reference",
+"t": "PARTENTRY",
+"u": "ee489807(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Disk Cache Manager Reference",
+"t": "CachedRead",
+"u": "ee490386(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Disk Cache Manager Reference",
+"t": "CachedWrite",
+"u": "ee490590(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Disk Cache Manager Reference",
+"t": "CacheIoControl",
+"u": "ee489834(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Disk Cache Manager Reference",
+"t": "CreateCache",
+"u": "ee490615(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Disk Cache Manager Reference",
+"t": "DeleteCache",
+"u": "ee490439(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Disk Cache Manager Reference",
+"t": "FlushCache",
+"u": "ee490626(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Disk Cache Manager Reference",
+"t": "InvalidateCache",
+"u": "ee489663(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Disk Cache Manager Reference",
+"t": "ResizeCache",
+"u": "ee490345(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Disk Cache Manager Reference",
+"t": "SyncCache",
+"u": "ee489927(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "FSCTL_COPY_EXTERNAL_COMPLETE",
+"u": "ee490761(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "FSCTL_COPY_EXTERNAL_START",
+"u": "ee489775(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "IOCTL_DISK_COPY_EXTERNAL_COMPLETE",
+"u": "ee490163(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "IOCTL_DISK_COPY_EXTERNAL_START",
+"u": "ee489797(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "DISK_COPY_EXTERNAL",
+"u": "ee490566(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "FILE_COPY_EXTERNAL",
+"u": "ee489963(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Copy External Reference",
+"t": "SECTOR_LIST_ENTRY",
+"u": "ee489749(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeChangeDatabaseLCID (CEDB)",
+"u": "ee490434(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabase (CEDB)",
+"u": "ee490565(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabaseEx (CEDB)",
+"u": "ee489538(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabaseEx2 (CEDB)",
+"u": "ee490437(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteDatabase (CEDB)",
+"u": "ee489626(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteDatabaseEx (CEDB)",
+"u": "ee489925(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteRecord (CEDB)",
+"u": "ee490377(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeEnumDBVolumes (CEDB)",
+"u": "ee489669(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindFirstDatabase (CEDB)",
+"u": "ee490191(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindFirstDatabaseEx (CEDB)",
+"u": "ee490433(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindNextDatabase (CEDB)",
+"u": "ee489816(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindNextDatabaseEx (CEDB)",
+"u": "ee490170(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFlushDBVol (CEDB)",
+"u": "ee490376(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFreeNotification (CEDB)",
+"u": "ee490603(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetDBInformationByHandle (CEDB)",
+"u": "ee490013(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeMountDBVol (CEDB)",
+"u": "ee490427(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOidGetInfo (CEDB)",
+"u": "ee490150(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOidGetInfoEx (CEDB)",
+"u": "ee489655(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOidGetInfoEx2 (CEDB)",
+"u": "ee490189(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenDatabase (CEDB)",
+"u": "ee490166(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenDatabaseEx (CEDB)",
+"u": "ee489754(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenDatabaseEx2 (CEDB)",
+"u": "ee489942(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeReadRecordProps (CEDB)",
+"u": "ee489779(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeReadRecordPropsEx (CEDB)",
+"u": "ee489776(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSeekDatabase (CEDB)",
+"u": "ee490036(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSeekDatabaseEx (CEDB)",
+"u": "ee489988(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetDatabaseInfo (CEDB)",
+"u": "ee489573(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetDatabaseInfoEx (CEDB)",
+"u": "ee489940(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetDatabaseInfoEx2 (CEDB)",
+"u": "ee489550(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeUnmountDBVol (CEDB)",
+"u": "ee490623(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeWriteRecordProps (CEDB)",
+"u": "ee489953(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "BY_HANDLE_DB_INFORMATION (CEDB)",
+"u": "ee490788(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEBLOB (CEDB)",
+"u": "ee489734(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEDBASEINFO (CEDB)",
+"u": "ee489526(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEDBASEINFOEX (CEDB)",
+"u": "ee490380(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CENOTIFICATION (CEDB)",
+"u": "ee490156(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CENOTIFYREQUEST (CEDB)",
+"u": "ee489793(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEOIDINFO (CEDB)",
+"u": "ee489759(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEOIDINFOEX (CEDB)",
+"u": "ee490549(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEPROPVAL (CEDB)",
+"u": "ee490426(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CERECORDINFO (CEDB)",
+"u": "ee490355(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEVALUNION (CEDB)",
+"u": "ee490225(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "SORTORDERSPEC (CEDB)",
+"u": "ee490199(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "SORTORDERSPECEX (CEDB)",
+"u": "ee490622(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeAddDatabaseProps (EDB)",
+"u": "ee490024(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeAddSyncPartner (EDB)",
+"u": "ee489559(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeAttachCustomTrackingData (EDB)",
+"u": "ee490591(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeBeginSyncSession (EDB)",
+"u": "ee490361(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeBeginTransaction (EDB)",
+"u": "ee489732(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeChangeDatabaseLCID (EDB)",
+"u": "ee490785(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabaseEx2 (EDB)",
+"u": "ee490213(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateDatabaseWithProps (EDB)",
+"u": "ee489951(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeCreateSession (EDB)",
+"u": "ee490572(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteDatabase (EDB)",
+"u": "ee490185(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteDatabaseEx (EDB)",
+"u": "ee489657(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeDeleteRecord (EDB)",
+"u": "ee489957(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeEndSyncSession (EDB)",
+"u": "ee490747(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeEndTransaction (EDB)",
+"u": "ee489943(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeEnumDBVolumes (EDB)",
+"u": "ee490610(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindFirstDatabaseEx (EDB)",
+"u": "ee490551(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindNextChangedRecord",
+"u": "ee490379(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFindNextDatabaseEx (EDB)",
+"u": "ee490167(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFlushDBVol (EDB)",
+"u": "ee490578(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeFreeNotification (EDB)",
+"u": "ee490146(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetChangedRecordCnt (EDB)",
+"u": "ee490631(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetChangedRecords (EDB)",
+"u": "ee490394(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetCustomTrackingData (EDB)",
+"u": "ee490362(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetDatabaseProps (EDB)",
+"u": "ee489945(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetDatabaseSession (EDB)",
+"u": "ee490347(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetDBInformationByHandle (EDB)",
+"u": "ee490637(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetPropChangeInfo (EDB)",
+"u": "ee489544(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetRecordChangeInfo (EDB)",
+"u": "ee490748(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeMarkRecord (EDB)",
+"u": "ee489812(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeMountDBVol (EDB)",
+"u": "ee490178(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeMountDBVolEx (EDB)",
+"u": "ee490190(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOidGetInfoEx2 (EDB)",
+"u": "ee489631(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenDatabaseInSession (EDB)",
+"u": "ee489772(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeOpenStream (EDB)",
+"u": "ee490778(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CePurgeTrackingData (EDB)",
+"u": "ee489633(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CePurgeTrackingGenerations (EDB)",
+"u": "ee490398(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeReadRecordProps (EDB)",
+"u": "ee490192(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeReadRecordPropsEx (EDB)",
+"u": "ee490354(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeRemoveDatabaseProps (EDB)",
+"u": "ee490413(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeRemoveDatabaseTracking (EDB)",
+"u": "ee489583(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeRemoveSyncPartner (EDB)",
+"u": "ee489650(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSeekDatabase (EDB)",
+"u": "ee489813(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSeekDatabaseEx (EDB)",
+"u": "ee490388(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetDatabaseInfoEx (EDB)",
+"u": "ee490168(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetSessionOption (EDB)",
+"u": "ee489805(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamRead (EDB)",
+"u": "ee490363(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamSaveChanges (EDB)",
+"u": "ee490575(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamSeek (EDB)",
+"u": "ee490569(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamSetSize (EDB)",
+"u": "ee489954(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeStreamWrite (EDB)",
+"u": "ee490147(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeTrackDatabase (EDB)",
+"u": "ee490562(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeTrackProperty (EDB)",
+"u": "ee489527(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeUnmountDBVol (EDB)",
+"u": "ee490625(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeWriteRecordProps (EDB)",
+"u": "ee489540(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "BY_HANDLE_DB_INFORMATION (EDB)",
+"u": "ee490409(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEDBASEINFOEX (EDB)",
+"u": "ee490234(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEOIDINFOEX (EDB)",
+"u": "ee490611(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEPROPSPEC (EDB)",
+"u": "ee490040(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CEVOLUMEOPTIONS (EDB)",
+"u": "ee490634(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "SORTORDERSPECEX (EDB)",
+"u": "ee490012(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CHECK_INVALIDGUID",
+"u": "ee490402(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CHECK_SYSTEMGUID",
+"u": "ee490606(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CREATE_INVALIDGUID",
+"u": "ee490224(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CREATE_SYSTEMGUID",
+"u": "ee489546(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "TypeFromPropID",
+"u": "ee490174(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_CHANGED",
+"u": "ee489760(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_CREATED",
+"u": "ee490153(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_DATABASE_DELETED",
+"u": "ee489525(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_DIRECTORY_DELETED",
+"u": "ee489939(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_FILE_DELETED",
+"u": "ee490173(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "DB_CEOID_RECORD_DELETED",
+"u": "ee489561(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "WM_DBNOTIFICATION",
+"u": "ee490638(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "Database Error Codes",
+"u": "ee490803(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeClearReplChangeBitsEx",
+"u": "ee490764(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetReplChangeBitsEx",
+"u": "ee489986(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetReplChangeMask",
+"u": "ee489545(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeGetReplOtherBitsEx",
+"u": "ee490604(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeRegisterReplNotification",
+"u": "ee489752(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetReplChangeBitsEx",
+"u": "ee489826(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetReplChangeMask",
+"u": "ee490794(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "CeSetReplOtherBitsEx",
+"u": "ee490642(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "ReplChangeSyncSettings",
+"u": "ee490410(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "ReplCheckpoint",
+"u": "ee490241(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "ReplCloseSync",
+"u": "ee489965(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "ReplFindNextChange",
+"u": "ee489932(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "ReplGetOidStatus",
+"u": "ee489769(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "ReplGetSyncState",
+"u": "ee489551(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "ReplOpenSync",
+"u": "ee490609(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "REPLCHANGEINFO",
+"u": "ee490184(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Database Reference",
+"t": "GetOIDSearchID",
+"u": "ee489944(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "DefragVolume",
+"u": "ee489956(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "DefragVolumeEx",
+"u": "ee490407(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "DefragVolumeUI",
+"u": "ee489774(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "FormatVolume",
+"u": "ee490193(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "FormatVolumeEx",
+"u": "ee489780(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "FormatVolumeUI",
+"u": "ee490011(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "ScanVolume",
+"u": "ee490152(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "ScanVolumeEx",
+"u": "ee490568(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "ScanVolumeUI",
+"u": "ee490381(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "DEFRAG_OPTIONS",
+"u": "ee489969(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "DEFRAG_PARAMS",
+"u": "ee490430(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "DEFRAG_RESULTS",
+"u": "ee490418(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "FORMAT_OPTIONS",
+"u": "ee489785(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "FORMAT_PARAMS",
+"u": "ee489980(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "FORMAT_RESULTS",
+"u": "ee490348(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "FRAGNODE",
+"u": "ee489824(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "SCAN_OPTIONS",
+"u": "ee490579(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "SCAN_PARAMS",
+"u": "ee490025(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "SCAN_RESULTS",
+"u": "ee490242(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "IOCTL_DISK_FORMAT_VOLUME",
+"u": "ee489783(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FAT File System Reference",
+"t": "IOCTL_DISK_SCAN_VOLUME",
+"u": "ee490188(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CeGenRandom",
+"u": "ee490181(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CeGetCanonicalPathName",
+"u": "ee490595(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CeGetFileNotificationInfo",
+"u": "ee489582(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CloseHandle",
+"u": "ee490442(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CopyFile",
+"u": "ee490577(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CopyFileEx",
+"u": "ee490791(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CreateDirectory",
+"u": "ee490797(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CreateFile",
+"u": "ee490417(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "DeleteAndRenameFile",
+"u": "ee489617(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "DeleteFile",
+"u": "ee490038(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindClose",
+"u": "ee489804(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindCloseChangeNotification",
+"u": "ee489773(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindFirstChangeNotification",
+"u": "ee490599(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindFirstFile",
+"u": "ee489744(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindFirstFileEx",
+"u": "ee490404(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindNextChangeNotification",
+"u": "ee490370(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FindNextFile",
+"u": "ee490628(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FlushFileBuffers",
+"u": "ee489770(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetDiskFreeSpaceEx",
+"u": "ee490421(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileAttributes",
+"u": "ee489560(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileAttributesEx",
+"u": "ee490758(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileInformationByHandle",
+"u": "ee489735(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileSize",
+"u": "ee490353(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileVersionInfo",
+"u": "ee489818(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetFileVersionInfoSize",
+"u": "ee489808(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetStoreInformation",
+"u": "ee490015(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetTempFileName",
+"u": "ee489761(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GetTempPath",
+"u": "ee489558(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "LockFileEx",
+"u": "ee489737(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "MoveFile",
+"u": "ee490016(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "ReadFile",
+"u": "ee489594(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "RemoveDirectory",
+"u": "ee490356(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "SetEndOfFile",
+"u": "ee490369(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "SetFileAttributes",
+"u": "ee490205(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "SetFilePointer",
+"u": "ee490790(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "UnlockFileEx",
+"u": "ee490757(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "WriteFile",
+"u": "ee490774(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "BY_HANDLE_FILE_INFORMATION",
+"u": "ee490365(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CEDIRINFO",
+"u": "ee490596(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "CEFILEINFO",
+"u": "ee490784(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FILE_NOTIFY_INFORMATION",
+"u": "ee489743(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "OVERLAPPED",
+"u": "ee490367(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "WIN32_FILE_ATTRIBUTE_DATA",
+"u": "ee489644(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "WIN32_FIND_DATA",
+"u": "ee489924(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FILECHANGEINFO",
+"u": "ee490403(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FINDEX_INFO_LEVELS",
+"u": "ee490216(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "FINDEX_SEARCH_OPS",
+"u": "ee490608(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File I/O Reference",
+"t": "GET_FILEEX_INFO_LEVELS",
+"u": "ee489792(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "CreateFileForMapping",
+"u": "ee489638(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "CreateFileMapping",
+"u": "ee490172(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "FlushViewOfFile",
+"u": "ee490145(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "MapViewOfFile",
+"u": "ee490226(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File Mapping Reference",
+"t": "UnmapViewOfFile",
+"u": "ee490630(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "CheckPassword",
+"u": "ee490382(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "GetPasswordActive",
+"u": "ee490428(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "GetPasswordStatus",
+"u": "ee490771(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "SetPassword",
+"u": "ee490550(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "SetPasswordActive",
+"u": "ee490208(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "File System Password Reference",
+"t": "SetPasswordStatus",
+"u": "ee489742(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_ClosePartition",
+"u": "ee489926(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_CloseStore",
+"u": "ee489642(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_CreatePartition",
+"u": "ee489577(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_DeletePartition",
+"u": "ee489563(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_DeviceIoControl",
+"u": "ee490229(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_FindPartitionClose",
+"u": "ee490441(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_FindPartitionNext",
+"u": "ee490375(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_FindPartitionStart",
+"u": "ee490429(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_FormatPartition",
+"u": "ee489935(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_FormatStore",
+"u": "ee490372(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_GetPartitionInfo",
+"u": "ee490209(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_GetStoreInfo",
+"u": "ee490636(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_IsStoreFormatted",
+"u": "ee490206(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_OpenPartition",
+"u": "ee489949(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_OpenStore",
+"u": "ee490202(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_RenamePartition",
+"u": "ee490751(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_SetPartitionAttrs",
+"u": "ee490775(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_PARTINFO",
+"u": "ee489960(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Partition Manager Reference",
+"t": "PD_STOREINFO",
+"u": "ee489529(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "CeFsIoControl",
+"u": "ee489589(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "CeResyncFilesys",
+"u": "ee489543(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_HookVolume",
+"u": "ee490585(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_MountDisk",
+"u": "ee489947(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_UnhookVolume",
+"u": "ee490614(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_UnmountDisk",
+"u": "ee490144(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "LoadFSD",
+"u": "ee490207(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "LoadFSDEx",
+"u": "ee489574(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_AcquireFileLock",
+"u": "ee490203(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CreateFileHandle",
+"u": "ee490395(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CachedRead",
+"u": "ee490768(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CachedWrite",
+"u": "ee489800(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CacheIoControl",
+"u": "ee490621(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CreateCache",
+"u": "ee490581(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CreateSearchHandle",
+"u": "ee489930(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_DeleteCache",
+"u": "ee489588(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_DeregisterVolume",
+"u": "ee490371(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_DeviceHandleToHDSK",
+"u": "ee490031(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_DiskIoControl",
+"u": "ee490772(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_EmptyLockContainer",
+"u": "ee490767(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_FlushCache",
+"u": "ee489937(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetDiskInfo",
+"u": "ee489794(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetRegistryFlag",
+"u": "ee489736(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetRegistryString",
+"u": "ee490749(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetRegistryValue",
+"u": "ee490423(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_GetVolumeName",
+"u": "ee490633(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_InstallFileLock",
+"u": "ee489597(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_InvalidateCache",
+"u": "ee490378(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_ReadDisk",
+"u": "ee489966(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_ReadDiskEx",
+"u": "ee490415(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_RegisterVolume",
+"u": "ee490164(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_RemoveFileLock",
+"u": "ee489662(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_RemoveFileLockEx",
+"u": "ee489609(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_ResizeCache",
+"u": "ee490384(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_SyncCache",
+"u": "ee489567(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_TestFileLock",
+"u": "ee490368(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_WriteDisk",
+"u": "ee490436(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_WriteDiskEx",
+"u": "ee490416(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_TestFileLockEx",
+"u": "ee490616(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_CloseFile",
+"u": "ee490594(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_CloseVolume",
+"u": "ee489802(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_CreateDirectoryW",
+"u": "ee490219(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_CreateFileW",
+"u": "ee490169(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_DeleteAndRenameFileW",
+"u": "ee490556(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_DeleteFileW",
+"u": "ee489729(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_DeviceIoControl",
+"u": "ee490598(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FindClose",
+"u": "ee489765(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FindFirstFileW",
+"u": "ee490629(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FindNextFileW",
+"u": "ee489654(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FlushFileBuffers",
+"u": "ee489755(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_FsIoControl",
+"u": "ee490019(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetDiskFreeSpaceW",
+"u": "ee490143(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetFileAttributesW",
+"u": "ee490022(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetFileInformationByHandle",
+"u": "ee490796(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetFileSize",
+"u": "ee490582(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetFileTime",
+"u": "ee489612(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_GetVolumeInfo",
+"u": "ee490201(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_LockFileEx",
+"u": "ee490787(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_MountDisk",
+"u": "ee489647(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_MoveFileW",
+"u": "ee490160(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_Notify",
+"u": "ee490558(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_ReadFile",
+"u": "ee490236(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_ReadFileScatter",
+"u": "ee489751(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_ReadFileWithSeek",
+"u": "ee489961(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_RemoveDirectoryW",
+"u": "ee489923(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_SetEndOfFile",
+"u": "ee490240(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_SetFileAttributesW",
+"u": "ee489809(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_SetFilePointer",
+"u": "ee489830(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_SetFileTime",
+"u": "ee490020(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_UnLockFileEx",
+"u": "ee490618(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_UnmountDisk",
+"u": "ee489820(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_WriteFile",
+"u": "ee489786(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_WriteFileGather",
+"u": "ee490373(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "MyFSD_WriteFileWithSeek",
+"u": "ee490422(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "PACQUIREFILELOCKSTATE",
+"u": "ee490755(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "PRELEASEFILELOCKSTATE",
+"u": "ee489955(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_CloseFileLockState",
+"u": "ee490620(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSDMGR_OpenFileLockState",
+"u": "ee489931(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "CE_REGISTRY_INFO",
+"u": "ee490786(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FILE_ALLOCATED_RANGE_BUFFER",
+"u": "ee490419(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FILE_ZERO_DATA_INFORMATION",
+"u": "ee490018(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FILELOCKSTATE",
+"u": "ee490383(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FILTERHOOK",
+"u": "ee489547(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_BUFFER_INFO",
+"u": "ee490564(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_DISK_INFO",
+"u": "ee490770(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_SCATTER_GATHER_INFO",
+"u": "ee490151(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_SCATTER_GATHER_RESULTS",
+"u": "ee490443(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSD_VOLUME_INFO",
+"u": "ee489745(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "REG_NOTIFY_INFORMATION",
+"u": "ee489649(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "PEMPTYLOCKCONTAINER",
+"u": "ee490414(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_GET_COMPRESSION",
+"u": "ee490215(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_GET_REGISTRY_INFO",
+"u": "ee489753(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_QUERY_ALLOCATED_RANGES",
+"u": "ee489595(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_SET_COMPRESSION",
+"u": "ee489530(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_SET_EXTENDED_FLAGS",
+"u": "ee490406(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_SET_SPARSE",
+"u": "ee489790(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_SET_ZERO_DATA",
+"u": "ee490195(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSCTL_USER",
+"u": "ee490217(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "FSD Reference",
+"t": "FSSCTL_FLUSH_BUFFERS",
+"u": "ee490221(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "ReadGenericData",
+"u": "ee490021(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "ReadRegData",
+"u": "ee489796(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegCloseKey",
+"u": "ee489566(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegCopyFile",
+"u": "ee489979(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegCreateKeyEx",
+"u": "ee490393(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegDeleteKey",
+"u": "ee489528(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegDeleteValue",
+"u": "ee490238(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegEnumKeyEx",
+"u": "ee490030(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegEnumValue",
+"u": "ee489970(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegFlushKey",
+"u": "ee490431(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegistryOperation",
+"u": "ee490573(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegOpenKeyEx",
+"u": "ee489985(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegQueryInfoKey",
+"u": "ee490425(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegQueryValueEx",
+"u": "ee490180(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegReplaceKey",
+"u": "ee489789(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegRestoreFile",
+"u": "ee490780(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegSaveKey",
+"u": "ee489766(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegSetValueEx",
+"u": "ee490645(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "WriteGenericData",
+"u": "ee489570(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "WriteRegData",
+"u": "ee490177(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "CeFindCloseRegChange",
+"u": "ee490235(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "CeFindFirstRegChange",
+"u": "ee489978(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "CeFindNextRegChange",
+"u": "ee490027(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "CeRegGetInfo",
+"u": "ee490230(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "CeRegGetNotificationInfo",
+"u": "ee490197(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "CeRegTestSetValueW",
+"u": "ee490635(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "HiveRAMInfo",
+"u": "ee489984(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "HiveRAMRegion",
+"u": "ee490401(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegSecureKey",
+"u": "ee490612(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Registry Reference",
+"t": "RegSecureKeyList",
+"u": "ee490570(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "CeGetVolumeInfo",
+"u": "ee489977(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "CreatePartition",
+"u": "ee489767(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "CreatePartitionEx",
+"u": "ee490561(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "DeletePartition",
+"u": "ee489948(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "DismountPartition",
+"u": "ee490766(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "DismountStore",
+"u": "ee489534(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindClosePartition",
+"u": "ee489771(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindCloseStore",
+"u": "ee490750(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindFirstPartition",
+"u": "ee489938(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindFirstStore",
+"u": "ee489983(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindNextPartition",
+"u": "ee489756(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FindNextStore",
+"u": "ee489568(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FormatPartition",
+"u": "ee490158(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FormatPartitionEx",
+"u": "ee489562(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "FormatStore",
+"u": "ee489952(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "GetPartitionInfo",
+"u": "ee489929(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "GetStoreInfo",
+"u": "ee490360(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "MountPartition",
+"u": "ee489552(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "OpenPartition",
+"u": "ee490212(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "OpenStore",
+"u": "ee489981(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "RenamePartition",
+"u": "ee490187(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "SetPartitionAttributes",
+"u": "ee490390(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "CE_VOLUME_INFO",
+"u": "ee490617(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "PARTINFO",
+"u": "ee490432(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "STORAGECONTEXT",
+"u": "ee490034(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "STORAGEDEVICEINFO",
+"u": "ee490035(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "Storage Manager Reference",
+"t": "STOREINFO (Storage Manager)",
+"u": "ee490200(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "User Management Reference",
+"t": "GetUserDirectory",
+"u": "ee489784(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "User Management Reference",
+"t": "GetUserNameEx",
+"u": "ee489621(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "User Management Reference",
+"t": "SetCurrentUser",
+"u": "ee490214(v=winembedded.60)"
+},
+{
+"area": "file-io",
+"sub": "User Management Reference",
+"t": "SetUserData",
+"u": "ee489661(v=winembedded.60)"
+}
+]

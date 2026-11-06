@@ -1,0 +1,4958 @@
+[
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "ACM_OPEN (Shell and User Interface)",
+"u": "aa452840(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "ACM_PLAY",
+"u": "aa452841(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "ACM_STOP",
+"u": "aa452842(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "Animate_Close",
+"u": "aa452851(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "Animate_Create",
+"u": "aa452852(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "Animate_Open",
+"u": "aa452853(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "Animate_OpenEx",
+"u": "aa452854(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "Animate_Play",
+"u": "aa452855(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "Animate_Seek",
+"u": "aa452856(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "Animate_Stop",
+"u": "aa452857(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "ACN_START",
+"u": "aa452843(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "ACN_STOP",
+"u": "aa452844(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Animation Controls Reference",
+"t": "Animation Controls Styles",
+"u": "aa452861(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "CapEdit Controls Reference",
+"t": "CEM_ENABLEUPCASE",
+"u": "ms908080(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "CapEdit Controls Reference",
+"t": "CEM_UPCASEALLWORDS",
+"u": "ms908081(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "CapEdit Controls Reference",
+"t": "CAPEDIT Control",
+"u": "aa452920(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bands Reference",
+"t": "CommandBands_AddAdornments",
+"u": "ms908118(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bands Reference",
+"t": "CommandBands_AddBands",
+"u": "ms908120(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bands Reference",
+"t": "CommandBands_Create",
+"u": "ms908121(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bands Reference",
+"t": "CommandBands_GetCommandBar",
+"u": "ms908122(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bands Reference",
+"t": "CommandBands_GetRestoreInformation",
+"u": "ms908123(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bands Reference",
+"t": "CommandBands_Show",
+"u": "ms908126(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bands Reference",
+"t": "CommandBands_Height",
+"u": "ms908124(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bands Reference",
+"t": "COMMANDBANDSRESTOREINFO",
+"u": "ms908125(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_AddAdornments",
+"u": "ms908127(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_AddBitmap",
+"u": "ms908128(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_AlignAdornments",
+"u": "aa453948(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_Create",
+"u": "ms908131(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_DrawMenuBar",
+"u": "ms908133(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_GetMenu",
+"u": "ms908134(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_Height",
+"u": "ms908135(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_InsertComboBox",
+"u": "ms908137(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_InsertMenubar",
+"u": "ms908138(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_InsertMenubarEx",
+"u": "ms908139(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_Show",
+"u": "ms908141(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_AddButtons",
+"u": "ms908129(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_AddToolTips",
+"u": "ms908130(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_Destroy",
+"u": "ms908132(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_InsertButton",
+"u": "ms908136(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Command Bars Reference",
+"t": "CommandBar_IsVisible",
+"u": "ms908140(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "InitCommonControls",
+"u": "ms909848(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "InitCommonControlsEx (function)",
+"u": "ms909849(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "FORWARD_WM_NOTIFY",
+"u": "aa453073(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "HANDLE_WM_NOTIFY",
+"u": "ms929879(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "INDEXTOSTATEIMAGEMASK",
+"u": "ms909844(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_CLICK",
+"u": "ms931469(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_DBLCLK",
+"u": "ms931477(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_HOVER",
+"u": "ms931481(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_KEYDOWN",
+"u": "ms931483(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_KILLFOCUS",
+"u": "ms931492(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_OUTOFMEMORY",
+"u": "ms911834(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_RCLICK",
+"u": "ms911841(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_RDBLCLK",
+"u": "ms911846(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_RETURN",
+"u": "ms911856(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NM_SETFOCUS",
+"u": "ms911861(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "WM_NOTIFY",
+"u": "aa453890(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "INITCOMMONCONTROLSEX (structure)",
+"u": "ms909850(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NMHDR",
+"u": "ms931479(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NMKEY",
+"u": "ms931482(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Control Reference",
+"t": "NMMOUSE",
+"u": "ms931655(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "CCHookProc",
+"u": "ms908071(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "CFHookProc",
+"u": "ms908107(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "ChooseColor (function)",
+"u": "ms928579(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "ChooseFont (function)",
+"u": "ms928581(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "CommDlgExtendedError",
+"u": "ms908144(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "GetOpenFileName",
+"u": "aa453150(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "GetSaveFileName",
+"u": "aa453162(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "PagePaintHook",
+"u": "ms911908(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "PageSetupDlg (function)",
+"u": "ms911909(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "PageSetupHook",
+"u": "ms911911(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "PrintDlg (function)",
+"u": "ms911940(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "PrintHookProc",
+"u": "aa453545(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "CDM_SETDEFEXT",
+"u": "ms908072(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "CDN_TYPECHANGE",
+"u": "ms908073(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "CHOOSECOLOR (structure)",
+"u": "ms928580(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "CHOOSEFONT (structure)",
+"u": "ms928582(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "DEVNAMES",
+"u": "aa452944(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "OFNOTIFY",
+"u": "ms911893(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "OPENFILENAME",
+"u": "ms911906(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "PAGESETUPDLG (structure)",
+"u": "ms911910(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Common Dialog Boxes Reference",
+"t": "PRINTDLG (structure)",
+"u": "aa453544(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Controls Reference",
+"t": "WM_GETFONT",
+"u": "aa453862(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Controls Reference",
+"t": "WM_SETFONT",
+"u": "aa453902(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Custom Draw Reference",
+"t": "NMCUSTOMDRAW",
+"u": "ms931470(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Custom Draw Reference",
+"t": "NM_CUSTOMDRAW",
+"u": "ms911871(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_GETMCCOLOR",
+"u": "aa452977(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_GETMCFONT",
+"u": "aa452978(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_GETMONTHCAL",
+"u": "aa452979(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_GETRANGE",
+"u": "aa452980(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_GETSYSTEMTIME",
+"u": "aa452981(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_SETFORMAT",
+"u": "aa452982(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_SETMCCOLOR",
+"u": "aa452983(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_SETMCFONT",
+"u": "aa452984(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_SETRANGE",
+"u": "aa452985(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTM_SETSYSTEMTIME",
+"u": "aa452986(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_GetMonthCal",
+"u": "ms908198(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_GetMonthCalColor",
+"u": "ms908199(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_GetMonthCalFont",
+"u": "ms908200(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_GetRange",
+"u": "ms908202(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_GetSystemtime",
+"u": "ms908203(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_SetFormat",
+"u": "ms908204(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_SetMonthCalColor",
+"u": "ms908205(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_SetMonthCalFont",
+"u": "ms908206(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_SetRange",
+"u": "ms908207(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DateTime_SetSystemtime",
+"u": "ms908208(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTN_CLOSEUP",
+"u": "aa452987(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTN_DATETIMECHANGE",
+"u": "aa452988(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTN_DROPDOWN",
+"u": "aa452989(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTN_FORMAT",
+"u": "aa452990(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTN_FORMATQUERY",
+"u": "aa452991(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTN_USERSTRING",
+"u": "aa452992(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "DTN_WMKEYDOWN",
+"u": "aa452993(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "NMDATETIMECHANGE",
+"u": "ms931471(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "NMDATETIMEFORMAT",
+"u": "ms931472(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "NMDATETIMEFORMATQUERY",
+"u": "ms931473(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "NMDATETIMESTRING",
+"u": "ms931474(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Date and Time Picker Controls Reference",
+"t": "NMDATETIMEWMKEYDOWN",
+"u": "ms931475(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_CreateDragImage",
+"u": "ms929911(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_DeleteItem",
+"u": "ms929912(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_GetImageList",
+"u": "ms929913(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_GetItem",
+"u": "ms929914(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_GetItemCount",
+"u": "ms929915(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_GetItemRect",
+"u": "ms929916(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_GetOrderArray",
+"u": "ms929917(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_InsertItem",
+"u": "ms929918(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_Layout",
+"u": "ms929919(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_OrderToIndex",
+"u": "ms929920(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_SetHotDivider",
+"u": "ms929921(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_SetImageList",
+"u": "ms929922(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_SetItem",
+"u": "ms929923(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "Header_SetOrderArray",
+"u": "ms929924(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_CREATEDRAGIMAGE",
+"u": "ms929883(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_DELETEITEM",
+"u": "ms929884(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_GETIMAGELIST",
+"u": "ms929885(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_GETITEM",
+"u": "ms929886(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_GETITEMCOUNT",
+"u": "ms929887(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_GETITEMRECT",
+"u": "ms929889(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_GETORDERARRAY",
+"u": "ms929890(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_HITTEST",
+"u": "ms929891(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_INSERTITEM",
+"u": "ms929892(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_LAYOUT",
+"u": "ms929893(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_ORDERTOINDEX",
+"u": "ms929894(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_SETHOTDIVIDER",
+"u": "ms929895(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_SETIMAGELIST",
+"u": "ms929896(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_SETITEM",
+"u": "ms929897(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDM_SETORDERARRAY",
+"u": "ms929898(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_BEGINDRAG",
+"u": "ms929899(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_BEGINTRACK",
+"u": "ms929900(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_DIVIDERDBLCLICK",
+"u": "ms929901(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_ENDDRAG",
+"u": "ms929902(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_ENDTRACK",
+"u": "ms929903(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_GETDISPINFO",
+"u": "ms929904(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_ITEMCHANGED",
+"u": "ms929905(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_ITEMCHANGING",
+"u": "ms929906(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_ITEMCLICK",
+"u": "ms929907(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_ITEMDBLCLICK",
+"u": "ms929908(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDN_TRACK",
+"u": "ms929909(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDHITTESTINFO",
+"u": "ms929880(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDITEM",
+"u": "ms929881(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "HDLAYOUT",
+"u": "ms929882(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "NMHDDISPINFO",
+"u": "ms931478(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Header Controls Reference",
+"t": "NMHEADER",
+"u": "ms931480(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_ApproximateViewRect",
+"u": "aa453304(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_Arrange",
+"u": "aa453305(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_CreateDragImage",
+"u": "aa453306(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_DeleteAllItems",
+"u": "aa453307(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_DeleteColumn",
+"u": "aa453308(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_DeleteItem",
+"u": "aa453309(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_EditLabel",
+"u": "aa453310(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_EnableGroupView",
+"u": "aa453382(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_EnsureVisible",
+"u": "aa453311(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_FindItem",
+"u": "aa453312(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetBkColor",
+"u": "aa453313(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetBkImage",
+"u": "aa453383(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetCallbackMask",
+"u": "aa453314(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetCheckState",
+"u": "aa453315(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetColumn",
+"u": "aa453316(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetColumnOrderArray",
+"u": "aa453317(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetColumnWidth",
+"u": "aa453318(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetCountPerPage",
+"u": "aa453319(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetEditControl",
+"u": "aa453320(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetExtendedListViewStyle",
+"u": "aa453321(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetGroupCount",
+"u": "aa453385(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetGroupInfo",
+"u": "aa453386(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetGroupInfoByIndex",
+"u": "aa453387(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetGroupMetrics",
+"u": "aa453388(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetHeader",
+"u": "aa453322(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetImageList",
+"u": "aa453323(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetISearchString",
+"u": "aa453324(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetItem",
+"u": "aa453325(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetItemCount",
+"u": "aa453326(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetItemPosition",
+"u": "aa453327(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetItemRect",
+"u": "aa453328(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetItemSpacing",
+"u": "aa453329(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetItemState",
+"u": "aa453340(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetItemText",
+"u": "aa453341(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetNextItem",
+"u": "aa453342(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetNumberOfWorkAreas",
+"u": "aa453343(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetOrigin",
+"u": "aa453344(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetSelectedCount",
+"u": "aa453345(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetSelectionMark",
+"u": "aa453346(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetStringWidth",
+"u": "aa453347(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetSubItemRect",
+"u": "aa453348(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetTextBkColor",
+"u": "aa453349(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetTextColor",
+"u": "aa453350(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetToolTips",
+"u": "aa453389(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetTopIndex",
+"u": "aa453351(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetViewRect",
+"u": "aa453352(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_GetWorkAreas",
+"u": "aa453353(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_HasGroup",
+"u": "aa453390(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_HitTest",
+"u": "aa453354(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_InsertColumn",
+"u": "aa453355(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_InsertGroup",
+"u": "aa453391(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_InsertGroupSorted",
+"u": "aa453392(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_InsertItem",
+"u": "aa453356(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_IsGroupViewEnabled",
+"u": "aa453393(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_MapIDToIndex",
+"u": "aa453394(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_MapIndexToID",
+"u": "aa453395(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_MoveGroup",
+"u": "aa453396(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_MoveItemToGroup",
+"u": "aa453397(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_RedrawItems",
+"u": "aa453357(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_RemoveAllGroups",
+"u": "aa453398(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_RemoveGroup",
+"u": "aa453399(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_Scroll",
+"u": "aa453358(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetBkColor",
+"u": "aa453359(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetBkImage",
+"u": "aa453400(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetCallbackMask",
+"u": "aa453360(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetColumn",
+"u": "aa453361(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetColumnOrderArray",
+"u": "aa453362(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetColumnWidth",
+"u": "aa453363(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetExtendedListViewStyle",
+"u": "aa453364(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetExtendedListViewStyleEx",
+"u": "aa453384(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetGroupInfo",
+"u": "aa453401(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetGroupMetrics",
+"u": "aa453402(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetIconSpacing",
+"u": "aa453365(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetImageList",
+"u": "aa453366(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetInfoTip",
+"u": "aa453403(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetItem",
+"u": "aa453367(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetItemCount",
+"u": "aa453368(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetItemCountEx",
+"u": "aa453369(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetItemPosition",
+"u": "aa453370(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetItemPosition32",
+"u": "aa453371(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetItemState",
+"u": "aa453372(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetItemText",
+"u": "aa453373(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetSelectionMark",
+"u": "aa453374(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetTextBkColor",
+"u": "aa453375(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetTextColor",
+"u": "aa453376(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetToolTips",
+"u": "aa453404(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SetWorkAreas",
+"u": "aa453377(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SortGroups",
+"u": "aa453405(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SortItems",
+"u": "aa453378(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_SubItemHitTest",
+"u": "aa453380(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "ListView_Update",
+"u": "aa453381(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_APPROXIMATEVIEWRECT",
+"u": "aa453431(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_ARRANGE",
+"u": "aa453432(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_CREATEDRAGIMAGE",
+"u": "aa453433(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_DELETEALLITEMS",
+"u": "aa453434(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_DELETECOLUMN",
+"u": "aa453435(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_DELETEITEM",
+"u": "aa453436(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_EDITLABEL",
+"u": "aa453437(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_ENABLEGROUPVIEW",
+"u": "aa453497(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_ENSUREVISIBLE",
+"u": "aa453438(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_FINDITEM",
+"u": "aa453439(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETBKCOLOR",
+"u": "aa453440(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETBKIMAGE",
+"u": "aa453498(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETCALLBACKMASK",
+"u": "aa453441(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETCOLUMN",
+"u": "aa453442(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETCOLUMNORDERARRAY",
+"u": "aa453443(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETCOLUMNWIDTH",
+"u": "aa453445(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETCOUNTPERPAGE",
+"u": "aa453446(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETEDITCONTROL",
+"u": "aa453447(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETEXTENDEDLISTVIEWSTYLE",
+"u": "aa453448(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETGROUPCOUNT",
+"u": "aa453499(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETGROUPINFO",
+"u": "aa453500(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETGROUPINFOBYINDEX",
+"u": "aa453501(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETGROUPMETRICS",
+"u": "aa453502(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETHEADER",
+"u": "aa453449(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETIMAGELIST",
+"u": "aa453450(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETISEARCHSTRING",
+"u": "aa453451(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETITEM",
+"u": "aa453452(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETITEMCOUNT",
+"u": "aa453453(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETITEMPOSITION",
+"u": "aa453454(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETITEMRECT",
+"u": "aa453455(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETITEMSPACING",
+"u": "aa453456(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETITEMSTATE",
+"u": "aa453457(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETITEMTEXT",
+"u": "aa453458(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETNEXTITEM",
+"u": "aa453459(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETNUMBEROFWORKAREAS",
+"u": "aa453460(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETORIGIN",
+"u": "aa453461(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETSELECTEDCOUNT",
+"u": "aa453462(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETSELECTIONMARK",
+"u": "aa453463(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETSTRINGWIDTH",
+"u": "aa453464(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETSUBITEMRECT",
+"u": "aa453465(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETTEXTBKCOLOR",
+"u": "aa453466(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETTEXTCOLOR",
+"u": "aa453467(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETTOOLTIPS",
+"u": "aa453503(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETTOPINDEX",
+"u": "aa453468(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETVIEWRECT",
+"u": "aa453469(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_GETWORKAREAS",
+"u": "aa453470(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_HASGROUP",
+"u": "aa453504(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_HITTEST",
+"u": "aa453471(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_INSERTCOLUMN",
+"u": "aa453472(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_INSERTGROUP",
+"u": "aa453505(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_INSERTGROUPSORTED",
+"u": "aa453506(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_INSERTITEM",
+"u": "aa453473(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_ISGROUPVIEWENABLED",
+"u": "aa453507(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_MAPIDTOINDEX",
+"u": "aa453508(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_MAPINDEXTOID",
+"u": "aa453509(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_MOVEGROUP",
+"u": "aa453510(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_MOVEITEMTOGROUP",
+"u": "aa453511(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_REDRAWITEMS",
+"u": "aa453474(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_REMOVEALLGROUPS",
+"u": "aa453512(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_REMOVEGROUP",
+"u": "aa453513(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SCROLL",
+"u": "aa453475(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETBKCOLOR",
+"u": "aa453476(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETBKIMAGE",
+"u": "aa453514(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETCALLBACKMASK",
+"u": "aa453477(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETCOLUMN",
+"u": "aa453478(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETCOLUMNORDERARRAY",
+"u": "aa453479(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETCOLUMNWIDTH",
+"u": "aa453480(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETEXTENDEDLISTVIEWSTYLE",
+"u": "aa453481(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETGROUPINFO",
+"u": "aa453515(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETGROUPMETRICS",
+"u": "aa453516(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETICONSPACING",
+"u": "aa453482(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETIMAGELIST",
+"u": "aa453483(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETINFOTIP",
+"u": "aa453517(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETITEM",
+"u": "aa453484(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETITEMCOUNT",
+"u": "aa453485(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETITEMPOSITION",
+"u": "aa453486(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETITEMPOSITION32",
+"u": "aa453487(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETITEMSTATE",
+"u": "aa453488(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETITEMTEXT",
+"u": "aa453489(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETSELECTIONMARK",
+"u": "aa453490(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SORTGROUPS",
+"u": "aa453519(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETTEXTBKCOLOR",
+"u": "aa453491(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETTEXTCOLOR",
+"u": "aa453492(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETTOOLTIPS",
+"u": "aa453518(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SETWORKAREAS",
+"u": "aa453493(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SORTITEMS",
+"u": "aa453494(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_SUBITEMHITTEST",
+"u": "aa453495(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVM_UPDATE",
+"u": "aa453496(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_BEGINDRAG",
+"u": "aa453520(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_BEGINLABELEDIT",
+"u": "aa453521(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_COLUMNCLICK",
+"u": "aa453522(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_DELETEALLITEMS",
+"u": "aa453523(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_DELETEITEM",
+"u": "aa453524(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_ENDDRAG",
+"u": "aa453525(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_ENDLABELEDIT",
+"u": "aa453526(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_GETDISPINFO",
+"u": "aa453527(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_GETINFOTIP",
+"u": "aa453538(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_INSERTITEM",
+"u": "aa453528(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_ITEMACTIVATE",
+"u": "aa453529(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_ITEMCHANGED",
+"u": "aa453530(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_ITEMCHANGING",
+"u": "aa453531(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_KEYDOWN",
+"u": "aa453532(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_MARQUEEBEGIN",
+"u": "aa453533(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_ODCACHEHINT",
+"u": "aa453534(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_ODFINDITEM",
+"u": "aa453535(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_ODSTATECHANGED",
+"u": "aa453536(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVN_SETDISPINFO",
+"u": "aa453537(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LV_DISPINFO",
+"u": "aa453424(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LV_FINDINFO",
+"u": "aa453540(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVBKIMAGE",
+"u": "aa453422(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVCOLUMN",
+"u": "aa453423(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVFINDINFO",
+"u": "aa453425(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVGROUP",
+"u": "aa453426(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVGROUPMETRICS",
+"u": "aa453427(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVHITTESTINFO",
+"u": "aa453428(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVINSERTGROUPSORTED",
+"u": "aa453429(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVITEM",
+"u": "aa453430(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "LVSETINFOTIP",
+"u": "aa453539(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "NMLISTVIEW",
+"u": "ms931605(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "NMLVCACHEHINT",
+"u": "ms931617(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "NMLVCUSTOMDRAW",
+"u": "ms931627(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "NMLVFINDITEM",
+"u": "ms931633(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "NMLVGETINFOTIP",
+"u": "ms931639(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "NMLVKEYDOWN",
+"u": "ms931645(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "List-View Controls Reference",
+"t": "NMLVODSTATECHANGE",
+"u": "ms931653(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetColor",
+"u": "ms931431(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetCurSel",
+"u": "ms931432(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetFirstDayOfWeek",
+"u": "ms931433(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetMaxSelCount",
+"u": "ms931434(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetMaxTodayWidth",
+"u": "ms931435(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetMinReqRect",
+"u": "ms931436(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetMonthDelta",
+"u": "ms931437(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetMonthRange",
+"u": "ms931438(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetRange",
+"u": "ms931439(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetSelRange",
+"u": "ms931440(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_GetToday",
+"u": "ms931441(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_HitTest",
+"u": "ms931442(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_SetColor",
+"u": "ms931443(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_SetCurSel",
+"u": "ms931445(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_SetDayState",
+"u": "ms931446(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_SetFirstDayOfWeek",
+"u": "ms931447(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_SetMaxSelCount",
+"u": "ms931448(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_SetMonthDelta",
+"u": "ms931449(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_SetRange",
+"u": "ms931450(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_SetSelRange",
+"u": "ms931451(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MonthCal_SetToday",
+"u": "ms931452(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETCOLOR",
+"u": "ms911794(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETCURSEL",
+"u": "ms911795(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETFIRSTDAYOFWEEK",
+"u": "ms911796(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETMAXNONEWIDTH",
+"u": "ms911797(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETMAXSELCOUNT",
+"u": "ms911798(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETMAXTODAYWIDTH",
+"u": "ms911799(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETMINREQRECT",
+"u": "ms911800(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETMONTHDELTA",
+"u": "ms911801(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETMONTHRANGE",
+"u": "ms911802(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETRANGE",
+"u": "ms911803(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETSELRANGE",
+"u": "ms911804(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_GETTODAY",
+"u": "ms911805(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_HITTEST",
+"u": "ms911806(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_SETCOLOR",
+"u": "ms911807(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_SETCURSEL",
+"u": "ms911808(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_SETDAYSTATE",
+"u": "ms911809(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_SETFIRSTDAYOFWEEK",
+"u": "ms911810(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_SETMAXSELCOUNT",
+"u": "ms911811(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_SETMONTHDELTA",
+"u": "ms911812(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_SETRANGE",
+"u": "ms911813(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_SETSELRANGE",
+"u": "ms911814(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCM_SETTODAY",
+"u": "ms911815(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCN_GETDAYSTATE",
+"u": "ms911816(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCN_SELCHANGE",
+"u": "ms911817(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCN_SELECT",
+"u": "ms911818(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCN_SELECTNONE",
+"u": "ms911819(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "NMSELCHANGE",
+"u": "ms911859(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "NMDAYSTATE",
+"u": "ms931476(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Month Calendar Controls Reference",
+"t": "MCHITTESTINFO",
+"u": "ms911793(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Progress Bar Controls Reference",
+"t": "PBM_DELTAPOS",
+"u": "ms911919(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Progress Bar Controls Reference",
+"t": "PBM_GETPOS",
+"u": "ms911920(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Progress Bar Controls Reference",
+"t": "PBM_GETRANGE",
+"u": "ms911921(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Progress Bar Controls Reference",
+"t": "PBM_SETPOS",
+"u": "ms911922(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Progress Bar Controls Reference",
+"t": "PBM_SETRANGE",
+"u": "ms911923(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Progress Bar Controls Reference",
+"t": "PBM_SETRANGE32",
+"u": "ms911924(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Progress Bar Controls Reference",
+"t": "PBM_SETSTEP",
+"u": "ms911925(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Progress Bar Controls Reference",
+"t": "PBM_STEPIT",
+"u": "ms911926(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Progress Bar Controls Reference",
+"t": "PBRANGE",
+"u": "ms911927(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "AddPropSheetPageProc",
+"u": "aa452848(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "CreatePropertySheetPage",
+"u": "ms908183(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "DestroyPropertySheetPage",
+"u": "aa452941(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "ExtensionPropSheetPageProc",
+"u": "aa453062(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropertySheet",
+"u": "aa453552(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheetPageProc",
+"u": "aa453563(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheetProc",
+"u": "aa453565(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_AddPage",
+"u": "aa453553(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_Apply",
+"u": "aa453554(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_CancelToClose",
+"u": "aa453556(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_Changed",
+"u": "aa453557(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_GetCurrentPageHwnd",
+"u": "aa453558(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_GetTabControl",
+"u": "aa453559(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_IsDialogMessage",
+"u": "aa453561(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_PressButton",
+"u": "aa453564(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_QuerySiblings",
+"u": "aa453566(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_RebootSystem",
+"u": "aa453567(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_RemovePage",
+"u": "aa453568(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_RestartWindows",
+"u": "aa453569(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_SetCurSel",
+"u": "aa453570(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_SetCurSelByID",
+"u": "aa453571(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_SetFinishText",
+"u": "aa453572(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_SetTitle",
+"u": "aa453573(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_SetWizButtons",
+"u": "aa453574(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PropSheet_UnChanged",
+"u": "aa453575(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_ADDPAGE",
+"u": "aa453577(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_APPLY",
+"u": "aa453578(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_CANCELTOCLOSE",
+"u": "aa453579(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_CHANGED",
+"u": "aa453580(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_GETCURRENTPAGEHWND",
+"u": "aa453581(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_GETTABCONTROL",
+"u": "aa453582(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_ISDIALOGMESSAGE",
+"u": "aa453583(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_PRESSBUTTON",
+"u": "aa453584(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_QUERYSIBLINGS",
+"u": "aa453585(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_REBOOTSYSTEM",
+"u": "aa453586(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_REMOVEPAGE",
+"u": "aa453587(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_RESTARTWINDOWS",
+"u": "aa453588(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_SETCURSEL",
+"u": "aa453589(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_SETCURSELID",
+"u": "aa453590(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_SETFINISHTEXT",
+"u": "aa453591(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_SETTITLE",
+"u": "aa453592(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_SETWIZBUTTONS",
+"u": "aa453593(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSM_UNCHANGED",
+"u": "aa453594(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSN_APPLY",
+"u": "aa453595(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSN_HELP",
+"u": "aa453596(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSN_KILLACTIVE",
+"u": "aa453597(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSN_QUERYCANCEL",
+"u": "aa453598(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSN_RESET",
+"u": "aa453599(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSN_SETACTIVE",
+"u": "aa453600(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PROPSHEETHEADER",
+"u": "aa453560(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PROPSHEETPAGE",
+"u": "aa453562(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Property Sheets Reference",
+"t": "PSHNOTIFY",
+"u": "aa453576(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_DELETEBAND",
+"u": "aa453608(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETBANDBORDERS",
+"u": "aa453609(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETBANDCOUNT",
+"u": "aa453610(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETBANDINFO",
+"u": "aa453611(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETBARHEIGHT",
+"u": "aa453612(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETBARINFO",
+"u": "aa453613(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETBKCOLOR",
+"u": "aa453614(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETRECT",
+"u": "aa453615(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETROWCOUNT",
+"u": "aa453616(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETROWHEIGHT",
+"u": "aa453617(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_GETTEXTCOLOR",
+"u": "aa453618(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_HITTEST",
+"u": "aa453619(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_IDTOINDEX",
+"u": "aa453621(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_INSERTBAND",
+"u": "aa453622(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_MAXIMIZEBAND",
+"u": "aa453623(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_MINIMIZEBAND",
+"u": "aa453624(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_SETBANDINFO",
+"u": "aa453630(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_SETBARINFO",
+"u": "aa453631(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_SETBKCOLOR",
+"u": "aa453632(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_SETPARENT",
+"u": "aa453633(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_SETTEXTCOLOR",
+"u": "aa453634(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_SHOWBAND",
+"u": "aa453635(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RB_SIZETORECT",
+"u": "aa453636(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RBN_AUTOSIZE",
+"u": "aa453625(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RBN_BEGINDRAG",
+"u": "aa453626(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RBN_ENDDRAG",
+"u": "aa453627(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RBN_HEIGHTCHANGE",
+"u": "aa453628(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RBN_LAYOUTCHANGED",
+"u": "aa453629(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "NMRBAUTOSIZE",
+"u": "ms911836(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "NMREBAR",
+"u": "ms911851(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "RBHITTESTINFO",
+"u": "aa453620(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "REBARBANDINFO",
+"u": "aa453639(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Rebar Controls Reference",
+"t": "REBARINFO",
+"u": "aa453640(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "SbEdit Controls Reference",
+"t": "SBEDIT Control",
+"u": "ms939903(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "CreateStatusWindow",
+"u": "ms908188(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "DrawStatusText",
+"u": "aa452976(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_GETBORDERS",
+"u": "ms939915(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_GETICON",
+"u": "ms932550(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_GETPARTS",
+"u": "ms939925(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_GETRECT",
+"u": "ms913125(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_GETTEXT",
+"u": "ms913198(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_GETTEXTLENGTH",
+"u": "ms913203(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_ISSIMPLE",
+"u": "ms913210(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_SETBKCOLOR",
+"u": "ms932561(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_SETICON",
+"u": "ms932570(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_SETMINHEIGHT",
+"u": "ms913344(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_SETPARTS",
+"u": "ms932515(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_SETTEXT",
+"u": "ms932525(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SB_SIMPLE",
+"u": "ms932534(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Status Bars Reference",
+"t": "SBN_SIMPLEMODECHANGE",
+"u": "ms913282(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_AdjustRect",
+"u": "ms940387(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_DeleteAllItems",
+"u": "ms940388(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_DeleteItem",
+"u": "ms940389(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_DeselectAll",
+"u": "ms940390(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_GetCurFocus",
+"u": "ms940391(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_GetCurSel",
+"u": "ms940392(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_GetExtendedStyle",
+"u": "ms940393(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_GetImageList",
+"u": "ms940394(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_GetItem",
+"u": "ms940395(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_GetItemCount",
+"u": "ms940396(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_GetItemRect",
+"u": "ms940397(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_GetRowCount",
+"u": "ms940398(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_HighlightItem",
+"u": "ms940399(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_HitTest",
+"u": "ms940400(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_InsertItem",
+"u": "ms940401(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_RemoveImage",
+"u": "ms940402(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_SetCurFocus",
+"u": "ms940403(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_SetCurSel",
+"u": "ms940404(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_SetExtendedStyle",
+"u": "ms940405(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_SetImageList",
+"u": "ms940406(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_SetItem",
+"u": "ms940407(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_SetItemExtra",
+"u": "ms940408(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_SetItemSize",
+"u": "ms940409(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_SetMinTabWidth",
+"u": "ms940410(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TabCtrl_SetPadding",
+"u": "ms940411(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_ADJUSTRECT",
+"u": "ms913864(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_DELETEALLITEMS",
+"u": "ms913867(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_DELETEITEM",
+"u": "ms913870(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_DESELECTALL",
+"u": "ms913872(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_GETCURFOCUS",
+"u": "ms913876(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_GETCURSEL",
+"u": "ms913879(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_GETEXTENDEDSTYLE",
+"u": "ms913882(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_GETIMAGELIST",
+"u": "ms913885(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_GETITEM",
+"u": "ms913894(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_GETITEMCOUNT",
+"u": "ms913898(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_GETITEMRECT",
+"u": "ms933234(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_GETROWCOUNT",
+"u": "ms933237(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_HIGHLIGHTITEM",
+"u": "ms933240(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_HITTEST",
+"u": "ms933245(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_INSERTITEM",
+"u": "ms933248(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_REMOVEIMAGE",
+"u": "ms933255(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_SETCURFOCUS",
+"u": "ms933258(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_SETCURSEL",
+"u": "ms933261(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_SETEXTENDEDSTYLE",
+"u": "ms933265(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_SETIMAGELIST",
+"u": "ms933267(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_SETITEM",
+"u": "ms933270(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_SETITEMEXTRA",
+"u": "ms933276(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_SETITEMSIZE",
+"u": "ms933283(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_SETMINTABWIDTH",
+"u": "ms933286(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCM_SETPADDING",
+"u": "ms933294(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCN_KEYDOWN",
+"u": "ms933299(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCN_SELCHANGE",
+"u": "ms933405(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCN_SELCHANGING",
+"u": "ms933410(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "NMTCKEYDOWN",
+"u": "ms911862(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCHITTESTINFO",
+"u": "ms913854(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCITEM",
+"u": "ms913857(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tab Controls Reference",
+"t": "TCITEMHEADER",
+"u": "ms913860(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "CreateToolbarEx",
+"u": "ms908190(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ADDBITMAP",
+"u": "ms913849(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ADDBUTTONS",
+"u": "ms940415(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ADDSTRING",
+"u": "ms940416(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_AUTOSIZE",
+"u": "ms940417(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_BUTTONCOUNT",
+"u": "ms940419(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_BUTTONSTRUCTSIZE",
+"u": "ms940421(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_CHANGEBITMAP",
+"u": "ms940422(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_CHECKBUTTON",
+"u": "ms940423(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_COMMANDTOINDEX",
+"u": "ms940424(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_DELETEBUTTON",
+"u": "ms940425(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ENABLEBUTTON",
+"u": "ms940426(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETBITMAP",
+"u": "ms940427(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETBITMAPFLAGS",
+"u": "ms940428(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETBUTTON",
+"u": "ms940429(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETBUTTONINFO",
+"u": "ms940430(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETBUTTONSIZE",
+"u": "ms940431(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETBUTTONTEXT",
+"u": "ms940432(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETDISABLEDIMAGELIST",
+"u": "ms940433(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETIMAGELIST",
+"u": "ms940434(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETITEMRECT",
+"u": "ms940435(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETRECT",
+"u": "ms940436(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETROWS",
+"u": "ms940437(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETSTATE",
+"u": "ms940438(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETSTYLE",
+"u": "ms913710(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETTEXTROWS",
+"u": "ms913711(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_GETTOOLTIPS",
+"u": "ms913712(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_HIDEBUTTON",
+"u": "ms913713(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_HIGHLIGHTBUTTON",
+"u": "ms913714(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_INDETERMINATE",
+"u": "ms913715(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_INSERTBUTTON",
+"u": "ms913716(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ISBUTTONCHECKED",
+"u": "ms913717(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ISBUTTONENABLED",
+"u": "ms913718(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ISBUTTONHIDDEN",
+"u": "ms913719(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ISBUTTONHIGHLIGHTED",
+"u": "ms913720(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ISBUTTONINDETERMINATE",
+"u": "ms913721(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_ISBUTTONPRESSED",
+"u": "ms913722(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_LOADIMAGES",
+"u": "ms913724(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_PRESSBUTTON",
+"u": "ms913815(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_REPLACEBITMAP",
+"u": "ms913851(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETBITMAPSIZE",
+"u": "ms913819(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETBUTTONINFO",
+"u": "ms913821(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETBUTTONSIZE",
+"u": "ms913823(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETBUTTONWIDTH",
+"u": "ms913825(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETCMDID",
+"u": "ms913827(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETDISABLEDIMAGELIST",
+"u": "ms913829(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETDRAWTEXTFLAGS",
+"u": "ms913831(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETIMAGELIST",
+"u": "ms913833(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETINDENT",
+"u": "ms913835(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETMAXTEXTROWS",
+"u": "ms913837(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETPARENT",
+"u": "ms913839(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETROWS",
+"u": "ms913841(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETSTATE",
+"u": "ms913843(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETSTYLE",
+"u": "ms913845(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TB_SETTOOLTIPS",
+"u": "ms913847(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TBN_BEGINDRAG",
+"u": "ms913804(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TBN_DRAGOUT",
+"u": "ms913807(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TBN_DROPDOWN",
+"u": "ms913809(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TBN_ENDDRAG",
+"u": "ms913811(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TBN_GETBUTTONINFO",
+"u": "ms913813(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "NMTOOLBAR",
+"u": "ms911863(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TBADDBITMAP",
+"u": "ms940414(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TBBUTTON",
+"u": "ms940418(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TBBUTTONINFO",
+"u": "ms940420(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Toolbar Controls Reference",
+"t": "TBREPLACEBITMAP",
+"u": "ms913817(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_ACTIVATE",
+"u": "aa453820(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_ADDTOOL",
+"u": "aa453821(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_DELTOOL",
+"u": "aa453822(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_ENUMTOOLS",
+"u": "aa453823(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_GETCURRENTTOOL",
+"u": "aa453824(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_GETDELAYTIME",
+"u": "aa453825(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_GETMARGIN",
+"u": "aa453826(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_GETMAXTIPWIDTH",
+"u": "aa453827(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_GETTEXT",
+"u": "aa453828(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_GETTIPBKCOLOR",
+"u": "aa453829(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_GETTIPTEXTCOLOR",
+"u": "aa453830(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_GETTOOLCOUNT",
+"u": "aa453831(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_GETTOOLINFO",
+"u": "aa453832(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_HITTEST",
+"u": "aa453833(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_NEWTOOLRECT",
+"u": "aa453834(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_POP",
+"u": "aa453835(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_RELAYEVENT",
+"u": "aa453836(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_SETDELAYTIME",
+"u": "aa453837(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_SETMARGIN",
+"u": "aa453838(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_SETMAXTIPWIDTH",
+"u": "aa453839(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_SETTIPBKCOLOR",
+"u": "aa453840(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_SETTIPTEXTCOLOR",
+"u": "aa453841(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_SETTOOLINFO",
+"u": "aa453842(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_TRACKACTIVATE",
+"u": "aa453843(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_TRACKPOSITION",
+"u": "aa453844(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_UPDATETIPTEXT",
+"u": "aa453845(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTM_WINDOWFROMPOINT",
+"u": "aa453846(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTN_GETDISPINFO",
+"u": "ms940914(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTN_NEEDTEXT",
+"u": "ms913971(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTN_POP",
+"u": "ms941011(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTN_SHOW",
+"u": "ms941015(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "NMTTCUSTOMDRAW",
+"u": "ms911865(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "NMTTDISPINFO",
+"u": "ms911866(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TOOLINFO",
+"u": "aa453757(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "ToolTips Reference",
+"t": "TTHITTESTINFO",
+"u": "aa453819(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_CLEARSEL",
+"u": "ms913727(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_CLEARTICS",
+"u": "ms913729(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETBUDDY",
+"u": "ms913731(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETCHANNELRECT",
+"u": "ms913733(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETLINESIZE",
+"u": "ms913735(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETNUMTICS",
+"u": "ms913736(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETPAGESIZE",
+"u": "ms913739(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETPOS",
+"u": "ms913741(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETPTICS",
+"u": "ms913743(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETRANGEMAX",
+"u": "ms913747(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETRANGEMIN",
+"u": "ms913749(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETSELEND",
+"u": "ms913751(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETSELSTART",
+"u": "ms913754(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETTHUMBLENGTH",
+"u": "ms913756(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETTHUMBRECT",
+"u": "ms913758(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETTIC",
+"u": "ms913761(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_GETTICPOS",
+"u": "ms913765(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETBUDDY",
+"u": "ms913769(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETLINESIZE",
+"u": "ms913773(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETPAGESIZE",
+"u": "ms913779(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETPOS",
+"u": "ms913783(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETRANGE",
+"u": "ms913785(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETRANGEMAX",
+"u": "ms913787(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETRANGEMIN",
+"u": "ms913789(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETSEL",
+"u": "ms913791(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETSELEND",
+"u": "ms913793(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETSELSTART",
+"u": "ms913795(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETTHUMBLENGTH",
+"u": "ms913797(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETTIC",
+"u": "ms913799(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Trackbar Controls Reference",
+"t": "TBM_SETTICFREQ",
+"u": "ms913802(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_CreateDragImage",
+"u": "aa453780(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_DeleteAllItems",
+"u": "aa453781(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_DeleteItem",
+"u": "aa453782(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_EditLabel",
+"u": "aa453783(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_EndEditLabelNow",
+"u": "aa453784(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_EnsureVisible",
+"u": "aa453785(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_Expand",
+"u": "aa453786(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetChild",
+"u": "aa453787(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetCount",
+"u": "aa453788(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetDropHilight",
+"u": "aa453789(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetEditControl",
+"u": "aa453790(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetFirstVisible",
+"u": "aa453791(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetImageList",
+"u": "aa453792(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetIndent",
+"u": "aa453793(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetISearchString",
+"u": "aa453794(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetItem",
+"u": "aa453795(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetItemRect",
+"u": "aa453796(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetNextItem",
+"u": "aa453797(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetNextSibling",
+"u": "aa453798(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetNextVisible",
+"u": "aa453799(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetParent",
+"u": "aa453800(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetPrevSibling",
+"u": "aa453801(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetPrevVisible",
+"u": "aa453802(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetRoot",
+"u": "aa453803(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetSelection",
+"u": "aa453804(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_GetVisibleCount",
+"u": "aa453805(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_HitTest",
+"u": "aa453806(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_InsertItem",
+"u": "aa453807(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_Select",
+"u": "aa453808(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_SelectDropTarget",
+"u": "aa453809(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_SelectItem",
+"u": "aa453810(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_SelectSetFirstVisible",
+"u": "aa453811(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_SetImageList",
+"u": "aa453812(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_SetIndent",
+"u": "aa453813(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_SetItem",
+"u": "aa453814(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_SortChildren",
+"u": "aa453815(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TreeView_SortChildrenCB",
+"u": "aa453816(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_CREATEDRAGIMAGE",
+"u": "ms914008(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_DELETEITEM",
+"u": "ms914019(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_EDITLABEL",
+"u": "ms914024(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_ENDEDITLABELNOW",
+"u": "ms914028(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_ENSUREVISIBLE",
+"u": "ms914029(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_EXPAND",
+"u": "ms914030(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_GETCOUNT",
+"u": "ms914031(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_GETEDITCONTROL",
+"u": "ms914032(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_GETIMAGELIST",
+"u": "ms914033(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_GETINDENT",
+"u": "ms914034(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_GETISEARCHSTRING",
+"u": "ms914035(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_GETITEM",
+"u": "ms914036(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_GETITEMRECT",
+"u": "ms914037(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_GETNEXTITEM",
+"u": "ms914038(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_GETVISIBLECOUNT",
+"u": "ms914039(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_HITTEST",
+"u": "ms914040(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_INSERTITEM",
+"u": "ms914041(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_SELECTITEM",
+"u": "ms914042(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_SETIMAGELIST",
+"u": "ms914043(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_SETINDENT",
+"u": "ms914044(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_SETITEM",
+"u": "ms914045(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_SETITEMSPACING",
+"u": "ms914046(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_SORTCHILDREN",
+"u": "ms914047(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVM_SORTCHILDRENCB",
+"u": "ms914048(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_BEGINDRAG",
+"u": "ms914050(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_BEGINLABELEDIT",
+"u": "ms914051(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_DELETEITEM",
+"u": "ms914052(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_ENDLABELEDIT",
+"u": "ms914053(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_GETDISPINFO",
+"u": "ms914054(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_ITEMEXPANDED",
+"u": "ms914055(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_ITEMEXPANDING",
+"u": "ms914056(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_KEYDOWN",
+"u": "ms914057(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_SELCHANGED",
+"u": "ms914058(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_SELCHANGING",
+"u": "ms914059(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVN_SETDISPINFO",
+"u": "ms914060(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "NM_TREEVIEW",
+"u": "ms911864(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "NMTVCUSTOMDRAW",
+"u": "ms911867(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "NMTVKEYDOWN",
+"u": "ms911869(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TV_DISPINFO",
+"u": "ms913978(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TV_HITTESTINFO",
+"u": "ms914062(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TV_INSERTSTRUCT",
+"u": "ms914063(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TV_ITEM",
+"u": "ms914064(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TV_KEYDOWN",
+"u": "ms913996(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TV_SORTCB",
+"u": "ms914065(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVHITTESTINFO",
+"u": "ms913985(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVITEM",
+"u": "ms913992(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Tree View Controls Reference",
+"t": "TVSORTCB",
+"u": "ms914061(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "CreateUpDownControl",
+"u": "ms908191(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_GETACCEL",
+"u": "ms914068(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_GETBASE",
+"u": "ms914069(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_GETBUDDY",
+"u": "ms914070(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_GETPOS",
+"u": "ms914071(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_GETRANGE",
+"u": "ms914072(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_GETRANGE32",
+"u": "ms914073(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_SETACCEL",
+"u": "ms914074(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_SETBASE",
+"u": "ms914075(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_SETBUDDY",
+"u": "ms914076(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_SETPOS",
+"u": "ms914077(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_SETRANGE",
+"u": "ms914078(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDM_SETRANGE32",
+"u": "ms914079(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDN_DELTAPOS",
+"u": "ms914080(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "NMUPDOWN",
+"u": "ms911870(v=msdn.10)"
+},
+{
+"area": "common-controls",
+"sub": "Up-Down Controls Reference",
+"t": "UDACCEL",
+"u": "ms914067(v=msdn.10)"
+}
+]

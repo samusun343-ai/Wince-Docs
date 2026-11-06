@@ -1,0 +1,26 @@
+[
+{
+"area": "shell",
+"sub": "Shell Functions",
+"t": "BacklightAdvApplet",
+"u": "ms920351(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Shell Functions",
+"t": "DrvAdvPageSetupDlg",
+"u": "ms899127(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Shell Functions",
+"t": "ShellRegisterCallbacks",
+"u": "ms920359(v=msdn.10)"
+},
+{
+"area": "shell",
+"sub": "Shell Structures",
+"t": "SHELLCALLBACKS",
+"u": "ms920355(v=msdn.10)"
+}
+]
