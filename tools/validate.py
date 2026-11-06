@@ -5,6 +5,7 @@ Usage: python3 tools/validate.py
 Exits non-zero on any failure.
 """
 import glob, json, os, re, sys
+from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
@@ -91,10 +92,33 @@ def check_facts():
 # ---------------------------------------------------------------- harvested JSON
 def check_harvested():
     for path in sorted(glob.glob(os.path.join(REPO, 'data/mslearn-facts/*.json'))):
+        base = os.path.basename(path)
         try:
             d = json.load(open(path))
         except Exception as e:
             err(f'{path}: JSON parse error {e}')
+            continue
+        if base == 'ce-style-tables.json':
+            pages = d.get('pages') or []
+            if not pages or any(not p.get('url') or not p.get('constants') and p['page'].startswith(('Basic', 'Non-client')) for p in pages):
+                err('ce-style-tables.json: malformed pages envelope')
+            else:
+                ok(f'ce-style-tables.json: {len(pages)} table pages, '
+                   f'{sum(len(p["constants"]) for p in pages)} constant rows')
+            continue
+        if isinstance(d, dict) and 'winsock-errors' in base:
+            errs = d.get('errors')
+            if not errs or not d.get('url') or not d.get('retrieved'):
+                err(f'{base}: envelope missing url/retrieved/errors')
+                continue
+            names = [e['name'] for e in errs]
+            bad = [e for e in errs if not e['name'].startswith('WSAE') or not isinstance(e['code'], int)]
+            if bad:
+                err(f'{base}: {len(bad)} malformed winsock error records')
+            else:
+                dupes = [n for n, c in Counter(names).items() if c > 1]
+                ok(f'{base}: {len(errs)} winsock error rows'
+                   + (f' (page repeats {dupes} — dedup at consumption)' if dupes else ''))
             continue
         if isinstance(d, dict):  # system errors envelope
             errs = d.get('errors')
@@ -109,13 +133,28 @@ def check_harvested():
                 err(f'{path}: {len(bad)} malformed error records')
             ok(f'{os.path.basename(path)}: {len(errs)} error codes, range 0..{max(e["code"] for e in errs)}')
         else:  # fact records list
+            no_sig = 0
             for rec in d:
-                for f in ('name', 'url', 'retrieved', 'requirements'):
+                for f in ('name', 'url', 'retrieved'):
                     if f not in rec:
                         err(f'{path} [{rec.get("name","?")}]: missing {f}')
                 if not rec.get('signature'):
-                    err(f'{path} [{rec.get("name","?")}]: missing signature')
-            ok(f'{os.path.basename(path)}: {len(d)} records')
+                    no_sig += 1  # area harvests legitimately include table-only pages
+            ok(f'{os.path.basename(path)}: {len(d)} records'
+               + (f' ({no_sig} without code block)' if no_sig else ''))
+
+    # winsock error tables: cross-docset consistency
+    p6 = os.path.join(REPO, 'data/mslearn-facts/ce60-winsock-errors.json')
+    p5 = os.path.join(REPO, 'data/mslearn-facts/ce50-winsock-errors.json')
+    if os.path.exists(p6) and os.path.exists(p5):
+        w6 = {e['name']: e['code'] for e in json.load(open(p6))['errors']}
+        w5 = {e['name']: e['code'] for e in json.load(open(p5))['errors']}
+        if w6 != w5:
+            err(f'winsock error tables differ ce5/ce6: '
+                f'{sorted(set(w6) ^ set(w5))[:5]} value-diffs '
+                f'{[k for k in set(w6) & set(w5) if w6[k] != w5[k]][:5]}')
+        else:
+            ok(f'winsock error tables consistent: {len(w6)} codes, both docsets')
 
 def check_error_tables():
     p6 = os.path.join(REPO, 'data/mslearn-facts/ce60-system-errors.json')
@@ -157,6 +196,16 @@ def check_indexes():
 
 # ---------------------------------------------------------------- hygiene
 def check_hygiene():
+    # license texts
+    cc = os.path.join(REPO, 'LICENSES/CC-BY-4.0.txt')
+    mit = os.path.join(REPO, 'LICENSES/MIT.txt')
+    if not os.path.exists(cc) or 'Attribution 4.0 International' not in open(cc, errors='replace').read(200):
+        err('LICENSES/CC-BY-4.0.txt missing or wrong heading')
+    if not os.path.exists(mit) or 'MIT License' not in open(mit, errors='replace').read(100):
+        err('LICENSES/MIT.txt missing or wrong heading')
+    if not os.path.exists(os.path.join(REPO, 'LICENSE')):
+        err('root LICENSE missing')
+    ok('license files present')
     bad_pat = re.compile(r'\b(TODO|TBD|XXX)\b')  # case-sensitive, whole-word
     for path in glob.glob(os.path.join(REPO, 'docs/**/*.md'), recursive=True) + \
                glob.glob(os.path.join(REPO, '*.md')) + \

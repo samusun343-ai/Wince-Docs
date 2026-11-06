@@ -1,0 +1,24 @@
+# License
+
+`Wince-Docs` is a clean-room research and specification project. Its content
+splits into two categories with different licenses:
+
+| Scope | License | Text |
+| --- | --- | --- |
+| `docs/` — all specifications, policies, audits, appendices | **Creative Commons Attribution 4.0 International (CC-BY-4.0)** | [`LICENSES/CC-BY-4.0.txt`](LICENSES/CC-BY-4.0.txt) |
+| `data/` and `tools/` — fact database, inventories, indexes, scripts | **MIT** | [`LICENSES/MIT.txt`](LICENSES/MIT.txt) |
+
+`README.md` and this `LICENSE` file are covered by CC-BY-4.0.
+
+Rationale, scope boundaries and attribution obligations (including for the
+fact extractions from Microsoft documentation) are recorded in
+[`docs/01-methodology/licensing.md`](docs/01-methodology/licensing.md).
+
+Note on the fact database: `data/` contains *factual extractions*
+(identifiers, numeric constants, function signatures, header/library
+mappings) from publicly accessible Microsoft documentation, each record
+carrying its source citation and retrieval date. Facts as such are not
+copyrightable subject matter; the records are licensed MIT to make
+machine consumption frictionless. Short attributed prose excerpts kept for
+technical necessity remain the property of their respective owners and are
+marked with their source in every record.

@@ -1,0 +1,191 @@
+{
+ "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493863(v=winembedded.60)",
+ "retrieved": "2026-11-06",
+ "errors": [
+  {
+   "name": "WSAEINTR",
+   "code": 10004,
+   "desc": "Interrupted function call."
+  },
+  {
+   "name": "WSAEACCES",
+   "code": 10013,
+   "desc": "Permission denied."
+  },
+  {
+   "name": "WSAEFAULT",
+   "code": 10014,
+   "desc": "Bad address."
+  },
+  {
+   "name": "WSAEINVAL",
+   "code": 10022,
+   "desc": "Invalid argument."
+  },
+  {
+   "name": "WSAEMFILE",
+   "code": 10024,
+   "desc": "Too many open files."
+  },
+  {
+   "name": "WSAEWOULDBLOCK",
+   "code": 10035,
+   "desc": "Resource temporarily unavailable."
+  },
+  {
+   "name": "WSAEINPROGRESS",
+   "code": 10036,
+   "desc": "Operation now in progress."
+  },
+  {
+   "name": "WSAEALREADY",
+   "code": 10037,
+   "desc": "Operation already in progress."
+  },
+  {
+   "name": "WSAENOTSOCK",
+   "code": 10038,
+   "desc": "Socket operation on nonsocket."
+  },
+  {
+   "name": "WSAEDESTADDRREQ",
+   "code": 10039,
+   "desc": "Destination address required."
+  },
+  {
+   "name": "WSAEMSGSIZE",
+   "code": 10040,
+   "desc": "Message too long."
+  },
+  {
+   "name": "WSAEPROTOTYPE",
+   "code": 10041,
+   "desc": "Protocol wrong type for socket."
+  },
+  {
+   "name": "WSAENOPROTOOPT",
+   "code": 10042,
+   "desc": "Bad protocol option."
+  },
+  {
+   "name": "WSAEPROTONOSUPPORT",
+   "code": 10043,
+   "desc": "Protocol not supported."
+  },
+  {
+   "name": "WSAESOCKTNOSUPPORT",
+   "code": 10044,
+   "desc": "Socket type not supported."
+  },
+  {
+   "name": "WSAEOPNOTSUPP",
+   "code": 10045,
+   "desc": "Operation not supported."
+  },
+  {
+   "name": "WSAEPFNOSUPPORT",
+   "code": 10046,
+   "desc": "Protocol family not supported."
+  },
+  {
+   "name": "WSAEAFNOSUPPORT",
+   "code": 10047,
+   "desc": "Address family not supported by protocol family."
+  },
+  {
+   "name": "WSAEADDRINUSE",
+   "code": 10048,
+   "desc": "Address already in use."
+  },
+  {
+   "name": "WSAEADDRNOTAVAIL",
+   "code": 10049,
+   "desc": "Cannot assign requested address."
+  },
+  {
+   "name": "WSAENETDOWN",
+   "code": 10050,
+   "desc": "Network is down."
+  },
+  {
+   "name": "WSAENETUNREACH",
+   "code": 10051,
+   "desc": "Network is unreachable."
+  },
+  {
+   "name": "WSAENETRESET",
+   "code": 10052,
+   "desc": "Network dropped connection on reset."
+  },
+  {
+   "name": "WSAECONNABORTED",
+   "code": 10053,
+   "desc": "Software caused connection abort."
+  },
+  {
+   "name": "WSAECONNRESET",
+   "code": 10054,
+   "desc": "Connection reset by peer."
+  },
+  {
+   "name": "WSAENOBUFS",
+   "code": 10055,
+   "desc": "No buffer space available."
+  },
+  {
+   "name": "WSAEISCONN",
+   "code": 10056,
+   "desc": "Socket is already connected."
+  },
+  {
+   "name": "WSAEISCONN",
+   "code": 10056,
+   "desc": "Socket is already connected."
+  },
+  {
+   "name": "WSAENOTCONN",
+   "code": 10057,
+   "desc": "Socket is not connected."
+  },
+  {
+   "name": "WSAESHUTDOWN",
+   "code": 10058,
+   "desc": "Cannot send after socket shutdown."
+  },
+  {
+   "name": "WSAETIMEDOUT",
+   "code": 10060,
+   "desc": "Connection timed out."
+  },
+  {
+   "name": "WSAETIMEDOUT",
+   "code": 10060,
+   "desc": "Connection timed out."
+  },
+  {
+   "name": "WSAECONNREFUSED",
+   "code": 10061,
+   "desc": "Connection refused."
+  },
+  {
+   "name": "WSAEHOSTDOWN",
+   "code": 10064,
+   "desc": "Host is down."
+  },
+  {
+   "name": "WSAEHOSTUNREACH",
+   "code": 10065,
+   "desc": "No route to host."
+  },
+  {
+   "name": "WSAEPROCLIM",
+   "code": 10067,
+   "desc": "Too many processes."
+  },
+  {
+   "name": "WSAEDISCON",
+   "code": 10101,
+   "desc": "Graceful shutdown in progress."
+  }
+ ]
+}

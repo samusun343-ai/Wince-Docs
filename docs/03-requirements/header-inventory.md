@@ -16,6 +16,8 @@ The header set is derived from the **official API reference organization** (inve
 
 ### P0 — foundation (first-batch specs already delivered in `docs/05-specs/`)
 
+*Status update (P1 session):* `windef.h` (92 facts), `winnt.h` core (47), `winerror.h` (571 documented codes), `winbase.h` core functions — specs final.
+
 | Header | Documentation source area (CE6/CE5 pages) | Spec status |
 | --- | --- | --- |
 | `windef.h` | cross-cutting; calling conventions, base types, `MAX_PATH` (docs reference `windows.h` umbrella; conventions per `unicode-aw-policy.md` §5) | **full enumeration delivered** (`spec-windef.md`) |
@@ -25,20 +27,26 @@ The header set is derived from the **official API reference organization** (inve
 
 ### P1 — common application surface
 
+*Status update (P1 session):* **`winuser.h` core, `wingdi.h` core, `winsock2.h`, `commctrl.h`/`commdlg.h` CE core specs delivered** (`spec-winuser-core.md`, `spec-wingdi-core.md`, `spec-winsock2.md`, `spec-commctrl-ce.md`); fact DBs `winuser-core.yaml` (688), `wingdi-core.yaml` (176), `winsock.yaml` (202), `commctrl-ce.yaml` (237).
+
 | Header | Documentation source area (CE6/CE5 pages) | Notes |
 | --- | --- | --- |
 | `winbase.h` (remainder) | File I/O (48), File Mapping, Registry (30 CE6), Database (134 CE6 — legacy CE database API), Find/FindNext pages, ToolHelp, Interlocked/other subareas of Core OS Reference (408 total) | includes CE-modified items e.g. `BY_HANDLE_FILE_INFORMATION.dwOID` |
-| `winuser.h` | GWES › Windows Reference (56), Window and Control Styles (24), Window Class Reference, Window Properties, Windows Timer, Keyboard Reference (49), Menus, Carets, Atoms | message constants (`WM_*` pages exist per message, values from desktop-common records) |
-| `wingdi.h` | GDI Reference — Functions (132), Structures (29), Macros (7), Messages (5), Raster Operation Codes (2) | |
+| `winuser.h` | GWES › Windows Reference (56), Window and Control Styles (24), Window Class Reference, Window Properties, Windows Timer, Keyboard Reference (49 CE5 tree / 51 CE6 index supplement), Menus, Carets, Atoms | **core spec delivered**; 20 documented link libraries; `pwinuser.h` finding below |
+| `wingdi.h` | GDI Reference — Functions (132), Structures (29), Macros (7), Messages (5), Raster Operation Codes (2) | **core spec delivered**; `coredll.lib`+`rectapi.lib`+4 specialty libs |
 | `windowsx.h`, `winuser` macros | Window Control Reference pages | P1 tail |
-| `winsock2.h` / `winsock.h` | Winsock Reference (110 CE6) + SPI (57) | header `Winsock2.h`, library `Ws2.lib` per Requirements; **BSD-licensed portions if reused from w32api carry file-level attribution** (`mingw-org-w32api` audit) |
+| `winsock2.h` / `winsock.h` | Winsock Reference (110 CE6) + SPI (57) | **core spec delivered**; `Ws2.lib` for all documented bindings; 35 documented WSAE values |
 | `ws2tcpip.h`, `ws2ip6.h` | Winsock IPv6 / getaddrinfo pages; CeGCC ChangeLog.ce documents the CE availability of `getaddrinfo` family | |
 | `msgqueue.h` | Core OS › Message Queue Point-to-Point (msqueued APIs) | CE-only header |
 | `toolhelp.h` | Core OS › ToolHelp Reference (snapshot/process APIs) | CE-specific toolhelp surface |
 | `pwindow.h`/`aygshell.h` | AYGShell Reference (60) | CE/PocketPC shell extension |
-| `commctrl.h` | Common Controls Reference (828 CE6/826 CE5) | largest single area; includes command bands/bars (CE-specific) |
-| `commdlg.h` | Common Dialog Boxes (within Common Controls area, 37 Dialog Boxes pages + others) | `OPENFILENAME` structure page documented |
+| `commctrl.h` | Common Controls Reference (828 CE6/826 CE5) | **CE core spec delivered** (command bars/bands + image lists + dialogs); remaining ~700 control pages P2 |
+| `commdlg.h` | Common Dialog Boxes (within Common Controls area, 37 Dialog Boxes pages + others) | **CE subset spec delivered**; `fileopen.lib` split recorded |
 | `stdlib`-boundary | n/a — see `include-tree.md` §5 (CRT is out of the OS-header set) | |
+
+### P1 header-placement decisions
+
+* **R-HDR-9.** `pwinuser.h` (documented header of `GetAsyncShiftFlags`, `GetForegroundInfo`, `GetForegroundKeyboardLayoutHandle`, `GetForegroundKeyboardTarget`, `KeybdGetDeviceInfo`): declarations live in the project's `winuser.h`; `pwinuser.h` ships as an include-compatibility shim only.
 
 ### P2 — full documented surface (selection; full lists in `data/mslearn-inventories/`)
 
@@ -65,6 +73,15 @@ Facts classified `ce-modified` or `ce-only` are tracked in the fact DB; known ex
 | `ReadFileWithSeek`/`WriteFileWithSeek` (FSD surface) | ce-only | Core OS/File Sys docs |
 | `SHCreateMenuBar` | ce-only (AYGShell) | AYGShell Reference |
 | `WinMain` entry with `LPWSTR` | ce-modified | CE 5.0 + 6.0 pages |
+| `WS_EX_CAPTIONOKBTN`, `WS_EX_NODRAG`, `WS_EX_NOANIMATION`, `WS_NONAVDONEBUTTON` | ce-only styles | CE style pages; values w32api-lineage/`verify-runtime` (OQ-15) |
+| `WS_SIZEBOX` spelling (desktop `WS_THICKFRAME` alias) | ce-modified | CE Non-client Area Styles page |
+| `GetClipboardDataAlloc` | ce-only function | clipboard pages (both docsets) |
+| `CommandBar_*` / `CommandBands_*` (24 functions) | ce-only | Command Bars/Bands references, `commctrl.lib` |
+| `GetForegroundInfo`, `GET_FOREGROUND_INFO`, `GetAsyncShiftFlags`, `GetKeyboardStatus`, `KeybdGetDeviceInfo`, `PostKeybdMessage`, `AllKeys`, `EnableHardwareKeyboard`, `GetForegroundKeyboardLayoutHandle/Target` | ce-only keyboard set | Keyboard references; documented header `pwinuser.h` (R-HDR-9) |
+| `GetMessageSource`, `GetMessageQueueReadyTimeStamp`, `CustomTrackPopupMenu` (CE 6.0 only) | ce-only | Windows/Message Queue references |
+| `SOL_IRLMP` (IrDA socket level) | ce-only constant | Winsock Reference |
+| `LVS_EX_NOFOCUSRECT` (CE 5.0 page typo `NOFOSUCRECT`) | ce-only | List View Styles pages |
+| `fileopen.lib` binding for `GetOpenFileName`/`GetSaveFileName` | ce-only binding | Common Dialog pages |
 
 ## 4. Version coverage rules
 

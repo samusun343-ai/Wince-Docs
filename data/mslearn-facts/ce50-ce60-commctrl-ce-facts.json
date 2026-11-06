@@ -1,0 +1,2398 @@
+[
+ {
+  "name": "COMMANDBANDSRESTOREINFO",
+  "title": "COMMANDBANDSRESTOREINFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908125(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedefstructtagCOMMANDBANDSRESTOREINFO{UINTcbSize;UINTwID;UINTfStyle;UINTcxRestored;BOOLfMaximized;}COMMANDBANDSRESTOREINFO,*LPCOMMANDBANDSRESTOREINFO;",
+  "code_blocks": [
+   "typedefstructtagCOMMANDBANDSRESTOREINFO{UINTcbSize;UINTwID;UINTfStyle;UINTcxRestored;BOOLfMaximized;}COMMANDBANDSRESTOREINFO,*LPCOMMANDBANDSRESTOREINFO;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_AddAdornments",
+  "title": "CommandBands_AddAdornments (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908118(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBands_AddAdornments(HWNDhwndCmdBands,HINSTANCEhinst,DWORDdwFlags,LPREBARBANDINFOprbbi);",
+  "code_blocks": [
+   "BOOL CommandBands_AddAdornments(HWNDhwndCmdBands,HINSTANCEhinst,DWORDdwFlags,LPREBARBANDINFOprbbi);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_AddBands",
+  "title": "CommandBands_AddBands (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908120(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBands_AddBands(HWNDhwndCmdBands,HINSTANCE hinst,UINTcBands,LPREBARBANDINFOprbbi);",
+  "code_blocks": [
+   "BOOL CommandBands_AddBands(HWNDhwndCmdBands,HINSTANCE hinst,UINTcBands,LPREBARBANDINFOprbbi);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_Create",
+  "title": "CommandBands_Create (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908121(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "HWND CommandBands_Create(HINSTANCE hinst,HWNDhwndParent,UINT wID,DWORDdwStyles,HIMAGELISThiml );",
+  "code_blocks": [
+   "HWND CommandBands_Create(HINSTANCE hinst,HWNDhwndParent,UINT wID,DWORDdwStyles,HIMAGELISThiml );"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_GetCommandBar",
+  "title": "CommandBands_GetCommandBar (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908122(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "HWND CommandBands_GetCommandBar(HWNDhwndCmdBands,UINT uBand);",
+  "code_blocks": [
+   "HWND CommandBands_GetCommandBar(HWNDhwndCmdBands,UINT uBand);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_GetRestoreInformation",
+  "title": "CommandBands_GetRestoreInformation (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908123(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL WINAPI CommandBands_GetRestoreInformation(HWND hwndCmdBands,UINTuBand,LPCOMMANDBANDSRESTOREINFOpcbri);",
+  "code_blocks": [
+   "BOOL WINAPI CommandBands_GetRestoreInformation(HWND hwndCmdBands,UINTuBand,LPCOMMANDBANDSRESTOREINFOpcbri);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_Height",
+  "title": "CommandBands_Height (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908124(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT CommandBands_Height(HWND hwndCmdBands);",
+  "code_blocks": [
+   "UINT CommandBands_Height(HWND hwndCmdBands);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_Show",
+  "title": "CommandBands_Show (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908126(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL WINAPI CommandBands_Show(HWNDhwndCmdBands,BOOLfShow);",
+  "code_blocks": [
+   "BOOL WINAPI CommandBands_Show(HWNDhwndCmdBands,BOOLfShow);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBar_AddAdornments",
+  "title": "CommandBar_AddAdornments (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908127(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLCommandBar_AddAdornments(HWNDhwndCB, DWORDdwFlags, DWORD dwReserved);",
+  "code_blocks": [
+   "BOOLCommandBar_AddAdornments(HWNDhwndCB, DWORDdwFlags, DWORD dwReserved);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_AddBitmap",
+  "title": "CommandBar_AddBitmap (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908128(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "intCommandBar_AddBitmap(HWNDhwndCB, HINSTANCEhInst, intidBitmap, intiNumImages, int iImageWidth,intiImageHeight);",
+  "code_blocks": [
+   "intCommandBar_AddBitmap(HWNDhwndCB, HINSTANCEhInst, intidBitmap, intiNumImages, int iImageWidth,intiImageHeight);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "The following values can be used as indexes to the standard and view bitmaps: STD_COPY STD_PROPERTIES STD_CUT STD_REDOW STD_DELETE STD_REPLACE STD_FIND STD_PASTE STD_FILENEW STD_PRINT STD_FILEOPEN STD_PRINTPRE STD_FILESAVE STD_UNDO STD_HELP VIEW_DETAILS VIEW_SORTDATE VIEW_LARGEICONS VIEW_SORTNAME VIEW_LIST VIEW_SORTSIZE VIEW_SMALLICONS VIEW_SORTTYPE Windows CE 1.0 only supports 2 bits per pixel (2bp) gray scale, so the bitmap is not displayed in color.",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_AddButtons",
+  "title": "CommandBar_AddButtons (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908129(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLCommandBar_AddButtons(HWNDhwndCB, UINTuNumButtons, LPTBBUTTONlpButtons);",
+  "code_blocks": [
+   "BOOLCommandBar_AddButtons(HWNDhwndCB, UINTuNumButtons, LPTBBUTTONlpButtons);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_AddToolTips",
+  "title": "CommandBar_AddToolTips (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908130(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLCommandBar_AddToolTips(HWNDhwndCB, UINTuNumToolTips, LPTSTRlpToolTips);",
+  "code_blocks": [
+   "BOOLCommandBar_AddToolTips(HWNDhwndCB, UINTuNumToolTips, LPTSTRlpToolTips);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_AlignAdornments",
+  "title": "CommandBar_AlignAdornments (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453948(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "voidCommandBar_AlignAdornments(HWNDhwndCB);",
+  "code_blocks": [
+   "voidCommandBar_AlignAdornments(HWNDhwndCB);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_Create",
+  "title": "CommandBar_Create (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908131(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "HWNDCommandBar_Create(HINSTANCEhInst, HWNDhwndParent, intidCmdBar);",
+  "code_blocks": [
+   "HWNDCommandBar_Create(HINSTANCEhInst, HWNDhwndParent, intidCmdBar);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_Destroy",
+  "title": "CommandBar_Destroy (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908132(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "voidCommandBar_Destroy(HWNDhwndCB);",
+  "code_blocks": [
+   "voidCommandBar_Destroy(HWNDhwndCB);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_DrawMenuBar",
+  "title": "CommandBar_DrawMenuBar (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908133(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLCommandBar_DrawMenuBar(HWNDhwndCB,WORDiButton);",
+  "code_blocks": [
+   "BOOLCommandBar_DrawMenuBar(HWNDhwndCB,WORDiButton);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_GetMenu",
+  "title": "CommandBar_GetMenu (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908134(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "HMENUCommandBar_GetMenu(HWNDhwndCB, WORDiButton);",
+  "code_blocks": [
+   "HMENUCommandBar_GetMenu(HWNDhwndCB, WORDiButton);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_Height",
+  "title": "CommandBar_Height (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908135(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "intCommandBar_Height(HWNDhwndCB);",
+  "code_blocks": [
+   "intCommandBar_Height(HWNDhwndCB);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_InsertButton",
+  "title": "CommandBar_InsertButton (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908136(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLCommandBar_InsertButton(HWNDhwndCB, intiButton, LPTBBUTTONlpButton);",
+  "code_blocks": [
+   "BOOLCommandBar_InsertButton(HWNDhwndCB, intiButton, LPTBBUTTONlpButton);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_InsertComboBox",
+  "title": "CommandBar_InsertComboBox (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908137(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "HWNDCommandBar_InsertComboBox(HWNDhwndCB, HINSTANCEhInst, intiWidth, UINTdwStyle, WORDidComboBox, WORDiButton);",
+  "code_blocks": [
+   "HWNDCommandBar_InsertComboBox(HWNDhwndCB, HINSTANCEhInst, intiWidth, UINTdwStyle, WORDidComboBox, WORDiButton);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_InsertMenubar",
+  "title": "CommandBar_InsertMenubar (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908138(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLCommandBar_InsertMenubar(HWNDhwndCB, HINSTANCEhInst, WORDidMenu, WORDiButton);",
+  "code_blocks": [
+   "BOOLCommandBar_InsertMenubar(HWNDhwndCB, HINSTANCEhInst, WORDidMenu, WORDiButton);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Use the same type of menu bar in the command bar of a Windows CE application that you use for the main menu in an application running on a Windows desktop platform.",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_InsertMenubarEx",
+  "title": "CommandBar_InsertMenubarEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908139(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLCommandBar_InsertMenubarEx(HWNDhwndCB, HINSTANCEhInst, LPTSTRpszMenu, WORDiButton);",
+  "code_blocks": [
+   "BOOLCommandBar_InsertMenubarEx(HWNDhwndCB, HINSTANCEhInst, LPTSTRpszMenu, WORDiButton);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Use the same type of menu bar in the command bar of a Windows CE application that you use for the main menu in an application running on a Windows desktop platform.",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_IsVisible",
+  "title": "CommandBar_IsVisible (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908140(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLCommandBar_IsVisible(HWNDhwndCB);",
+  "code_blocks": [
+   "BOOLCommandBar_IsVisible(HWNDhwndCB);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_Show",
+  "title": "CommandBar_Show (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908141(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLCommandBar_Show(HWNDhwndCB, BOOLfShow);",
+  "code_blocks": [
+   "BOOLCommandBar_Show(HWNDhwndCB, BOOLfShow);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "FORWARD_WM_NOTIFY",
+  "title": "FORWARD_WM_NOTIFY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453073(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "VOIDFORWARD_WM_NOTIFY( hwnd, idFrom, pnmhdr, fn );",
+  "code_blocks": [
+   "VOIDFORWARD_WM_NOTIFY( hwnd, idFrom, pnmhdr, fn );",
+   "#define FORWARD_WM_NOTIFY(hwnd, idFrom, pnmhdr, fn) \\ (void)(fn)((hwnd), WM_NOTIFY, (WPARAM)(int)(id), \\ (LPARAM)(NMHDR FAR*)(pnmhdr))"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "HANDLE_WM_NOTIFY",
+  "title": "HANDLE_WM_NOTIFY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms929879(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "HANDLE_WM_NOTIFY( hwnd, wParam, lParam, fn);",
+  "code_blocks": [
+   "HANDLE_WM_NOTIFY( hwnd, wParam, lParam, fn);",
+   "#define HANDLE_WM_NOTIFY(hwnd, wParam, lParam, fn) \\ (fn)((hwnd), (int)(wParam), (NMHDR FAR*)(lParam))"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "INDEXTOSTATEIMAGEMASK",
+  "title": "INDEXTOSTATEIMAGEMASK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms909844(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT INDEXTOSTATEIMAGEMASK( UINTi );",
+  "code_blocks": [
+   "UINT INDEXTOSTATEIMAGEMASK( UINTi );",
+   "#define INDEXTOSTATEIMAGEMASK(i) ((i) << 12)"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "INITCOMMONCONTROLSEX (structure)",
+  "title": "INITCOMMONCONTROLSEX (structure) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms909850(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedefstructtagINITCOMMONCONTROLSEX{DWORDdwSize;DWORDdwICC;}INITCOMMONCONTROLSEX,*LPINITCOMMONCONTROLSEX;",
+  "code_blocks": [
+   "typedefstructtagINITCOMMONCONTROLSEX{DWORDdwSize;DWORDdwICC;}INITCOMMONCONTROLSEX,*LPINITCOMMONCONTROLSEX;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE does not support the ICC_HOTKEY_CLASS, ICC_INTERNET_CLASSES, or ICC_USEREX_CLASSES flags in the dwICC member.",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "InitCommonControls",
+  "title": "InitCommonControls (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms909848(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "voidInitCommonControls(void);",
+  "code_blocks": [
+   "voidInitCommonControls(void);"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "InitCommonControlsEx (function)",
+  "title": "InitCommonControlsEx (function) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms909849(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL InitCommonControlsEx(LPINITCOMMONCONTROLSEXlpInitCtrls );",
+  "code_blocks": [
+   "BOOL InitCommonControlsEx(LPINITCOMMONCONTROLSEXlpInitCtrls );"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commctrl.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NMHDR",
+  "title": "NMHDR (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms931479(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagNMHDR { HWND hwndFrom; UINT idFrom; UINT code; } NMHDR;",
+  "code_blocks": [
+   "typedef struct tagNMHDR { HWND hwndFrom; UINT idFrom; UINT code; } NMHDR;"
+  ],
+  "requirements": {
+   "header": "Winuser.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NMKEY",
+  "title": "NMKEY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms931482(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedefstructtagNMKEY{NMHDRhdr;WORDwVKey;UINTflags;}NMKEY,FAR* LPNMKEY;",
+  "code_blocks": [
+   "typedefstructtagNMKEY{NMHDRhdr;WORDwVKey;UINTflags;}NMKEY,FAR* LPNMKEY;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NMMOUSE",
+  "title": "NMMOUSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms931655(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedefstructtagNMMOUSE{NMHDRhdr;DWORDdwItemSpec;DWORDdwItemData;POINTpt;}NMMOUSE,FAR* LPNMMOUSE;",
+  "code_blocks": [
+   "typedefstructtagNMMOUSE{NMHDRhdr;DWORDdwItemSpec;DWORDdwItemData;POINTpt;}NMMOUSE,FAR* LPNMMOUSE;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_CLICK",
+  "title": "NM_CLICK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms931469(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_CLICK lpnmlv = (LPNMLISTVIEW)lParam;",
+  "code_blocks": [
+   "NM_CLICK lpnmlv = (LPNMLISTVIEW)lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_DBLCLK",
+  "title": "NM_DBLCLK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms931477(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_DBLCLK lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_DBLCLK lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_HOVER",
+  "title": "NM_HOVER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms931481(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_HOVER lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_HOVER lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_KEYDOWN",
+  "title": "NM_KEYDOWN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms931483(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_KEYDOWN lpnmk = (LPNMKEY)lParam;",
+  "code_blocks": [
+   "NM_KEYDOWN lpnmk = (LPNMKEY)lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_KILLFOCUS",
+  "title": "NM_KILLFOCUS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms931492(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_KILLFOCUS lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_KILLFOCUS lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_OUTOFMEMORY",
+  "title": "NM_OUTOFMEMORY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911834(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_OUTOFMEMORY lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_OUTOFMEMORY lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_RCLICK",
+  "title": "NM_RCLICK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911841(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_RCLICK lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_RCLICK lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_RDBLCLK",
+  "title": "NM_RDBLCLK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911846(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_RDBLCLK lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_RDBLCLK lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_RETURN",
+  "title": "NM_RETURN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911856(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_RETURN lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_RETURN lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_SETFOCUS",
+  "title": "NM_SETFOCUS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911861(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_SETFOCUS lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_SETFOCUS lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "WM_NOTIFY",
+  "title": "WM_NOTIFY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453890(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "WM_NOTIFY idCtrl = (int)wParam;pnmh = (LPNMHDR)lParam;",
+  "code_blocks": [
+   "WM_NOTIFY idCtrl = (int)wParam;pnmh = (LPNMHDR)lParam;"
+  ],
+  "requirements": {
+   "header": "Winuser.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "CCHookProc",
+  "title": "CCHookProc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908071(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT APIENTRY CCHookProc(HWNDhdlg, UINTuiMsg, WPARAMwParam, LPARAMlParam);",
+  "code_blocks": [
+   "UINT APIENTRY CCHookProc(HWNDhdlg, UINTuiMsg, WPARAMwParam, LPARAMlParam);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CDM_SETDEFEXT",
+  "title": "CDM_SETDEFEXT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908072(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "CDM_SETDEFEXTwParam = 0;lParam = (LPARAM)(LPSTR)pszext;",
+  "code_blocks": [
+   "CDM_SETDEFEXTwParam = 0;lParam = (LPARAM)(LPSTR)pszext;"
+  ],
+  "requirements": {
+   "header": "Winuser.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CDN_TYPECHANGE",
+  "title": "CDN_TYPECHANGE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908073(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "CDN_TYPECHANGElpon=(LPOFNOTIFY)lParam;",
+  "code_blocks": [
+   "CDN_TYPECHANGElpon=(LPOFNOTIFY)lParam;"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CFHookProc",
+  "title": "CFHookProc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908107(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT (APIENTRY* LPCFHOOKPROC)(HWND hdlg,UINTuiMsg,WPARAMwParam,LPARAMlParam);",
+  "code_blocks": [
+   "UINT (APIENTRY* LPCFHOOKPROC)(HWND hdlg,UINTuiMsg,WPARAMwParam,LPARAMlParam);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CHOOSECOLOR (structure)",
+  "title": "CHOOSECOLOR (structure) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928580(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagCHOOSECOLOR {DWORD lStructSize;HWND hwndOwner;HINSTANCE hInstance;COLORREF rgbResult;COLORREF* lpCustColors;DWORD Flags;LPARAM lCustData;LPCCHOOKPROC lpfnHook;LPCTSTR lpTemplateName;} CHOOSECOLOR, *LPCHOOSECOLOR;",
+  "code_blocks": [
+   "typedef struct tagCHOOSECOLOR {DWORD lStructSize;HWND hwndOwner;HINSTANCE hInstance;COLORREF rgbResult;COLORREF* lpCustColors;DWORD Flags;LPARAM lCustData;LPCCHOOKPROC lpfnHook;LPCTSTR lpTemplateName;} CHOOSECOLOR, *LPCHOOSECOLOR;"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CHOOSEFONT (structure)",
+  "title": "CHOOSEFONT (structure) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928582(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagCHOOSEFONT {DWORD lStructSize;HWND hwndOwner; HDC hDC; LPLOGFONTW lpLogFont; INT iPointSize; DWORD Flags; COLORREF rgbColors; LPARAM lCustData; LPCFHOOKPROC lpfnHook; LPCWSTR lpTemplateName; HINSTANCE hInstance; LPWSTR lpszStyle; WORD nFontType; WORD ___MISSING_ALIGNMENT__; INT nSizeMin; INT nSizeMax;} CHOOSEFONTW, *LPCHOOSEFONTW;",
+  "code_blocks": [
+   "typedef struct tagCHOOSEFONT {DWORD lStructSize;HWND hwndOwner; HDC hDC; LPLOGFONTW lpLogFont; INT iPointSize; DWORD Flags; COLORREF rgbColors; LPARAM lCustData; LPCFHOOKPROC lpfnHook; LPCWSTR lpTemplateName; HINSTANCE hInstance; LPWSTR lpszStyle; WORD nFontType; WORD ___MISSING_ALIGNMENT__; INT nSizeMin; INT nSizeMax;} CHOOSEFONTW, *LPCHOOSEFONTW;"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "ChooseColor (function)",
+  "title": "ChooseColor (function) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928579(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL ChooseColor(LPCHOOSECOLORlpcc);",
+  "code_blocks": [
+   "BOOL ChooseColor(LPCHOOSECOLORlpcc);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "library": "Commdlg.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Note In previous versions of Windows CE, the Color common dialog did not support user-defined colors if the target device screen is less than 480 pixels in width. The Color dialog box does not support palettes.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "ChooseFont (function)",
+  "title": "ChooseFont (function) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928581(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL APIENTRY ChooseFont(LPCHOOSEFONT lpcf);",
+  "code_blocks": [
+   "BOOL APIENTRY ChooseFont(LPCHOOSEFONT lpcf);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CommDlgExtendedError",
+  "title": "CommDlgExtendedError (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908144(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "DWORD CommDlgExtendedError()",
+  "code_blocks": [
+   "DWORD CommDlgExtendedError()"
+  ],
+  "requirements": {
+   "header": "Commctrl.h",
+   "library": "Commdlg.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "DEVNAMES",
+  "title": "DEVNAMES (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452944(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedefstructtagDEVNAMES{WORDwDriverOffset; WORDwDeviceOffset; WORDwOutputOffset; WORDwDefault; } DEVNAMES;",
+  "code_blocks": [
+   "typedefstructtagDEVNAMES{WORDwDriverOffset; WORDwDeviceOffset; WORDwOutputOffset; WORDwDefault; } DEVNAMES;"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "GetOpenFileName",
+  "title": "GetOpenFileName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453150(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLGetOpenFileName( LPOPENFILENAMElpofn);",
+  "code_blocks": [
+   "BOOLGetOpenFileName( LPOPENFILENAMElpofn);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "library": "Fileopen.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Not all members of the OPENFILENAME structure are defined in Windows CE. Windows CE modifies the meaning of the following members of the OPENFILENAME structure when it is passed into the GetOpenFileName function. When the GetOpenFileName function is called, Windows CE adds the following prespecified undefined members: lpstrCustomFilter lpstrMaxCusFilter lpstrDefExtension lCustData lpfnHook lpstrTemplateName",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "GetSaveFileName",
+  "title": "GetSaveFileName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453162(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOLGetSaveFileName( LPOPENFILENAMElpofn);",
+  "code_blocks": [
+   "BOOLGetSaveFileName( LPOPENFILENAMElpofn);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "library": "Fileopen.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Not all members of the OPENFILENAME structure are defined in Windows CE. Windows CE modifies the meaning of the following members of the OPENFILENAME structure when it is passed into the GetOpenFileName function. When the GetOpenFileName function is called, Windows CE adds the following prespecified undefined members: lpstrCustomFilter lpstrMaxCusFilter lpstrDefExtension lCustData lpfnHook lpstrTemplateName",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "OFNOTIFY",
+  "title": "OFNOTIFY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911893(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct _OFNOTIFY { NMHDR hdr; LPOPENFILENAME lpOFN;LPTSTR pszFile;} OFNOTIFY, FAR* LPOFNOTIFY;",
+  "code_blocks": [
+   "typedef struct _OFNOTIFY { NMHDR hdr; LPOPENFILENAME lpOFN;LPTSTR pszFile;} OFNOTIFY, FAR* LPOFNOTIFY;"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "OPENFILENAME",
+  "title": "OPENFILENAME (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911906(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagOFN { /* ofn */DWORD lStructSize;HWND hwndOwner;HINSTANCE hInstance;LPCSTR lpstrFilter;LPSTR lpstrCustomFilter;DWORD nMaxCustFilter;DWORD nFilterIndex;LPSTR lpstrFile;DWORD nMaxFile;LPSTR lpstrFileTitle;DWORD nMaxFileTitle;LPSTR lpstrInitialDir;LPCSTR lpstrTitle;DWORD Flags;WORD nFileOffset;WORD nFileExtension;LPCSTR lpstrDefExt;DWORD lCustData;LPOFNHOOKPROC lpfnHook;LPCSTR lpTemplateName;} OPENFILENAME;",
+  "code_blocks": [
+   "typedef struct tagOFN { /* ofn */DWORD lStructSize;HWND hwndOwner;HINSTANCE hInstance;LPCSTR lpstrFilter;LPSTR lpstrCustomFilter;DWORD nMaxCustFilter;DWORD nFilterIndex;LPSTR lpstrFile;DWORD nMaxFile;LPSTR lpstrFileTitle;DWORD nMaxFileTitle;LPSTR lpstrInitialDir;LPCSTR lpstrTitle;DWORD Flags;WORD nFileOffset;WORD nFileExtension;LPCSTR lpstrDefExt;DWORD lCustData;LPOFNHOOKPROC lpfnHook;LPCSTR lpTemplateName;} OPENFILENAME;"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PAGESETUPDLG (structure)",
+  "title": "PAGESETUPDLG (structure) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911910(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagPSD { DWORD lStructSize; HWND hwndOwner; HGLOBAL hDevMode; HGLOBAL hDevNames; DWORD Flags; POINT ptPaperSize; RECT rtMinMargin; RECT rtMargin; HINSTANCE hInstance; LPARAM lCustData; LPPAGESETUPHOOK lpfnPageSetupHook; LPPAGEPAINTHOOK lpfnPagePaintHook; LPCTSTR lpPageSetupTemplateName; HGLOBAL hPageSetupTemplate; } PAGESETUPDLG, *LPPAGESETUPDLG;",
+  "code_blocks": [
+   "typedef struct tagPSD { DWORD lStructSize; HWND hwndOwner; HGLOBAL hDevMode; HGLOBAL hDevNames; DWORD Flags; POINT ptPaperSize; RECT rtMinMargin; RECT rtMargin; HINSTANCE hInstance; LPARAM lCustData; LPPAGESETUPHOOK lpfnPageSetupHook; LPPAGEPAINTHOOK lpfnPagePaintHook; LPCTSTR lpPageSetupTemplateName; HGLOBAL hPageSetupTemplate; } PAGESETUPDLG, *LPPAGESETUPDLG;"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PRINTDLG (structure)",
+  "title": "PRINTDLG (structure) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453544(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagPD {DWORD cbStruct;HWND hwndOwner;HDC hdc;DWORD dwFlags;RECT rcMinMargin;RECT rcMargin;HINSTANCE hinst;LPARAM lCustData;LPPRINTHOOKPROC pfnPrintHook;LPCTSTR pszPrintTemplateName;HGLOBAL hglbPrintTemplateResource;} PRINTDLG , *LPPRINTDLG;",
+  "code_blocks": [
+   "typedef struct tagPD {DWORD cbStruct;HWND hwndOwner;HDC hdc;DWORD dwFlags;RECT rcMinMargin;RECT rcMargin;HINSTANCE hinst;LPARAM lCustData;LPPRINTHOOKPROC pfnPrintHook;LPCTSTR pszPrintTemplateName;HGLOBAL hglbPrintTemplateResource;} PRINTDLG , *LPPRINTDLG;"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 2.0 and 2.01."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PagePaintHook",
+  "title": "PagePaintHook (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911908(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "UINTCALLBACKPagePaintHook(HWNDhdlg,UINTuiMsg,WPARAMwParam,LPARAMlParam);",
+  "code_blocks": [
+   "UINTCALLBACKPagePaintHook(HWNDhdlg,UINTuiMsg,WPARAMwParam,LPARAMlParam);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "The PageSetupDlg function is not supported in version 2.0.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PageSetupDlg (function)",
+  "title": "PageSetupDlg (function) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911909(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL PageSetupDlg( LPPAGESETUPDLGlppsd);",
+  "code_blocks": [
+   "BOOL PageSetupDlg( LPPAGESETUPDLGlppsd);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "library": "Commdlg.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "The PageSetupDlg function is not supported in version 2.0.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PageSetupHook",
+  "title": "PageSetupHook (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911911(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "UINTCALLBACKPageSetupHook(HWNDhdlg,UINTuiMsg,WPARAMwParam,LPARAMlParam);",
+  "code_blocks": [
+   "UINTCALLBACKPageSetupHook(HWNDhdlg,UINTuiMsg,WPARAMwParam,LPARAMlParam);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "The PageSetupDlg function is not supported in version 2.0.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PrintDlg (function)",
+  "title": "PrintDlg (function) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911940(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL PrintDlg(LPPRINTDLGlppd);",
+  "code_blocks": [
+   "BOOL PrintDlg(LPPRINTDLGlppd);"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "library": "Commdlg.lib",
+   "os": "Windows CE 2.0 and 2.01."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PrintHookProc",
+  "title": "PrintHookProc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453545(v=msdn.10)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT APIENTRY PrintHookProc(HWNDhdlg, UINTuiMsg, WPARAMwParam, LPARAMlParam );",
+  "code_blocks": [
+   "UINT APIENTRY PrintHookProc(HWNDhdlg, UINTuiMsg, WPARAMwParam, LPARAMlParam );"
+  ],
+  "requirements": {
+   "header": "Commdlg.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "COMMANDBANDSRESTOREINFO",
+  "title": "COMMANDBANDSRESTOREINFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505507(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagCOMMANDBANDSRESTOREINFO { UINT cbSize; UINT wID; UINT fStyle; UINT cxRestored; BOOL fMaximized; } COMMANDBANDSRESTOREINFO, *LPCOMMANDBANDSRESTOREINFO;",
+  "code_blocks": [
+   "typedef struct tagCOMMANDBANDSRESTOREINFO { UINT cbSize; UINT wID; UINT fStyle; UINT cxRestored; BOOL fMaximized; } COMMANDBANDSRESTOREINFO, *LPCOMMANDBANDSRESTOREINFO;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_AddAdornments",
+  "title": "CommandBands_AddAdornments (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503915(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBands_AddAdornments( HWND hwndCmdBands, HINSTANCE hinst, DWORD dwFlags, LPREBARBANDINFO prbbi );",
+  "code_blocks": [
+   "BOOL CommandBands_AddAdornments( HWND hwndCmdBands, HINSTANCE hinst, DWORD dwFlags, LPREBARBANDINFO prbbi );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_AddBands",
+  "title": "CommandBands_AddBands (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501773(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBands_AddBands( HWND hwndCmdBands, HINSTANCE hinst, UINT cBands, LPREBARBANDINFO prbbi );",
+  "code_blocks": [
+   "BOOL CommandBands_AddBands( HWND hwndCmdBands, HINSTANCE hinst, UINT cBands, LPREBARBANDINFO prbbi );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_Create",
+  "title": "CommandBands_Create (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee500877(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "HWND CommandBands_Create( HINSTANCE hinst, HWND hwndParent, UINT wID, DWORD dwStyles, HIMAGELIST himl );",
+  "code_blocks": [
+   "HWND CommandBands_Create( HINSTANCE hinst, HWND hwndParent, UINT wID, DWORD dwStyles, HIMAGELIST himl );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_GetCommandBar",
+  "title": "CommandBands_GetCommandBar (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505676(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "HWND CommandBands_GetCommandBar( HWND hwndCmdBands, UINT uBand );",
+  "code_blocks": [
+   "HWND CommandBands_GetCommandBar( HWND hwndCmdBands, UINT uBand );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_GetRestoreInformation",
+  "title": "CommandBands_GetRestoreInformation (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505304(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL WINAPI CommandBands_GetRestoreInformation( HWND hwndCmdBands, UINT uBand, LPCOMMANDBANDSRESTOREINFO pcbri );",
+  "code_blocks": [
+   "BOOL WINAPI CommandBands_GetRestoreInformation( HWND hwndCmdBands, UINT uBand, LPCOMMANDBANDSRESTOREINFO pcbri );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_Height",
+  "title": "CommandBands_Height (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503950(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT CommandBands_Height( HWND hwndCmdBands );",
+  "code_blocks": [
+   "UINT CommandBands_Height( HWND hwndCmdBands );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBands_Show",
+  "title": "CommandBands_Show (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505887(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL WINAPI CommandBands_Show( HWND hwndCmdBands, BOOL fShow );",
+  "code_blocks": [
+   "BOOL WINAPI CommandBands_Show( HWND hwndCmdBands, BOOL fShow );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bands Reference"
+ },
+ {
+  "name": "CommandBar_AddAdornments",
+  "title": "CommandBar_AddAdornments (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501392(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBar_AddAdornments( HWND hwndCB, DWORD dwFlags, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL CommandBar_AddAdornments( HWND hwndCB, DWORD dwFlags, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_AddBitmap",
+  "title": "CommandBar_AddBitmap (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504155(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "int CommandBar_AddBitmap( HWND hwndCB, HINSTANCE hInst, int idBitmap, int iNumImages, int iImageWidth, int iImageHeight );",
+  "code_blocks": [
+   "int CommandBar_AddBitmap( HWND hwndCB, HINSTANCE hInst, int idBitmap, int iNumImages, int iImageWidth, int iImageHeight );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "The following values can be used as indexes to the standard and view bitmaps: STD_COPY STD_PROPERTIES STD_CUT STD_REDOW STD_DELETE STD_REPLACE STD_FIND STD_PASTE STD_FILENEW STD_PRINT STD_FILEOPEN STD_PRINTPRE STD_FILESAVE STD_UNDO STD_HELP VIEW_DETAILS VIEW_SORTDATE VIEW_LARGEICONS VIEW_SORTNAME VIEW_LIST VIEW_SORTSIZE VIEW_SMALLICONS VIEW_SORTTYPE Windows CE 1.0 only supports 2 bits per pixel (2bp) gray scale, so the bitmap is not displayed in color.",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_AddButtons",
+  "title": "CommandBar_AddButtons (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505835(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBar_AddButtons( HWND hwndCB, UINT uNumButtons, LPTBBUTTON lpButtons );",
+  "code_blocks": [
+   "BOOL CommandBar_AddButtons( HWND hwndCB, UINT uNumButtons, LPTBBUTTON lpButtons );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_AddToolTips",
+  "title": "CommandBar_AddToolTips (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501782(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBar_AddToolTips( HWND hwndCB, UINT uNumToolTips, LPTSTR lpToolTips );",
+  "code_blocks": [
+   "BOOL CommandBar_AddToolTips( HWND hwndCB, UINT uNumToolTips, LPTSTR lpToolTips );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_AlignAdornments",
+  "title": "CommandBar_AlignAdornments (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501797(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "void CommandBar_AlignAdornments( HWND hwndCB );",
+  "code_blocks": [
+   "void CommandBar_AlignAdornments( HWND hwndCB );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_Create",
+  "title": "CommandBar_Create (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504517(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "HWND CommandBar_Create( HINSTANCE hInst, HWND hwndParent, int idCmdBar );",
+  "code_blocks": [
+   "HWND CommandBar_Create( HINSTANCE hInst, HWND hwndParent, int idCmdBar );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_Destroy",
+  "title": "CommandBar_Destroy (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502232(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "void CommandBar_Destroy( HWND hwndCB );",
+  "code_blocks": [
+   "void CommandBar_Destroy( HWND hwndCB );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_DrawMenuBar",
+  "title": "CommandBar_DrawMenuBar (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505864(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBar_DrawMenuBar( HWND hwndCB, WORD iButton );",
+  "code_blocks": [
+   "BOOL CommandBar_DrawMenuBar( HWND hwndCB, WORD iButton );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_GetMenu",
+  "title": "CommandBar_GetMenu (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee500487(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "HMENU CommandBar_GetMenu( HWND hwndCB, WORD iButton );",
+  "code_blocks": [
+   "HMENU CommandBar_GetMenu( HWND hwndCB, WORD iButton );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_Height",
+  "title": "CommandBar_Height (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee500881(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "int CommandBar_Height( HWND hwndCB );",
+  "code_blocks": [
+   "int CommandBar_Height( HWND hwndCB );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_InsertButton",
+  "title": "CommandBar_InsertButton (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501745(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBar_InsertButton( HWND hwndCB, int iButton, LPTBBUTTON lpButton );",
+  "code_blocks": [
+   "BOOL CommandBar_InsertButton( HWND hwndCB, int iButton, LPTBBUTTON lpButton );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_InsertComboBox",
+  "title": "CommandBar_InsertComboBox (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503989(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "HWND CommandBar_InsertComboBox( HWND hwndCB, HINSTANCE hInst, int iWidth, UINT dwStyle, WORD idComboBox, WORD iButton );",
+  "code_blocks": [
+   "HWND CommandBar_InsertComboBox( HWND hwndCB, HINSTANCE hInst, int iWidth, UINT dwStyle, WORD idComboBox, WORD iButton );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_InsertMenubar",
+  "title": "CommandBar_InsertMenubar (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505113(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBar_InsertMenubar( HWND hwndCB, HINSTANCE hInst, WORD idMenu, WORD iButton );",
+  "code_blocks": [
+   "BOOL CommandBar_InsertMenubar( HWND hwndCB, HINSTANCE hInst, WORD idMenu, WORD iButton );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Use the same type of menu bar in the command bar of a Windows Embedded CE application that you use for the main menu in an application running on a Windows desktop platform.",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_InsertMenubarEx",
+  "title": "CommandBar_InsertMenubarEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501421(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBar_InsertMenubarEx( HWND hwndCB, HINSTANCE hInst, LPTSTR pszMenu, WORD iButton );",
+  "code_blocks": [
+   "BOOL CommandBar_InsertMenubarEx( HWND hwndCB, HINSTANCE hInst, LPTSTR pszMenu, WORD iButton );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Use the same type of menu bar in the command bar of a Windows Embedded CE application that you use for the main menu in an application running on a Windows desktop platform.",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_IsVisible",
+  "title": "CommandBar_IsVisible (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503181(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBar_IsVisible( HWND hwndCB );",
+  "code_blocks": [
+   "BOOL CommandBar_IsVisible( HWND hwndCB );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "CommandBar_Show",
+  "title": "CommandBar_Show (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502524(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL CommandBar_Show( HWND hwndCB, BOOL fShow );",
+  "code_blocks": [
+   "BOOL CommandBar_Show( HWND hwndCB, BOOL fShow );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Command Bars Reference"
+ },
+ {
+  "name": "FORWARD_WM_NOTIFY",
+  "title": "FORWARD_WM_NOTIFY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505696(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "VOID FORWARD_WM_NOTIFY( hwnd, idFrom, pnmhdr, fn );",
+  "code_blocks": [
+   "VOID FORWARD_WM_NOTIFY( hwnd, idFrom, pnmhdr, fn );",
+   "#define FORWARD_WM_NOTIFY(hwnd, idFrom, pnmhdr, fn) \\ (void)(fn)((hwnd), WM_NOTIFY, (WPARAM)(int)(id), \\ (LPARAM)(NMHDR FAR*)(pnmhdr))"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "HANDLE_WM_NOTIFY",
+  "title": "HANDLE_WM_NOTIFY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501433(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "HANDLE_WM_NOTIFY( hwnd, wParam, lParam, fn );",
+  "code_blocks": [
+   "HANDLE_WM_NOTIFY( hwnd, wParam, lParam, fn );",
+   "#define HANDLE_WM_NOTIFY(hwnd, wParam, lParam, fn) \\ (fn)((hwnd), (int)(wParam), (NMHDR FAR*)(lParam))"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "INDEXTOSTATEIMAGEMASK",
+  "title": "INDEXTOSTATEIMAGEMASK (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505436(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT INDEXTOSTATEIMAGEMASK( UINT i );",
+  "code_blocks": [
+   "UINT INDEXTOSTATEIMAGEMASK( UINT i );",
+   "#define INDEXTOSTATEIMAGEMASK(i) ((i) << 12)"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "INITCOMMONCONTROLSEX (structure)",
+  "title": "INITCOMMONCONTROLSEX (structure) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503993(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagINITCOMMONCONTROLSEX { DWORD dwSize; DWORD dwICC; } INITCOMMONCONTROLSEX, *LPINITCOMMONCONTROLSEX;",
+  "code_blocks": [
+   "typedef struct tagINITCOMMONCONTROLSEX { DWORD dwSize; DWORD dwICC; } INITCOMMONCONTROLSEX, *LPINITCOMMONCONTROLSEX;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE does not support the ICC_HOTKEY_CLASS, ICC_INTERNET_CLASSES, or ICC_USEREX_CLASSES flags in the dwICC member.",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "InitCommonControls",
+  "title": "InitCommonControls (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501415(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "void InitCommonControls(void);",
+  "code_blocks": [
+   "void InitCommonControls(void);"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "InitCommonControlsEx (function)",
+  "title": "InitCommonControlsEx (function) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499702(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL InitCommonControlsEx( LPINITCOMMONCONTROLSEX lpInitCtrls );",
+  "code_blocks": [
+   "BOOL InitCommonControlsEx( LPINITCOMMONCONTROLSEX lpInitCtrls );"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commctrl.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NMHDR",
+  "title": "NMHDR (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499357(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagNMHDR { HWND hwndFrom; UINT idFrom; UINT code; } NMHDR;",
+  "code_blocks": [
+   "typedef struct tagNMHDR { HWND hwndFrom; UINT idFrom; UINT code; } NMHDR;"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NMKEY",
+  "title": "NMKEY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499084(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagNMKEY { NMHDR hdr; WORD wVKey; UINT flags; } NMKEY, FAR* LPNMKEY;",
+  "code_blocks": [
+   "typedef struct tagNMKEY { NMHDR hdr; WORD wVKey; UINT flags; } NMKEY, FAR* LPNMKEY;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NMMOUSE",
+  "title": "NMMOUSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503139(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagNMMOUSE { NMHDR hdr; DWORD dwItemSpec; DWORD dwItemData; POINT pt; } NMMOUSE, FAR* LPNMMOUSE;",
+  "code_blocks": [
+   "typedef struct tagNMMOUSE { NMHDR hdr; DWORD dwItemSpec; DWORD dwItemData; POINT pt; } NMMOUSE, FAR* LPNMMOUSE;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_CLICK",
+  "title": "NM_CLICK (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee506064(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_CLICK lpnmlv = (LPNMLISTVIEW) lParam;",
+  "code_blocks": [
+   "NM_CLICK lpnmlv = (LPNMLISTVIEW) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_DBLCLK",
+  "title": "NM_DBLCLK (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503197(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_DBLCLK lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_DBLCLK lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_HOVER",
+  "title": "NM_HOVER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502909(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_HOVER lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_HOVER lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_KEYDOWN",
+  "title": "NM_KEYDOWN (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501423(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_KEYDOWN lpnmk = (LPNMKEY) lParam;",
+  "code_blocks": [
+   "NM_KEYDOWN lpnmk = (LPNMKEY) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_KILLFOCUS",
+  "title": "NM_KILLFOCUS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504121(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_KILLFOCUS lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_KILLFOCUS lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_OUTOFMEMORY",
+  "title": "NM_OUTOFMEMORY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee500887(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_OUTOFMEMORY lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_OUTOFMEMORY lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_RCLICK",
+  "title": "NM_RCLICK (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505737(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_RCLICK lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_RCLICK lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_RDBLCLK",
+  "title": "NM_RDBLCLK (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502829(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_RDBLCLK lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_RDBLCLK lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_RETURN",
+  "title": "NM_RETURN (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501954(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_RETURN lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_RETURN lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "NM_SETFOCUS",
+  "title": "NM_SETFOCUS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499097(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "NM_SETFOCUS lpnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "NM_SETFOCUS lpnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "WM_NOTIFY",
+  "title": "WM_NOTIFY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499390(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "WM_NOTIFY idCtrl = (int) wParam; pnmh = (LPNMHDR) lParam;",
+  "code_blocks": [
+   "WM_NOTIFY idCtrl = (int) wParam; pnmh = (LPNMHDR) lParam;"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Control Reference"
+ },
+ {
+  "name": "CCHookProc",
+  "title": "CCHookProc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504873(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT APIENTRY CCHookProc( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );",
+  "code_blocks": [
+   "UINT APIENTRY CCHookProc( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CDM_SETDEFEXT",
+  "title": "CDM_SETDEFEXT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501997(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "CDM_SETDEFEXT wParam = 0; lParam = (LPARAM) (LPSTR) pszext;",
+  "code_blocks": [
+   "CDM_SETDEFEXT wParam = 0; lParam = (LPARAM) (LPSTR) pszext;"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CDN_TYPECHANGE",
+  "title": "CDN_TYPECHANGE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee500501(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "CDN_TYPECHANGE lpon = (LPOFNOTIFY) lParam;",
+  "code_blocks": [
+   "CDN_TYPECHANGE lpon = (LPOFNOTIFY) lParam;"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CFHookProc",
+  "title": "CFHookProc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505435(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT (APIENTRY* LPCFHOOKPROC)( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );",
+  "code_blocks": [
+   "UINT (APIENTRY* LPCFHOOKPROC)( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CHOOSECOLOR (structure)",
+  "title": "CHOOSECOLOR (structure) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504571(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagCHOOSECOLOR { DWORD lStructSize; HWND hwndOwner; HINSTANCE hInstance; COLORREF rgbResult; COLORREF* lpCustColors; DWORD Flags; LPARAM lCustData; LPCCHOOKPROC lpfnHook; LPCTSTR lpTemplateName; } CHOOSECOLOR, *LPCHOOSECOLOR;",
+  "code_blocks": [
+   "typedef struct tagCHOOSECOLOR { DWORD lStructSize; HWND hwndOwner; HINSTANCE hInstance; COLORREF rgbResult; COLORREF* lpCustColors; DWORD Flags; LPARAM lCustData; LPCCHOOKPROC lpfnHook; LPCTSTR lpTemplateName; } CHOOSECOLOR, *LPCHOOSECOLOR;"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CHOOSEFONT (structure)",
+  "title": "CHOOSEFONT (structure) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501939(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagCHOOSEFONT { DWORD lStructSize; HWND hwndOwner; HDC hDC; LPLOGFONTW lpLogFont; INT iPointSize; DWORD Flags; COLORREF rgbColors; LPARAM lCustData; LPCFHOOKPROC lpfnHook; LPCWSTR lpTemplateName; HINSTANCE hInstance; LPWSTR lpszStyle; WORD nFontType; WORD ___MISSING_ALIGNMENT__; INT nSizeMin; INT nSizeMax; } CHOOSEFONTW, *LPCHOOSEFONTW;",
+  "code_blocks": [
+   "typedef struct tagCHOOSEFONT { DWORD lStructSize; HWND hwndOwner; HDC hDC; LPLOGFONTW lpLogFont; INT iPointSize; DWORD Flags; COLORREF rgbColors; LPARAM lCustData; LPCFHOOKPROC lpfnHook; LPCWSTR lpTemplateName; HINSTANCE hInstance; LPWSTR lpszStyle; WORD nFontType; WORD ___MISSING_ALIGNMENT__; INT nSizeMin; INT nSizeMax; } CHOOSEFONTW, *LPCHOOSEFONTW;"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "ChooseColor (function)",
+  "title": "ChooseColor (function) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499396(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL ChooseColor( LPCHOOSECOLOR lpcc );",
+  "code_blocks": [
+   "BOOL ChooseColor( LPCHOOSECOLOR lpcc );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "library": "commdlg.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Note In previous versions of Windows Embedded CE, the Color common dialog did not support user-defined colors if the target device screen is less than 480 pixels in width. The Color dialog box does not support palettes.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "ChooseFont (function)",
+  "title": "ChooseFont (function) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504559(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL APIENTRY ChooseFont( LPCHOOSEFONT lpcf );",
+  "code_blocks": [
+   "BOOL APIENTRY ChooseFont( LPCHOOSEFONT lpcf );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "In Windows Embedded CE, the hook procedure can send the WM_CHOOSEFONT_GETLOGFONT message to the dialog box to retrieve the current values of the dialog box.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "CommDlgExtendedError",
+  "title": "CommDlgExtendedError (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501735(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "DWORD CommDlgExtendedError()",
+  "code_blocks": [
+   "DWORD CommDlgExtendedError()"
+  ],
+  "requirements": {
+   "header": "commctrl.h",
+   "library": "commdlg.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "CommDlgExtendedError returns the most recent error to occur during the execution of one of the following common dialog box functions: ChooseColor (function) PageSetupDlg (function) PrintDlg (function) The following error codes can be returned for the PrintDlg function on Windows Embedded CE : PDERR_CREATEDCFAILURE The call to CreateDC failed.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "DEVNAMES",
+  "title": "DEVNAMES (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501791(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagDEVNAMES { WORD wDriverOffset; WORD wDeviceOffset; WORD wOutputOffset; WORD wDefault; } DEVNAMES;",
+  "code_blocks": [
+   "typedef struct tagDEVNAMES { WORD wDriverOffset; WORD wDeviceOffset; WORD wOutputOffset; WORD wDefault; } DEVNAMES;"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "GetOpenFileName",
+  "title": "GetOpenFileName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504341(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL GetOpenFileName( LPOPENFILENAME lpofn );",
+  "code_blocks": [
+   "BOOL GetOpenFileName( LPOPENFILENAME lpofn );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "library": "Fileopen.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Not all members of the OPENFILENAME structure are defined in Windows Embedded CE. Windows Embedded CE modifies the meaning of the following members of the OPENFILENAME structure when it is passed into the GetOpenFileName function. When the GetOpenFileName function is called, Windows Embedded CE adds the following prespecified undefined members: lpstrCustomFilter lpstrMaxCusFilter lpstrDefExtension lCustData lpfnHook lpstrTemplateName",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "GetSaveFileName",
+  "title": "GetSaveFileName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502844(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL GetSaveFileName( LPOPENFILENAME lpofn );",
+  "code_blocks": [
+   "BOOL GetSaveFileName( LPOPENFILENAME lpofn );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "library": "Fileopen.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Not all members of the OPENFILENAME structure are defined in Windows Embedded CE. Windows Embedded CE modifies the meaning of the following members of the OPENFILENAME structure when it is passed into the GetOpenFileName function. When the GetOpenFileName function is called, Windows Embedded CE adds the following prespecified undefined members: lpstrCustomFilter lpstrMaxCusFilter lpstrDefExtension lCustData lpfnHook lpstrTemplateName",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "OFNOTIFY",
+  "title": "OFNOTIFY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505954(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct _OFNOTIFY { NMHDR hdr; LPOPENFILENAME lpOFN; LPTSTR pszFile; } OFNOTIFY, FAR* LPOFNOTIFY;",
+  "code_blocks": [
+   "typedef struct _OFNOTIFY { NMHDR hdr; LPOPENFILENAME lpOFN; LPTSTR pszFile; } OFNOTIFY, FAR* LPOFNOTIFY;"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "OPENFILENAME",
+  "title": "OPENFILENAME (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504545(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagOFN { /* ofn */ DWORD lStructSize; HWND hwndOwner; HINSTANCE hInstance; LPCSTR lpstrFilter; LPSTR lpstrCustomFilter; DWORD nMaxCustFilter; DWORD nFilterIndex; LPSTR lpstrFile; DWORD nMaxFile; LPSTR lpstrFileTitle; DWORD nMaxFileTitle; LPSTR lpstrInitialDir; LPCSTR lpstrTitle; DWORD Flags; WORD nFileOffset; WORD nFileExtension; LPCSTR lpstrDefExt; DWORD lCustData; LPOFNHOOKPROC lpfnHook; LPCSTR lpTemplateName; } OPENFILENAME;",
+  "code_blocks": [
+   "typedef struct tagOFN { /* ofn */ DWORD lStructSize; HWND hwndOwner; HINSTANCE hInstance; LPCSTR lpstrFilter; LPSTR lpstrCustomFilter; DWORD nMaxCustFilter; DWORD nFilterIndex; LPSTR lpstrFile; DWORD nMaxFile; LPSTR lpstrFileTitle; DWORD nMaxFileTitle; LPSTR lpstrInitialDir; LPCSTR lpstrTitle; DWORD Flags; WORD nFileOffset; WORD nFileExtension; LPCSTR lpstrDefExt; DWORD lCustData; LPOFNHOOKPROC lpfnHook; LPCSTR lpTemplateName; } OPENFILENAME;"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PAGESETUPDLG (structure)",
+  "title": "PAGESETUPDLG (structure) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499117(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagPSD { DWORD lStructSize; HWND hwndOwner; HGLOBAL hDevMode; HGLOBAL hDevNames; DWORD Flags; POINT ptPaperSize; RECT rtMinMargin; RECT rtMargin; HINSTANCE hInstance; LPARAM lCustData; LPPAGESETUPHOOK lpfnPageSetupHook; LPPAGEPAINTHOOK lpfnPagePaintHook; LPCTSTR lpPageSetupTemplateName; HGLOBAL hPageSetupTemplate; } PAGESETUPDLG, *LPPAGESETUPDLG;",
+  "code_blocks": [
+   "typedef struct tagPSD { DWORD lStructSize; HWND hwndOwner; HGLOBAL hDevMode; HGLOBAL hDevNames; DWORD Flags; POINT ptPaperSize; RECT rtMinMargin; RECT rtMargin; HINSTANCE hInstance; LPARAM lCustData; LPPAGESETUPHOOK lpfnPageSetupHook; LPPAGEPAINTHOOK lpfnPagePaintHook; LPCTSTR lpPageSetupTemplateName; HGLOBAL hPageSetupTemplate; } PAGESETUPDLG, *LPPAGESETUPDLG;"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PRINTDLG (structure)",
+  "title": "PRINTDLG (structure) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499707(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "typedef struct tagPD { DWORD cbStruct; HWND hwndOwner; HDC hdc; DWORD dwFlags; RECT rcMinMargin; RECT rcMargin; HINSTANCE hinst; LPARAM lCustData; LPPRINTHOOKPROC pfnPrintHook; LPCTSTR pszPrintTemplateName; HGLOBAL hglbPrintTemplateResource; } PRINTDLG , *LPPRINTDLG;",
+  "code_blocks": [
+   "typedef struct tagPD { DWORD cbStruct; HWND hwndOwner; HDC hdc; DWORD dwFlags; RECT rcMinMargin; RECT rcMargin; HINSTANCE hinst; LPARAM lCustData; LPPRINTHOOKPROC pfnPrintHook; LPCTSTR pszPrintTemplateName; HGLOBAL hglbPrintTemplateResource; } PRINTDLG , *LPPRINTDLG;"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PagePaintHook",
+  "title": "PagePaintHook (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504096(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT CALLBACK PagePaintHook( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );",
+  "code_blocks": [
+   "UINT CALLBACK PagePaintHook( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "The PageSetupDlg function is not supported in version 2.0.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PageSetupDlg (function)",
+  "title": "PageSetupDlg (function) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501755(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL PageSetupDlg( LPPAGESETUPDLG lppsd );",
+  "code_blocks": [
+   "BOOL PageSetupDlg( LPPAGESETUPDLG lppsd );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "library": "commdlg.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "The PageSetupDlg function is not supported in version 2.0.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PageSetupHook",
+  "title": "PageSetupHook (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee500247(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT CALLBACK PageSetupHook( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );",
+  "code_blocks": [
+   "UINT CALLBACK PageSetupHook( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "The PageSetupDlg function is not supported in version 2.0.",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PrintDlg (function)",
+  "title": "PrintDlg (function) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503940(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "BOOL PrintDlg( LPPRINTDLG lppd );",
+  "code_blocks": [
+   "BOOL PrintDlg( LPPRINTDLG lppd );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "library": "commdlg.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ },
+ {
+  "name": "PrintHookProc",
+  "title": "PrintHookProc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501756(v=winembedded.60)",
+  "retrieved": "2026-11-06",
+  "signature": "UINT APIENTRY PrintHookProc( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );",
+  "code_blocks": [
+   "UINT APIENTRY PrintHookProc( HWND hdlg, UINT uiMsg, WPARAM wParam, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "commdlg.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "common-controls",
+  "sub": "Common Dialog Boxes Reference"
+ }
+]

@@ -8,18 +8,38 @@ Produce `.def` files (and derived import libraries) equivalent in role to mingw'
 
 ## 2. Module set (documented)
 
-The documentation's per-function `Requirements → Link Library` field is the authoritative, license-clean source for the function→library mapping. Libraries observed so far in the harvested core set (with per-page evidence in `data/mslearn-facts/`):
+The documentation's per-function `Requirements → Link Library` field is the authoritative, license-clean source for the function→library mapping. Libraries observed in the harvested P0+P1 sets (per-page evidence in `data/mslearn-facts/`, per-record bindings in `data/facts/*.yaml`):
 
-| Import library | Observed bindings | Status |
+| Import library | Bindings (P0+P1 harvests) | Status |
 | --- | --- | --- |
-| `coredll.lib` | `CreateProcess`, `CreateThread`, `CreateFile`, `ReadFile`, `WriteFile`, `CloseHandle`, `FindFirstFile`, `VirtualAlloc`, `LocalAlloc`, `HeapCreate`, `WaitForSingleObject`, `CreateEvent`, `CreateMutex`, `GetVersionEx`, `GetSystemInfo`, `GetLastError`, `SetLastError`, `Sleep`, `LoadLibrary`, `GetProcAddress`, `GetMessage`, … | documented (CE 5.0 + 6.0 pages) |
-| `Nk.lib` | `WaitForMultipleObjects` (both CE 5.0 `aa450987` and CE 6.0 `ee487972` pages) | documented |
-| `Msgbox.lib` | `MessageBox` (CE 5.0 `ms911827`, CE 6.0 `ee503608`) | documented |
-| `Ws2.lib` | `WSAStartup` (header `Winsock2.h`) and the Winsock Reference area (110 CE6 pages) | documented |
-| `aygshell.lib` | AYGShell Reference area (60 pages) | documented at area level; per-page harvest pending (P1) |
-| `commctrl.lib`, `commdlg.lib`, `ole32.lib`, `oleaut32.lib`, `uuid.lib`, … | Common Controls / Common Dialogs / COM areas | per-page harvest pending (P1/P2) |
+| `coredll.lib` | core OS (§ winbase spec) + 39 winuser + 100 wingdi + `GetMessage` … | documented (CE 5.0 + 6.0 pages; case-normalised identical) |
+| `Nk.lib` | `WaitForMultipleObjects` (both docsets) | documented |
+| `Nkstub.lib` | `Sleep` (CE 6.0 page) | documented (CE5→CE6 binding change) |
+| `Msgbox.lib` | `MessageBox` | documented |
+| `Ws2.lib` | **all 117 winsock function pages that document a library** | documented |
+| `commctrl.lib` | Command Bars/Bands, image lists, `InitCommonControls(Ex)` — 50 bindings | documented |
+| `commdlg.lib` | `ChooseColor`, `CommDlgExtendedError`, `PageSetupDlg`, `PrintDlg` | documented |
+| `fileopen.lib` | `GetOpenFileName`, `GetSaveFileName` — **CE-specific library split** | documented |
+| `dlgmgr.lib` | dialog manager set (18: `CreateDialogIndirectParam`, `EndDialog`, `DefDlgProc`, …) | documented |
+| `menu.lib` | menu set (16: `CreateMenu`, `TrackPopupMenu`, …) | documented |
+| `clipbd.lib` | clipboard set (14, incl. CE-only `GetClipboardDataAlloc`) | documented |
+| `caret.lib` | caret set (12) | documented |
+| `kbdui.lib` | keyboard-UI set (8, incl. CE-only `GetAsyncShiftFlags`) | documented |
+| `icon.lib` | icon set (5) | documented |
+| `accel.lib` | accelerator set (4) | documented |
+| `sbcmn.lib` | scroll-bar set (4) | documented |
+| `rectapi.lib` | RECT helpers (11) | documented |
+| `winmgr.lib`, `wmgr_c.lib`, `wmbase.lib`, `uibase.lib`, `coreimm.lib` | window-manager sub-groups (3+3+1+2+1) | documented |
+| `drawmbar.lib` | `DrawMenuBar` | documented |
+| `loadbmp.lib` | `LoadBitmap` | documented |
+| `loadimg.lib` | image-load group (1) | documented |
+| `msgbeep.lib` | `MessageBeep` | documented |
+| `hotkey.lib` | `RegisterHotKey`/`UnregisterHotKey` group | documented |
+| `nclient.lib` | `DrawFrameControl` | documented |
+| `aygshell.lib` | AYGShell Reference area (60 pages) | documented at area level; per-page harvest pending (P2) |
+| `ole32.lib`, `oleaut32.lib`, `uuid.lib`, … | COM areas | per-page harvest pending (P2) |
 
-The complete module set SHALL be derived by harvesting the Requirements blocks of the full inventories (`data/mslearn-inventories/`), which is a mechanical extension of `tools/harvest_facts.py`.
+The complete module set SHALL be derived by harvesting the Requirements blocks of the full inventories (`data/mslearn-inventories/`), which is a mechanical extension of `tools/harvest_facts.py` (realised for area harvests as `tools/harvest_area.py`). Functions whose pages document **no** Link Library line (98 in the winuser set, 10 in the GDI set) are tracked as binding-hypothesis items (OQ-14) and default to the GWES runtime-module hypothesis.
 
 ## 3. `.def` file requirements (normative)
 

@@ -1,0 +1,3686 @@
+{
+ "pages": [
+  {
+   "page": "Basic Common Control Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452868(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "CCS_ADJUSTABLE",
+     "desc": "Not supported."
+    },
+    {
+     "name": "CCS_BOTTOM",
+     "desc": "Causes the control to position itself at the bottom of the parent window's client area and sets the width of the control to be the same as the parent window's width."
+    },
+    {
+     "name": "CCS_LEFT",
+     "desc": "Not supported."
+    },
+    {
+     "name": "CCS_NODIVIDER",
+     "desc": "Prevents a 2-pixel highlight from being drawn at the top of the control."
+    },
+    {
+     "name": "CCS_NOMOVEX",
+     "desc": "Not supported."
+    },
+    {
+     "name": "CCS_NOMOVEY",
+     "desc": "Causes the control to resize and move itself horizontally, but not vertically, in response to a WM_SIZE message."
+    },
+    {
+     "name": "CCS_NOPARENTALIGN",
+     "desc": "Prevents the control from automatically moving to the top or bottom of the parent window."
+    },
+    {
+     "name": "CCS_NORESIZE",
+     "desc": "Prevents the control from using the default width and height when setting its initial size or a new size."
+    },
+    {
+     "name": "CCS_RIGHT",
+     "desc": "Not supported."
+    },
+    {
+     "name": "CCS_TOP",
+     "desc": "Causes the control to position itself at the top of the parent window client area and matches the width of the control to the width of the parent window."
+    },
+    {
+     "name": "CCS_VERT",
+     "desc": "Causes the control to display vertically."
+    }
+   ]
+  },
+  {
+   "page": "Basic Window Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452869(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "WS_CHILD",
+     "desc": "Specifies a child window."
+    },
+    {
+     "name": "WS_CLIPCHILDREN",
+     "desc": "Excludes the area occupied by child windows when drawing occurs within the parent window."
+    },
+    {
+     "name": "WS_CLIPSIBLINGS",
+     "desc": "Excludes the area that is occupied by sibling windows above a window."
+    },
+    {
+     "name": "WS_DISABLED",
+     "desc": "Specifies a window that is initially disabled."
+    },
+    {
+     "name": "WS_EX_NOACTIVATE",
+     "desc": "Specifies that a window cannot be activated."
+    },
+    {
+     "name": "WS_EX_NOANIMATION",
+     "desc": "Prevents a window from showing animated exploding and imploding rectangles and from having a button on the taskbar."
+    },
+    {
+     "name": "WS_EX_NODRAG",
+     "desc": "Specifies a stationary window that cannot be dragged by its title bar."
+    },
+    {
+     "name": "WS_EX_TOPMOST",
+     "desc": "Creates a window that will be placed and remain above all non-topmost windows."
+    },
+    {
+     "name": "WS_GROUP",
+     "desc": "Specifies the first control of a group of controls."
+    },
+    {
+     "name": "WS_NONAVDONEBUTTON",
+     "desc": "Suppresses the Done button on the navigation bar."
+    },
+    {
+     "name": "WS_POPUP",
+     "desc": "Specifies a pop-up window."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Specifies a control that can receive the keyboard focus when the user presses the TAB key."
+    },
+    {
+     "name": "WS_VISIBLE",
+     "desc": "Specifies a window that is initially visible."
+    }
+   ]
+  },
+  {
+   "page": "Check Box Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928572(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "BS_3STATE",
+     "desc": "Creates a check box in which the box can be unavailable as well as selected or cleared."
+    },
+    {
+     "name": "BS_AUTO3STATE",
+     "desc": "Creates a three-state check box in which the state cycles through selected, unavailable, and cleared each time the user selects the check box."
+    },
+    {
+     "name": "BS_AUTOCHECKBOX",
+     "desc": "Creates a check box in which the check state switches between selected and cleared each time the user selects the check box."
+    },
+    {
+     "name": "BS_CHECKBOX",
+     "desc": "Creates a small, empty check box with a label displayed to the right of it."
+    },
+    {
+     "name": "BS_LEFT",
+     "desc": "Left-aligns the text in the button rectangle on the right side of the check box."
+    },
+    {
+     "name": "BS_PUSHLIKE",
+     "desc": "Makes a button (such as a check box, three-state check box, or radio button) look and act like a push button."
+    },
+    {
+     "name": "BS_RIGHT",
+     "desc": "Right-aligns text in the button rectangle on the right side of the check box."
+    },
+    {
+     "name": "BS_RIGHTBUTTON",
+     "desc": "Positions a check box square on the right side of the button rectangle."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Combo Box Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908112(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "CBS_AUTOHSCROLL",
+     "desc": "Automatically scrolls the text in an edit control to the right when the user types a character at the end of the line."
+    },
+    {
+     "name": "CBS_DISABLENOSCROLL",
+     "desc": "Shows a disabled vertical scroll bar in the list box when the box does not contain enough items to scroll."
+    },
+    {
+     "name": "CBS_DROPDOWN",
+     "desc": "Displays only the edit control by default."
+    },
+    {
+     "name": "CBS_DROPDOWNLIST",
+     "desc": "Displays a static text field that displays the current selection in the list box."
+    },
+    {
+     "name": "CBS_HASSTRINGS",
+     "desc": "Specifies that an owner-drawn combo box contains items consisting of strings."
+    },
+    {
+     "name": "CBS_LOWERCASE",
+     "desc": "Converts to lowercase any uppercase characters that are typed into the edit control of a combo box."
+    },
+    {
+     "name": "CBS_NOINTEGRALHEIGHT",
+     "desc": "Specifies that the combo box will be exactly the size specified by the application when it created the combo box."
+    },
+    {
+     "name": "CBS_OEMCONVERT",
+     "desc": "Converts text typed in the combo box edit control from the Windows CE character set to the OEM character set and then back to the Windows CE set."
+    },
+    {
+     "name": "CBS_SORT",
+     "desc": "Sorts strings that are typed into the list box."
+    },
+    {
+     "name": "CBS_UPPERCASE",
+     "desc": "Converts to uppercase any lowercase characters that are typed into the edit control of a combo box."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Date and Time Picker Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908197(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "DTS_APPCANPARSE",
+     "desc": "Enables the owner to parse user input."
+    },
+    {
+     "name": "DTS_LONGDATEFORMAT",
+     "desc": "Displays the date in long format."
+    },
+    {
+     "name": "DTS_NONEBUTTON",
+     "desc": "Specifies that the None button should be displayed instead of a check box in the Date Time Picker control."
+    },
+    {
+     "name": "DTS_SHORTDATEFORMAT",
+     "desc": "Displays the date in short format."
+    },
+    {
+     "name": "DTS_SHORTDATECENTURYFORMAT",
+     "desc": "Similar to the DTS_SHORTDATEFORMAT style, except the year is a four-digit field."
+    },
+    {
+     "name": "DTS_SHOWNONE",
+     "desc": "Enables the control to accept \"no date\" as a valid selection state."
+    },
+    {
+     "name": "DTS_TIMEFORMAT",
+     "desc": "Displays the time."
+    },
+    {
+     "name": "DTS_UPDOWN",
+     "desc": "Places an up-down control to the right of a DTP control to modify time values."
+    }
+   ]
+  },
+  {
+   "page": "Edit Control Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452995(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "ES_AUTOHSCROLL",
+     "desc": "Automatically scrolls text to the right by 10 characters when the user types a character at the end of the line."
+    },
+    {
+     "name": "ES_AUTOVSCROLL",
+     "desc": "Scrolls text up one page when the user presses the ENTER key on the last line."
+    },
+    {
+     "name": "ES_CENTER",
+     "desc": "Centers text in a multiline edit control."
+    },
+    {
+     "name": "ES_LEFT",
+     "desc": "Left-aligns text."
+    },
+    {
+     "name": "ES_LOWERCASE",
+     "desc": "Converts all characters to lowercase as they are typed into the edit control."
+    },
+    {
+     "name": "ES_MULTILINE",
+     "desc": "Designates a multiline edit control."
+    },
+    {
+     "name": "ES_NOHIDESEL",
+     "desc": "Negates the default behavior for an edit control."
+    },
+    {
+     "name": "ES_NUMBER",
+     "desc": "Accepts into the edit control only digits to be typed."
+    },
+    {
+     "name": "ES_OEMCONVERT",
+     "desc": "Converts text typed in the edit control from the Windows CE character set to the OEM character set and then converts it back to the Windows CE set."
+    },
+    {
+     "name": "ES_PASSWORD",
+     "desc": "Displays an asterisk (*) for each character that is typed into the edit control."
+    },
+    {
+     "name": "ES_READONLY",
+     "desc": "Prevents the user from typing or editing text in the edit control."
+    },
+    {
+     "name": "ES_RIGHT",
+     "desc": "Right-aligns text in a multiline edit control."
+    },
+    {
+     "name": "ES_UPPERCASE",
+     "desc": "Converts all characters to uppercase as they are typed into the edit control."
+    },
+    {
+     "name": "ES_WANTRETURN",
+     "desc": "Specifies that a carriage return be inserted when the user presses the ENTER key while typing text into a multiline edit control in a dialog box."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Header Control Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms929910(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "HDS_BUTTONS",
+     "desc": "Causes each header item to look and behave like a button."
+    },
+    {
+     "name": "HDS_DRAGDROP",
+     "desc": "Enables drag-and-drop reordering of header items."
+    },
+    {
+     "name": "HDS_FULLDRAG",
+     "desc": "Causes the header control to display column contents even while a user resizes a column."
+    },
+    {
+     "name": "HDS_HIDDEN",
+     "desc": "Creates a header control that you can hide by setting its height to zero."
+    },
+    {
+     "name": "HDS_HORZ",
+     "desc": "Creates a horizontal header control."
+    }
+   ]
+  },
+  {
+   "page": "List Box Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453299(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "LBS_DISABLENOSCROLL",
+     "desc": "Shows a disabled vertical scroll bar for the list box when the box does not contain enough items to scroll."
+    },
+    {
+     "name": "LBS_EXTENDEDSEL",
+     "desc": "Enables the user to select multiple items by using the SHIFT key and the mouse or hot keys."
+    },
+    {
+     "name": "LBS_HASSTRINGS",
+     "desc": "Specifies that a list box contains items consisting of strings."
+    },
+    {
+     "name": "LBS_MULTICOLUMN",
+     "desc": "Specifies a multicolumn list box that the user scrolls through horizontally."
+    },
+    {
+     "name": "LBS_MULTIPLESEL",
+     "desc": "Turns string selection on or off each time a user taps or double-taps a string in the list box."
+    },
+    {
+     "name": "LBS_NOINTEGRALHEIGHT",
+     "desc": "Specifies that the list box will be exactly the size specified by the application when it created the list box."
+    },
+    {
+     "name": "LBS_NOREDRAW",
+     "desc": "Ensures that the list box appearance is not automatically updated when changes are made."
+    },
+    {
+     "name": "LBS_NOSEL",
+     "desc": "Specifies that the user can view list box strings but cannot select them."
+    },
+    {
+     "name": "LBS_NOTIFY",
+     "desc": "Notifies the parent window when the user taps or double-taps a string in the list box."
+    },
+    {
+     "name": "LBS_OWNERDRAWFIXED",
+     "desc": "Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are the same height."
+    },
+    {
+     "name": "LBS_OWNERDRAWVARIABLE",
+     "desc": "Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are variable in height."
+    },
+    {
+     "name": "LBS_SORT",
+     "desc": "Sorts strings in the list box alphabetically."
+    },
+    {
+     "name": "LBS_STANDARD",
+     "desc": "Sorts strings in the list box alphabetically."
+    },
+    {
+     "name": "LBS_USETABSTOPS",
+     "desc": "Enables a list box to recognize and expand tab characters when drawing its strings."
+    },
+    {
+     "name": "LBS_WANTKEYBOARDINPUT",
+     "desc": "Specifies that the owner of the list box receives WM_VKEYTOITEM messages when the user presses a key and the list box has the input focus."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "List View Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453379(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "LVS_ALIGNLEFT",
+     "desc": "Specifies that items are left-aligned in icon view and small icon view."
+    },
+    {
+     "name": "LVS_ALIGNTOP",
+     "desc": "Specifies that items are aligned with the top of the list view control in icon view and small icon view."
+    },
+    {
+     "name": "LVS_AUTOARRANGE",
+     "desc": "Specifies that icons automatically remain arranged in icon view and small icon view."
+    },
+    {
+     "name": "LVS_EDITLABELS",
+     "desc": "Enables item text to be edited in place."
+    },
+    {
+     "name": "LVS_EX_CHECKBOXES",
+     "desc": "Enables items in a list view control to be displayed as check boxes."
+    },
+    {
+     "name": "LVS_EX_DISJOINTFOCUS",
+     "desc": "Enables disjoint focus and selection."
+    },
+    {
+     "name": "LVS_EX_FULLROWSELECT",
+     "desc": "Specifies that when an item is selected, the item and all of its subitems are highlighted."
+    },
+    {
+     "name": "LVS_EX_GRADIENT",
+     "desc": "Draws a background gradient."
+    },
+    {
+     "name": "LVS_EX_GRIDLINES",
+     "desc": "Displays gridlines around items and subitems."
+    },
+    {
+     "name": "LVS_EX_HEADERDRAGDROP",
+     "desc": "Enables drag-and-drop reordering of columns in a list view control."
+    },
+    {
+     "name": "LVS_EX_INFOTIP",
+     "desc": "Sends an LVN_GETINFOTIP notification message to the parent window before displaying an item's ToolTip when the list-view control uses this style."
+    },
+    {
+     "name": "LVS_EX_NOFOSUCRECT",
+     "desc": "Disables drawing a focus rectangle for the focused item."
+    },
+    {
+     "name": "LVS_EX_NOHSCROLL",
+     "desc": "Disables horizontal scrolling."
+    },
+    {
+     "name": "LVS_EX_ONECLICKACTIVATE",
+     "desc": "Sends an LVN_ITEMACTIVATE notification message to the parent window when the user clicks an item."
+    },
+    {
+     "name": "LVS_EX_SUBITEMIMAGES",
+     "desc": "Enables images to be displayed for subitems."
+    },
+    {
+     "name": "LVS_EX_TRANSPARENTBKGND",
+     "desc": "Specifies that the background is painted by the parent."
+    },
+    {
+     "name": "LVS_EX_TWOCLICKACTIVATE",
+     "desc": "Sends an LVN_ITEMACTIVATE notification message to the parent window when the user double-clicks an item."
+    },
+    {
+     "name": "LVS_ICON",
+     "desc": "Specifies icon view."
+    },
+    {
+     "name": "LVS_LIST",
+     "desc": "Specifies list view."
+    },
+    {
+     "name": "LVS_NOCOLUMNHEADER",
+     "desc": "Specifies that column headers are not displayed by default in report view."
+    },
+    {
+     "name": "LVS_NOLABELWRAP",
+     "desc": "Displays item text on a single line in icon view."
+    },
+    {
+     "name": "LVS_NOSCROLL",
+     "desc": "Disables scrolling, so all items must be displayed within the client area."
+    },
+    {
+     "name": "LVS_NOSORTHEADER",
+     "desc": "Specifies that column headers do not work like buttons."
+    },
+    {
+     "name": "LVS_OWNERDATA",
+     "desc": "Creates a virtual list view control."
+    },
+    {
+     "name": "LVS_OWNERDRAWFIXED",
+     "desc": "Enables the owner window to paint items in report view."
+    },
+    {
+     "name": "LVS_REPORT",
+     "desc": "Specifies report view."
+    },
+    {
+     "name": "LVS_SHAREIMAGELISTS",
+     "desc": "Specifies that the control does not destroy the image lists assigned to it when it is destroyed."
+    },
+    {
+     "name": "LVS_SHOWSELALWAYS",
+     "desc": "Always shows the selection highlighted, even if the control is not activated."
+    },
+    {
+     "name": "LVS_SINGLESEL",
+     "desc": "Enables only one item to be selected at a time."
+    },
+    {
+     "name": "LVS_SMALLICON",
+     "desc": "Specifies small icon view."
+    },
+    {
+     "name": "LVS_SORTASCENDING",
+     "desc": "Sorts items based on item text in ascending order."
+    },
+    {
+     "name": "LVS_SORTDESCENDING",
+     "desc": "Sorts items based on item text in descending order."
+    }
+   ]
+  },
+  {
+   "page": "Message Box Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911829(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "MB_ABORTRETRYIGNORE",
+     "desc": "Specifies that the message box contains three buttons: Abort , Retry , and Ignore ."
+    },
+    {
+     "name": "MB_DEFBUTTON1",
+     "desc": "Specifies that the first button is the default button."
+    },
+    {
+     "name": "MB_DEFBUTTON2",
+     "desc": "Specifies that the second button is the default button."
+    },
+    {
+     "name": "MB_DEFBUTTON3",
+     "desc": "Specifies that the third button is the default button."
+    },
+    {
+     "name": "MB_OK",
+     "desc": "Specifies that the message box contains one button: OK ."
+    },
+    {
+     "name": "MB_OKCANCEL",
+     "desc": "Specifies that the message box contains two buttons: OK and Cancel ."
+    },
+    {
+     "name": "MB_RETRYCANCEL",
+     "desc": "Specifies that the message box contains two buttons: Retry and Cancel ."
+    },
+    {
+     "name": "MB_YESNO",
+     "desc": "Specifies that that the message box contains two buttons: Yes and No ."
+    },
+    {
+     "name": "MB_YESNOCANCEL",
+     "desc": "Specifies that the message box contains three buttons: Yes , No , and Cancel ."
+    },
+    {
+     "name": "MB_ICONQUESTION",
+     "desc": "Includes a question-mark icon in the message box."
+    },
+    {
+     "name": "MB_APPLMODAL",
+     "desc": "Specifies that the user must respond to the message box before continuing work in the window that is identified by the hWnd parameter."
+    },
+    {
+     "name": "MB_SETFOREGROUND",
+     "desc": "Specifies that the message box becomes the foreground window."
+    },
+    {
+     "name": "MB_TOPMOST",
+     "desc": "Creates the message box with the WS_EX_TOPMOST window style."
+    }
+   ]
+  },
+  {
+   "page": "Month Calendar Control Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms931430(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "MCS_DAYSTATE",
+     "desc": "Specifies that the month calendar will send MCN_GETDAYSTATE notifications to request information about which days should be displayed in bold."
+    },
+    {
+     "name": "MCS_MULTISELECT",
+     "desc": "Enables the user to select a range of dates."
+    },
+    {
+     "name": "MCS_NOTODAY",
+     "desc": "Creates a month calendar that does not display a Today selection."
+    },
+    {
+     "name": "MCS_NOTODAYCIRCLE",
+     "desc": "Creates a month calendar that does not circle the current date."
+    },
+    {
+     "name": "MCS_SHOWNONE",
+     "desc": "Enables the control to accept \"no date\" as a valid selection state."
+    },
+    {
+     "name": "MCS_WEEKNUMBERS",
+     "desc": "Displays the week number, from 1 through 52, to the left of each week in the calendar."
+    }
+   ]
+  },
+  {
+   "page": "Non-client Area Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms911872(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "WS_BORDER",
+     "desc": "Specifies a window with a thin-line border."
+    },
+    {
+     "name": "WS_CAPTION",
+     "desc": "Specifies a window with a title bar and border."
+    },
+    {
+     "name": "WS_DLGFRAME",
+     "desc": "Specifies a window with a dialog box border style."
+    },
+    {
+     "name": "WS_EX_CAPTIONOKBTN",
+     "desc": "Includes an OK button in the title bar."
+    },
+    {
+     "name": "WS_EX_CLIENTEDGE",
+     "desc": "Specifies a window with a border that has a sunken edge."
+    },
+    {
+     "name": "WS_EX_CONTEXTHELP",
+     "desc": "Includes a Help button ( ?"
+    },
+    {
+     "name": "WS_EX_DLGMODALFRAME",
+     "desc": "Specifies a window with a double border."
+    },
+    {
+     "name": "WS_EX_OVERLAPPEDWINDOW",
+     "desc": "Combines the WS_EX_CLIENTEDGE and WS_EX_WINDOWEDGE styles."
+    },
+    {
+     "name": "WS_EX_STATICEDGE",
+     "desc": "Specifies a window with a three-dimensional border style."
+    },
+    {
+     "name": "WS_EX_WINDOWEDGE",
+     "desc": "Specifies a window border with a raised edge."
+    },
+    {
+     "name": "WS_HSCROLL",
+     "desc": "Specifies a window with a horizontal scroll bar."
+    },
+    {
+     "name": "WS_OVERLAPPED",
+     "desc": "Specifies a window with the WS_BORDER and WS_CAPTION styles."
+    },
+    {
+     "name": "WS_SIZEBOX",
+     "desc": "Creates a window that has a sizing border."
+    },
+    {
+     "name": "WS_SYSMENU",
+     "desc": "Specifies a window with a window menu on its title bar."
+    },
+    {
+     "name": "WS_VSCROLL",
+     "desc": "Specifies a window with a vertical scroll bar."
+    }
+   ]
+  },
+  {
+   "page": "Progress Bar Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453546(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "PBS_SMOOTH",
+     "desc": "Displays progress status in a smooth scrolling bar instead of the default segmented bar."
+    },
+    {
+     "name": "PBS_VERTICAL",
+     "desc": "Displays progress status vertically, from bottom to top."
+    }
+   ]
+  },
+  {
+   "page": "Push Button Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453604(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "BS_BOTTOM",
+     "desc": "Places the text at the bottom of the button rectangle."
+    },
+    {
+     "name": "BS_CENTER",
+     "desc": "Centers the text horizontally in the button rectangle."
+    },
+    {
+     "name": "BS_DEFPUSHBUTTON",
+     "desc": "Creates a push button with a heavy black border."
+    },
+    {
+     "name": "BS_LEFT",
+     "desc": "Left-aligns the text in the button rectangle."
+    },
+    {
+     "name": "BS_NOTIFY",
+     "desc": "Enables a button to send BN_KILLFOCUS and BN_SETFOCUS notification messages to its parent window."
+    },
+    {
+     "name": "BS_OWNERDRAW",
+     "desc": "Creates an owner-drawn button."
+    },
+    {
+     "name": "BS_PUSHBUTTON",
+     "desc": "Creates a push button that posts a WM_COMMAND message to the owner window when the user clicks the button."
+    },
+    {
+     "name": "BS_RIGHT",
+     "desc": "Right-aligns text in the button rectangle."
+    },
+    {
+     "name": "BS_TOP",
+     "desc": "Places text at the top of the button rectangle."
+    },
+    {
+     "name": "BS_VCENTER",
+     "desc": "Vertically centers text in the button rectangle."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Radio Button Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453607(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "BS_AUTORADIOBUTTON",
+     "desc": "Creates a radio button that, when selected by a user, clears all other buttons in the same group."
+    },
+    {
+     "name": "BS_LEFT",
+     "desc": "Left-aligns the text in the button rectangle on the right side of the check box."
+    },
+    {
+     "name": "BS_RADIOBUTTON",
+     "desc": "Creates a small circle with a label displayed to the right of it."
+    },
+    {
+     "name": "BS_RIGHT",
+     "desc": "Right-aligns the text in the button rectangle on the right side of the check box."
+    },
+    {
+     "name": "BS_RIGHTBUTTON",
+     "desc": "Positions a check box square on the right side of the button rectangle."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Rebar Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453641(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "CCS_VERT",
+     "desc": "Causes the control to appear vertically at the left side of the parent window."
+    },
+    {
+     "name": "RBBS_NOGRIPPER",
+     "desc": "Creates a rebar band that displays no gripper."
+    },
+    {
+     "name": "RBS_AUTOSIZE",
+     "desc": "Specifies that the layout of a band will automatically change when the size or position of its control changes."
+    },
+    {
+     "name": "RBS_BANDBORDERS",
+     "desc": "Displays narrow lines to separate adjacent bands."
+    },
+    {
+     "name": "RBS_FIXEDORDER",
+     "desc": "Displays multiple bands in the same order at all times."
+    },
+    {
+     "name": "RBS_SMARTLABELS",
+     "desc": "Displays the icon for a band that has an icon only when the band is minimized."
+    },
+    {
+     "name": "RBS_VARHEIGHT",
+     "desc": "Displays a band at the minimum required height, when possible."
+    },
+    {
+     "name": "RBS_VERTICALGRIPPER",
+     "desc": "Displays the size grip vertically, instead of horizontally, in a vertical command bands control."
+    }
+   ]
+  },
+  {
+   "page": "Scroll Bar Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932612(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "SBS_HORZ",
+     "desc": "Designates a horizontal scroll bar."
+    },
+    {
+     "name": "SBS_VERT",
+     "desc": "Designates a vertical scroll bar."
+    }
+   ]
+  },
+  {
+   "page": "Static Control Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms940359(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "SS_BITMAP",
+     "desc": "Specifies that a bitmap will be displayed in the static control."
+    },
+    {
+     "name": "SS_CENTER",
+     "desc": "Specifies a simple rectangle and centers the error value text in the rectangle."
+    },
+    {
+     "name": "SS_CENTERIMAGE",
+     "desc": "Specifies that the midpoint of a static control with the SS_BITMAP or SS_ICON style will remain fixed when you resize the control."
+    },
+    {
+     "name": "SS_ICON",
+     "desc": "Specifies that an icon will be displayed in the static control."
+    },
+    {
+     "name": "SS_LEFT",
+     "desc": "Specifies a rectangle and left-aligns the text in the rectangle."
+    },
+    {
+     "name": "SS_LEFTNOWORDWRAP",
+     "desc": "Specifies a rectangle and left-aligns the text in the rectangle."
+    },
+    {
+     "name": "SS_NOPREFIX",
+     "desc": "Prevents interpretation of any ampersand (&) characters in the control's text as accelerator prefix characters."
+    },
+    {
+     "name": "SS_NOTIFY",
+     "desc": "Sends the parent window the STN_CLICKED notification when the user clicks the control."
+    },
+    {
+     "name": "SS_RIGHT",
+     "desc": "Specifies a rectangle and right-aligns the specified text in the rectangle."
+    }
+   ]
+  },
+  {
+   "page": "Tab Control Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms940386(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TCS_BOTTOM",
+     "desc": "Displays the tabs at the bottom of the control."
+    },
+    {
+     "name": "TCS_BUTTONS",
+     "desc": "Displays all tabs as buttons with no border drawn around the display area."
+    },
+    {
+     "name": "TCS_EX_FLATSEPARATORS",
+     "desc": "Indicates that the tab control will draw separators between the tab items."
+    },
+    {
+     "name": "TCS_FIXEDWIDTH",
+     "desc": "Specifies that all tabs are the same width."
+    },
+    {
+     "name": "TCS_FLATBUTTONS",
+     "desc": "Changes the appearance of a selected tab to indented while other tabs appear to be on the same plane as the background."
+    },
+    {
+     "name": "TCS_FOCUSNEVER",
+     "desc": "Creates a tab control that never receives the input focus."
+    },
+    {
+     "name": "TCS_FOCUSONBUTTONDOWN",
+     "desc": "Specifies that a given tab, when selected, receives the input focus."
+    },
+    {
+     "name": "TCS_FORCEICONLEFT",
+     "desc": "Aligns an icon with the left edge of a fixed-width tab."
+    },
+    {
+     "name": "TCS_FORCELABELLEFT",
+     "desc": "Aligns a label with the left edge of a fixed-width tab; that is, it displays the label immediately to the right of the icon instead of centering it."
+    },
+    {
+     "name": "TCS_MULTILINE",
+     "desc": "Displays multiple rows of tabs, if necessary, so that all tabs are visible at once."
+    },
+    {
+     "name": "TCS_MULTISELECT",
+     "desc": "Specifies that multiple tabs can be selected by holding down CTRL when selecting a tab."
+    },
+    {
+     "name": "TCS_OWNERDRAWFIXED",
+     "desc": "Specifies that the parent window is responsible for drawing tabs."
+    },
+    {
+     "name": "TCS_RAGGEDRIGHT",
+     "desc": "Leaves a ragged right edge by not stretching a row of tabs to fill the entire width of the control."
+    },
+    {
+     "name": "TCS_RIGHT",
+     "desc": "Displays multiple tabs vertically on the right side of controls that use the TCS_VERTICAL style."
+    },
+    {
+     "name": "TCS_RIGHTJUSTIFY",
+     "desc": "Increases the width of each tab, if necessary, so that each row of tabs fills the entire width of the tab control."
+    },
+    {
+     "name": "TCS_SCROLLOPPOSITE",
+     "desc": "Specifies that unused tabs move to the opposite side of the control when a new tab is selected."
+    },
+    {
+     "name": "TCS_SINGLELINE",
+     "desc": "Displays only one row of tabs."
+    },
+    {
+     "name": "TCS_VERTICAL",
+     "desc": "Displays multiple tabs vertically on the left side of the control."
+    }
+   ]
+  },
+  {
+   "page": "ToolTip Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453759(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TTS_ALWAYSTIP",
+     "desc": "Indicates that the ToolTip control appears when the cursor is on a tool, even if the ToolTip control's owner window is inactive."
+    },
+    {
+     "name": "TTS_NOPREFIX",
+     "desc": "Prevents the system from automatically stripping an ampersand character from a string."
+    }
+   ]
+  },
+  {
+   "page": "Toolbar Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453749(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TBSTYLE_AUTOSIZE",
+     "desc": "Calculates a button width based on the text of the button, not on the size of the image."
+    },
+    {
+     "name": "TBSTYLE_BUTTON",
+     "desc": "Creates a toolbar button that looks like a standard Windows CE push button."
+    },
+    {
+     "name": "TBSTYLE_CHECK",
+     "desc": "Creates a button that toggles between the pressed and not pressed states each time the user clicks it."
+    },
+    {
+     "name": "TBSTYLE_CHECKGROUP",
+     "desc": "Creates a check button that stays pressed until another button in the group is pressed."
+    },
+    {
+     "name": "TBSTYLE_CUSTOMERASE",
+     "desc": "Creates a toolbar that generates NM_CUSTOMDRAW notification messages when it processes WM_ERASEBKGND messages."
+    },
+    {
+     "name": "TBSTYLE_DROPDOWN",
+     "desc": "Creates a drop-down list button."
+    },
+    {
+     "name": "TBSTYLE_FLAT",
+     "desc": "Creates a flat toolbar, in which both the toolbar and the buttons are transparent."
+    },
+    {
+     "name": "TBSTYLE_GROUP",
+     "desc": "When combined with TBSTYLE_CHECK style, this style creates a button that stays pressed until another button in the group is pressed."
+    },
+    {
+     "name": "TBSTYLE_LIST",
+     "desc": "Places button text to the right of button bitmaps."
+    },
+    {
+     "name": "TBSTYLE_SEP",
+     "desc": "Creates a separator, which provides a small gap between button groups."
+    },
+    {
+     "name": "TBSTYLE_TOOLTIPS",
+     "desc": "Creates a ToolTip control that an application can use to display descriptive text for the buttons in the toolbar."
+    },
+    {
+     "name": "TBSTYLE_TRANSPARENT",
+     "desc": "Creates a transparent toolbar, in which the toolbar is transparent, but the buttons are not."
+    },
+    {
+     "name": "TBSTYLE_WRAPABLE",
+     "desc": "Creates a toolbar that can have multiple rows of buttons."
+    }
+   ]
+  },
+  {
+   "page": "Trackbar Control Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453767(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TBS_AUTOTICKS",
+     "desc": "The trackbar control will have a tick mark for each increment in its range of values."
+    },
+    {
+     "name": "TBS_BOTH",
+     "desc": "The trackbar control will display tick marks on both sides of the control."
+    },
+    {
+     "name": "TBS_BOTTOM",
+     "desc": "The trackbar control will display tick marks below the control."
+    },
+    {
+     "name": "TBS_DOWNISLEFT",
+     "desc": "By default, the trackbar control uses down equal to right and up equal to left."
+    },
+    {
+     "name": "TBS_ENABLESELRANGE",
+     "desc": "The trackbar control can display a selection range only."
+    },
+    {
+     "name": "TBS_FIXEDLENGTH",
+     "desc": "The trackbar control allows the size of the slider to be changed with the TBM_SETTHUMBLENGTH message."
+    },
+    {
+     "name": "TBS_HORZ",
+     "desc": "The trackbar control will be oriented horizontally."
+    },
+    {
+     "name": "TBS_LEFT",
+     "desc": "The trackbar control will display tick marks to the left of the control."
+    },
+    {
+     "name": "TBS_NOTHUMB",
+     "desc": "The trackbar control does not display a slider."
+    },
+    {
+     "name": "TBS_NOTICKS",
+     "desc": "The trackbar control will not display any tick marks."
+    },
+    {
+     "name": "TBS_RIGHT",
+     "desc": "The trackbar control will display tick marks to the right of the control."
+    },
+    {
+     "name": "TBS_TOP",
+     "desc": "The trackbar control will display tick marks above the control."
+    },
+    {
+     "name": "TBS_VERT",
+     "desc": "The trackbar control will be oriented vertically."
+    }
+   ]
+  },
+  {
+   "page": "Tree View Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453817(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TVS_CHECKBOXES",
+     "desc": "Enables items in a tree view control to be displayed as check boxes."
+    },
+    {
+     "name": "TVS_DISABLEDRAGDROP",
+     "desc": "Prevents the tree view control from sending TVN_BEGINDRAG notification messages."
+    },
+    {
+     "name": "TVS_EDITLABELS",
+     "desc": "Enables the user to edit the labels of tree view items."
+    },
+    {
+     "name": "TVS_HASBUTTONS",
+     "desc": "Displays plus (+) and minus (-) buttons next to parent items."
+    },
+    {
+     "name": "TVS_HASLINES",
+     "desc": "Uses lines to show the hierarchy of items."
+    },
+    {
+     "name": "TVS_LINESATROOT",
+     "desc": "Uses lines to link items at the root of the tree view control."
+    },
+    {
+     "name": "TVS_RTLREADING",
+     "desc": "Causes text to be displayed from right-to-left (RTL)."
+    },
+    {
+     "name": "TVS_SHOWSELALWAYS",
+     "desc": "Uses the system highlight colors to draw the selected item."
+    },
+    {
+     "name": "TVS_SINGLEEXPAND",
+     "desc": "Specifies that when a new tree view item is selected, the selected item will automatically expand and the previously selected item will collapse."
+    }
+   ]
+  },
+  {
+   "page": "Up-down Control Styles",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms914086(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "UDS_ALIGNLEFT",
+     "desc": "Positions the up-down control next to the left edge of the buddy window."
+    },
+    {
+     "name": "UDS_ALIGNRIGHT",
+     "desc": "Positions the up-down control next to the right edge of the buddy window."
+    },
+    {
+     "name": "UDS_ARROWKEYS",
+     "desc": "Causes the up-down control to process the UP ARROW and DOWN ARROW keys on the keyboard."
+    },
+    {
+     "name": "UDS_AUTOBUDDY",
+     "desc": "Automatically elects the previous window in the z-order as the up-down control's buddy window."
+    },
+    {
+     "name": "UDS_HORZ",
+     "desc": "Causes the up-down control's arrows to point left and right instead of up and down."
+    },
+    {
+     "name": "UDS_NOTHOUSANDS",
+     "desc": "Prevents insertion of a thousands separator between every three decimal positions."
+    },
+    {
+     "name": "UDS_SETBUDDYINT",
+     "desc": "Causes the up-down control to set the text of the buddy window, using the WM_SETTEXT message, when the position changes."
+    },
+    {
+     "name": "UDS_WRAP",
+     "desc": "Causes the position to wrap if it is incremented or decremented beyond the end or beginning of the range."
+    }
+   ]
+  },
+  {
+   "page": "Basic Common Control Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504838(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "CCS_ADJUSTABLE",
+     "desc": "Not supported."
+    },
+    {
+     "name": "CCS_BOTTOM",
+     "desc": "Causes the control to position itself at the bottom of the parent window's client area and sets the width of the control to be the same as the parent window's width."
+    },
+    {
+     "name": "CCS_LEFT",
+     "desc": "Not supported."
+    },
+    {
+     "name": "CCS_NODIVIDER",
+     "desc": "Prevents a 2-pixel highlight from being drawn at the top of the control."
+    },
+    {
+     "name": "CCS_NOMOVEX",
+     "desc": "Not supported."
+    },
+    {
+     "name": "CCS_NOMOVEY",
+     "desc": "Causes the control to resize and move itself horizontally, but not vertically, in response to a WM_SIZE message."
+    },
+    {
+     "name": "CCS_NOPARENTALIGN",
+     "desc": "Prevents the control from automatically moving to the top or bottom of the parent window."
+    },
+    {
+     "name": "CCS_NORESIZE",
+     "desc": "Prevents the control from using the default width and height when setting its initial size or a new size."
+    },
+    {
+     "name": "CCS_RIGHT",
+     "desc": "Not supported."
+    },
+    {
+     "name": "CCS_TOP",
+     "desc": "Causes the control to position itself at the top of the parent window client area and matches the width of the control to the width of the parent window."
+    },
+    {
+     "name": "CCS_VERT",
+     "desc": "Causes the control to display vertically."
+    }
+   ]
+  },
+  {
+   "page": "Basic Window Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504355(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "WS_CHILD",
+     "desc": "Specifies a child window."
+    },
+    {
+     "name": "WS_CLIPCHILDREN",
+     "desc": "Excludes the area occupied by child windows when drawing occurs within the parent window."
+    },
+    {
+     "name": "WS_CLIPSIBLINGS",
+     "desc": "Excludes the area that is occupied by sibling windows above a window."
+    },
+    {
+     "name": "WS_DISABLED",
+     "desc": "Specifies a window that is initially disabled."
+    },
+    {
+     "name": "WS_EX_NOACTIVATE",
+     "desc": "Specifies that a window cannot be activated."
+    },
+    {
+     "name": "WS_EX_NOANIMATION",
+     "desc": "Prevents a window from showing animated exploding and imploding rectangles and from having a button on the taskbar."
+    },
+    {
+     "name": "WS_EX_NODRAG",
+     "desc": "Specifies a stationary window that cannot be dragged by its title bar."
+    },
+    {
+     "name": "WS_EX_TOPMOST",
+     "desc": "Creates a window that will be placed and remain above all non-topmost windows."
+    },
+    {
+     "name": "WS_GROUP",
+     "desc": "Specifies the first control of a group of controls."
+    },
+    {
+     "name": "WS_NONAVDONEBUTTON",
+     "desc": "Suppresses the Done button on the navigation bar."
+    },
+    {
+     "name": "WS_POPUP",
+     "desc": "Specifies a pop-up window."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Specifies a control that can receive the keyboard focus when the user presses the TAB key."
+    },
+    {
+     "name": "WS_VISIBLE",
+     "desc": "Specifies a window that is initially visible."
+    }
+   ]
+  },
+  {
+   "page": "Check Box Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504569(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "BS_3STATE",
+     "desc": "Creates a check box in which the box can be unavailable as well as selected or cleared."
+    },
+    {
+     "name": "BS_AUTO3STATE",
+     "desc": "Creates a three-state check box in which the state cycles through selected, unavailable, and cleared each time the user selects the check box."
+    },
+    {
+     "name": "BS_AUTOCHECKBOX",
+     "desc": "Creates a check box in which the check state switches between selected and cleared each time the user selects the check box."
+    },
+    {
+     "name": "BS_CHECKBOX",
+     "desc": "Creates a small, empty check box with a label displayed to the right of it."
+    },
+    {
+     "name": "BS_LEFT",
+     "desc": "Left-aligns the text in the button rectangle on the right side of the check box."
+    },
+    {
+     "name": "BS_PUSHLIKE",
+     "desc": "Makes a button (such as a check box, three-state check box, or radio button) look and act like a push button."
+    },
+    {
+     "name": "BS_RIGHT",
+     "desc": "Right-aligns text in the button rectangle on the right side of the check box."
+    },
+    {
+     "name": "BS_RIGHTBUTTON",
+     "desc": "Positions a check box square on the right side of the button rectangle."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Combo Box Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501099(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "CBS_AUTOHSCROLL",
+     "desc": "Automatically scrolls the text in an edit control to the right when the user types a character at the end of the line."
+    },
+    {
+     "name": "CBS_DISABLENOSCROLL",
+     "desc": "Shows a disabled vertical scroll bar in the list box when the box does not contain enough items to scroll."
+    },
+    {
+     "name": "CBS_DROPDOWN",
+     "desc": "Displays only the edit control by default."
+    },
+    {
+     "name": "CBS_DROPDOWNLIST",
+     "desc": "Displays a static text field that displays the current selection in the list box."
+    },
+    {
+     "name": "CBS_HASSTRINGS",
+     "desc": "Specifies that an owner-drawn combo box contains items consisting of strings."
+    },
+    {
+     "name": "CBS_LOWERCASE",
+     "desc": "Converts to lowercase any uppercase characters that are typed into the edit control of a combo box."
+    },
+    {
+     "name": "CBS_NOINTEGRALHEIGHT",
+     "desc": "Specifies that the combo box will be exactly the size specified by the application when it created the combo box."
+    },
+    {
+     "name": "CBS_OEMCONVERT",
+     "desc": "Converts text typed in the combo box edit control from the Windows Embedded CE character set to the OEM character set and then back to the Windows Embedded CE set."
+    },
+    {
+     "name": "CBS_SORT",
+     "desc": "Sorts strings that are typed into the list box."
+    },
+    {
+     "name": "CBS_UPPERCASE",
+     "desc": "Converts to uppercase any lowercase characters that are typed into the edit control of a combo box."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Date and Time Picker Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee503895(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "DTS_APPCANPARSE",
+     "desc": "Enables the owner to parse user input."
+    },
+    {
+     "name": "DTS_LONGDATEFORMAT",
+     "desc": "Displays the date in long format."
+    },
+    {
+     "name": "DTS_NONEBUTTON",
+     "desc": "Specifies that the None button should be displayed instead of a check box in the Date Time Picker control."
+    },
+    {
+     "name": "DTS_SHORTDATEFORMAT",
+     "desc": "Displays the date in short format."
+    },
+    {
+     "name": "DTS_SHORTDATECENTURYFORMAT",
+     "desc": "Similar to the DTS_SHORTDATEFORMAT style, except the year is a four-digit field."
+    },
+    {
+     "name": "DTS_SHOWNONE",
+     "desc": "Enables the control to accept \"no date\" as a valid selection state."
+    },
+    {
+     "name": "DTS_TIMEFORMAT",
+     "desc": "Displays the time."
+    },
+    {
+     "name": "DTS_UPDOWN",
+     "desc": "Places an up-down control to the right of a DTP control to modify time values."
+    }
+   ]
+  },
+  {
+   "page": "Edit Control Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504833(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "ES_AUTOHSCROLL",
+     "desc": "Automatically scrolls text to the right by 10 characters when the user types a character at the end of the line."
+    },
+    {
+     "name": "ES_AUTOVSCROLL",
+     "desc": "Scrolls text up one page when the user presses the ENTER key on the last line."
+    },
+    {
+     "name": "ES_CENTER",
+     "desc": "Centers text in a multiline edit control."
+    },
+    {
+     "name": "ES_LEFT",
+     "desc": "Left-aligns text."
+    },
+    {
+     "name": "ES_LOWERCASE",
+     "desc": "Converts all characters to lowercase as they are typed into the edit control."
+    },
+    {
+     "name": "ES_MULTILINE",
+     "desc": "Designates a multiline edit control."
+    },
+    {
+     "name": "ES_NOHIDESEL",
+     "desc": "Negates the default behavior for an edit control."
+    },
+    {
+     "name": "ES_NUMBER",
+     "desc": "Accepts into the edit control only digits to be typed."
+    },
+    {
+     "name": "ES_OEMCONVERT",
+     "desc": "Converts text typed in the edit control from the Windows Embedded CE character set to the OEM character set and then converts it back to the Windows Embedded CE set."
+    },
+    {
+     "name": "ES_PASSWORD",
+     "desc": "Displays an asterisk (*) for each character that is typed into the edit control."
+    },
+    {
+     "name": "ES_READONLY",
+     "desc": "Prevents the user from typing or editing text in the edit control."
+    },
+    {
+     "name": "ES_RIGHT",
+     "desc": "Right-aligns text in a multiline edit control."
+    },
+    {
+     "name": "ES_UPPERCASE",
+     "desc": "Converts all characters to uppercase as they are typed into the edit control."
+    },
+    {
+     "name": "ES_WANTRETURN",
+     "desc": "Specifies that a carriage return be inserted when the user presses the ENTER key while typing text into a multiline edit control in a dialog box."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Header Control Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499044(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "HDS_BUTTONS",
+     "desc": "Causes each header item to look and behave like a button."
+    },
+    {
+     "name": "HDS_DRAGDROP",
+     "desc": "Enables drag-and-drop reordering of header items."
+    },
+    {
+     "name": "HDS_FULLDRAG",
+     "desc": "Causes the header control to display column contents even while a user resizes a column."
+    },
+    {
+     "name": "HDS_HIDDEN",
+     "desc": "Creates a header control that you can hide by setting its height to zero."
+    },
+    {
+     "name": "HDS_HORZ",
+     "desc": "Creates a horizontal header control."
+    }
+   ]
+  },
+  {
+   "page": "List Box Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501958(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "LBS_DISABLENOSCROLL",
+     "desc": "Shows a disabled vertical scroll bar for the list box when the box does not contain enough items to scroll."
+    },
+    {
+     "name": "LBS_EXTENDEDSEL",
+     "desc": "Enables the user to select multiple items by using the SHIFT key and the mouse or hot keys."
+    },
+    {
+     "name": "LBS_HASSTRINGS",
+     "desc": "Specifies that a list box contains items consisting of strings."
+    },
+    {
+     "name": "LBS_MULTICOLUMN",
+     "desc": "Specifies a multicolumn list box that the user scrolls through horizontally."
+    },
+    {
+     "name": "LBS_MULTIPLESEL",
+     "desc": "Turns string selection on or off each time a user taps or double-taps a string in the list box."
+    },
+    {
+     "name": "LBS_NOINTEGRALHEIGHT",
+     "desc": "Specifies that the list box will be exactly the size specified by the application when it created the list box."
+    },
+    {
+     "name": "LBS_NOREDRAW",
+     "desc": "Ensures that the list box appearance is not automatically updated when changes are made."
+    },
+    {
+     "name": "LBS_NOSEL",
+     "desc": "Specifies that the user can view list box strings but cannot select them."
+    },
+    {
+     "name": "LBS_NOTIFY",
+     "desc": "Notifies the parent window when the user taps or double-taps a string in the list box."
+    },
+    {
+     "name": "LBS_OWNERDRAWFIXED",
+     "desc": "Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are the same height."
+    },
+    {
+     "name": "LBS_OWNERDRAWVARIABLE",
+     "desc": "Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are variable in height."
+    },
+    {
+     "name": "LBS_SORT",
+     "desc": "Sorts strings in the list box alphabetically."
+    },
+    {
+     "name": "LBS_STANDARD",
+     "desc": "Sorts strings in the list box alphabetically."
+    },
+    {
+     "name": "LBS_USETABSTOPS",
+     "desc": "Enables a list box to recognize and expand tab characters when drawing its strings."
+    },
+    {
+     "name": "LBS_WANTKEYBOARDINPUT",
+     "desc": "Specifies that the owner of the list box receives WM_VKEYTOITEM messages when the user presses a key and the list box has the input focus."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "List View Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505098(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "LVS_ALIGNLEFT",
+     "desc": "Specifies that items are left-aligned in icon view and small icon view."
+    },
+    {
+     "name": "LVS_ALIGNTOP",
+     "desc": "Specifies that items are aligned with the top of the list view control in icon view and small icon view."
+    },
+    {
+     "name": "LVS_AUTOARRANGE",
+     "desc": "Specifies that icons automatically remain arranged in icon view and small icon view."
+    },
+    {
+     "name": "LVS_EDITLABELS",
+     "desc": "Enables item text to be edited in place."
+    },
+    {
+     "name": "LVS_EX_CHECKBOXES",
+     "desc": "Enables items in a list view control to be displayed as check boxes."
+    },
+    {
+     "name": "LVS_EX_DISJOINTFOCUS",
+     "desc": "Enables disjoint focus and selection."
+    },
+    {
+     "name": "LVS_EX_FULLROWSELECT",
+     "desc": "Specifies that when an item is selected, the item and all of its subitems are highlighted."
+    },
+    {
+     "name": "LVS_EX_GRADIENT",
+     "desc": "Draws a background gradient."
+    },
+    {
+     "name": "LVS_EX_GRIDLINES",
+     "desc": "Displays gridlines around items and subitems."
+    },
+    {
+     "name": "LVS_EX_HEADERDRAGDROP",
+     "desc": "Enables drag-and-drop reordering of columns in a list view control."
+    },
+    {
+     "name": "LVS_EX_INFOTIP",
+     "desc": "Sends an LVN_GETINFOTIP notification message to the parent window before displaying an item's ToolTip when the list-view control uses this style."
+    },
+    {
+     "name": "LVS_EX_NOFOCUSRECT",
+     "desc": "Disables drawing a focus rectangle for the focused item."
+    },
+    {
+     "name": "LVS_EX_NOHSCROLL",
+     "desc": "Disables horizontal scrolling."
+    },
+    {
+     "name": "LVS_EX_ONECLICKACTIVATE",
+     "desc": "Sends an LVN_ITEMACTIVATE notification message to the parent window when the user clicks an item."
+    },
+    {
+     "name": "LVS_EX_SUBITEMIMAGES",
+     "desc": "Enables images to be displayed for subitems."
+    },
+    {
+     "name": "LVS_EX_TRANSPARENTBKGND",
+     "desc": "Specifies that the background is painted by the parent."
+    },
+    {
+     "name": "LVS_EX_TWOCLICKACTIVATE",
+     "desc": "Sends an LVN_ITEMACTIVATE notification message to the parent window when the user double-clicks an item."
+    },
+    {
+     "name": "LVS_ICON",
+     "desc": "Specifies icon view."
+    },
+    {
+     "name": "LVS_LIST",
+     "desc": "Specifies list view."
+    },
+    {
+     "name": "LVS_NOCOLUMNHEADER",
+     "desc": "Specifies that column headers are not displayed by default in report view."
+    },
+    {
+     "name": "LVS_NOLABELWRAP",
+     "desc": "Displays item text on a single line in icon view."
+    },
+    {
+     "name": "LVS_NOSCROLL",
+     "desc": "Disables scrolling, so all items must be displayed within the client area."
+    },
+    {
+     "name": "LVS_NOSORTHEADER",
+     "desc": "Specifies that column headers do not work like buttons."
+    },
+    {
+     "name": "LVS_OWNERDATA",
+     "desc": "Creates a virtual list view control."
+    },
+    {
+     "name": "LVS_OWNERDRAWFIXED",
+     "desc": "Enables the owner window to paint items in report view."
+    },
+    {
+     "name": "LVS_REPORT",
+     "desc": "Specifies report view."
+    },
+    {
+     "name": "LVS_SHAREIMAGELISTS",
+     "desc": "Specifies that the control does not destroy the image lists assigned to it when it is destroyed."
+    },
+    {
+     "name": "LVS_SHOWSELALWAYS",
+     "desc": "Always shows the selection highlighted, even if the control is not activated."
+    },
+    {
+     "name": "LVS_SINGLESEL",
+     "desc": "Enables only one item to be selected at a time."
+    },
+    {
+     "name": "LVS_SMALLICON",
+     "desc": "Specifies small icon view."
+    },
+    {
+     "name": "LVS_SORTASCENDING",
+     "desc": "Sorts items based on item text in ascending order."
+    },
+    {
+     "name": "LVS_SORTDESCENDING",
+     "desc": "Sorts items based on item text in descending order."
+    }
+   ]
+  },
+  {
+   "page": "Message Box Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502245(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "MB_ABORTRETRYIGNORE",
+     "desc": "Specifies that the message box contains three buttons: Abort , Retry , and Ignore ."
+    },
+    {
+     "name": "MB_DEFBUTTON1",
+     "desc": "Specifies that the first button is the default button."
+    },
+    {
+     "name": "MB_DEFBUTTON2",
+     "desc": "Specifies that the second button is the default button."
+    },
+    {
+     "name": "MB_DEFBUTTON3",
+     "desc": "Specifies that the third button is the default button."
+    },
+    {
+     "name": "MB_OK",
+     "desc": "Specifies that the message box contains one button: OK ."
+    },
+    {
+     "name": "MB_OKCANCEL",
+     "desc": "Specifies that the message box contains two buttons: OK and Cancel ."
+    },
+    {
+     "name": "MB_RETRYCANCEL",
+     "desc": "Specifies that the message box contains two buttons: Retry and Cancel ."
+    },
+    {
+     "name": "MB_YESNO",
+     "desc": "Specifies that that the message box contains two buttons: Yes and No ."
+    },
+    {
+     "name": "MB_YESNOCANCEL",
+     "desc": "Specifies that the message box contains three buttons: Yes , No , and Cancel ."
+    },
+    {
+     "name": "MB_ICONQUESTION",
+     "desc": "Includes a question-mark icon in the message box."
+    },
+    {
+     "name": "MB_APPLMODAL",
+     "desc": "Specifies that the user must respond to the message box before continuing work in the window that is identified by the hWnd parameter."
+    },
+    {
+     "name": "MB_SETFOREGROUND",
+     "desc": "Specifies that the message box becomes the foreground window."
+    },
+    {
+     "name": "MB_TOPMOST",
+     "desc": "Creates the message box with the WS_EX_TOPMOST window style."
+    }
+   ]
+  },
+  {
+   "page": "Month Calendar Control Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505077(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "MCS_DAYSTATE",
+     "desc": "Specifies that the month calendar will send MCN_GETDAYSTATE notifications to request information about which days should be displayed in bold."
+    },
+    {
+     "name": "MCS_MULTISELECT",
+     "desc": "Enables the user to select a range of dates."
+    },
+    {
+     "name": "MCS_NOTODAY",
+     "desc": "Creates a month calendar that does not display a Today selection."
+    },
+    {
+     "name": "MCS_NOTODAYCIRCLE",
+     "desc": "Creates a month calendar that does not circle the current date."
+    },
+    {
+     "name": "MCS_SHOWNONE",
+     "desc": "Enables the control to accept \"no date\" as a valid selection state."
+    },
+    {
+     "name": "MCS_WEEKNUMBERS",
+     "desc": "Displays the week number, from 1 through 52, to the left of each week in the calendar."
+    }
+   ]
+  },
+  {
+   "page": "Non-client Area Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee506097(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "WS_BORDER",
+     "desc": "Specifies a window with a thin-line border."
+    },
+    {
+     "name": "WS_CAPTION",
+     "desc": "Specifies a window with a title bar and border."
+    },
+    {
+     "name": "WS_DLGFRAME",
+     "desc": "Specifies a window with a dialog box border style."
+    },
+    {
+     "name": "WS_EX_CAPTIONOKBTN",
+     "desc": "Includes an OK button in the title bar."
+    },
+    {
+     "name": "WS_EX_CLIENTEDGE",
+     "desc": "Specifies a window with a border that has a sunken edge."
+    },
+    {
+     "name": "WS_EX_CONTEXTHELP",
+     "desc": "Includes a Help button ( ?"
+    },
+    {
+     "name": "WS_EX_DLGMODALFRAME",
+     "desc": "Specifies a window with a double border."
+    },
+    {
+     "name": "WS_EX_OVERLAPPEDWINDOW",
+     "desc": "Combines the WS_EX_CLIENTEDGE and WS_EX_WINDOWEDGE styles."
+    },
+    {
+     "name": "WS_EX_STATICEDGE",
+     "desc": "Specifies a window with a three-dimensional border style."
+    },
+    {
+     "name": "WS_EX_WINDOWEDGE",
+     "desc": "Specifies a window border with a raised edge."
+    },
+    {
+     "name": "WS_HSCROLL",
+     "desc": "Specifies a window with a horizontal scroll bar."
+    },
+    {
+     "name": "WS_OVERLAPPED",
+     "desc": "Specifies a window with the WS_BORDER and WS_CAPTION styles."
+    },
+    {
+     "name": "WS_SIZEBOX",
+     "desc": "Creates a window that has a sizing border."
+    },
+    {
+     "name": "WS_SYSMENU",
+     "desc": "Specifies a window with a window menu on its title bar."
+    },
+    {
+     "name": "WS_VSCROLL",
+     "desc": "Specifies a window with a vertical scroll bar."
+    }
+   ]
+  },
+  {
+   "page": "Progress Bar Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499649(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "PBS_SMOOTH",
+     "desc": "Displays progress status in a smooth scrolling bar instead of the default segmented bar."
+    },
+    {
+     "name": "PBS_VERTICAL",
+     "desc": "Displays progress status vertically, from bottom to top."
+    }
+   ]
+  },
+  {
+   "page": "Push Button Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501475(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "BS_BOTTOM",
+     "desc": "Places the text at the bottom of the button rectangle."
+    },
+    {
+     "name": "BS_CENTER",
+     "desc": "Centers the text horizontally in the button rectangle."
+    },
+    {
+     "name": "BS_DEFPUSHBUTTON",
+     "desc": "Creates a push button with a heavy black border."
+    },
+    {
+     "name": "BS_LEFT",
+     "desc": "Left-aligns the text in the button rectangle."
+    },
+    {
+     "name": "BS_NOTIFY",
+     "desc": "Enables a button to send BN_KILLFOCUS and BN_SETFOCUS notification messages to its parent window."
+    },
+    {
+     "name": "BS_OWNERDRAW",
+     "desc": "Creates an owner-drawn button."
+    },
+    {
+     "name": "BS_PUSHBUTTON",
+     "desc": "Creates a push button that posts a WM_COMMAND message to the owner window when the user clicks the button."
+    },
+    {
+     "name": "BS_RIGHT",
+     "desc": "Right-aligns text in the button rectangle."
+    },
+    {
+     "name": "BS_TOP",
+     "desc": "Places text at the top of the button rectangle."
+    },
+    {
+     "name": "BS_VCENTER",
+     "desc": "Vertically centers text in the button rectangle."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Radio Button Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505912(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "BS_AUTORADIOBUTTON",
+     "desc": "Creates a radio button that, when selected by a user, clears all other buttons in the same group."
+    },
+    {
+     "name": "BS_LEFT",
+     "desc": "Left-aligns the text in the button rectangle on the right side of the check box."
+    },
+    {
+     "name": "BS_RADIOBUTTON",
+     "desc": "Creates a small circle with a label displayed to the right of it."
+    },
+    {
+     "name": "BS_RIGHT",
+     "desc": "Right-aligns the text in the button rectangle on the right side of the check box."
+    },
+    {
+     "name": "BS_RIGHTBUTTON",
+     "desc": "Positions a check box square on the right side of the button rectangle."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Turns the control into a tab stop, which enables the user to select the control by tabbing through the controls in a dialog box."
+    }
+   ]
+  },
+  {
+   "page": "Rebar Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502314(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "CCS_VERT",
+     "desc": "Causes the control to appear vertically at the left side of the parent window."
+    },
+    {
+     "name": "RBBS_NOGRIPPER",
+     "desc": "Creates a rebar band that displays no gripper."
+    },
+    {
+     "name": "RBS_AUTOSIZE",
+     "desc": "Specifies that the layout of a band will automatically change when the size or position of its control changes."
+    },
+    {
+     "name": "RBS_BANDBORDERS",
+     "desc": "Displays narrow lines to separate adjacent bands."
+    },
+    {
+     "name": "RBS_FIXEDORDER",
+     "desc": "Displays multiple bands in the same order at all times."
+    },
+    {
+     "name": "RBS_SMARTLABELS",
+     "desc": "Displays the icon for a band that has an icon only when the band is minimized."
+    },
+    {
+     "name": "RBS_VARHEIGHT",
+     "desc": "Displays a band at the minimum required height, when possible."
+    },
+    {
+     "name": "RBS_VERTICALGRIPPER",
+     "desc": "Displays the size grip vertically, instead of horizontally, in a vertical command bands control."
+    }
+   ]
+  },
+  {
+   "page": "Scroll Bar Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505682(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "SBS_HORZ",
+     "desc": "Designates a horizontal scroll bar."
+    },
+    {
+     "name": "SBS_VERT",
+     "desc": "Designates a vertical scroll bar."
+    }
+   ]
+  },
+  {
+   "page": "Static Control Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505845(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "SS_BITMAP",
+     "desc": "Specifies that a bitmap will be displayed in the static control."
+    },
+    {
+     "name": "SS_CENTER",
+     "desc": "Specifies a simple rectangle and centers the error value text in the rectangle."
+    },
+    {
+     "name": "SS_CENTERIMAGE",
+     "desc": "Specifies that the midpoint of a static control with the SS_BITMAP or SS_ICON style will remain fixed when you resize the control."
+    },
+    {
+     "name": "SS_ICON",
+     "desc": "Specifies that an icon will be displayed in the static control."
+    },
+    {
+     "name": "SS_LEFT",
+     "desc": "Specifies a rectangle and left-aligns the text in the rectangle."
+    },
+    {
+     "name": "SS_LEFTNOWORDWRAP",
+     "desc": "Specifies a rectangle and left-aligns the text in the rectangle."
+    },
+    {
+     "name": "SS_NOPREFIX",
+     "desc": "Prevents interpretation of any ampersand (&) characters in the control's text as accelerator prefix characters."
+    },
+    {
+     "name": "SS_NOTIFY",
+     "desc": "Sends the parent window the STN_CLICKED notification when the user clicks the control."
+    },
+    {
+     "name": "SS_RIGHT",
+     "desc": "Specifies a rectangle and right-aligns the specified text in the rectangle."
+    }
+   ]
+  },
+  {
+   "page": "Tab Control Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505852(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TCS_BOTTOM",
+     "desc": "Displays the tabs at the bottom of the control."
+    },
+    {
+     "name": "TCS_BUTTONS",
+     "desc": "Displays all tabs as buttons with no border drawn around the display area."
+    },
+    {
+     "name": "TCS_EX_FLATSEPARATORS",
+     "desc": "Indicates that the tab control will draw separators between the tab items."
+    },
+    {
+     "name": "TCS_FIXEDWIDTH",
+     "desc": "Specifies that all tabs are the same width."
+    },
+    {
+     "name": "TCS_FLATBUTTONS",
+     "desc": "Changes the appearance of a selected tab to indented while other tabs appear to be on the same plane as the background."
+    },
+    {
+     "name": "TCS_FOCUSNEVER",
+     "desc": "Creates a tab control that never receives the input focus."
+    },
+    {
+     "name": "TCS_FOCUSONBUTTONDOWN",
+     "desc": "Specifies that a given tab, when selected, receives the input focus."
+    },
+    {
+     "name": "TCS_FORCEICONLEFT",
+     "desc": "Aligns an icon with the left edge of a fixed-width tab."
+    },
+    {
+     "name": "TCS_FORCELABELLEFT",
+     "desc": "Aligns a label with the left edge of a fixed-width tab; that is, it displays the label immediately to the right of the icon instead of centering it."
+    },
+    {
+     "name": "TCS_MULTILINE",
+     "desc": "Displays multiple rows of tabs, if necessary, so that all tabs are visible at once."
+    },
+    {
+     "name": "TCS_MULTISELECT",
+     "desc": "Specifies that multiple tabs can be selected by holding down CTRL when selecting a tab."
+    },
+    {
+     "name": "TCS_OWNERDRAWFIXED",
+     "desc": "Specifies that the parent window is responsible for drawing tabs."
+    },
+    {
+     "name": "TCS_RAGGEDRIGHT",
+     "desc": "Leaves a ragged right edge by not stretching a row of tabs to fill the entire width of the control."
+    },
+    {
+     "name": "TCS_RIGHT",
+     "desc": "Displays multiple tabs vertically on the right side of controls that use the TCS_VERTICAL style."
+    },
+    {
+     "name": "TCS_RIGHTJUSTIFY",
+     "desc": "Increases the width of each tab, if necessary, so that each row of tabs fills the entire width of the tab control."
+    },
+    {
+     "name": "TCS_SCROLLOPPOSITE",
+     "desc": "Specifies that unused tabs move to the opposite side of the control when a new tab is selected."
+    },
+    {
+     "name": "TCS_SINGLELINE",
+     "desc": "Displays only one row of tabs."
+    },
+    {
+     "name": "TCS_VERTICAL",
+     "desc": "Displays multiple tabs vertically on the left side of the control."
+    }
+   ]
+  },
+  {
+   "page": "ToolTip Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502891(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TTS_ALWAYSTIP",
+     "desc": "Indicates that the ToolTip control appears when the cursor is on a tool, even if the ToolTip control's owner window is inactive."
+    },
+    {
+     "name": "TTS_NOPREFIX",
+     "desc": "Prevents the system from automatically stripping an ampersand character from a string."
+    }
+   ]
+  },
+  {
+   "page": "Toolbar Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee505463(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TBSTYLE_AUTOSIZE",
+     "desc": "Calculates a button width based on the text of the button, not on the size of the image."
+    },
+    {
+     "name": "TBSTYLE_BUTTON",
+     "desc": "Creates a toolbar button that looks like a standard Windows Embedded CE push button."
+    },
+    {
+     "name": "TBSTYLE_CHECK",
+     "desc": "Creates a button that toggles between the pressed and not pressed states each time the user clicks it."
+    },
+    {
+     "name": "TBSTYLE_CHECKGROUP",
+     "desc": "Creates a check button that stays pressed until another button in the group is pressed."
+    },
+    {
+     "name": "TBSTYLE_CUSTOMERASE",
+     "desc": "Creates a toolbar that generates NM_CUSTOMDRAW notification messages when it processes WM_ERASEBKGND messages."
+    },
+    {
+     "name": "TBSTYLE_DROPDOWN",
+     "desc": "Creates a drop-down list button."
+    },
+    {
+     "name": "TBSTYLE_FLAT",
+     "desc": "Creates a flat toolbar, in which both the toolbar and the buttons are transparent."
+    },
+    {
+     "name": "TBSTYLE_GROUP",
+     "desc": "When combined with TBSTYLE_CHECK style, this style creates a button that stays pressed until another button in the group is pressed."
+    },
+    {
+     "name": "TBSTYLE_LIST",
+     "desc": "Places button text to the right of button bitmaps."
+    },
+    {
+     "name": "TBSTYLE_SEP",
+     "desc": "Creates a separator, which provides a small gap between button groups."
+    },
+    {
+     "name": "TBSTYLE_TOOLTIPS",
+     "desc": "Creates a ToolTip control that an application can use to display descriptive text for the buttons in the toolbar."
+    },
+    {
+     "name": "TBSTYLE_TRANSPARENT",
+     "desc": "Creates a transparent toolbar, in which the toolbar is transparent, but the buttons are not."
+    },
+    {
+     "name": "TBSTYLE_WRAPABLE",
+     "desc": "Creates a toolbar that can have multiple rows of buttons."
+    }
+   ]
+  },
+  {
+   "page": "Trackbar Control Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502608(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TBS_AUTOTICKS",
+     "desc": "The trackbar control will have a tick mark for each increment in its range of values."
+    },
+    {
+     "name": "TBS_BOTH",
+     "desc": "The trackbar control will display tick marks on both sides of the control."
+    },
+    {
+     "name": "TBS_BOTTOM",
+     "desc": "The trackbar control will display tick marks below the control."
+    },
+    {
+     "name": "TBS_DOWNISLEFT",
+     "desc": "By default, the trackbar control uses down equal to right and up equal to left."
+    },
+    {
+     "name": "TBS_ENABLESELRANGE",
+     "desc": "The trackbar control can display a selection range only."
+    },
+    {
+     "name": "TBS_FIXEDLENGTH",
+     "desc": "The trackbar control allows the size of the slider to be changed with the TBM_SETTHUMBLENGTH message."
+    },
+    {
+     "name": "TBS_HORZ",
+     "desc": "The trackbar control will be oriented horizontally."
+    },
+    {
+     "name": "TBS_LEFT",
+     "desc": "The trackbar control will display tick marks to the left of the control."
+    },
+    {
+     "name": "TBS_NOTHUMB",
+     "desc": "The trackbar control does not display a slider."
+    },
+    {
+     "name": "TBS_NOTICKS",
+     "desc": "The trackbar control will not display any tick marks."
+    },
+    {
+     "name": "TBS_RIGHT",
+     "desc": "The trackbar control will display tick marks to the right of the control."
+    },
+    {
+     "name": "TBS_TOP",
+     "desc": "The trackbar control will display tick marks above the control."
+    },
+    {
+     "name": "TBS_VERT",
+     "desc": "The trackbar control will be oriented vertically."
+    }
+   ]
+  },
+  {
+   "page": "Tree View Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee502852(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "TVS_CHECKBOXES",
+     "desc": "Enables items in a tree view control to be displayed as check boxes."
+    },
+    {
+     "name": "TVS_DISABLEDRAGDROP",
+     "desc": "Prevents the tree view control from sending TVN_BEGINDRAG notification messages."
+    },
+    {
+     "name": "TVS_EDITLABELS",
+     "desc": "Enables the user to edit the labels of tree view items."
+    },
+    {
+     "name": "TVS_HASBUTTONS",
+     "desc": "Displays plus (+) and minus (-) buttons next to parent items."
+    },
+    {
+     "name": "TVS_HASLINES",
+     "desc": "Uses lines to show the hierarchy of items."
+    },
+    {
+     "name": "TVS_LINESATROOT",
+     "desc": "Uses lines to link items at the root of the tree view control."
+    },
+    {
+     "name": "TVS_RTLREADING",
+     "desc": "Causes text to be displayed from right-to-left (RTL)."
+    },
+    {
+     "name": "TVS_SHOWSELALWAYS",
+     "desc": "Uses the system highlight colors to draw the selected item."
+    },
+    {
+     "name": "TVS_SINGLEEXPAND",
+     "desc": "Specifies that when a new tree view item is selected, the selected item will automatically expand and the previously selected item will collapse."
+    }
+   ]
+  },
+  {
+   "page": "Up-down Control Styles",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504056(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "UDS_ALIGNLEFT",
+     "desc": "Positions the up-down control next to the left edge of the buddy window."
+    },
+    {
+     "name": "UDS_ALIGNRIGHT",
+     "desc": "Positions the up-down control next to the right edge of the buddy window."
+    },
+    {
+     "name": "UDS_ARROWKEYS",
+     "desc": "Causes the up-down control to process the UP ARROW and DOWN ARROW keys on the keyboard."
+    },
+    {
+     "name": "UDS_AUTOBUDDY",
+     "desc": "Automatically elects the previous window in the z-order as the up-down control's buddy window."
+    },
+    {
+     "name": "UDS_HORZ",
+     "desc": "Causes the up-down control's arrows to point left and right instead of up and down."
+    },
+    {
+     "name": "UDS_NOTHOUSANDS",
+     "desc": "Prevents insertion of a thousands separator between every three decimal positions."
+    },
+    {
+     "name": "UDS_SETBUDDYINT",
+     "desc": "Causes the up-down control to set the text of the buddy window, using the WM_SETTEXT message, when the position changes."
+    },
+    {
+     "name": "UDS_WRAP",
+     "desc": "Causes the position to wrap if it is incremented or decremented beyond the end or beginning of the range."
+    }
+   ]
+  },
+  {
+   "page": "CreateWindow",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908192(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "WS_BORDER",
+     "desc": "Creates a window that has a thin-line border."
+    },
+    {
+     "name": "WS_CAPTION",
+     "desc": "Creates a window that has a title bar (includes the WS_BORDER style)."
+    },
+    {
+     "name": "WS_CHILD",
+     "desc": "Creates a child window."
+    },
+    {
+     "name": "WS_CLIPCHILDREN",
+     "desc": "Excludes the area occupied by child windows when drawing occurs within the parent window."
+    },
+    {
+     "name": "WS_CLIPSIBLINGS",
+     "desc": "Clips child windows relative to each other; that is, when a particular child window receives a WM_PAINT message, the WS_CLIPSIBLINGS style clips all other overlapping child windows out of the region of the child window t"
+    },
+    {
+     "name": "WS_DISABLED",
+     "desc": "Creates a window that is initially disabled."
+    },
+    {
+     "name": "WS_DLGFRAME",
+     "desc": "Creates a window that has a border of a style typically used with dialog boxes."
+    },
+    {
+     "name": "WS_GROUP",
+     "desc": "Specifies the first control of a group of controls."
+    },
+    {
+     "name": "WS_HSCROLL",
+     "desc": "Creates a window that has a horizontal scroll bar."
+    },
+    {
+     "name": "WS_OVERLAPPED",
+     "desc": "Creates an overlapped window."
+    },
+    {
+     "name": "WS_OVERLAPPEDWINDOW",
+     "desc": "Creates an overlapped window with the WS_OVERLAPPED, WS_CAPTION, WS_SYSMENU, WS_THICKFRAME, WS_MINIMIZEBOX, and WS_MAXIMIZEBOX styles."
+    },
+    {
+     "name": "WS_POPUP",
+     "desc": "Creates a pop-up window."
+    },
+    {
+     "name": "WS_SIZEBOX",
+     "desc": "Creates a window that has a sizing border."
+    },
+    {
+     "name": "WS_SYSMENU",
+     "desc": "Creates a window that has a Close (X) button in the non-client area."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Specifies a control that can receive the keyboard focus when the user presses the TAB key."
+    },
+    {
+     "name": "WS_THICKFRAME",
+     "desc": "Creates a window that has a sizing border."
+    },
+    {
+     "name": "WS_VISIBLE",
+     "desc": "Creates a window that is initially visible."
+    },
+    {
+     "name": "WS_VSCROLL",
+     "desc": "Creates a window that has a vertical scroll bar."
+    },
+    {
+     "name": "WS_CHILDWINDOW",
+     "desc": "WS_ICONIC"
+    },
+    {
+     "name": "WS_POPUPWINDOW",
+     "desc": ""
+    },
+    {
+     "name": "BS_LEFTTEXT",
+     "desc": "SS_BLACKFRAME"
+    },
+    {
+     "name": "BS_TEXT",
+     "desc": "SS_BLACKRECT"
+    },
+    {
+     "name": "BS_USERBUTTON",
+     "desc": "SS_GRAYFRAME"
+    },
+    {
+     "name": "CBS_OWNERDRAWFIXED",
+     "desc": "SS_METAPICT"
+    },
+    {
+     "name": "CBS_OWNERDRAWVARIABLE",
+     "desc": "SS_REALSIZEIMAGE"
+    },
+    {
+     "name": "CBS_SIMPLE",
+     "desc": "SS_RIGHTIMAGE"
+    },
+    {
+     "name": "LBS_NODATA",
+     "desc": "SS_SIMPLE"
+    },
+    {
+     "name": "LBS_STANDARD",
+     "desc": "SS_SUNKEN"
+    },
+    {
+     "name": "SBS_BOTTOMALIGN",
+     "desc": "SS_WHITERECT"
+    },
+    {
+     "name": "SBS_RIGHTALIGN",
+     "desc": "Unsupported dialog box styles"
+    },
+    {
+     "name": "SBS_SIZEBOXBOTTOMRIGHTALIGN",
+     "desc": "DS_ABSALIGN"
+    },
+    {
+     "name": "SBS_SIZEGRIP",
+     "desc": "DS_CENTERMOUSE"
+    }
+   ]
+  },
+  {
+   "page": "GetSystemMetrics",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453170(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "SM_CMONITORS",
+     "desc": "Number of display monitors on the Windows CE-based device."
+    },
+    {
+     "name": "SM_CYCAPTION",
+     "desc": "Height, in pixels, of a normal caption area."
+    },
+    {
+     "name": "SM_CYMENU",
+     "desc": "Height, in pixels, of a single-line menu bar."
+    },
+    {
+     "name": "SM_DEBUG",
+     "desc": "TRUE or nonzero if the debugging version of USER.EXE is installed; FALSE or zero otherwise."
+    },
+    {
+     "name": "SM_SAMEDISPLAYFORMAT",
+     "desc": "TRUE if all the display monitors have the same color format, FALSE otherwise."
+    },
+    {
+     "name": "SM_ARRANGE",
+     "desc": "SM_CYMINIMIZED"
+    },
+    {
+     "name": "SM_CLEANBOOT",
+     "desc": "SM_CXMINSPACING"
+    },
+    {
+     "name": "SM_CMETRICS",
+     "desc": "SM_CYMINSPACING"
+    },
+    {
+     "name": "SM_CMOUSEBUTTONS",
+     "desc": "SM_CXMINTRACK"
+    },
+    {
+     "name": "SM_CXDRAG",
+     "desc": "SM_CYMINTRACK"
+    },
+    {
+     "name": "SM_CYDRAG",
+     "desc": "SM_CXSIZE"
+    },
+    {
+     "name": "SM_CXFRAME",
+     "desc": "SM_CYSIZE"
+    },
+    {
+     "name": "SM_CYFRAME",
+     "desc": "SM_CXSIZEFRAME"
+    },
+    {
+     "name": "SM_CXFULLSCREEN",
+     "desc": "SM_CYSIZEFRAME"
+    },
+    {
+     "name": "SM_CYFULLSCREEN",
+     "desc": "SM_CXSMSIZE"
+    },
+    {
+     "name": "SM_CXHTHUMB",
+     "desc": "SM_CYSMSIZE"
+    },
+    {
+     "name": "SM_CYKANJIWINDOW",
+     "desc": "SM_CYSMCAPTION"
+    },
+    {
+     "name": "SM_CXMAXIMIZED",
+     "desc": "SM_CYVTHUMB"
+    },
+    {
+     "name": "SM_CYMAXIMIZED",
+     "desc": "SM_DBCSENABLED"
+    },
+    {
+     "name": "SM_CXMAXTRACK",
+     "desc": "SM_MENUDROPALIGNMENT"
+    },
+    {
+     "name": "SM_CYMAXTRACK",
+     "desc": "SM_MIDEASTENABLED"
+    },
+    {
+     "name": "SM_CXMENUCHECK",
+     "desc": "SM_MOUSEPRESENT"
+    },
+    {
+     "name": "SM_CYMENUCHECK",
+     "desc": "SM_MOUSEWHEELPRESENT"
+    },
+    {
+     "name": "SM_CXMENUSIZE",
+     "desc": "SM_NETWORK"
+    },
+    {
+     "name": "SM_CYMENUSIZE",
+     "desc": "SM_PENWINDOWS"
+    },
+    {
+     "name": "SM_CXMIN",
+     "desc": "SM_SECURE"
+    },
+    {
+     "name": "SM_CYMIN",
+     "desc": "SM_SHOWSOUNDS"
+    },
+    {
+     "name": "SM_CXMINIMIZED",
+     "desc": "SM_SLOWMACHINE"
+    }
+   ]
+  },
+  {
+   "page": "GetWindowLong",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453180(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "GWL_EXSTYLE",
+     "desc": "Retrieves the extended window styles."
+    },
+    {
+     "name": "GWL_STYLE",
+     "desc": "Retrieves the window styles."
+    },
+    {
+     "name": "GWL_WNDPROC",
+     "desc": "Retrieves the address of the window procedure, or a handle representing the address of the window procedure."
+    },
+    {
+     "name": "GWL_ID",
+     "desc": "Retrieves the window identifier."
+    },
+    {
+     "name": "GWL_USERDATA",
+     "desc": "Retrieves the 32-bit value associated with the window."
+    },
+    {
+     "name": "DWL_MSGRESULT",
+     "desc": "Retrieves the return value of a message processed in the dialog box procedure."
+    },
+    {
+     "name": "DWL_USER",
+     "desc": "Retrieves extra information private to the application, such as handles or pointers."
+    }
+   ]
+  },
+  {
+   "page": "SetWindowLong",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453661(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "GWL_EXSTYLE",
+     "desc": "Sets a new extended window style."
+    },
+    {
+     "name": "GWL_STYLE",
+     "desc": "Sets a new window style."
+    },
+    {
+     "name": "GWL_ID",
+     "desc": "Sets a new identifier of the window."
+    },
+    {
+     "name": "GWL_USERDATA",
+     "desc": "Sets the 32-bit value associated with the window."
+    },
+    {
+     "name": "DWL_DLGPROC",
+     "desc": "Sets the new address of the dialog box procedure."
+    },
+    {
+     "name": "DWL_MSGRESULT",
+     "desc": "Sets the return value of a message processed in the dialog box procedure."
+    },
+    {
+     "name": "DWL_USER",
+     "desc": "Sets new extra information that is private to the application, such as handles or pointers."
+    }
+   ]
+  },
+  {
+   "page": "SetWindowPos",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453662(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "HWND_BOTTOM",
+     "desc": "Places the window at the bottom of the z-order."
+    },
+    {
+     "name": "HWND_NOTOPMOST",
+     "desc": "Places the window above all non-topmost windows (that is, behind all topmost windows)."
+    },
+    {
+     "name": "HWND_TOP",
+     "desc": "Places the window at the top of the z-order."
+    },
+    {
+     "name": "HWND_TOPMOST",
+     "desc": "Places the window above all non-topmost windows."
+    },
+    {
+     "name": "SWP_DRAWFRAME",
+     "desc": "Draws a frame (defined in the window's class description) around the window."
+    },
+    {
+     "name": "SWP_FRAMECHANGED",
+     "desc": "Causes the operating system to recalculate the size and position of the windows client area, even if the window size is not being changed."
+    },
+    {
+     "name": "SWP_HIDEWINDOW",
+     "desc": "Hides the window."
+    },
+    {
+     "name": "SWP_NOACTIVATE",
+     "desc": "Does not activate the window."
+    },
+    {
+     "name": "SWP_NOCOPYBITS",
+     "desc": "Discards the entire contents of the client area."
+    },
+    {
+     "name": "SWP_NOMOVE",
+     "desc": "Retains the current position (ignores the X and Y parameters)."
+    },
+    {
+     "name": "SWP_NOOWNERZORDER",
+     "desc": "Does not change the owner window's position in the z-order."
+    },
+    {
+     "name": "SWP_NOREPOSITION",
+     "desc": "Same as the SWP_NOOWNERZORDER flag."
+    },
+    {
+     "name": "SWP_NOSIZE",
+     "desc": "Retains the current size (ignores the cx and cy parameters)."
+    },
+    {
+     "name": "SWP_NOZORDER",
+     "desc": "Retains the current z-order (ignores the hWndInsertAfter parameter)."
+    },
+    {
+     "name": "SWP_SHOWWINDOW",
+     "desc": "Displays the window."
+    }
+   ]
+  },
+  {
+   "page": "ShowWindow",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa453731(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "SW_HIDE",
+     "desc": "Hides the window and activates another window."
+    },
+    {
+     "name": "SW_SHOW",
+     "desc": "Activates the window and displays it in its current size and position."
+    },
+    {
+     "name": "SW_SHOWNA",
+     "desc": "Displays the window in its current state."
+    },
+    {
+     "name": "SW_SHOWNORMAL",
+     "desc": "Activates and displays a window."
+    }
+   ]
+  },
+  {
+   "page": "CreateWindow",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee500617(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "WS_BORDER",
+     "desc": "Creates a window that has a thin-line border."
+    },
+    {
+     "name": "WS_CAPTION",
+     "desc": "Creates a window that has a title bar (includes the WS_BORDER style)."
+    },
+    {
+     "name": "WS_CHILD",
+     "desc": "Creates a child window."
+    },
+    {
+     "name": "WS_CLIPCHILDREN",
+     "desc": "Excludes the area occupied by child windows when drawing occurs within the parent window."
+    },
+    {
+     "name": "WS_CLIPSIBLINGS",
+     "desc": "Clips child windows relative to each other; that is, when a particular child window receives a WM_PAINT message, the WS_CLIPSIBLINGS style clips all other overlapping child windows out of the region of the child window t"
+    },
+    {
+     "name": "WS_DISABLED",
+     "desc": "Creates a window that is initially disabled."
+    },
+    {
+     "name": "WS_DLGFRAME",
+     "desc": "Creates a window that has a border of a style typically used with dialog boxes."
+    },
+    {
+     "name": "WS_GROUP",
+     "desc": "Specifies the first control of a group of controls."
+    },
+    {
+     "name": "WS_HSCROLL",
+     "desc": "Creates a window that has a horizontal scroll bar."
+    },
+    {
+     "name": "WS_OVERLAPPED",
+     "desc": "Creates an overlapped window."
+    },
+    {
+     "name": "WS_OVERLAPPEDWINDOW",
+     "desc": "Creates an overlapped window with the WS_OVERLAPPED, WS_CAPTION, WS_SYSMENU, WS_THICKFRAME, WS_MINIMIZEBOX, and WS_MAXIMIZEBOX styles."
+    },
+    {
+     "name": "WS_POPUP",
+     "desc": "Creates a pop-up window."
+    },
+    {
+     "name": "WS_SIZEBOX",
+     "desc": "Creates a window that has a sizing border."
+    },
+    {
+     "name": "WS_SYSMENU",
+     "desc": "Creates a window that has a Close (X) button in the non-client area."
+    },
+    {
+     "name": "WS_TABSTOP",
+     "desc": "Specifies a control that can receive the keyboard focus when the user presses the TAB key."
+    },
+    {
+     "name": "WS_THICKFRAME",
+     "desc": "Creates a window that has a sizing border."
+    },
+    {
+     "name": "WS_VISIBLE",
+     "desc": "Creates a window that is initially visible."
+    },
+    {
+     "name": "WS_VSCROLL",
+     "desc": "Creates a window that has a vertical scroll bar."
+    },
+    {
+     "name": "WS_CHILDWINDOW",
+     "desc": "WS_ICONIC"
+    },
+    {
+     "name": "WS_POPUPWINDOW",
+     "desc": ""
+    },
+    {
+     "name": "BS_LEFTTEXT",
+     "desc": "SS_BLACKFRAME"
+    },
+    {
+     "name": "BS_TEXT",
+     "desc": "SS_BLACKRECT"
+    },
+    {
+     "name": "BS_USERBUTTON",
+     "desc": "SS_GRAYFRAME"
+    },
+    {
+     "name": "CBS_OWNERDRAWFIXED",
+     "desc": "SS_METAPICT"
+    },
+    {
+     "name": "CBS_OWNERDRAWVARIABLE",
+     "desc": "SS_REALSIZEIMAGE"
+    },
+    {
+     "name": "CBS_SIMPLE",
+     "desc": "SS_RIGHTIMAGE"
+    },
+    {
+     "name": "LBS_NODATA",
+     "desc": "SS_SIMPLE"
+    },
+    {
+     "name": "LBS_STANDARD",
+     "desc": "SS_SUNKEN"
+    },
+    {
+     "name": "SBS_BOTTOMALIGN",
+     "desc": "SS_WHITERECT"
+    },
+    {
+     "name": "SBS_RIGHTALIGN",
+     "desc": "Unsupported dialog box styles"
+    },
+    {
+     "name": "SBS_SIZEBOXBOTTOMRIGHTALIGN",
+     "desc": "DS_ABSALIGN"
+    },
+    {
+     "name": "SBS_SIZEGRIP",
+     "desc": "DS_CENTERMOUSE"
+    }
+   ]
+  },
+  {
+   "page": "GetSystemMetrics",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499415(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "SM_CMONITORS",
+     "desc": "Number of display monitors on the Windows Embedded CE-based device."
+    },
+    {
+     "name": "SM_CYCAPTION",
+     "desc": "Height, in pixels, of a normal caption area."
+    },
+    {
+     "name": "SM_CYMENU",
+     "desc": "Height, in pixels, of a single-line menu bar."
+    },
+    {
+     "name": "SM_DEBUG",
+     "desc": "TRUE or nonzero if the debugging version of USER.EXE is installed; FALSE or zero otherwise."
+    },
+    {
+     "name": "SM_SAMEDISPLAYFORMAT",
+     "desc": "TRUE if all the display monitors have the same color format, FALSE otherwise."
+    },
+    {
+     "name": "SM_ARRANGE",
+     "desc": "SM_CYMINIMIZED"
+    },
+    {
+     "name": "SM_CLEANBOOT",
+     "desc": "SM_CXMINSPACING"
+    },
+    {
+     "name": "SM_CMETRICS",
+     "desc": "SM_CYMINSPACING"
+    },
+    {
+     "name": "SM_CMOUSEBUTTONS",
+     "desc": "SM_CXMINTRACK"
+    },
+    {
+     "name": "SM_CXDRAG",
+     "desc": "SM_CYMINTRACK"
+    },
+    {
+     "name": "SM_CYDRAG",
+     "desc": "SM_CXSIZE"
+    },
+    {
+     "name": "SM_CXFRAME",
+     "desc": "SM_CYSIZE"
+    },
+    {
+     "name": "SM_CYFRAME",
+     "desc": "SM_CXSIZEFRAME"
+    },
+    {
+     "name": "SM_CXFULLSCREEN",
+     "desc": "SM_CYSIZEFRAME"
+    },
+    {
+     "name": "SM_CYFULLSCREEN",
+     "desc": "SM_CXSMSIZE"
+    },
+    {
+     "name": "SM_CXHTHUMB",
+     "desc": "SM_CYSMSIZE"
+    },
+    {
+     "name": "SM_CYKANJIWINDOW",
+     "desc": "SM_CYSMCAPTION"
+    },
+    {
+     "name": "SM_CXMAXIMIZED",
+     "desc": "SM_CYVTHUMB"
+    },
+    {
+     "name": "SM_CYMAXIMIZED",
+     "desc": "SM_DBCSENABLED"
+    },
+    {
+     "name": "SM_CXMAXTRACK",
+     "desc": "SM_MENUDROPALIGNMENT"
+    },
+    {
+     "name": "SM_CYMAXTRACK",
+     "desc": "SM_MIDEASTENABLED"
+    },
+    {
+     "name": "SM_CXMENUCHECK",
+     "desc": "SM_MOUSEPRESENT"
+    },
+    {
+     "name": "SM_CYMENUCHECK",
+     "desc": "SM_MOUSEWHEELPRESENT"
+    },
+    {
+     "name": "SM_CXMENUSIZE",
+     "desc": "SM_NETWORK"
+    },
+    {
+     "name": "SM_CYMENUSIZE",
+     "desc": "SM_PENWINDOWS"
+    },
+    {
+     "name": "SM_CXMIN",
+     "desc": "SM_SECURE"
+    },
+    {
+     "name": "SM_CYMIN",
+     "desc": "SM_SHOWSOUNDS"
+    },
+    {
+     "name": "SM_CXMINIMIZED",
+     "desc": "SM_SLOWMACHINE"
+    }
+   ]
+  },
+  {
+   "page": "GetWindowLong",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee504521(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "GWL_EXSTYLE",
+     "desc": "Retrieves the extended window styles."
+    },
+    {
+     "name": "GWL_STYLE",
+     "desc": "Retrieves the window styles."
+    },
+    {
+     "name": "GWL_WNDPROC",
+     "desc": "Retrieves the address of the window procedure, or a handle representing the address of the window procedure."
+    },
+    {
+     "name": "GWL_ID",
+     "desc": "Retrieves the window identifier."
+    },
+    {
+     "name": "GWL_USERDATA",
+     "desc": "Retrieves the 32-bit value associated with the window."
+    },
+    {
+     "name": "DWL_MSGRESULT",
+     "desc": "Retrieves the return value of a message processed in the dialog box procedure."
+    },
+    {
+     "name": "DWL_USER",
+     "desc": "Retrieves extra information private to the application, such as handles or pointers."
+    }
+   ]
+  },
+  {
+   "page": "SetWindowLong",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501419(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "GWL_EXSTYLE",
+     "desc": "Sets a new extended window style."
+    },
+    {
+     "name": "GWL_STYLE",
+     "desc": "Sets a new window style."
+    },
+    {
+     "name": "GWL_WNDPROC",
+     "desc": "Sets a new address for the window procedure."
+    },
+    {
+     "name": "GWL_ID",
+     "desc": "Sets a new identifier of the window."
+    },
+    {
+     "name": "GWL_USERDATA",
+     "desc": "Sets the 32-bit value associated with the window."
+    },
+    {
+     "name": "DWL_DLGPROC",
+     "desc": "Sets the new address of the dialog box procedure."
+    },
+    {
+     "name": "DWL_MSGRESULT",
+     "desc": "Sets the return value of a message processed in the dialog box procedure."
+    },
+    {
+     "name": "DWL_USER",
+     "desc": "Sets new extra information that is private to the application, such as handles or pointers."
+    }
+   ]
+  },
+  {
+   "page": "SetWindowPos",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499098(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "HWND_BOTTOM",
+     "desc": "Places the window at the bottom of the z-order."
+    },
+    {
+     "name": "HWND_NOTOPMOST",
+     "desc": "Places the window above all non-topmost windows (that is, behind all topmost windows)."
+    },
+    {
+     "name": "HWND_TOP",
+     "desc": "Places the window at the top of the z-order."
+    },
+    {
+     "name": "HWND_TOPMOST",
+     "desc": "Places the window above all non-topmost windows."
+    },
+    {
+     "name": "SWP_DRAWFRAME",
+     "desc": "Draws a frame (defined in the window's class description) around the window."
+    },
+    {
+     "name": "SWP_FRAMECHANGED",
+     "desc": "Causes the operating system to recalculate the size and position of the windows client area, even if the window size is not being changed."
+    },
+    {
+     "name": "SWP_HIDEWINDOW",
+     "desc": "Hides the window."
+    },
+    {
+     "name": "SWP_NOACTIVATE",
+     "desc": "Does not activate the window."
+    },
+    {
+     "name": "SWP_NOCOPYBITS",
+     "desc": "Discards the entire contents of the client area."
+    },
+    {
+     "name": "SWP_NOMOVE",
+     "desc": "Retains the current position (ignores the X and Y parameters)."
+    },
+    {
+     "name": "SWP_NOOWNERZORDER",
+     "desc": "Does not change the owner window's position in the z-order."
+    },
+    {
+     "name": "SWP_NOREPOSITION",
+     "desc": "Same as the SWP_NOOWNERZORDER flag."
+    },
+    {
+     "name": "SWP_NOSIZE",
+     "desc": "Retains the current size (ignores the cx and cy parameters)."
+    },
+    {
+     "name": "SWP_NOZORDER",
+     "desc": "Retains the current z-order (ignores the hWndInsertAfter parameter)."
+    },
+    {
+     "name": "SWP_SHOWWINDOW",
+     "desc": "Displays the window."
+    }
+   ]
+  },
+  {
+   "page": "ShowWindow",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499640(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "SW_HIDE",
+     "desc": "Hides the window and activates another window."
+    },
+    {
+     "name": "SW_SHOW",
+     "desc": "Activates the window and displays it in its current size and position."
+    },
+    {
+     "name": "SW_SHOWNA",
+     "desc": "Displays the window in its current state."
+    },
+    {
+     "name": "SW_SHOWNORMAL",
+     "desc": "Activates and displays a window."
+    }
+   ]
+  },
+  {
+   "page": "Binary Raster Operations",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452878(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "R2_BLACK",
+     "desc": "0"
+    },
+    {
+     "name": "R2_COPYPEN",
+     "desc": "P"
+    },
+    {
+     "name": "R2_MASKNOTPEN",
+     "desc": "DPna"
+    },
+    {
+     "name": "R2_MASKPEN",
+     "desc": "DPa"
+    },
+    {
+     "name": "R2_MASKPENNOT",
+     "desc": "PDna"
+    },
+    {
+     "name": "R2_MERGENOTPEN",
+     "desc": "DPno"
+    },
+    {
+     "name": "R2_MERGEPEN",
+     "desc": "DPo"
+    },
+    {
+     "name": "R2_MERGEPENNOT",
+     "desc": "PDno"
+    },
+    {
+     "name": "R2_NOP",
+     "desc": "D"
+    },
+    {
+     "name": "R2_NOT",
+     "desc": "Dn"
+    },
+    {
+     "name": "R2_NOTCOPYPEN",
+     "desc": "Pn"
+    },
+    {
+     "name": "R2_NOTMASKPEN",
+     "desc": "DPan"
+    },
+    {
+     "name": "R2_NOTMERGEPEN",
+     "desc": "DPon"
+    },
+    {
+     "name": "R2_NOTXORPEN",
+     "desc": "DPxn"
+    },
+    {
+     "name": "R2_WHITE",
+     "desc": "1"
+    },
+    {
+     "name": "R2_XORPEN",
+     "desc": "DPx"
+    },
+    {
+     "name": "R2_BLACK",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_COPYPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MASKNOTPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_MASKPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MASKPENNOT",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MERGENOTPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_MERGEPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MERGEPENNOT",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOP",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_NOT",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOTCOPYPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_NOTMASKPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_NOTMERGEPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOTXORPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_WHITE",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_XORPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_BLACK",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_COPYPEN",
+     "desc": "Visible white line"
+    },
+    {
+     "name": "R2_MASKNOTPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MASKPEN",
+     "desc": "Invisible blue line"
+    },
+    {
+     "name": "R2_MASKPENNOT",
+     "desc": "Visible red/green line"
+    },
+    {
+     "name": "R2_MERGENOTPEN",
+     "desc": "Invisible blue line"
+    },
+    {
+     "name": "R2_MERGEPEN",
+     "desc": "Visible white line"
+    },
+    {
+     "name": "R2_MERGEPENNOT",
+     "desc": "Visible white line"
+    },
+    {
+     "name": "R2_NOP",
+     "desc": "Invisible blue line"
+    },
+    {
+     "name": "R2_NOT",
+     "desc": "Visible red/green line"
+    },
+    {
+     "name": "R2_NOTCOPYPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOTMASKPEN",
+     "desc": "Visible red/green line"
+    },
+    {
+     "name": "R2_NOTMERGEPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOTXORPEN",
+     "desc": "Invisible blue line"
+    },
+    {
+     "name": "R2_WHITE",
+     "desc": "Visible white line"
+    },
+    {
+     "name": "R2_XORPEN",
+     "desc": "Visible red/green line"
+    }
+   ]
+  },
+  {
+   "page": "Ternary Raster Operations",
+   "docset": "ce50",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452783(v=msdn.10)",
+   "retrieved": "2026-11-06",
+   "constants": []
+  },
+  {
+   "page": "Binary Raster Operations",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee499662(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": [
+    {
+     "name": "R2_BLACK",
+     "desc": "0"
+    },
+    {
+     "name": "R2_COPYPEN",
+     "desc": "P"
+    },
+    {
+     "name": "R2_MASKNOTPEN",
+     "desc": "DPna"
+    },
+    {
+     "name": "R2_MASKPEN",
+     "desc": "DPa"
+    },
+    {
+     "name": "R2_MASKPENNOT",
+     "desc": "PDna"
+    },
+    {
+     "name": "R2_MERGENOTPEN",
+     "desc": "DPno"
+    },
+    {
+     "name": "R2_MERGEPEN",
+     "desc": "DPo"
+    },
+    {
+     "name": "R2_MERGEPENNOT",
+     "desc": "PDno"
+    },
+    {
+     "name": "R2_NOP",
+     "desc": "D"
+    },
+    {
+     "name": "R2_NOT",
+     "desc": "Dn"
+    },
+    {
+     "name": "R2_NOTCOPYPEN",
+     "desc": "Pn"
+    },
+    {
+     "name": "R2_NOTMASKPEN",
+     "desc": "DPan"
+    },
+    {
+     "name": "R2_NOTMERGEPEN",
+     "desc": "DPon"
+    },
+    {
+     "name": "R2_NOTXORPEN",
+     "desc": "DPxn"
+    },
+    {
+     "name": "R2_WHITE",
+     "desc": "1"
+    },
+    {
+     "name": "R2_XORPEN",
+     "desc": "DPx"
+    },
+    {
+     "name": "R2_BLACK",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_COPYPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MASKNOTPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_MASKPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MASKPENNOT",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MERGENOTPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_MERGEPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MERGEPENNOT",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOP",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_NOT",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOTCOPYPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_NOTMASKPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_NOTMERGEPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOTXORPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_WHITE",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_XORPEN",
+     "desc": "No visible line"
+    },
+    {
+     "name": "R2_BLACK",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_COPYPEN",
+     "desc": "Visible white line"
+    },
+    {
+     "name": "R2_MASKNOTPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_MASKPEN",
+     "desc": "Invisible blue line"
+    },
+    {
+     "name": "R2_MASKPENNOT",
+     "desc": "Visible red/green line"
+    },
+    {
+     "name": "R2_MERGENOTPEN",
+     "desc": "Invisible blue line"
+    },
+    {
+     "name": "R2_MERGEPEN",
+     "desc": "Visible white line"
+    },
+    {
+     "name": "R2_MERGEPENNOT",
+     "desc": "Visible white line"
+    },
+    {
+     "name": "R2_NOP",
+     "desc": "Invisible blue line"
+    },
+    {
+     "name": "R2_NOT",
+     "desc": "Visible red/green line"
+    },
+    {
+     "name": "R2_NOTCOPYPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOTMASKPEN",
+     "desc": "Visible red/green line"
+    },
+    {
+     "name": "R2_NOTMERGEPEN",
+     "desc": "Visible black line"
+    },
+    {
+     "name": "R2_NOTXORPEN",
+     "desc": "Invisible blue line"
+    },
+    {
+     "name": "R2_WHITE",
+     "desc": "Visible white line"
+    },
+    {
+     "name": "R2_XORPEN",
+     "desc": "Visible red/green line"
+    }
+   ]
+  },
+  {
+   "page": "Ternary Raster Operations",
+   "docset": "ce60",
+   "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee501409(v=winembedded.60)",
+   "retrieved": "2026-11-06",
+   "constants": []
+  }
+ ]
+}
