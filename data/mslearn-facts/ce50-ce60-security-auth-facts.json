@@ -1,0 +1,4211 @@
+[
+ {
+  "name": "AcceptSecurityContext",
+  "title": "AcceptSecurityContext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms937012(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY AcceptSecurityContext( PCredHandle phCredential,PCtxtHandle phContext,PSecBufferDesc pInput,ULONGfContextReq,ULONG TargetDataRep,PCtxtHandle phNewContext,PSecBufferDesc pOutput,ULONG SEC_FAR*pfContextAttr,PTimeStamp ptsExpiry);",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY AcceptSecurityContext( PCredHandle phCredential,PCtxtHandle phContext,PSecBufferDesc pInput,ULONGfContextReq,ULONG TargetDataRep,PCtxtHandle phNewContext,PSecBufferDesc pOutput,ULONG SEC_FAR*pfContextAttr,PTimeStamp ptsExpiry);"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "AcquireCredentialsHandle",
+  "title": "AcquireCredentialsHandle (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms937013(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle( SEC_WCHAR SEC_FAR* pszPrincipal,SEC_WCHAR SEC_FAR* pszPackage,ULONG fCredentialUse,void SEC_FAR* pvLogonId,void SEC_FAR* pAuthData,SEC_GET_KEY_FN pGetKeyFn,void SEC_FAR* pvGetKeyArgument,PCredHandle phCredential,PTimeStamp ptsExpiry );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle( SEC_WCHAR SEC_FAR* pszPrincipal,SEC_WCHAR SEC_FAR* pszPackage,ULONG fCredentialUse,void SEC_FAR* pvLogonId,void SEC_FAR* pAuthData,SEC_GET_KEY_FN pGetKeyFn,void SEC_FAR* pvGetKeyArgument,PCredHandle phCredential,PTimeStamp ptsExpiry );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "If the transport does not support the notion of callback to retrieve credentials, this parameter must be NULL. For kernel mode callers, the following differences must be noted: The two string parameters are Unicode strings and the buffer values must be allocated in process virtual memory, not from the pool.",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "ApplyControlToken",
+  "title": "ApplyControlToken (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms937015(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY ApplyControlToken( PCtxtHandle phContext,PSecBufferDesc pInput );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY ApplyControlToken( PCtxtHandle phContext,PSecBufferDesc pInput );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "CompleteAuthToken",
+  "title": "CompleteAuthToken (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms937725(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY CompleteAuthToken( PCtxtHandle phContext,PSecBufferDesc pToken );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY CompleteAuthToken( PCtxtHandle phContext,PSecBufferDesc pToken );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "DecryptMessage",
+  "title": "DecryptMessage (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938416(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY DecryptMessage( PCtxtHandle phContext, PSecBufferDesc pMessage, ULONG MessageSeqNo, PULONG pfQOP);",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY DecryptMessage( PCtxtHandle phContext, PSecBufferDesc pMessage, ULONG MessageSeqNo, PULONG pfQOP);"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "The function pointer should be checked to make sure it is not NULL, because earlier versions of Windows CE did not export this function.",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "DeleteSecurityContext",
+  "title": "DeleteSecurityContext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906494(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY DeleteSecurityContext( PCtxtHandle phContext );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY DeleteSecurityContext( PCtxtHandle phContext );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "EncryptMessage",
+  "title": "EncryptMessage (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906502(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY EncryptMessage( PCtxtHandle phContext, ULONG fQOP, PSecBufferDesc pMessage, ULONG MessageSeqNo);",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY EncryptMessage( PCtxtHandle phContext, ULONG fQOP, PSecBufferDesc pMessage, ULONG MessageSeqNo);"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "The function pointer should be checked to make sure it is not NULL, since earlier versions of Windows CE did not export this function.",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "EnumerateSecurityPackages",
+  "title": "EnumerateSecurityPackages (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906509(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY EnumerateSecurityPackages( ULONG SEC_FAR* pcPackages,PSecPkgInfo SEC_FAR* ppPackageInfo );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY EnumerateSecurityPackages( ULONG SEC_FAR* pcPackages,PSecPkgInfo SEC_FAR* ppPackageInfo );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "FreeContextBuffer",
+  "title": "FreeContextBuffer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906515(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY FreeContextBuffer( void SEC_FAR* pvContextBuffer );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY FreeContextBuffer( void SEC_FAR* pvContextBuffer );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "FreeCredentialsHandle",
+  "title": "FreeCredentialsHandle (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906519(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY FreeCredentialsHandle( PCredHandle phCredential );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY FreeCredentialsHandle( PCredHandle phCredential );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "InitSecurityInterface",
+  "title": "InitSecurityInterface (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926095(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "PSecurityFunctionTable SEC_ENTRY InitSecurityInterface();",
+  "code_blocks": [
+   "PSecurityFunctionTable SEC_ENTRY InitSecurityInterface();"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "InitializeSecurityContext",
+  "title": "InitializeSecurityContext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926002(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY InitializeSecurityContext( PCredHandle phCredential,PCtxtHandle phContext,SEC_WCHAR SEC_FAR* pszTargetName,ULONG fContextReq,ULONG Reserved1,ULONG TargetDataRep,PSecBufferDesc pInput,ULONG Reserved2,PCtxtHandle phNewContext,PSecBufferDesc pOutput,ULONG SEC_FAR* pfContextAttr,PTimeStamp ptsExpiry );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY InitializeSecurityContext( PCredHandle phCredential,PCtxtHandle phContext,SEC_WCHAR SEC_FAR* pszTargetName,ULONG fContextReq,ULONG Reserved1,ULONG TargetDataRep,PSecBufferDesc pInput,ULONG Reserved2,PCtxtHandle phNewContext,PSecBufferDesc pOutput,ULONG SEC_FAR* pfContextAttr,PTimeStamp ptsExpiry );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "If the caller is not an interactive user (for example, a non-interactive service), this flag is ignored.",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "InternetCanonicalizeUrl",
+  "title": "InternetCanonicalizeUrl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926106(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetCanonicalizeUrl(LPCTSTRlpszUrl,LPWSTRlpszBuffer,LPDWORDlpdwBufferLength,DWORDdwFlags );",
+  "code_blocks": [
+   "BOOL WINAPI InternetCanonicalizeUrl(LPCTSTRlpszUrl,LPWSTRlpszBuffer,LPDWORDlpdwBufferLength,DWORDdwFlags );"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "MakeSignature",
+  "title": "MakeSignature (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926142(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY MakeSignature( PCtxtHandle phContext,ULONG fQOP,PSecBufferDesc pMessage,ULONG MessageSeqNo );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY MakeSignature( PCtxtHandle phContext,ULONG fQOP,PSecBufferDesc pMessage,ULONG MessageSeqNo );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMAddGroup",
+  "title": "NTLMAddGroup (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926159(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMAddGroup( WCHAR* groupName);",
+  "code_blocks": [
+   "BOOL NTLMAddGroup( WCHAR* groupName);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMAddUserToGroup",
+  "title": "NTLMAddUserToGroup (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926164(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMAddUserToGroup( WCHAR* groupName, WCHAR* userName);",
+  "code_blocks": [
+   "BOOL NTLMAddUserToGroup( WCHAR* groupName, WCHAR* userName);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMDeleteUser",
+  "title": "NTLMDeleteUser (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926171(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMDeleteUser(LPTSTRpszUser);",
+  "code_blocks": [
+   "BOOL NTLMDeleteUser(LPTSTRpszUser);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMEnumGroups",
+  "title": "NTLMEnumGroups (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926178(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMEnumGroups( DWORD index, WCHAR* groupName, DWORD* dwSizeInChars);",
+  "code_blocks": [
+   "BOOL NTLMEnumGroups( DWORD index, WCHAR* groupName, DWORD* dwSizeInChars);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMEnumUser",
+  "title": "NTLMEnumUser (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926183(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMEnumUser(DWORDindex,LPTSTRpszUser,LPDWORDpcchUser);",
+  "code_blocks": [
+   "BOOL NTLMEnumUser(DWORDindex,LPTSTRpszUser,LPDWORDpcchUser);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMGetGroupList",
+  "title": "NTLMGetGroupList (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926187(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMGetGroupList( WCHAR* userName, WCHAR* groupList, DWORD* pdwccLen);",
+  "code_blocks": [
+   "BOOL NTLMGetGroupList( WCHAR* userName, WCHAR* groupList, DWORD* pdwccLen);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMGetUserList",
+  "title": "NTLMGetUserList (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926195(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMGetUserList( WCHAR* groupName, WCHAR* userList, DWORD* pdwccLen);",
+  "code_blocks": [
+   "BOOL NTLMGetUserList( WCHAR* groupName, WCHAR* userList, DWORD* pdwccLen);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMRemoveGroup",
+  "title": "NTLMRemoveGroup (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926201(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMRemoveGroup( WCHAR* groupName);",
+  "code_blocks": [
+   "BOOL NTLMRemoveGroup( WCHAR* groupName);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMRemoveUserFromGroup",
+  "title": "NTLMRemoveUserFromGroup (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926207(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMRemoveUserFromGroup( WCHAR* groupName, WCHAR* userName);",
+  "code_blocks": [
+   "BOOL NTLMRemoveUserFromGroup( WCHAR* groupName, WCHAR* userName);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMSetUserInfo",
+  "title": "NTLMSetUserInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926215(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMSetUserInfo(LPTSTRpszUser,LPTSTRpszPassword);",
+  "code_blocks": [
+   "BOOL NTLMSetUserInfo(LPTSTRpszUser,LPTSTRpszPassword);"
+  ],
+  "requirements": {
+   "header": "Ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "QueryContextAttributes",
+  "title": "QueryContextAttributes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938456(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY QueryContextAttributes( PCtxtHandle phContext,ULONG ulAttribute,void SEC_FAR* pBuffer );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY QueryContextAttributes( PCtxtHandle phContext,ULONG ulAttribute,void SEC_FAR* pBuffer );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "QueryCredentialsAttributes",
+  "title": "QueryCredentialsAttributes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938459(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY QueryCredentialsAttributes( PCredHandle phCredential,ULONG ulAttribute,void SEC_FAR* pBuffer );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY QueryCredentialsAttributes( PCredHandle phCredential,ULONG ulAttribute,void SEC_FAR* pBuffer );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "QuerySecurityPackageInfo",
+  "title": "QuerySecurityPackageInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938462(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY QuerySecurityPackageInfo(SEC_WCHAR SEC_FAR* pszPackageName,PSecPkgInfo SEC_FAR* ppPackageInfo );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY QuerySecurityPackageInfo(SEC_WCHAR SEC_FAR* pszPackageName,PSecPkgInfo SEC_FAR* ppPackageInfo );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "SealMessage",
+  "title": "SealMessage (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926485(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY SealMessage( PCtxtHandle phContext,ULONG fQOP PSecBufferDesc pMessage,ULONG MessageSeqNo,);",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY SealMessage( PCtxtHandle phContext,ULONG fQOP PSecBufferDesc pMessage,ULONG MessageSeqNo,);"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "UnsealMessage",
+  "title": "UnsealMessage (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926486(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY UnsealMessage( PCtxtHandle phContext,PSecBufferDesc pMessage,ULONG MessageSeqNo,ULONG* pfQOP );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY UnsealMessage( PCtxtHandle phContext,PSecBufferDesc pMessage,ULONG MessageSeqNo,ULONG* pfQOP );"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "VerifySignature",
+  "title": "VerifySignature (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926455(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY VerifySignature( PCtxtHandle phContext,PSecBufferDesc pMessage,ULONG MessageSeqNo,ULONG SEC_FAR* pfQOP );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY VerifySignature( PCtxtHandle phContext,PSecBufferDesc pMessage,ULONG MessageSeqNo,ULONG SEC_FAR* pfQOP );"
+  ],
+  "requirements": {
+   "header": "Security.h, Sspi.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "SCHANNEL_CRED",
+  "title": "SCHANNEL_CRED (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926432(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SCHANNEL_CRED { DWORDdwVersion;DWORDcCreds;PCCERT_CONTEXT*paCred;HCERTSTOREhRootStore;DWORD cMappers;struct _HMAPPER**aphMappers;DWORDcSupportedAlgs;ALG_ID*palgSupportedAlgs;DWORDgrbitEnabledProtocols;DWORDdwMinimumCipherStrength;DWORDdwMaximumCipherStrength;DWORDdwSessionLifespan;DWORDdwFlags;DWORDreserved;} SCHANNEL_CRED, *PSCHANNEL_CRED;",
+  "code_blocks": [
+   "typedef struct _SCHANNEL_CRED { DWORDdwVersion;DWORDcCreds;PCCERT_CONTEXT*paCred;HCERTSTOREhRootStore;DWORD cMappers;struct _HMAPPER**aphMappers;DWORDcSupportedAlgs;ALG_ID*palgSupportedAlgs;DWORDgrbitEnabledProtocols;DWORDdwMinimumCipherStrength;DWORDdwMaximumCipherStrength;DWORDdwSessionLifespan;DWORDdwFlags;DWORDreserved;} SCHANNEL_CRED, *PSCHANNEL_CRED;"
+  ],
+  "requirements": {
+   "header": "Schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SEC_WINNT_AUTH_IDENTITY",
+  "title": "SEC_WINNT_AUTH_IDENTITY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926452(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SEC_WINNT_AUTH_IDENTITY {unsigned short _RPC_FAR* User;unsigned long UserLength;unsigned short _RPC_FAR* Domain;unsigned long DomainLength;unsigned long _RPC_FAR* Password;unsigned long PasswordLength;unsigned long Flags;} SEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY;",
+  "code_blocks": [
+   "typedef struct _SEC_WINNT_AUTH_IDENTITY {unsigned short _RPC_FAR* User;unsigned long UserLength;unsigned short _RPC_FAR* Domain;unsigned long DomainLength;unsigned long _RPC_FAR* Password;unsigned long PasswordLength;unsigned long Flags;} SEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY;"
+  ],
+  "requirements": {
+   "header": "Rpcdce.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SSPI Handles",
+  "title": "SSPI Handles (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926453(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecHandle { ULONG_PTR dwLower; ULONG_PTR dwUpper; } SecHandle, * PSecHandle; typedef SecHandle CredHandle; typedef PSecHandle PCredHandle; typedef SecHandle CtxtHandle; typedef PSecHandle PCtxtHandle;",
+  "code_blocks": [
+   "typedef struct _SecHandle { ULONG_PTR dwLower; ULONG_PTR dwUpper; } SecHandle, * PSecHandle; typedef SecHandle CredHandle; typedef PSecHandle PCredHandle; typedef SecHandle CtxtHandle; typedef PSecHandle PCtxtHandle;"
+  ],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecBuffer",
+  "title": "SecBuffer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926433(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecBuffer {ULONGcbBuffer;ULONG BufferType;PVOID pvBuffer;} SecBuffer, *PSecBuffer;",
+  "code_blocks": [
+   "typedef struct _SecBuffer {ULONGcbBuffer;ULONG BufferType;PVOID pvBuffer;} SecBuffer, *PSecBuffer;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecBufferDesc",
+  "title": "SecBufferDesc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926434(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecBufferDesc {ULONG ulVersion;ULONG cBuffers;PSecBuffer pBuffers;} SecBufferDesc, *PSecBufferDesc;",
+  "code_blocks": [
+   "typedef struct _SecBufferDesc {ULONG ulVersion;ULONG cBuffers;PSecBuffer pBuffers;} SecBufferDesc, *PSecBufferDesc;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_Authority",
+  "title": "SecPkgContext_Authority (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926435(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_Authority {SEC_CHAR SEC_FAR* sAuthorityName;} SecPkgContext_Authority, *PSecPkgContext_Authority;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_Authority {SEC_CHAR SEC_FAR* sAuthorityName;} SecPkgContext_Authority, *PSecPkgContext_Authority;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_ConnectionInfo",
+  "title": "SecPkgContext_ConnectionInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926436(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_ConnectionInfo { DWORDdwProtocol;ALG_IDaiCipher;DWORDdwCipherStrength;ALG_IDaiHash;DWORDdwHashStrength;ALG_ID aiExch;DWORDdwExchStrength;} SecPkgContext_ConnectionInfo, *PSecPkgContext_ConnectionInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_ConnectionInfo { DWORDdwProtocol;ALG_IDaiCipher;DWORDdwCipherStrength;ALG_IDaiHash;DWORDdwHashStrength;ALG_ID aiExch;DWORDdwExchStrength;} SecPkgContext_ConnectionInfo, *PSecPkgContext_ConnectionInfo;"
+  ],
+  "requirements": {
+   "header": "Schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_DceInfo",
+  "title": "SecPkgContext_DceInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926437(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContex_DceInfo {ULONGAuthzSvc;PVOIDSEC_FAR* pPac;} SecPkgContext_DceInfo, SEC_FAR *PSecPkgContext_DceInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgContex_DceInfo {ULONGAuthzSvc;PVOIDSEC_FAR* pPac;} SecPkgContext_DceInfo, SEC_FAR *PSecPkgContext_DceInfo;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_IssuerListInfoEx",
+  "title": "SecPkgContext_IssuerListInfoEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926438(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_IssuerListInfoEx { PCERT_NAME_BLOBaIssuers;DWORDcIssuers;} SecPkgContext_IssuerListInfoEx, *PSecPkgContext_IssuerListInfoEx;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_IssuerListInfoEx { PCERT_NAME_BLOBaIssuers;DWORDcIssuers;} SecPkgContext_IssuerListInfoEx, *PSecPkgContext_IssuerListInfoEx;"
+  ],
+  "requirements": {
+   "header": "Schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_KeyInfo",
+  "title": "SecPkgContext_KeyInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926439(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_KeyInfo {SEC_CHARSEC_FAR* sSignatureAlgorithmName;SEC_CHAR SEC_FAR* sEncryptAlgorithmName;ULONG KeySize;ULONG SignatureAlgorithm;ULONG EncryptAlgorithm;} SecPkgContext_KeyInfo, SEC_FAR *PSecPkgContext_KeyInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_KeyInfo {SEC_CHARSEC_FAR* sSignatureAlgorithmName;SEC_CHAR SEC_FAR* sEncryptAlgorithmName;ULONG KeySize;ULONG SignatureAlgorithm;ULONG EncryptAlgorithm;} SecPkgContext_KeyInfo, SEC_FAR *PSecPkgContext_KeyInfo;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_Lifespan",
+  "title": "SecPkgContext_Lifespan (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926440(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_Lifespan {TimeStamptsStart;TimeStamptsExpiry;} SecPkgContext_Lifespan, SEC_FAR *PSecPkgContext_Lifespan;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_Lifespan {TimeStamptsStart;TimeStamptsExpiry;} SecPkgContext_Lifespan, SEC_FAR *PSecPkgContext_Lifespan;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_Names",
+  "title": "SecPkgContext_Names (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926441(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_Names {SEC_CHARSEC_FAR* sUserName;} SecPkgContext_Names, SEC_FAR *pSecPkgContext_Names;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_Names {SEC_CHARSEC_FAR* sUserName;} SecPkgContext_Names, SEC_FAR *pSecPkgContext_Names;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_ProtoInfo",
+  "title": "SecPkgContext_ProtoInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926442(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_ProtoInfo { SEC_WCHAR SEC_FAR*sProtocolName;unsigned longmajorVersion;unsigned longminorVersion;} SecPkgContext_ProtoInfo, *PSecPkgContext_ProtoInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_ProtoInfo { SEC_WCHAR SEC_FAR*sProtocolName;unsigned longmajorVersion;unsigned longminorVersion;} SecPkgContext_ProtoInfo, *PSecPkgContext_ProtoInfo;"
+  ],
+  "requirements": {
+   "header": "Schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_Sizes",
+  "title": "SecPkgContext_Sizes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926443(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_Sizes {ULONG cbMaxToken;ULONG cbMaxSignature;ULONG cbBlockSize;ULONG cbSecurityTrailer;} SecPkgContext_Sizes, SEC_FAR *PSecPkgContext_Sizes;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_Sizes {ULONG cbMaxToken;ULONG cbMaxSignature;ULONG cbBlockSize;ULONG cbSecurityTrailer;} SecPkgContext_Sizes, SEC_FAR *PSecPkgContext_Sizes;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_StreamSizes",
+  "title": "SecPkgContext_StreamSizes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926445(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedefstruct _SecPkgContext_StreamSizes {unsignedlongcbHeader;unsignedlongcbTrailer;unsignedlongcbMaximumMessage;unsignedlongcBuffers;unsignedlongcbBlockSize;}SecPkgContext_StreamSizes, *PSecPkgContext_StreamSizes;",
+  "code_blocks": [
+   "typedefstruct _SecPkgContext_StreamSizes {unsignedlongcbHeader;unsignedlongcbTrailer;unsignedlongcbMaximumMessage;unsignedlongcBuffers;unsignedlongcbBlockSize;}SecPkgContext_StreamSizes, *PSecPkgContext_StreamSizes;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgCred_CipherStrengths",
+  "title": "SecPkgCred_CipherStrengths (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926446(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgCred_CipherStrengths { DWORDdwMinimumCipherStrength;DWORDdwMaximumCipherStrength;} SecPkgCred_CipherStrengths, *PSecPkgCred_CipherStrengths;",
+  "code_blocks": [
+   "typedef struct _SecPkgCred_CipherStrengths { DWORDdwMinimumCipherStrength;DWORDdwMaximumCipherStrength;} SecPkgCred_CipherStrengths, *PSecPkgCred_CipherStrengths;"
+  ],
+  "requirements": {
+   "header": "Schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgCred_SupportedAlgs",
+  "title": "SecPkgCred_SupportedAlgs (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926448(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgCred_SupportedAlgs { DWORDcSupportedAlgs;ALG_ID*palgSupportedAlgs;} SecPkgCred_SupportedAlgs, *PSecPkgCred_SupportedAlgs;",
+  "code_blocks": [
+   "typedef struct _SecPkgCred_SupportedAlgs { DWORDcSupportedAlgs;ALG_ID*palgSupportedAlgs;} SecPkgCred_SupportedAlgs, *PSecPkgCred_SupportedAlgs;"
+  ],
+  "requirements": {
+   "header": "Schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgCred_SupportedProtocols",
+  "title": "SecPkgCred_SupportedProtocols (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926449(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgCred_SupportedProtocols { DWORDgrbitProtocol;} SecPkgCred_SupportedProtocols, *PSecPkgCred_SupportedProtocols;",
+  "code_blocks": [
+   "typedef struct _SecPkgCred_SupportedProtocols { DWORDgrbitProtocol;} SecPkgCred_SupportedProtocols, *PSecPkgCred_SupportedProtocols;"
+  ],
+  "requirements": {
+   "header": "Schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgCredentials_Names",
+  "title": "SecPkgCredentials_Names (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926447(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgCredentials_Names {SEC_CHAR SEC_FAR* sUserName;} SecPkgCredentials_Names, SEC_FAR *PSecPkgCredentials_Names;",
+  "code_blocks": [
+   "typedef struct _SecPkgCredentials_Names {SEC_CHAR SEC_FAR* sUserName;} SecPkgCredentials_Names, SEC_FAR *PSecPkgCredentials_Names;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgInfo",
+  "title": "SecPkgInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926450(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgInfo {ULONG fCapabilities;USHORT wVersion;USHORT wRPCID;ULONG cbMaxToken;SEC_CHAR SEC_FAR* Name;SEC_CHAR SEC_FAR* Comment;} SecPkgInfo, SEC_FAR *PSecPkgInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgInfo {ULONG fCapabilities;USHORT wVersion;USHORT wRPCID;ULONG cbMaxToken;SEC_CHAR SEC_FAR* Name;SEC_CHAR SEC_FAR* Comment;} SecPkgInfo, SEC_FAR *PSecPkgInfo;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecurityFunctionTable",
+  "title": "SecurityFunctionTable (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926451(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SECURITY_FUNCTION_TABLE_W { unsigned long dwVersion; ENUMERATE_SECURITY_PACKAGES_FN_W EnumerateSecurityPackagesW; QUERY_CREDENTIALS_ATTRIBUTES_FN_W QueryCredentialsAttributesW; ACQUIRE_CREDENTIALS_HANDLE_FN_W AcquireCredentialsHandleW; FREE_CREDENTIALS_HANDLE_FN FreeCredentialsHandle; void SEC_FAR *Reserved2; INITIALIZE_SECURITY_CONTEXT_FN_W InitializeSecurityContextW; ACCEPT_SECURITY_CONTEXT_FN AcceptSecurityContext; COMPLETE_AUTH_TOKEN_FN CompleteAuthToken; DELETE_SECURITY_CONTEXT_FN DeleteSecurityContext; APPLY_CONTROL_TOKEN_FN ApplyControlToken; QUERY_CONTEXT_ATTRIBUTES_FN_W QueryContextAttributesW; IMPERSONATE_SECURITY_CONTEXT_FN ImpersonateSecurityContext; REVERT_SECURITY_CONTEXT_FN RevertSecurityContext; MAKE_SIGNATURE_FN MakeSignature; VERIFY_SIGNATURE_FN VerifySignature; FREE_CONTEXT_BUFFER_FN FreeContextBuffer; QUERY_SECURITY_PACKAGE_INFO_FN_W QuerySecurityPackageInfoW; void SEC_FAR * Reserved3; void SEC_FAR * Reserved4; void SEC_FAR * Reserved5; void SEC_FAR * Reserved6; void SEC_FAR * Reserved7; void SEC_FAR * Reserved8; QUERY_SECURITY_CONTEXT_TOKEN_FN QuerySecurityContextToken; ENCRYPT_MESSAGE_FN EncryptMessage; DECRYPT_MESSAGE_FN DecryptMessage;} SecurityFunctionTableW, SEC_FAR * PSecurityFunctionTableW;",
+  "code_blocks": [
+   "typedef struct _SECURITY_FUNCTION_TABLE_W { unsigned long dwVersion; ENUMERATE_SECURITY_PACKAGES_FN_W EnumerateSecurityPackagesW; QUERY_CREDENTIALS_ATTRIBUTES_FN_W QueryCredentialsAttributesW; ACQUIRE_CREDENTIALS_HANDLE_FN_W AcquireCredentialsHandleW; FREE_CREDENTIALS_HANDLE_FN FreeCredentialsHandle; void SEC_FAR *Reserved2; INITIALIZE_SECURITY_CONTEXT_FN_W InitializeSecurityContextW; ACCEPT_SECURITY_CONTEXT_FN AcceptSecurityContext; COMPLETE_AUTH_TOKEN_FN CompleteAuthToken; DELETE_SECURITY_CONTEXT_FN DeleteSecurityContext; APPLY_CONTROL_TOKEN_FN ApplyControlToken; QUERY_CONTEXT_ATTRIBUTES_FN_W QueryContextAttributesW; IMPERSONATE_SECURITY_CONTEXT_FN ImpersonateSecurityContext; REVERT_SECURITY_CONTEXT_FN RevertSecurityContext; MAKE_SIGNATURE_FN MakeSignature; VERIFY_SIGNATURE_FN VerifySignature; FREE_CONTEXT_BUFFER_FN FreeContextBuffer; QUERY_SECURITY_PACKAGE_INFO_FN_W QuerySecurityPackageInfoW; void SEC_FAR * Reserved3; void SEC_FAR * Reserved4; void SEC_FAR * Reserved5; void SEC_FAR * Reserved6; void SEC_FAR * Reserved7; void SEC_FAR * Reserved8; QUERY_SECURITY_CONTEXT_TOKEN_FN QuerySecurityContextToken; ENCRYPT_MESSAGE_FN EncryptMessage; DECRYPT_MESSAGE_FN DecryptMessage;} SecurityFunctionTableW, SEC_FAR * PSecurityFunctionTableW;"
+  ],
+  "requirements": {
+   "header": "Sspi.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "CeCredFree",
+  "title": "CeCredFree (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms937729(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "CeCredFree( PVOID pCred );",
+  "code_blocks": [
+   "CeCredFree( PVOID pCred );"
+  ],
+  "requirements": {
+   "header": "Credmgr.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CeCredRead",
+  "title": "CeCredRead (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms937730(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "CeCredRead( PCWSTR pszTarget,DWORD dwCredType,DWORDdwFlags,PCREDENTIAL pCred );",
+  "code_blocks": [
+   "CeCredRead( PCWSTR pszTarget,DWORD dwCredType,DWORDdwFlags,PCREDENTIAL pCred );"
+  ],
+  "requirements": {
+   "header": "Credmgr.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CeCredWrite",
+  "title": "CeCredWrite (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms937731(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "CeCredWrite( PCWSTR pszTarget,PCREDENTIAL pCred );",
+  "code_blocks": [
+   "CeCredWrite( PCWSTR pszTarget,PCREDENTIAL pCred );"
+  ],
+  "requirements": {
+   "header": "Credmgr.h",
+   "library": "Secur32.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredDelete",
+  "title": "CredDelete (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms936977(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CredDelete( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, DWORD dwFlags);",
+  "code_blocks": [
+   "HRESULT CredDelete( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Cred.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredFree",
+  "title": "CredFree (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms936983(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CredFree( PBYTE pvBuffer);",
+  "code_blocks": [
+   "HRESULT CredFree( PBYTE pvBuffer);"
+  ],
+  "requirements": {
+   "header": "Cred.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredRead",
+  "title": "CredRead (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms936984(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CredRead( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, DWORD dwFlags, PPCRED ppCred);",
+  "code_blocks": [
+   "HRESULT CredRead( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, DWORD dwFlags, PPCRED ppCred);"
+  ],
+  "requirements": {
+   "header": "Cred.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredUpdate",
+  "title": "CredUpdate (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms936985(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CredUpdate( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, PCRED pCred, DWORD dwFlags);",
+  "code_blocks": [
+   "HRESULT CredUpdate( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, PCRED pCred, DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Cred.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredWrite",
+  "title": "CredWrite (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms936986(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CredWrite( PCRED pCred, DWORD dwFlags);",
+  "code_blocks": [
+   "HRESULT CredWrite( PCRED pCred, DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Cred.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "Credential Manager Error Codes",
+  "title": "Credential Manager Error Codes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms936978(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CRED",
+  "title": "CRED (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms936976(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedefstruct_CRED{DWORD dwVersion; DWORD dwType; WSTR wszUser; DWORD dwUserLen; WSTR wszTarget; DWORD dwTargetLen; PBYTE pBlob; DWORD dwBlobSize; DWORD dwFlags;} CRED, *PCRED,**PPCRED;",
+  "code_blocks": [
+   "typedefstruct_CRED{DWORD dwVersion; DWORD dwType; WSTR wszUser; DWORD dwUserLen; WSTR wszTarget; DWORD dwTargetLen; PBYTE pBlob; DWORD dwBlobSize; DWORD dwFlags;} CRED, *PCRED,**PPCRED;"
+  ],
+  "requirements": {
+   "header": "Cred.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Structures"
+ },
+ {
+  "name": "CREDENTIAL",
+  "title": "CREDENTIAL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms937728(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedefstruct_CREDENTIAL{DWORDFlags;DWORDType;FILETIMELastWritten;DWORDCredentialBlobSize;LPBYTECredentialBlob;DWORDPersist;LPTSTRUserName;}CREDENTIAL,*PCREDENTIAL;",
+  "code_blocks": [
+   "typedefstruct_CREDENTIAL{DWORDFlags;DWORDType;FILETIMELastWritten;DWORDCredentialBlobSize;LPBYTECredentialBlob;DWORDPersist;LPTSTRUserName;}CREDENTIAL,*PCREDENTIAL;"
+  ],
+  "requirements": {
+   "header": "Credmgr.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Structures"
+ },
+ {
+  "name": "HandleBlob",
+  "title": "HandleBlob (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906527(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD HandleBlob( DWORD dwType, PWCHAR szTarget, PWCHAR szUser, PBYTE pInBlob, DWORD dwInSize, PBYTE pOutBlob, PDWORD pdwOutSize, DWORD dwFlag);",
+  "code_blocks": [
+   "DWORD HandleBlob( DWORD dwType, PWCHAR szTarget, PWCHAR szUser, PBYTE pInBlob, DWORD dwInSize, PBYTE pOutBlob, PDWORD pdwOutSize, DWORD dwFlag);"
+  ],
+  "requirements": {
+   "header": "Cred_prov.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "If the type provider does not support this entry point, then whatever information the user provides is cached by credential manager.",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "Load Function (Credential Manager)",
+  "title": "Load Function (Credential Manager) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926136(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD Load( DWORD dwType, DWORD dwFlags);",
+  "code_blocks": [
+   "DWORD Load( DWORD dwType, DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Cred_prov.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "MatchTarget",
+  "title": "MatchTarget (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926147(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD MatchTarget( DWORD dwType, PWSTR wszSrc, PWSTR wszDest, DWORD dwFlag, PBOOL pbMatch);",
+  "code_blocks": [
+   "DWORD MatchTarget( DWORD dwType, PWSTR wszSrc, PWSTR wszDest, DWORD dwFlag, PBOOL pbMatch);"
+  ],
+  "requirements": {
+   "header": "Cred_prov.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "MatchUser",
+  "title": "MatchUser (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926153(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD MatchUser( DWORD dwType, PWSTR wszSrc, PWSTR wszDest, DWORD dwFlag, PBOOL pbMatch);",
+  "code_blocks": [
+   "DWORD MatchUser( DWORD dwType, PWSTR wszSrc, PWSTR wszDest, DWORD dwFlag, PBOOL pbMatch);"
+  ],
+  "requirements": {
+   "header": "Cred_prov.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "Unload Function (Credential Manager)",
+  "title": "Unload Function (Credential Manager) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926454(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD UnLoad( DWORD dwType, DWORD dwFlags);",
+  "code_blocks": [
+   "DWORD UnLoad( DWORD dwType, DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Cred_prov.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "DeinitLAP",
+  "title": "DeinitLAP",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938427(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID DeinitLAP();",
+  "code_blocks": [
+   "VOID DeinitLAP();"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "InitLAP (function)",
+  "title": "InitLAP (function)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926083(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InitLAP ( InitLap* il );",
+  "code_blocks": [
+   "BOOL InitLAP ( InitLap* il );"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "LAPCreateEnrollmentConfigDialog",
+  "title": "LAPCreateEnrollmentConfigDialog (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926118(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LAPCreateEnrollmentConfigDialog( HWND hParentWindow, DWORD dwOptions);",
+  "code_blocks": [
+   "BOOL LAPCreateEnrollmentConfigDialog( HWND hParentWindow, DWORD dwOptions);"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "VerifyUser (LAP)",
+  "title": "VerifyUser (LAP)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926487(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL VerifyUser( const GUID* AEKey, LPCWSTR pwszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );",
+  "code_blocks": [
+   "BOOL VerifyUser( const GUID* AEKey, LPCWSTR pwszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "VerifyUserStart",
+  "title": "VerifyUserStart",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926488(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID VerifyUserStart( const GUID* AEKey, LPCWSTR pwszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );",
+  "code_blocks": [
+   "VOID VerifyUserStart( const GUID* AEKey, LPCWSTR pwszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "VerifyUserStop",
+  "title": "VerifyUserStop",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926489(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID VerifyUserStop();",
+  "code_blocks": [
+   "VOID VerifyUserStop();"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "VerifyUserToTop",
+  "title": "VerifyUserToTop",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926490(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID VerifyUserToTop();",
+  "code_blocks": [
+   "VOID VerifyUserToTop();"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "CreateEnrollmentConfigDialog",
+  "title": "CreateEnrollmentConfigDialog",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms937727(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CreateEnrollmentConfigDialog( HWND hParentWindow );",
+  "code_blocks": [
+   "BOOL CreateEnrollmentConfigDialog( HWND hParentWindow );"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "LASSReloadConfig",
+  "title": "LASSReloadConfig (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926124(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LASSReloadConfig();",
+  "code_blocks": [
+   "BOOL LASSReloadConfig();"
+  ],
+  "requirements": {
+   "header": "Lass.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "VerifyUser",
+  "title": "VerifyUser (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926456(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL VerifyUser( const GUID* AEKey, LPCWSTR wszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended);",
+  "code_blocks": [
+   "BOOL VerifyUser( const GUID* AEKey, LPCWSTR wszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended);",
+   "APP A; HWND hMyWindow; VerifyAndCallSecureFunction() { DWORD LastError; GUID AEKeyForFoo = ...; if (VerifyUser(&AEKeyForFoo,\"App A\",hMyWindow,VU_UNTIL_SUCCESS,0)) // Call into LASS; This will CallSecureFunction() // call into active LAP and show LAP-specific UI else TellUserVerificationFailed(GetLastError())); // display your own UI }"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "InitLap (structure)",
+  "title": "InitLap (structure) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926088(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _InitLap { DWORD size; DWORD capabilities;} InitLap;",
+  "code_blocks": [
+   "typedef struct _InitLap { DWORD size; DWORD capabilities;} InitLap;"
+  ],
+  "requirements": {
+   "header": "Lap.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Structures"
+ },
+ {
+  "name": "SCardBeginTransaction",
+  "title": "SCardBeginTransaction (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938481(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardBeginTransaction(SCARDHANDLEhCard );",
+  "code_blocks": [
+   "LONG SCardBeginTransaction(SCARDHANDLEhCard );"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardCancel",
+  "title": "SCardCancel (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938495(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardCancel( SCARDCONTEXThContext);",
+  "code_blocks": [
+   "LONG SCardCancel( SCARDCONTEXThContext);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardConnect",
+  "title": "SCardConnect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938504(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardConnect(SCARDCONTEXThContext, LPCTSTRszReader, DWORDdwShareMode, DWORDdwPreferredProtocols, LPSCARDHANDLEphCard, LPDWORDpdwActiveProtocol);",
+  "code_blocks": [
+   "LONG SCardConnect(SCARDCONTEXThContext, LPCTSTRszReader, DWORDdwShareMode, DWORDdwPreferredProtocols, LPSCARDHANDLEphCard, LPDWORDpdwActiveProtocol);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardControl",
+  "title": "SCardControl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938510(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardControl(SCARDHANDLEhCard, DWORDdwControlCode, LPCVOIDlpInBuffer, DWORDnInBufferSize, LPVOIDlpOutBuffer, DWORDnOutBufferSize, LPDWORDlpBytesReturned);",
+  "code_blocks": [
+   "LONG SCardControl(SCARDHANDLEhCard, DWORDdwControlCode, LPCVOIDlpInBuffer, DWORDnInBufferSize, LPVOIDlpOutBuffer, DWORDnOutBufferSize, LPDWORDlpBytesReturned);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardDisconnect",
+  "title": "SCardDisconnect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938517(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardDisconnect(SCARDHANDLEhCard, DWORDdwDisposition);",
+  "code_blocks": [
+   "LONG SCardDisconnect(SCARDHANDLEhCard, DWORDdwDisposition);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardEndTransaction",
+  "title": "SCardEndTransaction (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938526(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardEndTransaction(SCARDHANDLEhCard, DWORDdwDisposition);",
+  "code_blocks": [
+   "LONG SCardEndTransaction(SCARDHANDLEhCard, DWORDdwDisposition);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardEstablishContext",
+  "title": "SCardEstablishContext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938536(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardEstablishContext(DWORDdwScope, LPCVOIDpvReserved1, LPCVOIDpvReserved2, LPSCARDCONTEXTphContext);",
+  "code_blocks": [
+   "LONG SCardEstablishContext(DWORDdwScope, LPCVOIDpvReserved1, LPCVOIDpvReserved2, LPSCARDCONTEXTphContext);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardForgetCardType",
+  "title": "SCardForgetCardType (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938545(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardForgetCardType(SCARDCONTEXThContext, LPCTSTRszCardName);",
+  "code_blocks": [
+   "LONG SCardForgetCardType(SCARDCONTEXThContext, LPCTSTRszCardName);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardForgetReader",
+  "title": "SCardForgetReader (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938553(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardForgetReader(SCARDCONTEXThContext, LPCTSTRszReaderName);",
+  "code_blocks": [
+   "LONG SCardForgetReader(SCARDCONTEXThContext, LPCTSTRszReaderName);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardFreeMemory",
+  "title": "SCardFreeMemory (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938564(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardFreeMemory( SCARDCONTEXT hContext, LPCVOID pvMem, );",
+  "code_blocks": [
+   "LONG SCardFreeMemory( SCARDCONTEXT hContext, LPCVOID pvMem, );"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardGetAttrib",
+  "title": "SCardGetAttrib (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938574(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardGetAttrib(SCARDHANDLEhCard, DWORDdwAttrId, LPBYTEpbAttr, LPDWORDpcbAttrLen);",
+  "code_blocks": [
+   "LONG SCardGetAttrib(SCARDHANDLEhCard, DWORDdwAttrId, LPBYTEpbAttr, LPDWORDpcbAttrLen);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardGetCardTypeProviderName",
+  "title": "SCardGetCardTypeProviderName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926375(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardGetCardTypeProviderName(SCARDCONTEXT hContext,LPCTSTR szCardName,DWORD dwProviderId,LPTSTR szProvider,LPDWORD pcchProvider);",
+  "code_blocks": [
+   "LONG SCardGetCardTypeProviderName(SCARDCONTEXT hContext,LPCTSTR szCardName,DWORD dwProviderId,LPTSTR szProvider,LPDWORD pcchProvider);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardGetProviderId",
+  "title": "SCardGetProviderId (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926397(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardGetProviderId(SCARDCONTEXThContext, LPCTSTRszCard, LPGUIDpguidProviderId);",
+  "code_blocks": [
+   "LONG SCardGetProviderId(SCARDCONTEXThContext, LPCTSTRszCard, LPGUIDpguidProviderId);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardGetStatusChange",
+  "title": "SCardGetStatusChange (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926406(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardGetStatusChange(SCARDCONTEXThContext, DWORDdwTimeout, LPSCARD_READERSTATErgReaderStates, DWORDcReaders);",
+  "code_blocks": [
+   "LONG SCardGetStatusChange(SCARDCONTEXThContext, DWORDdwTimeout, LPSCARD_READERSTATErgReaderStates, DWORDcReaders);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardIntroduceCardType",
+  "title": "SCardIntroduceCardType (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926415(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardIntroduceCardType(SCARDCONTEXThContext, LPCTSTRszCardName, LPGUIDpguidPrimaryProvider, LPGUIDrgguidInterfaces, DWORDdwInterfaceCount, LPCBYTEpbAtr, LPCBYTEpbAtrMask,DWORDcbAtrLen);",
+  "code_blocks": [
+   "LONG SCardIntroduceCardType(SCARDCONTEXThContext, LPCTSTRszCardName, LPGUIDpguidPrimaryProvider, LPGUIDrgguidInterfaces, DWORDdwInterfaceCount, LPCBYTEpbAtr, LPCBYTEpbAtrMask,DWORDcbAtrLen);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardIntroduceReader",
+  "title": "SCardIntroduceReader (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926416(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardIntroduceReader(SCARDCONTEXThContext, LPCTSTRszReaderName, LPCTSTRszDeviceName);",
+  "code_blocks": [
+   "LONG SCardIntroduceReader(SCARDCONTEXThContext, LPCTSTRszReaderName, LPCTSTRszDeviceName);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardIsValidContext",
+  "title": "SCardIsValidContext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926418(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardIsValidContext(SCARDCONTEXThContext );",
+  "code_blocks": [
+   "LONG SCardIsValidContext(SCARDCONTEXThContext );",
+   "Example Code // Check the smart card context handle. // hContext was set previously by SCardEstablishContext. LONG lReturn; lReturn = SCardIsValidContext(hContext); if ( SCARD_S_SUCCESS != lReturn ) { // Function failed; check return value. if ( ERROR_INVALID_HANDLE == lReturn ) printf(\"Handle is invalid\\n\"); else { // Some unexpected error occurred; report and bail out. printf(\"Failed SCardIsValidContext - %x\\n\", lReturn); exit(1); // Or other appropriate error action. } } else { // Handle is valid; proceed as needed. // ... }"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardListCards",
+  "title": "SCardListCards (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926419(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardListCards(SCARDCONTEXThContext, LPCBYTEpbAtr, LPCGUIDrgguidInterfaces, DWORDcguidInterfaceCount, LPTSTRmszCards, LPDWORDpcchCards);",
+  "code_blocks": [
+   "LONG SCardListCards(SCARDCONTEXThContext, LPCBYTEpbAtr, LPCGUIDrgguidInterfaces, DWORDcguidInterfaceCount, LPTSTRmszCards, LPDWORDpcchCards);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardListInterfaces",
+  "title": "SCardListInterfaces (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926420(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardListInterfaces(SCARDCONTEXThContext, LPCTSTRszCard, LPGUIDpguidInterfaces, LPDWORDpcguidInterfaces);",
+  "code_blocks": [
+   "LONG SCardListInterfaces(SCARDCONTEXThContext, LPCTSTRszCard, LPGUIDpguidInterfaces, LPDWORDpcguidInterfaces);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardListReaders",
+  "title": "SCardListReaders (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926422(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardListReaders(SCARDCONTEXThContext, LPCTSTRmszGroups, LPTSTRmszReaders, LPDWORDpcchReaders);",
+  "code_blocks": [
+   "LONG SCardListReaders(SCARDCONTEXThContext, LPCTSTRmszGroups, LPTSTRmszReaders, LPDWORDpcchReaders);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardLocateCards",
+  "title": "SCardLocateCards (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926423(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardLocateCards(SCARDCONTEXThContext, LPCTSTRmszCards, LPSCARD_READERSTATErgReaderStates, DWORDcReaders);",
+  "code_blocks": [
+   "LONG SCardLocateCards(SCARDCONTEXThContext, LPCTSTRmszCards, LPSCARD_READERSTATErgReaderStates, DWORDcReaders);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardLocateCardsByATR",
+  "title": "SCardLocateCardsByATR (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926424(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardLocateCards(SCARDCONTEXThContext, LPSCARD_ATRMASKrgAtrMasks, DWORDcAtrs, LPSCARD_READERSTATErgReaderStates, DWORDcReaders);",
+  "code_blocks": [
+   "LONG SCardLocateCards(SCARDCONTEXThContext, LPSCARD_ATRMASKrgAtrMasks, DWORDcAtrs, LPSCARD_READERSTATErgReaderStates, DWORDcReaders);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardReconnect",
+  "title": "SCardReconnect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926426(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardReconnect(SCARDHANDLEhCard, DWORDdwShareMode, DWORDdwPreferredProtocols, DWORDdwInitialization, LPDWORDpdwActiveProtocol);",
+  "code_blocks": [
+   "LONG SCardReconnect(SCARDHANDLEhCard, DWORDdwShareMode, DWORDdwPreferredProtocols, DWORDdwInitialization, LPDWORDpdwActiveProtocol);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardReleaseContext",
+  "title": "SCardReleaseContext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926427(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardReleaseContext(SCARDCONTEXThContext);",
+  "code_blocks": [
+   "LONG SCardReleaseContext(SCARDCONTEXThContext);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardSetAttrib",
+  "title": "SCardSetAttrib (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926428(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardSetAttrib(SCARDHANDLEhCard, DWORDdwAttrId, LPCBYTEpbAttr, DWORD cbAttrLen);",
+  "code_blocks": [
+   "LONG SCardSetAttrib(SCARDHANDLEhCard, DWORDdwAttrId, LPCBYTEpbAttr, DWORD cbAttrLen);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardSetCardTypeProviderName",
+  "title": "SCardSetCardTypeProviderName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926429(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardSetCardTypeProviderName(SCARDCONTEXT hContext,LPCTSTR szCardName,DWORD dwProviderId, LPCTSTR szProvider);",
+  "code_blocks": [
+   "LONG SCardSetCardTypeProviderName(SCARDCONTEXT hContext,LPCTSTR szCardName,DWORD dwProviderId, LPCTSTR szProvider);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardStatus",
+  "title": "SCardStatus (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926430(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardStatus(SCARDHANDLEhCard, LPTSTR szReaderName, LPDWORD pcchReaderLen, LPDWORDpdwState, LPDWORDpdwProtocol, LPBYTEpbAtr, LPDWORDpbcAtrLen);",
+  "code_blocks": [
+   "LONG SCardStatus(SCARDHANDLEhCard, LPTSTR szReaderName, LPDWORD pcchReaderLen, LPDWORDpdwState, LPDWORDpdwProtocol, LPBYTEpbAtr, LPDWORDpbcAtrLen);"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardTransmit",
+  "title": "SCardTransmit (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926431(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardTransmit(SCARDHANDLEhCard, LPCSCARD_I0_REQUEST pioSendPci, LPCBYTE pbSendBuffer, DWORD cbSendLength, LPSCARD_IO_REQUEST pioRecvPci, LPBYTE pbRecvBuffer, LPDWORD pcbRecvLength);",
+  "code_blocks": [
+   "LONG SCardTransmit(SCARDHANDLEhCard, LPCSCARD_I0_REQUEST pioSendPci, LPCBYTE pbSendBuffer, DWORD cbSendLength, LPSCARD_IO_REQUEST pioRecvPci, LPBYTE pbRecvBuffer, LPDWORD pcbRecvLength);",
+   "struct { BYTE bCla, // The instruction class bIns, // The instruction code bP1, // Parameter to the instruction bP2, // Parameter to the instruction bP3; // Size of I/O Transfer } CmdBytes;"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "library": "Winscard.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCARD_ATRMASK",
+  "title": "SCARD_ATRMASK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938473(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SCARD_ATRMASK {DWORDcbAtr;BYTErgbAtr[36];BYTErgbMask[36];} SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK;",
+  "code_blocks": [
+   "typedef struct _SCARD_ATRMASK {DWORDcbAtr;BYTErgbAtr[36];BYTErgbMask[36];} SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK;"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Structures"
+ },
+ {
+  "name": "SCARD_IO_REQUEST",
+  "title": "SCARD_IO_REQUEST (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926417(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORD dwProtocol;DWORD cbPciLength;} SCARD_IO_REQUEST;",
+  "code_blocks": [
+   "typedef struct {DWORD dwProtocol;DWORD cbPciLength;} SCARD_IO_REQUEST;"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Structures"
+ },
+ {
+  "name": "SCARD_READERSTATE",
+  "title": "SCARD_READERSTATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms926425(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {LPCTSTR szReader;LPVOID pvUserData;DWORD dwCurrentState;DWORD dwEventState;DWORD cbAtr;BYTE rgbAtr[36];} SCARD_READERSTATE, *PSCARD_READERSTATE, *LPSCARD_READERSTATE;",
+  "code_blocks": [
+   "typedef struct {LPCTSTR szReader;LPVOID pvUserData;DWORD dwCurrentState;DWORD dwEventState;DWORD cbAtr;BYTE rgbAtr[36];} SCARD_READERSTATE, *PSCARD_READERSTATE, *LPSCARD_READERSTATE;"
+  ],
+  "requirements": {
+   "header": "Winscard.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Structures"
+ },
+ {
+  "name": "AcceptSecurityContext",
+  "title": "AcceptSecurityContext (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498791(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY AcceptSecurityContext( PCredHandle phCredential, PCtxtHandle phContext, PSecBufferDesc pInput, ULONG fContextReq, ULONG TargetDataRep, PCtxtHandle phNewContext, PSecBufferDesc pOutput, ULONG SEC_FAR* pfContextAttr, PTimeStamp ptsExpiry );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY AcceptSecurityContext( PCredHandle phCredential, PCtxtHandle phContext, PSecBufferDesc pInput, ULONG fContextReq, ULONG TargetDataRep, PCtxtHandle phNewContext, PSecBufferDesc pOutput, ULONG SEC_FAR* pfContextAttr, PTimeStamp ptsExpiry );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "AcquireCredentialsHandle",
+  "title": "AcquireCredentialsHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498319(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle( SEC_WCHAR SEC_FAR* pszPrincipal, SEC_WCHAR SEC_FAR* pszPackage, ULONG fCredentialUse, void SEC_FAR* pvLogonId, void SEC_FAR* pAuthData, SEC_GET_KEY_FN pGetKeyFn, void SEC_FAR* pvGetKeyArgument, PCredHandle phCredential, PTimeStamp ptsExpiry );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle( SEC_WCHAR SEC_FAR* pszPrincipal, SEC_WCHAR SEC_FAR* pszPackage, ULONG fCredentialUse, void SEC_FAR* pvLogonId, void SEC_FAR* pAuthData, SEC_GET_KEY_FN pGetKeyFn, void SEC_FAR* pvGetKeyArgument, PCredHandle phCredential, PTimeStamp ptsExpiry );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "If the transport does not support the notion of callback to retrieve credentials, this parameter must be NULL. For kernel mode callers, the following differences must be noted: The two string parameters are Unicode strings and the buffer values must be allocated in process virtual memory, not from the pool.",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "ApplyControlToken",
+  "title": "ApplyControlToken (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498530(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY ApplyControlToken( PCtxtHandle phContext, PSecBufferDesc pInput );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY ApplyControlToken( PCtxtHandle phContext, PSecBufferDesc pInput );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "CompleteAuthToken",
+  "title": "CompleteAuthToken (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498357(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY CompleteAuthToken( PCtxtHandle phContext, PSecBufferDesc pToken );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY CompleteAuthToken( PCtxtHandle phContext, PSecBufferDesc pToken );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "DecryptMessage",
+  "title": "DecryptMessage (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497924(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY DecryptMessage( PCtxtHandle phContext, PSecBufferDesc pMessage, ULONG MessageSeqNo, PULONG pfQOP );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY DecryptMessage( PCtxtHandle phContext, PSecBufferDesc pMessage, ULONG MessageSeqNo, PULONG pfQOP );"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "The function pointer should be checked to make sure it is not NULL, because earlier versions of Windows Embedded CE did not export this function.",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "DeleteSecurityContext",
+  "title": "DeleteSecurityContext (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498155(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY DeleteSecurityContext( PCtxtHandle phContext );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY DeleteSecurityContext( PCtxtHandle phContext );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "EncryptMessage",
+  "title": "EncryptMessage (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497967(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY EncryptMessage( PCtxtHandle phContext, ULONG fQOP, PSecBufferDesc pMessage, ULONG MessageSeqNo );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY EncryptMessage( PCtxtHandle phContext, ULONG fQOP, PSecBufferDesc pMessage, ULONG MessageSeqNo );"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "The function pointer should be checked to make sure it is not NULL, since earlier versions of Windows Embedded CE did not export this function.",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "EnumerateSecurityPackages",
+  "title": "EnumerateSecurityPackages (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498364(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY EnumerateSecurityPackages( ULONG SEC_FAR* pcPackages, PSecPkgInfo SEC_FAR* ppPackageInfo );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY EnumerateSecurityPackages( ULONG SEC_FAR* pcPackages, PSecPkgInfo SEC_FAR* ppPackageInfo );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "FreeContextBuffer",
+  "title": "FreeContextBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498365(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY FreeContextBuffer( void SEC_FAR* pvContextBuffer );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY FreeContextBuffer( void SEC_FAR* pvContextBuffer );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "FreeCredentialsHandle",
+  "title": "FreeCredentialsHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498358(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY FreeCredentialsHandle( PCredHandle phCredential );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY FreeCredentialsHandle( PCredHandle phCredential );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "InitSecurityInterface",
+  "title": "InitSecurityInterface (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497969(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "PSecurityFunctionTable SEC_ENTRY InitSecurityInterface();",
+  "code_blocks": [
+   "PSecurityFunctionTable SEC_ENTRY InitSecurityInterface();"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "InitializeSecurityContext",
+  "title": "InitializeSecurityContext (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498386(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY InitializeSecurityContext( PCredHandle phCredential, PCtxtHandle phContext, SEC_WCHAR SEC_FAR* pszTargetName, ULONG fContextReq, ULONG Reserved1, ULONG TargetDataRep, PSecBufferDesc pInput, ULONG Reserved2, PCtxtHandle phNewContext, PSecBufferDesc pOutput, ULONG SEC_FAR* pfContextAttr, PTimeStamp ptsExpiry );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY InitializeSecurityContext( PCredHandle phCredential, PCtxtHandle phContext, SEC_WCHAR SEC_FAR* pszTargetName, ULONG fContextReq, ULONG Reserved1, ULONG TargetDataRep, PSecBufferDesc pInput, ULONG Reserved2, PCtxtHandle phNewContext, PSecBufferDesc pOutput, ULONG SEC_FAR* pfContextAttr, PTimeStamp ptsExpiry );"
+  ],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "InternetCanonicalizeUrl",
+  "title": "InternetCanonicalizeUrl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498343(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetCanonicalizeUrl( LPCTSTR lpszUrl, LPWSTR lpszBuffer, LPDWORD lpdwBufferLength, DWORD dwFlags );",
+  "code_blocks": [
+   "BOOL WINAPI InternetCanonicalizeUrl( LPCTSTR lpszUrl, LPWSTR lpszBuffer, LPDWORD lpdwBufferLength, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "MakeSignature",
+  "title": "MakeSignature (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497994(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY MakeSignature( PCtxtHandle phContext, ULONG fQOP, PSecBufferDesc pMessage, ULONG MessageSeqNo );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY MakeSignature( PCtxtHandle phContext, ULONG fQOP, PSecBufferDesc pMessage, ULONG MessageSeqNo );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMAddGroup",
+  "title": "NTLMAddGroup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498366(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMAddGroup( WCHAR* groupName );",
+  "code_blocks": [
+   "BOOL NTLMAddGroup( WCHAR* groupName );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMAddUserToGroup",
+  "title": "NTLMAddUserToGroup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497921(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMAddUserToGroup( WCHAR* groupName, WCHAR* userName );",
+  "code_blocks": [
+   "BOOL NTLMAddUserToGroup( WCHAR* groupName, WCHAR* userName );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMDeleteUser",
+  "title": "NTLMDeleteUser (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498394(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMDeleteUser( LPTSTR pszUser );",
+  "code_blocks": [
+   "BOOL NTLMDeleteUser( LPTSTR pszUser );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMEnumGroups",
+  "title": "NTLMEnumGroups (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498765(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMEnumGroups( DWORD index, WCHAR* groupName, DWORD* dwSizeInChars );",
+  "code_blocks": [
+   "BOOL NTLMEnumGroups( DWORD index, WCHAR* groupName, DWORD* dwSizeInChars );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMEnumUser",
+  "title": "NTLMEnumUser (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498360(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMEnumUser( DWORD index, LPTSTR pszUser, LPDWORD pcchUser );",
+  "code_blocks": [
+   "BOOL NTLMEnumUser( DWORD index, LPTSTR pszUser, LPDWORD pcchUser );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMGetGroupList",
+  "title": "NTLMGetGroupList (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498383(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMGetGroupList( WCHAR* userName, WCHAR* groupList, DWORD* pdwccLen );",
+  "code_blocks": [
+   "BOOL NTLMGetGroupList( WCHAR* userName, WCHAR* groupList, DWORD* pdwccLen );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMGetUserList",
+  "title": "NTLMGetUserList (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498578(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMGetUserList( WCHAR* groupName, WCHAR* userList, DWORD* pdwccLen );",
+  "code_blocks": [
+   "BOOL NTLMGetUserList( WCHAR* groupName, WCHAR* userList, DWORD* pdwccLen );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMRemoveGroup",
+  "title": "NTLMRemoveGroup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498518(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMRemoveGroup( WCHAR* groupName );",
+  "code_blocks": [
+   "BOOL NTLMRemoveGroup( WCHAR* groupName );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMRemoveUserFromGroup",
+  "title": "NTLMRemoveUserFromGroup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498567(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMRemoveUserFromGroup( WCHAR* groupName, WCHAR* userName );",
+  "code_blocks": [
+   "BOOL NTLMRemoveUserFromGroup( WCHAR* groupName, WCHAR* userName );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "NTLMSetUserInfo",
+  "title": "NTLMSetUserInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498121(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL NTLMSetUserInfo( LPTSTR pszUser, LPTSTR pszPassword );",
+  "code_blocks": [
+   "BOOL NTLMSetUserInfo( LPTSTR pszUser, LPTSTR pszPassword );"
+  ],
+  "requirements": {
+   "header": "ntlmssp.h",
+   "library": "Ntlmssp.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "QueryContextAttributes",
+  "title": "QueryContextAttributes (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497975(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY QueryContextAttributes( PCtxtHandle phContext, ULONG ulAttribute, void SEC_FAR* pBuffer );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY QueryContextAttributes( PCtxtHandle phContext, ULONG ulAttribute, void SEC_FAR* pBuffer );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "QueryCredentialsAttributes",
+  "title": "QueryCredentialsAttributes (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498153(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY QueryCredentialsAttributes( PCredHandle phCredential, ULONG ulAttribute, void SEC_FAR* pBuffer );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY QueryCredentialsAttributes( PCredHandle phCredential, ULONG ulAttribute, void SEC_FAR* pBuffer );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "QuerySecurityPackageInfo",
+  "title": "QuerySecurityPackageInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498368(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY QuerySecurityPackageInfo( SEC_WCHAR SEC_FAR* pszPackageName, PSecPkgInfo SEC_FAR* ppPackageInfo );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY QuerySecurityPackageInfo( SEC_WCHAR SEC_FAR* pszPackageName, PSecPkgInfo SEC_FAR* ppPackageInfo );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "SealMessage",
+  "title": "SealMessage (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498528(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY SealMessage( PCtxtHandle phContext, ULONG fQOP PSecBufferDesc pMessage, ULONG MessageSeqNo, );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY SealMessage( PCtxtHandle phContext, ULONG fQOP PSecBufferDesc pMessage, ULONG MessageSeqNo, );"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "UnsealMessage",
+  "title": "UnsealMessage (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498320(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY UnsealMessage( PCtxtHandle phContext, PSecBufferDesc pMessage, ULONG MessageSeqNo, ULONG* pfQOP );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY UnsealMessage( PCtxtHandle phContext, PSecBufferDesc pMessage, ULONG MessageSeqNo, ULONG* pfQOP );"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "VerifySignature",
+  "title": "VerifySignature (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498591(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SECURITY_STATUS SEC_ENTRY VerifySignature( PCtxtHandle phContext, PSecBufferDesc pMessage, ULONG MessageSeqNo, ULONG SEC_FAR* pfQOP );",
+  "code_blocks": [
+   "SECURITY_STATUS SEC_ENTRY VerifySignature( PCtxtHandle phContext, PSecBufferDesc pMessage, ULONG MessageSeqNo, ULONG SEC_FAR* pfQOP );"
+  ],
+  "requirements": {
+   "header": "security.h, sspi.h",
+   "library": "secur32.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Functions"
+ },
+ {
+  "name": "SCHANNEL_CRED",
+  "title": "SCHANNEL_CRED (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498356(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SCHANNEL_CRED { DWORD dwVersion; DWORD cCreds; PCCERT_CONTEXT* paCred; HCERTSTORE hRootStore; DWORD cMappers; struct _HMAPPER** aphMappers; DWORD cSupportedAlgs; ALG_ID* palgSupportedAlgs; DWORD grbitEnabledProtocols; DWORD dwMinimumCipherStrength; DWORD dwMaximumCipherStrength; DWORD dwSessionLifespan; DWORD dwFlags; DWORD reserved; } SCHANNEL_CRED, *PSCHANNEL_CRED;",
+  "code_blocks": [
+   "typedef struct _SCHANNEL_CRED { DWORD dwVersion; DWORD cCreds; PCCERT_CONTEXT* paCred; HCERTSTORE hRootStore; DWORD cMappers; struct _HMAPPER** aphMappers; DWORD cSupportedAlgs; ALG_ID* palgSupportedAlgs; DWORD grbitEnabledProtocols; DWORD dwMinimumCipherStrength; DWORD dwMaximumCipherStrength; DWORD dwSessionLifespan; DWORD dwFlags; DWORD reserved; } SCHANNEL_CRED, *PSCHANNEL_CRED;"
+  ],
+  "requirements": {
+   "header": "schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SEC_WINNT_AUTH_IDENTITY",
+  "title": "SEC_WINNT_AUTH_IDENTITY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497950(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SEC_WINNT_AUTH_IDENTITY { unsigned short _RPC_FAR* User; unsigned long UserLength; unsigned short _RPC_FAR* Domain; unsigned long DomainLength; unsigned long _RPC_FAR* Password; unsigned long PasswordLength; unsigned long Flags; } SEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY;",
+  "code_blocks": [
+   "typedef struct _SEC_WINNT_AUTH_IDENTITY { unsigned short _RPC_FAR* User; unsigned long UserLength; unsigned short _RPC_FAR* Domain; unsigned long DomainLength; unsigned long _RPC_FAR* Password; unsigned long PasswordLength; unsigned long Flags; } SEC_WINNT_AUTH_IDENTITY, *PSEC_WINNT_AUTH_IDENTITY;"
+  ],
+  "requirements": {
+   "header": "rpcdce.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SSPI Handles",
+  "title": "SSPI Handles (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498699(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecHandle { ULONG_PTR dwLower; ULONG_PTR dwUpper; } SecHandle, * PSecHandle; typedef SecHandle CredHandle; typedef PSecHandle PCredHandle; typedef SecHandle CtxtHandle; typedef PSecHandle PCtxtHandle;",
+  "code_blocks": [
+   "typedef struct _SecHandle { ULONG_PTR dwLower; ULONG_PTR dwUpper; } SecHandle, * PSecHandle; typedef SecHandle CredHandle; typedef PSecHandle PCredHandle; typedef SecHandle CtxtHandle; typedef PSecHandle PCtxtHandle;"
+  ],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecBuffer",
+  "title": "SecBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498790(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecBuffer { ULONG cbBuffer; ULONG BufferType; PVOID pvBuffer; } SecBuffer, *PSecBuffer;",
+  "code_blocks": [
+   "typedef struct _SecBuffer { ULONG cbBuffer; ULONG BufferType; PVOID pvBuffer; } SecBuffer, *PSecBuffer;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecBufferDesc",
+  "title": "SecBufferDesc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498562(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecBufferDesc { ULONG ulVersion; ULONG cBuffers; PSecBuffer pBuffers; } SecBufferDesc, *PSecBufferDesc;",
+  "code_blocks": [
+   "typedef struct _SecBufferDesc { ULONG ulVersion; ULONG cBuffers; PSecBuffer pBuffers; } SecBufferDesc, *PSecBufferDesc;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_Authority",
+  "title": "SecPkgContext_Authority (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498700(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_Authority { SEC_CHAR SEC_FAR* sAuthorityName; } SecPkgContext_Authority, *PSecPkgContext_Authority;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_Authority { SEC_CHAR SEC_FAR* sAuthorityName; } SecPkgContext_Authority, *PSecPkgContext_Authority;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_ConnectionInfo",
+  "title": "SecPkgContext_ConnectionInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497983(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_ConnectionInfo { DWORD dwProtocol; ALG_ID aiCipher; DWORD dwCipherStrength; ALG_ID aiHash; DWORD dwHashStrength; ALG_ID aiExch; DWORD dwExchStrength; } SecPkgContext_ConnectionInfo, *PSecPkgContext_ConnectionInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_ConnectionInfo { DWORD dwProtocol; ALG_ID aiCipher; DWORD dwCipherStrength; ALG_ID aiHash; DWORD dwHashStrength; ALG_ID aiExch; DWORD dwExchStrength; } SecPkgContext_ConnectionInfo, *PSecPkgContext_ConnectionInfo;"
+  ],
+  "requirements": {
+   "header": "schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_DceInfo",
+  "title": "SecPkgContext_DceInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498306(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContex_DceInfo { ULONG AuthzSvc; PVOID SEC_FAR* pPac; } SecPkgContext_DceInfo, SEC_FAR *PSecPkgContext_DceInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgContex_DceInfo { ULONG AuthzSvc; PVOID SEC_FAR* pPac; } SecPkgContext_DceInfo, SEC_FAR *PSecPkgContext_DceInfo;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_IssuerListInfoEx",
+  "title": "SecPkgContext_IssuerListInfoEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498389(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_IssuerListInfoEx { PCERT_NAME_BLOB aIssuers; DWORD cIssuers; } SecPkgContext_IssuerListInfoEx, *PSecPkgContext_IssuerListInfoEx;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_IssuerListInfoEx { PCERT_NAME_BLOB aIssuers; DWORD cIssuers; } SecPkgContext_IssuerListInfoEx, *PSecPkgContext_IssuerListInfoEx;"
+  ],
+  "requirements": {
+   "header": "schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_KeyInfo",
+  "title": "SecPkgContext_KeyInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498301(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_KeyInfo { SEC_CHAR SEC_FAR* sSignatureAlgorithmName; SEC_CHAR SEC_FAR* sEncryptAlgorithmName; ULONG KeySize; ULONG SignatureAlgorithm; ULONG EncryptAlgorithm; } SecPkgContext_KeyInfo, SEC_FAR *PSecPkgContext_KeyInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_KeyInfo { SEC_CHAR SEC_FAR* sSignatureAlgorithmName; SEC_CHAR SEC_FAR* sEncryptAlgorithmName; ULONG KeySize; ULONG SignatureAlgorithm; ULONG EncryptAlgorithm; } SecPkgContext_KeyInfo, SEC_FAR *PSecPkgContext_KeyInfo;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_Lifespan",
+  "title": "SecPkgContext_Lifespan (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498124(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_Lifespan { TimeStamp tsStart; TimeStamp tsExpiry; } SecPkgContext_Lifespan, SEC_FAR *PSecPkgContext_Lifespan;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_Lifespan { TimeStamp tsStart; TimeStamp tsExpiry; } SecPkgContext_Lifespan, SEC_FAR *PSecPkgContext_Lifespan;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_MasterKeyInfo",
+  "title": "SecPkgContext_MasterKeyInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498323(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_MasterKeyInfo { DWORD dwVersion; DWORD cbMasterKey; BYTE rgbMasterKey[512]; DWORD cbClientRandom; BYTE rgbClientRandom[512]; DWORD cbServerRandom; BYTE rgbServerRandom[512]; }SecPkgContext_MasterKeyInfo, *PSecPkgContext_MasterKeyInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_MasterKeyInfo { DWORD dwVersion; DWORD cbMasterKey; BYTE rgbMasterKey[512]; DWORD cbClientRandom; BYTE rgbClientRandom[512]; DWORD cbServerRandom; BYTE rgbServerRandom[512]; }SecPkgContext_MasterKeyInfo, *PSecPkgContext_MasterKeyInfo;"
+  ],
+  "requirements": {
+   "header": "schnlsp.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_Names",
+  "title": "SecPkgContext_Names (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498151(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_Names { SEC_CHAR SEC_FAR* sUserName; } SecPkgContext_Names, SEC_FAR *pSecPkgContext_Names;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_Names { SEC_CHAR SEC_FAR* sUserName; } SecPkgContext_Names, SEC_FAR *pSecPkgContext_Names;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_ProtoInfo",
+  "title": "SecPkgContext_ProtoInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498508(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_ProtoInfo { SEC_WCHAR SEC_FAR* sProtocolName; unsigned long majorVersion; unsigned long minorVersion; } SecPkgContext_ProtoInfo, *PSecPkgContext_ProtoInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_ProtoInfo { SEC_WCHAR SEC_FAR* sProtocolName; unsigned long majorVersion; unsigned long minorVersion; } SecPkgContext_ProtoInfo, *PSecPkgContext_ProtoInfo;"
+  ],
+  "requirements": {
+   "header": "schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_Sizes",
+  "title": "SecPkgContext_Sizes (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498359(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_Sizes { ULONG cbMaxToken; ULONG cbMaxSignature; ULONG cbBlockSize; ULONG cbSecurityTrailer; } SecPkgContext_Sizes, SEC_FAR *PSecPkgContext_Sizes;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_Sizes { ULONG cbMaxToken; ULONG cbMaxSignature; ULONG cbBlockSize; ULONG cbSecurityTrailer; } SecPkgContext_Sizes, SEC_FAR *PSecPkgContext_Sizes;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgContext_StreamSizes",
+  "title": "SecPkgContext_StreamSizes (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498163(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgContext_StreamSizes { unsigned long cbHeader; unsigned long cbTrailer; unsigned long cbMaximumMessage; unsigned long cBuffers; unsigned long cbBlockSize; }SecPkgContext_StreamSizes, *PSecPkgContext_StreamSizes;",
+  "code_blocks": [
+   "typedef struct _SecPkgContext_StreamSizes { unsigned long cbHeader; unsigned long cbTrailer; unsigned long cbMaximumMessage; unsigned long cBuffers; unsigned long cbBlockSize; }SecPkgContext_StreamSizes, *PSecPkgContext_StreamSizes;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgCred_CipherStrengths",
+  "title": "SecPkgCred_CipherStrengths (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497970(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgCred_CipherStrengths { DWORD dwMinimumCipherStrength; DWORD dwMaximumCipherStrength; } SecPkgCred_CipherStrengths, *PSecPkgCred_CipherStrengths;",
+  "code_blocks": [
+   "typedef struct _SecPkgCred_CipherStrengths { DWORD dwMinimumCipherStrength; DWORD dwMaximumCipherStrength; } SecPkgCred_CipherStrengths, *PSecPkgCred_CipherStrengths;"
+  ],
+  "requirements": {
+   "header": "schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgCred_SupportedAlgs",
+  "title": "SecPkgCred_SupportedAlgs (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498177(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgCred_SupportedAlgs { DWORD cSupportedAlgs; ALG_ID* palgSupportedAlgs; } SecPkgCred_SupportedAlgs, *PSecPkgCred_SupportedAlgs;",
+  "code_blocks": [
+   "typedef struct _SecPkgCred_SupportedAlgs { DWORD cSupportedAlgs; ALG_ID* palgSupportedAlgs; } SecPkgCred_SupportedAlgs, *PSecPkgCred_SupportedAlgs;"
+  ],
+  "requirements": {
+   "header": "schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgCred_SupportedProtocols",
+  "title": "SecPkgCred_SupportedProtocols (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498355(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgCred_SupportedProtocols { DWORD grbitProtocol; } SecPkgCred_SupportedProtocols, *PSecPkgCred_SupportedProtocols;",
+  "code_blocks": [
+   "typedef struct _SecPkgCred_SupportedProtocols { DWORD grbitProtocol; } SecPkgCred_SupportedProtocols, *PSecPkgCred_SupportedProtocols;"
+  ],
+  "requirements": {
+   "header": "schnlsp.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgCredentials_Names",
+  "title": "SecPkgCredentials_Names (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498362(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgCredentials_Names { SEC_CHAR SEC_FAR* sUserName; } SecPkgCredentials_Names, SEC_FAR *PSecPkgCredentials_Names;",
+  "code_blocks": [
+   "typedef struct _SecPkgCredentials_Names { SEC_CHAR SEC_FAR* sUserName; } SecPkgCredentials_Names, SEC_FAR *PSecPkgCredentials_Names;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecPkgInfo",
+  "title": "SecPkgInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498134(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SecPkgInfo { ULONG fCapabilities; USHORT wVersion; USHORT wRPCID; ULONG cbMaxToken; SEC_CHAR SEC_FAR* Name; SEC_CHAR SEC_FAR* Comment; } SecPkgInfo, SEC_FAR *PSecPkgInfo;",
+  "code_blocks": [
+   "typedef struct _SecPkgInfo { ULONG fCapabilities; USHORT wVersion; USHORT wRPCID; ULONG cbMaxToken; SEC_CHAR SEC_FAR* Name; SEC_CHAR SEC_FAR* Comment; } SecPkgInfo, SEC_FAR *PSecPkgInfo;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "SecurityFunctionTable",
+  "title": "SecurityFunctionTable (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498731(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SECURITY_FUNCTION_TABLE_W { unsigned long dwVersion; ENUMERATE_SECURITY_PACKAGES_FN_W EnumerateSecurityPackagesW; QUERY_CREDENTIALS_ATTRIBUTES_FN_W QueryCredentialsAttributesW; ACQUIRE_CREDENTIALS_HANDLE_FN_W AcquireCredentialsHandleW; FREE_CREDENTIALS_HANDLE_FN FreeCredentialsHandle; void SEC_FAR *Reserved2; INITIALIZE_SECURITY_CONTEXT_FN_W InitializeSecurityContextW; ACCEPT_SECURITY_CONTEXT_FN AcceptSecurityContext; COMPLETE_AUTH_TOKEN_FN CompleteAuthToken; DELETE_SECURITY_CONTEXT_FN DeleteSecurityContext; APPLY_CONTROL_TOKEN_FN ApplyControlToken; QUERY_CONTEXT_ATTRIBUTES_FN_W QueryContextAttributesW; IMPERSONATE_SECURITY_CONTEXT_FN ImpersonateSecurityContext; REVERT_SECURITY_CONTEXT_FN RevertSecurityContext; MAKE_SIGNATURE_FN MakeSignature; VERIFY_SIGNATURE_FN VerifySignature; FREE_CONTEXT_BUFFER_FN FreeContextBuffer; QUERY_SECURITY_PACKAGE_INFO_FN_W QuerySecurityPackageInfoW; void SEC_FAR * Reserved3; void SEC_FAR * Reserved4; void SEC_FAR * Reserved5; void SEC_FAR * Reserved6; void SEC_FAR * Reserved7; void SEC_FAR * Reserved8; QUERY_SECURITY_CONTEXT_TOKEN_FN QuerySecurityContextToken; ENCRYPT_MESSAGE_FN EncryptMessage; DECRYPT_MESSAGE_FN DecryptMessage; } SecurityFunctionTableW, SEC_FAR * PSecurityFunctionTableW;",
+  "code_blocks": [
+   "typedef struct _SECURITY_FUNCTION_TABLE_W { unsigned long dwVersion; ENUMERATE_SECURITY_PACKAGES_FN_W EnumerateSecurityPackagesW; QUERY_CREDENTIALS_ATTRIBUTES_FN_W QueryCredentialsAttributesW; ACQUIRE_CREDENTIALS_HANDLE_FN_W AcquireCredentialsHandleW; FREE_CREDENTIALS_HANDLE_FN FreeCredentialsHandle; void SEC_FAR *Reserved2; INITIALIZE_SECURITY_CONTEXT_FN_W InitializeSecurityContextW; ACCEPT_SECURITY_CONTEXT_FN AcceptSecurityContext; COMPLETE_AUTH_TOKEN_FN CompleteAuthToken; DELETE_SECURITY_CONTEXT_FN DeleteSecurityContext; APPLY_CONTROL_TOKEN_FN ApplyControlToken; QUERY_CONTEXT_ATTRIBUTES_FN_W QueryContextAttributesW; IMPERSONATE_SECURITY_CONTEXT_FN ImpersonateSecurityContext; REVERT_SECURITY_CONTEXT_FN RevertSecurityContext; MAKE_SIGNATURE_FN MakeSignature; VERIFY_SIGNATURE_FN VerifySignature; FREE_CONTEXT_BUFFER_FN FreeContextBuffer; QUERY_SECURITY_PACKAGE_INFO_FN_W QuerySecurityPackageInfoW; void SEC_FAR * Reserved3; void SEC_FAR * Reserved4; void SEC_FAR * Reserved5; void SEC_FAR * Reserved6; void SEC_FAR * Reserved7; void SEC_FAR * Reserved8; QUERY_SECURITY_CONTEXT_TOKEN_FN QuerySecurityContextToken; ENCRYPT_MESSAGE_FN EncryptMessage; DECRYPT_MESSAGE_FN DecryptMessage; } SecurityFunctionTableW, SEC_FAR * PSecurityFunctionTableW;"
+  ],
+  "requirements": {
+   "header": "sspi.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Authentication Services Structures"
+ },
+ {
+  "name": "CeCredFree",
+  "title": "CeCredFree (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497925(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "CeCredFree( PVOID pCred );",
+  "code_blocks": [
+   "CeCredFree( PVOID pCred );"
+  ],
+  "requirements": {
+   "header": "credmgr.h",
+   "library": "secur32.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CeCredRead",
+  "title": "CeCredRead (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498192(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "CeCredRead( PCWSTR pszTarget, DWORD dwCredType, DWORD dwFlags, PCREDENTIAL pCred );",
+  "code_blocks": [
+   "CeCredRead( PCWSTR pszTarget, DWORD dwCredType, DWORD dwFlags, PCREDENTIAL pCred );"
+  ],
+  "requirements": {
+   "header": "credmgr.h",
+   "library": "secur32.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CeCredWrite",
+  "title": "CeCredWrite (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498563(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "CeCredWrite( PCWSTR pszTarget, PCREDENTIAL pCred );",
+  "code_blocks": [
+   "CeCredWrite( PCWSTR pszTarget, PCREDENTIAL pCred );"
+  ],
+  "requirements": {
+   "header": "credmgr.h",
+   "library": "secur32.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredDelete",
+  "title": "CredDelete (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498519(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CredDelete( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, DWORD dwFlags );",
+  "code_blocks": [
+   "DWORD CredDelete( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "cred.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredFree",
+  "title": "CredFree (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498739(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CredFree( PBYTE pbBuffer );",
+  "code_blocks": [
+   "DWORD CredFree( PBYTE pbBuffer );"
+  ],
+  "requirements": {
+   "header": "cred.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredRead",
+  "title": "CredRead (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498709(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CredRead( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, DWORD dwFlags, PPCRED ppCred );",
+  "code_blocks": [
+   "DWORD CredRead( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, DWORD dwFlags, PPCRED ppCred );"
+  ],
+  "requirements": {
+   "header": "cred.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredUpdate",
+  "title": "CredUpdate (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498536(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CredUpdate( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, PCRED pCred, DWORD dwFlags );",
+  "code_blocks": [
+   "DWORD CredUpdate( WSTR wszTarget, DWORD dwTargetLen, DWORD dwType, PCRED pCred, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "cred.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CredWrite",
+  "title": "CredWrite (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498168(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CredWrite( PCRED pCred, DWORD dwFlags );",
+  "code_blocks": [
+   "DWORD CredWrite( PCRED pCred, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "cred.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Functions"
+ },
+ {
+  "name": "CRED",
+  "title": "CRED (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498123(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CRED { DWORD dwVersion; DWORD dwType; WSTR wszUser; DWORD dwUserLen; WSTR wszTarget; DWORD dwTargetLen; PBYTE pBlob; DWORD dwBlobSize; DWORD dwFlags; } CRED, *PCRED,**PPCRED;",
+  "code_blocks": [
+   "typedef struct _CRED { DWORD dwVersion; DWORD dwType; WSTR wszUser; DWORD dwUserLen; WSTR wszTarget; DWORD dwTargetLen; PBYTE pBlob; DWORD dwBlobSize; DWORD dwFlags; } CRED, *PCRED,**PPCRED;"
+  ],
+  "requirements": {
+   "header": "cred.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Structures"
+ },
+ {
+  "name": "CREDENTIAL",
+  "title": "CREDENTIAL (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497996(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CREDENTIAL { DWORD Flags; DWORD Type; FILETIME LastWritten; DWORD CredentialBlobSize; LPBYTE CredentialBlob; DWORD Persist; LPTSTR UserName; } CREDENTIAL, *PCREDENTIAL;",
+  "code_blocks": [
+   "typedef struct _CREDENTIAL { DWORD Flags; DWORD Type; FILETIME LastWritten; DWORD CredentialBlobSize; LPBYTE CredentialBlob; DWORD Persist; LPTSTR UserName; } CREDENTIAL, *PCREDENTIAL;"
+  ],
+  "requirements": {
+   "header": "credmgr.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Structures"
+ },
+ {
+  "name": "HandleBlob",
+  "title": "HandleBlob (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498797(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD HandleBlob( DWORD dwType, PWCHAR szTarget, PWCHAR szUser, PBYTE pInBlob, DWORD dwInSize, PBYTE pOutBlob, PDWORD pdwOutSize, DWORD dwFlag );",
+  "code_blocks": [
+   "DWORD HandleBlob( DWORD dwType, PWCHAR szTarget, PWCHAR szUser, PBYTE pInBlob, DWORD dwInSize, PBYTE pOutBlob, PDWORD pdwOutSize, DWORD dwFlag );"
+  ],
+  "requirements": {
+   "header": "cred_prov.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "If the type provider does not support this entry point, then whatever information the user provides is cached by credential manager.",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "Load Function (Credential Manager)",
+  "title": "Load Function (Credential Manager) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498721(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD Load( DWORD dwType, DWORD dwFlags );",
+  "code_blocks": [
+   "DWORD Load( DWORD dwType, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "cred_prov.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "MatchTarget",
+  "title": "MatchTarget (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498375(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD MatchTarget( DWORD dwType, PWSTR wszSrc, PWSTR wszDest, DWORD dwFlag, PBOOL pbMatch );",
+  "code_blocks": [
+   "DWORD MatchTarget( DWORD dwType, PWSTR wszSrc, PWSTR wszDest, DWORD dwFlag, PBOOL pbMatch );"
+  ],
+  "requirements": {
+   "header": "cred_prov.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "MatchUser",
+  "title": "MatchUser (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498586(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD MatchUser( DWORD dwType, PWSTR wszSrc, PWSTR wszDest, DWORD dwFlag, PBOOL pbMatch );",
+  "code_blocks": [
+   "DWORD MatchUser( DWORD dwType, PWSTR wszSrc, PWSTR wszDest, DWORD dwFlag, PBOOL pbMatch );"
+  ],
+  "requirements": {
+   "header": "cred_prov.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "Unload Function (Credential Manager)",
+  "title": "Unload Function (Credential Manager) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498154(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD UnLoad( DWORD dwType, DWORD dwFlags );",
+  "code_blocks": [
+   "DWORD UnLoad( DWORD dwType, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "cred_prov.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Credential Manager Type Provider Functions"
+ },
+ {
+  "name": "DeinitLAP",
+  "title": "DeinitLAP (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498525(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID DeinitLAP();",
+  "code_blocks": [
+   "VOID DeinitLAP();"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "os": "Windows CE 5.0 and later Note This function is called by the LASS, not the application. Therefore, no link library is ex"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "InitLAP (function)",
+  "title": "InitLAP (function) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498547(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InitLAP ( InitLap* il );",
+  "code_blocks": [
+   "BOOL InitLAP ( InitLap* il );"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "os": "Windows CE 5.0 and later Note This function is called by the LASS, not the application. Therefore, no link library is ex"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "LAPCancelVerifySequence",
+  "title": "LAPCancelVerifySequence (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498710(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LAPCancelVerifySequence()",
+  "code_blocks": [
+   "BOOL LAPCancelVerifySequence()"
+  ],
+  "requirements": {
+   "header": "lap.h"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "LAPCreateEnrollmentConfigDialog",
+  "title": "LAPCreateEnrollmentConfigDialog (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497901(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LAPCreateEnrollmentConfigDialog( HWND hParentWindow, DWORD dwOptions );",
+  "code_blocks": [
+   "BOOL LAPCreateEnrollmentConfigDialog( HWND hParentWindow, DWORD dwOptions );"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "LAPDisplayCodeword",
+  "title": "LAPDisplayCodeword (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498295(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LAPDisplayCodeword( HWND hwndParent, LPCWSTR pwszCodeword );",
+  "code_blocks": [
+   "BOOL LAPDisplayCodeword( HWND hwndParent, LPCWSTR pwszCodeword );"
+  ],
+  "requirements": {
+   "header": "lap.h"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "LAPDisplayPreWipe",
+  "title": "LAPDisplayPreWipe (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498158(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LAPDisplayPreWipe( HWND hwndParent );",
+  "code_blocks": [
+   "BOOL LAPDisplayPreWipe( HWND hwndParent );"
+  ],
+  "requirements": {
+   "header": "lap.h"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "LAPLockoutUser",
+  "title": "LAPLockoutUser (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498374(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LAPLockoutUser( HWND hwnd, LPCWSTR pwszAEDisplayText, DWORD cSecondsToLockout );",
+  "code_blocks": [
+   "BOOL LAPLockoutUser( HWND hwnd, LPCWSTR pwszAEDisplayText, DWORD cSecondsToLockout );"
+  ],
+  "requirements": {
+   "header": "lap.h"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "VerifyUser (LAP)",
+  "title": "VerifyUser (LAP) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498142(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL VerifyUser( const GUID* AEKey, LPCWSTR pwszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );",
+  "code_blocks": [
+   "BOOL VerifyUser( const GUID* AEKey, LPCWSTR pwszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "os": "Windows CE 5.0 and later Note This function is called by the LASS, not the application. Therefore, no link library is ex"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "VerifyUserStart",
+  "title": "VerifyUserStart (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498589(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID VerifyUserStart( const GUID* AEKey, LPCWSTR pwszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );",
+  "code_blocks": [
+   "VOID VerifyUserStart( const GUID* AEKey, LPCWSTR pwszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "os": "Windows CE 5.0 and later Note This function is called by the LASS, not the application. Therefore, no link library is ex"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "VerifyUserStop",
+  "title": "VerifyUserStop (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498789(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID VerifyUserStop();",
+  "code_blocks": [
+   "VOID VerifyUserStop();"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "os": "Windows CE 5.0 and later Note This function is called by the LASS, not the application. Therefore, no link library is ex"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "VerifyUserToTop",
+  "title": "VerifyUserToTop (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498339(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID VerifyUserToTop();",
+  "code_blocks": [
+   "VOID VerifyUserToTop();"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "os": "Windows CE 5.0 and later Note This function is called by the LASS, not the application. Therefore, no link library is ex"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LAP-Exported Functions"
+ },
+ {
+  "name": "CreateEnrollmentConfigDialog",
+  "title": "CreateEnrollmentConfigDialog (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498318(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CreateEnrollmentConfigDialog( HWND hParentWindow );",
+  "code_blocks": [
+   "BOOL CreateEnrollmentConfigDialog( HWND hParentWindow );"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "os": "Windows CE 5.0 and later Note This function is called by the LASS, not the application. Therefore, no link library is ex"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "LASSClose",
+  "title": "LASSClose (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497926(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LASSClose( LASSHandle hLASS );",
+  "code_blocks": [
+   "BOOL LASSClose( LASSHandle hLASS );"
+  ],
+  "requirements": {
+   "header": "lap.h"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "LASSGetResult",
+  "title": "LASSGetResult (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498744(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LASSGetResult ( LASSHandle hLASS );",
+  "code_blocks": [
+   "BOOL LASSGetResult ( LASSHandle hLASS );"
+  ],
+  "requirements": {
+   "header": "lap.h"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "LASSGetValue",
+  "title": "LASSGetValue (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498753(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LASSGetValue( DWORD ValueId, PVOID pOutBuffer, DWORD cbOutBuffer, DWORD* pcbReturned );",
+  "code_blocks": [
+   "BOOL LASSGetValue( DWORD ValueId, PVOID pOutBuffer, DWORD cbOutBuffer, DWORD* pcbReturned );"
+  ],
+  "requirements": {
+   "header": "lap.h"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "LASSReloadConfig",
+  "title": "LASSReloadConfig (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498746(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LASSReloadConfig();",
+  "code_blocks": [
+   "BOOL LASSReloadConfig();"
+  ],
+  "requirements": {
+   "header": "lass.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "VerifyUser",
+  "title": "VerifyUser (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498587(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL VerifyUser( const GUID* AEKey, LPCWSTR wszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );",
+  "code_blocks": [
+   "BOOL VerifyUser( const GUID* AEKey, LPCWSTR wszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );",
+   "APP A; HWND hMyWindow; VerifyAndCallSecureFunction() { DWORD LastError; GUID AEKeyForFoo = ...; if (VerifyUser(&AEKeyForFoo,\"App A\",hMyWindow,VU_UNTIL_SUCCESS,0)) // Call into LASS; This will CallSecureFunction() // call into active LAP and show LAP-specific UI else TellUserVerificationFailed(GetLastError())); // display your own UI }"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "VerifyUserAsync",
+  "title": "VerifyUserAsync (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497978(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LASSHandle VerifyUserAsync( const GUID *AEKey, LPCWSTR wszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );",
+  "code_blocks": [
+   "LASSHandle VerifyUserAsync( const GUID *AEKey, LPCWSTR wszAEDisplayText, HWND hWndParent, DWORD dwOptions, PVOID pExtended );",
+   "const LASSHandle hVerifyUser = VerifyUserAsync ( AEKey, wszAEDisplayText, hWndParent,dwOptions,pExtended,); if (hVerifyUser == NULL) { // error information in GetLastError() return FALSE; } // Wait till VerifyUser completes DWORD ret = WaitForSingleObject(hVerifyUser,INFINITE); BOOL bRet = LASSGetResult(hVerifyUser); // bRet and GetLastError() contain the results of the VerifyUserAsync call. // Clean up the handle LASSCloseHandle(hVerifyUser);"
+  ],
+  "requirements": {
+   "header": "lap.h"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Functions"
+ },
+ {
+  "name": "InitLap (structure)",
+  "title": "InitLap (structure) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498129(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _InitLap { DWORD size; DWORD capabilities; } InitLap;",
+  "code_blocks": [
+   "typedef struct _InitLap { DWORD size; DWORD capabilities; } InitLap;"
+  ],
+  "requirements": {
+   "header": "lap.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "LASS Structures"
+ },
+ {
+  "name": "SCardBeginTransaction",
+  "title": "SCardBeginTransaction (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498118(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardBeginTransaction( SCARDHANDLE hCard );",
+  "code_blocks": [
+   "LONG SCardBeginTransaction( SCARDHANDLE hCard );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardCancel",
+  "title": "SCardCancel (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497935(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardCancel( SCARDCONTEXT hContext );",
+  "code_blocks": [
+   "LONG SCardCancel( SCARDCONTEXT hContext );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardConnect",
+  "title": "SCardConnect (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498194(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardConnect( SCARDCONTEXT hContext, LPCTSTR szReader, DWORD dwShareMode, DWORD dwPreferredProtocols, LPSCARDHANDLE phCard, LPDWORD pdwActiveProtocol );",
+  "code_blocks": [
+   "LONG SCardConnect( SCARDCONTEXT hContext, LPCTSTR szReader, DWORD dwShareMode, DWORD dwPreferredProtocols, LPSCARDHANDLE phCard, LPDWORD pdwActiveProtocol );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardControl",
+  "title": "SCardControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498583(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardControl( SCARDHANDLE hCard, DWORD dwControlCode, LPCVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned );",
+  "code_blocks": [
+   "LONG SCardControl( SCARDHANDLE hCard, DWORD dwControlCode, LPCVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardDisconnect",
+  "title": "SCardDisconnect (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498515(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardDisconnect( SCARDHANDLE hCard, DWORD dwDisposition );",
+  "code_blocks": [
+   "LONG SCardDisconnect( SCARDHANDLE hCard, DWORD dwDisposition );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardEndTransaction",
+  "title": "SCardEndTransaction (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498580(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardEndTransaction( SCARDHANDLE hCard, DWORD dwDisposition );",
+  "code_blocks": [
+   "LONG SCardEndTransaction( SCARDHANDLE hCard, DWORD dwDisposition );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardEstablishContext",
+  "title": "SCardEstablishContext (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498313(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardEstablishContext( DWORD dwScope, LPCVOID pvReserved1, LPCVOID pvReserved2, LPSCARDCONTEXT phContext );",
+  "code_blocks": [
+   "LONG SCardEstablishContext( DWORD dwScope, LPCVOID pvReserved1, LPCVOID pvReserved2, LPSCARDCONTEXT phContext );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardForgetCardType",
+  "title": "SCardForgetCardType (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498788(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardForgetCardType( SCARDCONTEXT hContext, LPCTSTR szCardName );",
+  "code_blocks": [
+   "LONG SCardForgetCardType( SCARDCONTEXT hContext, LPCTSTR szCardName );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardForgetReader",
+  "title": "SCardForgetReader (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498164(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardForgetReader( SCARDCONTEXT hContext, LPCTSTR szReaderName );",
+  "code_blocks": [
+   "LONG SCardForgetReader( SCARDCONTEXT hContext, LPCTSTR szReaderName );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardFreeMemory",
+  "title": "SCardFreeMemory (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498172(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardFreeMemory( SCARDCONTEXT hContext, LPCVOID pvMem, );",
+  "code_blocks": [
+   "LONG SCardFreeMemory( SCARDCONTEXT hContext, LPCVOID pvMem, );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardGetAttrib",
+  "title": "SCardGetAttrib (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497944(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardGetAttrib( SCARDHANDLE hCard, DWORD dwAttrId, LPBYTE pbAttr, LPDWORD pcbAttrLen );",
+  "code_blocks": [
+   "LONG SCardGetAttrib( SCARDHANDLE hCard, DWORD dwAttrId, LPBYTE pbAttr, LPDWORD pcbAttrLen );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardGetCardTypeProviderName",
+  "title": "SCardGetCardTypeProviderName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497908(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardGetCardTypeProviderName( SCARDCONTEXT hContext, LPCTSTR szCardName, DWORD dwProviderId, LPTSTR szProvider, LPDWORD pcchProvider );",
+  "code_blocks": [
+   "LONG SCardGetCardTypeProviderName( SCARDCONTEXT hContext, LPCTSTR szCardName, DWORD dwProviderId, LPTSTR szProvider, LPDWORD pcchProvider );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardGetProviderId",
+  "title": "SCardGetProviderId (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498532(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardGetProviderId( SCARDCONTEXT hContext, LPCTSTR szCard, LPGUID pguidProviderId );",
+  "code_blocks": [
+   "LONG SCardGetProviderId( SCARDCONTEXT hContext, LPCTSTR szCard, LPGUID pguidProviderId );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardGetStatusChange",
+  "title": "SCardGetStatusChange (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498377(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardGetStatusChange( SCARDCONTEXT hContext, DWORD dwTimeout, LPSCARD_READERSTATE rgReaderStates, DWORD cReaders );",
+  "code_blocks": [
+   "LONG SCardGetStatusChange( SCARDCONTEXT hContext, DWORD dwTimeout, LPSCARD_READERSTATE rgReaderStates, DWORD cReaders );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardIntroduceCardType",
+  "title": "SCardIntroduceCardType (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498390(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardIntroduceCardType( SCARDCONTEXT hContext, LPCTSTR szCardName, LPGUID pguidPrimaryProvider, LPGUID rgguidInterfaces, DWORD dwInterfaceCount, LPCBYTE pbAtr, LPCBYTE pbAtrMask, DWORD cbAtrLen );",
+  "code_blocks": [
+   "LONG SCardIntroduceCardType( SCARDCONTEXT hContext, LPCTSTR szCardName, LPGUID pguidPrimaryProvider, LPGUID rgguidInterfaces, DWORD dwInterfaceCount, LPCBYTE pbAtr, LPCBYTE pbAtrMask, DWORD cbAtrLen );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardIntroduceReader",
+  "title": "SCardIntroduceReader (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498309(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardIntroduceReader( SCARDCONTEXT hContext, LPCTSTR szReaderName, LPCTSTR szDeviceName );",
+  "code_blocks": [
+   "LONG SCardIntroduceReader( SCARDCONTEXT hContext, LPCTSTR szReaderName, LPCTSTR szDeviceName );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardIsValidContext",
+  "title": "SCardIsValidContext (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498542(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardIsValidContext( SCARDCONTEXT hContext );",
+  "code_blocks": [
+   "LONG SCardIsValidContext( SCARDCONTEXT hContext );",
+   "Example Code // Check the smart card context handle. // hContext was set previously by SCardEstablishContext. LONG lReturn; lReturn = SCardIsValidContext(hContext); if ( SCARD_S_SUCCESS != lReturn ) { // Function failed; check return value. if ( SCARD_E_INVALID_HANDLE == lReturn ) printf(\"Handle is invalid\\n\"); else { // Some unexpected error occurred; report and bail out. printf(\"Failed SCardIsValidContext - %x\\n\", lReturn); exit(1); // Or other appropriate error action. } } else { // Handle is valid; proceed as needed. // ... }"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardListCards",
+  "title": "SCardListCards (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498504(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardListCards( SCARDCONTEXT hContext, LPCBYTE pbAtr, LPCGUID rgguidInterfaces, DWORD cguidInterfaceCount, LPTSTR mszCards, LPDWORD pcchCards );",
+  "code_blocks": [
+   "LONG SCardListCards( SCARDCONTEXT hContext, LPCBYTE pbAtr, LPCGUID rgguidInterfaces, DWORD cguidInterfaceCount, LPTSTR mszCards, LPDWORD pcchCards );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardListInterfaces",
+  "title": "SCardListInterfaces (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498870(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardListInterfaces( SCARDCONTEXT hContext, LPCTSTR szCard, LPGUID pguidInterfaces, LPDWORD pcguidInterfaces );",
+  "code_blocks": [
+   "LONG SCardListInterfaces( SCARDCONTEXT hContext, LPCTSTR szCard, LPGUID pguidInterfaces, LPDWORD pcguidInterfaces );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardListReaders",
+  "title": "SCardListReaders (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498314(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardListReaders( SCARDCONTEXT hContext, LPCTSTR mszGroups, LPTSTR mszReaders, LPDWORD pcchReaders );",
+  "code_blocks": [
+   "LONG SCardListReaders( SCARDCONTEXT hContext, LPCTSTR mszGroups, LPTSTR mszReaders, LPDWORD pcchReaders );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardLocateCards",
+  "title": "SCardLocateCards (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498758(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardLocateCards( SCARDCONTEXT hContext, LPCTSTR mszCards, LPSCARD_READERSTATE rgReaderStates, DWORD cReaders );",
+  "code_blocks": [
+   "LONG SCardLocateCards( SCARDCONTEXT hContext, LPCTSTR mszCards, LPSCARD_READERSTATE rgReaderStates, DWORD cReaders );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardLocateCardsByATR",
+  "title": "SCardLocateCardsByATR (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497985(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardLocateCards( SCARDCONTEXT hContext, LPSCARD_ATRMASK rgAtrMasks, DWORD cAtrs, LPSCARD_READERSTATE rgReaderStates, DWORD cReaders );",
+  "code_blocks": [
+   "LONG SCardLocateCards( SCARDCONTEXT hContext, LPSCARD_ATRMASK rgAtrMasks, DWORD cAtrs, LPSCARD_READERSTATE rgReaderStates, DWORD cReaders );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardReconnect",
+  "title": "SCardReconnect (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498725(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardReconnect( SCARDHANDLE hCard, DWORD dwShareMode, DWORD dwPreferredProtocols, DWORD dwInitialization, LPDWORD pdwActiveProtocol );",
+  "code_blocks": [
+   "LONG SCardReconnect( SCARDHANDLE hCard, DWORD dwShareMode, DWORD dwPreferredProtocols, DWORD dwInitialization, LPDWORD pdwActiveProtocol );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardReleaseContext",
+  "title": "SCardReleaseContext (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498311(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardReleaseContext( SCARDCONTEXT hContext );",
+  "code_blocks": [
+   "LONG SCardReleaseContext( SCARDCONTEXT hContext );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardSetAttrib",
+  "title": "SCardSetAttrib (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497964(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardSetAttrib( SCARDHANDLE hCard, DWORD dwAttrId, LPCBYTE pbAttr, DWORD cbAttrLen );",
+  "code_blocks": [
+   "LONG SCardSetAttrib( SCARDHANDLE hCard, DWORD dwAttrId, LPCBYTE pbAttr, DWORD cbAttrLen );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardSetCardTypeProviderName",
+  "title": "SCardSetCardTypeProviderName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498120(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardSetCardTypeProviderName( SCARDCONTEXT hContext, LPCTSTR szCardName, DWORD dwProviderId, LPCTSTR szProvider );",
+  "code_blocks": [
+   "LONG SCardSetCardTypeProviderName( SCARDCONTEXT hContext, LPCTSTR szCardName, DWORD dwProviderId, LPCTSTR szProvider );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardStatus",
+  "title": "SCardStatus (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498340(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardStatus( SCARDHANDLE hCard, LPTSTR szReaderName, LPDWORD pcchReaderLen, LPDWORD pdwState, LPDWORD pdwProtocol, LPBYTE pbAtr, LPDWORD pbcAtrLen );",
+  "code_blocks": [
+   "LONG SCardStatus( SCARDHANDLE hCard, LPTSTR szReaderName, LPDWORD pcchReaderLen, LPDWORD pdwState, LPDWORD pdwProtocol, LPBYTE pbAtr, LPDWORD pbcAtrLen );"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCardTransmit",
+  "title": "SCardTransmit (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498507(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG SCardTransmit( SCARDHANDLE hCard, LPCSCARD_I0_REQUEST pioSendPci, LPCBYTE pbSendBuffer, DWORD cbSendLength, LPSCARD_IO_REQUEST pioRecvPci, LPBYTE pbRecvBuffer, LPDWORD pcbRecvLength );",
+  "code_blocks": [
+   "LONG SCardTransmit( SCARDHANDLE hCard, LPCSCARD_I0_REQUEST pioSendPci, LPCBYTE pbSendBuffer, DWORD cbSendLength, LPSCARD_IO_REQUEST pioRecvPci, LPBYTE pbRecvBuffer, LPDWORD pcbRecvLength );",
+   "struct { BYTE bCla, // The instruction class. bIns, // The instruction code. bP1, // Parameter to the instruction. bP2, // Parameter to the instruction. bP3 // Size of I/O Transfer. } CmdBytes;"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "library": "winscard.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Functions"
+ },
+ {
+  "name": "SCARD_ATRMASK",
+  "title": "SCARD_ATRMASK (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498363(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SCARD_ATRMASK { DWORD cbAtr; BYTE rgbAtr[36]; BYTE rgbMask[36]; } SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK;",
+  "code_blocks": [
+   "typedef struct _SCARD_ATRMASK { DWORD cbAtr; BYTE rgbAtr[36]; BYTE rgbMask[36]; } SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK;"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Structures"
+ },
+ {
+  "name": "SCARD_IO_REQUEST",
+  "title": "SCARD_IO_REQUEST (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee498559(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwProtocol; DWORD cbPciLength; } SCARD_IO_REQUEST;",
+  "code_blocks": [
+   "typedef struct { DWORD dwProtocol; DWORD cbPciLength; } SCARD_IO_REQUEST;"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Structures"
+ },
+ {
+  "name": "SCARD_READERSTATE",
+  "title": "SCARD_READERSTATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497987(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { LPCTSTR szReader; LPVOID pvUserData; DWORD dwCurrentState; DWORD dwEventState; DWORD cbAtr; BYTE rgbAtr[36]; } SCARD_READERSTATE, *PSCARD_READERSTATE, *LPSCARD_READERSTATE;",
+  "code_blocks": [
+   "typedef struct { LPCTSTR szReader; LPVOID pvUserData; DWORD dwCurrentState; DWORD dwEventState; DWORD cbAtr; BYTE rgbAtr[36]; } SCARD_READERSTATE, *PSCARD_READERSTATE, *LPSCARD_READERSTATE;"
+  ],
+  "requirements": {
+   "header": "winscard.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "security",
+  "sub": "Smart Card Structures"
+ }
+]

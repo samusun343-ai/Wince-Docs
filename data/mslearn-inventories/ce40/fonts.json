@@ -1,0 +1,164 @@
+[
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "AddFontResource",
+"u": "ms900628(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "CreateFontIndirect",
+"u": "ms900632(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "DrawText",
+"u": "ms900650(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnableEUDC",
+"u": "ms900655(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontFamilies",
+"u": "ms900661(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontFamProc",
+"u": "ms900667(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFonts",
+"u": "ms900669(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontsProc",
+"u": "ms900673(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "ExtTextOut",
+"u": "ms900676(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetCharABCWidths",
+"u": "ms900754(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetCharWidth32",
+"u": "ms900727(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextAlign",
+"u": "ms900729(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextColor",
+"u": "ms900694(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextExtentExPoint",
+"u": "ms900696(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextExtentPoint",
+"u": "ms900698(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextExtentPoint32",
+"u": "ms900699(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextFace",
+"u": "ms900701(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextMetrics",
+"u": "ms900702(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "RemoveFontResource",
+"u": "ms900714(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "SetTextAlign",
+"u": "ms900733(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "SetTextColor",
+"u": "ms900716(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Messages",
+"t": "WM_FONTCHANGE",
+"u": "ms900718(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "ABC",
+"u": "ms900753(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "ENUMLOGFONT",
+"u": "ms900725(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "LOGFONT",
+"u": "ms900730(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "NEWTEXTMETRIC",
+"u": "ms900732(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "TEXTMETRIC",
+"u": "ms900735(v=msdn.10)"
+}
+]

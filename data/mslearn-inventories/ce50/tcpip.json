@@ -1,0 +1,770 @@
+[
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "Icmp6CreateFile",
+"u": "ms890355(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "Icmp6ParseReplies",
+"u": "ms890356(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "Icmp6SendEcho2",
+"u": "ms890357(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpCloseHandle",
+"u": "ms890358(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpCreateFile",
+"u": "ms890359(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpParseReplies",
+"u": "ms890361(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpSendEcho",
+"u": "ms890362(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpSendEcho2",
+"u": "ms890363(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "ICMP_ECHO_REPLY",
+"u": "ms890360(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IP_OPTION_INFORMATION",
+"u": "ms891178(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IF_OPER_STATUS",
+"u": "ms890886(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_DAD_STATE",
+"u": "ms891176(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_PREFIX_ORIGIN",
+"u": "ms891180(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_SUFFIX_ORIGIN",
+"u": "aa450430(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SCOPE_LEVEL",
+"u": "aa450875(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "AddIPAddress",
+"u": "aa450280(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "CreateIpForwardEntry",
+"u": "ms887916(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "CreateIpNetEntry",
+"u": "ms887917(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "CreateProxyArpEntry",
+"u": "ms887918(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "DeleteIPAddress",
+"u": "ms887920(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "DeleteIpForwardEntry",
+"u": "aa450325(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "DeleteIpNetEntry",
+"u": "aa450326(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "DeleteProxyArpEntry",
+"u": "aa450327(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "FlushIpNetTable",
+"u": "aa450382(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetAdapterIndex",
+"u": "aa450392(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetAdaptersAddresses",
+"u": "aa450393(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetAdaptersInfo",
+"u": "aa450394(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetBestInterface",
+"u": "aa450396(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetBestInterfaceEx",
+"u": "aa450397(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetBestRoute",
+"u": "aa450398(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetFriendlyIfIndex",
+"u": "aa450401(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIcmpStatistics",
+"u": "aa450406(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIcmpStatisticsEx",
+"u": "aa450407(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIfEntry",
+"u": "aa450408(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIfTable",
+"u": "aa450409(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetInterfaceInfo",
+"u": "aa450410(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpAddrTable",
+"u": "aa450411(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpForwardTable",
+"u": "aa450412(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpNetTable",
+"u": "aa450413(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpStatistics",
+"u": "aa450414(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpStatisticsEx",
+"u": "aa450415(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetNetworkParams",
+"u": "aa450417(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetNumberOfInterfaces",
+"u": "aa450418(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetPerAdapterInfo",
+"u": "aa450421(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetRTTAndHopCount",
+"u": "aa450422(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetTcpStatistics",
+"u": "ms890306(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetTcpStatisticsEx",
+"u": "ms890307(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetTcpTable",
+"u": "ms890308(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetUdpStatistics",
+"u": "ms890309(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetUdpStatisticsEx",
+"u": "ms890310(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetUdpTable",
+"u": "ms890311(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetUniDirectionalAdapterInfo",
+"u": "ms890312(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IpReleaseAddress",
+"u": "aa450426(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IpRenewAddress",
+"u": "aa450427(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "NotifyAddrChange",
+"u": "ms895712(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "NotifyRouteChange",
+"u": "ms895720(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SendARP",
+"u": "aa450884(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIfEntry",
+"u": "aa450920(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIpForwardEntry",
+"u": "aa450922(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIpNetEntry",
+"u": "aa450924(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIpStatistics",
+"u": "aa450929(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIpTTL",
+"u": "aa450931(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetTcpEntry",
+"u": "aa450937(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "FIXED_INFO",
+"u": "aa450381(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_ADDRESSES",
+"u": "ms891167(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_ANYCAST_ADDRESS",
+"u": "ms891168(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_INDEX_MAP",
+"u": "ms891169(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_INFO",
+"u": "ms891170(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_MULTICAST_ADDRESS",
+"u": "ms891171(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_PREFIX",
+"u": "ms891172(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_UNICAST_ADDRESS",
+"u": "ms891173(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADDR_STRING",
+"u": "ms891175(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADDRESS_STRING",
+"u": "ms891174(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_INTERFACE_INFO",
+"u": "ms891177(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_PER_ADAPTER_INFO",
+"u": "ms891179(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_UNIDIRECTIONAL_ADAPTER_ADDRESS",
+"u": "aa450431(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_BEST_IF",
+"u": "ms894596(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_ICMP",
+"u": "ms894599(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IFROW",
+"u": "ms894611(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IFTABLE",
+"u": "ms894615(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPADDRROW",
+"u": "ms894617(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPADDRTABLE",
+"u": "ms894623(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPFORWARDROW",
+"u": "ms894631(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPFORWARDTABLE",
+"u": "ms894637(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPNETROW",
+"u": "ms895069(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPNETTABLE",
+"u": "ms895072(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPSTATS",
+"u": "ms895076(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_PROXYARP",
+"u": "ms895078(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_TCPROW",
+"u": "ms895081(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_TCPSTATS",
+"u": "ms895084(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_TCPTABLE",
+"u": "ms895089(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_UDPROW",
+"u": "ms895094(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_UDPSTATS",
+"u": "ms895097(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_UDPTABLE",
+"u": "ms895100(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIBICMPINFO",
+"u": "ms894602(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIBICMPSTATS",
+"u": "ms894605(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DnsModifyRecordsInSet_W",
+"u": "aa450335(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DnsQuery_W",
+"u": "aa450336(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DnsRecordListFree",
+"u": "aa450337(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DnsReplaceRecordSetW",
+"u": "aa450338(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_A_DATA",
+"u": "aa450341(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_AAAA_DATA",
+"u": "aa450339(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_ATMA_DATA",
+"u": "aa450340(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_KEY_DATA",
+"u": "aa450343(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_LOC_DATA",
+"u": "aa450344(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_HEADER",
+"u": "aa450342(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_MESSAGE_BUFFER",
+"u": "aa450345(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_MINFO_DATA",
+"u": "aa450346(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_MX_DATA",
+"u": "aa450347(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_NULL_DATA",
+"u": "aa450348(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_NXT_DATA",
+"u": "aa450349(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_PTR_DATA",
+"u": "aa450350(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_RECORD",
+"u": "aa450351(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_RECORD_FLAGS",
+"u": "aa450352(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_RRSET",
+"u": "aa450353(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_SIG_DATA",
+"u": "aa450354(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_SOA_DATA",
+"u": "aa450355(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_SRV_DATA",
+"u": "aa450356(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_TKEY_DATA",
+"u": "aa450357(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_TSIG_DATA",
+"u": "aa450358(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_TXT_DATA",
+"u": "aa450359(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WINS_DATA",
+"u": "aa450361(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WINSR_DATA",
+"u": "aa450360(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WIRE_QUESTION",
+"u": "aa450362(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WIRE_RECORD",
+"u": "aa450363(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WKS_DATA",
+"u": "aa450364(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "IP4_ARRAY",
+"u": "ms891165(v=msdn.10)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "IP6_ADDRESS",
+"u": "ms891166(v=msdn.10)"
+}
+]

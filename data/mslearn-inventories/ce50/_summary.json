@@ -134,5 +134,195 @@
    "Error Functions": 3,
    "(top)": 10
   }
+ },
+ "ole-com": {
+  "pages": 864,
+  "subareas": {
+   "Automation Reference": 303,
+   "COM Reference": 345,
+   "OLE Reference": 150,
+   "Storage Reference": 66
+  }
+ },
+ "security": {
+  "pages": 311,
+  "subareas": {
+   "Authentication Services Functions": 30,
+   "Authentication Services Structures": 21,
+   "Credential Manager Functions": 9,
+   "Credential Manager Type Provider Functions": 5,
+   "Credential Manager Structures": 2,
+   "Certificates Functions": 83,
+   "Cryptography Data Types": 4,
+   "Cryptography Functions": 43,
+   "Cryptography Structures": 71,
+   "Smart Card Functions": 28,
+   "Smart Card Structures": 3,
+   "(top)": 1,
+   "LASS Functions": 3,
+   "LAP-Exported Functions": 7,
+   "LASS Structures": 1
+  }
+ },
+ "nls": {
+  "pages": 42,
+  "subareas": {
+   "National Language Support (NLS) Functions": 32,
+   "National Language support (NLS) Locale Identifiers": 3,
+   "National Language Support (NLS) Macros": 4,
+   "National Language Support (NLS) Structures": 3
+  }
+ },
+ "imm": {
+  "pages": 152,
+  "subareas": {
+   "Input Method Editor Constants": 5,
+   "Input Method Manager (IMM) Functions": 57,
+   "Input Method Manager (IMM) Messages": 48,
+   "Input Method Manager (IMM) Structures": 12,
+   "Input Method Manager (IMM) Function Identifiers": 30
+  }
+ },
+ "mui": {
+  "pages": 5,
+  "subareas": {
+   "Multilingual User Interface (MUI) Functions": 5
+  }
+ },
+ "wininet": {
+  "pages": 105,
+  "subareas": {
+   "WinInet Constants": 6,
+   "WinInet Enumerations": 2,
+   "(top)": 1,
+   "WinInet Functions": 82,
+   "WinInet Structures": 14
+  }
+ },
+ "urlmon": {
+  "pages": 147,
+  "subareas": {
+   "URL Moniker Services Enumerations": 9,
+   "URL Moniker Services Errors": 1,
+   "URL Moniker Services Functions": 32,
+   "URL Moniker Services Interfaces": 29,
+   "URL Moniker Services Structures": 1,
+   "Asynchronous Pluggable Protocols Enumerations": 3,
+   "Asynchronous Pluggable Protocols Functions": 3,
+   "Asynchronous Pluggable Protocols Interfaces": 28,
+   "Asynchronous Pluggable Protocols Structures": 2,
+   "URL Security Zones Settings": 4,
+   "URL Security Zones Constants": 2,
+   "URL Security Zones Enumerations": 7,
+   "URL Security Zones Functions": 1,
+   "URL Security Zones Interfaces": 22,
+   "URL Security Zones Objects": 2,
+   "URL Security Zones Structures": 1
+  }
+ },
+ "obex": {
+  "pages": 57,
+  "subareas": {
+   "OBEX Enumerations": 1,
+   "OBEX Functions": 2,
+   "OBEX Interfaces": 49,
+   "OBEX Structures": 5
+  }
+ },
+ "tapi": {
+  "pages": 205,
+  "subareas": {
+   "TAPI Constants": 65,
+   "TAPI Functions": 91,
+   "TAPI Messages": 21,
+   "TAPI Structures": 28
+  }
+ },
+ "ras": {
+  "pages": 35,
+  "subareas": {
+   "RAS Enumerations": 2,
+   "RAS Functions": 21,
+   "RAS Messages": 1,
+   "RAS Structures": 11
+  }
+ },
+ "wnet": {
+  "pages": 16,
+  "subareas": {
+   "Windows Networking API/Redirector Functions": 11,
+   "Windows Networking API/Redirector Structures": 5
+  }
+ },
+ "tcpip": {
+  "pages": 128,
+  "subareas": {
+   "ICMP Reference": 10,
+   "IP Helper Reference": 86,
+   "DNS Reference": 32
+  }
+ },
+ "ipv6": {
+  "pages": 35,
+  "subareas": {
+   "(top)": 2,
+   "Core Protocol Stack for IPv6": 29,
+   "Assigning an IPv6 Address to a Device": 3,
+   "Converting to IPv6": 1
+  }
+ },
+ "audio": {
+  "pages": 89,
+  "subareas": {
+   "Waveform Audio Functions": 43,
+   "Waveform Audio Messages": 13,
+   "Waveform Audio Structures": 6,
+   "(top)": 6,
+   "Hardware Audio Mixer Functions": 10,
+   "Hardware Audio Mixer Messages": 2,
+   "Hardware Audio Mixer Structures": 9
+  }
+ },
+ "power": {
+  "pages": 29,
+  "subareas": {
+   "Power Management Enumerations": 1,
+   "Power Management Functions": 19,
+   "Power Management IOCTLs": 5,
+   "Power Management Structures": 4
+  }
+ },
+ "bluetooth": {
+  "pages": 194,
+  "subareas": {
+   "Bluetooth OS Reference": 90,
+   "Bluetooth Application Development Reference": 69,
+   "Bluetooth Stack Extension Layer Reference": 35
+  }
+ },
+ "fonts": {
+  "pages": 32,
+  "subareas": {
+   "Fonts Functions": 26,
+   "Fonts Messages": 1,
+   "Fonts Structures": 5
+  }
+ },
+ "kernel": {
+  "pages": 84,
+  "subareas": {
+   "Kernel Enumerations": 1,
+   "Kernel Functions": 73,
+   "Kernel Global Variables": 1,
+   "Kernel Macros": 1,
+   "Kernel Structures": 8
+  }
+ },
+ "snmp": {
+  "pages": 42,
+  "subareas": {
+   "SNMP Functions": 36,
+   "SNMP Structures": 6
+  }
  }
 }

@@ -1,0 +1,3429 @@
+[
+ {
+  "name": "Audio Line and Control Queries",
+  "title": "Audio Line and Control Queries (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451189(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Control Types",
+  "title": "Control Types (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451257(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Mixer Architecture",
+  "title": "Mixer Architecture (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms924149(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Mixer Device Queries",
+  "title": "Mixer Device Queries (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms924150(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Opening and Closing Mixer Devices",
+  "title": "Opening and Closing Mixer Devices (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms924171(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Window Callback Services",
+  "title": "Window Callback Services (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925265(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "mixerClose",
+  "title": "mixerClose (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932037(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULTmixerClose(HMIXERhmx);",
+  "code_blocks": [
+   "MMRESULTmixerClose(HMIXERhmx);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "mixerGetControlDetails",
+  "title": "mixerGetControlDetails (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932044(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULTmixerGetControlDetails(HMIXEROBJhmxobj, LPMIXERCONTROLDETAILSpmxcd,DWORDfdwDetails);",
+  "code_blocks": [
+   "MMRESULTmixerGetControlDetails(HMIXEROBJhmxobj, LPMIXERCONTROLDETAILSpmxcd,DWORDfdwDetails);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "mixerGetDevCaps",
+  "title": "mixerGetDevCaps (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932045(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerGetDevCaps(UINTuMxId,LPMIXERCAPSpmxcaps,UINTcbmxcaps);",
+  "code_blocks": [
+   "MMRESULT mixerGetDevCaps(UINTuMxId,LPMIXERCAPSpmxcaps,UINTcbmxcaps);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "mixerGetID",
+  "title": "mixerGetID (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932046(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULTmixerGetID(HMIXEROBJhmxobj,UINT* puMxId,DWORDfdwId);",
+  "code_blocks": [
+   "MMRESULTmixerGetID(HMIXEROBJhmxobj,UINT* puMxId,DWORDfdwId);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "mixerGetLineControls",
+  "title": "mixerGetLineControls (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932047(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerGetLineControls(HMIXEROBJhmxobj,LPMIXERLINECONTROLSpmxlc,DWORDfdwControls);",
+  "code_blocks": [
+   "MMRESULT mixerGetLineControls(HMIXEROBJhmxobj,LPMIXERLINECONTROLSpmxlc,DWORDfdwControls);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "mixerGetLineInfo",
+  "title": "mixerGetLineInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932048(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerGetLineInfo(HMIXEROBJhmxobj,LPMIXERLINEpmxl,DWORDfdwInfo);",
+  "code_blocks": [
+   "MMRESULT mixerGetLineInfo(HMIXEROBJhmxobj,LPMIXERLINEpmxl,DWORDfdwInfo);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "mixerGetNumDevs",
+  "title": "mixerGetNumDevs (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932049(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "UINT mixerGetNumDevs(void);",
+  "code_blocks": [
+   "UINT mixerGetNumDevs(void);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "mixerMessage",
+  "title": "mixerMessage (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932052(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD mixerMessage(HMIXERhmx,UINTuMsg,DWORDdwParam1,DWORDdwParam2);",
+  "code_blocks": [
+   "DWORD mixerMessage(HMIXERhmx,UINTuMsg,DWORDdwParam1,DWORDdwParam2);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "mixerOpen",
+  "title": "mixerOpen (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932053(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerOpen(LPHMIXERphmx,UINTuMxId,DWORDdwCallback,DWORDdwInstance,DWORDfdwOpen);",
+  "code_blocks": [
+   "MMRESULT mixerOpen(LPHMIXERphmx,UINTuMxId,DWORDdwCallback,DWORDdwInstance,DWORDfdwOpen);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "mixerSetControlDetails",
+  "title": "mixerSetControlDetails (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932054(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerSetControlDetails(HMIXEROBJhmxobj,LPMIXERCONTROLDETAILSpmxcd,DWORDfdwDetails);",
+  "code_blocks": [
+   "MMRESULT mixerSetControlDetails(HMIXEROBJhmxobj,LPMIXERCONTROLDETAILSpmxcd,DWORDfdwDetails);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Functions"
+ },
+ {
+  "name": "MM_MIXM_CONTROL_CHANGE",
+  "title": "MM_MIXM_CONTROL_CHANGE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932055(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_MIXM_CONTROL_CHANGEwParam = (WPARAM) hMixerlParam = (LPARAM) dwControlID",
+  "code_blocks": [
+   "MM_MIXM_CONTROL_CHANGEwParam = (WPARAM) hMixerlParam = (LPARAM) dwControlID"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Messages"
+ },
+ {
+  "name": "MM_MIXM_LINE_CHANGE",
+  "title": "MM_MIXM_LINE_CHANGE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932056(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_MIXM_LINE_CHANGEwParam = (WPARAM) hMixerlParam = (LPARAM) dwLineID",
+  "code_blocks": [
+   "MM_MIXM_LINE_CHANGEwParam = (WPARAM) hMixerlParam = (LPARAM) dwLineID"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Messages"
+ },
+ {
+  "name": "MIXERCAPS",
+  "title": "MIXERCAPS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932036(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct{WORDwMid;WORDwPid;MMVERSIONvDriverVersion;TCHARszPname[MAXPNAMELEN];DWORDfdwSupport;DWORDcDestinations;}MIXERCAPS;",
+  "code_blocks": [
+   "typedef struct{WORDwMid;WORDwPid;MMVERSIONvDriverVersion;TCHARszPname[MAXPNAMELEN];DWORDfdwSupport;DWORDcDestinations;}MIXERCAPS;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "Although these identifiers are supported in Windows CE, they are rarely needed or used because embedded devices typically have built-in devices with built-in drivers.",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Structures"
+ },
+ {
+  "name": "MIXERCONTROL",
+  "title": "MIXERCONTROL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932038(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct{DWORDcbStruct;DWORDdwControlID;DWORDdwControlType;DWORDfdwControl;DWORDcMultipleItems;CHARszShortName[MIXER_SHORT_NAME_CHARS];CHARszName[MIXER_LONG_NAME_CHARS];union{struct{LONGlMinimum;LONGlMaximum;};struct{DWORDdwMinimum;DWORDdwMaximum;};DWORDdwReserved[6];}Bounds; union{DWORDcSteps;DWORDcbCustomData;DWORDdwReserved[6];}Metrics; }MIXERCONTROL, *PMIXERCONTROL, FAR* LPMIXERCONTROL;",
+  "code_blocks": [
+   "typedef struct{DWORDcbStruct;DWORDdwControlID;DWORDdwControlType;DWORDfdwControl;DWORDcMultipleItems;CHARszShortName[MIXER_SHORT_NAME_CHARS];CHARszName[MIXER_LONG_NAME_CHARS];union{struct{LONGlMinimum;LONGlMaximum;};struct{DWORDdwMinimum;DWORDdwMaximum;};DWORDdwReserved[6];}Bounds; union{DWORDcSteps;DWORDcbCustomData;DWORDdwReserved[6];}Metrics; }MIXERCONTROL, *PMIXERCONTROL, FAR* LPMIXERCONTROL;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Structures"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS",
+  "title": "MIXERCONTROLDETAILS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932039(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct{DWORDcbStruct;DWORDdwControlID;DWORDcChannels;union{HWNDhwndOwner;DWORDcMultipleItems;};DWORDcbDetails;LPVOIDpaDetails;}MIXERCONTROLDETAILS;",
+  "code_blocks": [
+   "typedef struct{DWORDcbStruct;DWORDdwControlID;DWORDcChannels;union{HWNDhwndOwner;DWORDcMultipleItems;};DWORDcbDetails;LPVOIDpaDetails;}MIXERCONTROLDETAILS;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Structures"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS_BOOLEAN",
+  "title": "MIXERCONTROLDETAILS_BOOLEAN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932040(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct{LONGfValue;}MIXERCONTROLDETAILS_BOOLEAN;",
+  "code_blocks": [
+   "typedef struct{LONGfValue;}MIXERCONTROLDETAILS_BOOLEAN;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Structures"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS_LISTTEXT",
+  "title": "MIXERCONTROLDETAILS_LISTTEXT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932041(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct{DWORDdwParam1;DWORDdwParam2;CHARszName[MIXER_LONG_NAME_CHARS];}MIXERCONTROLDETAILS_LISTTEXT;",
+  "code_blocks": [
+   "typedef struct{DWORDdwParam1;DWORDdwParam2;CHARszName[MIXER_LONG_NAME_CHARS];}MIXERCONTROLDETAILS_LISTTEXT;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Structures"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS_SIGNED",
+  "title": "MIXERCONTROLDETAILS_SIGNED (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932042(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct{LONGlValue;}MIXERCONTROLDETAILS_SIGNED;",
+  "code_blocks": [
+   "typedef struct{LONGlValue;}MIXERCONTROLDETAILS_SIGNED;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Structures"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS_UNSIGNED",
+  "title": "MIXERCONTROLDETAILS_UNSIGNED (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932043(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct{DWORDdwValue;}MIXERCONTROLDETAILS_UNSIGNED;",
+  "code_blocks": [
+   "typedef struct{DWORDdwValue;}MIXERCONTROLDETAILS_UNSIGNED;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Structures"
+ },
+ {
+  "name": "MIXERLINE",
+  "title": "MIXERLINE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932050(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct{DWORDcbStruct;DWORDdwDestination;DWORDdwSource;DWORDdwLineID;DWORDfdwLine;DWORDdwUser;DWORDdwComponentType;DWORDcChannels;DWORDcConnections;DWORDcControls;CHARszShortName[MIXER_SHORT_NAME_CHARS];CHARszName[MIXER_LONG_NAME_CHARS];struct{DWORDdwType;DWORDdwDeviceID;WORD wMid;WORDwPid;MMVERSIONvDriverVersion;CHARszPname[MAXPNAMELEN];}Target;}MIXERLINE;",
+  "code_blocks": [
+   "typedef struct{DWORDcbStruct;DWORDdwDestination;DWORDdwSource;DWORDdwLineID;DWORDfdwLine;DWORDdwUser;DWORDdwComponentType;DWORDcChannels;DWORDcConnections;DWORDcControls;CHARszShortName[MIXER_SHORT_NAME_CHARS];CHARszName[MIXER_LONG_NAME_CHARS];struct{DWORDdwType;DWORDdwDeviceID;WORD wMid;WORDwPid;MMVERSIONvDriverVersion;CHARszPname[MAXPNAMELEN];}Target;}MIXERLINE;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "Although these identifiers are supported in Windows CE, they are rarely needed or used because embedded devices typically have built-in devices with built-in drivers.",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Structures"
+ },
+ {
+  "name": "MIXERLINECONTROLS",
+  "title": "MIXERLINECONTROLS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932051(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct{DWORDcbStruct;DWORDdwLineID;union{DWORDdwControlID;DWORDdwControlType;};DWORDcControls;DWORDcbmxctrl;LPMIXERCONTROLpamxctrl;}MIXERLINECONTROLS;",
+  "code_blocks": [
+   "typedef struct{DWORDcbStruct;DWORDdwLineID;union{DWORDdwControlID;DWORDdwControlType;};DWORDcControls;DWORDcbmxctrl;LPMIXERCONTROLpamxctrl;}MIXERLINECONTROLS;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.12 and later. Version 2.12 requires DXPAK 1.0 or later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Structures"
+ },
+ {
+  "name": "PlaySound",
+  "title": "PlaySound (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932262(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLWINAPIPlaySound(LPCSTRpszSound,HMODULEhmod,DWORDfdwSound );",
+  "code_blocks": [
+   "BOOLWINAPIPlaySound(LPCSTRpszSound,HMODULEhmod,DWORDfdwSound );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE does not support the SND_ALIAS_ID and SND_PURGE flags for the fdwSound parameter.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "sndPlaySound",
+  "title": "sndPlaySound (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932314(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL sndPlaySound(LPCTSTRlpszSoundName,UINTfuSound);",
+  "code_blocks": [
+   "BOOL sndPlaySound(LPCTSTRlpszSoundName,UINTfuSound);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInAddBuffer",
+  "title": "waveInAddBuffer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452421(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInAddBuffer(HWAVEINhwi,LPWAVEHDRpwh,UINTcbwh );",
+  "code_blocks": [
+   "MMRESULT waveInAddBuffer(HWAVEINhwi,LPWAVEHDRpwh,UINTcbwh );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInClose",
+  "title": "waveInClose (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452423(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInClose(HWAVEINhwi );",
+  "code_blocks": [
+   "MMRESULT waveInClose(HWAVEINhwi );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetDevCaps",
+  "title": "waveInGetDevCaps (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452424(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetDevCaps(UINTuDeviceID,LPWAVEINCAPSpwic,UINTcbwic );",
+  "code_blocks": [
+   "MMRESULT waveInGetDevCaps(UINTuDeviceID,LPWAVEINCAPSpwic,UINTcbwic );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "If the device does not support the format, it will return WAVERR_BADFORMAT.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetErrorText",
+  "title": "waveInGetErrorText (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452425(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetErrorText(MMRESULTmmrError,LPTSTRpszText,UINTcchText );",
+  "code_blocks": [
+   "MMRESULT waveInGetErrorText(MMRESULTmmrError,LPTSTRpszText,UINTcchText );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetID",
+  "title": "waveInGetID (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452426(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetID(HWAVEINhwi,PUINTpuDeviceID );",
+  "code_blocks": [
+   "MMRESULT waveInGetID(HWAVEINhwi,PUINTpuDeviceID );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetNumDevs",
+  "title": "waveInGetNumDevs (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452427(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "UINT waveInGetNumDevs(void);",
+  "code_blocks": [
+   "UINT waveInGetNumDevs(void);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetPosition",
+  "title": "waveInGetPosition (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452428(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetPosition(HWAVEINhwi,LPMMTIMEpmmt,UINTcbmmt );",
+  "code_blocks": [
+   "MMRESULT waveInGetPosition(HWAVEINhwi,LPMMTIMEpmmt,UINTcbmmt );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "If the format is not supported, the member will specify an alternative format.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetProperty",
+  "title": "waveInGetProperty (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452429(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetProperty ( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData, PULONG pcbReturn);",
+  "code_blocks": [
+   "MMRESULT waveInGetProperty ( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData, PULONG pcbReturn);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInMessage",
+  "title": "waveInMessage (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452430(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInMessage(HWAVEINhwi,UINTuMsg,DWORDdw1,DWORDdw2 );",
+  "code_blocks": [
+   "MMRESULT waveInMessage(HWAVEINhwi,UINTuMsg,DWORDdw1,DWORDdw2 );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInOpen",
+  "title": "waveInOpen (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452431(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInOpen(LPHWAVEINphwi,UINTuDeviceID,LPCWAVEFORMATEXpwfx,DWORDdwCallback,DWORDdwInstance,DWORDfdwOpen );",
+  "code_blocks": [
+   "MMRESULT waveInOpen(LPHWAVEINphwi,UINTuDeviceID,LPCWAVEFORMATEXpwfx,DWORDdwCallback,DWORDdwInstance,DWORDfdwOpen );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInPrepareHeader",
+  "title": "waveInPrepareHeader (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452432(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInPrepareHeader(HWAVEINhwi,LPWAVEHDRpwh,UINTcbwh );",
+  "code_blocks": [
+   "MMRESULT waveInPrepareHeader(HWAVEINhwi,LPWAVEHDRpwh,UINTcbwh );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInProc",
+  "title": "waveInProc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452435(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void CALLBACK waveInProc(HWAVEIN hwi,UINT uMsg,DWORD dwInstance,DWORD dwParam1,DWORD dwParam2);",
+  "code_blocks": [
+   "void CALLBACK waveInProc(HWAVEIN hwi,UINT uMsg,DWORD dwInstance,DWORD dwParam1,DWORD dwParam2);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInReset",
+  "title": "waveInReset (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452436(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInReset(HWAVEINhwi );",
+  "code_blocks": [
+   "MMRESULT waveInReset(HWAVEINhwi );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInSetProperty",
+  "title": "waveInSetProperty (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452437(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInSetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData);",
+  "code_blocks": [
+   "MMRESULT waveInSetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInStart",
+  "title": "waveInStart (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452438(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInStart(HWAVEINhwi );",
+  "code_blocks": [
+   "MMRESULT waveInStart(HWAVEINhwi );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInStop",
+  "title": "waveInStop (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452439(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInStop(HWAVEINhwi );",
+  "code_blocks": [
+   "MMRESULT waveInStop(HWAVEINhwi );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInUnprepareHeader",
+  "title": "waveInUnprepareHeader (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452440(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInUnprepareHeader(HWAVEINhwi,LPWAVEHDRpwh,UINTcbwh );",
+  "code_blocks": [
+   "MMRESULT waveInUnprepareHeader(HWAVEINhwi,LPWAVEHDRpwh,UINTcbwh );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutBreakLoop",
+  "title": "waveOutBreakLoop (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452441(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutBreakLoop(HWAVEOUThwo );",
+  "code_blocks": [
+   "MMRESULT waveOutBreakLoop(HWAVEOUThwo );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutClose",
+  "title": "waveOutClose (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452443(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutClose(HWAVEOUThwo );",
+  "code_blocks": [
+   "MMRESULT waveOutClose(HWAVEOUThwo );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetDevCaps",
+  "title": "waveOutGetDevCaps (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452445(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetDevCaps(UINTuDeviceID,LPWAVEOUTCAPSpwoc,UINTcbwoc );",
+  "code_blocks": [
+   "MMRESULT waveOutGetDevCaps(UINTuDeviceID,LPWAVEOUTCAPSpwoc,UINTcbwoc );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "If the device does not support the format, it will return WAVERR_BADFORMAT.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetErrorText",
+  "title": "waveOutGetErrorText (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452446(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetErrorText(UINTmmrError,LPTSTRpszText,UINTcchText );",
+  "code_blocks": [
+   "MMRESULT waveOutGetErrorText(UINTmmrError,LPTSTRpszText,UINTcchText );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetID",
+  "title": "waveOutGetID (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452447(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetID(HWAVEOUThwo,LPUINTpuDeviceID );",
+  "code_blocks": [
+   "MMRESULT waveOutGetID(HWAVEOUThwo,LPUINTpuDeviceID );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetNumDevs",
+  "title": "waveOutGetNumDevs (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452448(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "UINT waveOutGetNumDevs(void);",
+  "code_blocks": [
+   "UINT waveOutGetNumDevs(void);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetPitch",
+  "title": "waveOutGetPitch (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452449(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetPitch(HWAVEOUThwo,LPDWORDpdwPitch );",
+  "code_blocks": [
+   "MMRESULT waveOutGetPitch(HWAVEOUThwo,LPDWORDpdwPitch );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetPlaybackRate",
+  "title": "waveOutGetPlaybackRate (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452450(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetPlaybackRate(HWAVEOUThwo,LPDWORDpdwRate );",
+  "code_blocks": [
+   "MMRESULT waveOutGetPlaybackRate(HWAVEOUThwo,LPDWORDpdwRate );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetPosition",
+  "title": "waveOutGetPosition (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452451(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetPosition(HWAVEOUThwo,LPMMTIMEpmmt,UINTcbmmt );",
+  "code_blocks": [
+   "MMRESULT waveOutGetPosition(HWAVEOUThwo,LPMMTIMEpmmt,UINTcbmmt );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "If the format is not supported, wType will specify an alternative format.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetProperty",
+  "title": "waveOutGetProperty (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452452(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData, PULONG pcbReturn);",
+  "code_blocks": [
+   "MMRESULT waveOutGetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData, PULONG pcbReturn);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetVolume",
+  "title": "waveOutGetVolume (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452453(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetVolume(HWAVEOUThwo,LPDWORDpdwVolume );",
+  "code_blocks": [
+   "MMRESULT waveOutGetVolume(HWAVEOUThwo,LPDWORDpdwVolume );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutMessage",
+  "title": "waveOutMessage (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452454(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutMessage(HWAVEOUThwo,UINTuMsg,DWORDdw1,DWORDdw2 );",
+  "code_blocks": [
+   "MMRESULT waveOutMessage(HWAVEOUThwo,UINTuMsg,DWORDdw1,DWORDdw2 );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutOpen",
+  "title": "waveOutOpen (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452455(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutOpen(LPHWAVEOUTphwo,UINTuDeviceID,LPWAVEFORMATEXpwfx,DWORDdwCallback,DWORDdwInstance,DWORDfdwOpen );",
+  "code_blocks": [
+   "MMRESULT waveOutOpen(LPHWAVEOUTphwo,UINTuDeviceID,LPWAVEFORMATEXpwfx,DWORDdwCallback,DWORDdwInstance,DWORDfdwOpen );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutPause",
+  "title": "waveOutPause (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452456(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutPause(HWAVEOUThwo );",
+  "code_blocks": [
+   "MMRESULT waveOutPause(HWAVEOUThwo );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutPrepareHeader",
+  "title": "waveOutPrepareHeader (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452457(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutPrepareHeader(HWAVEOUThwo,LPWAVEHDRpwh,UINTcbwh );",
+  "code_blocks": [
+   "MMRESULT waveOutPrepareHeader(HWAVEOUThwo,LPWAVEHDRpwh,UINTcbwh );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutProc",
+  "title": "waveOutProc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452458(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void CALLBACK waveOutProc(HWAVEOUT hwo,UINT uMsg,DWORD dwInstance,DWORD dwParam1,DWORD dwParam2);",
+  "code_blocks": [
+   "void CALLBACK waveOutProc(HWAVEOUT hwo,UINT uMsg,DWORD dwInstance,DWORD dwParam1,DWORD dwParam2);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutReset",
+  "title": "waveOutReset (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452459(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutReset(HWAVEOUThwo );",
+  "code_blocks": [
+   "MMRESULT waveOutReset(HWAVEOUThwo );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutRestart",
+  "title": "waveOutRestart (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452460(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutRestart(HWAVEOUThwo );",
+  "code_blocks": [
+   "MMRESULT waveOutRestart(HWAVEOUThwo );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutSetPitch",
+  "title": "waveOutSetPitch (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452461(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutSetPitch(HWAVEOUThwo,DWORDdwPitch );",
+  "code_blocks": [
+   "MMRESULT waveOutSetPitch(HWAVEOUThwo,DWORDdwPitch );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutSetPlaybackRate",
+  "title": "waveOutSetPlaybackRate (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452462(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutSetPlaybackRate(HWAVEOUThwo,DWORDdwRate );",
+  "code_blocks": [
+   "MMRESULT waveOutSetPlaybackRate(HWAVEOUThwo,DWORDdwRate );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutSetProperty",
+  "title": "waveOutSetProperty (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452463(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutSetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData);",
+  "code_blocks": [
+   "MMRESULT waveOutSetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData);"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutSetVolume",
+  "title": "waveOutSetVolume (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452464(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutSetVolume(HWAVEOUThwo,DWORDdwVolume );",
+  "code_blocks": [
+   "MMRESULT waveOutSetVolume(HWAVEOUThwo,DWORDdwVolume );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Most devices do not support the full 16 bits of volume-level control and will not use the high-order bits of the requested volume setting.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutUnprepareHeader",
+  "title": "waveOutUnprepareHeader (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452465(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutUnprepareHeader(HWAVEOUThwo,LPWAVEHDRpwh,UINTcbwh );",
+  "code_blocks": [
+   "MMRESULT waveOutUnprepareHeader(HWAVEOUThwo,LPWAVEHDRpwh,UINTcbwh );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutWrite",
+  "title": "waveOutWrite (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452466(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutWrite(HWAVEOUT hwo,LPWAVEHDRpwh,UINTcbwh );",
+  "code_blocks": [
+   "MMRESULT waveOutWrite(HWAVEOUT hwo,LPWAVEHDRpwh,UINTcbwh );"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "MM_WIM_CLOSE",
+  "title": "MM_WIM_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932057(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WIM_CLOSEwParam =(WPARAM)hInputDevlParam =reserved",
+  "code_blocks": [
+   "MM_WIM_CLOSEwParam =(WPARAM)hInputDevlParam =reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WIM_DATA",
+  "title": "MM_WIM_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932058(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WIM_DATA wParam = (WPARAM)hInputDevlParam = (LONG)lpwvhdr",
+  "code_blocks": [
+   "MM_WIM_DATA wParam = (WPARAM)hInputDevlParam = (LONG)lpwvhdr"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WIM_OPEN",
+  "title": "MM_WIM_OPEN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932059(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WIM_OPENwParam = (WPARAM)hInputDevlParam = reserved",
+  "code_blocks": [
+   "MM_WIM_OPENwParam = (WPARAM)hInputDevlParam = reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_ATTENUATED",
+  "title": "MM_WOM_ATTENUATED (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932063(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_ATTENUATED wParam = (DWORD)dwAttenuationlParam = 0",
+  "code_blocks": [
+   "MM_WOM_ATTENUATED wParam = (DWORD)dwAttenuationlParam = 0"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_CLOSE",
+  "title": "MM_WOM_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932060(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_CLOSE wParam = (WPARAM)hOutputDevlParam = reserved",
+  "code_blocks": [
+   "MM_WOM_CLOSE wParam = (WPARAM)hOutputDevlParam = reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_DONE",
+  "title": "MM_WOM_DONE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932061(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_DONE wParam = (WPARAM)hOutputDevlParam = (LONG)lpwvhdr",
+  "code_blocks": [
+   "MM_WOM_DONE wParam = (WPARAM)hOutputDevlParam = (LONG)lpwvhdr"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_OPEN",
+  "title": "MM_WOM_OPEN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms932062(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_OPEN wParam = (WPARAM)hOutputDevlParam = reserved",
+  "code_blocks": [
+   "MM_WOM_OPEN wParam = (WPARAM)hOutputDevlParam = reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WIM_CLOSE",
+  "title": "WIM_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452468(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WIM_CLOSE dwParam1 = reserveddwParam2 = reserved",
+  "code_blocks": [
+   "WIM_CLOSE dwParam1 = reserveddwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WIM_DATA",
+  "title": "WIM_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452469(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WIM_DATA dwParam1 = (DWORD)lpwvhdrdwParam2 = reserved",
+  "code_blocks": [
+   "WIM_DATA dwParam1 = (DWORD)lpwvhdrdwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WIM_OPEN",
+  "title": "WIM_OPEN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452470(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WIM_OPEN dwParam1 = reserveddwParam2 = reserved",
+  "code_blocks": [
+   "WIM_OPEN dwParam1 = reserveddwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WOM_CLOSE",
+  "title": "WOM_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452471(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WOM_CLOSE dwParam1 = reserveddwParam2 = reserved",
+  "code_blocks": [
+   "WOM_CLOSE dwParam1 = reserveddwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WOM_DONE",
+  "title": "WOM_DONE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452472(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WOM_DONE dwParam1 = (DWORD)lpwvhdrdwParam2 = reserved",
+  "code_blocks": [
+   "WOM_DONE dwParam1 = (DWORD)lpwvhdrdwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WOM_OPEN",
+  "title": "WOM_OPEN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452473(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WOM_OPEN dwParam1 = reserveddwParam2 = reserved",
+  "code_blocks": [
+   "WOM_OPEN dwParam1 = reserveddwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "AUDIOGAINCLASS",
+  "title": "AUDIOGAINCLASS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925607(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagAUDIOGAINCLASS { DWORD dwPriority; DWORD dwRelativeGain;} AUDIOGAINCLASS, * PAUDIOGAINCLASS;",
+  "code_blocks": [
+   "typedef struct tagAUDIOGAINCLASS { DWORD dwPriority; DWORD dwRelativeGain;} AUDIOGAINCLASS, * PAUDIOGAINCLASS;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "STREAMPROPS",
+  "title": "STREAMPROPS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452383(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagSTREAMPROPS { DWORD dwClassID; DWORD dwFlags;} STREAMPROPS, *PSTREAMPROPS;",
+  "code_blocks": [
+   "typedef struct tagSTREAMPROPS { DWORD dwClassID; DWORD dwFlags;} STREAMPROPS, *PSTREAMPROPS;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEFORMATEX (Waveform Audio)",
+  "title": "WAVEFORMATEX (Waveform Audio) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452419(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {WORD wFormatTag; WORD nChannels; DWORD nSamplesPerSec; DWORD nAvgBytesPerSec; WORD nBlockAlign; WORD wBitsPerSample; WORD cbSize;} WAVEFORMATEX;",
+  "code_blocks": [
+   "typedef struct {WORD wFormatTag; WORD nChannels; DWORD nSamplesPerSec; DWORD nAvgBytesPerSec; WORD nBlockAlign; WORD wBitsPerSample; WORD cbSize;} WAVEFORMATEX;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEHDR",
+  "title": "WAVEHDR (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452420(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {LPSTR lpData;DWORD dwBufferLength;DWORD dwBytesRecorded;DWORD dwUser;DWORD dwFlags;DWORD dwLoops;struct wavehdr_tag* lpNext;DWORD reserved;}WAVEHDR;",
+  "code_blocks": [
+   "typedef struct {LPSTR lpData;DWORD dwBufferLength;DWORD dwBytesRecorded;DWORD dwUser;DWORD dwFlags;DWORD dwLoops;struct wavehdr_tag* lpNext;DWORD reserved;}WAVEHDR;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEINCAPS",
+  "title": "WAVEINCAPS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452422(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; DWORD dwFormats; WORD wChannels; WORD wReserved1;} WAVEINCAPS;",
+  "code_blocks": [
+   "typedef struct {WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; DWORD dwFormats; WORD wChannels; WORD wReserved1;} WAVEINCAPS;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Although these identifiers are supported in Windows CE, they are rarely needed or used because embedded devices typically have built-in devices with built-in drivers.",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEOUTCAPS",
+  "title": "WAVEOUTCAPS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452442(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; DWORD dwFormats; WORD wChannels; WORD wReserved1; DWORD dwSupport;} WAVEOUTCAPS;",
+  "code_blocks": [
+   "typedef struct {WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; DWORD dwFormats; WORD wChannels; WORD wReserved1; DWORD dwSupport;} WAVEOUTCAPS;"
+  ],
+  "requirements": {
+   "header": "Mmsystem.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Although these identifiers are supported in Windows CE, they are rarely needed or used because embedded devices typically have built-in devices with built-in drivers.",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "Audio Line and Control Queries",
+  "title": "Audio Line and Control Queries (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487560(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Control Types",
+  "title": "Control Types (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487558(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Mixer Architecture",
+  "title": "Mixer Architecture (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487364(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Mixer Device Queries",
+  "title": "Mixer Device Queries (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487393(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Opening and Closing Mixer Devices",
+  "title": "Opening and Closing Mixer Devices (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487568(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "Window Callback Services",
+  "title": "Window Callback Services (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487402(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "(top)"
+ },
+ {
+  "name": "MIXERCAPS",
+  "title": "MIXERCAPS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487363(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { WORD wMid; WORD wPid; MMVERSION vDriverVersion; TCHAR szPname[MAXPNAMELEN]; DWORD fdwSupport; DWORD cDestinations; } MIXERCAPS;",
+  "code_blocks": [
+   "typedef struct { WORD wMid; WORD wPid; MMVERSION vDriverVersion; TCHAR szPname[MAXPNAMELEN]; DWORD fdwSupport; DWORD cDestinations; } MIXERCAPS;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "Although these identifiers are supported in Windows Embedded CE, they are rarely needed or used because embedded devices typically have built-in devices with built-in drivers.",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MIXERCONTROL",
+  "title": "MIXERCONTROL (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487533(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD cbStruct; DWORD dwControlID; DWORD dwControlType; DWORD fdwControl; DWORD cMultipleItems; CHAR szShortName[MIXER_SHORT_NAME_CHARS]; CHAR szName[MIXER_LONG_NAME_CHARS]; union { struct { LONG lMinimum; LONG lMaximum; }; struct { DWORD dwMinimum; DWORD dwMaximum; }; DWORD dwReserved[6]; } Bounds; union { DWORD cSteps; DWORD cbCustomData; DWORD dwReserved[6]; } Metrics; } MIXERCONTROL, *PMIXERCONTROL, FAR* LPMIXERCONTROL;",
+  "code_blocks": [
+   "typedef struct { DWORD cbStruct; DWORD dwControlID; DWORD dwControlType; DWORD fdwControl; DWORD cMultipleItems; CHAR szShortName[MIXER_SHORT_NAME_CHARS]; CHAR szName[MIXER_LONG_NAME_CHARS]; union { struct { LONG lMinimum; LONG lMaximum; }; struct { DWORD dwMinimum; DWORD dwMaximum; }; DWORD dwReserved[6]; } Bounds; union { DWORD cSteps; DWORD cbCustomData; DWORD dwReserved[6]; } Metrics; } MIXERCONTROL, *PMIXERCONTROL, FAR* LPMIXERCONTROL;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS",
+  "title": "MIXERCONTROLDETAILS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487548(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD cbStruct; DWORD dwControlID; DWORD cChannels; union { HWND hwndOwner; DWORD cMultipleItems; }; DWORD cbDetails; LPVOID paDetails; } MIXERCONTROLDETAILS;",
+  "code_blocks": [
+   "typedef struct { DWORD cbStruct; DWORD dwControlID; DWORD cChannels; union { HWND hwndOwner; DWORD cMultipleItems; }; DWORD cbDetails; LPVOID paDetails; } MIXERCONTROLDETAILS;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS_BOOLEAN",
+  "title": "MIXERCONTROLDETAILS_BOOLEAN (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487421(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { LONG fValue; } MIXERCONTROLDETAILS_BOOLEAN;",
+  "code_blocks": [
+   "typedef struct { LONG fValue; } MIXERCONTROLDETAILS_BOOLEAN;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS_LISTTEXT",
+  "title": "MIXERCONTROLDETAILS_LISTTEXT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487413(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwParam1; DWORD dwParam2; CHAR szName[MIXER_LONG_NAME_CHARS]; } MIXERCONTROLDETAILS_LISTTEXT;",
+  "code_blocks": [
+   "typedef struct { DWORD dwParam1; DWORD dwParam2; CHAR szName[MIXER_LONG_NAME_CHARS]; } MIXERCONTROLDETAILS_LISTTEXT;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS_SIGNED",
+  "title": "MIXERCONTROLDETAILS_SIGNED (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487367(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { LONG lValue; } MIXERCONTROLDETAILS_SIGNED;",
+  "code_blocks": [
+   "typedef struct { LONG lValue; } MIXERCONTROLDETAILS_SIGNED;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MIXERCONTROLDETAILS_UNSIGNED",
+  "title": "MIXERCONTROLDETAILS_UNSIGNED (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487420(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwValue; } MIXERCONTROLDETAILS_UNSIGNED;",
+  "code_blocks": [
+   "typedef struct { DWORD dwValue; } MIXERCONTROLDETAILS_UNSIGNED;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MIXERLINE",
+  "title": "MIXERLINE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487432(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD cbStruct; DWORD dwDestination; DWORD dwSource; DWORD dwLineID; DWORD fdwLine; DWORD dwUser; DWORD dwComponentType; DWORD cChannels; DWORD cConnections; DWORD cControls; CHAR szShortName[MIXER_SHORT_NAME_CHARS]; CHAR szName[MIXER_LONG_NAME_CHARS]; struct { DWORD dwType; DWORD dwDeviceID; WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; } Target; } MIXERLINE;",
+  "code_blocks": [
+   "typedef struct { DWORD cbStruct; DWORD dwDestination; DWORD dwSource; DWORD dwLineID; DWORD fdwLine; DWORD dwUser; DWORD dwComponentType; DWORD cChannels; DWORD cConnections; DWORD cControls; CHAR szShortName[MIXER_SHORT_NAME_CHARS]; CHAR szName[MIXER_LONG_NAME_CHARS]; struct { DWORD dwType; DWORD dwDeviceID; WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; } Target; } MIXERLINE;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "Although these identifiers are supported in Windows Embedded CE, they are rarely needed or used because embedded devices typically have built-in devices with built-in drivers.",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MIXERLINECONTROLS",
+  "title": "MIXERLINECONTROLS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487346(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD cbStruct; DWORD dwLineID; union { DWORD dwControlID; DWORD dwControlType; }; DWORD cControls; DWORD cbmxctrl; LPMIXERCONTROL pamxctrl; } MIXERLINECONTROLS;",
+  "code_blocks": [
+   "typedef struct { DWORD cbStruct; DWORD dwLineID; union { DWORD dwControlID; DWORD dwControlType; }; DWORD cControls; DWORD cbmxctrl; LPMIXERCONTROL pamxctrl; } MIXERLINECONTROLS;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MM_MIXM_CONTROL_CHANGE",
+  "title": "MM_MIXM_CONTROL_CHANGE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487368(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_MIXM_CONTROL_CHANGE wParam = (WPARAM) hMixer lParam = (LPARAM) dwControlID",
+  "code_blocks": [
+   "MM_MIXM_CONTROL_CHANGE wParam = (WPARAM) hMixer lParam = (LPARAM) dwControlID"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "MM_MIXM_LINE_CHANGE",
+  "title": "MM_MIXM_LINE_CHANGE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487556(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_MIXM_LINE_CHANGE wParam = (WPARAM) hMixer lParam = (LPARAM) dwLineID",
+  "code_blocks": [
+   "MM_MIXM_LINE_CHANGE wParam = (WPARAM) hMixer lParam = (LPARAM) dwLineID"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerClose",
+  "title": "mixerClose (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487381(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerClose( HMIXER hmx );",
+  "code_blocks": [
+   "MMRESULT mixerClose( HMIXER hmx );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerGetControlDetails",
+  "title": "mixerGetControlDetails (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487387(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerGetControlDetails( HMIXEROBJ hmxobj, LPMIXERCONTROLDETAILS pmxcd, DWORD fdwDetails );",
+  "code_blocks": [
+   "MMRESULT mixerGetControlDetails( HMIXEROBJ hmxobj, LPMIXERCONTROLDETAILS pmxcd, DWORD fdwDetails );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerGetDevCaps",
+  "title": "mixerGetDevCaps (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487426(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerGetDevCaps( UINT uMxId, LPMIXERCAPS pmxcaps, UINT cbmxcaps );",
+  "code_blocks": [
+   "MMRESULT mixerGetDevCaps( UINT uMxId, LPMIXERCAPS pmxcaps, UINT cbmxcaps );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerGetID",
+  "title": "mixerGetID (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487524(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerGetID( HMIXEROBJ hmxobj, UINT* puMxId, DWORD fdwId );",
+  "code_blocks": [
+   "MMRESULT mixerGetID( HMIXEROBJ hmxobj, UINT* puMxId, DWORD fdwId );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerGetLineControls",
+  "title": "mixerGetLineControls (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487554(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerGetLineControls( HMIXEROBJ hmxobj, LPMIXERLINECONTROLS pmxlc, DWORD fdwControls );",
+  "code_blocks": [
+   "MMRESULT mixerGetLineControls( HMIXEROBJ hmxobj, LPMIXERLINECONTROLS pmxlc, DWORD fdwControls );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerGetLineInfo",
+  "title": "mixerGetLineInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487406(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerGetLineInfo( HMIXEROBJ hmxobj, LPMIXERLINE pmxl, DWORD fdwInfo );",
+  "code_blocks": [
+   "MMRESULT mixerGetLineInfo( HMIXEROBJ hmxobj, LPMIXERLINE pmxl, DWORD fdwInfo );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerGetNumDevs",
+  "title": "mixerGetNumDevs (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487500(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "UINT mixerGetNumDevs(void);",
+  "code_blocks": [
+   "UINT mixerGetNumDevs(void);"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerMessage",
+  "title": "mixerMessage (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487340(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD mixerMessage( HMIXER hmx, UINT uMsg, DWORD dwParam1, DWORD dwParam2 );",
+  "code_blocks": [
+   "DWORD mixerMessage( HMIXER hmx, UINT uMsg, DWORD dwParam1, DWORD dwParam2 );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerOpen",
+  "title": "mixerOpen (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487377(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerOpen( LPHMIXER phmx, UINT uMxId, DWORD dwCallback, DWORD dwInstance, DWORD fdwOpen );",
+  "code_blocks": [
+   "MMRESULT mixerOpen( LPHMIXER phmx, UINT uMxId, DWORD dwCallback, DWORD dwInstance, DWORD fdwOpen );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "mixerSetControlDetails",
+  "title": "mixerSetControlDetails (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487344(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT mixerSetControlDetails( HMIXEROBJ hmxobj, LPMIXERCONTROLDETAILS pmxcd, DWORD fdwDetails );",
+  "code_blocks": [
+   "MMRESULT mixerSetControlDetails( HMIXEROBJ hmxobj, LPMIXERCONTROLDETAILS pmxcd, DWORD fdwDetails );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.12 and later Note Version 2.12 requires DXPAK 1.0 or later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Hardware Audio Mixer Reference"
+ },
+ {
+  "name": "PlaySound",
+  "title": "PlaySound (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487517(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI PlaySound( LPCSTR pszSound, HMODULE hmod, DWORD fdwSound );",
+  "code_blocks": [
+   "BOOL WINAPI PlaySound( LPCSTR pszSound, HMODULE hmod, DWORD fdwSound );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE does not support the SND_ALIAS_ID and SND_PURGE flags for the fdwSound parameter.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "sndPlaySound",
+  "title": "sndPlaySound (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487375(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL sndPlaySound( LPCTSTR lpszSoundName, UINT fuSound );",
+  "code_blocks": [
+   "BOOL sndPlaySound( LPCTSTR lpszSoundName, UINT fuSound );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInAddBuffer",
+  "title": "waveInAddBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487419(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInAddBuffer( HWAVEIN hwi, LPWAVEHDR pwh, UINT cbwh );",
+  "code_blocks": [
+   "MMRESULT waveInAddBuffer( HWAVEIN hwi, LPWAVEHDR pwh, UINT cbwh );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInClose",
+  "title": "waveInClose (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487332(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInClose( HWAVEIN hwi );",
+  "code_blocks": [
+   "MMRESULT waveInClose( HWAVEIN hwi );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetDevCaps",
+  "title": "waveInGetDevCaps (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487563(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetDevCaps( UINT uDeviceID, LPWAVEINCAPS pwic, UINT cbwic );",
+  "code_blocks": [
+   "MMRESULT waveInGetDevCaps( UINT uDeviceID, LPWAVEINCAPS pwic, UINT cbwic );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "If the device does not support the format, it will return WAVERR_BADFORMAT.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetErrorText",
+  "title": "waveInGetErrorText (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487366(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetErrorText( MMRESULT mmrError, LPTSTR pszText, UINT cchText );",
+  "code_blocks": [
+   "MMRESULT waveInGetErrorText( MMRESULT mmrError, LPTSTR pszText, UINT cchText );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetID",
+  "title": "waveInGetID (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487427(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetID( HWAVEIN hwi, PUINT puDeviceID );",
+  "code_blocks": [
+   "MMRESULT waveInGetID( HWAVEIN hwi, PUINT puDeviceID );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetNumDevs",
+  "title": "waveInGetNumDevs (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487416(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "UINT waveInGetNumDevs(void);",
+  "code_blocks": [
+   "UINT waveInGetNumDevs(void);"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetPosition",
+  "title": "waveInGetPosition (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487370(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetPosition( HWAVEIN hwi, LPMMTIME pmmt, UINT cbmmt );",
+  "code_blocks": [
+   "MMRESULT waveInGetPosition( HWAVEIN hwi, LPMMTIME pmmt, UINT cbmmt );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "If the format is not supported, the member will specify an alternative format.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInGetProperty",
+  "title": "waveInGetProperty (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487342(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInGetProperty ( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData, PULONG pcbReturn );",
+  "code_blocks": [
+   "MMRESULT waveInGetProperty ( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData, PULONG pcbReturn );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInMessage",
+  "title": "waveInMessage (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487539(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInMessage( HWAVEIN hwi, UINT uMsg, DWORD dw1, DWORD dw2 );",
+  "code_blocks": [
+   "MMRESULT waveInMessage( HWAVEIN hwi, UINT uMsg, DWORD dw1, DWORD dw2 );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInOpen",
+  "title": "waveInOpen (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487353(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInOpen( LPHWAVEIN phwi, UINT uDeviceID, LPCWAVEFORMATEX pwfx, DWORD dwCallback, DWORD dwInstance, DWORD fdwOpen );",
+  "code_blocks": [
+   "MMRESULT waveInOpen( LPHWAVEIN phwi, UINT uDeviceID, LPCWAVEFORMATEX pwfx, DWORD dwCallback, DWORD dwInstance, DWORD fdwOpen );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInPrepareHeader",
+  "title": "waveInPrepareHeader (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487389(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInPrepareHeader( HWAVEIN hwi, LPWAVEHDR pwh, UINT cbwh );",
+  "code_blocks": [
+   "MMRESULT waveInPrepareHeader( HWAVEIN hwi, LPWAVEHDR pwh, UINT cbwh );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInProc",
+  "title": "waveInProc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487337(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void CALLBACK waveInProc( HWAVEIN hwi, UINT uMsg, DWORD dwInstance, DWORD dwParam1, DWORD dwParam2 );",
+  "code_blocks": [
+   "void CALLBACK waveInProc( HWAVEIN hwi, UINT uMsg, DWORD dwInstance, DWORD dwParam1, DWORD dwParam2 );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInReset",
+  "title": "waveInReset (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487358(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInReset( HWAVEIN hwi );",
+  "code_blocks": [
+   "MMRESULT waveInReset( HWAVEIN hwi );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInSetProperty",
+  "title": "waveInSetProperty (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487372(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInSetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData );",
+  "code_blocks": [
+   "MMRESULT waveInSetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInStart",
+  "title": "waveInStart (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487418(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInStart( HWAVEIN hwi );",
+  "code_blocks": [
+   "MMRESULT waveInStart( HWAVEIN hwi );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInStop",
+  "title": "waveInStop (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487509(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInStop( HWAVEIN hwi );",
+  "code_blocks": [
+   "MMRESULT waveInStop( HWAVEIN hwi );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveInUnprepareHeader",
+  "title": "waveInUnprepareHeader (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487425(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveInUnprepareHeader( HWAVEIN hwi, LPWAVEHDR pwh, UINT cbwh );",
+  "code_blocks": [
+   "MMRESULT waveInUnprepareHeader( HWAVEIN hwi, LPWAVEHDR pwh, UINT cbwh );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutBreakLoop",
+  "title": "waveOutBreakLoop (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487388(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutBreakLoop( HWAVEOUT hwo );",
+  "code_blocks": [
+   "MMRESULT waveOutBreakLoop( HWAVEOUT hwo );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutClose",
+  "title": "waveOutClose (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487411(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutClose( HWAVEOUT hwo );",
+  "code_blocks": [
+   "MMRESULT waveOutClose( HWAVEOUT hwo );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetDevCaps",
+  "title": "waveOutGetDevCaps (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487537(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetDevCaps( UINT uDeviceID, LPWAVEOUTCAPS pwoc, UINT cbwoc );",
+  "code_blocks": [
+   "MMRESULT waveOutGetDevCaps( UINT uDeviceID, LPWAVEOUTCAPS pwoc, UINT cbwoc );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "If the device does not support the format, it will return WAVERR_BADFORMAT.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetErrorText",
+  "title": "waveOutGetErrorText (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487430(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetErrorText( UINT mmrError, LPTSTR pszText, UINT cchText );",
+  "code_blocks": [
+   "MMRESULT waveOutGetErrorText( UINT mmrError, LPTSTR pszText, UINT cchText );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetID",
+  "title": "waveOutGetID (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487510(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetID( HWAVEOUT hwo, LPUINT puDeviceID );",
+  "code_blocks": [
+   "MMRESULT waveOutGetID( HWAVEOUT hwo, LPUINT puDeviceID );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetNumDevs",
+  "title": "waveOutGetNumDevs (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487334(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "UINT waveOutGetNumDevs(void);",
+  "code_blocks": [
+   "UINT waveOutGetNumDevs(void);"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetPitch",
+  "title": "waveOutGetPitch (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487506(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetPitch( HWAVEOUT hwo, LPDWORD pdwPitch );",
+  "code_blocks": [
+   "MMRESULT waveOutGetPitch( HWAVEOUT hwo, LPDWORD pdwPitch );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetPlaybackRate",
+  "title": "waveOutGetPlaybackRate (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487400(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetPlaybackRate( HWAVEOUT hwo, LPDWORD pdwRate );",
+  "code_blocks": [
+   "MMRESULT waveOutGetPlaybackRate( HWAVEOUT hwo, LPDWORD pdwRate );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetPosition",
+  "title": "waveOutGetPosition (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487385(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetPosition( HWAVEOUT hwo, LPMMTIME pmmt, UINT cbmmt );",
+  "code_blocks": [
+   "MMRESULT waveOutGetPosition( HWAVEOUT hwo, LPMMTIME pmmt, UINT cbmmt );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "If the format is not supported, wType will specify an alternative format.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetProperty",
+  "title": "waveOutGetProperty (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487572(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData, PULONG pcbReturn );",
+  "code_blocks": [
+   "MMRESULT waveOutGetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData, PULONG pcbReturn );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutGetVolume",
+  "title": "waveOutGetVolume (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487351(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutGetVolume( HWAVEOUT hwo, LPDWORD pdwVolume );",
+  "code_blocks": [
+   "MMRESULT waveOutGetVolume( HWAVEOUT hwo, LPDWORD pdwVolume );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutMessage",
+  "title": "waveOutMessage (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487355(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutMessage( HWAVEOUT hwo, UINT uMsg, DWORD dw1, DWORD dw2 );",
+  "code_blocks": [
+   "MMRESULT waveOutMessage( HWAVEOUT hwo, UINT uMsg, DWORD dw1, DWORD dw2 );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutOpen",
+  "title": "waveOutOpen (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487546(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutOpen( LPHWAVEOUT phwo, UINT uDeviceID, LPWAVEFORMATEX pwfx, DWORD dwCallback, DWORD dwInstance, DWORD fdwOpen );",
+  "code_blocks": [
+   "MMRESULT waveOutOpen( LPHWAVEOUT phwo, UINT uDeviceID, LPWAVEFORMATEX pwfx, DWORD dwCallback, DWORD dwInstance, DWORD fdwOpen );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "In addition, Windows Embedded CE offers software mixing of multiple audio streams.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutPause",
+  "title": "waveOutPause (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487380(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutPause( HWAVEOUT hwo );",
+  "code_blocks": [
+   "MMRESULT waveOutPause( HWAVEOUT hwo );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutPrepareHeader",
+  "title": "waveOutPrepareHeader (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487526(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutPrepareHeader( HWAVEOUT hwo, LPWAVEHDR pwh, UINT cbwh );",
+  "code_blocks": [
+   "MMRESULT waveOutPrepareHeader( HWAVEOUT hwo, LPWAVEHDR pwh, UINT cbwh );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutProc",
+  "title": "waveOutProc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487520(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void CALLBACK waveOutProc( HWAVEOUT hwo, UINT uMsg, DWORD dwInstance, DWORD dwParam1, DWORD dwParam2 );",
+  "code_blocks": [
+   "void CALLBACK waveOutProc( HWAVEOUT hwo, UINT uMsg, DWORD dwInstance, DWORD dwParam1, DWORD dwParam2 );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutReset",
+  "title": "waveOutReset (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487570(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutReset( HWAVEOUT hwo );",
+  "code_blocks": [
+   "MMRESULT waveOutReset( HWAVEOUT hwo );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutRestart",
+  "title": "waveOutRestart (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487339(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutRestart( HWAVEOUT hwo );",
+  "code_blocks": [
+   "MMRESULT waveOutRestart( HWAVEOUT hwo );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutSetPitch",
+  "title": "waveOutSetPitch (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487410(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutSetPitch( HWAVEOUT hwo, DWORD dwPitch );",
+  "code_blocks": [
+   "MMRESULT waveOutSetPitch( HWAVEOUT hwo, DWORD dwPitch );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutSetPlaybackRate",
+  "title": "waveOutSetPlaybackRate (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487501(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutSetPlaybackRate( HWAVEOUT hwo, DWORD dwRate );",
+  "code_blocks": [
+   "MMRESULT waveOutSetPlaybackRate( HWAVEOUT hwo, DWORD dwRate );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutSetProperty",
+  "title": "waveOutSetProperty (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487341(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutSetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData );",
+  "code_blocks": [
+   "MMRESULT waveOutSetProperty( UINT uDeviceID, const GUID* pPropSetId, ULONG ulPropId, LPVOID pvPropParams, ULONG cbPropParams, LPVOID pvPropData, ULONG cbPropData );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutSetVolume",
+  "title": "waveOutSetVolume (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487384(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutSetVolume( HWAVEOUT hwo, DWORD dwVolume );",
+  "code_blocks": [
+   "MMRESULT waveOutSetVolume( HWAVEOUT hwo, DWORD dwVolume );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Most devices do not support the full 16 bits of volume-level control and will not use the high-order bits of the requested volume setting.",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutUnprepareHeader",
+  "title": "waveOutUnprepareHeader (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487360(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutUnprepareHeader( HWAVEOUT hwo, LPWAVEHDR pwh, UINT cbwh );",
+  "code_blocks": [
+   "MMRESULT waveOutUnprepareHeader( HWAVEOUT hwo, LPWAVEHDR pwh, UINT cbwh );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "waveOutWrite",
+  "title": "waveOutWrite (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487550(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MMRESULT waveOutWrite( HWAVEOUT hwo, LPWAVEHDR pwh, UINT cbwh );",
+  "code_blocks": [
+   "MMRESULT waveOutWrite( HWAVEOUT hwo, LPWAVEHDR pwh, UINT cbwh );"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Functions"
+ },
+ {
+  "name": "DRVM_MAPPER_PREFERRED_GET",
+  "title": "DRVM_MAPPER_PREFERRED_GET (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487336(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DRVM_MAPPER_PREFERRED_GET wParam =pDeviceIDlParam = Reserved",
+  "code_blocks": [
+   "DRVM_MAPPER_PREFERRED_GET wParam =pDeviceIDlParam = Reserved",
+   "#define DRVM_MAPPER 0x2000 #define DRVM_MAPPER_PREFERRED_GET (DRVM_MAPPER+21) #define DRVM_MAPPER_PREFERRED_SET (DRVM_MAPPER+22)"
+  ],
+  "requirements": {},
+  "ce_notes_excerpt": "DRVM_MAPPER_PREFERRED_SET and DRVM_MAPPER_PREFERRED_GET are not defined by Windows Embedded CE.",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "DRVM_MAPPER_PREFERRED_SET",
+  "title": "DRVM_MAPPER_PREFERRED_SET (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487335(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "wParam = OrigDeviceId lParam = NewDeviceId",
+  "code_blocks": [
+   "wParam = OrigDeviceId lParam = NewDeviceId",
+   "#define DRVM_MAPPER 0x2000 #define DRVM_MAPPER_PREFERRED_GET (DRVM_MAPPER+21) #define DRVM_MAPPER_PREFERRED_SET (DRVM_MAPPER+22)"
+  ],
+  "requirements": {},
+  "ce_notes_excerpt": "DRVM_MAPPER_PREFERRED_SET and DRVM_MAPPER_PREFERRED_GET are not defined by Windows Embedded CE.",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MIDI_MESSAGE_FREQGENOFF",
+  "title": "MIDI_MESSAGE_FREQGENOFF (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487365(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MIDI_MESSAGE_FREQGENON wParam = (UINT32) dwData lParam = reserved",
+  "code_blocks": [
+   "MIDI_MESSAGE_FREQGENON wParam = (UINT32) dwData lParam = reserved"
+  ],
+  "requirements": {
+   "header": "wfmtmidi.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MIDI_MESSAGE_FREQGENON",
+  "title": "MIDI_MESSAGE_FREQGENON (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487545(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MIDI_MESSAGE_FREQGENON wParam = (UINT32) dwData lParam = reserved",
+  "code_blocks": [
+   "MIDI_MESSAGE_FREQGENON wParam = (UINT32) dwData lParam = reserved"
+  ],
+  "requirements": {
+   "header": "wfmtmidi.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MIDI_MESSAGE_UPDATETEMPO",
+  "title": "MIDI_MESSAGE_UPDATETEMPO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487518(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MIDI_MESSAGE_UPDATETEMPO wParam = (UINT32) dwData lParam = reserved",
+  "code_blocks": [
+   "MIDI_MESSAGE_UPDATETEMPO wParam = (UINT32) dwData lParam = reserved"
+  ],
+  "requirements": {
+   "header": "wfmtmidi.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WIM_CLOSE",
+  "title": "MM_WIM_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487403(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WIM_CLOSE wParam = (WPARAM) hInputDev lParam = reserved",
+  "code_blocks": [
+   "MM_WIM_CLOSE wParam = (WPARAM) hInputDev lParam = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WIM_DATA",
+  "title": "MM_WIM_DATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487357(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WIM_DATA wParam = (WPARAM) hInputDev lParam = (LONG) lpwvhdr",
+  "code_blocks": [
+   "MM_WIM_DATA wParam = (WPARAM) hInputDev lParam = (LONG) lpwvhdr"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WIM_OPEN",
+  "title": "MM_WIM_OPEN (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487398(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WIM_OPEN wParam = (WPARAM) hInputDev lParam = reserved",
+  "code_blocks": [
+   "MM_WIM_OPEN wParam = (WPARAM) hInputDev lParam = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_ATTENUATED",
+  "title": "MM_WOM_ATTENUATED (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487522(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_ATTENUATED wParam = (DWORD) dwAttenuation lParam = 0",
+  "code_blocks": [
+   "MM_WOM_ATTENUATED wParam = (DWORD) dwAttenuation lParam = 0"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_CLOSE",
+  "title": "MM_WOM_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487561(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_CLOSE wParam = (WPARAM) hOutputDev lParam = reserved",
+  "code_blocks": [
+   "MM_WOM_CLOSE wParam = (WPARAM) hOutputDev lParam = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_DONE",
+  "title": "MM_WOM_DONE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487397(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_DONE wParam = (WPARAM) hOutputDev lParam = (LONG) lpwvhdr",
+  "code_blocks": [
+   "MM_WOM_DONE wParam = (WPARAM) hOutputDev lParam = (LONG) lpwvhdr"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_FORCESPEAKER",
+  "title": "MM_WOM_FORCESPEAKER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487347(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_FORCESPEAKER wParam = (BOOL) bForce lParam = reserved",
+  "code_blocks": [
+   "MM_WOM_FORCESPEAKER wParam = (BOOL) bForce lParam = reserved"
+  ],
+  "requirements": {
+   "header": "audiosys.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_OPEN",
+  "title": "MM_WOM_OPEN (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487374(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_OPEN wParam = (WPARAM) hOutputDev lParam = reserved",
+  "code_blocks": [
+   "MM_WOM_OPEN wParam = (WPARAM) hOutputDev lParam = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_SETSECONDARYGAINCLASS",
+  "title": "MM_WOM_SETSECONDARYGAINCLASS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487345(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_SETSECONDARYGAINCLASS wParam = (DWORD) dwClass lParam = 0",
+  "code_blocks": [
+   "MM_WOM_SETSECONDARYGAINCLASS wParam = (DWORD) dwClass lParam = 0"
+  ],
+  "requirements": {
+   "header": "audiosys.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "MM_WOM_SETSECONDARYGAINLIMIT",
+  "title": "MM_WOM_SETSECONDARYGAINLIMIT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487422(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MM_WOM_SETSECONDARYGAINLIMIT wParam = (DWORD) dwClass lParam = (DWORD) dwLimit",
+  "code_blocks": [
+   "MM_WOM_SETSECONDARYGAINLIMIT wParam = (DWORD) dwClass lParam = (DWORD) dwLimit"
+  ],
+  "requirements": {
+   "header": "audiosys.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WIM_CLOSE",
+  "title": "WIM_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487359(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WIM_CLOSE dwParam1 = reserved dwParam2 = reserved",
+  "code_blocks": [
+   "WIM_CLOSE dwParam1 = reserved dwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WIM_DATA",
+  "title": "WIM_DATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487343(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WIM_DATA dwParam1 = (DWORD) lpwvhdr dwParam2 = reserved",
+  "code_blocks": [
+   "WIM_DATA dwParam1 = (DWORD) lpwvhdr dwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WIM_OPEN",
+  "title": "WIM_OPEN (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487496(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WIM_OPEN dwParam1 = reserved dwParam2 = reserved",
+  "code_blocks": [
+   "WIM_OPEN dwParam1 = reserved dwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WOM_CLOSE",
+  "title": "WOM_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487408(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WOM_CLOSE dwParam1 = reserved dwParam2 = reserved",
+  "code_blocks": [
+   "WOM_CLOSE dwParam1 = reserved dwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WOM_DONE",
+  "title": "WOM_DONE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487356(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WOM_DONE dwParam1 = (DWORD) lpwvhdr dwParam2 = reserved",
+  "code_blocks": [
+   "WOM_DONE dwParam1 = (DWORD) lpwvhdr dwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "WOM_OPEN",
+  "title": "WOM_OPEN (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487386(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WOM_OPEN dwParam1 = reserved dwParam2 = reserved",
+  "code_blocks": [
+   "WOM_OPEN dwParam1 = reserved dwParam2 = reserved"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Messages"
+ },
+ {
+  "name": "AUDIOGAINCLASS",
+  "title": "AUDIOGAINCLASS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487350(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagAUDIOGAINCLASS { DWORD dwPriority; DWORD dwRelativeGain; } AUDIOGAINCLASS, * PAUDIOGAINCLASS;",
+  "code_blocks": [
+   "typedef struct tagAUDIOGAINCLASS { DWORD dwPriority; DWORD dwRelativeGain; } AUDIOGAINCLASS, * PAUDIOGAINCLASS;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "STREAMPROPS",
+  "title": "STREAMPROPS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487543(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagSTREAMPROPS { DWORD dwClassID; DWORD dwFlags; } STREAMPROPS, *PSTREAMPROPS;",
+  "code_blocks": [
+   "typedef struct tagSTREAMPROPS { DWORD dwClassID; DWORD dwFlags; } STREAMPROPS, *PSTREAMPROPS;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEFORMATEX (Waveform Audio)",
+  "title": "WAVEFORMATEX (Waveform Audio) (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487527(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { WORD wFormatTag; WORD nChannels; DWORD nSamplesPerSec; DWORD nAvgBytesPerSec; WORD nBlockAlign; WORD wBitsPerSample; WORD cbSize;} WAVEFORMATEX;",
+  "code_blocks": [
+   "typedef struct { WORD wFormatTag; WORD nChannels; DWORD nSamplesPerSec; DWORD nAvgBytesPerSec; WORD nBlockAlign; WORD wBitsPerSample; WORD cbSize;} WAVEFORMATEX;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEFORMAT_MIDI",
+  "title": "WAVEFORMAT_MIDI (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487515(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _WAVEFORMAT_MIDI { WAVEFORMATEX wfx; UINT32 USecPerQuarterNote; UINT32 TicksPerQuarterNote; } WAVEFORMAT_MIDI, *LPWAVEFORMAT_MIDI;",
+  "code_blocks": [
+   "typedef struct _WAVEFORMAT_MIDI { WAVEFORMATEX wfx; UINT32 USecPerQuarterNote; UINT32 TicksPerQuarterNote; } WAVEFORMAT_MIDI, *LPWAVEFORMAT_MIDI;"
+  ],
+  "requirements": {
+   "header": "wfmtmidi.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEFORMAT_MIDI_MESSAGE",
+  "title": "WAVEFORMAT_MIDI_MESSAGE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487534(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _WAVEFORMAT_MIDI_MESSAGE { UINT32 DeltaTicks; DWORD MidiMsg; } WAVEFORMAT_MIDI_MESSAGE;",
+  "code_blocks": [
+   "typedef struct _WAVEFORMAT_MIDI_MESSAGE { UINT32 DeltaTicks; DWORD MidiMsg; } WAVEFORMAT_MIDI_MESSAGE;",
+   "#define DEFINE_GUIDS 1 #include \"windows.h\" #include \"stdio.h\" #include \"wfmtmidi.h\" /* DTMF frequencies: DTMF stands for Dual Tone Multi Frequency. These are the tones used for key presees on a telephone touchpad. The tone of the button is the sum of the column and row tones. The ABCD keys do not exist on standard telephones. Frequency 1 1209133614771633 ------------------------ 697 |123A 770 |456B Frequency 2852 |789C 941 |*0#D Frequencies of other telephone tones TypeHzOnOff ------------------------------------------- Dial Tone 350 &400------ Busy Signal480 &6200.50.5 Toll Congestion 480 &6200.20.3 Ringback (Normal)440 &4802.04.0 Ringback (PBX)440 &4801.54.5 Reorder (Local) 480 &6203.02.0 Invalid Number200 &400 Hang Up Warning1400 & 20600.10.1 Hang Up2450 & 2600------ */ HANDLE hEvent; void CALLBACK waveOutProc( HWAVEOUT hwo, UINT uMsg, DWORD dwInstance, DWORD dwParam1, DWORD dwParam2 ) { if (uMsg==WOM_DONE) { SetEvent(hEvent); } return; } int _tmain(int argc, TCHAR *argv[]) { hEvent=CreateEvent( NULL,TRUE,FALSE,NULL); WAVEFORMAT_MIDI wfm; memset(&wfm,0,sizeof(wfm)); wfm.wfx.wFormatTag=WAVE_FORMAT_MIDI; wfm.wfx.nChannels=1; wfm.wfx.nSamplesPerSec=32; wfm.wfx.nAvgBytesPerSec=32; wfm.wfx.nBlockAlign=sizeof(WAVEFORMAT_MIDI_MESSAGE); wfm.wfx.wBitsPerSample=16; wfm.wfx.cbSize=WAVEFORMAT_MIDI_EXTRASIZE; wfm.USecPerQuarterNote=9600000; // Force each tick to be 1/10 sec MMRESULT Result; HWAVEOUT hWaveOut; Result = waveOutOpen(&hWaveOut, WAVE_MAPPER, (LPWAVEFORMATEX)&wfm, (DWORD)waveOutProc, 0, CALLBACK_FUNCTION); if (Result!=MMSYSERR_NOERROR) { return -1; } WAVEFORMAT_MIDI_MESSAGE MidiMessage[5]; MidiMessage[0].DeltaTicks=0; MidiMessage[0].MidiMsg=0x203F0000 | 480; MidiMessage[1].DeltaTicks=0; MidiMessage[1].MidiMsg=0x203F0000 | 620; MidiMessage[2].DeltaTicks=2; MidiMessage[2].MidiMsg=0x303F0000 | 480; MidiMessage[3].DeltaTicks=0; MidiMessage[3].MidiMsg=0x303F0000 | 620; MidiMessage[4].DeltaTicks=3; MidiMessage[4].MidiMsg=0; // Dummy msg, does nothing WAVEHDR WaveHdr; WaveHdr.lpData = (LPSTR)&MidiMessage; WaveHdr.dwBufferLength = sizeof(MidiMessage); WaveHdr.dwFlags = WHDR_BEGINLOOP|WHDR_ENDLOOP; WaveHdr.dwLoops = 20; Result = waveOutPrepareHeader(hWaveOut,&WaveHdr,sizeof(WaveHdr)); Result = waveOutWrite(hWaveOut,&WaveHdr,sizeof(WaveHdr)); WaitForSingleObject(hEvent,INFINITE); Result = waveOutUnprepareHeader(hWaveOut,&WaveHdr,sizeof(WaveHdr)); Result = waveOutClose(hWaveOut); return 0; }"
+  ],
+  "requirements": {
+   "header": "wfmtmidi.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEHDR",
+  "title": "WAVEHDR (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487530(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { LPSTR lpData; DWORD dwBufferLength; DWORD dwBytesRecorded; DWORD dwUser; DWORD dwFlags; DWORD dwLoops; struct wavehdr_tag* lpNext; DWORD reserved;} WAVEHDR;",
+  "code_blocks": [
+   "typedef struct { LPSTR lpData; DWORD dwBufferLength; DWORD dwBytesRecorded; DWORD dwUser; DWORD dwFlags; DWORD dwLoops; struct wavehdr_tag* lpNext; DWORD reserved;} WAVEHDR;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEINCAPS",
+  "title": "WAVEINCAPS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487396(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; DWORD dwFormats; WORD wChannels; WORD wReserved1;} WAVEINCAPS;",
+  "code_blocks": [
+   "typedef struct { WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; DWORD dwFormats; WORD wChannels; WORD wReserved1;} WAVEINCAPS;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Although these identifiers are supported in Windows Embedded CE, they are rarely needed or used because embedded devices typically have built-in devices with built-in drivers.",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ },
+ {
+  "name": "WAVEOUTCAPS",
+  "title": "WAVEOUTCAPS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487573(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; DWORD dwFormats; WORD wChannels; WORD wReserved1; DWORD dwSupport; } WAVEOUTCAPS;",
+  "code_blocks": [
+   "typedef struct { WORD wMid; WORD wPid; MMVERSION vDriverVersion; CHAR szPname[MAXPNAMELEN]; DWORD dwFormats; WORD wChannels; WORD wReserved1; DWORD dwSupport; } WAVEOUTCAPS;"
+  ],
+  "requirements": {
+   "header": "mmsystem.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Although these identifiers are supported in Windows Embedded CE, they are rarely needed or used because embedded devices typically have built-in devices with built-in drivers.",
+  "area": "audio",
+  "sub": "Waveform Audio Structures"
+ }
+]

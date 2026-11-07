@@ -1,0 +1,4745 @@
+[
+ {
+  "name": "NODECONTAINERTYPE",
+  "title": "NODECONTAINERTYPE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863400(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { NODECONTAINERTYPESEQUENCE = 0, NODECONTAINERTYPEALTERNATIVE = NodeContainerTypeSequence + 1 } NODECONTAINERTYPE;",
+  "code_blocks": [
+   "typedef enum { NODECONTAINERTYPESEQUENCE = 0, NODECONTAINERTYPEALTERNATIVE = NodeContainerTypeSequence + 1 } NODECONTAINERTYPE;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Enumerations"
+ },
+ {
+  "name": "SDP_SPECIFICTYPE",
+  "title": "SDP_SPECIFICTYPE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863406(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { SDP_ST_NONE = 0x0000, SDP_ST_UINT8 = 0x0010, SDP_ST_UINT16 = 0x0110, SDP_ST_UINT32 = 0x0210, SDP_ST_UINT64 = 0x0310, SDP_ST_UINT128 = 0x0410, SDP_ST_INT8 = 0x0020, SDP_ST_INT16 = 0x0120, SDP_ST_INT32 = 0x0220, SDP_ST_INT64 = 0x0320, SDP_ST_INT128 = 0x0420, SDP_ST_UUID16 = 0x0130, SDP_ST_UUID32 = 0x0220, SDP_ST_UUID128 = 0x0430 } SDP_SPECIFICTYPE;",
+  "code_blocks": [
+   "typedef enum { SDP_ST_NONE = 0x0000, SDP_ST_UINT8 = 0x0010, SDP_ST_UINT16 = 0x0110, SDP_ST_UINT32 = 0x0210, SDP_ST_UINT64 = 0x0310, SDP_ST_UINT128 = 0x0410, SDP_ST_INT8 = 0x0020, SDP_ST_INT16 = 0x0120, SDP_ST_INT32 = 0x0220, SDP_ST_INT64 = 0x0320, SDP_ST_INT128 = 0x0420, SDP_ST_UUID16 = 0x0130, SDP_ST_UUID32 = 0x0220, SDP_ST_UUID128 = 0x0430 } SDP_SPECIFICTYPE;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Enumerations"
+ },
+ {
+  "name": "SDP_TYPE",
+  "title": "SDP_TYPE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863407(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { SDP_TYPE_NIL = 0x00, SDP_TYPE_UINT = 0x01, SDP_TYPE_INT = 0x02, SDP_TYPE_UUID = 0x03, SDP_TYPE_STRING = 0x04, SDP_TYPE_BOOLEAN = 0x05, SDP_TYPE_SEQUENCE = 0x06, SDP_TYPE_ALTERNATIVE = 0x07, SDP_TYPE_URL = 0x08, SDP_TYPE_CONTAINER = 0x20 } SDP_TYPE;",
+  "code_blocks": [
+   "typedef enum { SDP_TYPE_NIL = 0x00, SDP_TYPE_UINT = 0x01, SDP_TYPE_INT = 0x02, SDP_TYPE_UUID = 0x03, SDP_TYPE_STRING = 0x04, SDP_TYPE_BOOLEAN = 0x05, SDP_TYPE_SEQUENCE = 0x06, SDP_TYPE_ALTERNATIVE = 0x07, SDP_TYPE_URL = 0x08, SDP_TYPE_CONTAINER = 0x20 } SDP_TYPE;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Enumerations"
+ },
+ {
+  "name": "WSALookupServiceBegin (Bluetooth)",
+  "title": "WSALookupServiceBegin (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863410(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT WSALookupServiceBegin( LPWSAQUERYSET pQuerySet, DWORD dwFlags, LPHANDLE lphLookup );",
+  "code_blocks": [
+   "INT WSALookupServiceBegin( LPWSAQUERYSET pQuerySet, DWORD dwFlags, LPHANDLE lphLookup );"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "WSALookupServiceEnd (Bluetooth)",
+  "title": "WSALookupServiceEnd (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863411(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT WSALookupServiceEnd( HANDLE hLookup );",
+  "code_blocks": [
+   "INT WSALookupServiceEnd( HANDLE hLookup );"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "WSALookupServiceNext (Bluetooth)",
+  "title": "WSALookupServiceNext (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863412(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT WSALookupServiceNext( HANDLE hLookup, DWORD dwFlags, LPDWORD lpdwBufferLength, LPWSAQUERYSET pResults );",
+  "code_blocks": [
+   "INT WSALookupServiceNext( HANDLE hLookup, DWORD dwFlags, LPDWORD lpdwBufferLength, LPWSAQUERYSET pResults );"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "WSASetService (Bluetooth)",
+  "title": "WSASetService (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863409(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT WSASetService( LPWSAQUERYSET lpqsRegInfo, WSAESETSERVICEOP essoperation, DWORD dwControlFlags );",
+  "code_blocks": [
+   "INT WSASetService( LPWSAQUERYSET lpqsRegInfo, WSAESETSERVICEOP essoperation, DWORD dwControlFlags );"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "Field Subfield Description lpqsRegInfo dwSize sizeof(WSAQUERYSET) lpszServiceInstanceName Not supported on Windows CE. lpServiceClassId Not supported on Windows CE. dwNumberOfCsAddrs Not supported on Windows CE. IpcsaBuffer Not supported on Windows CE. * All other WSAQUERYSET fields are ignored. * All other fields are ignored.",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "accept (Bluetooth)",
+  "title": "accept (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863305(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SOCKET accept( SOCKET s, struct SOCK_ADDR* addr, int FAR* addrlen );",
+  "code_blocks": [
+   "SOCKET accept( SOCKET s, struct SOCK_ADDR* addr, int FAR* addrlen );",
+   "SOCKET s = socket (AF_BTH, SOCK_STREAM, BTHPROTO_RFCOMM); if (s == INVALID_SOCKET) { wprintf (L\"Socket creation failed, error %d\\n\", WSAGetLastError ()); return; } SOCKADDR_BTH sab; memset (&sab, 0, sizeof(sab)); sab.addressFamily = AF_BTH; if (0 != bind (s, (SOCKADDR *) &sab, sizeof(sab))) { wprintf (L\"Socket bind, error %d\\n\", WSAGetLastError ()); closesocket (s); return; } listen (s, 5); for ( ; ; ) { SOCKADDR_BTH sab2; int ilen = sizeof(sab2); SOCKET s2 = accept (s, &sab2, &ilen); if (s2 == INVALID_SOCKET) { wprintf (L\"Socket bind, error %d\\n\", WSAGetLastError ()); break; } wprintf (L\"Connection came from %04x%08x to channel %d\\n\", GET_NAP(sab2.btAddr), GET_SAP(sab2.btAddr), sab2.port); SpinConnectionThreadsOnSocket (s2); } closesocket (s); return;"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "bind (Bluetooth)",
+  "title": "bind (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863315(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int bind( SOCKET s, const struct SOCK_ADDR* name, int namelen );",
+  "code_blocks": [
+   "int bind( SOCKET s, const struct SOCK_ADDR* name, int namelen );",
+   "SOCKADDR_BTH sab; memset (&sab, 0, sizeof(sab)); sab.addressFamily = AF_BTH; sab.port = 0; // auto-allocate server channel"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "connect (Bluetooth)",
+  "title": "connect (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863326(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int connect( SOCKET s, const struct SOCK_ADDR* name, int namelen );",
+  "code_blocks": [
+   "int connect( SOCKET s, const struct SOCK_ADDR* name, int namelen );",
+   "SOCKET s = socket (AF_BTH, SOCK_STREAM, BTHPROTO_RFCOMM); if (s == INVALID_SOCKET) { wprintf (L\"Could not create socket: error %d\\n\", WSAGetLastError ()); return; } SOCKADDR_BTH sab; memset (&sab, 0, sizeof(sab)); sab.addressFamily = AF_BTH; sab.serviceClassId = FaxServiceClass_UUID; sab.btAddr = target_bluetooth_device; if (0 != connect (s, &sab, sizeof(sab)) { wprintf (L\"Could not connect socket: error %d\\n\", WSAGetLastError ()); return; }"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "getpeername (Bluetooth)",
+  "title": "getpeername (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863329(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int getpeername( SOCKET s, struct SOCK_ADDR* name, int FAR* namelen );",
+  "code_blocks": [
+   "int getpeername( SOCKET s, struct SOCK_ADDR* name, int FAR* namelen );",
+   "SOCKADDR_BTH sab; int len = sizeof(sab); if (0 == getpeername (s, &sab, &len)) { wprintf (L\"Remote Bluetooth device is %04x%08x, connected to %d\\n\", GET_NAP(sab.btAddr), GET_SAP(sab.btAddr), sab.port); }"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "getsockname (Bluetooth)",
+  "title": "getsockname (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863340(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int getsockname( SOCKET s, struct SOCK_ADDR* name, int FAR* namelen );",
+  "code_blocks": [
+   "int getsockname( SOCKET s, struct SOCK_ADDR* name, int FAR* namelen );",
+   "SOCKADDR_BTH sab; int len = sizeof(sab); if (0 == getsockname (s, &sab, &len)) { wprintf (L\"Local Bluetooth device is %04x%08x, server channel = %d\\n\", GET_NAP(sab.btAddr), GET_SAP(sab.btAddr), sab.port); }"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "getsockopt (Bluetooth)",
+  "title": "getsockopt (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863342(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int getsockopt( SOCKET s, int level, int optname, char FAR* optval, int FAR* optlen );",
+  "code_blocks": [
+   "int getsockopt( SOCKET s, int level, int optname, char FAR* optval, int FAR* optlen );"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "setsockopt (Bluetooth)",
+  "title": "setsockopt (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863347(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int setsockopt( SOCKET s, int level, int optname, const char FAR* optval, int optlen );",
+  "code_blocks": [
+   "int setsockopt( SOCKET s, int level, int optname, const char FAR* optval, int optlen );"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "socket (Bluetooth)",
+  "title": "socket (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863348(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SOCKET socket( int af, int type, int protocol );",
+  "code_blocks": [
+   "SOCKET socket( int af, int type, int protocol );",
+   "SOCKET s = socket (AF_BTH, SOCK_STREAM, BTHPROTO_RFCOMM);"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Functions"
+ },
+ {
+  "name": "ISdpNodeContainer::AppendNode",
+  "title": "ISdpNodeContainer::AppendNode",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863364(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AppendNode( NodeData* pData );",
+  "code_blocks": [
+   "HRESULT AppendNode( NodeData* pData );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::CreateFromStream",
+  "title": "ISdpNodeContainer::CreateFromStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863365(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateFromStream( UCHAR* pStream, ULONG size );",
+  "code_blocks": [
+   "HRESULT CreateFromStream( UCHAR* pStream, ULONG size );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::CreateStream",
+  "title": "ISdpNodeContainer::CreateStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863366(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateStream( UCHAR** ppStream, ULONG* pSize );",
+  "code_blocks": [
+   "HRESULT CreateStream( UCHAR** ppStream, ULONG* pSize );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::GetNode",
+  "title": "ISdpNodeContainer::GetNode",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863367(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetNode( ULONG nodeIndex, NodeData* pData );",
+  "code_blocks": [
+   "HRESULT GetNode( ULONG nodeIndex, NodeData* pData );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::GetNodeCount",
+  "title": "ISdpNodeContainer::GetNodeCount",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863368(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetNodeCount( ULONG* pNodeCount )",
+  "code_blocks": [
+   "HRESULT GetNodeCount( ULONG* pNodeCount )"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::GetNodeStringData",
+  "title": "ISdpNodeContainer::GetNodeStringData",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863369(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetNodeStringData( ULONG nodeIndex, NodeData* pData )",
+  "code_blocks": [
+   "HRESULT GetNodeStringData( ULONG nodeIndex, NodeData* pData )"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::GetStreamSize",
+  "title": "ISdpNodeContainer::GetStreamSize",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863370(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetStreamSize( ULONG* pSize );",
+  "code_blocks": [
+   "HRESULT GetStreamSize( ULONG* pSize );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::GetType",
+  "title": "ISdpNodeContainer::GetType",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863371(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetType( NodeContainerType* pType );",
+  "code_blocks": [
+   "HRESULT GetType( NodeContainerType* pType );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::LockContainer",
+  "title": "ISdpNodeContainer::LockContainer",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863373(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT LockContainer( UCHAR lock )",
+  "code_blocks": [
+   "HRESULT LockContainer( UCHAR lock )"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::SetNode",
+  "title": "ISdpNodeContainer::SetNode",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863374(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetNode( ULONG nodeIndex, NodeData* pData )",
+  "code_blocks": [
+   "HRESULT SetNode( ULONG nodeIndex, NodeData* pData )"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::SetType",
+  "title": "ISdpNodeContainer::SetType",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863375(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetType( NodeContainerType type );",
+  "code_blocks": [
+   "HRESULT SetType( NodeContainerType type );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::Walk",
+  "title": "ISdpNodeContainer::Walk",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863376(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Walk( ISdpWalk* pWalk )",
+  "code_blocks": [
+   "HRESULT Walk( ISdpWalk* pWalk )"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpNodeContainer::WriteStream",
+  "title": "ISdpNodeContainer::WriteStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863377(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WriteStream( UCHAR* pStream, ULONG* pNumBytesWritten );",
+  "code_blocks": [
+   "HRESULT WriteStream( UCHAR* pStream, ULONG* pNumBytesWritten );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpRecord::CreateFromStream",
+  "title": "ISdpRecord::CreateFromStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863378(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateFromStream( UCHAR* pStream, ULONG size );",
+  "code_blocks": [
+   "HRESULT CreateFromStream( UCHAR* pStream, ULONG size );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpRecord::GetAttribute",
+  "title": "ISdpRecord::GetAttribute",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863379(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetAttribute( USHORT attribute, NodeData* pNode );",
+  "code_blocks": [
+   "HRESULT GetAttribute( USHORT attribute, NodeData* pNode );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpRecord::GetAttributeAsStream",
+  "title": "ISdpRecord::GetAttributeAsStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863380(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetAttributeAsStream( USHORT attribute, CHAR** ppStream, ULONG* pSize );",
+  "code_blocks": [
+   "HRESULT GetAttributeAsStream( USHORT attribute, CHAR** ppStream, ULONG* pSize );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpRecord::GetAttributeList",
+  "title": "ISdpRecord::GetAttributeList",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863381(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetAttributeList( USHORT** ppList, ULONG* pListSize );",
+  "code_blocks": [
+   "HRESULT GetAttributeList( USHORT** ppList, ULONG* pListSize );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpRecord::GetServiceClass",
+  "title": "ISdpRecord::GetServiceClass",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863382(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetServiceClass( LPGUID pServiceClass );",
+  "code_blocks": [
+   "HRESULT GetServiceClass( LPGUID pServiceClass );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpRecord::SetAttribute",
+  "title": "ISdpRecord::SetAttribute",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863384(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetAttribute( USHORT attribute, NodeData* pNode );",
+  "code_blocks": [
+   "HRESULT SetAttribute( USHORT attribute, NodeData* pNode );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpRecord::SetAttributeFromStream",
+  "title": "ISdpRecord::SetAttributeFromStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863385(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetAttributeFromStream( USHORT attribute, UCHAR* pStream, ULONG size );",
+  "code_blocks": [
+   "HRESULT SetAttributeFromStream( USHORT attribute, UCHAR* pStream, ULONG size );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpRecord::Walk",
+  "title": "ISdpRecord::Walk",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863386(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Walk( ISdpWalk* pWalk );",
+  "code_blocks": [
+   "HRESULT Walk( ISdpWalk* pWalk );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpRecord::WriteToStream",
+  "title": "ISdpRecord::WriteToStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863387(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WriteToStream( UCHAR** ppStream, ULONG* pStreamSize, ULONG preSize, ULONG postSize );",
+  "code_blocks": [
+   "HRESULT WriteToStream( UCHAR** ppStream, ULONG* pStreamSize, ULONG preSize, ULONG postSize );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpStream::ByteSwap*",
+  "title": "ISdpStream::ByteSwap*",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863388(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ByteSwap* Type inputElement, Type outputElement );",
+  "code_blocks": [
+   "HRESULT ByteSwap* Type inputElement, Type outputElement );",
+   "HRESULT ByteSwapUint64( ULONGLONG inUint64, ULONGLONG* pOutUint64 );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpStream::NormalizeUuid",
+  "title": "ISdpStream::NormalizeUuid",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863390(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT NormalizeUuid( NODEDATA* pDataUuid, GUID* pNormalizeUuid );",
+  "code_blocks": [
+   "HRESULT NormalizeUuid( NODEDATA* pDataUuid, GUID* pNormalizeUuid );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpStream::Retrieve*",
+  "title": "ISdpStream::Retrieve*",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863391(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Retrieve*( UCHAR* pStream, OutputType* outputElement );",
+  "code_blocks": [
+   "HRESULT Retrieve*( UCHAR* pStream, OutputType* outputElement );",
+   "HRESULT RetrieveUint64( UCHAR* pStream, ULONGLONG* pUint64 );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpStream::RetrieveElementInfo",
+  "title": "ISdpStream::RetrieveElementInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863393(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RetrieveElementInfo( UCHAR* pStream, SDP_TYPE* pElementType, SDP_SPECIFICTYPE* pElementSpecificType, ULONG* pElementSize, ULONG* pStorageSize, UCHAR** ppData );",
+  "code_blocks": [
+   "HRESULT RetrieveElementInfo( UCHAR* pStream, SDP_TYPE* pElementType, SDP_SPECIFICTYPE* pElementSpecificType, ULONG* pElementSize, ULONG* pStorageSize, UCHAR** ppData );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpStream::RetrieveRecords",
+  "title": "ISdpStream::RetrieveRecords",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863392(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RetrieveRecords( UCHAR* pStream, ULONG size, ISdpRecord** ppSdpRecords, ULONG* pNumRecords );",
+  "code_blocks": [
+   "HRESULT RetrieveRecords( UCHAR* pStream, ULONG size, ISdpRecord** ppSdpRecords, ULONG* pNumRecords );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpStream::Validate",
+  "title": "ISdpStream::Validate",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863394(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Validate( UCHAR* pStream, ULONG size, ULONG_PTR* pErrorByte );",
+  "code_blocks": [
+   "HRESULT Validate( UCHAR* pStream, ULONG size, ULONG_PTR* pErrorByte );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpStream::VerifySequenceOf",
+  "title": "ISdpStream::VerifySequenceOf",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863395(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT VerifySequenceOf( UCHAR* pStream, ULONG size, SDP_TYPE ofType, UCHAR* pSpecificSizes, ULONG* pNumFound );",
+  "code_blocks": [
+   "HRESULT VerifySequenceOf( UCHAR* pStream, ULONG size, SDP_TYPE ofType, UCHAR* pSpecificSizes, ULONG* pNumFound );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpStream::Walk",
+  "title": "ISdpStream::Walk",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863396(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Walk( ISdpWalk* pWalk )",
+  "code_blocks": [
+   "HRESULT Walk( ISdpWalk* pWalk )"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpWalk::WalkNode",
+  "title": "ISdpWalk::WalkNode",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863398(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WalkNode( NODEDATA* pData, ULONG state );",
+  "code_blocks": [
+   "HRESULT WalkNode( NODEDATA* pData, ULONG state );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "ISdpWalk::WalkStream",
+  "title": "ISdpWalk::WalkStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863399(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WalkStream( UCHAR elementType, ULONG elementSize, UCHAR* pStream );",
+  "code_blocks": [
+   "HRESULT WalkStream( UCHAR elementType, ULONG elementSize, UCHAR* pStream );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Interfaces"
+ },
+ {
+  "name": "BASEBAND_CONNECTION",
+  "title": "BASEBAND_CONNECTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863354(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BASEBAND_CONNECTION { USHORT hConnection; BT_ADDR baAddress; int cDataPacketsPending; UINT fLinkType : 1; UINT fEncrypted : 1; UINT fAuthenticated : 1; UINT fMode : 3; } BASEBAND_CONNECTION, *PBASEBAND_CONNECTION;",
+  "code_blocks": [
+   "typedef struct _BASEBAND_CONNECTION { USHORT hConnection; BT_ADDR baAddress; int cDataPacketsPending; UINT fLinkType : 1; UINT fEncrypted : 1; UINT fAuthenticated : 1; UINT fMode : 3; } BASEBAND_CONNECTION, *PBASEBAND_CONNECTION;"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "BTHINQUIRYRESULT",
+  "title": "BTHINQUIRYRESULT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863356(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __bth_inquiry_result { BT_ADDR ba; unsigned int cod; unsigned short clock_offset; unsigned char page_scan_mode; unsigned char page_scan_period_mode; unsigned char page_scan_repetition_mode; } BTHINQUIRYRESULT;",
+  "code_blocks": [
+   "typedef struct __bth_inquiry_result { BT_ADDR ba; unsigned int cod; unsigned short clock_offset; unsigned char page_scan_mode; unsigned char page_scan_period_mode; unsigned char page_scan_repetition_mode; } BTHINQUIRYRESULT;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "BTHNS_INQUIRYBLOB",
+  "title": "BTHNS_INQUIRYBLOB",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863357(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTHNS_INQUIRYBLOB { ULONG LAP; unsigned char length; unsigned char num_responses; } BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB;",
+  "code_blocks": [
+   "typedef struct _BTHNS_INQUIRYBLOB { ULONG LAP; unsigned char length; unsigned char num_responses; } BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "BTHNS_RESTRICTIONBLOB",
+  "title": "BTHNS_RESTRICTIONBLOB",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863358(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTHNS_RESTRICTIONBLOB { ULONG type; ULONG serviceHandle; SdpQueryUuid uuids[MAX_UUIDS_IN_QUERY]; ULONG numRange; SdpAttributeRange pRange[1]; } BTHNS_RESTRICTIONBLOB, *PBTHNS_RESTRICTIONBLOB;",
+  "code_blocks": [
+   "typedef struct _BTHNS_RESTRICTIONBLOB { ULONG type; ULONG serviceHandle; SdpQueryUuid uuids[MAX_UUIDS_IN_QUERY]; ULONG numRange; SdpAttributeRange pRange[1]; } BTHNS_RESTRICTIONBLOB, *PBTHNS_RESTRICTIONBLOB;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "Values specified for **numRange****and pRange are ignored. The UUIDs value is ignored. If type is equal to SDP_SERVICE_ATTRIBUTE_REQUEST and the serviceHandle is ignored, all other methods are required.",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "BTHNS_SETBLOB",
+  "title": "BTHNS_SETBLOB",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863359(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTHNS_SETBLOB { ULONG* pRecordHandle; ULONG fSecurity; ULONG fOptions; ULONG ulRecordLength; UCHAR pRecord[1]; } BTHNS_SETBLOB, *PBTHNS_SETBLOB;",
+  "code_blocks": [
+   "typedef struct _BTHNS_SETBLOB { ULONG* pRecordHandle; ULONG fSecurity; ULONG fOptions; ULONG ulRecordLength; UCHAR pRecord[1]; } BTHNS_SETBLOB, *PBTHNS_SETBLOB;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "BTH_LOCAL_VERSION",
+  "title": "BTH_LOCAL_VERSION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863360(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_LOCAL_VERSION { unsigned char hci_version; unsigned short hci_revision; unsigned char lmp_version; unsigned short lmp_subversion; unsigned short manufacturer; unsigned char lmp_features[8]; } BTH_LOCAL_VERSION, *PBTH_LOCAL_VERSION;",
+  "code_blocks": [
+   "typedef struct _BTH_LOCAL_VERSION { unsigned char hci_version; unsigned short hci_revision; unsigned char lmp_version; unsigned short lmp_subversion; unsigned short manufacturer; unsigned char lmp_features[8]; } BTH_LOCAL_VERSION, *PBTH_LOCAL_VERSION;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "BTH_REMOTE_NAME",
+  "title": "BTH_REMOTE_NAME",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863361(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_REMOTE_NAME { BT_ADDR bt; WCHAR szNameBuffer[248]; } BTH_REMOTE_NAME, *PBTH_REMOTE_NAME;",
+  "code_blocks": [
+   "typedef struct _BTH_REMOTE_NAME { BT_ADDR bt; WCHAR szNameBuffer[248]; } BTH_REMOTE_NAME, *PBTH_REMOTE_NAME;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "BTH_REMOTE_VERSION",
+  "title": "BTH_REMOTE_VERSION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863362(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_REMOTE_VERSION { unsigned char lmp_version; unsigned short lmp_subversion; unsigned short manufacturer; unsigned char lmp_features[8]; } BTH_REMOTE_VERSION, *PBTH_REMOTE_VERSION;",
+  "code_blocks": [
+   "typedef struct _BTH_REMOTE_VERSION { unsigned char lmp_version; unsigned short lmp_subversion; unsigned short manufacturer; unsigned char lmp_features[8]; } BTH_REMOTE_VERSION, *PBTH_REMOTE_VERSION;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "BTH_SOCKOPT_SECURITY",
+  "title": "BTH_SOCKOPT_SECURITY",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863363(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_SOCKOPT_SECURITY { int iLength; bt_addr btAddr; unsigned char caData[16]; } BTH_SOCKOPT_SECURITY, *PBTH_SOCKOPT_SECURITY;",
+  "code_blocks": [
+   "typedef struct _BTH_SOCKOPT_SECURITY { int iLength; bt_addr btAddr; unsigned char caData[16]; } BTH_SOCKOPT_SECURITY, *PBTH_SOCKOPT_SECURITY;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "NodeData",
+  "title": "NodeData",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863401(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct NodeData { USHORT type; USHORT specificType; NodeDataUnion u; } NodeData;",
+  "code_blocks": [
+   "typedef struct NodeData { USHORT type; USHORT specificType; NodeDataUnion u; } NodeData;"
+  ],
+  "requirements": {
+   "header": "Bthapi.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "NodeDataUnion",
+  "title": "NodeDataUnion",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863402(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef union NodeDataUnion { DP_LARGE_INTEGER_16 int128; SDP_ULARGE_INTEGER_16 uint128; GUID uuid128; ULONG uuid32; USHORT uuid16; LONGLONG int64; ULONGLONG uint64; LONG int32; ULONG uint32; SHORT int16; USHORT uint16; CHAR int8; UCHAR uint8; UCHAR booleanVal; SdpString str; SdpString url; ISdpNodeContainer* container; } NodeDataUnion;",
+  "code_blocks": [
+   "typedef union NodeDataUnion { DP_LARGE_INTEGER_16 int128; SDP_ULARGE_INTEGER_16 uint128; GUID uuid128; ULONG uuid32; USHORT uuid16; LONGLONG int64; ULONGLONG uint64; LONG int32; ULONG uint32; SHORT int16; USHORT uint16; CHAR int8; UCHAR uint8; UCHAR booleanVal; SdpString str; SdpString url; ISdpNodeContainer* container; } NodeDataUnion;"
+  ],
+  "requirements": {
+   "header": "Bthapi.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "SOCKADDR_BTH",
+  "title": "SOCKADDR_BTH",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863408(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SOCKADDR_BTH { USHORT addressFamily; bt_addr btAddr; GUID serviceClassId; ULONG port; } SOCKADDR_BTH, *PSOCKADDR_BTH;",
+  "code_blocks": [
+   "typedef struct _SOCKADDR_BTH { USHORT addressFamily; bt_addr btAddr; GUID serviceClassId; ULONG port; } SOCKADDR_BTH, *PSOCKADDR_BTH;",
+   "GET_NAP()bt_addr) // get NAP part of the address GET_SAP(_bt_addr) // get SAP part of the address SET_NAP_SAP(_nap, _sap) // form the bt_addr from NAP and SAP",
+   "bt_addr bt= SET_NAP_SAP(nap, sap); wprintf(L\"Connecting to %04x%08x/n\", GET_NAP(bt), GET_SAP(bt));"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "SdpAttributeRange",
+  "title": "SdpAttributeRange",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863403(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "struct _SdpAttributeRange { USHORT minAttribute; USHORT maxAttribute; } SdpAttributeRange;",
+  "code_blocks": [
+   "struct _SdpAttributeRange { USHORT minAttribute; USHORT maxAttribute; } SdpAttributeRange;",
+   "pRange[0].minAttribute = 0x0001; pRange[0].maxAttribute = 0x0004; // Server will return all attribIDs for given record between 1-4 AND pRange[1].minAttribute = 0x0009; pRange[1].maxAttribute = 0x0009; // server will return attrib ID info for attribute ID 9."
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "SdpQueryUuid",
+  "title": "SdpQueryUuid",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863404(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SdpQueryUuid { SdpQueryUuidUnion u; USHORT uuidType; } SdpQueryUuid;",
+  "code_blocks": [
+   "typedef struct _SdpQueryUuid { SdpQueryUuidUnion u; USHORT uuidType; } SdpQueryUuid;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "SdpQueryUuidUnion",
+  "title": "SdpQueryUuidUnion",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863405(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef /* [switch_type] */ union SdpQueryUuidUnion { GUID uuid128; ULONG uuid32; USHORT uuid16; } SdpQueryUuidUnion;",
+  "code_blocks": [
+   "typedef /* [switch_type] */ union SdpQueryUuidUnion { GUID uuid128; ULONG uuid32; USHORT uuid16; } SdpQueryUuidUnion;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "WSAQUERYSET (Bluetooth)",
+  "title": "WSAQUERYSET (Bluetooth)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms863413(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Winsock2.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "In this case, lpServiceClassId is ignored. * All other WSAQUERYSET fields are ignored.",
+  "area": "bluetooth",
+  "sub": "Bluetooth Structures"
+ },
+ {
+  "name": "BASEBAND_CONNECTION",
+  "title": "BASEBAND_CONNECTION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450296(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BASEBAND_CONNECTION { USHORT hConnection; BT_ADDR baAddress; int cDataPacketsPending; UINT fLinkType : 1; UINT fEncrypted : 1; UINT fAuthenticated : 1; UINT fMode : 3;} BASEBAND_CONNECTION, *PBASEBAND_CONNECTION;",
+  "code_blocks": [
+   "typedef struct _BASEBAND_CONNECTION { USHORT hConnection; BT_ADDR baAddress; int cDataPacketsPending; UINT fLinkType : 1; UINT fEncrypted : 1; UINT fAuthenticated : 1; UINT fMode : 3;} BASEBAND_CONNECTION, *PBASEBAND_CONNECTION;"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTHNS_INQUIRYBLOB",
+  "title": "BTHNS_INQUIRYBLOB (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887864(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTHNS_INQUIRYBLOB {ULONGLAP;unsigned charlength;unsigned charnum_responses;} BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB;",
+  "code_blocks": [
+   "typedef struct _BTHNS_INQUIRYBLOB {ULONGLAP;unsigned charlength;unsigned charnum_responses;} BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTHNS_RESTRICTIONBLOB",
+  "title": "BTHNS_RESTRICTIONBLOB (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887868(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTHNS_RESTRICTIONBLOB {ULONGtype;ULONGserviceHandle;SdpQueryUuiduuids[MAX_UUIDS_IN_QUERY];ULONGnumRange;SdpAttributeRangepRange[1];} BTHNS_RESTRICTIONBLOB, *PBTHNS_RESTRICTIONBLOB;",
+  "code_blocks": [
+   "typedef struct _BTHNS_RESTRICTIONBLOB {ULONGtype;ULONGserviceHandle;SdpQueryUuiduuids[MAX_UUIDS_IN_QUERY];ULONGnumRange;SdpAttributeRangepRange[1];} BTHNS_RESTRICTIONBLOB, *PBTHNS_RESTRICTIONBLOB;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "Values specified for **numRange****and pRange are ignored. The UUIDs value is ignored. If type is equal to SDP_SERVICE_ATTRIBUTE_REQUEST and the serviceHandle is ignored, all other methods are required.",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTHNS_SETBLOB",
+  "title": "BTHNS_SETBLOB (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887869(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTHNS_SETBLOB {ULONG* pRecordHandle;ULONGfSecurity;ULONGfOptions;ULONGulRecordLength;UCHARpRecord[1];} BTHNS_SETBLOB, *PBTHNS_SETBLOB;",
+  "code_blocks": [
+   "typedef struct _BTHNS_SETBLOB {ULONG* pRecordHandle;ULONGfSecurity;ULONGfOptions;ULONGulRecordLength;UCHARpRecord[1];} BTHNS_SETBLOB, *PBTHNS_SETBLOB;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTH_HOLD_MODE",
+  "title": "BTH_HOLD_MODE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887904(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_HOLD_MODE { unsigned short hold_mode_max; unsigned short hold_mode_min; unsigned short interval;} BTH_HOLD_MODE, *PBTH_HOLD_MODE;",
+  "code_blocks": [
+   "typedef struct _BTH_HOLD_MODE { unsigned short hold_mode_max; unsigned short hold_mode_min; unsigned short interval;} BTH_HOLD_MODE, *PBTH_HOLD_MODE;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTH_LOCAL_VERSION",
+  "title": "BTH_LOCAL_VERSION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887863(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_LOCAL_VERSION {unsigned char hci_version;unsigned short hci_revision; unsigned char lmp_version;unsigned short lmp_subversion; unsigned short manufacturer; unsigned char lmp_features[8];} BTH_LOCAL_VERSION, *PBTH_LOCAL_VERSION;",
+  "code_blocks": [
+   "typedef struct _BTH_LOCAL_VERSION {unsigned char hci_version;unsigned short hci_revision; unsigned char lmp_version;unsigned short lmp_subversion; unsigned short manufacturer; unsigned char lmp_features[8];} BTH_LOCAL_VERSION, *PBTH_LOCAL_VERSION;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTH_PARK_MODE",
+  "title": "BTH_PARK_MODE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887905(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_PARK_MODE { unsigned short beacon_max; unsigned short beacon_min; unsigned short interval;} BTH_PARK_MODE, *PBTH_PARK_MODE;",
+  "code_blocks": [
+   "typedef struct _BTH_PARK_MODE { unsigned short beacon_max; unsigned short beacon_min; unsigned short interval;} BTH_PARK_MODE, *PBTH_PARK_MODE;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTH_REMOTE_NAME",
+  "title": "BTH_REMOTE_NAME (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887882(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_REMOTE_NAME {BT_ADDR bt;WCHAR szNameBuffer[248]; } BTH_REMOTE_NAME, *PBTH_REMOTE_NAME;",
+  "code_blocks": [
+   "typedef struct _BTH_REMOTE_NAME {BT_ADDR bt;WCHAR szNameBuffer[248]; } BTH_REMOTE_NAME, *PBTH_REMOTE_NAME;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTH_REMOTE_VERSION",
+  "title": "BTH_REMOTE_VERSION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887884(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_REMOTE_VERSION {unsigned char lmp_version;unsigned short lmp_subversion; unsigned short manufacturer; unsigned char lmp_features[8];} BTH_REMOTE_VERSION, *PBTH_REMOTE_VERSION;",
+  "code_blocks": [
+   "typedef struct _BTH_REMOTE_VERSION {unsigned char lmp_version;unsigned short lmp_subversion; unsigned short manufacturer; unsigned char lmp_features[8];} BTH_REMOTE_VERSION, *PBTH_REMOTE_VERSION;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTH_SNIFF_MODE",
+  "title": "BTH_SNIFF_MODE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887906(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_SNIFF_MODE { unsigned short sniff_mode_max; unsigned short sniff_mode_min; unsigned short sniff_attempt; unsigned short sniff_timeout; unsigned short interval;} BTH_SNIFF_MODE, *PBTH_SNIFF_MODE;",
+  "code_blocks": [
+   "typedef struct _BTH_SNIFF_MODE { unsigned short sniff_mode_max; unsigned short sniff_mode_min; unsigned short sniff_attempt; unsigned short sniff_timeout; unsigned short interval;} BTH_SNIFF_MODE, *PBTH_SNIFF_MODE;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BTH_SOCKOPT_SECURITY",
+  "title": "BTH_SOCKOPT_SECURITY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887893(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BTH_SOCKOPT_SECURITY {int iLength; bt_addr btAddr; unsigned char caData[16];} BTH_SOCKOPT_SECURITY, *PBTH_SOCKOPT_SECURITY;",
+  "code_blocks": [
+   "typedef struct _BTH_SOCKOPT_SECURITY {int iLength; bt_addr btAddr; unsigned char caData[16];} BTH_SOCKOPT_SECURITY, *PBTH_SOCKOPT_SECURITY;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BthInquiryResult",
+  "title": "BthInquiryResult (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887862(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __bth_inquiry_result {BT_ADDRba;unsigned intcod;unsigned shortclock_offset;unsigned charpage_scan_mode;unsigned charpage_scan_period_mode;unsigned charpage_scan_repetition_mode;} BthInquiryResult;",
+  "code_blocks": [
+   "typedef struct __bth_inquiry_result {BT_ADDRba;unsigned intcod;unsigned shortclock_offset;unsigned charpage_scan_mode;unsigned charpage_scan_period_mode;unsigned charpage_scan_repetition_mode;} BthInquiryResult;"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "IOCTL_BLUETOOTH_GET_PEER_DEVICE",
+  "title": "IOCTL_BLUETOOTH_GET_PEER_DEVICE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891157(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef ULONGLONG bt_addr, *pbt_addr, BT_ADDR, *PBT_ADDR;",
+  "code_blocks": [
+   "typedef ULONGLONG bt_addr, *pbt_addr, BT_ADDR, *PBT_ADDR;"
+  ],
+  "requirements": {
+   "header": "bt_api.h",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "IOCTL_BLUETOOTH_GET_RFCOMM_CHANNEL",
+  "title": "IOCTL_BLUETOOTH_GET_RFCOMM_CHANNEL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891159(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "bt_api.h",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::AppendNode",
+  "title": "ISdpNodeContainer::AppendNode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450534(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AppendNode(NodeData* pData);",
+  "code_blocks": [
+   "HRESULT AppendNode(NodeData* pData);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::CreateFromStream",
+  "title": "ISdpNodeContainer::CreateFromStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450536(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateFromStream(UCHAR* pStream,ULONG size);",
+  "code_blocks": [
+   "HRESULT CreateFromStream(UCHAR* pStream,ULONG size);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::CreateStream",
+  "title": "ISdpNodeContainer::CreateStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450539(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateStream(UCHAR** ppStream,ULONG* pSize);",
+  "code_blocks": [
+   "HRESULT CreateStream(UCHAR** ppStream,ULONG* pSize);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::GetNode",
+  "title": "ISdpNodeContainer::GetNode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450540(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetNode(ULONG nodeIndex,NodeData* pData);",
+  "code_blocks": [
+   "HRESULT GetNode(ULONG nodeIndex,NodeData* pData);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::GetNodeCount",
+  "title": "ISdpNodeContainer::GetNodeCount (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450543(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetNodeCount(ULONG* pNodeCount);",
+  "code_blocks": [
+   "HRESULT GetNodeCount(ULONG* pNodeCount);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::GetNodeStringData",
+  "title": "ISdpNodeContainer::GetNodeStringData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450545(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetNodeStringData(ULONG nodeIndex,NodeData* pData);",
+  "code_blocks": [
+   "HRESULT GetNodeStringData(ULONG nodeIndex,NodeData* pData);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::GetStreamSize",
+  "title": "ISdpNodeContainer::GetStreamSize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450547(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetStreamSize(ULONG* pSize);",
+  "code_blocks": [
+   "HRESULT GetStreamSize(ULONG* pSize);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::GetType",
+  "title": "ISdpNodeContainer::GetType (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450549(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetType(NodeContainerType* pType);",
+  "code_blocks": [
+   "HRESULT GetType(NodeContainerType* pType);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::LockContainer",
+  "title": "ISdpNodeContainer::LockContainer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450553(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT LockContainer(UCHAR lock);",
+  "code_blocks": [
+   "HRESULT LockContainer(UCHAR lock);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::SetNode",
+  "title": "ISdpNodeContainer::SetNode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450556(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetNode(ULONG nodeIndex,NodeData* pData);",
+  "code_blocks": [
+   "HRESULT SetNode(ULONG nodeIndex,NodeData* pData);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::SetType",
+  "title": "ISdpNodeContainer::SetType (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450557(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetType(NodeContainerType type);",
+  "code_blocks": [
+   "HRESULT SetType(NodeContainerType type);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::Walk",
+  "title": "ISdpNodeContainer::Walk (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450560(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Walk(ISdpWalk* pWalk);",
+  "code_blocks": [
+   "HRESULT Walk(ISdpWalk* pWalk);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpNodeContainer::WriteStream",
+  "title": "ISdpNodeContainer::WriteStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450562(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WriteStream(UCHAR* pStream,ULONG* pNumBytesWritten);",
+  "code_blocks": [
+   "HRESULT WriteStream(UCHAR* pStream,ULONG* pNumBytesWritten);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpRecord::CreateFromStream",
+  "title": "ISdpRecord::CreateFromStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450579(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateFromStream(UCHAR* pStream,ULONG size);",
+  "code_blocks": [
+   "HRESULT CreateFromStream(UCHAR* pStream,ULONG size);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpRecord::GetAttribute",
+  "title": "ISdpRecord::GetAttribute (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450582(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetAttribute(USHORT attribute,NodeData* pNode);",
+  "code_blocks": [
+   "HRESULT GetAttribute(USHORT attribute,NodeData* pNode);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpRecord::GetAttributeAsStream",
+  "title": "ISdpRecord::GetAttributeAsStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450583(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetAttributeAsStream(USHORT attribute,CHAR** ppStream,ULONG* pSize);",
+  "code_blocks": [
+   "HRESULT GetAttributeAsStream(USHORT attribute,CHAR** ppStream,ULONG* pSize);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpRecord::GetAttributeList",
+  "title": "ISdpRecord::GetAttributeList (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450586(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetAttributeList(USHORT** ppList,ULONG* pListSize);",
+  "code_blocks": [
+   "HRESULT GetAttributeList(USHORT** ppList,ULONG* pListSize);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpRecord::GetServiceClass",
+  "title": "ISdpRecord::GetServiceClass (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450588(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetServiceClass(LPGUIDpServiceClass);",
+  "code_blocks": [
+   "HRESULT GetServiceClass(LPGUIDpServiceClass);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpRecord::SetAttribute",
+  "title": "ISdpRecord::SetAttribute (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450591(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetAttribute(USHORT attribute,NodeData* pNode);",
+  "code_blocks": [
+   "HRESULT SetAttribute(USHORT attribute,NodeData* pNode);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpRecord::SetAttributeFromStream",
+  "title": "ISdpRecord::SetAttributeFromStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450593(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetAttributeFromStream(USHORT attribute,UCHAR* pStream,ULONG size);",
+  "code_blocks": [
+   "HRESULT SetAttributeFromStream(USHORT attribute,UCHAR* pStream,ULONG size);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpRecord::Walk",
+  "title": "ISdpRecord::Walk (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450595(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Walk(ISdpWalk* pWalk);",
+  "code_blocks": [
+   "HRESULT Walk(ISdpWalk* pWalk);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpRecord::WriteToStream",
+  "title": "ISdpRecord::WriteToStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450597(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WriteToStream(UCHAR** ppStream,ULONG* pStreamSize,ULONG preSize,ULONG postSize);",
+  "code_blocks": [
+   "HRESULT WriteToStream(UCHAR** ppStream,ULONG* pStreamSize,ULONG preSize,ULONG postSize);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpStream::ByteSwap*",
+  "title": "ISdpStream::ByteSwap* (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450599(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ByteSwap*Type inputElement,Type outputElement);",
+  "code_blocks": [
+   "HRESULT ByteSwap*Type inputElement,Type outputElement);",
+   "HRESULT ByteSwapUint64( ULONGLONG inUint64, ULONGLONG* pOutUint64 );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpStream::NormalizeUuid",
+  "title": "ISdpStream::NormalizeUuid (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450603(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT NormalizeUuid(NODEDATA* pDataUuid,GUID* pNormalizeUuid);",
+  "code_blocks": [
+   "HRESULT NormalizeUuid(NODEDATA* pDataUuid,GUID* pNormalizeUuid);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpStream::Retrieve*",
+  "title": "ISdpStream::Retrieve* (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450605(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Retrieve*(UCHAR* pStream,OutputType* outputElement);",
+  "code_blocks": [
+   "HRESULT Retrieve*(UCHAR* pStream,OutputType* outputElement);",
+   "HRESULT RetrieveUint64( UCHAR* pStream, ULONGLONG* pUint64 );"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpStream::RetrieveElementInfo",
+  "title": "ISdpStream::RetrieveElementInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450607(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RetrieveElementInfo(UCHAR* pStream,SDP_TYPE* pElementType,SDP_SPECIFICTYPE* pElementSpecificType,ULONG* pElementSize,ULONG* pStorageSize,UCHAR** ppData);",
+  "code_blocks": [
+   "HRESULT RetrieveElementInfo(UCHAR* pStream,SDP_TYPE* pElementType,SDP_SPECIFICTYPE* pElementSpecificType,ULONG* pElementSize,ULONG* pStorageSize,UCHAR** ppData);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpStream::RetrieveRecords",
+  "title": "ISdpStream::RetrieveRecords (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450609(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RetrieveRecords(UCHAR* pStream, ULONGsize,ISdpRecord** ppSdpRecords,ULONG* pNumRecords);",
+  "code_blocks": [
+   "HRESULT RetrieveRecords(UCHAR* pStream, ULONGsize,ISdpRecord** ppSdpRecords,ULONG* pNumRecords);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpStream::Validate",
+  "title": "ISdpStream::Validate (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450611(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Validate(UCHAR* pStream,ULONG size,ULONG_PTR* pErrorByte);",
+  "code_blocks": [
+   "HRESULT Validate(UCHAR* pStream,ULONG size,ULONG_PTR* pErrorByte);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpStream::VerifySequenceOf",
+  "title": "ISdpStream::VerifySequenceOf (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450613(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT VerifySequenceOf(UCHAR* pStream,ULONGsize,SDP_TYPEofType,UCHAR* pSpecificSizes,ULONG* pNumFound);",
+  "code_blocks": [
+   "HRESULT VerifySequenceOf(UCHAR* pStream,ULONGsize,SDP_TYPEofType,UCHAR* pSpecificSizes,ULONG* pNumFound);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpStream::Walk",
+  "title": "ISdpStream::Walk (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450615(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Walk(ISdpWalk* pWalk)",
+  "code_blocks": [
+   "HRESULT Walk(ISdpWalk* pWalk)"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpWalk::WalkNode",
+  "title": "ISdpWalk::WalkNode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450619(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WalkNode(NODEDATA* pData,ULONG state);",
+  "code_blocks": [
+   "HRESULT WalkNode(NODEDATA* pData,ULONG state);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "ISdpWalk::WalkStream",
+  "title": "ISdpWalk::WalkStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450622(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WalkStream(UCHAR elementType,ULONG elementSize,UCHAR* pStream);",
+  "code_blocks": [
+   "HRESULT WalkStream(UCHAR elementType,ULONG elementSize,UCHAR* pStream);"
+  ],
+  "requirements": {
+   "header": "Bthapi.h, Bthapi.idl",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "NODECONTAINERTYPE",
+  "title": "NODECONTAINERTYPE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895690(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum {NODECONTAINERTYPESEQUENCE = 0,NODECONTAINERTYPEALTERNATIVE = NodeContainerTypeSequence + 1 } NODECONTAINERTYPE;",
+  "code_blocks": [
+   "typedef enum {NODECONTAINERTYPESEQUENCE = 0,NODECONTAINERTYPEALTERNATIVE = NodeContainerTypeSequence + 1 } NODECONTAINERTYPE;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "NodeData",
+  "title": "NodeData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895699(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct NodeData {USHORTtype;USHORTspecificType;NodeDataUnionu;} NodeData;",
+  "code_blocks": [
+   "typedef struct NodeData {USHORTtype;USHORTspecificType;NodeDataUnionu;} NodeData;"
+  ],
+  "requirements": {
+   "header": "Bthapi.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "NodeDataUnion",
+  "title": "NodeDataUnion (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895706(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef union NodeDataUnion { DP_LARGE_INTEGER_16 int128;SDP_ULARGE_INTEGER_16 uint128;GUID uuid128;ULONG uuid32;USHORT uuid16;LONGLONG int64;ULONGLONG uint64;LONG int32;ULONG uint32;SHORT int16;USHORT uint16;CHAR int8;UCHAR uint8;UCHAR booleanVal;SdpString str;SdpString url;ISdpNodeContainer* container;} NodeDataUnion;",
+  "code_blocks": [
+   "typedef union NodeDataUnion { DP_LARGE_INTEGER_16 int128;SDP_ULARGE_INTEGER_16 uint128;GUID uuid128;ULONG uuid32;USHORT uuid16;LONGLONG int64;ULONGLONG uint64;LONG int32;ULONG uint32;SHORT int16;USHORT uint16;CHAR int8;UCHAR uint8;UCHAR booleanVal;SdpString str;SdpString url;ISdpNodeContainer* container;} NodeDataUnion;"
+  ],
+  "requirements": {
+   "header": "Bthapi.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "PORTEMUPortParams",
+  "title": "PORTEMUPortParams (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896282(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _portemu_port_params {int channel;int flocal;BT_ADDR device;int imtu;int iminmtu;int imaxmtu;int isendquota;int irecvquota;GUID uuidService;unsigned int uiportflags;} PORTEMUPortParams;",
+  "code_blocks": [
+   "typedef struct _portemu_port_params {int channel;int flocal;BT_ADDR device;int imtu;int iminmtu;int imaxmtu;int isendquota;int irecvquota;GUID uuidService;unsigned int uiportflags;} PORTEMUPortParams;",
+   "typedef ULONGLONG bt_addr, *pbt_addr, BT_ADDR, *PBT_ADDR;"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "SDP_SPECIFICTYPE",
+  "title": "SDP_SPECIFICTYPE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450879(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum {SDP_ST_NONE = 0x0000,SDP_ST_UINT8 = 0x0010,SDP_ST_UINT16 = 0x0110,SDP_ST_UINT32 = 0x0210,SDP_ST_UINT64 = 0x0310,SDP_ST_UINT128 = 0x0410,SDP_ST_INT8 = 0x0020,SDP_ST_INT16 = 0x0120,SDP_ST_INT32 = 0x0220,SDP_ST_INT64 = 0x0320,SDP_ST_INT128 = 0x0420,SDP_ST_UUID16 = 0x0130,SDP_ST_UUID32 = 0x0220,SDP_ST_UUID128 = 0x0430 } SDP_SPECIFICTYPE;",
+  "code_blocks": [
+   "typedef enum {SDP_ST_NONE = 0x0000,SDP_ST_UINT8 = 0x0010,SDP_ST_UINT16 = 0x0110,SDP_ST_UINT32 = 0x0210,SDP_ST_UINT64 = 0x0310,SDP_ST_UINT128 = 0x0410,SDP_ST_INT8 = 0x0020,SDP_ST_INT16 = 0x0120,SDP_ST_INT32 = 0x0220,SDP_ST_INT64 = 0x0320,SDP_ST_INT128 = 0x0420,SDP_ST_UUID16 = 0x0130,SDP_ST_UUID32 = 0x0220,SDP_ST_UUID128 = 0x0430 } SDP_SPECIFICTYPE;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "SDP_TYPE",
+  "title": "SDP_TYPE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450880(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum {SDP_TYPE_NIL = 0x00,SDP_TYPE_UINT = 0x01,SDP_TYPE_INT = 0x02,SDP_TYPE_UUID = 0x03,SDP_TYPE_STRING = 0x04,SDP_TYPE_BOOLEAN = 0x05,SDP_TYPE_SEQUENCE = 0x06,SDP_TYPE_ALTERNATIVE = 0x07,SDP_TYPE_URL = 0x08,SDP_TYPE_CONTAINER = 0x20 } SDP_TYPE;",
+  "code_blocks": [
+   "typedef enum {SDP_TYPE_NIL = 0x00,SDP_TYPE_UINT = 0x01,SDP_TYPE_INT = 0x02,SDP_TYPE_UUID = 0x03,SDP_TYPE_STRING = 0x04,SDP_TYPE_BOOLEAN = 0x05,SDP_TYPE_SEQUENCE = 0x06,SDP_TYPE_ALTERNATIVE = 0x07,SDP_TYPE_URL = 0x08,SDP_TYPE_CONTAINER = 0x20 } SDP_TYPE;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "SOCKADDR_BTH",
+  "title": "SOCKADDR_BTH (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450944(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SOCKADDR_BTH {USHORT addressFamily;bt_addr btAddr;GUID serviceClassId;ULONG port;} SOCKADDR_BTH, *PSOCKADDR_BTH;",
+  "code_blocks": [
+   "typedef struct _SOCKADDR_BTH {USHORT addressFamily;bt_addr btAddr;GUID serviceClassId;ULONG port;} SOCKADDR_BTH, *PSOCKADDR_BTH;",
+   "GET_NAP()bt_addr) // get NAP part of the address GET_SAP(_bt_addr) // get SAP part of the address SET_NAP_SAP(_nap, _sap) // form the bt_addr from NAP and SAP",
+   "bt_addr bt= SET_NAP_SAP(nap, sap); wprintf(L\"Connecting to %04x%08x.../n\", GET_NAP(bt), GET_SAP(bt));"
+  ],
+  "requirements": {
+   "header": "Ws2bth.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "SdpAttributeRange",
+  "title": "SdpAttributeRange (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450876(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "struct _SdpAttributeRange {USHORTminAttribute;USHORTmaxAttribute;} SdpAttributeRange;",
+  "code_blocks": [
+   "struct _SdpAttributeRange {USHORTminAttribute;USHORTmaxAttribute;} SdpAttributeRange;",
+   "pRange[0].minAttribute = 0x0001; pRange[0].maxAttribute = 0x0004; // Server will return all attribIDs for given record between 1-4 AND... pRange[1].minAttribute = 0x0009; pRange[1].maxAttribute = 0x0009; // ... server will return attrib ID info for attribute ID 9."
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "SdpQueryUuid",
+  "title": "SdpQueryUuid (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450877(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SdpQueryUuid {SdpQueryUuidUnion u;USHORT uuidType;} SdpQueryUuid;",
+  "code_blocks": [
+   "typedef struct _SdpQueryUuid {SdpQueryUuidUnion u;USHORT uuidType;} SdpQueryUuid;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "SdpQueryUuidUnion",
+  "title": "SdpQueryUuidUnion (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450878(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef /* [switch_type] */ union SdpQueryUuidUnion {GUID uuid128;ULONG uuid32;USHORT uuid16;} SdpQueryUuidUnion;",
+  "code_blocks": [
+   "typedef /* [switch_type] */ union SdpQueryUuidUnion {GUID uuid128;ULONG uuid32;USHORT uuid16;} SdpQueryUuidUnion;"
+  ],
+  "requirements": {
+   "header": "Bthsdpdef.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "WSALookupServiceBegin (Bluetooth)",
+  "title": "WSALookupServiceBegin (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898747(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT WSALookupServiceBegin(LPWSAQUERYSET pQuerySet,DWORD dwFlags,LPHANDLE lphLookup);",
+  "code_blocks": [
+   "INT WSALookupServiceBegin(LPWSAQUERYSET pQuerySet,DWORD dwFlags,LPHANDLE lphLookup);"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "WSALookupServiceEnd (Bluetooth)",
+  "title": "WSALookupServiceEnd (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898749(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT WSALookupServiceEnd(HANDLE hLookup);",
+  "code_blocks": [
+   "INT WSALookupServiceEnd(HANDLE hLookup);"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "WSALookupServiceNext (Bluetooth)",
+  "title": "WSALookupServiceNext (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898751(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT WSALookupServiceNext(HANDLE hLookup,DWORD dwFlags,LPDWORD lpdwBufferLength,LPWSAQUERYSET pResults);",
+  "code_blocks": [
+   "INT WSALookupServiceNext(HANDLE hLookup,DWORD dwFlags,LPDWORD lpdwBufferLength,LPWSAQUERYSET pResults);"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "WSAQUERYSET (Bluetooth)",
+  "title": "WSAQUERYSET (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898761(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Winsock2.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "In this case, lpServiceClassId is ignored. * All other WSAQUERYSET fields are ignored.",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "WSASetService (Bluetooth)",
+  "title": "WSASetService (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898771(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INTWSASetService(LPWSAQUERYSETlpqsRegInfo,WSAESETSERVICEOPessoperation,DWORDdwControlFlags);",
+  "code_blocks": [
+   "INTWSASetService(LPWSAQUERYSETlpqsRegInfo,WSAESETSERVICEOPessoperation,DWORDdwControlFlags);"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "Field Subfield Description lpqsRegInfo dwSize sizeof(WSAQUERYSET) lpszServiceInstanceName Not supported on Windows CE. lpServiceClassId Not supported on Windows CE. dwNumberOfCsAddrs Not supported on Windows CE. IpcsaBuffer Not supported on Windows CE. * All other WSAQUERYSET fields are ignored. * All other fields are ignored.",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "accept (Bluetooth)",
+  "title": "accept (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450276(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SOCKET accept(SOCKET s,struct sockaddr FAR* addr,int FAR* addrlen);",
+  "code_blocks": [
+   "SOCKET accept(SOCKET s,struct sockaddr FAR* addr,int FAR* addrlen);",
+   "SOCKET s = socket (AF_BTH, SOCK_STREAM, BTHPROTO_RFCOMM); if (s == INVALID_SOCKET) { wprintf (L\"Socket creation failed, error %d\\n\", WSAGetLastError ()); return; } SOCKADDR_BTH sab; memset (&sab, 0, sizeof(sab)); sab.addressFamily = AF_BTH; if (0 != bind (s, (SOCKADDR *) &sab, sizeof(sab))) { wprintf (L\"Socket bind, error %d\\n\", WSAGetLastError ()); closesocket (s); return; } listen (s, 5); for ( ; ; ) { SOCKADDR_BTH sab2; int ilen = sizeof(sab2); SOCKET s2 = accept (s, &sab2, &ilen); if (s2 == INVALID_SOCKET) { wprintf (L\"Socket bind, error %d\\n\", WSAGetLastError ()); break; } wprintf (L\"Connection came from %04x%08x to channel %d\\n\", GET_NAP(sab2.btAddr), GET_SAP(sab2.btAddr), sab2.port); SpinConnectionThreadsOnSocket (s2); } closesocket (s); return;"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "bind (Bluetooth)",
+  "title": "bind (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450300(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int bind(SOCKET s,const struct sockaddr FAR* name,int namelen);",
+  "code_blocks": [
+   "int bind(SOCKET s,const struct sockaddr FAR* name,int namelen);",
+   "SOCKADDR_BTH sab; memset (&sab, 0, sizeof(sab)); sab.addressFamily = AF_BTH; sab.port = 0; // auto-allocate server channel"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "connect (Bluetooth)",
+  "title": "connect (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887909(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int connect(SOCKET s,const struct sockaddr FAR* name,int namelen);",
+  "code_blocks": [
+   "int connect(SOCKET s,const struct sockaddr FAR* name,int namelen);",
+   "SOCKET s = socket (AF_BTH, SOCK_STREAM, BTHPROTO_RFCOMM); if (s == INVALID_SOCKET) { wprintf (L\"Could not create socket: error %d\\n\", WSAGetLastError ()); return; } SOCKADDR_BTH sab; memset (&sab, 0, sizeof(sab)); sab.addressFamily = AF_BTH; sab.serviceClassId = FaxServiceClass_UUID; sab.btAddr = target_bluetooth_device; if (0 != connect (s, &sab, sizeof(sab)) { wprintf (L\"Could not connect socket: error %d\\n\", WSAGetLastError ()); return; }"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "getpeername (Bluetooth)",
+  "title": "getpeername (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450419(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int getpeername(SOCKET s,struct sockaddr FAR* name,int FAR* namelen);",
+  "code_blocks": [
+   "int getpeername(SOCKET s,struct sockaddr FAR* name,int FAR* namelen);",
+   "SOCKADDR_BTH sab; int len = sizeof(sab); if (0 == getpeername (s, &sab, &len)) { wprintf (L\"Remote Bluetooth device is %04x%08x, connected to %d\\n\", GET_NAP(sab.btAddr), GET_SAP(sab.btAddr), sab.port); }"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "getsockname (Bluetooth)",
+  "title": "getsockname (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890233(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int getsockname(SOCKET s,struct sockaddr FAR* name,int FAR* namelen);",
+  "code_blocks": [
+   "int getsockname(SOCKET s,struct sockaddr FAR* name,int FAR* namelen);",
+   "SOCKADDR_BTH sab; int len = sizeof(sab); if (0 == getsockname (s, &sab, &len)) { wprintf (L\"Local Bluetooth device is %04x%08x, server channel = %d\\n\", GET_NAP(sab.btAddr), GET_SAP(sab.btAddr), sab.port); }"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "getsockopt (Bluetooth)",
+  "title": "getsockopt (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890301(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int getsockopt(SOCKET s,int level,int optname,char FAR* optval,int FAR* optlen);",
+  "code_blocks": [
+   "int getsockopt(SOCKET s,int level,int optname,char FAR* optval,int FAR* optlen);"
+  ],
+  "requirements": {
+   "header": "Winsock2.h, Ws2bth.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "setsockopt (Bluetooth)",
+  "title": "setsockopt (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450933(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int setsockopt(SOCKET s,int level,int optname,const char FAR* optval,int optlen);",
+  "code_blocks": [
+   "int setsockopt(SOCKET s,int level,int optname,const char FAR* optval,int optlen);"
+  ],
+  "requirements": {
+   "header": "Winsock2.h, Ws2bth.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "socket (Bluetooth)",
+  "title": "socket (Bluetooth) (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450956(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SOCKET socket(int af,int type,int protocol);",
+  "code_blocks": [
+   "SOCKET socket(int af,int type,int protocol);",
+   "SOCKET s = socket (AF_BTH, SOCK_STREAM, BTHPROTO_RFCOMM);"
+  ],
+  "requirements": {
+   "header": "Winsock2.h",
+   "library": "Ws2.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Application Development Reference"
+ },
+ {
+  "name": "BASEBAND_CONNECTION_DATA",
+  "title": "BASEBAND_CONNECTION_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450297(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BASEBAND_CONNECTION_DATA{ USHORT hConnection; BD_ADDR baAddress; int cDataPacketsPending; UINT fLinkType : 1; UINT fEncrypted : 1; UINT fAuthenticated : 1; UINT fMode : 3;} BASEBAND_CONNECTION_DATA, *PBASEBAND_CONNECTION_DATA;",
+  "code_blocks": [
+   "typedef struct _BASEBAND_CONNECTION_DATA{ USHORT hConnection; BD_ADDR baAddress; int cDataPacketsPending; UINT fLinkType : 1; UINT fEncrypted : 1; UINT fAuthenticated : 1; UINT fMode : 3;} BASEBAND_CONNECTION_DATA, *PBASEBAND_CONNECTION_DATA;"
+  ],
+  "requirements": {
+   "header": "bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BTHHID_IOCTL_HIDConnect",
+  "title": "BTHHID_IOCTL_HIDConnect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887860(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bthid.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BTHHID_IOCTL_HIDDisconnect",
+  "title": "BTHHID_IOCTL_HIDDisconnect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887861(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bthid.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGATHandler",
+  "title": "BthAGATHandler (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450304(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BthAGATHandler ( LPSTR szCommand, DWORD cbCommand);",
+  "code_blocks": [
+   "BOOL BthAGATHandler ( LPSTR szCommand, DWORD cbCommand);"
+  ],
+  "requirements": {
+   "header": "Developer",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGATSetCallback",
+  "title": "BthAGATSetCallback (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450305(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void BthAGATSetCallback ( PFN_SendATCommand pfn );",
+  "code_blocks": [
+   "void BthAGATSetCallback ( PFN_SendATCommand pfn );",
+   "typedef DWORD (*PFN_SendATCommand) (LPSTR szCommand, DWORD cbCommand);"
+  ],
+  "requirements": {
+   "header": "Developer",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGGetLastDialed",
+  "title": "BthAGGetLastDialed (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450307(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BthAGGetLastDialed( LPWSTR pwszNumber);",
+  "code_blocks": [
+   "BOOL BthAGGetLastDialed( LPWSTR pwszNumber);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_phoneext.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGGetNameByPhoneNumber",
+  "title": "BthAGGetNameByPhoneNumber (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450308(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BthAGGetNameByPhoneNumber ( LPCWSTR pwszNumber, LPWSTR pwszName);",
+  "code_blocks": [
+   "BOOL BthAGGetNameByPhoneNumber ( LPCWSTR pwszNumber, LPWSTR pwszName);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_phoneext.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGGetSpeedDial",
+  "title": "BthAGGetSpeedDial (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450309(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BthAGGetSpeedDial( unsigned short usIndex, LPwSTR pwszNumber);",
+  "code_blocks": [
+   "BOOL BthAGGetSpeedDial( unsigned short usIndex, LPwSTR pwszNumber);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_phoneext.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkAnswerCall",
+  "title": "BthAGNetworkAnswerCall (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450312(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGNetworkAnswerCall(void);",
+  "code_blocks": [
+   "DWORD BthAGNetworkAnswerCall(void);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkDeinit",
+  "title": "BthAGNetworkDeinit (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450313(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void BthAGNetworkDeinit(void);",
+  "code_blocks": [
+   "void BthAGNetworkDeinit(void);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkDialNumber",
+  "title": "BthAGNetworkDialNumber (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450314(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGNetworkDialNumber(LPSTR pszNumber);",
+  "code_blocks": [
+   "DWORD BthAGNetworkDialNumber(LPSTR pszNumber);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkDropCall",
+  "title": "BthAGNetworkDropCall (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450316(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGNetworkHangupCall(DWORD dwFlags);",
+  "code_blocks": [
+   "DWORD BthAGNetworkHangupCall(DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkGetCallState",
+  "title": "BthAGNetworkGetCallState (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450315(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGNetworkGetCallState ( PDWORD pdwFlags);",
+  "code_blocks": [
+   "DWORD BthAGNetworkGetCallState ( PDWORD pdwFlags);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkHoldCall",
+  "title": "BthAGNetworkHoldCall (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450317(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAgNetworkHoldCall(void);",
+  "code_blocks": [
+   "DWORD BthAgNetworkHoldCall(void);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkInit",
+  "title": "BthAGNetworkInit (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450318(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGNetworkInit( HINSTANCE hInstance);",
+  "code_blocks": [
+   "DWORD BthAGNetworkInit( HINSTANCE hInstance);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkRejectCall",
+  "title": "BthAGNetworkRejectCall (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450319(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGNetworkRejectCall(void);",
+  "code_blocks": [
+   "DWORD BthAGNetworkRejectCall(void);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkSwapCall",
+  "title": "BthAGNetworkSwapCall (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450320(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGNetworkSwapCall(void);",
+  "code_blocks": [
+   "DWORD BthAGNetworkSwapCall(void);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkTransmitDTMF",
+  "title": "BthAGNetworkTransmitDTMF (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450321(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGNetworkTransmitDTMF(LPSTR pszDTMF);",
+  "code_blocks": [
+   "DWORD BthAGNetworkTransmitDTMF(LPSTR pszDTMF);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGNetworkUnholdCall",
+  "title": "BthAGNetworkUnholdCall (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450322(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGNetworkUnholdCall(void);",
+  "code_blocks": [
+   "DWORD BthAGNetworkUnholdCall(void);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_network.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGOnNetworkEvent",
+  "title": "BthAGOnNetworkEvent (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450323(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void BthAGOnNetworkEvent( DWORD dwEvent, LPSTR pszParam);",
+  "code_blocks": [
+   "void BthAGOnNetworkEvent( DWORD dwEvent, LPSTR pszParam);"
+  ],
+  "requirements": {
+   "header": "Btagnetwork.h",
+   "library": "Btagsvc.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGOverrideCallIn",
+  "title": "BthAGOverrideCallIn (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450324(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BthAGOverrideCallIn(BOOL fHandsfree);",
+  "code_blocks": [
+   "BOOL BthAGOverrideCallIn(BOOL fHandsfree);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_phoneext.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGOverrideCallOut",
+  "title": "BthAGOverrideCallOut (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887483(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BthAGOverrideCallOut(BOOL fHandsfree);",
+  "code_blocks": [
+   "BOOL BthAGOverrideCallOut(BOOL fHandsfree);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_phoneext.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGPhoneExtDeinit",
+  "title": "BthAGPhoneExtDeinit (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450306(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void BthAGPhoneExtDeinit(void);",
+  "code_blocks": [
+   "void BthAGPhoneExtDeinit(void);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_phoneext.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGPhoneExtEvent",
+  "title": "BthAGPhoneExtEvent (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms880975(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void BthAGPhoneExtEvent( DWORD dwEvent, DWORD dwParam, VOID* pvParam2 );",
+  "code_blocks": [
+   "void BthAGPhoneExtEvent( DWORD dwEvent, DWORD dwParam, VOID* pvParam2 );"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_phoneext.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGPhoneExtInit",
+  "title": "BthAGPhoneExtInit (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450311(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGInitPhoneExt(void);",
+  "code_blocks": [
+   "DWORD BthAGInitPhoneExt(void);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_phoneext.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAGSetServiceCallback",
+  "title": "BthAGSetServiceCallback (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450310(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD BthAGSetServiceCallback( PFN_PhoneExtServiceCallbackpfn);",
+  "code_blocks": [
+   "DWORD BthAGSetServiceCallback( PFN_PhoneExtServiceCallbackpfn);",
+   "typedef void (*PFN_PhoneExtServiceCallback) (BOOL fHaveService);"
+  ],
+  "requirements": {
+   "header": "Btagpub.h",
+   "library": "Btagsvc_phoneext.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAcceptSCOConnections",
+  "title": "BthAcceptSCOConnections (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450303(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthAcceptSCOConnections ( BOOL fAccept);",
+  "code_blocks": [
+   "int BthAcceptSCOConnections ( BOOL fAccept);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAnswerPairRequest",
+  "title": "BthAnswerPairRequest (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887558(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthAnswerPairRequest ( BT_ADDR* pba, int cPinLength, unsigned char *ppin);",
+  "code_blocks": [
+   "int BthAnswerPairRequest ( BT_ADDR* pba, int cPinLength, unsigned char *ppin);",
+   "typedef ULONGLONG bt_addr, *pbt_addr, BT_ADDR, *PBT_ADDR;"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthAuthenticate",
+  "title": "BthAuthenticate (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887570(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthAuthenticate( BT_ADDR* pba);",
+  "code_blocks": [
+   "int BthAuthenticate( BT_ADDR* pba);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthCancelInquiry",
+  "title": "BthCancelInquiry (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887578(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthCancelInquiry(void);",
+  "code_blocks": [
+   "int BthCancelInquiry(void);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthClearInquiryFilter",
+  "title": "BthClearInquiryFilter (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887586(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthClearInquiryFilter(void);",
+  "code_blocks": [
+   "int BthClearInquiryFilter(void);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthCloseConnection",
+  "title": "BthCloseConnection (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887598(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthCloseConnection( unsigned short handle);",
+  "code_blocks": [
+   "int BthCloseConnection( unsigned short handle);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthCreateACLConnection",
+  "title": "BthCreateACLConnection (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887605(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthCreateACLConnection( BT_ADDR* pbt, unsigned short* phandle);",
+  "code_blocks": [
+   "int BthCreateACLConnection( BT_ADDR* pbt, unsigned short* phandle);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthCreateSCOConnection",
+  "title": "BthCreateSCOConnection (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887612(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthCreateSCOConnection(BT_ADDR* pbt,unsigned short* phandle);",
+  "code_blocks": [
+   "int BthCreateSCOConnection(BT_ADDR* pbt,unsigned short* phandle);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthEnterHoldMode",
+  "title": "BthEnterHoldMode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887712(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthEnterHoldMode( BT_ADDR* pba, unsigned short hold_mode_max, unsigned short hold_mode_min, unsigned short* pinterval);",
+  "code_blocks": [
+   "int BthEnterHoldMode( BT_ADDR* pba, unsigned short hold_mode_max, unsigned short hold_mode_min, unsigned short* pinterval);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthEnterParkMode",
+  "title": "BthEnterParkMode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887822(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthEnterParkMode( BT_ADDR* pba, unsigned short beacon_max, unsigned short beacon_min, unsigned short* pinterval);",
+  "code_blocks": [
+   "int BthEnterParkMode( BT_ADDR* pba, unsigned short beacon_max, unsigned short beacon_min, unsigned short* pinterval);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthEnterSniffMode",
+  "title": "BthEnterSniffMode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887829(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthEnterSniffMode( BT_ADDR*pba, unsigned short sniff_mode_max, unsigned short sniff_mode_min, unsigned short sniff_attempt, unsigned short sniff_timeout, unsigned short* pinterval);",
+  "code_blocks": [
+   "int BthEnterSniffMode( BT_ADDR*pba, unsigned short sniff_mode_max, unsigned short sniff_mode_min, unsigned short sniff_attempt, unsigned short sniff_timeout, unsigned short* pinterval);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthExitParkMode",
+  "title": "BthExitParkMode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887830(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthExitParkMode( BT_ADDR* pba);",
+  "code_blocks": [
+   "int BthExitParkMode( BT_ADDR* pba);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthExitSniffMode",
+  "title": "BthExitSniffMode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887831(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthExitSniffMode( BT_ADDR* pba);",
+  "code_blocks": [
+   "int BthExitSniffMode( BT_ADDR* pba);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthGetAddress",
+  "title": "BthGetAddress (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887833(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthGetAddress( unsigned short handle, BT_ADDR* pba);",
+  "code_blocks": [
+   "int BthGetAddress( unsigned short handle, BT_ADDR* pba);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthGetBasebandConnections",
+  "title": "BthGetBasebandConnections (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887834(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthGetBasebandConnections( int cConnections, BASEBAND_CONNECTION* pConnections, int* pcConnectionsReturned);",
+  "code_blocks": [
+   "int BthGetBasebandConnections( int cConnections, BASEBAND_CONNECTION* pConnections, int* pcConnectionsReturned);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthGetBasebandHandles",
+  "title": "BthGetBasebandHandles (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887835(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthGetBasebandHandles( int cHandles, unsigned short* pHandles, int* pcHandlesReturned);",
+  "code_blocks": [
+   "int BthGetBasebandHandles( int cHandles, unsigned short* pHandles, int* pcHandlesReturned);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthGetCurrentMode",
+  "title": "BthGetCurrentMode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887836(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthGetCurrentMode( BT_ADDR* pba, unsigned char* pmode);",
+  "code_blocks": [
+   "int BthGetCurrentMode( BT_ADDR* pba, unsigned char* pmode);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthGetHardwareStatus",
+  "title": "BthGetHardwareStatus (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887837(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthGetHardwareStatus( int* pistatus);",
+  "code_blocks": [
+   "int BthGetHardwareStatus( int* pistatus);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthGetLinkKey",
+  "title": "BthGetLinkKey (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887838(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthGetLinkKey( BT_ADDR* pba, unsigned char key[16]);",
+  "code_blocks": [
+   "int BthGetLinkKey( BT_ADDR* pba, unsigned char key[16]);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthGetPINRequest",
+  "title": "BthGetPINRequest (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887839(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthGetPINRequest( BT_ADDR* pbt);",
+  "code_blocks": [
+   "int BthGetPINRequest( BT_ADDR* pbt);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthGetRemoteCOD",
+  "title": "BthGetRemoteCOD (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887840(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthGetRemoteCOD ( BT_ADDR *pbt, unsigned int *pcod);",
+  "code_blocks": [
+   "int BthGetRemoteCOD ( BT_ADDR *pbt, unsigned int *pcod);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthNsLookupServiceBegin",
+  "title": "BthNsLookupServiceBegin (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887865(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT BthNsLookupServiceBegin(LPWSAQUERYSET pQuerySet,DWORD dwFlags,LPHANDLE lphLookup);",
+  "code_blocks": [
+   "INT BthNsLookupServiceBegin(LPWSAQUERYSET pQuerySet,DWORD dwFlags,LPHANDLE lphLookup);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthNsLookupServiceEnd",
+  "title": "BthNsLookupServiceEnd (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887866(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT BthNsLookupServiceEnd(HANDLE hLookup);",
+  "code_blocks": [
+   "INT BthNsLookupServiceEnd(HANDLE hLookup);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthNsLookupServiceNext",
+  "title": "BthNsLookupServiceNext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887867(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT BthNsLookupServiceNext(HANDLE hLookup,DWORD dwFlags,LPDWORD lpdwBufferLength,LPWSAQUERYSET pResults);",
+  "code_blocks": [
+   "INT BthNsLookupServiceNext(HANDLE hLookup,DWORD dwFlags,LPDWORD lpdwBufferLength,LPWSAQUERYSET pResults);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthNsSetService",
+  "title": "BthNsSetService (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887870(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INTBthNsSetService(LPWSAQUERYSETlpqsRegInfo,WSAESETSERVICEOPessoperation,DWORDdwControlFlags);",
+  "code_blocks": [
+   "INTBthNsSetService(LPWSAQUERYSETlpqsRegInfo,WSAESETSERVICEOPessoperation,DWORDdwControlFlags);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "Member Submember Description lpqsRegInfo dwSize sizeof(WSAQUERYSET) lpszServiceInstanceName Not supported on Windows CE. lpServiceClassId Not supported on Windows CE. dwNumberOfCsAddrs Not supported on Windows CE. IpcsaBuffer Not supported on Windows CE. * All other WSAQUERYSET members are ignored. Field Subfield Description lpqsRegInfo dwSize sizeof(WSAQUERYSET) dwNameSpace NS_BTH lpBlob BTHNS_SETBLOB structure, containing the service record handle * All other fields are ignored essOperation RNRSERVICE_DELETE dwControlFlags 0 (clear)",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthPairRequest",
+  "title": "BthPairRequest (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887871(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthPairRequest ( BT_ADDR* pba, int cPinLength, unsigned char *ppin);",
+  "code_blocks": [
+   "int BthPairRequest ( BT_ADDR* pba, int cPinLength, unsigned char *ppin);",
+   "typedef ULONGLONG bt_addr, *pbt_addr, BT_ADDR, *PBT_ADDR;"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthPerformInquiry",
+  "title": "BthPerformInquiry (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887872(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthPerformInquiry( unsigned int LAP, unsigned char length, unsigned char num_responses, unsigned int cBuffer, unsigned int* pcDiscoveredDevices, BthInquiryResult* InquiryList);",
+  "code_blocks": [
+   "int BthPerformInquiry( unsigned int LAP, unsigned char length, unsigned char num_responses, unsigned int cBuffer, unsigned int* pcDiscoveredDevices, BthInquiryResult* InquiryList);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthReadAuthenticationEnable",
+  "title": "BthReadAuthenticationEnable (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887873(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthReadAuthenticationEnable( unsigned char* pae);",
+  "code_blocks": [
+   "int BthReadAuthenticationEnable( unsigned char* pae);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthReadCOD",
+  "title": "BthReadCOD (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887874(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthReadCOD( unsigned int* pcod);",
+  "code_blocks": [
+   "int BthReadCOD( unsigned int* pcod);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthReadLinkPolicySettings",
+  "title": "BthReadLinkPolicySettings (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887875(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthReadLinkPolicySettings( BT_ADDR* pba, unsigned short* plps);",
+  "code_blocks": [
+   "int BthReadLinkPolicySettings( BT_ADDR* pba, unsigned short* plps);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthReadLocalAddr",
+  "title": "BthReadLocalAddr (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887876(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthReadLocalAddr( BT_ADDR* pba);",
+  "code_blocks": [
+   "int BthReadLocalAddr( BT_ADDR* pba);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthReadLocalVersion",
+  "title": "BthReadLocalVersion (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887877(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthReadLocalVersion( unsigned char* phci_version, unsigned short* phci_revision, unsigned char* plmp_version, unsigned short* plmp_subversion, unsigned short* pmanufacturer, unsigned char* plmp_features);",
+  "code_blocks": [
+   "int BthReadLocalVersion( unsigned char* phci_version, unsigned short* phci_revision, unsigned char* plmp_version, unsigned short* plmp_subversion, unsigned short* pmanufacturer, unsigned char* plmp_features);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthReadPageTimeout",
+  "title": "BthReadPageTimeout (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887878(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthReadPageTimeout( unsigned short* ptimeout);",
+  "code_blocks": [
+   "int BthReadPageTimeout( unsigned short* ptimeout);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthReadRemoteVersion",
+  "title": "BthReadRemoteVersion (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887879(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthReadRemoteVersion( BT_ADDR* pba, unsigned char* plmp_version, unsigned short* plmp_subversion, unsigned short* pmanufacturer, unsigned char* plmp_features);",
+  "code_blocks": [
+   "int BthReadRemoteVersion( BT_ADDR* pba, unsigned char* plmp_version, unsigned short* plmp_subversion, unsigned short* pmanufacturer, unsigned char* plmp_features);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthReadScanEnableMask",
+  "title": "BthReadScanEnableMask (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887880(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthReadScanEnableMask( unsigned char* pmask);",
+  "code_blocks": [
+   "int BthReadScanEnableMask( unsigned char* pmask);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthRefusePINRequest",
+  "title": "BthRefusePINRequest (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887881(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthRefusePINRequest( BT_ADDR* pbt);",
+  "code_blocks": [
+   "int BthRefusePINRequest( BT_ADDR* pbt);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthRemoteNameQuery",
+  "title": "BthRemoteNameQuery (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887883(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthRemoteNameQuery( BT_ADDR* pba, unsigned int cBuffer, unsigned int* pcRequired, WCHAR* szString);",
+  "code_blocks": [
+   "int BthRemoteNameQuery( BT_ADDR* pba, unsigned int cBuffer, unsigned int* pcRequired, WCHAR* szString);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthRevokeLinkKey",
+  "title": "BthRevokeLinkKey (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887885(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthRevokeLinkKey( BT_ADDR* pba);",
+  "code_blocks": [
+   "int BthRevokeLinkKey( BT_ADDR* pba);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthRevokePIN",
+  "title": "BthRevokePIN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887886(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthRevokePIN( BT_ADDR* pba);",
+  "code_blocks": [
+   "int BthRevokePIN( BT_ADDR* pba);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthSetEncryption",
+  "title": "BthSetEncryption (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887887(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthSetEncryption( BT_ADDR* pba, int fOn);",
+  "code_blocks": [
+   "int BthSetEncryption( BT_ADDR* pba, int fOn);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthSetInquiryFilter",
+  "title": "BthSetInquiryFilter (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887889(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthSetInquiryFilter( BT_ADDR* pba);",
+  "code_blocks": [
+   "int BthSetInquiryFilter( BT_ADDR* pba);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthSetLinkKey",
+  "title": "BthSetLinkKey (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887890(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthSetLinkKey ( BT_ADDR* pba, unsigned char key[16]);",
+  "code_blocks": [
+   "int BthSetLinkKey ( BT_ADDR* pba, unsigned char key[16]);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthSetPIN",
+  "title": "BthSetPIN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887891(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthSetPIN( BT_ADDR* pba, int cPinLength, unsigned char* ppin);",
+  "code_blocks": [
+   "int BthSetPIN( BT_ADDR* pba, int cPinLength, unsigned char* ppin);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthSetSecurityUI",
+  "title": "BthSetSecurityUI (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887892(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthSetSecurityUI( HANDLE hEvent, DWORD dwStoreTimeout, DWORD dwProcTimeout);",
+  "code_blocks": [
+   "int BthSetSecurityUI( HANDLE hEvent, DWORD dwStoreTimeout, DWORD dwProcTimeout);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthTerminateIdleConnections",
+  "title": "BthTerminateIdleConnections (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887895(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthTerminateIdleConnections(void);",
+  "code_blocks": [
+   "int BthTerminateIdleConnections(void);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "The stack uses it internally to drop existing connections on controllers that do not support piconets. It could be useful, however, in a very limited number of cases where the peer device does not support piconets but needs to connect to another device. It then wants to disconnect immediately so the phone that does not support piconets could establish Bluetooth connection with the headset.",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthWriteAuthenticationEnable",
+  "title": "BthWriteAuthenticationEnable (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887896(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthWriteAuthenticationEnable( unsigned char ae);",
+  "code_blocks": [
+   "int BthWriteAuthenticationEnable( unsigned char ae);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthWriteCOD",
+  "title": "BthWriteCOD (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887897(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthWriteCOD( unsigned int cod);",
+  "code_blocks": [
+   "int BthWriteCOD( unsigned int cod);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthWriteLinkPolicySettings",
+  "title": "BthWriteLinkPolicySettings (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887898(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthWriteLinkPolicySettings( BT_ADDR* pba, unsigned short lps);",
+  "code_blocks": [
+   "int BthWriteLinkPolicySettings( BT_ADDR* pba, unsigned short lps);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthWritePageTimeout",
+  "title": "BthWritePageTimeout (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887899(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthWritePageTimeout( unsigned short timeout);",
+  "code_blocks": [
+   "int BthWritePageTimeout( unsigned short timeout);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BthWriteScanEnableMask",
+  "title": "BthWriteScanEnableMask (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887900(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int BthWriteScanEnableMask( unsigned char mask);",
+  "code_blocks": [
+   "int BthWriteScanEnableMask( unsigned char mask);"
+  ],
+  "requirements": {
+   "header": "Bt_api.h",
+   "library": "Btdrt.lib",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "IOCTL_AG_CLOSE_AUDIO",
+  "title": "IOCTL_AG_CLOSE_AUDIO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891134(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Btagpub.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "IOCTL_AG_CLOSE_CONTROL",
+  "title": "IOCTL_AG_CLOSE_CONTROL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891136(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Btagpub.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "IOCTL_AG_GET_MIC_VOL",
+  "title": "IOCTL_AG_GET_MIC_VOL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891138(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Btagpub.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "IOCTL_AG_GET_SPEAKER_VOL",
+  "title": "IOCTL_AG_GET_SPEAKER_VOL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891142(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Btagpub.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "IOCTL_AG_OPEN_AUDIO",
+  "title": "IOCTL_AG_OPEN_AUDIO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891145(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Btagpub.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "IOCTL_AG_OPEN_CONTROL",
+  "title": "IOCTL_AG_OPEN_CONTROL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891147(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Btagpub.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "IOCTL_AG_SET_MIC_VOL",
+  "title": "IOCTL_AG_SET_MIC_VOL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891150(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Btagpub.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "IOCTL_AG_SET_SPEAKER_VOL",
+  "title": "IOCTL_AG_SET_SPEAKER_VOL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891153(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Btagpub.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "NetworkCallFailedInfo",
+  "title": "NetworkCallFailedInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895682(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _NetworkCallFailedInfo { USHORT usCallType; DWORD dwStatus;} NetworkCallFailedInfo;",
+  "code_blocks": [
+   "typedef struct _NetworkCallFailedInfo { USHORT usCallType; DWORD dwStatus;} NetworkCallFailedInfo;",
+   "typedef enum _NETWORK_CALL_TYPE { CALL_TYPE_ANSWER = 0x01, CALL_TYPE_DROP = 0x02, CALL_TYPE_DIAL = 0x03, CALL_TYPE_HOLD = 0x04, CALL_TYPE_SWAP = 0x05, CALL_TYPE_UNHOLD = 0x06, } NETWORK_CALL_TYPE;"
+  ],
+  "requirements": {
+   "header": "Btagnetwork.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "OID_PAN_AUTHENTICATE",
+  "title": "OID_PAN_AUTHENTICATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895809(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "bt_ddi.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "OID_PAN_CONNECT",
+  "title": "OID_PAN_CONNECT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895812(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "bt_ddi.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "OID_PAN_DISCONNECT",
+  "title": "OID_PAN_DISCONNECT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895819(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "bt_ddi.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "OID_PAN_ENCRYPT",
+  "title": "OID_PAN_ENCRYPT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895824(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "bt_ddi.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "WODM_BT_SCO_AUDIO_CONTROL",
+  "title": "WODM_BT_SCO_AUDIO_CONTROL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887549(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth OS Reference"
+ },
+ {
+  "name": "BD_ADDR",
+  "title": "BD_ADDR (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450298(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "#pragma pack(push, 1)typedef struct __bd_addr {union { struct { unsigned int LAP : 24; unsigned int UAP : 8; }; unsigned int SAP; };unsigned short NAP; } BD_ADDR;#pragma pack(pop)",
+  "code_blocks": [
+   "#pragma pack(push, 1)typedef struct __bd_addr {union { struct { unsigned int LAP : 24; unsigned int UAP : 8; }; unsigned int SAP; };unsigned short NAP; } BD_ADDR;#pragma pack(pop)",
+   "typedef ULONGLONG bt_addr, *pbt_addr, BT_ADDR, *PBT_ADDR;"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BD_BUFFER",
+  "title": "BD_BUFFER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450299(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "struct BD_BUFFER {int cSize;int cStart;int cEnd;BD_BUFFER_FREE pFree;int fMustCopy;unsigned char* pBuffer;};",
+  "code_blocks": [
+   "struct BD_BUFFER {int cSize;int cStart;int cEnd;BD_BUFFER_FREE pFree;int fMustCopy;unsigned char* pBuffer;};"
+  ],
+  "requirements": {
+   "header": "Bt_buffer.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_BASEBAND_CONNECTIONS",
+  "title": "BTH_HCI_IOCTL_GET_BASEBAND_CONNECTIONS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887901(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_BASEBAND_HANDLES",
+  "title": "BTH_HCI_IOCTL_GET_BASEBAND_HANDLES (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887842(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_BD_FOR_HANDLE",
+  "title": "BTH_HCI_IOCTL_GET_BD_FOR_HANDLE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887843(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_COMMANDSIZE",
+  "title": "BTH_HCI_IOCTL_GET_COMMANDSIZE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887844(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_ERRORS",
+  "title": "BTH_HCI_IOCTL_GET_ERRORS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887845(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_FLOW",
+  "title": "BTH_HCI_IOCTL_GET_FLOW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887846(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_HANDLE_FOR_BD",
+  "title": "BTH_HCI_IOCTL_GET_HANDLE_FOR_BD (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887847(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_HANDLE_MODE",
+  "title": "BTH_HCI_IOCTL_GET_HANDLE_MODE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887848(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_HARDWARE_STATUS",
+  "title": "BTH_HCI_IOCTL_GET_HARDWARE_STATUS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887849(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_INQUIRY",
+  "title": "BTH_HCI_IOCTL_GET_INQUIRY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887850(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_LAST_INQUIRY_DATA",
+  "title": "BTH_HCI_IOCTL_GET_LAST_INQUIRY_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887851(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_LOOPBACK",
+  "title": "BTH_HCI_IOCTL_GET_LOOPBACK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887852(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_NUM_ONDEVICE",
+  "title": "BTH_HCI_IOCTL_GET_NUM_ONDEVICE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887853(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_NUM_PENDING",
+  "title": "BTH_HCI_IOCTL_GET_NUM_PENDING (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887854(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_NUM_UNSENT",
+  "title": "BTH_HCI_IOCTL_GET_NUM_UNSENT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887855(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_PERIODIC_INQUIRY",
+  "title": "BTH_HCI_IOCTL_GET_PERIODIC_INQUIRY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887856(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_REMOTE_COD",
+  "title": "BTH_HCI_IOCTL_GET_REMOTE_COD (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887902(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_SCO_PARAMETERS",
+  "title": "BTH_HCI_IOCTL_GET_SCO_PARAMETERS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887903(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "struct { OUT BOOL bScoSupported; // Determines if SCO is supported. OUT DWORD dwScoPacketMaxDataSize; // Stores the maximum SCO packet size OUT DWORD dwNumConcurrentScoPackets; // Stores the number of concurrent //SCO packets, which can be //outstanding. } GetScoParameters;",
+  "code_blocks": [
+   "struct { OUT BOOL bScoSupported; // Determines if SCO is supported. OUT DWORD dwScoPacketMaxDataSize; // Stores the maximum SCO packet size OUT DWORD dwNumConcurrentScoPackets; // Stores the number of concurrent //SCO packets, which can be //outstanding. } GetScoParameters;"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_GET_UNDER_TEST",
+  "title": "BTH_HCI_IOCTL_GET_UNDER_TEST (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887857(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_HANDLE_AUTHENTICATED",
+  "title": "BTH_HCI_IOCTL_HANDLE_AUTHENTICATED (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887858(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_HCI_IOCTL_HANDLE_ENCRYPTED",
+  "title": "BTH_HCI_IOCTL_HANDLE_ENCRYPTED (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887859(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "BTH_STACK_IOCTL_GET_CONNECTED",
+  "title": "BTH_STACK_IOCTL_GET_CONNECTED (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887894(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "ControllerEvent",
+  "title": "ControllerEvent (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887915(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _controller_event_packet { int cSize; unsigned char* pData;} ControllerEvent;",
+  "code_blocks": [
+   "typedef struct _controller_event_packet { int cSize; unsigned char* pData;} ControllerEvent;"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "HCIEventContext",
+  "title": "HCIEventContext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890318(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef union _event_context { HCI_Buffer_Size Host_Buffer; ControllerEvent Event; } HCIEventContext;",
+  "code_blocks": [
+   "typedef union _event_context { HCI_Buffer_Size Host_Buffer; ControllerEvent Event; } HCIEventContext;"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "HCI_Buffer_Size",
+  "title": "HCI_Buffer_Size (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890315(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _host_buffer_size { unsigned short ACL_Data_Packet_Length; unsigned char SCO_Data_Packet_Length; unsigned short Total_Num_ACL_Data_Packets; unsigned short Total_Num_SCO_Data_Packets;} HCI_Buffer_Size;",
+  "code_blocks": [
+   "typedef struct _host_buffer_size { unsigned short ACL_Data_Packet_Length; unsigned char SCO_Data_Packet_Length; unsigned short Total_Num_ACL_Data_Packets; unsigned short Total_Num_SCO_Data_Packets;} HCI_Buffer_Size;"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE.NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "HCI_CloseDeviceContext",
+  "title": "HCI_CloseDeviceContext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890316(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int HCI_CloseDeviceContext(HANDLE hDeviceContext);",
+  "code_blocks": [
+   "int HCI_CloseDeviceContext(HANDLE hDeviceContext);"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "library": "Btd.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "HCI_DataPacketDown_In",
+  "title": "HCI_DataPacketDown_In (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms881896(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef int (*HCI_DataPacketDown_In)(HANDLE hDeviceContext,void* pCallContext,unsigned short connection_handle,BD_BUFFER* pBuffer);",
+  "code_blocks": [
+   "typedef int (*HCI_DataPacketDown_In)(HANDLE hDeviceContext,void* pCallContext,unsigned short connection_handle,BD_BUFFER* pBuffer);"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "library": "Btd.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "HCI_DataPacketDown_Out",
+  "title": "HCI_DataPacketDown_Out (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms881897(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef int (*HCI_DataPacketDown_Out)(void* pCallContext,int iError);",
+  "code_blocks": [
+   "typedef int (*HCI_DataPacketDown_Out)(void* pCallContext,int iError);"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "library": "Btd.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "HCI_DataPacketUp",
+  "title": "HCI_DataPacketUp (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms881898(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef int (*HCI_DataPacketUp)(void* pUserContext,unsigned short connection_handle,BD_BUFFER* pBuffer);",
+  "code_blocks": [
+   "typedef int (*HCI_DataPacketUp)(void* pUserContext,unsigned short connection_handle,BD_BUFFER* pBuffer);"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "library": "Btd.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "HCI_DataPacketUpAclUnbuffered",
+  "title": "HCI_DataPacketUpAclUnbuffered (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms881899(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef int (*HCI_DataPacketUpAclUnbuffered)(void* pUserContext,unsigned short connection_handle,unsigned char boundary,unsigned char broadcast,BD_BUFFER* pBuffer);",
+  "code_blocks": [
+   "typedef int (*HCI_DataPacketUpAclUnbuffered)(void* pUserContext,unsigned short connection_handle,unsigned char boundary,unsigned char broadcast,BD_BUFFER* pBuffer);"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "library": "Btd.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "HCI_EstablishDeviceContext",
+  "title": "HCI_EstablishDeviceContext (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890317(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "Int HCI_EstablishDeviceContext(Void* pUserContext,UINTuiControl,BD_ADDR* pba,UINTclass_of_device,UCHARlink_type,HCI_EVENT_INDICATION* pInd,HCI_CALLBACKS* pCall,HCI_INTERFACE* pInt,int* pcDataHeaders,int* pcDataTrailers,HANDLE* phDeviceContext);",
+  "code_blocks": [
+   "Int HCI_EstablishDeviceContext(Void* pUserContext,UINTuiControl,BD_ADDR* pba,UINTclass_of_device,UCHARlink_type,HCI_EVENT_INDICATION* pInd,HCI_CALLBACKS* pCall,HCI_INTERFACE* pInt,int* pcDataHeaders,int* pcDataTrailers,HANDLE* phDeviceContext);"
+  ],
+  "requirements": {
+   "header": "Bt_hcip.h",
+   "library": "Btd.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "InquiryResultBuffer",
+  "title": "InquiryResultBuffer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890987(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "struct InquiryResultBuffer {DWORD dwTick;BD_ADDR ba;unsigned charpage_scan_repetition_mode;unsigned charpage_scan_period_mode;unsigned charpage_scan_mode;unsigned int class_of_device;unsigned short clock_offset;};",
+  "code_blocks": [
+   "struct InquiryResultBuffer {DWORD dwTick;BD_ADDR ba;unsigned charpage_scan_repetition_mode;unsigned charpage_scan_period_mode;unsigned charpage_scan_mode;unsigned int class_of_device;unsigned short clock_offset;};"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ },
+ {
+  "name": "PacketMarker",
+  "title": "PacketMarker (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895828(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _packet_marker {unsigned int fMarker;union { BD_ADDR ba; unsigned short connection_handle; };} PacketMarker;",
+  "code_blocks": [
+   "typedef struct _packet_marker {unsigned int fMarker;union { BD_ADDR ba; unsigned short connection_handle; };} PacketMarker;",
+   "typedef int (*HCI_CustomCode_In) ( HANDLE hDeviceContext, void* pCallContext, unsigned short usOpCode, unsigned short cPacketSize, unsigned char* pPacket, PacketMarker* pMarker, unsigned char cEvent );"
+  ],
+  "requirements": {
+   "header": "Bt_ddi.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "bluetooth",
+  "sub": "Bluetooth Stack Extension Layer Reference"
+ }
+]

@@ -1,0 +1,614 @@
+[
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "AllocPhysMem",
+"u": "ee482808(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CacheRangeFlush",
+"u": "ee482862(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CacheSync",
+"u": "ee482858(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeCallUserProc",
+"u": "ee482964(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeCreateTokenFromAccount",
+"u": "ee482761(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeGetCacheInfo",
+"u": "ee482939(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeGetCurrentTrust",
+"u": "ee482766(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeGetRandomSeed",
+"u": "ee483155(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeImpersonateCurrentProcess",
+"u": "ee482962(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CreateAPIHandle",
+"u": "ee483024(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CreateAPISet",
+"u": "ee482963(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeSetMemoryAttributes",
+"u": "ee482840(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeSetPowerOnEvent",
+"u": "ee482946(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeVirtualSharedAlloc",
+"u": "ee482975(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CreateStaticMapping",
+"u": "ee482737(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CreateWatchDogTimer",
+"u": "ee482966(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DeleteStaticMapping",
+"u": "ee482746(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonClear",
+"u": "ee482942(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonFlush",
+"u": "ee483034(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonGetSize",
+"u": "ee482837(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonReadData",
+"u": "ee482790(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonWriteData",
+"u": "ee482758(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ForcePageout",
+"u": "ee483002(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ForwardDeviceIoControl",
+"u": "ee482824(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "FreePhysMem",
+"u": "ee483073(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetCallerProcess",
+"u": "ee482853(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetCallerVMProcessId",
+"u": "ee482772(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetCurrentPermissions",
+"u": "ee483152(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetDirectCallerProcessId",
+"u": "ee482980(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetEPC",
+"u": "ee483037(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetEventData",
+"u": "ee482804(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetOwnerProcess",
+"u": "ee483052(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetStdioPathW",
+"u": "ee482970(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetSystemMemoryDivision",
+"u": "ee482753(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetThreadCallStack",
+"u": "ee482795(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "HookInterrupt",
+"u": "ee483156(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "InterruptDisable",
+"u": "ee482866(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "InterruptDone",
+"u": "ee482745(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "InterruptInitialize",
+"u": "ee482998(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "InterruptMask",
+"u": "ee483157(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "INTERRUPTS_ENABLE",
+"u": "ee483069(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "INTERRUPTS_OFF",
+"u": "ee483019(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "INTERRUPTS_ON",
+"u": "ee482952(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "IsAPIReady",
+"u": "ee482834(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "IsNamedEventSignaled",
+"u": "ee482750(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ISRHandler",
+"u": "ee483140(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "KCompareFileTime",
+"u": "ee483057(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "KernelLibIoControl",
+"u": "ee482854(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "KFileTimeToSystemTime",
+"u": "ee482996(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "KSystemTimeToFileTime",
+"u": "ee482943(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "LoadDriver",
+"u": "ee482944(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "LockPages",
+"u": "ee482989(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "MapCallerPtr",
+"u": "ee482968(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "MapPtrToProcess",
+"u": "ee482835(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "OpenWatchDogTimer",
+"u": "ee482817(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "PageOutModule",
+"u": "ee482958(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfileCaptureStatus",
+"u": "ee482993(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfilerHit",
+"u": "ee483151(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfilerHitEx",
+"u": "ee483146(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfileStart",
+"u": "ee482995(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfileStartEx",
+"u": "ee483025(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfileStop",
+"u": "ee482806(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "PFNAPIERRHANDLER",
+"u": "ee482821(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "PFN_UIENTRYPOINT",
+"u": "ee482982(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetAPIErrorHandler",
+"u": "ee482869(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "RefreshWatchDogTimer",
+"u": "ee482794(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "RegisterAPISet",
+"u": "ee482984(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "RegisterDirectMethods",
+"u": "ee482823(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetDbgZone",
+"u": "ee482783(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetEventData",
+"u": "ee482792(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetInterruptEvent",
+"u": "ee482788(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetJITDebuggerPath",
+"u": "ee483149(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetKernelCommDev",
+"u": "ee482953(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetKMode",
+"u": "ee482868(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetProcPermissions",
+"u": "ee482959(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetStdioPathW",
+"u": "ee482743(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetStoreQueueBase",
+"u": "ee482754(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetSystemMemoryDivision",
+"u": "ee482768(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SleepTillTick",
+"u": "ee482769(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "StartWatchDogTimer",
+"u": "ee482881(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "StopWatchDogTimer",
+"u": "ee482847(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "UnhookInterrupt",
+"u": "ee482747(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "UnlockPages",
+"u": "ee483160(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "UnMapPtr",
+"u": "ee482864(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "VirtualCopy",
+"u": "ee483154(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "VirtualSetAttributes",
+"u": "ee482857(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "WaitForAPIReady",
+"u": "ee482994(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "CacheInfo",
+"u": "ee483008(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "CallSnapshot3",
+"u": "ee483137(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "CallSnapshotEx",
+"u": "ee483016(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "OEMProfilerData",
+"u": "ee483135(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "ProfilerControl",
+"u": "ee483042(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "ROMHDR",
+"u": "ee482991(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "XIPCHAIN_ENTRY",
+"u": "ee483159(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "XIPCHAIN_INFO",
+"u": "ee483006(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "CallSnapshot",
+"u": "ee482955(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "NKPagePoolState",
+"u": "ee482990(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "PagePoolState",
+"u": "ee482954(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Enumerations",
+"t": "EXTENDED_NAME_FORMAT",
+"u": "ee483142(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Global Variables",
+"t": "cbNKPagingPoolSize",
+"u": "ee482819(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel I/O Controls",
+"t": "IOCTL_KLIB_GET_POOL_STATE",
+"u": "ee483005(v=winembedded.60)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Macros",
+"t": "IsInPwrHdlr",
+"u": "ee482786(v=winembedded.60)"
+}
+]

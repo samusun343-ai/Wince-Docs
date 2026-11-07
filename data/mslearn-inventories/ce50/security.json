@@ -1,0 +1,1868 @@
+[
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "AcceptSecurityContext",
+"u": "ms937012(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "AcquireCredentialsHandle",
+"u": "ms937013(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "ApplyControlToken",
+"u": "ms937015(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "CompleteAuthToken",
+"u": "ms937725(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "DecryptMessage",
+"u": "ms938416(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "DeleteSecurityContext",
+"u": "ms906494(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "EncryptMessage",
+"u": "ms906502(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "EnumerateSecurityPackages",
+"u": "ms906509(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "FreeContextBuffer",
+"u": "ms906515(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "FreeCredentialsHandle",
+"u": "ms906519(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "InitializeSecurityContext",
+"u": "ms926002(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "InitSecurityInterface",
+"u": "ms926095(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "InternetCanonicalizeUrl",
+"u": "ms926106(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "MakeSignature",
+"u": "ms926142(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMAddGroup",
+"u": "ms926159(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMAddUserToGroup",
+"u": "ms926164(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMDeleteUser",
+"u": "ms926171(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMEnumGroups",
+"u": "ms926178(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMEnumUser",
+"u": "ms926183(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMGetGroupList",
+"u": "ms926187(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMGetUserList",
+"u": "ms926195(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMRemoveGroup",
+"u": "ms926201(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMRemoveUserFromGroup",
+"u": "ms926207(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMSetUserInfo",
+"u": "ms926215(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "QueryContextAttributes",
+"u": "ms938456(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "QueryCredentialsAttributes",
+"u": "ms938459(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "QuerySecurityPackageInfo",
+"u": "ms938462(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "SealMessage",
+"u": "ms926485(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "UnsealMessage",
+"u": "ms926486(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "VerifySignature",
+"u": "ms926455(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SCHANNEL_CRED",
+"u": "ms926432(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SEC_WINNT_AUTH_IDENTITY",
+"u": "ms926452(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecBuffer",
+"u": "ms926433(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecBufferDesc",
+"u": "ms926434(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_Authority",
+"u": "ms926435(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_ConnectionInfo",
+"u": "ms926436(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_DceInfo",
+"u": "ms926437(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_IssuerListInfoEx",
+"u": "ms926438(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_KeyInfo",
+"u": "ms926439(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_Lifespan",
+"u": "ms926440(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_Names",
+"u": "ms926441(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_ProtoInfo",
+"u": "ms926442(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_Sizes",
+"u": "ms926443(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_StreamSizes",
+"u": "ms926445(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgCred_CipherStrengths",
+"u": "ms926446(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgCred_SupportedAlgs",
+"u": "ms926448(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgCred_SupportedProtocols",
+"u": "ms926449(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgCredentials_Names",
+"u": "ms926447(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgInfo",
+"u": "ms926450(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecurityFunctionTable",
+"u": "ms926451(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SSPI Handles",
+"u": "ms926453(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "Credential Manager Error Codes",
+"u": "ms936978(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CeCredFree",
+"u": "ms937729(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CeCredRead",
+"u": "ms937730(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CeCredWrite",
+"u": "ms937731(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredDelete",
+"u": "ms936977(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredFree",
+"u": "ms936983(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredRead",
+"u": "ms936984(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredUpdate",
+"u": "ms936985(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredWrite",
+"u": "ms936986(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "HandleBlob",
+"u": "ms906527(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "Load Function (Credential Manager)",
+"u": "ms926136(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "MatchTarget",
+"u": "ms926147(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "MatchUser",
+"u": "ms926153(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "Unload Function (Credential Manager)",
+"u": "ms926454(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Structures",
+"t": "CRED",
+"u": "ms936976(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Structures",
+"t": "CREDENTIAL",
+"u": "ms937728(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddCertificateContextToStore",
+"u": "ms937018(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddCertificateLinkToStore",
+"u": "ms937019(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddEncodedCertificateToStore",
+"u": "ms937020(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddEnhancedKeyUsageIdentifier",
+"u": "ms937021(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddSerializedElementToStore",
+"u": "ms937022(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAlgIdToOID",
+"u": "ms937023(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCloseStore",
+"u": "ms937035(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCompareCertificate",
+"u": "ms937036(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCompareCertificateName",
+"u": "ms937037(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCompareIntegerBlob",
+"u": "ms937038(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertComparePublicKeyInfo",
+"u": "ms937039(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertControlStore",
+"u": "ms937042(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCreateCertificateContext",
+"u": "ms937043(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertDeleteCertificateFromStore",
+"u": "ms937044(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertDuplicateCertificateChain",
+"u": "ms937235(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertDuplicateCertificateContext",
+"u": "ms937328(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertDuplicateStore",
+"u": "ms937422(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumCertificateContextProperties",
+"u": "ms937534(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumCertificatesInStore",
+"u": "ms937636(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumPhysicalStore",
+"u": "aa452564(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumSystemStore",
+"u": "ms937645(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumSystemStoreLocation",
+"u": "ms937650(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFindAttribute",
+"u": "ms937652(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFindCertificateInStore",
+"u": "ms937653(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFindExtension",
+"u": "ms937655(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFindRDNAttr",
+"u": "ms937657(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFreeCertificateChain",
+"u": "ms937658(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFreeCertificateContext",
+"u": "ms937659(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetCertificateChain",
+"u": "ms937660(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetCertificateContextProperty",
+"u": "ms937661(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetEnhancedKeyUsage",
+"u": "ms937662(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetIntendedKeyUsage",
+"u": "ms937663(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetIssuerCertificateFromStore",
+"u": "ms937664(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetNameString",
+"u": "ms937665(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetPublicKeyLength",
+"u": "ms937667(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetStoreProperty",
+"u": "ms937668(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetSubjectCertificateFromStore",
+"u": "ms937670(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetValidUsages",
+"u": "aa452565(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertIsRDNAttrsInCertificateName",
+"u": "ms937674(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertNameToStr",
+"u": "ms937681(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertOIDToAlgId",
+"u": "ms937682(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertOpenStore",
+"u": "ms937683(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertOpenSystemStore",
+"u": "ms937684(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertRDNValueToStr",
+"u": "ms937693(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertRemoveEnhancedKeyUsageIdentifier",
+"u": "ms937694(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSaveStore",
+"u": "ms937696(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSerializeCertificateStoreElement",
+"u": "ms937697(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSetCertificateContextProperty",
+"u": "ms937698(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSetEnhancedKeyUsage",
+"u": "ms937699(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSetStoreProperty",
+"u": "ms937700(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertStrToName",
+"u": "ms937703(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertVerifySubjectCertificateContext",
+"u": "ms937709(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertVerifyTimeValidity",
+"u": "ms937710(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertVerifyValidityNesting",
+"u": "ms937711(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptAcquireCertificatePrivateKey",
+"u": "ms937732(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptCreateKeyIdentifierFromCSP",
+"u": "ms937739(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptDecodeObjectEx",
+"u": "ms937740(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptEncodeObjectEx",
+"u": "ms937747(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptEnumKeyIdentifierProperties",
+"u": "ms937995(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptEnumOIDInfo",
+"u": "ms938004(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptExportPublicKeyInfoEx",
+"u": "ms938031(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptFindCertificateKeyProvInfo",
+"u": "ms938040(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptFindOIDInfo",
+"u": "ms938050(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptFreeOIDFunctionAddress",
+"u": "ms938057(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptGetDefaultOIDFunctionAddress",
+"u": "ms938079(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptGetKeyIdentifierProperty",
+"u": "ms938099(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptGetOIDFunctionAddress",
+"u": "ms938109(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptHashCertificate",
+"u": "ms938130(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptHashPublicKeyInfo",
+"u": "ms938149(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptHashToBeSigned",
+"u": "ms938167(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptImportPublicKeyInfoEx",
+"u": "ms938185(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptInitOIDFunctionSet",
+"u": "ms938191(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptInstallDefaultContext",
+"u": "ms938197(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptInstallOIDFunctionAddress",
+"u": "ms938204(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptSetKeyIdentifierProperty",
+"u": "ms938330(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptSignAndEncodeCertificate",
+"u": "ms938360(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptSignCertificate",
+"u": "ms938364(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptVerifyCertificateSignature",
+"u": "aa452567(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptUninstallDefaultContext",
+"u": "ms938372(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "PFXExportCertStoreEx",
+"u": "ms926224(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "PFXImportCertStore",
+"u": "ms926229(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "PFXIsPFXBlob",
+"u": "ms926234(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "PFXVerifyPassword",
+"u": "ms926241(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Data Types",
+"t": "ALG_ID",
+"u": "ms937014(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Data Types",
+"t": "HCRYPTHASH",
+"u": "ms906535(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Data Types",
+"t": "HCRYPTKEY",
+"u": "ms906545(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Data Types",
+"t": "HCRYPTPROV",
+"u": "ms925987(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CPAcquireContext",
+"u": "ms937726(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptAcquireContext",
+"u": "ms937733(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptContextAddRef",
+"u": "ms937737(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptCreateHash",
+"u": "ms937738(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDecrypt",
+"u": "ms937741(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDeriveKey",
+"u": "ms937742(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDestroyHash",
+"u": "ms937743(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDestroyKey",
+"u": "ms937744(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDuplicateHash",
+"u": "ms937745(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDuplicateKey",
+"u": "ms937746(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptEncrypt",
+"u": "ms937989(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptEnumProviders",
+"u": "ms938012(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptEnumProviderTypes",
+"u": "ms938017(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptExportKey",
+"u": "ms938025(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptFindLocalizedName",
+"u": "aa452566(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGenKey",
+"u": "ms938062(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGenRandom",
+"u": "ms938069(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetDefaultProvider",
+"u": "ms938088(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetHashParam",
+"u": "ms938096(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetKeyParam",
+"u": "ms938103(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetProvParam",
+"u": "ms938119(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetUserKey",
+"u": "ms938123(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptHashData",
+"u": "ms938141(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptHashSessionKey",
+"u": "ms938156(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptImportKey",
+"u": "ms938178(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgCalculateEncodedLength",
+"u": "ms938232(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgClose",
+"u": "ms938239(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgControl",
+"u": "ms938247(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgDuplicate",
+"u": "ms938251(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgGetParam",
+"u": "ms938257(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgOpenToDecode",
+"u": "ms938264(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgOpenToEncode",
+"u": "ms938271(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgUpdate",
+"u": "ms938279(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptProtectData",
+"u": "ms938309(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptReleaseContext",
+"u": "ms938317(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetHashParam",
+"u": "ms938326(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetKeyParam",
+"u": "ms938335(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetProvider",
+"u": "ms938347(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetProviderEx",
+"u": "ms938353(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetProvParam",
+"u": "ms938358(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSignHash",
+"u": "ms938369(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptUnprotectData",
+"u": "ms938379(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptVerifySignature",
+"u": "ms938383(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "BLOB (Cryptography)",
+"u": "ms937016(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ACCESS_DESCRIPTION",
+"u": "ms937017(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ALT_NAME_ENTRY",
+"u": "ms937024(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ALT_NAME_INFO",
+"u": "ms937025(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_AUTHORITY_INFO_ACCESS",
+"u": "ms937026(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_AUTHORITY_KEY_ID_INFO",
+"u": "ms937028(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_AUTHORITY_KEY_ID2_INFO",
+"u": "ms937027(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_BASIC_CONSTRAINTS_INFO",
+"u": "ms937030(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_BASIC_CONSTRAINTS2_INFO",
+"u": "ms937029(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CHAIN_CONTEXT",
+"u": "ms937031(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CHAIN_ELEMENT",
+"u": "ms937032(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CHAIN_ENGINE_CONFIG",
+"u": "ms937033(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CHAIN_PARA",
+"u": "ms937034(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CONTEXT",
+"u": "ms937040(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_EXTENSION",
+"u": "ms937651(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ID",
+"u": "ms937671(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_INFO",
+"u": "ms937672(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ISSUER_SERIAL_NUMBER",
+"u": "ms937675(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_KEY_ATTRIBUTES_INFO",
+"u": "ms937676(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_KEY_CONTEXT",
+"u": "ms937677(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_KEY_USAGE_RESTRICTION_INFO",
+"u": "ms937679(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_KEYGEN_REQUEST_INFO",
+"u": "ms937678(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_NAME_INFO",
+"u": "ms937680(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_POLICIES_INFO",
+"u": "ms937685(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_POLICY_ID",
+"u": "ms937686(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_POLICY_INFO",
+"u": "ms937687(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_POLICY_QUALIFIER_INFO",
+"u": "ms937688(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_PRIVATE_KEY_VALIDITY",
+"u": "ms937689(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_PUBLIC_KEY_INFO",
+"u": "ms937690(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_RDN",
+"u": "ms937691(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_RDN_ATTR",
+"u": "ms937692(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_REQUEST_INFO",
+"u": "ms937695(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_SIGNED_CONTENT_INFO",
+"u": "ms937701(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_SIMPLE_CHAIN",
+"u": "ms937702(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_SYSTEM_STORE_INFO",
+"u": "ms937704(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_SYSTEM_STORE_RELOCATE_PARA",
+"u": "ms937705(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_TRUST_LIST_INFO",
+"u": "ms937706(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_TRUST_STATUS",
+"u": "ms937707(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_USAGE_MATCH",
+"u": "ms937708(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CMS_RECIPIENT_INFO",
+"u": "ms937712(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CMS_SIGNER_INFO",
+"u": "ms937713(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA",
+"u": "ms937714(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_DECRYPT_PARA",
+"u": "ms937715(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA",
+"u": "ms937716(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_KEY_AGREE_DECRYPT_PARA",
+"u": "ms937717(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA",
+"u": "ms937718(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_ENVELOPED_ENCODE_INFO",
+"u": "ms938395(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_HASHED_ENCODE_INFO",
+"u": "ms937719(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_KEY_TRANS_RECIPIENT_INFO",
+"u": "ms938404(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_MAIL_LIST_RECIPIENT_INFO",
+"u": "ms937720(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_SIGNED_ENCODE_INFO",
+"u": "ms937721(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_SIGNER_ENCODE_INFO",
+"u": "ms937722(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_SIGNER_INFO",
+"u": "ms937723(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_STREAM_INFO",
+"u": "ms937724(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_ALGORITHM_IDENTIFIER",
+"u": "ms937734(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_ATTRIBUTE",
+"u": "ms937735(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_ATTRIBUTES",
+"u": "ms938388(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_BIT_BLOB",
+"u": "ms937736(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_ENCODE_PARA",
+"u": "ms937748(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_KEY_PROV_INFO",
+"u": "ms938212(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_KEY_PROV_PARAM",
+"u": "ms938221(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_OID_FUNC_ENTRY",
+"u": "ms938293(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_OID_INFO",
+"u": "ms938300(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPTOAPI_BLOB",
+"u": "ms938286(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CTL_USAGE",
+"u": "ms938410(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "HMAC_INFO",
+"u": "ms925995(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "PROV_ENUMALGS",
+"u": "ms906557(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "PROV_ENUMALGS_EX",
+"u": "ms938451(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "PUBLICKEYSTRUC",
+"u": "ms938453(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "RSAPUBKEY",
+"u": "ms938465(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "VTableProvStruc",
+"u": "ms926457(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardBeginTransaction",
+"u": "ms938481(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardCancel",
+"u": "ms938495(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardConnect",
+"u": "ms938504(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardControl",
+"u": "ms938510(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardFreeMemory",
+"u": "ms938564(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardDisconnect",
+"u": "ms938517(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardEndTransaction",
+"u": "ms938526(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardEstablishContext",
+"u": "ms938536(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardForgetCardType",
+"u": "ms938545(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardForgetReader",
+"u": "ms938553(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardGetAttrib",
+"u": "ms938574(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardGetCardTypeProviderName",
+"u": "ms926375(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardGetProviderId",
+"u": "ms926397(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardGetStatusChange",
+"u": "ms926406(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardIntroduceCardType",
+"u": "ms926415(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardIntroduceReader",
+"u": "ms926416(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardIsValidContext",
+"u": "ms926418(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardListCards",
+"u": "ms926419(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardListInterfaces",
+"u": "ms926420(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardListReaders",
+"u": "ms926422(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardLocateCards",
+"u": "ms926423(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardLocateCardsByATR",
+"u": "ms926424(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardReconnect",
+"u": "ms926426(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardReleaseContext",
+"u": "ms926427(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardSetAttrib",
+"u": "ms926428(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardSetCardTypeProviderName",
+"u": "ms926429(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardStatus",
+"u": "ms926430(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardTransmit",
+"u": "ms926431(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Structures",
+"t": "SCARD_ATRMASK",
+"u": "ms938473(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Structures",
+"t": "SCARD_IO_REQUEST",
+"u": "ms926417(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "Smart Card Structures",
+"t": "SCARD_READERSTATE",
+"u": "ms926425(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "(top)",
+"t": "Smart Card Error Values",
+"u": "ms936965(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "CreateEnrollmentConfigDialog",
+"u": "ms937727(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "LASSReloadConfig",
+"u": "ms926124(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "VerifyUser",
+"u": "ms926456(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "DeinitLAP",
+"u": "ms938427(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "InitLAP (function)",
+"u": "ms926083(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "LAPCreateEnrollmentConfigDialog",
+"u": "ms926118(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "VerifyUser (LAP)",
+"u": "ms926487(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "VerifyUserStart",
+"u": "ms926488(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "VerifyUserStop",
+"u": "ms926489(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "VerifyUserToTop",
+"u": "ms926490(v=msdn.10)"
+},
+{
+"area": "security",
+"sub": "LASS Structures",
+"t": "InitLap (structure)",
+"u": "ms926088(v=msdn.10)"
+}
+]

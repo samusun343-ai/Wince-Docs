@@ -1,0 +1,98 @@
+[
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "CONNECTDLGSTRUCT",
+"u": "ee493071(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "DISCDLGSTRUCT",
+"u": "ee494734(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "NETRESOURCE",
+"u": "ee493893(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "REMOTE_NAME_INFO",
+"u": "ee493451(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "UNIVERSAL_NAME_INFO",
+"u": "ee493299(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetAddConnection3",
+"u": "ee493048(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetCancelConnection2",
+"u": "ee493217(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetCloseEnum",
+"u": "ee493625(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetConnectionDialog1",
+"u": "ee493274(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetDisconnectDialog",
+"u": "ee494231(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetDisconnectDialog1",
+"u": "ee493699(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetEnumResource",
+"u": "ee494478(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetGetConnection",
+"u": "ee494692(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetGetUniversalName",
+"u": "ee493865(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetGetUser",
+"u": "ee494025(v=winembedded.60)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetOpenEnum",
+"u": "ee494315(v=winembedded.60)"
+}
+]

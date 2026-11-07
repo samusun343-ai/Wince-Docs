@@ -1,6 +1,6 @@
 # Wince-Docs — Clean-Room Research & Specification for Windows CE `include`/`def`
 
-**Status:** Phase 0/1/2 — Information collection and specification (this repository's current scope).
+**Status:** Phase 0/1/2/3 — Information collection and specification (this repository's current scope).
 **Target platforms:** Windows CE 4.x / 5.0 / 6.0 (information collection additionally covers all releases, CE 1.0 through 6.0 R3).
 **Goal:** produce a complete, license-clean, engineering-grade **specification suite and machine-readable fact database** sufficient for a separate implementation role to build a MinGW-class header and import-library set (`include/` + `def/`) for Windows CE application development — *without* the implementer ever having to consult license-restricted or provenance-uncertain material.
 
@@ -16,8 +16,8 @@ The deliverable is designed to be directly consumable by an implementation role:
 
 * **Normative language** (RFC 2119) throughout `docs/`.
 * **Machine-readable fact database** under `data/` (JSON/YAML) with a fixed record schema (`docs/05-specs/spec-template.md`) — every record carries `src[]` provenance that a validator can check.
-* **Complete inventories**: the full MS Learn CE 4/5/6 documentation page indexes (23,713 / 22,889 / 6,362 pages) are snapshotted, plus curated per-area API reference inventories that define the *entire* scope of the future header set — nothing is left implicit.
-* **Worked full-enumeration specs** for the foundation batch (`windef.h`, `winnt.h` core, `winerror.h` complete with all 571 documented CE system error codes, `winbase.h` core), the P1 application-surface batch (`winuser.h` core, `wingdi.h` core, `winsock2.h` + `ws2spi.h` + `ws2tcpip.h`, `commctrl.h` command surface + `commdlg.h` CE subset), and the **P2 coverage batch** (10 further specs: `winbase.h` file-I/O + OS services, `winreg.h`, `toolhelp.h`, `msgqueue.h`, `notify.h`, `aygshell.h`, `shellapi.h`/`shlobj.h`/`cpl.h`/`newmenu.h`/`console.h`, the full common-controls set incl. `prsht.h`, GWES remainder with the internal-surface exclusion register) — **3,177 machine-checked fact records** behind them.
+* **Complete inventories**: the full MS Learn CE 4/5/6 documentation page indexes (23,713 / 22,889 / 6,362 pages) are snapshotted, plus curated per-area API reference inventories (32 areas) that define the *entire* scope of the future header set — nothing is left implicit.
+* **Worked full-enumeration specs** for the foundation batch (`windef.h`, `winnt.h` core, `winerror.h` complete with all 571 documented CE system error codes, `winbase.h` core), the P1 application-surface batch (`winuser.h` core, `wingdi.h` core, `winsock2.h` + `ws2spi.h` + `ws2tcpip.h`, `commctrl.h` command surface + `commdlg.h` CE subset), the **P2 coverage batch** (10 further specs: `winbase.h` file-I/O + OS services, `winreg.h`, `toolhelp.h`, `msgqueue.h`, `notify.h`, `aygshell.h`, `shellapi.h`/`shlobj.h`/`cpl.h`/`newmenu.h`/`console.h`, the full common-controls set incl. `prsht.h`, GWES remainder with the internal-surface exclusion register), and the **P3 application-surface completion batch** (10 further specs: COM/DCOM/Automation/OLE/Storage, Security incl. CryptoAPI/SSPI/WinSCard/CredMan/LASS, NLS/IMM/MUI, WinInet/URLMoniker, TAPI/RAS/WNet, RAPI host-side set, networking extras incl. IP-Helper/DNS/OBEX/ConnMgr/GPS/Bluetooth/SNMP, waveform audio + fonts, CEDB/EDB database + storage manager + FSD exclusion register, Core-OS extras closing CeLog/State-Broker/NAT/Kernel-Marshaling/Kernel/Power) — **5,966 machine-checked fact records** behind them.
 * **Tooling**: every dataset is regenerable with the scripts under `tools/` (index → inventory → area harvest → table extraction → YAML generation, all scripted); `tools/validate.py` enforces schema and citation integrity.
 
 ## Document map
@@ -29,12 +29,12 @@ The deliverable is designed to be directly consumable by an implementation role:
 | `docs/02-sources/` | Approved source registry, per-source license audits, rejected sources with rationale |
 | `docs/03-requirements/` | Target environment matrix, Unicode A/W policy, header inventory (full roadmap), `.def` requirements |
 | `docs/04-architecture/` | Include tree layout, version gating, `.def` generation, conformance testing strategy |
-| `docs/05-specs/` | Per-header specification template + foundation-batch, P1-batch and P2-batch full-enumeration specs (19 spec documents) |
-| `docs/06-appendix/` | CE version history, open questions with verification methods |
-| `data/` | Documentation indexes, curated API inventories, harvested fact records (**5,032 pages**: 64 core + 1,795 P1 + 3,173 P2), documented constant tables, spec-level fact YAML (**3,177 records**) |
+| `docs/05-specs/` | Per-header specification template + foundation-batch, P1-batch, P2-batch and P3-batch full-enumeration specs (29 spec documents) |
+| `docs/06-appendix/` | CE version history, open questions with verification methods (OQ-1…33) |
+| `data/` | Documentation indexes, curated API inventories, harvested fact records (**12,018 pages**: 64 core + 1,795 P1 + 3,173 P2 + 6,986 P3), documented constant tables, spec-level fact YAML (**5,966 records**) |
 | `tools/` | Regeneration and validation scripts (index → inventory → area harvest → tables → YAML → validate) |
 
-## Key findings so far (Phase 0 + P1 + P2 highlights)
+## Key findings so far (Phase 0 + P1 + P2 + P3 highlights)
 
 * The **entire Windows CE 5.0 and Windows Embedded CE 6.0 product documentation trees are still live on Microsoft Learn** under `previous-versions/windows/embedded/` (CE 6.0: 23,713 pages; CE 5.0: 22,889; Windows CE .NET 4.x: 6,362) — confirmed by walking the official TOC JSON. This is the primary clean fact source. (`data/mslearn-doc-index/`, audit `docs/02-sources/audits/mslearn-wince.md`)
 * The complete documented **CE 6.0 system error table (571 codes, 0–6118)** and **Winsock error table (35 codes, 10004–10101)** were extracted from the official docs; the system table differs CE5→CE6 only by `ERROR_DEVICE_REMOVED`; the winsock table is identical in both. (`data/mslearn-facts/`)
@@ -55,6 +55,19 @@ The deliverable is designed to be directly consumable by an implementation role:
 * **The GWES internal C++ surface (GWES OS Reference, 270 pages) is harvested and registered as an explicit exclusion register** (`internal-excluded.yaml`, 448 records: `*View_t::` classes, `Gdi::*_I` thunk bypass, `CeNotifyPrivate_*`, RC-grammar statements, `oomui.h`) — the closure rule now has documented evidence for every excluded page, and OQ-27 records the observation that GWES internally implements region/alpha primitives (`Gdi::CombineRgn_I`) that the public GDI pages omit.
 * **Documented headers that are not classic Win32 headers**: `pwinreg.h` (multi-user registry), `kfuncs.h`/`pkfuncs.h` (kernel surface basics), `dbgapi.h` (debug macros), `windbase.h` (object-store/password), `extfile.h` (`FILECHANGEINFO`), `newmenu.h`, `console.h` — each mapped to a project header + compatibility shim decision (R-HDR-10 … R-HDR-17).
 * **Fibers ARE documented** on CE 5.0/6.0 (`CreateFiber`/`SwitchToFiber`/`DeleteFiber`/`ConvertThreadToFiber`), as is the full serial-communications set and the debug-event loop (`WaitForDebugEvent`/`ContinueDebugEvent` + `DEBUG_EVENT` family).
+
+### P3 session findings (6,986-page application-surface completion)
+
+* **The documented import-library map grew to ~60 libraries.** New documented bindings: `ole32.lib` (160), `oleaut32.lib` (171 — the largest P3 binding), `crypt32.lib` (90), `wininet.lib` (84), `urlmon.lib` (67), `btdrt.lib` (59 — Bluetooth), `coreimm.lib` (55 — IMM), `iphlpapi.lib` (56), `secur32.lib`+`ntlmssp.lib` (SSPI), `winscard.lib` (28), `storeapi.lib` (22), `cellcore.lib` (ConnMgr), `snmpapi.lib`+`snmp.lib`, `dnsapi.lib`, `gpsapi.lib`, `rapi.lib`, `bthutil.lib`/`btd.lib`/`btagsvc_*` — plus the first two **DLL-named** bindings (`fatutil.dll`, `certmod.dll`).
+* **The CE 6.0 kernel-split pattern is confirmed in a third area**: 11 `pkfuncs.h` kernel-reference records bind `Nkstub.lib` on CE 6.0 pages vs `coredll.lib` on CE 5.0.
+* **CEDB vs EDB same-name divergence captured structurally**: the Database Reference documents two generations under equal names (`CeChangeDatabaseLCID`, `CEDBASEINFOEX`, …); the fact DB carries variant-suffixed records (`_CEDB`/`_EDB`) that MUST stay separately gated (OQ-31) — same-name layouts are not mergeable.
+* **State and Notifications Broker is documented CE 6.0-only and binds `aygshell.lib`** (`regext.h`: `RegistryGetDWORD`/`RegistryNotifyApp`, `NOTIFICATIONCONDITION`); Kernel Buffer Marshaling (`marshal.h`) is likewise 6.0-only.
+* **`getaddrinfo`/`freeaddrinfo`/`addrinfo` are documented in the CE Winsock Reference (introduced 4.1)** — the separate IPv6 "Application Development" tree is conceptual only; no `ws2tcpip.h` function pages exist there.
+* **CE documents TAPI 2.x (206 records) binding `coredll.lib`** — no tapi32 split; the 64 TAPI constant families are name-complete but value-open (OQ-29: audited lineage lacks `tapi.h`; mingw-w64 reuse deferred pending per-file license scan).
+* **DNS API is a CE 5.0-era wave** (32 records, `dnsapi.lib`); **GPS Intermediate Driver and RAPI2 are CE 6.0 docset-only** areas; **Connection Manager is 4.2+** (`cellcore.lib`).
+* **CE audio model confirmed as waveform + mixer only** — no MCI/aux/joystick/midi-api pages exist; the four CE-only gain-control messages (`MM_WOM_ATTENUATED`, `MM_WOM_FORCESPEAKER`, `MM_WOM_SETSECONDARYGAINCLASS/LIMIT`) are documented with no values (OQ-33).
+* **Driver-surface exclusion registers extended**: `bt_ddi.h` (41 records) and the font DDI (`fontdrv.h`/`winddi.h`/`winddif.h`) join the FSD/bootpart/disk-cache register (`fsdriver-excluded.yaml`, 125 records) — documented, recorded, excluded from the application include set.
+* **Cert* certificate functions are desktop-common** (the `Ce`-prefix classifier was corrected so `CertCloseStore`-family records are `common`, not ce-only) — classification rules are versioned in the generator.
 
 ## Repository layout
 

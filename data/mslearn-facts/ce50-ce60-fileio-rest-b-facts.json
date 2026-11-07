@@ -1,0 +1,4002 @@
+[
+ {
+  "name": "DISK_COPY_EXTERNAL",
+  "title": "DISK_COPY_EXTERNAL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889011(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _DISK_COPY_EXTERNAL {DWORDcbSize;DWORDdwDirection;PVOIDpUserData; DWORDcbUserDataSize;TCHARszCancelEventName[MAX_PATH]; ULARGE_INTEGER ulFileSize; HANDLE hCallerProc; DWORD cbSectorListSize;} DISK_COPY_EXTERNAL, *PDISK_COPY_EXTERNAL;",
+  "code_blocks": [
+   "typedef struct _DISK_COPY_EXTERNAL {DWORDcbSize;DWORDdwDirection;PVOIDpUserData; DWORDcbUserDataSize;TCHARszCancelEventName[MAX_PATH]; ULARGE_INTEGER ulFileSize; HANDLE hCallerProc; DWORD cbSectorListSize;} DISK_COPY_EXTERNAL, *PDISK_COPY_EXTERNAL;"
+  ],
+  "requirements": {
+   "header": "Diskio.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "FILE_COPY_EXTERNAL",
+  "title": "FILE_COPY_EXTERNAL (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889492(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILE_COPY_EXTERNAL {DWORDcbSize;DWORDdwDirection;PVOIDpUserData; DWORDcbUserDataSize;TCHARszCancelEventName[MAX_PATH];} FILE_COPY_EXTERNAL, *PFILE_COPY_EXTERNAL;",
+  "code_blocks": [
+   "typedef struct _FILE_COPY_EXTERNAL {DWORDcbSize;DWORDdwDirection;PVOIDpUserData; DWORDcbUserDataSize;TCHARszCancelEventName[MAX_PATH];} FILE_COPY_EXTERNAL, *PFILE_COPY_EXTERNAL;"
+  ],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "FSCTL_COPY_EXTERNAL_COMPLETE",
+  "title": "FSCTL_COPY_EXTERNAL_COMPLETE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890532(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "FSCTL_COPY_EXTERNAL_START",
+  "title": "FSCTL_COPY_EXTERNAL_START (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890545(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "IOCTL_DISK_COPY_EXTERNAL_COMPLETE",
+  "title": "IOCTL_DISK_COPY_EXTERNAL_COMPLETE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891378(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Diskio.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "IOCTL_DISK_COPY_EXTERNAL_START",
+  "title": "IOCTL_DISK_COPY_EXTERNAL_START (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891382(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Diskio.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "SECTOR_LIST_ENTRY",
+  "title": "SECTOR_LIST_ENTRY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891894(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SECTOR_LIST_ENTRY {DWORDdwStartSector;DWORDdwNumSectors;} SECTOR_LIST_ENTRY, *PSECTOR_LIST_ENTRY;",
+  "code_blocks": [
+   "typedef struct _SECTOR_LIST_ENTRY {DWORDdwStartSector;DWORDdwNumSectors;} SECTOR_LIST_ENTRY, *PSECTOR_LIST_ENTRY;"
+  ],
+  "requirements": {
+   "header": "Diskio.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "CE_REGISTRY_INFO",
+  "title": "CE_REGISTRY_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517289(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CE_REGISTRY_INFO{DWORD cbSize;HKEY hRootKey; DWORD dwFlags; TCHAR *pszFullKeyName; LPDWORD pdwKeyNameLen;} CE_REGISTRY_INFO, *PCE_REGISTRY_INFO;",
+  "code_blocks": [
+   "typedef struct _CE_REGISTRY_INFO{DWORD cbSize;HKEY hRootKey; DWORD dwFlags; TCHAR *pszFullKeyName; LPDWORD pdwKeyNameLen;} CE_REGISTRY_INFO, *PCE_REGISTRY_INFO;"
+  ],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "CeFsIoControl",
+  "title": "CeFsIoControl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517137(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeFsIoControl(LPCWSTR pszDir, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);",
+  "code_blocks": [
+   "BOOL CeFsIoControl(LPCWSTR pszDir, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Device.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "CeResyncFilesys",
+  "title": "CeResyncFilesys (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517244(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeResyncFilesys(HANDLE hDevice);",
+  "code_blocks": [
+   "BOOL CeResyncFilesys(HANDLE hDevice);",
+   "PDISK pDisk = (PDISK)pvDisk; HKEY hActive; HANDLE hDevice; DWORD Type; DWORD Len; DWORD status; status = RegOpenKeyEx( HKEY_LOCAL_MACHINE, pDisk->d_ActivePath, 0, 0, &hActive); if (status) { DEBUGMSG(1, (TEXT(\"ATADISK: RegOpenKeyEx(HLM\\\\%s) returned %d!!!\\r\\n\"), pDisk->d_ActivePath, status)); return 0; } Len = sizeof(hDevice); status = RegQueryValueEx(hActive, DEVLOAD_HANDLE_VALNAME, NULL, &Type, (PUCHAR)&hDevice, &Len); if (status != ERROR_SUCCESS) { DEBUGMSG(1, (TEXT(\"ATADISK: RegQueryValueEx(%s) returned %d\\r\\n\"), DEVLOAD_HANDLE_VALNAME, status)); RegCloseKey(hActive); return 0; } RegCloseKey(hActive);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Device.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FILELOCKSTATE",
+  "title": "FILELOCKSTATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517917(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILELOCKSTATE { DWORD dwPosLow; DWORD dwPosHigh; DWORD dwAccess; LPCRITICAL_SECTION lpcs; BOOL fTerminal; HANDLE hevUnlock; DWORD cQueue; PVOID pvLockContainer;} FILELOCKSTATE, * PFILELOCKSTATE;",
+  "code_blocks": [
+   "typedef struct _FILELOCKSTATE { DWORD dwPosLow; DWORD dwPosHigh; DWORD dwAccess; LPCRITICAL_SECTION lpcs; BOOL fTerminal; HANDLE hevUnlock; DWORD cQueue; PVOID pvLockContainer;} FILELOCKSTATE, * PFILELOCKSTATE;"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FILE_ALLOCATED_RANGE_BUFFER",
+  "title": "FILE_ALLOCATED_RANGE_BUFFER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889307(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILE_ALLOCATED_RANGE_BUFFER{LARGE_INTEGER FileOffset;LARGE_INTEGER Length;} FILE_ALLOCATED_RANGE_BUFFER, *PFILE_ALLOCATED_RANGE_BUFFER;",
+  "code_blocks": [
+   "typedef struct _FILE_ALLOCATED_RANGE_BUFFER{LARGE_INTEGER FileOffset;LARGE_INTEGER Length;} FILE_ALLOCATED_RANGE_BUFFER, *PFILE_ALLOCATED_RANGE_BUFFER;"
+  ],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FILE_ZERO_DATA_INFORMATION",
+  "title": "FILE_ZERO_DATA_INFORMATION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889606(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILE_ZERO_DATA_INFORMATION{LARGE_INTEGER FileOffset;LARGE_INTEGER BeyondFinalZero;} FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION;",
+  "code_blocks": [
+   "typedef struct _FILE_ZERO_DATA_INFORMATION{LARGE_INTEGER FileOffset;LARGE_INTEGER BeyondFinalZero;} FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION;"
+  ],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FILTERHOOK",
+  "title": "FILTERHOOK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889612(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagFILTERHOOK {DWORD cbSize;DWORD hVolume;PCLOSEVOLUME pCloseVolume;PCREATEDIRECTORYW pCreateDirectoryW; PREMOVEDIRECTORYW pRemoveDirectoryW;PGETFILEATTRIBUTESW pGetFileAttributesW;PSETFILEATTRIBUTESW pSetFileAttributesW;PDELETEFILEW pDeleteFileW;PMOVEFILEW pMoveFileW;PDELETEANDRENAMEFILEW pDeleteAndRenameFileW;PGETDISKFREESPACEW pGetDiskFreeSpaceW;PNOTIFY pNotify;PREGISTERFILESYSTEMFUNCTION pRegisterFileSystemFunction;PFINDFIRSTFILEW pFindFirstFileW;PFINDNEXTFILEW pFindNextFileW;PFINDCLOSE pFindClose;PCREATEFILEW pCreateFileW;PREADFILE pReadFile;PREADFILEWITHSEEK pReadFileWithSeek;PWRITEFILE pWriteFile;PWRITEFILEWITHSEEK pWriteFileWithSeek;PSETFILEPOINTER pSetFilePointer;PGETFILESIZE pGetFileSize;PGETFILEINFORMATIONBYHANDLE pGetFileInformationByHandle;PFLUSHFILEBUFFERS pFlushFileBuffers;PGETFILETIME pGetFileTime;PSETFILETIME pSetFileTime;PSETENDOFFILE pSetEndOfFile;PDEVICEIOCONTROL pDeviceIoControl;PCLOSEFILE pCloseFile;PREFRESHVOLUME pRefreshVolume;} FILTERHOOK, *PFILTERHOOK;",
+  "code_blocks": [
+   "typedef struct tagFILTERHOOK {DWORD cbSize;DWORD hVolume;PCLOSEVOLUME pCloseVolume;PCREATEDIRECTORYW pCreateDirectoryW; PREMOVEDIRECTORYW pRemoveDirectoryW;PGETFILEATTRIBUTESW pGetFileAttributesW;PSETFILEATTRIBUTESW pSetFileAttributesW;PDELETEFILEW pDeleteFileW;PMOVEFILEW pMoveFileW;PDELETEANDRENAMEFILEW pDeleteAndRenameFileW;PGETDISKFREESPACEW pGetDiskFreeSpaceW;PNOTIFY pNotify;PREGISTERFILESYSTEMFUNCTION pRegisterFileSystemFunction;PFINDFIRSTFILEW pFindFirstFileW;PFINDNEXTFILEW pFindNextFileW;PFINDCLOSE pFindClose;PCREATEFILEW pCreateFileW;PREADFILE pReadFile;PREADFILEWITHSEEK pReadFileWithSeek;PWRITEFILE pWriteFile;PWRITEFILEWITHSEEK pWriteFileWithSeek;PSETFILEPOINTER pSetFilePointer;PGETFILESIZE pGetFileSize;PGETFILEINFORMATIONBYHANDLE pGetFileInformationByHandle;PFLUSHFILEBUFFERS pFlushFileBuffers;PGETFILETIME pGetFileTime;PSETFILETIME pSetFileTime;PSETENDOFFILE pSetEndOfFile;PDEVICEIOCONTROL pDeviceIoControl;PCLOSEFILE pCloseFile;PREFRESHVOLUME pRefreshVolume;} FILTERHOOK, *PFILTERHOOK;"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_GET_COMPRESSION",
+  "title": "FSCTL_GET_COMPRESSION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890558(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "If the file system of the volume containing the specified file or directory does not support per-file or per-directory compression, the operation fails.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_GET_REGISTRY_INFO",
+  "title": "FSCTL_GET_REGISTRY_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890569(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_QUERY_ALLOCATED_RANGES",
+  "title": "FSCTL_QUERY_ALLOCATED_RANGES (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890585(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_SET_COMPRESSION",
+  "title": "FSCTL_SET_COMPRESSION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890601(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "If the file system of the volume containing the specified file or directory does not support per-file or per-directory compression, the operation fails.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_SET_SPARSE",
+  "title": "FSCTL_SET_SPARSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890611(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_SET_ZERO_DATA",
+  "title": "FSCTL_SET_ZERO_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890637(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_USER",
+  "title": "FSCTL_USER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890651(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_AcquireFileLock",
+  "title": "FSDMGR_AcquireFileLock (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517919(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_AcquireFileLock( PACQUIREFILELOCKSTATE pAcquireFileLockState PRELEASEFILELOCKSTATE pReleaseFileLockState DWORD dwHandle, DWORDdwFlags, DWORDdwReserved, DWORDnNumberOfBytesToLockLow, DWORDnNumberOfBytesToLockHigh, LPOVERLAPPEDlpOverlapped );",
+  "code_blocks": [
+   "BOOL FSDMGR_AcquireFileLock( PACQUIREFILELOCKSTATE pAcquireFileLockState PRELEASEFILELOCKSTATE pReleaseFileLockState DWORD dwHandle, DWORDdwFlags, DWORDdwReserved, DWORDnNumberOfBytesToLockLow, DWORDnNumberOfBytesToLockHigh, LPOVERLAPPEDlpOverlapped );"
+  ],
+  "requirements": {
+   "header": "lockmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CloseFileLockState",
+  "title": "FSDMGR_CloseFileLockState (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517920(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void FSDMGR_CloseFileLockState ( PFILELOCKSTATE pFileLockState );",
+  "code_blocks": [
+   "void FSDMGR_CloseFileLockState ( PFILELOCKSTATE pFileLockState );"
+  ],
+  "requirements": {
+   "header": "lockmgrhelp.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CreateFileHandle",
+  "title": "FSDMGR_CreateFileHandle (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890708(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FSDMGR_CreateFileHandle( HVOLhVol,HANDLE hProc,PFILE pFile);",
+  "code_blocks": [
+   "HANDLE FSDMGR_CreateFileHandle( HVOLhVol,HANDLE hProc,PFILE pFile);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CreateSearchHandle",
+  "title": "FSDMGR_CreateSearchHandle (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890716(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FSDMGR_CreateSearchHandle( HVOLhVol,HANDLE hProc,PSEARCH pSearch);",
+  "code_blocks": [
+   "HANDLE FSDMGR_CreateSearchHandle( HVOLhVol,HANDLE hProc,PSEARCH pSearch);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_DeregisterVolume",
+  "title": "FSDMGR_DeregisterVolume (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890721(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void FSDMGR_DeregisterVolume( HVOLhVol);",
+  "code_blocks": [
+   "void FSDMGR_DeregisterVolume( HVOLhVol);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_DeviceHandleToHDSK",
+  "title": "FSDMGR_DeviceHandleToHDSK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890822(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HDSK FSDMGR_DeviceHandleToHDSK( HANDLEhDisk);",
+  "code_blocks": [
+   "HDSK FSDMGR_DeviceHandleToHDSK( HANDLEhDisk);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_DiskIoControl",
+  "title": "FSDMGR_DiskIoControl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890829(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_DiskIoControl( HDSKhDsk,DWORD dwIoControlCode,LPVOID lpInBuf,DWORD nInBufSize,LPVOID lpOutBuf,DWORD nOutBufSize,LPDWORD lpBytesReturned,LPOVERLAPPED lpOverlapped);",
+  "code_blocks": [
+   "DWORD FSDMGR_DiskIoControl( HDSKhDsk,DWORD dwIoControlCode,LPVOID lpInBuf,DWORD nInBufSize,LPVOID lpOutBuf,DWORD nOutBufSize,LPDWORD lpBytesReturned,LPOVERLAPPED lpOverlapped);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_EmptyLockContainer",
+  "title": "FSDMGR_EmptyLockContainer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517921(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_EmptyLockContainer( PFILELOCKSTATE pFileLockState );",
+  "code_blocks": [
+   "BOOL MyFSD_EmptyLockContainer( PFILELOCKSTATE pFileLockState );"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetDiskInfo",
+  "title": "FSDMGR_GetDiskInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890738(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_GetDiskInfo( HDSKhDsk,PFDI pfdi);",
+  "code_blocks": [
+   "DWORD FSDMGR_GetDiskInfo( HDSKhDsk,PFDI pfdi);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetRegistryFlag",
+  "title": "FSDMGR_GetRegistryFlag (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890745(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_GetRegistryFlag( HDSK hDsk, PCTSTR szValueName,PDWORD pdwFlag,DWORD dwSet);",
+  "code_blocks": [
+   "BOOL FSDMGR_GetRegistryFlag( HDSK hDsk, PCTSTR szValueName,PDWORD pdwFlag,DWORD dwSet);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetRegistryString",
+  "title": "FSDMGR_GetRegistryString (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890753(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_GetRegistryString(HDSK hDsk,PCTSTR szValueName,PTSTR szValue,DWORD dwSize);",
+  "code_blocks": [
+   "BOOL FSDMGR_GetRegistryString(HDSK hDsk,PCTSTR szValueName,PTSTR szValue,DWORD dwSize);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetRegistryValue",
+  "title": "FSDMGR_GetRegistryValue (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890762(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_GetRegistryValue( HDSK hDsk, PCTSTR szValueName,PDWORD pdwValue);",
+  "code_blocks": [
+   "BOOL FSDMGR_GetRegistryValue( HDSK hDsk, PCTSTR szValueName,PDWORD pdwValue);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetVolumeName",
+  "title": "FSDMGR_GetVolumeName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890773(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INT FSDMGR_GetVolumeName( HVOLhVol,PWSTR pwsName,int cchMax);",
+  "code_blocks": [
+   "INT FSDMGR_GetVolumeName( HVOLhVol,PWSTR pwsName,int cchMax);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_OpenFileLockState",
+  "title": "FSDMGR_OpenFileLockState (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517922(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void FSDMGR_OpenFileLockState ( PFILELOCKSTATE pFileLockState );",
+  "code_blocks": [
+   "void FSDMGR_OpenFileLockState ( PFILELOCKSTATE pFileLockState );"
+  ],
+  "requirements": {
+   "header": "lockmgrhelp.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_ReadDisk",
+  "title": "FSDMGR_ReadDisk (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890782(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_ReadDisk( HDSKhDsk,DWORD dwSector,DWORD cSectors,PBYTE pBuffer,DWORD cbBuffer);",
+  "code_blocks": [
+   "DWORD FSDMGR_ReadDisk( HDSKhDsk,DWORD dwSector,DWORD cSectors,PBYTE pBuffer,DWORD cbBuffer);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_ReadDiskEx",
+  "title": "FSDMGR_ReadDiskEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890792(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_ReadDiskEx( PFSGIpfsgi,PFSGR pfsgr);",
+  "code_blocks": [
+   "DWORD FSDMGR_ReadDiskEx( PFSGIpfsgi,PFSGR pfsgr);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "If the driver or system does not support scatter or gather, the output is converted automatically to normal I/O.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_RegisterVolume",
+  "title": "FSDMGR_RegisterVolume (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890800(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HVOL FSDMGR_RegisterVolume( HDSKhDsk,PWSTR pwsName,PVOLUME pVolume);",
+  "code_blocks": [
+   "HVOL FSDMGR_RegisterVolume( HDSKhDsk,PWSTR pwsName,PVOLUME pVolume);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_RemoveFileLock",
+  "title": "FSDMGR_RemoveFileLock (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517923(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_UnlockFileEx( PACQUIREFILELOCKSTATE pAcquireFileLockState PRELEASEFILELOCKSTATE pReleaseFileLockState DWORD dwHandle, DWORDdwReserved, DWORDnNumberOfBytesToUnlockLow, DWORDnNumberOfBytesToUnlockHigh, LPOVERLAPPEDlpOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_UnlockFileEx( PACQUIREFILELOCKSTATE pAcquireFileLockState PRELEASEFILELOCKSTATE pReleaseFileLockState DWORD dwHandle, DWORDdwReserved, DWORDnNumberOfBytesToUnlockLow, DWORDnNumberOfBytesToUnlockHigh, LPOVERLAPPEDlpOverlapped );"
+  ],
+  "requirements": {
+   "header": "lockmgrhelp.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_WriteDisk",
+  "title": "FSDMGR_WriteDisk (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890807(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_WriteDisk( HDSKhDsk,DWORD dwSector,DWORD cSectors,PBYTE pBuffer,DWORD cbBuffer);",
+  "code_blocks": [
+   "DWORD FSDMGR_WriteDisk( HDSKhDsk,DWORD dwSector,DWORD cSectors,PBYTE pBuffer,DWORD cbBuffer);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_WriteDiskEx",
+  "title": "FSDMGR_WriteDiskEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890814(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_WriteDiskEx( PFSGIpfsgi,PFSGR pfsgr);",
+  "code_blocks": [
+   "DWORD FSDMGR_WriteDiskEx( PFSGIpfsgi,PFSGR pfsgr);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "If the driver or system does not support scatter or gather, the output is converted automatically to normal I/O.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_BUFFER_INFO",
+  "title": "FSD_BUFFER_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890667(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_BUFFER_INFO{PBYTE pBuffer;DWORD cbBuffer;} FSD_BUFFER_INFO, *PFBI;",
+  "code_blocks": [
+   "typedef struct _FSD_BUFFER_INFO{PBYTE pBuffer;DWORD cbBuffer;} FSD_BUFFER_INFO, *PFBI;"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_DISK_INFO",
+  "title": "FSD_DISK_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890695(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_DISK_INFO{DWORD cSectors;DWORD cbSector;DWORD cCylinders;DWORD cHeadsPerCylinder;DWORD cSectorsPerTrack;DWORD dwFlags;} FSD_DISK_INFO, *PFDI;",
+  "code_blocks": [
+   "typedef struct _FSD_DISK_INFO{DWORD cSectors;DWORD cbSector;DWORD cCylinders;DWORD cHeadsPerCylinder;DWORD cSectorsPerTrack;DWORD dwFlags;} FSD_DISK_INFO, *PFDI;"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_HookVolume",
+  "title": "FSD_HookVolume (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890702(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "PVOLUME FSD_HookVolume(HDSK hdsk,PFILTERHOOK pFilterHook);",
+  "code_blocks": [
+   "PVOLUME FSD_HookVolume(HDSK hdsk,PFILTERHOOK pFilterHook);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_MountDisk",
+  "title": "FSD_MountDisk (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890837(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLFSD_MountDisk( HDSKhdsk);",
+  "code_blocks": [
+   "BOOLFSD_MountDisk( HDSKhdsk);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_SCATTER_GATHER_INFO",
+  "title": "FSD_SCATTER_GATHER_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890842(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_SCATTER_GATHER_INFO{DWORD dwFlags;DWORD idDsk;DWORD dwSector;DWORD cSectors;PFDI pfdi;DWORD cfbi;PFBI pfbi;PFNFSG pfnCallBack;} FSD_SCATTER_GATHER_INFO, *PFSGI;",
+  "code_blocks": [
+   "typedef struct _FSD_SCATTER_GATHER_INFO{DWORD dwFlags;DWORD idDsk;DWORD dwSector;DWORD cSectors;PFDI pfdi;DWORD cfbi;PFBI pfbi;PFNFSG pfnCallBack;} FSD_SCATTER_GATHER_INFO, *PFSGI;"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_SCATTER_GATHER_RESULTS",
+  "title": "FSD_SCATTER_GATHER_RESULTS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890852(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_SCATTER_GATHER_RESULTS{DWORD dwFlags;DWORD cSectorsTransferred;} FSD_SCATTER_GATHER_RESULTS, *PFSGR;",
+  "code_blocks": [
+   "typedef struct _FSD_SCATTER_GATHER_RESULTS{DWORD dwFlags;DWORD cSectorsTransferred;} FSD_SCATTER_GATHER_RESULTS, *PFSGR;"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_UnhookVolume",
+  "title": "FSD_UnhookVolume (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890860(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSD_UnhookVolume(PVOLUME pvol);",
+  "code_blocks": [
+   "BOOL FSD_UnhookVolume(PVOLUME pvol);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_UnmountDisk",
+  "title": "FSD_UnmountDisk (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890869(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLFSD_UnmountDisk( HDSKhdsk);",
+  "code_blocks": [
+   "BOOLFSD_UnmountDisk( HDSKhdsk);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_VOLUME_INFO",
+  "title": "FSD_VOLUME_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517924(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_VOLUME_INFO { DWORD cbSize; DWORD dwFSVersion ; TCHAR szFSDDesc[MAX_FSD_DESCRIPTOR]; TCHAR szFSDSubType[MAX_FSD_DESCRIPTOR]; DWORD dwAttributes; DWORD dwBlockSize; DWORD dwFlags; } FSD_VOLUME_INFO, *PFSD_VOLUME_INFO;",
+  "code_blocks": [
+   "typedef struct _FSD_VOLUME_INFO { DWORD cbSize; DWORD dwFSVersion ; TCHAR szFSDDesc[MAX_FSD_DESCRIPTOR]; TCHAR szFSDSubType[MAX_FSD_DESCRIPTOR]; DWORD dwAttributes; DWORD dwBlockSize; DWORD dwFlags; } FSD_VOLUME_INFO, *PFSD_VOLUME_INFO;"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSSCTL_FLUSH_BUFFERS",
+  "title": "FSSCTL_FLUSH_BUFFERS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890878(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Fsioctl.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "LoadFSD",
+  "title": "LoadFSD (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891383(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LoadFSD(HANDLEhDevice,LPCWSTRlpFSDName);",
+  "code_blocks": [
+   "BOOL LoadFSD(HANDLEhDevice,LPCWSTRlpFSDName);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "LoadFSDEx",
+  "title": "LoadFSDEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891384(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LoadFSDEx(HANDLE hDevice, LPCWSTR lpFSDName, DWORD dwFlag);",
+  "code_blocks": [
+   "BOOL LoadFSDEx(HANDLE hDevice, LPCWSTR lpFSDName, DWORD dwFlag);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Device.lib",
+   "os": "Windows CE 2.12 through 3.1."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_CloseFile",
+  "title": "MyFSD_CloseFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891389(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_CloseFile( PFILEpFile);",
+  "code_blocks": [
+   "BOOLMyFSD_CloseFile( PFILEpFile);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_CloseVolume",
+  "title": "MyFSD_CloseVolume (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891390(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_CloseVolume( PVOLUMEpVolume);",
+  "code_blocks": [
+   "BOOL MyFSD_CloseVolume( PVOLUMEpVolume);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_CreateDirectoryW",
+  "title": "MyFSD_CreateDirectoryW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891391(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_CreateDirectoryW( PVOLUME pVolume,PCWSTRpwsPathName,PSECURITY_ATTRIBUTESpSecurityAttributes);",
+  "code_blocks": [
+   "BOOLMyFSD_CreateDirectoryW( PVOLUME pVolume,PCWSTRpwsPathName,PSECURITY_ATTRIBUTESpSecurityAttributes);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_CreateFileW",
+  "title": "MyFSD_CreateFileW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891392(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLEMyFSD_CreateFileW( PVOLUMEpVolume,HANDLEhProc,PCWSTRpwsFileName,DWORDdwAccess,DWORDdwShareMode,PSECURITY_ATTRIBUTESpSecurityAttributes,DWORD dwCreate,DWORDdwFlagsAndAttributes,HANDLEhTemplateFile);",
+  "code_blocks": [
+   "HANDLEMyFSD_CreateFileW( PVOLUMEpVolume,HANDLEhProc,PCWSTRpwsFileName,DWORDdwAccess,DWORDdwShareMode,PSECURITY_ATTRIBUTESpSecurityAttributes,DWORD dwCreate,DWORDdwFlagsAndAttributes,HANDLEhTemplateFile);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_DeleteAndRenameFileW",
+  "title": "MyFSD_DeleteAndRenameFileW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891393(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_DeleteAndRenameFileW( PVOLUME pVolume,LPCWSTRpwsOldFileName,LPCWSTRpwsNewFileName);",
+  "code_blocks": [
+   "BOOL MyFSD_DeleteAndRenameFileW( PVOLUME pVolume,LPCWSTRpwsOldFileName,LPCWSTRpwsNewFileName);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_DeleteFileW",
+  "title": "MyFSD_DeleteFileW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891394(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_DeleteFileW( PVOLUMEpVolume,PCWSTRpwsFileName);",
+  "code_blocks": [
+   "BOOLMyFSD_DeleteFileW( PVOLUMEpVolume,PCWSTRpwsFileName);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_DeviceIoControl",
+  "title": "MyFSD_DeviceIoControl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891395(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_DeviceIoControl( PFILEpFile,DWORDdwIoControlCode,PVOIDpInBuf,DWORDnInBufSize,PVOIDpOutBuf,DWORDnOutBufSize,PDWORDpBytesReturned,OVERLAPPED* pOverlapped);",
+  "code_blocks": [
+   "BOOL MyFSD_DeviceIoControl( PFILEpFile,DWORDdwIoControlCode,PVOIDpInBuf,DWORDnInBufSize,PVOIDpOutBuf,DWORDnOutBufSize,PDWORDpBytesReturned,OVERLAPPED* pOverlapped);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FindClose",
+  "title": "MyFSD_FindClose (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891396(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_FindClose( PSEARCHpSearch);",
+  "code_blocks": [
+   "BOOLMyFSD_FindClose( PSEARCHpSearch);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FindFirstFileW",
+  "title": "MyFSD_FindFirstFileW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891397(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLEMyFSD_FindFirstFileW( PVOLUMEpVolume,HANDLEhProc,PCWSTRpwsFileSpec,PWIN32_FIND_DATAWpfd);",
+  "code_blocks": [
+   "HANDLEMyFSD_FindFirstFileW( PVOLUMEpVolume,HANDLEhProc,PCWSTRpwsFileSpec,PWIN32_FIND_DATAWpfd);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FindNextFileW",
+  "title": "MyFSD_FindNextFileW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891398(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_FindNextFileW( PSEARCHpSearch,PWIN32_FIND_DATAWpfd);",
+  "code_blocks": [
+   "BOOLMyFSD_FindNextFileW( PSEARCHpSearch,PWIN32_FIND_DATAWpfd);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FlushFileBuffers",
+  "title": "MyFSD_FlushFileBuffers (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891399(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_FlushFileBuffers( PFILE pFile);",
+  "code_blocks": [
+   "BOOL MyFSD_FlushFileBuffers( PFILE pFile);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FsIoControl",
+  "title": "MyFSD_FsIoControl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891419(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_FsIoControl( DWORDpVol, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);",
+  "code_blocks": [
+   "BOOLMyFSD_FsIoControl( DWORDpVol, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetDiskFreeSpaceW",
+  "title": "MyFSD_GetDiskFreeSpaceW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891400(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_GetDiskFreeSpaceW( PVOLUMEpVolume,PCWSTR pwsPathName, PDWORD pSectorsPerCluster,PDWORD pBytesPerSector, PDWORD pFreeClusters,PDWORD pClusters);",
+  "code_blocks": [
+   "BOOLMyFSD_GetDiskFreeSpaceW( PVOLUMEpVolume,PCWSTR pwsPathName, PDWORD pSectorsPerCluster,PDWORD pBytesPerSector, PDWORD pFreeClusters,PDWORD pClusters);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetFileAttributesW",
+  "title": "MyFSD_GetFileAttributesW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891401(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDMyFSD_GetFileAttributesW( PVOLUMEpVolume,PCWSTRpwsFileName);",
+  "code_blocks": [
+   "DWORDMyFSD_GetFileAttributesW( PVOLUMEpVolume,PCWSTRpwsFileName);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetFileInformationByHandle",
+  "title": "MyFSD_GetFileInformationByHandle (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891402(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_GetFileInformationByHandle( PFILE pFile,PBY_HANDLE_FILE_INFORMATIONpFileInfo);",
+  "code_blocks": [
+   "BOOLMyFSD_GetFileInformationByHandle( PFILE pFile,PBY_HANDLE_FILE_INFORMATIONpFileInfo);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetFileSize",
+  "title": "MyFSD_GetFileSize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891403(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDMyFSD_GetFileSize( PFILEpFile,PDWORDpFileSizeHigh);",
+  "code_blocks": [
+   "DWORDMyFSD_GetFileSize( PFILEpFile,PDWORDpFileSizeHigh);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetFileTime",
+  "title": "MyFSD_GetFileTime (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891404(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_GetFileTime( PFILEpFile,FILETIME* pCreation,FILETIME* pLastAccess,FILETIME* pLastWrite);",
+  "code_blocks": [
+   "BOOLMyFSD_GetFileTime( PFILEpFile,FILETIME* pCreation,FILETIME* pLastAccess,FILETIME* pLastWrite);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetVolumeInfo",
+  "title": "MyFSD_GetVolumeInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517925(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "MyFSD_GetVolumeInfo( DWORD dwVolume, FSD_VOLUME_INFO *pInfo );",
+  "code_blocks": [
+   "MyFSD_GetVolumeInfo( DWORD dwVolume, FSD_VOLUME_INFO *pInfo );"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_LockFileEx",
+  "title": "MyFSD_LockFileEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517926(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_LockFileEx( PFILE pFile, DWORDdwFlags, DWORDdwReserved, DWORDnNumberOfBytesToLockLow, DWORDnNumberOfBytesToLockHigh, LPOVERLAPPEDlpOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_LockFileEx( PFILE pFile, DWORDdwFlags, DWORDdwReserved, DWORDnNumberOfBytesToLockLow, DWORDnNumberOfBytesToLockHigh, LPOVERLAPPEDlpOverlapped );",
+   "BOOL MyFSD_LockFileEx ( PFILE pFile, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped ) { return FSDMGR_InstallFileLock ( MyAcquireFileLockState, MyReleaseFileLockState, (DWORD)pFile, dwFlags, dwReserved, nNumberOfBytesToLockLow, nNumberOfBytesToLockHigh, lpOverlapped ); }"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "Though the function requires an OVERLAPPED structure, it does not support asynchronous locking. In Windows CE, the OVERLAPPED structure is used only to describe the byte range to be locked.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_MountDisk",
+  "title": "MyFSD_MountDisk (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891405(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_MountDisk( HDSKhdsk);",
+  "code_blocks": [
+   "BOOLMyFSD_MountDisk( HDSKhdsk);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_MoveFileW",
+  "title": "MyFSD_MoveFileW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891406(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_MoveFileW( PVOLUMEpVolume,PCWSTRpwsOldFileName,PCWSTRpwsNewFileName);",
+  "code_blocks": [
+   "BOOLMyFSD_MoveFileW( PVOLUMEpVolume,PCWSTRpwsOldFileName,PCWSTRpwsNewFileName);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_Notify",
+  "title": "MyFSD_Notify (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891407(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void MyFSD_Notify( PVOLUMEpVolume,DWORDdwFlags);",
+  "code_blocks": [
+   "void MyFSD_Notify( PVOLUMEpVolume,DWORDdwFlags);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_ReadFile",
+  "title": "MyFSD_ReadFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891408(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_ReadFile( PFILE pFile,PVOIDpBuffer, DWORDcbRead, PDWORDpcbRead, OVERLAPPED* pOverlapped);",
+  "code_blocks": [
+   "BOOLMyFSD_ReadFile( PFILE pFile,PVOIDpBuffer, DWORDcbRead, PDWORDpcbRead, OVERLAPPED* pOverlapped);",
+   "// Attempt a synchronous read operation. bResult = ReadFile(hFile, &inBuffer, nBytesToRead, &nBytesRead, NULL) ; // Check for end of file. if (bResult && nBytesRead == 0, ) { // The end of the file. }"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "The operating system does not support asynchronous read operations on files.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_ReadFileScatter",
+  "title": "MyFSD_ReadFileScatter (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517927(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ReadFileScatter( HANDLEhFile, FILE_SEGMENT_ELEMENTaSegmentArray, DWORDnNumberOfBytesToRead, LPDWORDlpReserved, LPOVERLAPPEDlpOverlapped );",
+  "code_blocks": [
+   "BOOL ReadFileScatter( HANDLEhFile, FILE_SEGMENT_ELEMENTaSegmentArray, DWORDnNumberOfBytesToRead, LPDWORDlpReserved, LPOVERLAPPEDlpOverlapped );",
+   "typedef union _FILE_SEGMENT_ELEMENT { PVOID64 Buffer; ULONGLONG Alignment; }FILE_SEGMENT_ELEMENT, *PFILE_SEGMENT_ELEMENT;"
+  ],
+  "requirements": {
+   "header": "FsdMgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_ReadFileWithSeek",
+  "title": "MyFSD_ReadFileWithSeek (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891409(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_ReadFileWithSeek( PFILE pFile, PVOID pBuffer, DWORD cbRead, PDWORD pcbRead, OVERLAPPED* pOverlapped, DWORD dwLowOffset, DWORDdwHighOffset);",
+  "code_blocks": [
+   "BOOL MyFSD_ReadFileWithSeek( PFILE pFile, PVOID pBuffer, DWORD cbRead, PDWORD pcbRead, OVERLAPPED* pOverlapped, DWORD dwLowOffset, DWORDdwHighOffset);",
+   "// Attempt a synchronous read operation. bResult = ReadFile(hFile, &inBuffer, nBytesToRead, &nBytesRead, NULL) ; // Check for end of file. if (bResult && nBytesRead == 0, ) { // The end of the file. }"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "The lpOverlapped parameter must be set to NULL. The OS does not support asynchronous read operations on files. If an FSD does not support paging from the file system, then the fallback position is to page the entire file into memory when it is a module or a file that is being mapped. If an FSD returns TRUE, then paging is supported for the file; otherwise, paging is not supported.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_RegisterFileSystemFunction",
+  "title": "MyFSD_RegisterFileSystemFunction (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891410(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_RegisterFileSystemFunction( PVOLUMEpVolume,SHELLFILECHANGEFUNC_tpfn);",
+  "code_blocks": [
+   "BOOL MyFSD_RegisterFileSystemFunction( PVOLUMEpVolume,SHELLFILECHANGEFUNC_tpfn);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 through 4.1."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_RemoveDirectoryW",
+  "title": "MyFSD_RemoveDirectoryW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891411(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_RemoveDirectoryW( PVOLUMEpVolume,PCWSTRpwsPathName);",
+  "code_blocks": [
+   "BOOLMyFSD_RemoveDirectoryW( PVOLUMEpVolume,PCWSTRpwsPathName);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_SetEndOfFile",
+  "title": "MyFSD_SetEndOfFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891412(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_SetEndOfFile( PFILEpFile);",
+  "code_blocks": [
+   "BOOLMyFSD_SetEndOfFile( PFILEpFile);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_SetFileAttributesW",
+  "title": "MyFSD_SetFileAttributesW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891413(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_SetFileAttributesW( PVOLUMEpVolume,PCWSTRpwsFileName, DWORDdwFileAttributes);",
+  "code_blocks": [
+   "BOOLMyFSD_SetFileAttributesW( PVOLUMEpVolume,PCWSTRpwsFileName, DWORDdwFileAttributes);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_SetFilePointer",
+  "title": "MyFSD_SetFilePointer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891414(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDMyFSD_SetFilePointer( PFILEpFile,LONGlDistanceToMove, PLONGpDistanceToMoveHigh, DWORDdwMoveMethod);",
+  "code_blocks": [
+   "DWORDMyFSD_SetFilePointer( PFILEpFile,LONGlDistanceToMove, PLONGpDistanceToMoveHigh, DWORDdwMoveMethod);",
+   "if (lDistanceToMove == 6) return 6;",
+   "// // Case One: calling the function with lpDistanceToMoveHigh == NULL. // Try to move hFile's file pointer some distance. dwPtr = SetFilePointer (hFile, lDistance, NULL, FILE_BEGIN) ; if (dwPtr == 0xFFFFFFFF) // Test for failure { // Obtain the error code. dwError = GetLastError() ; // Resolve the failure. // . . . } // End of error handler. // // Case Two: calling the function with lpDistanceToMoveHigh != NULL. // Try to move hFile's file pointer some large distance. dwPtrLow = SetFilePointer (hFile, lDistLow, & lDistHigh, FILE_BEGIN) ; // Test for failure. if (dwPtrLow == 0xFFFFFFFF && (dwError = GetLastError()) != NO_ERROR ) { // Resolve the failure. // . . . } // End of error handler.",
+   "__int64 myFileSeek (HANDLE hf, __int64 distance, DWORD MoveMethod) { LARGE_INTEGER li; li.QuadPart = distance; li.LowPart = SetFilePointer (hf, li.LowPart, &li.HighPart, MoveMethod); if (li.LowPart == 0xFFFFFFFF && GetLastError() != NO_ERROR) { li.QuadPart = –1; } return li.QuadPart; }"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_SetFileTime",
+  "title": "MyFSD_SetFileTime (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891415(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_SetFileTime( PFILEpFile,CONSTFILETIME*pCreation, CONSTFILETIME* pLastAccess, CONSTFILETIME* pLastWrite );",
+  "code_blocks": [
+   "BOOLMyFSD_SetFileTime( PFILEpFile,CONSTFILETIME*pCreation, CONSTFILETIME* pLastAccess, CONSTFILETIME* pLastWrite );"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_UnLockFileEx",
+  "title": "MyFSD_UnLockFileEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517928(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_UnlockFileEx( DWORD dwFile, DWORDdwReserved, DWORDnNumberOfBytesToUnlockLow, DWORDnNumberOfBytesToUnlockHigh, LPOVERLAPPEDlpOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_UnlockFileEx( DWORD dwFile, DWORDdwReserved, DWORDnNumberOfBytesToUnlockLow, DWORDnNumberOfBytesToUnlockHigh, LPOVERLAPPEDlpOverlapped );",
+   "BOOL MyFSD_UnlockFileEx ( PFILE pFile, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped ) { return FSDMGR_RemoveFileLock ( MyAcquireFileLockState, MyReleaseFileLockState, (DWORD)pFile, dwReserved, nNumberOfBytesToLockLow, nNumberOfBytesToLockHigh, lpOverlapped ); }"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "Though the function requires an OVERLAPPED structure, it does not support asynchronous locking. In Windows CE, the OVERLAPPED structure is used only to describe the byte range to be locked.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_UnmountDisk",
+  "title": "MyFSD_UnmountDisk (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891416(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_UnmountDisk( HDSKhdsk);",
+  "code_blocks": [
+   "BOOLMyFSD_UnmountDisk( HDSKhdsk);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_WriteFile",
+  "title": "MyFSD_WriteFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891417(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMyFSD_WriteFile( PFILEpFile,PCVOIDpBuffer, DWORDcbWrite, PDWORDpcbWritten, OVERLAPPED* pOverlapped);",
+  "code_blocks": [
+   "BOOLMyFSD_WriteFile( PFILEpFile,PCVOIDpBuffer, DWORDcbWrite, PDWORDpcbWritten, OVERLAPPED* pOverlapped);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "The OS does not support asynchronous write operations. The lpOverlapped parameter is ignored and should be set to NULL before calling WriteFile . Unlike the MS-DOS OS, Windows CE interprets zero bytes to write as specifying a null write operation and WriteFile does not truncate or extend the file.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_WriteFileGather",
+  "title": "MyFSD_WriteFileGather (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517929(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WriteFileGather( HANDLEhFile, FILE_SEGMENT_ELEMENTaSegmentArray[], DWORDnNumberOfBytesToWrite, LPDWORDlpReserved, LPOVERLAPPEDlpOverlapped);",
+  "code_blocks": [
+   "BOOL WriteFileGather( HANDLEhFile, FILE_SEGMENT_ELEMENTaSegmentArray[], DWORDnNumberOfBytesToWrite, LPDWORDlpReserved, LPOVERLAPPEDlpOverlapped);",
+   "typedef union _FILE_SEGMENT_ELEMENT { PVOID64 Buffer; ULONGLONG Alignment; }FILE_SEGMENT_ELEMENT, *PFILE_SEGMENT_ELEMENT;"
+  ],
+  "requirements": {
+   "header": "FsdMgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_WriteFileWithSeek",
+  "title": "MyFSD_WriteFileWithSeek (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891418(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_WriteFileWithSeek( PFILE pFile, PCVOID pBuffer, DWORD cbWrite, PDWORD pcbWritten, OVERLAPPED* pOverlapped,DWORD dwLowOffset, DWORD dwHighOffset);",
+  "code_blocks": [
+   "BOOL MyFSD_WriteFileWithSeek( PFILE pFile, PCVOID pBuffer, DWORD cbWrite, PDWORD pcbWritten, OVERLAPPED* pOverlapped,DWORD dwLowOffset, DWORD dwHighOffset);"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "The OS does not support asynchronous write operations. The lpOverlapped parameter is ignored and should be set to NULL before calling WriteFile . If an FSD does not supported paging from the file system, then the fallback position is to page the entire file into memory when it is a module or a file that is being mapped. If your FSD returns TRUE, then paging is supported for this file; otherwise, paging is not supported. If WriteFileWithSeek is not supported, then WriteFile is used to determine whether an FSD supports write operations on memory mapped files.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "PACQUIREFILELOCKSTATE",
+  "title": "PACQUIREFILELOCKSTATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517930(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PACQUIREFILELOCKSTATE)( DWORD dwFile, PFILELOCKSTATE* ppFileLockState );",
+  "code_blocks": [
+   "typedef VOID (*PACQUIREFILELOCKSTATE)( DWORD dwFile, PFILELOCKSTATE* ppFileLockState );",
+   "BOOL MyAcquireFileLockState(DWORD dwPfh, PFILELOCKSTATE *ppFileLockState) { PFILE pFileHandle = (PFILE)dwPfh; PINTERNALFILE pFile = pFileHandle->pInternalFile; if (NULL == pFile->FileLockState.lpcs) { return FALSE; } // acquire file lock state; exit in MyReleaseFileLockState EnterCriticalSection(pFile->FileLockState.lpcs); // fetch file position (64-bit offsets not supported) pFile->FileLockState.dwPosLow = pFileHandle->dwCurrentFileOffset; pFile->FileLockState.dwPosHigh = 0; // fetch create access pFile->FileLockState.dwAccess = pFileHandle->dwAccessMode; // return file lock container *ppFileLockState = &pFile->FileLockState; return TRUE; }"
+  ],
+  "requirements": {
+   "header": "lockmgrtypes.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "PEMPTYLOCKCONTAINER",
+  "title": "PEMPTYLOCKCONTAINER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517931(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID(*PEMPTYLOCKCONTAINER)( PFILELOCKSTATE pFileLockState );",
+  "code_blocks": [
+   "typedef VOID(*PEMPTYLOCKCONTAINER)( PFILELOCKSTATE pFileLockState );"
+  ],
+  "requirements": {
+   "header": "Fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "SHELLFILECHANGEFUNC_t",
+  "title": "SHELLFILECHANGEFUNC_t (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891992(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef BOOL (*SHELLFILECHANGEFUNC_t) { LPCFILECHANGEINFO lpfci};",
+  "code_blocks": [
+   "typedef BOOL (*SHELLFILECHANGEFUNC_t) { LPCFILECHANGEINFO lpfci};"
+  ],
+  "requirements": {
+   "header": "Extfile.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "BP_GetPartitionInfo",
+  "title": "BP_GetPartitionInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489819(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "PPARTENTRY BP_GetPartitionInfo( HANDLE hPartition, );",
+  "code_blocks": [
+   "PPARTENTRY BP_GetPartitionInfo( HANDLE hPartition, );"
+  ],
+  "requirements": {
+   "header": "bootpart.h",
+   "library": "Bootpart.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Bootpart Reference"
+ },
+ {
+  "name": "BP_Init",
+  "title": "BP_Init (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489535(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BP_Init( LPBYTE pMemory, DWORD dwSize, LPCTSTR lpActiveReg, PPCI_REG_INFO pRegIn, PPCI_REG_INFO pRegOut );",
+  "code_blocks": [
+   "BOOL BP_Init( LPBYTE pMemory, DWORD dwSize, LPCTSTR lpActiveReg, PPCI_REG_INFO pRegIn, PPCI_REG_INFO pRegOut );"
+  ],
+  "requirements": {
+   "header": "bootpart.h",
+   "library": "Bootpart.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Bootpart Reference"
+ },
+ {
+  "name": "BP_LowLevelFormat",
+  "title": "BP_LowLevelFormat (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490571(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BP_LowLevelFormat( DWORD dwStartBlock, DWORD dwNumBlocks, DWORD dwFlags );",
+  "code_blocks": [
+   "BOOL BP_LowLevelFormat( DWORD dwStartBlock, DWORD dwNumBlocks, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "bootpart.h",
+   "library": "Bootpart.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Bootpart Reference"
+ },
+ {
+  "name": "BP_OpenPartition",
+  "title": "BP_OpenPartition (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490346(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE BP_OpenPartition( DWORD dwStartSector, DWORD dwNumSectors, DWORD dwPartType, BOOL fActive, DWORD dwCreationFlags );",
+  "code_blocks": [
+   "HANDLE BP_OpenPartition( DWORD dwStartSector, DWORD dwNumSectors, DWORD dwPartType, BOOL fActive, DWORD dwCreationFlags );"
+  ],
+  "requirements": {
+   "header": "bootpart.h",
+   "library": "Bootpart.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Bootpart Reference"
+ },
+ {
+  "name": "BP_ReadData",
+  "title": "BP_ReadData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490171(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BP_ReadData( HANDLE hPartition, LPBYTE pbBuffer, DWORD dwLength );",
+  "code_blocks": [
+   "BOOL BP_ReadData( HANDLE hPartition, LPBYTE pbBuffer, DWORD dwLength );"
+  ],
+  "requirements": {
+   "header": "bootpart.h",
+   "library": "Bootpart.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Bootpart Reference"
+ },
+ {
+  "name": "BP_SetDataPointer",
+  "title": "BP_SetDataPointer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490351(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BP_SetDataPointer( HANDLE hPartition, DWORD dwAddress );",
+  "code_blocks": [
+   "BOOL BP_SetDataPointer( HANDLE hPartition, DWORD dwAddress );"
+  ],
+  "requirements": {
+   "header": "bootpart.h",
+   "library": "Bootpart.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Bootpart Reference"
+ },
+ {
+  "name": "BP_WriteData",
+  "title": "BP_WriteData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490583(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL BP_WriteData( HANDLE hPartition, LPBYTE pbBuffer, DWORD dwLength );",
+  "code_blocks": [
+   "BOOL BP_WriteData( HANDLE hPartition, LPBYTE pbBuffer, DWORD dwLength );"
+  ],
+  "requirements": {
+   "header": "bootpart.h",
+   "library": "Bootpart.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Bootpart Reference"
+ },
+ {
+  "name": "PARTENTRY",
+  "title": "PARTENTRY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489807(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _PARTENTRY { BYTE Part_BootInd; BYTE Part_FirstHead; BYTE Part_FirstSector; BYTE Part_FirstTrack; BYTE Part_FileSystem; BYTE Part_LastHead; BYTE Part_LastSector; BYTE Part_LastTrack; DWORD Part_StartSector; DWORD Part_TotalSectors; } PARTENTRY;",
+  "code_blocks": [
+   "typedef struct _PARTENTRY { BYTE Part_BootInd; BYTE Part_FirstHead; BYTE Part_FirstSector; BYTE Part_FirstTrack; BYTE Part_FileSystem; BYTE Part_LastHead; BYTE Part_LastSector; BYTE Part_LastTrack; DWORD Part_StartSector; DWORD Part_TotalSectors; } PARTENTRY;"
+  ],
+  "requirements": {
+   "header": "bootpart.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Bootpart Reference"
+ },
+ {
+  "name": "DISK_COPY_EXTERNAL",
+  "title": "DISK_COPY_EXTERNAL (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490566(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _DISK_COPY_EXTERNAL { DWORD cbSize; DWORD dwDirection; PVOID pUserData; DWORD cbUserDataSize; TCHAR szCancelEventName[MAX_PATH]; ULARGE_INTEGER ulFileSize; HANDLE hCallerProc; DWORD cbSectorListSize; } DISK_COPY_EXTERNAL, *PDISK_COPY_EXTERNAL;",
+  "code_blocks": [
+   "typedef struct _DISK_COPY_EXTERNAL { DWORD cbSize; DWORD dwDirection; PVOID pUserData; DWORD cbUserDataSize; TCHAR szCancelEventName[MAX_PATH]; ULARGE_INTEGER ulFileSize; HANDLE hCallerProc; DWORD cbSectorListSize; } DISK_COPY_EXTERNAL, *PDISK_COPY_EXTERNAL;"
+  ],
+  "requirements": {
+   "header": "diskio.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "FILE_COPY_EXTERNAL",
+  "title": "FILE_COPY_EXTERNAL (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489963(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILE_COPY_EXTERNAL { DWORD cbSize; DWORD dwDirection; PVOID pUserData; DWORD cbUserDataSize; TCHAR szCancelEventName[MAX_PATH]; } FILE_COPY_EXTERNAL, *PFILE_COPY_EXTERNAL;",
+  "code_blocks": [
+   "typedef struct _FILE_COPY_EXTERNAL { DWORD cbSize; DWORD dwDirection; PVOID pUserData; DWORD cbUserDataSize; TCHAR szCancelEventName[MAX_PATH]; } FILE_COPY_EXTERNAL, *PFILE_COPY_EXTERNAL;"
+  ],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "FSCTL_COPY_EXTERNAL_COMPLETE",
+  "title": "FSCTL_COPY_EXTERNAL_COMPLETE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490761(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "FSCTL_COPY_EXTERNAL_START",
+  "title": "FSCTL_COPY_EXTERNAL_START (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489775(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "IOCTL_DISK_COPY_EXTERNAL_COMPLETE",
+  "title": "IOCTL_DISK_COPY_EXTERNAL_COMPLETE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490163(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "diskio.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "IOCTL_DISK_COPY_EXTERNAL_START",
+  "title": "IOCTL_DISK_COPY_EXTERNAL_START (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489797(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "diskio.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "SECTOR_LIST_ENTRY",
+  "title": "SECTOR_LIST_ENTRY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489749(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SECTOR_LIST_ENTRY { DWORD dwStartSector; DWORD dwNumSectors; } SECTOR_LIST_ENTRY, *PSECTOR_LIST_ENTRY;",
+  "code_blocks": [
+   "typedef struct _SECTOR_LIST_ENTRY { DWORD dwStartSector; DWORD dwNumSectors; } SECTOR_LIST_ENTRY, *PSECTOR_LIST_ENTRY;"
+  ],
+  "requirements": {
+   "header": "diskio.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Copy External Reference"
+ },
+ {
+  "name": "CacheIoControl",
+  "title": "CacheIoControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489834(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CacheIoControl( DWORD dwCacheId, DWORD dwIoControlCode, LPVOID lpInbuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL CacheIoControl( DWORD dwCacheId, DWORD dwIoControlCode, LPVOID lpInbuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Disk Cache Manager Reference"
+ },
+ {
+  "name": "CachedRead",
+  "title": "CachedRead (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490386(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CachedRead( DWORD dwCacheId, DWORD dwBlockNum, DWORD dwNumBlocks, PVOID pBuffer, DWORD dwReadFlags );",
+  "code_blocks": [
+   "DWORD CachedRead( DWORD dwCacheId, DWORD dwBlockNum, DWORD dwNumBlocks, PVOID pBuffer, DWORD dwReadFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Disk Cache Manager Reference"
+ },
+ {
+  "name": "CachedWrite",
+  "title": "CachedWrite (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490590(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CachedWrite( DWORD dwCacheId, DWORD dwBlockNum, DWORD dwNumBlocks, PVOID pBuffer, DWORD dwWriteFlags );",
+  "code_blocks": [
+   "DWORD CachedWrite( DWORD dwCacheId, DWORD dwBlockNum, DWORD dwNumBlocks, PVOID pBuffer, DWORD dwWriteFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Disk Cache Manager Reference"
+ },
+ {
+  "name": "CreateCache",
+  "title": "CreateCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490615(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CreateCache( HANDLE hDsk, DWORD dwStart, DWORD dwEnd, DWORD dwCacheSize, DWORD dwBlockSize, DWORD dwCreateFlags );",
+  "code_blocks": [
+   "DWORD CreateCache( HANDLE hDsk, DWORD dwStart, DWORD dwEnd, DWORD dwCacheSize, DWORD dwBlockSize, DWORD dwCreateFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Disk Cache Manager Reference"
+ },
+ {
+  "name": "DeleteCache",
+  "title": "DeleteCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490439(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD DeleteCache( DWORD dwCacheId );",
+  "code_blocks": [
+   "DWORD DeleteCache( DWORD dwCacheId );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Disk Cache Manager Reference"
+ },
+ {
+  "name": "FlushCache",
+  "title": "FlushCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490626(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FlushCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwFlushFlags );",
+  "code_blocks": [
+   "DWORD FlushCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwFlushFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Disk Cache Manager Reference"
+ },
+ {
+  "name": "InvalidateCache",
+  "title": "InvalidateCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489663(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD InvalidateCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwFlags );",
+  "code_blocks": [
+   "DWORD InvalidateCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Disk Cache Manager Reference"
+ },
+ {
+  "name": "ResizeCache",
+  "title": "ResizeCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490345(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD ResizeCache( DWORD dwCacheId, DWORD dwSize, DWORD dwResizeFlags );",
+  "code_blocks": [
+   "DWORD ResizeCache( DWORD dwCacheId, DWORD dwSize, DWORD dwResizeFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Disk Cache Manager Reference"
+ },
+ {
+  "name": "SyncCache",
+  "title": "SyncCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489927(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SyncCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwSyncFlags );",
+  "code_blocks": [
+   "DWORD SyncCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwSyncFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Disk Cache Manager Reference"
+ },
+ {
+  "name": "CE_REGISTRY_INFO",
+  "title": "CE_REGISTRY_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490786(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CE_REGISTRY_INFO{ DWORD cbSize; HKEY hRootKey; DWORD dwFlags; TCHAR *pszFullKeyName; LPDWORD pdwKeyNameLen; } CE_REGISTRY_INFO, *PCE_REGISTRY_INFO;",
+  "code_blocks": [
+   "typedef struct _CE_REGISTRY_INFO{ DWORD cbSize; HKEY hRootKey; DWORD dwFlags; TCHAR *pszFullKeyName; LPDWORD pdwKeyNameLen; } CE_REGISTRY_INFO, *PCE_REGISTRY_INFO;"
+  ],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "CeFsIoControl",
+  "title": "CeFsIoControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489589(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeFsIoControl( LPCWSTR pszDir, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL CeFsIoControl( LPCWSTR pszDir, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "Device.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "CeResyncFilesys",
+  "title": "CeResyncFilesys (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489543(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeResyncFilesys( HANDLE hDevice );",
+  "code_blocks": [
+   "BOOL CeResyncFilesys( HANDLE hDevice );",
+   "PDISK pDisk = (PDISK)pvDisk; HKEY hActive; HANDLE hDevice; DWORD Type; DWORD Len; DWORD status; status = RegOpenKeyEx( HKEY_LOCAL_MACHINE, pDisk->d_ActivePath, 0, 0, &hActive); if (status) { DEBUGMSG(1, (TEXT(\"ATADISK: RegOpenKeyEx(HLM\\\\%s) returned %d!!!\\r\\n\"), pDisk->d_ActivePath, status)); return 0; } Len = sizeof(hDevice); status = RegQueryValueEx(hActive, DEVLOAD_HANDLE_VALNAME, NULL, &Type, (PUCHAR)&hDevice, &Len); if (status != ERROR_SUCCESS) { DEBUGMSG(1, (TEXT(\"ATADISK: RegQueryValueEx(%s) returned %d\\r\\n\"), DEVLOAD_HANDLE_VALNAME, status)); RegCloseKey(hActive); return 0; } RegCloseKey(hActive);"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "Device.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FILELOCKSTATE",
+  "title": "FILELOCKSTATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490383(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILELOCKSTATE { DWORD dwPosLow; DWORD dwPosHigh; DWORD dwAccess; LPCRITICAL_SECTION lpcs; BOOL fTerminal; HANDLE hevUnlock; DWORD cQueue; PVOID pvLockContainer; } FILELOCKSTATE, * PFILELOCKSTATE;",
+  "code_blocks": [
+   "typedef struct _FILELOCKSTATE { DWORD dwPosLow; DWORD dwPosHigh; DWORD dwAccess; LPCRITICAL_SECTION lpcs; BOOL fTerminal; HANDLE hevUnlock; DWORD cQueue; PVOID pvLockContainer; } FILELOCKSTATE, * PFILELOCKSTATE;"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FILE_ALLOCATED_RANGE_BUFFER",
+  "title": "FILE_ALLOCATED_RANGE_BUFFER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490419(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILE_ALLOCATED_RANGE_BUFFER{ LARGE_INTEGER FileOffset; LARGE_INTEGER Length; } FILE_ALLOCATED_RANGE_BUFFER, *PFILE_ALLOCATED_RANGE_BUFFER;",
+  "code_blocks": [
+   "typedef struct _FILE_ALLOCATED_RANGE_BUFFER{ LARGE_INTEGER FileOffset; LARGE_INTEGER Length; } FILE_ALLOCATED_RANGE_BUFFER, *PFILE_ALLOCATED_RANGE_BUFFER;"
+  ],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FILE_ZERO_DATA_INFORMATION",
+  "title": "FILE_ZERO_DATA_INFORMATION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490018(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILE_ZERO_DATA_INFORMATION{ LARGE_INTEGER FileOffset; LARGE_INTEGER BeyondFinalZero; } FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION;",
+  "code_blocks": [
+   "typedef struct _FILE_ZERO_DATA_INFORMATION{ LARGE_INTEGER FileOffset; LARGE_INTEGER BeyondFinalZero; } FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION;"
+  ],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FILTERHOOK",
+  "title": "FILTERHOOK (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489547(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagFILTERHOOK { DWORD cbSize; DWORD hVolume; PCLOSEVOLUME pCloseVolume; PCREATEDIRECTORYW pCreateDirectoryW; PREMOVEDIRECTORYW pRemoveDirectoryW; PGETFILEATTRIBUTESW pGetFileAttributesW; PSETFILEATTRIBUTESW pSetFileAttributesW; PDELETEFILEW pDeleteFileW; PMOVEFILEW pMoveFileW; PDELETEANDRENAMEFILEW pDeleteAndRenameFileW; PGETDISKFREESPACEW pGetDiskFreeSpaceW; PNOTIFY pNotify; PREGISTERFILESYSTEMFUNCTION pRegisterFileSystemFunction; PFINDFIRSTFILEW pFindFirstFileW; PFINDNEXTFILEW pFindNextFileW; PFINDCLOSE pFindClose; PCREATEFILEW pCreateFileW; PREADFILE pReadFile; PREADFILEWITHSEEK pReadFileWithSeek; PWRITEFILE pWriteFile; PWRITEFILEWITHSEEK pWriteFileWithSeek; PSETFILEPOINTER pSetFilePointer; PGETFILESIZE pGetFileSize; PGETFILEINFORMATIONBYHANDLE pGetFileInformationByHandle; PFLUSHFILEBUFFERS pFlushFileBuffers; PGETFILETIME pGetFileTime; PSETFILETIME pSetFileTime; PSETENDOFFILE pSetEndOfFile; PDEVICEIOCONTROL pDeviceIoControl; PCLOSEFILE pCloseFile; PREFRESHVOLUME pRefreshVolume; } FILTERHOOK, *PFILTERHOOK;",
+  "code_blocks": [
+   "typedef struct tagFILTERHOOK { DWORD cbSize; DWORD hVolume; PCLOSEVOLUME pCloseVolume; PCREATEDIRECTORYW pCreateDirectoryW; PREMOVEDIRECTORYW pRemoveDirectoryW; PGETFILEATTRIBUTESW pGetFileAttributesW; PSETFILEATTRIBUTESW pSetFileAttributesW; PDELETEFILEW pDeleteFileW; PMOVEFILEW pMoveFileW; PDELETEANDRENAMEFILEW pDeleteAndRenameFileW; PGETDISKFREESPACEW pGetDiskFreeSpaceW; PNOTIFY pNotify; PREGISTERFILESYSTEMFUNCTION pRegisterFileSystemFunction; PFINDFIRSTFILEW pFindFirstFileW; PFINDNEXTFILEW pFindNextFileW; PFINDCLOSE pFindClose; PCREATEFILEW pCreateFileW; PREADFILE pReadFile; PREADFILEWITHSEEK pReadFileWithSeek; PWRITEFILE pWriteFile; PWRITEFILEWITHSEEK pWriteFileWithSeek; PSETFILEPOINTER pSetFilePointer; PGETFILESIZE pGetFileSize; PGETFILEINFORMATIONBYHANDLE pGetFileInformationByHandle; PFLUSHFILEBUFFERS pFlushFileBuffers; PGETFILETIME pGetFileTime; PSETFILETIME pSetFileTime; PSETENDOFFILE pSetEndOfFile; PDEVICEIOCONTROL pDeviceIoControl; PCLOSEFILE pCloseFile; PREFRESHVOLUME pRefreshVolume; } FILTERHOOK, *PFILTERHOOK;"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_GET_COMPRESSION",
+  "title": "FSCTL_GET_COMPRESSION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490215(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "If the file system of the volume that contains the specified file or directory does not support per-file or per-directory compression, the operation fails.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_GET_REGISTRY_INFO",
+  "title": "FSCTL_GET_REGISTRY_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489753(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_QUERY_ALLOCATED_RANGES",
+  "title": "FSCTL_QUERY_ALLOCATED_RANGES (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489595(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_SET_COMPRESSION",
+  "title": "FSCTL_SET_COMPRESSION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489530(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "If the file system of the volume that contains the specified file or directory does not support per-file or per-directory compression, the operation fails.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_SET_EXTENDED_FLAGS",
+  "title": "FSCTL_SET_EXTENDED_FLAGS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490406(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_SET_SPARSE",
+  "title": "FSCTL_SET_SPARSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489790(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_SET_ZERO_DATA",
+  "title": "FSCTL_SET_ZERO_DATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490195(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSCTL_USER",
+  "title": "FSCTL_USER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490217(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_AcquireFileLock",
+  "title": "FSDMGR_AcquireFileLock (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490203(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_AcquireFileLock( PACQUIREFILELOCKSTATE pAcquireFileLockState PRELEASEFILELOCKSTATE pReleaseFileLockState DWORD dwHandle, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL FSDMGR_AcquireFileLock( PACQUIREFILELOCKSTATE pAcquireFileLockState PRELEASEFILELOCKSTATE pReleaseFileLockState DWORD dwHandle, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "lockmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CacheIoControl",
+  "title": "FSDMGR_CacheIoControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490621(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_CacheIoControl( DWORD dwCacheId, DWORD dwIoControlCode, LPVOID lpInBuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL FSDMGR_CacheIoControl( DWORD dwCacheId, DWORD dwIoControlCode, LPVOID lpInBuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CachedRead",
+  "title": "FSDMGR_CachedRead (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490768(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_CachedRead( DWORD dwCacheId, DWORD dwBlockNum, DWORD dwNumBlocks, PVOID pBuffer, DWORD dwReadFlags );",
+  "code_blocks": [
+   "DWORD FSDMGR_CachedRead( DWORD dwCacheId, DWORD dwBlockNum, DWORD dwNumBlocks, PVOID pBuffer, DWORD dwReadFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CachedWrite",
+  "title": "FSDMGR_CachedWrite (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489800(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_CachedWrite( DWORD dwCacheId, DWORD dwBlockNum, DWORD dwNumBlocks, PVOID pBuffer, DWORD dwWriteFlags );",
+  "code_blocks": [
+   "DWORD FSDMGR_CachedWrite( DWORD dwCacheId, DWORD dwBlockNum, DWORD dwNumBlocks, PVOID pBuffer, DWORD dwWriteFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CloseFileLockState",
+  "title": "FSDMGR_CloseFileLockState (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490620(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void FSDMGR_CloseFileLockState ( PFILELOCKSTATE pFileLockState );",
+  "code_blocks": [
+   "void FSDMGR_CloseFileLockState ( PFILELOCKSTATE pFileLockState );"
+  ],
+  "requirements": {
+   "header": "lockmgrhelp.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CreateCache",
+  "title": "FSDMGR_CreateCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490581(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_CreateCache( HDSK pDsk, DWORD dwStart, DWORD dwEnd, DWORD dwCacheSize, DWORD dwBlockSize, DWORD dwCreateFlags );",
+  "code_blocks": [
+   "DWORD FSDMGR_CreateCache( HDSK pDsk, DWORD dwStart, DWORD dwEnd, DWORD dwCacheSize, DWORD dwBlockSize, DWORD dwCreateFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CreateFileHandle",
+  "title": "FSDMGR_CreateFileHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490395(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FSDMGR_CreateFileHandle( HVOL hVol, HANDLE hProc, PFILE pFile );",
+  "code_blocks": [
+   "HANDLE FSDMGR_CreateFileHandle( HVOL hVol, HANDLE hProc, PFILE pFile );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_CreateSearchHandle",
+  "title": "FSDMGR_CreateSearchHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489930(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FSDMGR_CreateSearchHandle( HVOL hVol, HANDLE hProc, PSEARCH pSearch );",
+  "code_blocks": [
+   "HANDLE FSDMGR_CreateSearchHandle( HVOL hVol, HANDLE hProc, PSEARCH pSearch );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_DeleteCache",
+  "title": "FSDMGR_DeleteCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489588(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_DeleteCache( DWORD dwCacheId );",
+  "code_blocks": [
+   "DWORD FSDMGR_DeleteCache( DWORD dwCacheId );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_DeregisterVolume",
+  "title": "FSDMGR_DeregisterVolume (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490371(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void FSDMGR_DeregisterVolume( HVOL hVol );",
+  "code_blocks": [
+   "void FSDMGR_DeregisterVolume( HVOL hVol );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_DeviceHandleToHDSK",
+  "title": "FSDMGR_DeviceHandleToHDSK (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490031(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HDSK FSDMGR_DeviceHandleToHDSK( HANDLE hDisk );",
+  "code_blocks": [
+   "HDSK FSDMGR_DeviceHandleToHDSK( HANDLE hDisk );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_DiskIoControl",
+  "title": "FSDMGR_DiskIoControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490772(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_DiskIoControl( HDSK hDsk, DWORD dwIoControlCode, LPVOID lpInBuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "DWORD FSDMGR_DiskIoControl( HDSK hDsk, DWORD dwIoControlCode, LPVOID lpInBuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_EmptyLockContainer",
+  "title": "FSDMGR_EmptyLockContainer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490767(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_EmptyLockContainer( PFILELOCKSTATE pFileLockState );",
+  "code_blocks": [
+   "BOOL MyFSD_EmptyLockContainer( PFILELOCKSTATE pFileLockState );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_FlushCache",
+  "title": "FSDMGR_FlushCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489937(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_FlushCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwFlushFlags );",
+  "code_blocks": [
+   "DWORD FSDMGR_FlushCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwFlushFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetDiskInfo",
+  "title": "FSDMGR_GetDiskInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489794(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_GetDiskInfo( HDSK hDsk, PFDI pfdi );",
+  "code_blocks": [
+   "DWORD FSDMGR_GetDiskInfo( HDSK hDsk, PFDI pfdi );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetRegistryFlag",
+  "title": "FSDMGR_GetRegistryFlag (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489736(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_GetRegistryFlag( HDSK hDsk, PCTSTR szValueName, PDWORD pdwFlag, DWORD dwSet );",
+  "code_blocks": [
+   "BOOL FSDMGR_GetRegistryFlag( HDSK hDsk, PCTSTR szValueName, PDWORD pdwFlag, DWORD dwSet );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetRegistryString",
+  "title": "FSDMGR_GetRegistryString (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490749(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_GetRegistryString( HDSK hDsk, PCTSTR szValueName, PTSTR szValue, DWORD dwSize );",
+  "code_blocks": [
+   "BOOL FSDMGR_GetRegistryString( HDSK hDsk, PCTSTR szValueName, PTSTR szValue, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetRegistryValue",
+  "title": "FSDMGR_GetRegistryValue (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490423(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_GetRegistryValue( HDSK hDsk, PCTSTR szValueName, PDWORD pdwValue );",
+  "code_blocks": [
+   "BOOL FSDMGR_GetRegistryValue( HDSK hDsk, PCTSTR szValueName, PDWORD pdwValue );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_GetVolumeName",
+  "title": "FSDMGR_GetVolumeName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490633(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "INT FSDMGR_GetVolumeName( HVOL hVol, PWSTR pwsName, int cchMax );",
+  "code_blocks": [
+   "INT FSDMGR_GetVolumeName( HVOL hVol, PWSTR pwsName, int cchMax );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_InstallFileLock",
+  "title": "FSDMGR_InstallFileLock (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489597(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_InstallFileLock( PACQUIREFILELOCKSTATE pAcquireFileLockState, PRELEASEFILELOCKSTATE pReleaseFileLockState, DWORD dwHandle, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL FSDMGR_InstallFileLock( PACQUIREFILELOCKSTATE pAcquireFileLockState, PRELEASEFILELOCKSTATE pReleaseFileLockState, DWORD dwHandle, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "lockmgr.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_InvalidateCache",
+  "title": "FSDMGR_InvalidateCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490378(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_InvalidateCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwFlags );",
+  "code_blocks": [
+   "DWORD FSDMGR_InvalidateCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_OpenFileLockState",
+  "title": "FSDMGR_OpenFileLockState (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489931(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void FSDMGR_OpenFileLockState ( PFILELOCKSTATE pFileLockState );",
+  "code_blocks": [
+   "void FSDMGR_OpenFileLockState ( PFILELOCKSTATE pFileLockState );"
+  ],
+  "requirements": {
+   "header": "lockmgrhelp.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_ReadDisk",
+  "title": "FSDMGR_ReadDisk (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489966(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_ReadDisk( HDSK hDsk, DWORD dwSector, DWORD cSectors, PBYTE pBuffer, DWORD cbBuffer );",
+  "code_blocks": [
+   "DWORD FSDMGR_ReadDisk( HDSK hDsk, DWORD dwSector, DWORD cSectors, PBYTE pBuffer, DWORD cbBuffer );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_ReadDiskEx",
+  "title": "FSDMGR_ReadDiskEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490415(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_ReadDiskEx( PFSGI pfsgi, PFSGR pfsgr );",
+  "code_blocks": [
+   "DWORD FSDMGR_ReadDiskEx( PFSGI pfsgi, PFSGR pfsgr );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "If the driver or system does not support scatter or gather, the output is converted automatically to normal I/O.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_RegisterVolume",
+  "title": "FSDMGR_RegisterVolume (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490164(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HVOL FSDMGR_RegisterVolume( HDSK hDsk, PWSTR pwsName, PVOLUME pVolume );",
+  "code_blocks": [
+   "HVOL FSDMGR_RegisterVolume( HDSK hDsk, PWSTR pwsName, PVOLUME pVolume );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_RemoveFileLock",
+  "title": "FSDMGR_RemoveFileLock (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489662(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_UnlockFileEx( PACQUIREFILELOCKSTATE pAcquireFileLockState PRELEASEFILELOCKSTATE pReleaseFileLockState DWORD dwHandle, DWORD dwReserved, DWORD nNumberOfBytesToUnlockLow, DWORD nNumberOfBytesToUnlockHigh, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_UnlockFileEx( PACQUIREFILELOCKSTATE pAcquireFileLockState PRELEASEFILELOCKSTATE pReleaseFileLockState DWORD dwHandle, DWORD dwReserved, DWORD nNumberOfBytesToUnlockLow, DWORD nNumberOfBytesToUnlockHigh, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "lockmgrhelp.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_RemoveFileLockEx",
+  "title": "FSDMGR_RemoveFileLockEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489609(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_RemoveFileLockEx( PACQUIREFILELOCKSTATE pAcquireFileLockState, PRELEASEFILELOCKSTATE pReleaseFileLockState, DWORD dwHandle );",
+  "code_blocks": [
+   "BOOL FSDMGR_RemoveFileLockEx( PACQUIREFILELOCKSTATE pAcquireFileLockState, PRELEASEFILELOCKSTATE pReleaseFileLockState, DWORD dwHandle );"
+  ],
+  "requirements": {
+   "header": "lockmgr.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_ResizeCache",
+  "title": "FSDMGR_ResizeCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490384(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_ResizeCache( DWORD dwCacheId, DWORD dwSize, DWORD dwResizeFlags );",
+  "code_blocks": [
+   "DWORD FSDMGR_ResizeCache( DWORD dwCacheId, DWORD dwSize, DWORD dwResizeFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_SyncCache",
+  "title": "FSDMGR_SyncCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489567(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_SyncCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwSyncFlags );",
+  "code_blocks": [
+   "DWORD FSDMGR_SyncCache( DWORD dwCacheId, PSECTOR_LIST_ENTRY pSectorList, DWORD dwNumEntries, DWORD dwSyncFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_TestFileLock",
+  "title": "FSDMGR_TestFileLock (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490368(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_TestFileLock( PACQUIREFILELOCKSTATE pAcquireFileLockState, PRELEASEFILELOCKSTATE pReleaseFileLockState, DWORD dwHandle, BOOL fRead, DWORD cbReadWrite );",
+  "code_blocks": [
+   "BOOL FSDMGR_TestFileLock( PACQUIREFILELOCKSTATE pAcquireFileLockState, PRELEASEFILELOCKSTATE pReleaseFileLockState, DWORD dwHandle, BOOL fRead, DWORD cbReadWrite );"
+  ],
+  "requirements": {
+   "header": "lockmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_TestFileLockEx",
+  "title": "FSDMGR_TestFileLockEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490616(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSDMGR_TestFileLockEx( PACQUIREFILELOCKSTATE pAcquireFileLockState, PRELEASEFILELOCKSTATE pReleaseFileLockState, DWORD dwHandle, BOOL fRead, DWORD cbReadWrite, DWORD dwOffsetLow, DWORD dwOffsetHigh );",
+  "code_blocks": [
+   "BOOL FSDMGR_TestFileLockEx( PACQUIREFILELOCKSTATE pAcquireFileLockState, PRELEASEFILELOCKSTATE pReleaseFileLockState, DWORD dwHandle, BOOL fRead, DWORD cbReadWrite, DWORD dwOffsetLow, DWORD dwOffsetHigh );"
+  ],
+  "requirements": {
+   "header": "lockmgr.h"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_WriteDisk",
+  "title": "FSDMGR_WriteDisk (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490436(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_WriteDisk( HDSK hDsk, DWORD dwSector, DWORD cSectors, PBYTE pBuffer, DWORD cbBuffer );",
+  "code_blocks": [
+   "DWORD FSDMGR_WriteDisk( HDSK hDsk, DWORD dwSector, DWORD cSectors, PBYTE pBuffer, DWORD cbBuffer );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSDMGR_WriteDiskEx",
+  "title": "FSDMGR_WriteDiskEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490416(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FSDMGR_WriteDiskEx( PFSGI pfsgi, PFSGR pfsgr );",
+  "code_blocks": [
+   "DWORD FSDMGR_WriteDiskEx( PFSGI pfsgi, PFSGR pfsgr );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "If the driver or system does not support scatter or gather, the output is converted automatically to normal I/O.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_BUFFER_INFO",
+  "title": "FSD_BUFFER_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490564(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_BUFFER_INFO{ PBYTE pBuffer; DWORD cbBuffer; } FSD_BUFFER_INFO, *PFBI;",
+  "code_blocks": [
+   "typedef struct _FSD_BUFFER_INFO{ PBYTE pBuffer; DWORD cbBuffer; } FSD_BUFFER_INFO, *PFBI;"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_DISK_INFO",
+  "title": "FSD_DISK_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490770(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_DISK_INFO{ DWORD cSectors; DWORD cbSector; DWORD cCylinders; DWORD cHeadsPerCylinder; DWORD cSectorsPerTrack; DWORD dwFlags; } FSD_DISK_INFO, *PFDI;",
+  "code_blocks": [
+   "typedef struct _FSD_DISK_INFO{ DWORD cSectors; DWORD cbSector; DWORD cCylinders; DWORD cHeadsPerCylinder; DWORD cSectorsPerTrack; DWORD dwFlags; } FSD_DISK_INFO, *PFDI;"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_HookVolume",
+  "title": "FSD_HookVolume (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490585(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "PVOLUME FSD_HookVolume( HDSK hdsk, PFILTERHOOK pFilterHook );",
+  "code_blocks": [
+   "PVOLUME FSD_HookVolume( HDSK hdsk, PFILTERHOOK pFilterHook );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_MountDisk",
+  "title": "FSD_MountDisk (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489947(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSD_MountDisk( HDSK hdsk );",
+  "code_blocks": [
+   "BOOL FSD_MountDisk( HDSK hdsk );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_SCATTER_GATHER_INFO",
+  "title": "FSD_SCATTER_GATHER_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490151(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_SCATTER_GATHER_INFO{ DWORD dwFlags; DWORD idDsk; DWORD dwSector; DWORD cSectors; PFDI pfdi; DWORD cfbi; PFBI pfbi; PFNFSG pfnCallBack; } FSD_SCATTER_GATHER_INFO, *PFSGI;",
+  "code_blocks": [
+   "typedef struct _FSD_SCATTER_GATHER_INFO{ DWORD dwFlags; DWORD idDsk; DWORD dwSector; DWORD cSectors; PFDI pfdi; DWORD cfbi; PFBI pfbi; PFNFSG pfnCallBack; } FSD_SCATTER_GATHER_INFO, *PFSGI;"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_SCATTER_GATHER_RESULTS",
+  "title": "FSD_SCATTER_GATHER_RESULTS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490443(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_SCATTER_GATHER_RESULTS{ DWORD dwFlags; DWORD cSectorsTransferred; } FSD_SCATTER_GATHER_RESULTS, *PFSGR;",
+  "code_blocks": [
+   "typedef struct _FSD_SCATTER_GATHER_RESULTS{ DWORD dwFlags; DWORD cSectorsTransferred; } FSD_SCATTER_GATHER_RESULTS, *PFSGR;"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_UnhookVolume",
+  "title": "FSD_UnhookVolume (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490614(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSD_UnhookVolume( PVOLUME pvol );",
+  "code_blocks": [
+   "BOOL FSD_UnhookVolume( PVOLUME pvol );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_UnmountDisk",
+  "title": "FSD_UnmountDisk (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490144(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FSD_UnmountDisk( HDSK hdsk );",
+  "code_blocks": [
+   "BOOL FSD_UnmountDisk( HDSK hdsk );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSD_VOLUME_INFO",
+  "title": "FSD_VOLUME_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489745(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FSD_VOLUME_INFO { DWORD cbSize; DWORD dwFSVersion; TCHAR szFSDDesc[MAX_FSD_DESCRIPTOR]; TCHAR szFSDSubType[MAX_FSD_DESCRIPTOR]; DWORD dwAttributes; DWORD dwBlockSize; DWORD dwFlags; } FSD_VOLUME_INFO, *PFSD_VOLUME_INFO;",
+  "code_blocks": [
+   "typedef struct _FSD_VOLUME_INFO { DWORD cbSize; DWORD dwFSVersion; TCHAR szFSDDesc[MAX_FSD_DESCRIPTOR]; TCHAR szFSDSubType[MAX_FSD_DESCRIPTOR]; DWORD dwAttributes; DWORD dwBlockSize; DWORD dwFlags; } FSD_VOLUME_INFO, *PFSD_VOLUME_INFO;"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "FSSCTL_FLUSH_BUFFERS",
+  "title": "FSSCTL_FLUSH_BUFFERS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490221(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "fsioctl.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "LoadFSD",
+  "title": "LoadFSD (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490207(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LoadFSD( HANDLE hDevice, LPCWSTR lpFSDName );",
+  "code_blocks": [
+   "BOOL LoadFSD( HANDLE hDevice, LPCWSTR lpFSDName );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "LoadFSDEx",
+  "title": "LoadFSDEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489574(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LoadFSDEx( HANDLE hDevice, LPCWSTR lpFSDName, DWORD dwFlag );",
+  "code_blocks": [
+   "BOOL LoadFSDEx( HANDLE hDevice, LPCWSTR lpFSDName, DWORD dwFlag );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "Device.lib",
+   "os": "Windows CE 2.12 through Windows CE 3.1"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_CloseFile",
+  "title": "MyFSD_CloseFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490594(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_CloseFile( PFILE pFile );",
+  "code_blocks": [
+   "BOOL MyFSD_CloseFile( PFILE pFile );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_CloseVolume",
+  "title": "MyFSD_CloseVolume (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489802(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_CloseVolume( PVOLUME pVolume );",
+  "code_blocks": [
+   "BOOL MyFSD_CloseVolume( PVOLUME pVolume );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_CreateDirectoryW",
+  "title": "MyFSD_CreateDirectoryW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490219(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_CreateDirectoryW( PVOLUME pVolume, PCWSTR pwsPathName, PSECURITY_ATTRIBUTES pSecurityAttributes );",
+  "code_blocks": [
+   "BOOL MyFSD_CreateDirectoryW( PVOLUME pVolume, PCWSTR pwsPathName, PSECURITY_ATTRIBUTES pSecurityAttributes );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_CreateFileW",
+  "title": "MyFSD_CreateFileW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490169(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE MyFSD_CreateFileW( PVOLUME pVolume, HANDLE hProc, PCWSTR pwsFileName, DWORD dwAccess, DWORD dwShareMode, PSECURITY_ATTRIBUTES pSecurityAttributes, DWORD dwCreate, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile );",
+  "code_blocks": [
+   "HANDLE MyFSD_CreateFileW( PVOLUME pVolume, HANDLE hProc, PCWSTR pwsFileName, DWORD dwAccess, DWORD dwShareMode, PSECURITY_ATTRIBUTES pSecurityAttributes, DWORD dwCreate, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "A file system must mask off any file attributes that it does not support in this function and MyFSD_SetFileAttributesW .",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_DeleteAndRenameFileW",
+  "title": "MyFSD_DeleteAndRenameFileW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490556(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_DeleteAndRenameFileW( PVOLUME pVolume, LPCWSTR lpszDestFileName, LPCWSTR lpszSourceFileName );",
+  "code_blocks": [
+   "BOOL MyFSD_DeleteAndRenameFileW( PVOLUME pVolume, LPCWSTR lpszDestFileName, LPCWSTR lpszSourceFileName );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_DeleteFileW",
+  "title": "MyFSD_DeleteFileW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489729(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_DeleteFileW( PVOLUME pVolume, PCWSTR pwsFileName );",
+  "code_blocks": [
+   "BOOL MyFSD_DeleteFileW( PVOLUME pVolume, PCWSTR pwsFileName );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_DeviceIoControl",
+  "title": "MyFSD_DeviceIoControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490598(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_DeviceIoControl( PFILE pFile, DWORD dwIoControlCode, PVOID pInBuf, DWORD nInBufSize, PVOID pOutBuf, DWORD nOutBufSize, PDWORD pBytesReturned, OVERLAPPED* pOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_DeviceIoControl( PFILE pFile, DWORD dwIoControlCode, PVOID pInBuf, DWORD nInBufSize, PVOID pOutBuf, DWORD nOutBufSize, PDWORD pBytesReturned, OVERLAPPED* pOverlapped );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FindClose",
+  "title": "MyFSD_FindClose (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489765(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_FindClose( PSEARCH pSearch );",
+  "code_blocks": [
+   "BOOL MyFSD_FindClose( PSEARCH pSearch );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FindFirstFileW",
+  "title": "MyFSD_FindFirstFileW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490629(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE MyFSD_FindFirstFileW( PVOLUME pVolume, HANDLE hProc, PCWSTR pwsFileSpec, PWIN32_FIND_DATAW pfd );",
+  "code_blocks": [
+   "HANDLE MyFSD_FindFirstFileW( PVOLUME pVolume, HANDLE hProc, PCWSTR pwsFileSpec, PWIN32_FIND_DATAW pfd );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FindNextFileW",
+  "title": "MyFSD_FindNextFileW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489654(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_FindNextFileW( PSEARCH pSearch, PWIN32_FIND_DATAW pfd );",
+  "code_blocks": [
+   "BOOL MyFSD_FindNextFileW( PSEARCH pSearch, PWIN32_FIND_DATAW pfd );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FlushFileBuffers",
+  "title": "MyFSD_FlushFileBuffers (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489755(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_FlushFileBuffers( PFILE pFile );",
+  "code_blocks": [
+   "BOOL MyFSD_FlushFileBuffers( PFILE pFile );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_FsIoControl",
+  "title": "MyFSD_FsIoControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490019(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_FsIoControl( DWORD pVol, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_FsIoControl( DWORD pVol, DWORD dwIoControlCode, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetDiskFreeSpaceW",
+  "title": "MyFSD_GetDiskFreeSpaceW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490143(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_GetDiskFreeSpaceW( PVOLUME pVolume, PCWSTR pwsPathName, PDWORD pSectorsPerCluster, PDWORD pBytesPerSector, PDWORD pFreeClusters, PDWORD pClusters );",
+  "code_blocks": [
+   "BOOL MyFSD_GetDiskFreeSpaceW( PVOLUME pVolume, PCWSTR pwsPathName, PDWORD pSectorsPerCluster, PDWORD pBytesPerSector, PDWORD pFreeClusters, PDWORD pClusters );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetFileAttributesW",
+  "title": "MyFSD_GetFileAttributesW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490022(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD MyFSD_GetFileAttributesW( PVOLUME pVolume, PCWSTR pwsFileName );",
+  "code_blocks": [
+   "DWORD MyFSD_GetFileAttributesW( PVOLUME pVolume, PCWSTR pwsFileName );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetFileInformationByHandle",
+  "title": "MyFSD_GetFileInformationByHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490796(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_GetFileInformationByHandle( PFILE pFile, PBY_HANDLE_FILE_INFORMATION pFileInfo );",
+  "code_blocks": [
+   "BOOL MyFSD_GetFileInformationByHandle( PFILE pFile, PBY_HANDLE_FILE_INFORMATION pFileInfo );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetFileSize",
+  "title": "MyFSD_GetFileSize (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490582(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD MyFSD_GetFileSize( PFILE pFile, PDWORD pFileSizeHigh );",
+  "code_blocks": [
+   "DWORD MyFSD_GetFileSize( PFILE pFile, PDWORD pFileSizeHigh );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetFileTime",
+  "title": "MyFSD_GetFileTime (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489612(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_GetFileTime( PFILE pFile, FILETIME* pCreation, FILETIME* pLastAccess, FILETIME* pLastWrite );",
+  "code_blocks": [
+   "BOOL MyFSD_GetFileTime( PFILE pFile, FILETIME* pCreation, FILETIME* pLastAccess, FILETIME* pLastWrite );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_GetVolumeInfo",
+  "title": "MyFSD_GetVolumeInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490201(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "MyFSD_GetVolumeInfo( DWORD dwVolume, FSD_VOLUME_INFO *pInfo );",
+  "code_blocks": [
+   "MyFSD_GetVolumeInfo( DWORD dwVolume, FSD_VOLUME_INFO *pInfo );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_LockFileEx",
+  "title": "MyFSD_LockFileEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490787(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_LockFileEx( PFILE pFile, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_LockFileEx( PFILE pFile, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );",
+   "BOOL MyFSD_LockFileEx ( PFILE pFile, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped ) { return FSDMGR_InstallFileLock ( MyAcquireFileLockState, MyReleaseFileLockState, (DWORD)pFile, dwFlags, dwReserved, nNumberOfBytesToLockLow, nNumberOfBytesToLockHigh, lpOverlapped ); }"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Though the function requires an OVERLAPPED structure, it does not support asynchronous locking. In Windows Embedded CE, the OVERLAPPED structure is used only to describe the byte range to be locked. Members other than OffsetHigh and Offset are ignored.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_MountDisk",
+  "title": "MyFSD_MountDisk (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489647(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_MountDisk( HDSK hdsk );",
+  "code_blocks": [
+   "BOOL MyFSD_MountDisk( HDSK hdsk );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_MoveFileW",
+  "title": "MyFSD_MoveFileW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490160(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_MoveFileW( PVOLUME pVolume, PCWSTR pwsOldFileName, PCWSTR pwsNewFileName );",
+  "code_blocks": [
+   "BOOL MyFSD_MoveFileW( PVOLUME pVolume, PCWSTR pwsOldFileName, PCWSTR pwsNewFileName );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_Notify",
+  "title": "MyFSD_Notify (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490558(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void MyFSD_Notify( PVOLUME pVolume, DWORD dwFlags );",
+  "code_blocks": [
+   "void MyFSD_Notify( PVOLUME pVolume, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_ReadFile",
+  "title": "MyFSD_ReadFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490236(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_ReadFile( PFILE pFile, PVOID pBuffer, DWORD cbRead, PDWORD pcbRead, OVERLAPPED* pOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_ReadFile( PFILE pFile, PVOID pBuffer, DWORD cbRead, PDWORD pcbRead, OVERLAPPED* pOverlapped );",
+   "// Attempt a synchronous read operation. bResult = ReadFile(hFile, &inBuffer, nBytesToRead, &nBytesRead, NULL); // Check for end of file. if (bResult && nBytesRead == 0, ) { // The end of the file. }"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "Asynchronous read operations on files are not supported.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_ReadFileScatter",
+  "title": "MyFSD_ReadFileScatter (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489751(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ReadFileScatter( HANDLE hFile, FILE_SEGMENT_ELEMENT aSegmentArray[], DWORD nNumberOfBytesToRead, LPDWORD lpReserved, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL ReadFileScatter( HANDLE hFile, FILE_SEGMENT_ELEMENT aSegmentArray[], DWORD nNumberOfBytesToRead, LPDWORD lpReserved, LPOVERLAPPED lpOverlapped );",
+   "typedef union _FILE_SEGMENT_ELEMENT { PVOID64 Buffer; ULONGLONG Alignment; } FILE_SEGMENT_ELEMENT, *PFILE_SEGMENT_ELEMENT;"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_ReadFileWithSeek",
+  "title": "MyFSD_ReadFileWithSeek (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489961(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_ReadFileWithSeek( PFILE pFile, PVOID pBuffer, DWORD cbRead, PDWORD pcbRead, OVERLAPPED* pOverlapped, DWORD dwLowOffset, DWORD dwHighOffset );",
+  "code_blocks": [
+   "BOOL MyFSD_ReadFileWithSeek( PFILE pFile, PVOID pBuffer, DWORD cbRead, PDWORD pcbRead, OVERLAPPED* pOverlapped, DWORD dwLowOffset, DWORD dwHighOffset );",
+   "// Attempt a synchronous read operation. bResult = ReadFile(hFile, &inBuffer, nBytesToRead, &nBytesRead, NULL); // Check for end of file. if (bResult && nBytesRead == 0, ) { // The end of the file. }"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "The lpOverlapped parameter must be set to NULL. The OS does not support asynchronous read operations on files. If an FSD does not support paging from the file system, the fallback position is to page the entire file into memory when a module or a file that is being mapped. Otherwise, paging is not supported.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_RemoveDirectoryW",
+  "title": "MyFSD_RemoveDirectoryW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489923(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_RemoveDirectoryW( PVOLUME pVolume, PCWSTR pwsPathName );",
+  "code_blocks": [
+   "BOOL MyFSD_RemoveDirectoryW( PVOLUME pVolume, PCWSTR pwsPathName );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_SetEndOfFile",
+  "title": "MyFSD_SetEndOfFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490240(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_SetEndOfFile( PFILE pFile );",
+  "code_blocks": [
+   "BOOL MyFSD_SetEndOfFile( PFILE pFile );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_SetFileAttributesW",
+  "title": "MyFSD_SetFileAttributesW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489809(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_SetFileAttributesW( PVOLUME pVolume, PCWSTR pwsFileName, DWORD dwFileAttributes );",
+  "code_blocks": [
+   "BOOL MyFSD_SetFileAttributesW( PVOLUME pVolume, PCWSTR pwsFileName, DWORD dwFileAttributes );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "A file system must mask off any file attributes that it does not support in this function and MyFSD_CreateFileW .",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_SetFilePointer",
+  "title": "MyFSD_SetFilePointer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489830(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD MyFSD_SetFilePointer( PFILE pFile, LONG lDistanceToMove, PLONG pDistanceToMoveHigh, DWORD dwMoveMethod );",
+  "code_blocks": [
+   "DWORD MyFSD_SetFilePointer( PFILE pFile, LONG lDistanceToMove, PLONG pDistanceToMoveHigh, DWORD dwMoveMethod );",
+   "if (lDistanceToMove == 6) return 6;",
+   "// // Case One: calling the function with lpDistanceToMoveHigh == NULL. // Try to move hFile's file pointer some distance. dwPtr = SetFilePointer (hFile, lDistance, NULL, FILE_BEGIN); if (dwPtr == 0xFFFFFFFF) // Test for failure { // Obtain the error code. dwError = GetLastError(); // Resolve the failure. } // End of error handler. // Case Two: calling the function with lpDistanceToMoveHigh != NULL. // Try to move hFile's file pointer some large distance. dwPtrLow = SetFilePointer (hFile, lDistLow, & lDistHigh, FILE_BEGIN); // Test for failure. if (dwPtrLow == 0xFFFFFFFF && (dwError = GetLastError()) != NO_ERROR ) { // Resolve the failure. } // End of error handler.",
+   "__int64 myFileSeek (HANDLE hf, __int64 distance, DWORD MoveMethod) { LARGE_INTEGER li; li.QuadPart = distance; li.LowPart = SetFilePointer (hf, li.LowPart, &li.HighPart, MoveMethod); if (li.LowPart == 0xFFFFFFFF && GetLastError() != NO_ERROR) { li.QuadPart = –1; } return li.QuadPart; }"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_SetFileTime",
+  "title": "MyFSD_SetFileTime (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490020(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_SetFileTime( PFILE pFile, CONST FILETIME* pCreation, CONST FILETIME* pLastAccess, CONST FILETIME* pLastWrite );",
+  "code_blocks": [
+   "BOOL MyFSD_SetFileTime( PFILE pFile, CONST FILETIME* pCreation, CONST FILETIME* pLastAccess, CONST FILETIME* pLastWrite );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_UnLockFileEx",
+  "title": "MyFSD_UnLockFileEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490618(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_UnlockFileEx( DWORD dwFile, DWORD dwReserved, DWORD nNumberOfBytesToUnlockLow, DWORD nNumberOfBytesToUnlockHigh, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_UnlockFileEx( DWORD dwFile, DWORD dwReserved, DWORD nNumberOfBytesToUnlockLow, DWORD nNumberOfBytesToUnlockHigh, LPOVERLAPPED lpOverlapped );",
+   "BOOL MyFSD_UnlockFileEx ( PFILE pFile, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped ) { return FSDMGR_RemoveFileLock ( MyAcquireFileLockState, MyReleaseFileLockState, (DWORD)pFile, dwReserved, nNumberOfBytesToLockLow, nNumberOfBytesToLockHigh, lpOverlapped ); }"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Though the function requires an OVERLAPPED structure, it does not support asynchronous locking. In Windows Embedded CE, the OVERLAPPED structure is used only to describe the byte range to be locked. Members other than OffsetHigh and Offset of the OVERLAPPED structure are ignored.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_UnmountDisk",
+  "title": "MyFSD_UnmountDisk (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489820(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_UnmountDisk( HDSK hdsk );",
+  "code_blocks": [
+   "BOOL MyFSD_UnmountDisk( HDSK hdsk );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_WriteFile",
+  "title": "MyFSD_WriteFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489786(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_WriteFile( PFILE pFile, PCVOID pBuffer, DWORD cbWrite, PDWORD pcbWritten, OVERLAPPED* pOverlapped );",
+  "code_blocks": [
+   "BOOL MyFSD_WriteFile( PFILE pFile, PCVOID pBuffer, DWORD cbWrite, PDWORD pcbWritten, OVERLAPPED* pOverlapped );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "The OS does not support asynchronous write operations. The lpOverlapped parameter is ignored and should be set to NULL before calling WriteFile . Windows Embedded CE interprets zero bytes to write as specifying a null write operation, and WriteFile does not truncate or extend the file.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_WriteFileGather",
+  "title": "MyFSD_WriteFileGather (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490373(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WriteFileGather( HANDLE hFile, FILE_SEGMENT_ELEMENT aSegmentArray[], DWORD nNumberOfBytesToWrite, LPDWORD lpReserved, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL WriteFileGather( HANDLE hFile, FILE_SEGMENT_ELEMENT aSegmentArray[], DWORD nNumberOfBytesToWrite, LPDWORD lpReserved, LPOVERLAPPED lpOverlapped );",
+   "typedef union _FILE_SEGMENT_ELEMENT { PVOID64 Buffer; ULONGLONG Alignment; } FILE_SEGMENT_ELEMENT, *PFILE_SEGMENT_ELEMENT;"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "MyFSD_WriteFileWithSeek",
+  "title": "MyFSD_WriteFileWithSeek (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490422(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MyFSD_WriteFileWithSeek( PFILE pFile, PCVOID pBuffer, DWORD cbWrite, PDWORD pcbWritten, OVERLAPPED* pOverlapped, DWORD dwLowOffset, DWORD dwHighOffset );",
+  "code_blocks": [
+   "BOOL MyFSD_WriteFileWithSeek( PFILE pFile, PCVOID pBuffer, DWORD cbWrite, PDWORD pcbWritten, OVERLAPPED* pOverlapped, DWORD dwLowOffset, DWORD dwHighOffset );",
+   "WriteFileWithSeek(hFile,&testbyte,1,&len,0,0,0)"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "The OS does not support asynchronous write operations. The lpOverlapped parameter is ignored and should be set to NULL before calling WriteFile . If an FSD does not supported paging from the file system, the fallback position is to page the entire file into memory when it is a module or a file that is being mapped. If WriteFileWithSeek is not supported, WriteFile is used to determine whether an FSD supports write operations on memory-mapped files.",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "PACQUIREFILELOCKSTATE",
+  "title": "PACQUIREFILELOCKSTATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490755(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PACQUIREFILELOCKSTATE)( DWORD dwFile, PFILELOCKSTATE* ppFileLockState );",
+  "code_blocks": [
+   "typedef VOID (*PACQUIREFILELOCKSTATE)( DWORD dwFile, PFILELOCKSTATE* ppFileLockState );",
+   "BOOL MyAcquireFileLockState(DWORD dwPfh, PFILELOCKSTATE *ppFileLockState) { PFILE pFileHandle = (PFILE)dwPfh; PINTERNALFILE pFile = pFileHandle->pInternalFile; if (NULL == pFile->FileLockState.lpcs) { return FALSE; } // Acquire file lock state; exit in MyReleaseFileLockState. EnterCriticalSection(pFile->FileLockState.lpcs); // Obtain file position (64-bit offsets not supported). pFile->FileLockState.dwPosLow = pFileHandle->dwCurrentFileOffset; pFile->FileLockState.dwPosHigh = 0; // Obtain create access. pFile->FileLockState.dwAccess = pFileHandle->dwAccessMode; // Return file lock container. *ppFileLockState = &pFile->FileLockState; return TRUE; }"
+  ],
+  "requirements": {
+   "header": "lockmgrtypes.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "PEMPTYLOCKCONTAINER",
+  "title": "PEMPTYLOCKCONTAINER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490414(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID(*PEMPTYLOCKCONTAINER)( PFILELOCKSTATE pFileLockState );",
+  "code_blocks": [
+   "typedef VOID(*PEMPTYLOCKCONTAINER)( PFILELOCKSTATE pFileLockState );"
+  ],
+  "requirements": {
+   "header": "fsdmgr.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "PRELEASEFILELOCKSTATE",
+  "title": "PRELEASEFILELOCKSTATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489955(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef BOOL (*PRELEASEFILELOCKSTATE)( DWORD dwFile, PFILELOCKSTATE *ppFileLockState );",
+  "code_blocks": [
+   "typedef BOOL (*PRELEASEFILELOCKSTATE)( DWORD dwFile, PFILELOCKSTATE *ppFileLockState );",
+   "BOOL MyAcquireFileLockState(DWORD dwPfh, PFILELOCKSTATE *ppFileLockState) { PFILE pFileHandle = (PFILE)dwPfh; PINTERNALFILE pFile = pFileHandle->pInternalFile; if (NULL == pFile->FileLockState.lpcs) { return FALSE; } // Acquire file lock state; exit in MyReleaseFileLockState. EnterCriticalSection(pFile->FileLockState.lpcs); // Obtain file position (64-bit offsets not supported). pFile->FileLockState.dwPosLow = pFileHandle->dwCurrentFileOffset; pFile->FileLockState.dwPosHigh = 0; // Obtain create access. pFile->FileLockState.dwAccess = pFileHandle->dwAccessMode; // Return file lock container. *ppFileLockState = &pFile->FileLockState; return TRUE; }"
+  ],
+  "requirements": {
+   "header": "lockmgrtypes.h",
+   "library": "Fsdmgr.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ },
+ {
+  "name": "REG_NOTIFY_INFORMATION",
+  "title": "REG_NOTIFY_INFORMATION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489649(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _REG_NOTIFY_INFORMATION { DWORD NextEntryOffset; DWORD Action; DWORD RegNameLength; WCHAR RegName[1]; } REG_NOTIFY_INFORMATION, *PREG_NOTIFY_INFORMATION;",
+  "code_blocks": [
+   "typedef struct _REG_NOTIFY_INFORMATION { DWORD NextEntryOffset; DWORD Action; DWORD RegNameLength; WCHAR RegName[1]; } REG_NOTIFY_INFORMATION, *PREG_NOTIFY_INFORMATION;"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "FSD Reference"
+ }
+]

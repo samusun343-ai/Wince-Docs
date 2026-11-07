@@ -1,0 +1,3516 @@
+[
+ {
+  "name": "EXTENDED_NAME_FORMAT",
+  "title": "EXTENDED_NAME_FORMAT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450831(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum {NameUnknown = 0,NameFullyQualifiedDN = 1,NameSamCompatible = 2,NameDisplay = 3,NameUniqueId = 6,NameCanonical = 7,NameUserPrincipal = 8,NameCanonicalEx = 9,NameServicePrincipal = 10,NameWindowsCeLocal = 0x80000001} EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT;",
+  "code_blocks": [
+   "typedef enum {NameUnknown = 0,NameFullyQualifiedDN = 1,NameSamCompatible = 2,NameDisplay = 3,NameUniqueId = 6,NameCanonical = 7,NameUserPrincipal = 8,NameCanonicalEx = 9,NameServicePrincipal = 10,NameWindowsCeLocal = 0x80000001} EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT;"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Enumerations"
+ },
+ {
+  "name": "AllocPhysMem",
+  "title": "AllocPhysMem (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450785(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID AllocPhysMem(DWORD cbSize,DWORD fdwProtect,DWORD dwAlignmentMask,DWORD dwFlags,PULONG pPhysicalAddress);",
+  "code_blocks": [
+   "LPVOID AllocPhysMem(DWORD cbSize,DWORD fdwProtect,DWORD dwAlignmentMask,DWORD dwFlags,PULONG pPhysicalAddress);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CacheRangeFlush",
+  "title": "CacheRangeFlush (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450787(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void CacheRangeFlush(LPVOIDpAddr,DWORDdwLength,DWORDdwFlags );",
+  "code_blocks": [
+   "void CacheRangeFlush(LPVOIDpAddr,DWORDdwLength,DWORDdwFlags );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CacheSync",
+  "title": "CacheSync (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450788(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID CacheSync(intflags );",
+  "code_blocks": [
+   "VOID CacheSync(intflags );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeGetCacheInfo",
+  "title": "CeGetCacheInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450791(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeGetCacheInfo(DWORDcbSize,PCacheInfopCacheInfo );",
+  "code_blocks": [
+   "BOOL CeGetCacheInfo(DWORDcbSize,PCacheInfopCacheInfo );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeGetCurrentTrust",
+  "title": "CeGetCurrentTrust (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450793(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CeGetCurrentTrust (void);",
+  "code_blocks": [
+   "DWORD CeGetCurrentTrust (void);"
+  ],
+  "requirements": {
+   "header": "Kfuncs.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeGetRandomSeed",
+  "title": "CeGetRandomSeed (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450794(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "__int64 CeGetRandomSeed (void);",
+  "code_blocks": [
+   "__int64 CeGetRandomSeed (void);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeSetMemoryAttributes",
+  "title": "CeSetMemoryAttributes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885152(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLCeSetMemoryAttributes( LPVOID pVirtualAddr,LPVOID pShiftedPhysAddr,DWORD cbSize,DWORD dwAttributes);",
+  "code_blocks": [
+   "BOOLCeSetMemoryAttributes( LPVOID pVirtualAddr,LPVOID pShiftedPhysAddr,DWORD cbSize,DWORD dwAttributes);",
+   "#define FRAMEBUFFER_PHYSADDR 0xdc000000 // Physical address of the frame buffer #define FRAMEBUFFER_SIZE 0x00400000 // 4M of frame buffer LPVOID InitFrameBuffer () { // Allocate and set up the frame buffer LPVOID pVirtualAddr = VirtualAlloc (NULL, FRAMEBUFFER_SIZE, MEM_RESERVE, PAGE_NOACCESS); if (!pVirtualAddr) { return NULL; } if (!VirtualCopy (pVirtualAddr, (LPVOID) (FRAMEBUFFER_PHYSADDR >> 8), FRAMEBUFFER_SIZE, PAGE_NOCACHE|PAGE_READWRITE)) { // Error VirtualFree (pVirtualAddr, 0, MEM_RELEASE); return NULL; } // Try to set 'Write-Combine' attribute on the frame buffer. // It does not matter if it succeeds or not. CeSetMemoryAttributes (pVirtualAddr, (LPVOID) (FRAMEBUFFER_PHYSADDR >> 8), FRAMEBUFFER_SIZE, PAGE_WRITECOMBINE); return pVirtualAddr; }"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeSetPowerOnEvent",
+  "title": "CeSetPowerOnEvent (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885153(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeSetPowerOnEvent(HANDLE hEvt);",
+  "code_blocks": [
+   "BOOL CeSetPowerOnEvent(HANDLE hEvt);"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeVirtualSharedAlloc",
+  "title": "CeVirtualSharedAlloc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885157(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOIDCeVirtualSharedAlloc( LPVOID lpvAddr,DWORD cbSize,DWORD fdwAction);",
+  "code_blocks": [
+   "LPVOIDCeVirtualSharedAlloc( LPVOID lpvAddr,DWORD cbSize,DWORD fdwAction);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CreateStaticMapping",
+  "title": "CreateStaticMapping (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885185(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID CreateStaticMapping(DWORDdwPhysBase,DWORDdwSize);",
+  "code_blocks": [
+   "LPVOID CreateStaticMapping(DWORDdwPhysBase,DWORDdwSize);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CreateWatchDogTimer",
+  "title": "CreateWatchDogTimer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885190(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLECreateWatchDogTimer(LPCWSTR pszWatchDogName,DWORD dwPeriod,DWORD dwWait,DWORD dwDfltAction,DWORD dwParam,DWORD dwFlags);",
+  "code_blocks": [
+   "HANDLECreateWatchDogTimer(LPCWSTR pszWatchDogName,DWORD dwPeriod,DWORD dwWait,DWORD dwDfltAction,DWORD dwParam,DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonClear",
+  "title": "DrWatsonClear (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885203(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLDrWatsonClear(void);",
+  "code_blocks": [
+   "BOOLDrWatsonClear(void);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonFlush",
+  "title": "DrWatsonFlush (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885204(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLDrWatsonFlush(void);",
+  "code_blocks": [
+   "BOOLDrWatsonFlush(void);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "In cases where OEMs use a slow persistent storage such as NAND flash memory for the Windows CE Error Reporting dump, OEMs normally use a temporary RAM buffer to store the Windows CE Error Reporting dump and write to flash memory only when necessary, such as when the buffer is full.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonGetSize",
+  "title": "DrWatsonGetSize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885205(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDDrWatsonGetSize(void);",
+  "code_blocks": [
+   "DWORDDrWatsonGetSize(void);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "Note If dwNKDrWatsonSize is not initialized, there will be no support for Windows CE Error Reporting dump files.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonReadData",
+  "title": "DrWatsonReadData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885206(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDDrWatsonReadData(DWORD dwOffset,LPVOID pData,DWORD cbSize);",
+  "code_blocks": [
+   "DWORDDrWatsonReadData(DWORD dwOffset,LPVOID pData,DWORD cbSize);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonWriteData",
+  "title": "DrWatsonWriteData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885207(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDDrWatsonWriteData(DWORD dwOffset,LPVOID pData,DWORD cbSize);",
+  "code_blocks": [
+   "DWORDDrWatsonWriteData(DWORD dwOffset,LPVOID pData,DWORD cbSize);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ForcePageout",
+  "title": "ForcePageout (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885598(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ForcePageout (void);",
+  "code_blocks": [
+   "VOID ForcePageout (void);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "FreePhysMem",
+  "title": "FreePhysMem (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885603(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FreePhysMem(LPVOID lpvAddress);",
+  "code_blocks": [
+   "BOOL FreePhysMem(LPVOID lpvAddress);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetCallerProcess",
+  "title": "GetCallerProcess (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885604(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLEGetCallerProcess(void);",
+  "code_blocks": [
+   "HANDLEGetCallerProcess(void);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE, threads can migrate between processes while executing API calls.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetCurrentPermissions",
+  "title": "GetCurrentPermissions (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885612(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetCurrentPermissions (void);",
+  "code_blocks": [
+   "DWORD GetCurrentPermissions (void);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetEPC",
+  "title": "GetEPC (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885618(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetEPC (void);",
+  "code_blocks": [
+   "DWORD GetEPC (void);",
+   "extern DWORD GetEPC ();"
+  ],
+  "requirements": {
+   "header": "Not",
+   "library": "Nkprof.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetEventData",
+  "title": "GetEventData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885619(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDGetEventData( HANDLE hEvent);",
+  "code_blocks": [
+   "DWORDGetEventData( HANDLE hEvent);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetOwnerProcess",
+  "title": "GetOwnerProcess (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885633(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLEGetOwnerProcess(void);",
+  "code_blocks": [
+   "HANDLEGetOwnerProcess(void);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetStdioPathW",
+  "title": "GetStdioPathW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885637(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetStdioPathW(DWORDid,PWSTRpwszBuf,LPDWORDlpdwLen );",
+  "code_blocks": [
+   "BOOL GetStdioPathW(DWORDid,PWSTRpwszBuf,LPDWORDlpdwLen );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetSystemMemoryDivision",
+  "title": "GetSystemMemoryDivision (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885639(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLGetSystemMemoryDivision(LPDWORD lpdwStorePages,LPDWORD lpdwRamPages,LPDWORD lpdwPageSize);",
+  "code_blocks": [
+   "BOOLGetSystemMemoryDivision(LPDWORD lpdwStorePages,LPDWORD lpdwRamPages,LPDWORD lpdwPageSize);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetThreadCallStack",
+  "title": "GetThreadCallStack (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885641(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "ULONGGetThreadCallStack( HANDLE hThrd,ULONG dwMaxFrames,LPVOID lpFrames[],DWORD dwFlags,DWORD dwSkip);",
+  "code_blocks": [
+   "ULONGGetThreadCallStack( HANDLE hThrd,ULONG dwMaxFrames,LPVOID lpFrames[],DWORD dwFlags,DWORD dwSkip);",
+   "CallSnapshot lpFrames[MAX_FRAMES]; DWORD dwCnt, dwSkip = 0; do { dwCnt = GetThreadCallStack (hThread, MAX_FRAMES, lpFrames, 0, dwSkip); if (dwCnt) { // Process the frames retrieved so far MyProcessFrames (dwCnt, lpFrames); dwSkip += dwCnt; } } while (MAX_FRAMES == dwCnt);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "However, by using dwSkip , you can use the following loop to retrieve the full call stacks of a thread: CallSnapshot lpFrames[MAX_FRAMES]; DWORD dwCnt, dwSkip = 0; do { dwCnt = GetThreadCallStack (hThread, MAX_FRAMES, lpFrames, 0, dwSkip); if (dwCnt) { // Process the frames retrieved so far MyProcessFrames (dwCnt, lpFrames); dwSkip += dwCnt; } } while (MAX_FRAMES == dwCnt); Keep the following points in mind when passing the STACKSNAP_EXTENDED_INFO flag: If you pass this flag, Windows CE treats the lpFrames passed in as a CallSnapshotEx structure and passes back extended information for each frame, including the frame pointer, current process, four parameters, and return address. If the flag is not passed, Windows CE treats lpFrames as a CallSnapshot structure and passes back only the return addresses.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "HookInterrupt",
+  "title": "HookInterrupt (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885664(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL HookInterrupt(int hwIntNumber,FARPROC pfnHandler );",
+  "code_blocks": [
+   "BOOL HookInterrupt(int hwIntNumber,FARPROC pfnHandler );"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "INTERRUPTS_ENABLE",
+  "title": "INTERRUPTS_ENABLE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885679(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL INTERRUPTS_ENABLE(BOOLfEnable);",
+  "code_blocks": [
+   "BOOL INTERRUPTS_ENABLE(BOOLfEnable);",
+   "fWasEnabled = INTERRUPTS_ENABLE (FALSE); // disable interrupt DoCriticalOperations (); INTERRUPTS_ENABLE (fWasEnabled); // restore interrupt state"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "INTERRUPTS_OFF",
+  "title": "INTERRUPTS_OFF (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885680(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID INTERRUPTS_OFF(void);",
+  "code_blocks": [
+   "VOID INTERRUPTS_OFF(void);"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "INTERRUPTS_ON",
+  "title": "INTERRUPTS_ON (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885681(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID INTERRUPTS_ON (void);",
+  "code_blocks": [
+   "VOID INTERRUPTS_ON (void);"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ISRHandler",
+  "title": "ISRHandler (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886727(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD ISRHandler(DWORDInstanceIndex);",
+  "code_blocks": [
+   "DWORD ISRHandler(DWORDInstanceIndex);"
+  ],
+  "requirements": {
+   "header": "N",
+   "library": "Developer",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "InterruptDisable",
+  "title": "InterruptDisable (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885675(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID InterruptDisable( DWORD idInt );",
+  "code_blocks": [
+   "VOID InterruptDisable( DWORD idInt );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "InterruptDone",
+  "title": "InterruptDone (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885676(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID InterruptDone( DWORD idInt );",
+  "code_blocks": [
+   "VOID InterruptDone( DWORD idInt );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "InterruptInitialize",
+  "title": "InterruptInitialize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885677(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InterruptInitialize( DWORD idInt,HANDLE hEvent,LPVOID pvData,DWORD cbData );",
+  "code_blocks": [
+   "BOOL InterruptInitialize( DWORD idInt,HANDLE hEvent,LPVOID pvData,DWORD cbData );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "InterruptMask",
+  "title": "InterruptMask (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885678(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID InterruptMask(DWORD idInt, BOOL fDisable);",
+  "code_blocks": [
+   "VOID InterruptMask(DWORD idInt, BOOL fDisable);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "IsAPIReady",
+  "title": "IsAPIReady (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885686(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL IsAPIReady( DWORD hAPI);",
+  "code_blocks": [
+   "BOOL IsAPIReady( DWORD hAPI);"
+  ],
+  "requirements": {
+   "header": "Windev.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE, a system-level API might not be available to be called at the time that an application or driver needs to use it. Handle Description SH_SHELL Detect shell services APIs SH_GDI Detect GDI APIs SH_WMGR Detect Windows Manager APIs In Windows CE, the APIs that make up a version of the OS can differ from device to device.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "IsNamedEventSignaled",
+  "title": "IsNamedEventSignaled (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886725(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL IsNamedEventSignaled( LPCWSTR pszName, DWORD dwFlags);",
+  "code_blocks": [
+   "BOOL IsNamedEventSignaled( LPCWSTR pszName, DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "KCompareFileTime",
+  "title": "KCompareFileTime (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886728(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG KCompareFileTime( LPFILETIME lpft1, LPFILETIME lpft2 );",
+  "code_blocks": [
+   "LONG KCompareFileTime( LPFILETIME lpft1, LPFILETIME lpft2 );"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "KFileTimeToSystemTime",
+  "title": "KFileTimeToSystemTime (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886731(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL KFileTimeToSystemTime( const FILETIME* lpft, LPSYSTEMTIME lpst );",
+  "code_blocks": [
+   "BOOL KFileTimeToSystemTime( const FILETIME* lpft, LPSYSTEMTIME lpst );"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "KSystemTimeToFileTime",
+  "title": "KSystemTimeToFileTime (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886732(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL KSystemTimeToFileTime( LPSYSTEMTIME lpst, LPFILETIME lpft );",
+  "code_blocks": [
+   "BOOL KSystemTimeToFileTime( LPSYSTEMTIME lpst, LPFILETIME lpft );"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "KernelIoControl",
+  "title": "KernelIoControl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886729(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLKernelIoControl( DWORD dwIoControlCode,LPVOID lpInBuf,DWORD nInBufSize,LPVOID lpOutBuf,DWORD nOutBufSize,LPDWORD lpBytesReturned );",
+  "code_blocks": [
+   "BOOLKernelIoControl( DWORD dwIoControlCode,LPVOID lpInBuf,DWORD nInBufSize,LPVOID lpOutBuf,DWORD nOutBufSize,LPDWORD lpBytesReturned );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "KernelLibIoControl",
+  "title": "KernelLibIoControl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886730(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL KernelLibIoControl(HANDLEhModule,DWORDdwIoControlCode,LPVOIDlpInBuf,DWORDnInBufSize,LPVOIDlpOutBuf,DWORDnOutBufSize,LPDWORDlpBytesReturned);",
+  "code_blocks": [
+   "BOOL KernelLibIoControl(HANDLEhModule,DWORDdwIoControlCode,LPVOIDlpInBuf,DWORDnInBufSize,LPVOIDlpOutBuf,DWORDnOutBufSize,LPDWORDlpBytesReturned);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "LoadDriver",
+  "title": "LoadDriver (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886735(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HINSTANCE LoadDriver(LPCWSTRlpszFileName );",
+  "code_blocks": [
+   "HINSTANCE LoadDriver(LPCWSTRlpszFileName );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "LockPages",
+  "title": "LockPages (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886744(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LockPages(LPVOID lpvAddress,DWORD cbSize,PDWORD pPFNs,int fOptions);",
+  "code_blocks": [
+   "BOOL LockPages(LPVOID lpvAddress,DWORD cbSize,PDWORD pPFNs,int fOptions);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "MapCallerPtr",
+  "title": "MapCallerPtr (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886749(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID MapCallerPtr( LPVOID ptr, DWORD dwLen);",
+  "code_blocks": [
+   "LPVOID MapCallerPtr( LPVOID ptr, DWORD dwLen);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "MapPtrToProcess",
+  "title": "MapPtrToProcess (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886751(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID MapPtrToProcess( LPVOID lpv, HANDLE hProc);",
+  "code_blocks": [
+   "LPVOID MapPtrToProcess( LPVOID lpv, HANDLE hProc);",
+   "pPointer_retval = MapPtrToProcess(pPointer, (HANDLE) GetCurrentProcessId());"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "OpenWatchDogTimer",
+  "title": "OpenWatchDogTimer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886767(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLEOpenWatchDogTimer(LPCWSTR pszWatchDogName,DWORD dwFlags);",
+  "code_blocks": [
+   "HANDLEOpenWatchDogTimer(LPCWSTR pszWatchDogName,DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "PageOutModule",
+  "title": "PageOutModule (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886771(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL PageOutModule(HANDLEhModule,DWORDdwFlags);",
+  "code_blocks": [
+   "BOOL PageOutModule(HANDLEhModule,DWORDdwFlags);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfileCaptureStatus",
+  "title": "ProfileCaptureStatus (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886776(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfileCaptureStatus();",
+  "code_blocks": [
+   "VOID ProfileCaptureStatus();"
+  ],
+  "requirements": {
+   "header": "Profiler.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfileStart",
+  "title": "ProfileStart (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886781(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfileStart( DWORD dwUSecInterval,DWORD dwOptions );",
+  "code_blocks": [
+   "VOID ProfileStart( DWORD dwUSecInterval,DWORD dwOptions );",
+   "ProfileStart( 500, PROFILE_BUFFER | PROFILE_STARTPAUSED );"
+  ],
+  "requirements": {
+   "header": "Profiler.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfileStartEx",
+  "title": "ProfileStartEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886782(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfileStartEx( ProfilerControl* pControl );",
+  "code_blocks": [
+   "VOID ProfileStartEx( ProfilerControl* pControl );"
+  ],
+  "requirements": {
+   "header": "Profiler.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfileStop",
+  "title": "ProfileStop (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886783(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfileStop (void);",
+  "code_blocks": [
+   "VOID ProfileStop (void);"
+  ],
+  "requirements": {
+   "header": "Profiler.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfilerHit",
+  "title": "ProfilerHit (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886779(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void ProfilerHit(DWORDra);",
+  "code_blocks": [
+   "void ProfilerHit(DWORDra);",
+   "extern void ProfilerHit(DWORD);"
+  ],
+  "requirements": {
+   "header": "Not",
+   "library": "Nkprof.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfilerHitEx",
+  "title": "ProfilerHitEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886780(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfilerHitEx( OEMProfilerData* pData);",
+  "code_blocks": [
+   "VOID ProfilerHitEx( OEMProfilerData* pData);"
+  ],
+  "requirements": {
+   "header": "Profiler.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "RefreshWatchDogTimer",
+  "title": "RefreshWatchDogTimer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886795(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLRefreshWatchDogTimer(HANDLE hWatchDog,DWORD dwFlags);",
+  "code_blocks": [
+   "BOOLRefreshWatchDogTimer(HANDLE hWatchDog,DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetDbgZone",
+  "title": "SetDbgZone (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886809(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetDbgZone(DWORDdwProcid,LPVOIDlpvMod, LPVOIDbaseptr,DWORDzone,LPDBGPARAMlpdbgTgt);",
+  "code_blocks": [
+   "BOOL SetDbgZone(DWORDdwProcid,LPVOIDlpvMod, LPVOIDbaseptr,DWORDzone,LPDBGPARAMlpdbgTgt);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetEventData",
+  "title": "SetEventData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886811(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLSetEventData( HANDLE hEvent,DWORDdwData);",
+  "code_blocks": [
+   "BOOLSetEventData( HANDLE hEvent,DWORDdwData);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetInterruptEvent",
+  "title": "SetInterruptEvent (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886813(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetInterruptEvent( DWORD idInt);",
+  "code_blocks": [
+   "BOOL SetInterruptEvent( DWORD idInt);"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetJITDebuggerPath",
+  "title": "SetJITDebuggerPath (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886814(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLSetJITDebuggerPath(LPCWSTR pszDbgrPath);",
+  "code_blocks": [
+   "BOOLSetJITDebuggerPath(LPCWSTR pszDbgrPath);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "SetJITDebuggerPath is used primarily to handle Windows CE Error Reporting and to enable debugger writers to handle breakpoint exceptions coming from processes that are not being debugged.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetKMode",
+  "title": "SetKMode (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886816(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetKMode( BOOL fMode );",
+  "code_blocks": [
+   "BOOL SetKMode( BOOL fMode );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetKernelCommDev",
+  "title": "SetKernelCommDev (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886815(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetProcPermissions",
+  "title": "SetProcPermissions (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886819(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SetProcPermissions(DWORD newperms );",
+  "code_blocks": [
+   "DWORD SetProcPermissions(DWORD newperms );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetStdioPathW",
+  "title": "SetStdioPathW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886820(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetStdioPathW(DWORDid,PWSTRpwszPath );",
+  "code_blocks": [
+   "BOOL SetStdioPathW(DWORDid,PWSTRpwszPath );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetStoreQueueBase",
+  "title": "SetStoreQueueBase (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886821(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID SetStoreQueueBase(DWORDdwPhysPage );",
+  "code_blocks": [
+   "LPVOID SetStoreQueueBase(DWORDdwPhysPage );"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetSystemMemoryDivision",
+  "title": "SetSystemMemoryDivision (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886822(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDSetSystemMemoryDivision( DWORD dwStorePages );",
+  "code_blocks": [
+   "DWORDSetSystemMemoryDivision( DWORD dwStorePages );"
+  ],
+  "requirements": {
+   "header": "Pwindbas.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "You cannot shrink system memory or the object store memory to be less than 128 KB each, including space for existing files and records.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SleepTillTick",
+  "title": "SleepTillTick (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450901(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void SleepTillTick();",
+  "code_blocks": [
+   "void SleepTillTick();"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "StartWatchDogTimer",
+  "title": "StartWatchDogTimer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450903(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLStartWatchDogTimer(HANDLE hWatchDog,DWORD dwFlags);",
+  "code_blocks": [
+   "BOOLStartWatchDogTimer(HANDLE hWatchDog,DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "StopWatchDogTimer",
+  "title": "StopWatchDogTimer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450905(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLStopWatchDogTimer(HANDLE hWatchDog,DWORD dwFlags);",
+  "code_blocks": [
+   "BOOLStopWatchDogTimer(HANDLE hWatchDog,DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "UnMapPtr",
+  "title": "UnMapPtr (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450968(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID UnMapPtr( LPVOID lpv);",
+  "code_blocks": [
+   "LPVOID UnMapPtr( LPVOID lpv);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "UnhookInterrupt",
+  "title": "UnhookInterrupt (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450961(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnhookInterrupt( INT hwInterruptNumber, FARPROC pfnHandler );",
+  "code_blocks": [
+   "BOOL UnhookInterrupt( INT hwInterruptNumber, FARPROC pfnHandler );"
+  ],
+  "requirements": {
+   "header": "Nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "UnlockPages",
+  "title": "UnlockPages (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450966(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnlockPages(LPVOID lpvAddress,DWORD cbSize);",
+  "code_blocks": [
+   "BOOL UnlockPages(LPVOID lpvAddress,DWORD cbSize);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "VirtualCopy",
+  "title": "VirtualCopy (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450977(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL VirtualCopy( LPVOID lpvDest, LPVOID lpvSrc, DWORD cbSize, DWORD fdwProtect );",
+  "code_blocks": [
+   "BOOL VirtualCopy( LPVOID lpvDest, LPVOID lpvSrc, DWORD cbSize, DWORD fdwProtect );",
+   "VirtualCopy (0x50000, 0xC00DA800, 0x1000, . . .);",
+   "VirtualCopy(pvDest, (void *)(0x64000000/256), 128*1024, PAGE_READWRITE | PAGE_PHYSICAL | PAGE_NOCACHE );",
+   "#include <windows.h> #define PHYSADDR ((PVOID)0x10000000) // PHYSADDR is the physical address of the peripheral // registers #define SIZE (4800*4) LPVOID lpv; BOOL bRet; lpv = VirtualAlloc(0, SIZE, MEM_RESERVE, PAGE_NOACCESS); // For a user mode driver, always leave the first // parameter 0 and use only the flags MEM_RESERVE // and PAGE_NOACCESS Check the return value: lpv == 0 // is an error printf(TEXT(\"VirtualAlloc reservation @%8.8lx\\r\\n\"), lpv); bRet = VirtualCopy(lpv, PHYSADDR>>8, SIZE, PAGE_READWRITE | PAGE_NOCACHE | PAGE_PHYSICAL); // The lpv parameter is the virtual address returned // by VirtualAlloc(). // Always use PAGE_NOCACHE */ // Check the return value: bRet ==0 is an error */ printf(TEXT(\"VirtualCopy returned: %d\\r\\n\"), bRet); // At this point lpv is a virtual address which maps // the I/O registers // at PHYSADDR for SIZE bytes */"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "VirtualSetAttributes",
+  "title": "VirtualSetAttributes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450982(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL VirtualSetAttributes(LPVOIDlpvAddress,DWORDcbSize,DWORDdwNewFlags,DWORDdwMask,LPDWORDlpdwOldFlags);",
+  "code_blocks": [
+   "BOOL VirtualSetAttributes(LPVOIDlpvAddress,DWORDcbSize,DWORDdwNewFlags,DWORDdwMask,LPDWORDlpdwOldFlags);",
+   "newValue = (oldValue & ~dwMask)|(dwNewFlags & dwMask);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "cbNKPagingPoolSize",
+  "title": "cbNKPagingPoolSize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451041(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD cbNKPagingPoolSize;",
+  "code_blocks": [
+   "DWORD cbNKPagingPoolSize;",
+   "set IMGPAGINGPOOL=1 set PAGINGPOOLSIZE=00480000 makeimg",
+   "[HKEY_LOCAL_MACHINE\\System\\StorageManager\\Profiles\\MSFlash\\FATFS] \"Flags\"=dword:00000014 \"FormatTFAT\"=dword:1 \"MountAsBootable\"=dword:1 \"MountAsRoot\"=dword:1 \"CheckForFormat\"=dword:1 \"EnableWriteBack\"=dword:1 \"DataCacheSize\"=dword:00000080 ;128 sectors(128*512=64KB)"
+  ],
+  "requirements": {
+   "header": "Developer-defined",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Global Variables"
+ },
+ {
+  "name": "IsInPwrHdlr",
+  "title": "IsInPwrHdlr (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886723(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "#define IsInPwrHdlr() (0 != PUserKData[PWR_FLAG_OFFSET]);",
+  "code_blocks": [
+   "#define IsInPwrHdlr() (0 != PUserKData[PWR_FLAG_OFFSET]);"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Macros"
+ },
+ {
+  "name": "CacheInfo",
+  "title": "CacheInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450786(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CacheInfo { DWORD dwL1Flags; DWORD dwL1ICacheSize; DWORD dwL1ICacheLineSize; DWORD dwL1ICacheNumWays; DWORD dwL1DCacheSize; DWORD dwL1DCacheLineSize; DWORD dwL1DCacheNumWays; DWORD dwL2Flags; DWORD dwL2ICacheSize; DWORD dwL2ICacheLineSize; DWORD dwL2ICacheNumWays; DWORD dwL2DCacheSize; DWORD dwL2DCacheLineSize; DWORD dwL2DCacheNumWays;} CacheInfo, *PCacheInfo;",
+  "code_blocks": [
+   "typedef struct _CacheInfo { DWORD dwL1Flags; DWORD dwL1ICacheSize; DWORD dwL1ICacheLineSize; DWORD dwL1ICacheNumWays; DWORD dwL1DCacheSize; DWORD dwL1DCacheLineSize; DWORD dwL1DCacheNumWays; DWORD dwL2Flags; DWORD dwL2ICacheSize; DWORD dwL2ICacheLineSize; DWORD dwL2ICacheNumWays; DWORD dwL2DCacheSize; DWORD dwL2DCacheLineSize; DWORD dwL2DCacheNumWays;} CacheInfo, *PCacheInfo;"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "CallSnapshot",
+  "title": "CallSnapshot (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450789(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CallSnapshot {DWORDdwReturnAddr;} CallSnapshot;",
+  "code_blocks": [
+   "typedef struct _CallSnapshot {DWORDdwReturnAddr;} CallSnapshot;"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "CallSnapshotEx",
+  "title": "CallSnapshotEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450790(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CallSnapshotEx {DWORDdwReturnAddr;DWORDdwFramePtr;DWORDdwCurProc;DWORDdwParams[4];} CallSnapshotEx;",
+  "code_blocks": [
+   "typedef struct _CallSnapshotEx {DWORDdwReturnAddr;DWORDdwFramePtr;DWORDdwCurProc;DWORDdwParams[4];} CallSnapshotEx;"
+  ],
+  "requirements": {
+   "header": "Pkfuncs.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "OEMProfilerData",
+  "title": "OEMProfilerData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886763(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct OEMProfilerData {DWORDra;DWORDdwBufSize;BYTEbuf[0];} OEMProfilerData;",
+  "code_blocks": [
+   "typedef struct OEMProfilerData {DWORDra;DWORDdwBufSize;BYTEbuf[0];} OEMProfilerData;"
+  ],
+  "requirements": {
+   "header": "Profiler.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "ProfilerControl",
+  "title": "ProfilerControl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886778(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct ProfilerControl {DWORDdwVersion;DWORDdwOptions;DWORDdwReserved; union { struct { DWORDdwUSecInterval; } Kernel; struct { DWORDdwProcessorType; DWORDdwControlSize; BYTEbHardwareSpecificSettings[0]; } OEM; };} ProfilerControl;",
+  "code_blocks": [
+   "typedef struct ProfilerControl {DWORDdwVersion;DWORDdwOptions;DWORDdwReserved; union { struct { DWORDdwUSecInterval; } Kernel; struct { DWORDdwProcessorType; DWORDdwControlSize; BYTEbHardwareSpecificSettings[0]; } OEM; };} ProfilerControl;"
+  ],
+  "requirements": {
+   "header": "Profiler.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "ROMHDR",
+  "title": "ROMHDR (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886802(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct ROMHDR {ULONGdllfirst;ULONGdlllast;ULONGphysfirst;ULONGphyslast;ULONGnummods;ULONGulRAMStart;ULONGulRAMFree;ULONGulRAMEnd;ULONGulCopyEntries;ULONGulCopyOffset;ULONGulProfileLen;ULONGulProfileOffset;ULONGnumfiles;ULONGulKernelFlags;ULONGulFSRamPercent;ULONGulDrivglobStart;ULONGulDrivglobLen;USHORTusCPUType;USHORTusMiscFlags;PVOIDpExtensions;ULONGulTrackingStart;ULONGulTrackingLen;} ROMHDR;",
+  "code_blocks": [
+   "typedef struct ROMHDR {ULONGdllfirst;ULONGdlllast;ULONGphysfirst;ULONGphyslast;ULONGnummods;ULONGulRAMStart;ULONGulRAMFree;ULONGulRAMEnd;ULONGulCopyEntries;ULONGulCopyOffset;ULONGulProfileLen;ULONGulProfileOffset;ULONGnumfiles;ULONGulKernelFlags;ULONGulFSRamPercent;ULONGulDrivglobStart;ULONGulDrivglobLen;USHORTusCPUType;USHORTusMiscFlags;PVOIDpExtensions;ULONGulTrackingStart;ULONGulTrackingLen;} ROMHDR;"
+  ],
+  "requirements": {
+   "header": "Romldr.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "XIPCHAIN_ENTRY",
+  "title": "XIPCHAIN_ENTRY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450995(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _XIPCHAIN_ENTRY {LPVOIDpvAddr;DWORDdwLength;DWORDdwMaxLength;USHORTusOrder;USHORTusFlags;DWORDdwVersion;CHARszName[XIP_NAMELEN];DWORDdwAlgoFlags;DWORDdwKeyLen;BYTEbyPublicKey[596];} XIPCHAIN_ENTRY, *PXIPCHAIN_ENTRY;",
+  "code_blocks": [
+   "typedef struct _XIPCHAIN_ENTRY {LPVOIDpvAddr;DWORDdwLength;DWORDdwMaxLength;USHORTusOrder;USHORTusFlags;DWORDdwVersion;CHARszName[XIP_NAMELEN];DWORDdwAlgoFlags;DWORDdwKeyLen;BYTEbyPublicKey[596];} XIPCHAIN_ENTRY, *PXIPCHAIN_ENTRY;"
+  ],
+  "requirements": {
+   "header": "Romldr.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "XIPCHAIN_INFO",
+  "title": "XIPCHAIN_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450996(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _XIPCHAIN_INFO {DWORDcXIPs;XIPCHAIN_ENTRYxipEntryStart;} XIPCHAIN_INFO, *PXIPCHAIN_INFO;",
+  "code_blocks": [
+   "typedef struct _XIPCHAIN_INFO {DWORDcXIPs;XIPCHAIN_ENTRYxipEntryStart;} XIPCHAIN_INFO, *PXIPCHAIN_INFO;"
+  ],
+  "requirements": {
+   "header": "Romldr.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "EXTENDED_NAME_FORMAT",
+  "title": "EXTENDED_NAME_FORMAT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483142(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { NameUnknown = 0, NameFullyQualifiedDN = 1, NameSamCompatible = 2, NameDisplay = 3, NameUniqueId = 6, NameCanonical = 7, NameUserPrincipal = 8, NameCanonicalEx = 9, NameServicePrincipal = 10, NameWindowsCeLocal = 0x80000001 } EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT;",
+  "code_blocks": [
+   "typedef enum { NameUnknown = 0, NameFullyQualifiedDN = 1, NameSamCompatible = 2, NameDisplay = 3, NameUniqueId = 6, NameCanonical = 7, NameUserPrincipal = 8, NameCanonicalEx = 9, NameServicePrincipal = 10, NameWindowsCeLocal = 0x80000001 } EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT;"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Enumerations"
+ },
+ {
+  "name": "AllocPhysMem",
+  "title": "AllocPhysMem (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482808(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID AllocPhysMem( DWORD cbSize, DWORD fdwProtect, DWORD dwAlignmentMask, DWORD dwFlags, PULONG pPhysicalAddress );",
+  "code_blocks": [
+   "LPVOID AllocPhysMem( DWORD cbSize, DWORD fdwProtect, DWORD dwAlignmentMask, DWORD dwFlags, PULONG pPhysicalAddress );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CacheRangeFlush",
+  "title": "CacheRangeFlush (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482862(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void CacheRangeFlush( LPVOID pAddr, DWORD dwLength, DWORD dwFlags );",
+  "code_blocks": [
+   "void CacheRangeFlush( LPVOID pAddr, DWORD dwLength, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "OEMMain.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CacheSync",
+  "title": "CacheSync (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482858(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID CacheSync( int flags );",
+  "code_blocks": [
+   "VOID CacheSync( int flags );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeCallUserProc",
+  "title": "CeCallUserProc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482964(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeCallUserProc( LPCWSTR pszDllName, LPCWSTR pszFuncName, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned );",
+  "code_blocks": [
+   "BOOL CeCallUserProc( LPCWSTR pszDllName, LPCWSTR pszFuncName, LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, LPDWORD lpBytesReturned );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeCreateTokenFromAccount",
+  "title": "CeCreateTokenFromAccount (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482761(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "#define CeCreateTokenFromAccount",
+  "code_blocks": [
+   "#define CeCreateTokenFromAccount",
+   "#define CeCreateTokenFromAccount_Trap WIN32_FS_CALL( HANDLE, 100, (LPCWSTR pszAccountName))."
+  ],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeGetCacheInfo",
+  "title": "CeGetCacheInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482939(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeGetCacheInfo( DWORD cbSize, PCacheInfo pCacheInfo );",
+  "code_blocks": [
+   "BOOL CeGetCacheInfo( DWORD cbSize, PCacheInfo pCacheInfo );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeGetCurrentTrust",
+  "title": "CeGetCurrentTrust (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482766(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CeGetCurrentTrust (void);",
+  "code_blocks": [
+   "DWORD CeGetCurrentTrust (void);"
+  ],
+  "requirements": {
+   "header": "kfuncs.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeGetRandomSeed",
+  "title": "CeGetRandomSeed (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483155(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "__int64 CeGetRandomSeed (void);",
+  "code_blocks": [
+   "__int64 CeGetRandomSeed (void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeImpersonateCurrentProcess",
+  "title": "CeImpersonateCurrentProcess (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482962(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeImpersonateCurrentProcess ( void );",
+  "code_blocks": [
+   "BOOL CeImpersonateCurrentProcess ( void );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.dll",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeSetMemoryAttributes",
+  "title": "CeSetMemoryAttributes (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482840(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeSetMemoryAttributes( LPVOID pVirtualAddr, LPVOID pShiftedPhysAddr, DWORD cbSize, DWORD dwAttributes );",
+  "code_blocks": [
+   "BOOL CeSetMemoryAttributes( LPVOID pVirtualAddr, LPVOID pShiftedPhysAddr, DWORD cbSize, DWORD dwAttributes );",
+   "#define FRAMEBUFFER_PHYSADDR 0xdc000000 // Physical address of the frame buffer #define FRAMEBUFFER_SIZE 0x00400000 // 4M of frame buffer LPVOID InitFrameBuffer () { // Allocate and set up the frame buffer. LPVOID pVirtualAddr = VirtualAlloc (NULL, FRAMEBUFFER_SIZE, MEM_RESERVE, PAGE_NOACCESS); if (!pVirtualAddr) { return NULL; } if (!VirtualCopy (pVirtualAddr, (LPVOID) (FRAMEBUFFER_PHYSADDR >> 8), FRAMEBUFFER_SIZE, PAGE_NOCACHE|PAGE_READWRITE)) { // Error VirtualFree (pVirtualAddr, 0, MEM_RELEASE); return NULL; } // Try to set 'Write-Combine' attribute on the frame buffer. // It does not matter if it succeeds or not. CeSetMemoryAttributes (pVirtualAddr, (LPVOID) (FRAMEBUFFER_PHYSADDR >> 8), FRAMEBUFFER_SIZE, PAGE_WRITECOMBINE); return pVirtualAddr; }"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeSetPowerOnEvent",
+  "title": "CeSetPowerOnEvent (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482946(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeSetPowerOnEvent( HANDLE hEvt );",
+  "code_blocks": [
+   "BOOL CeSetPowerOnEvent( HANDLE hEvt );"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CeVirtualSharedAlloc",
+  "title": "CeVirtualSharedAlloc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482975(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID CeVirtualSharedAlloc( LPVOID lpvAddr, DWORD cbSize, DWORD fdwAction );",
+  "code_blocks": [
+   "LPVOID CeVirtualSharedAlloc( LPVOID lpvAddr, DWORD cbSize, DWORD fdwAction );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CreateAPIHandle",
+  "title": "CreateAPIHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483024(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateAPIHandle( HANDLE hASet, LPVOID pvData );",
+  "code_blocks": [
+   "HANDLE CreateAPIHandle( HANDLE hASet, LPVOID pvData );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CreateAPISet",
+  "title": "CreateAPISet (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482963(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateAPISet( char acName[4], USHORT cFunctions, const PFNVOID *ppfnMethods, const ULONGLONG *pu64Sig );",
+  "code_blocks": [
+   "HANDLE CreateAPISet( char acName[4], USHORT cFunctions, const PFNVOID *ppfnMethods, const ULONGLONG *pu64Sig );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CreateStaticMapping",
+  "title": "CreateStaticMapping (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482737(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID CreateStaticMapping( DWORD dwPhysBase, DWORD dwSize );",
+  "code_blocks": [
+   "LPVOID CreateStaticMapping( DWORD dwPhysBase, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "CreateWatchDogTimer",
+  "title": "CreateWatchDogTimer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482966(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateWatchDogTimer( LPCWSTR pszWatchDogName, DWORD dwPeriod, DWORD dwWait, DWORD dwDfltAction, DWORD dwParam, DWORD dwFlags );",
+  "code_blocks": [
+   "HANDLE CreateWatchDogTimer( LPCWSTR pszWatchDogName, DWORD dwPeriod, DWORD dwWait, DWORD dwDfltAction, DWORD dwParam, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DeleteStaticMapping",
+  "title": "DeleteStaticMapping (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482746(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DeleteStaticMapping( LPVOID pVirtBase, DWORD dwSize );",
+  "code_blocks": [
+   "BOOL DeleteStaticMapping( LPVOID pVirtBase, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonClear",
+  "title": "DrWatsonClear (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482942(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DrWatsonClear(void);",
+  "code_blocks": [
+   "BOOL DrWatsonClear(void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonFlush",
+  "title": "DrWatsonFlush (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483034(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DrWatsonFlush(void);",
+  "code_blocks": [
+   "BOOL DrWatsonFlush(void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "If OEMs use a slow persistent storage such as NAND flash memory for the Windows Embedded CE error reporting dump, they normally use a temporary RAM buffer to store the Windows Embedded CE error reporting dump and write to flash memory only when necessary, such as when the buffer is full.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonGetSize",
+  "title": "DrWatsonGetSize (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482837(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD DrWatsonGetSize(void);",
+  "code_blocks": [
+   "DWORD DrWatsonGetSize(void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Note If dwNKDrWatsonSize is not initialized, Windows Embedded CE error reporting dump files are not supported.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonReadData",
+  "title": "DrWatsonReadData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482790(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD DrWatsonReadData( DWORD dwOffset, LPVOID pData, DWORD cbSize );",
+  "code_blocks": [
+   "DWORD DrWatsonReadData( DWORD dwOffset, LPVOID pData, DWORD cbSize );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "DrWatsonWriteData",
+  "title": "DrWatsonWriteData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482758(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD DrWatsonWriteData( DWORD dwOffset, LPVOID pData, DWORD cbSize );",
+  "code_blocks": [
+   "DWORD DrWatsonWriteData( DWORD dwOffset, LPVOID pData, DWORD cbSize );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ForcePageout",
+  "title": "ForcePageout (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483002(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ForcePageout (void);",
+  "code_blocks": [
+   "VOID ForcePageout (void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ForwardDeviceIoControl",
+  "title": "ForwardDeviceIoControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482824(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ForwardDeviceIoControl ( HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL ForwardDeviceIoControl ( HANDLE hDevice, DWORD dwIoControlCode, LPVOID lpInBuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "FreePhysMem",
+  "title": "FreePhysMem (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483073(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FreePhysMem( LPVOID lpvAddress );",
+  "code_blocks": [
+   "BOOL FreePhysMem( LPVOID lpvAddress );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetCallerProcess",
+  "title": "GetCallerProcess (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482853(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE GetCallerProcess(void);",
+  "code_blocks": [
+   "HANDLE GetCallerProcess(void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "In Windows Embedded CE, threads can migrate between processes while making API calls. While the thread is running DeviceIoControl code in the backlight driver, its owner process is the application, its caller process is Gwes.dll, and its current process on Windows Embedded CE is Device.dll**. In Windows Embedded CE, Gwes.dll and Device.dll are now libraries.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetCallerVMProcessId",
+  "title": "GetCallerVMProcessId (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482772(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetCallerVMProcessId (void);",
+  "code_blocks": [
+   "DWORD GetCallerVMProcessId (void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetCurrentPermissions",
+  "title": "GetCurrentPermissions (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483152(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetCurrentPermissions (void);",
+  "code_blocks": [
+   "DWORD GetCurrentPermissions (void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetDirectCallerProcessId",
+  "title": "GetDirectCallerProcessId (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482980(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetDirectCallerProcessId (void);",
+  "code_blocks": [
+   "DWORD GetDirectCallerProcessId (void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetEPC",
+  "title": "GetEPC (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483037(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetEPC (void);",
+  "code_blocks": [
+   "DWORD GetEPC (void);",
+   "extern DWORD GetEPC ();"
+  ],
+  "requirements": {
+   "header": "Developer",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetEventData",
+  "title": "GetEventData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482804(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetEventData( HANDLE hEvent );",
+  "code_blocks": [
+   "DWORD GetEventData( HANDLE hEvent );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetOwnerProcess",
+  "title": "GetOwnerProcess (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483052(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE GetOwnerProcess (void);",
+  "code_blocks": [
+   "HANDLE GetOwnerProcess (void);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "Because a driver runs in a different process space (**device.dll in Windows Embedded CE ) than a calling process, it is important in certain situations to know what process is making the call to this function.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetStdioPathW",
+  "title": "GetStdioPathW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482970(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetStdioPathW( DWORD id, PWSTR pwszBuf, LPDWORD lpdwLen );",
+  "code_blocks": [
+   "BOOL GetStdioPathW( DWORD id, PWSTR pwszBuf, LPDWORD lpdwLen );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetSystemMemoryDivision",
+  "title": "GetSystemMemoryDivision (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482753(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetSystemMemoryDivision( LPDWORD lpdwStorePages, LPDWORD lpdwRamPages, LPDWORD lpdwPageSize );",
+  "code_blocks": [
+   "BOOL GetSystemMemoryDivision( LPDWORD lpdwStorePages, LPDWORD lpdwRamPages, LPDWORD lpdwPageSize );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "GetThreadCallStack",
+  "title": "GetThreadCallStack (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482795(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "ULONG GetThreadCallStack( HANDLE hThrd, ULONG dwMaxFrames, LPVOID lpFrames[], DWORD dwFlags, DWORD dwSkip );",
+  "code_blocks": [
+   "ULONG GetThreadCallStack( HANDLE hThrd, ULONG dwMaxFrames, LPVOID lpFrames[], DWORD dwFlags, DWORD dwSkip );",
+   "CallSnapshot lpFrames[MAX_FRAMES]; DWORD dwCnt, dwSkip = 0; do { dwCnt = GetThreadCallStack (hThread, MAX_FRAMES, lpFrames, 0, dwSkip); if (dwCnt) { // Process the frames retrieved so far MyProcessFrames (dwCnt, lpFrames); dwSkip += dwCnt; } } while (MAX_FRAMES == dwCnt);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "** Keep the following points in mind when passing the STACKSNAP_EXTENDED_INFO or STACKSNAP_NEW_VM flags: If passing STACKSNAP_EXTENDED_INFO, Windows Embedded CE treats the lpFrames passed in as a CallSnapshotEx structure and passes back extended information for each frame, including the frame pointer, current process, four parameters, and return address. If passing STACKSNAP_NEW_VM, Windows Embedded CE treats the lpFrames passed in as a CallSnapshot3 structure and passes back extended information for each frame, including the frame pointer, current process, four parameters, return address, and the process whose VM is active. If neither flag is passed, Windows Embedded CE treats lpFrames as a CallSnapshot structure and passes back only the return addresses.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "HookInterrupt",
+  "title": "HookInterrupt (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483156(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL HookInterrupt( int hwIntNumber, FARPROC pfnHandler );",
+  "code_blocks": [
+   "BOOL HookInterrupt( int hwIntNumber, FARPROC pfnHandler );"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "INTERRUPTS_ENABLE",
+  "title": "INTERRUPTS_ENABLE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483069(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL INTERRUPTS_ENABLE( BOOL fEnable );",
+  "code_blocks": [
+   "BOOL INTERRUPTS_ENABLE( BOOL fEnable );",
+   "fWasEnabled = INTERRUPTS_ENABLE (FALSE); // Disable interrupt. DoCriticalOperations (); INTERRUPTS_ENABLE (fWasEnabled); // restore interrupt state"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "INTERRUPTS_OFF",
+  "title": "INTERRUPTS_OFF (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483019(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID INTERRUPTS_OFF (void);",
+  "code_blocks": [
+   "VOID INTERRUPTS_OFF (void);"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "INTERRUPTS_ON",
+  "title": "INTERRUPTS_ON (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482952(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID INTERRUPTS_ON (void);",
+  "code_blocks": [
+   "VOID INTERRUPTS_ON (void);"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "Nk.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ISRHandler",
+  "title": "ISRHandler (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483140(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD ISRHandler( DWORD InstanceIndex );",
+  "code_blocks": [
+   "DWORD ISRHandler( DWORD InstanceIndex );"
+  ],
+  "requirements": {
+   "library": "Developer",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "InterruptDisable",
+  "title": "InterruptDisable (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482866(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID InterruptDisable( DWORD idInt );",
+  "code_blocks": [
+   "VOID InterruptDisable( DWORD idInt );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "OEMMain.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "InterruptDone",
+  "title": "InterruptDone (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482745(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID InterruptDone( DWORD idInt );",
+  "code_blocks": [
+   "VOID InterruptDone( DWORD idInt );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "OEMMain.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "InterruptInitialize",
+  "title": "InterruptInitialize (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482998(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InterruptInitialize( DWORD idInt, HANDLE hEvent, LPVOID pvData, DWORD cbData );",
+  "code_blocks": [
+   "BOOL InterruptInitialize( DWORD idInt, HANDLE hEvent, LPVOID pvData, DWORD cbData );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "InterruptMask",
+  "title": "InterruptMask (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483157(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID InterruptMask( DWORD idInt, BOOL fDisable );",
+  "code_blocks": [
+   "VOID InterruptMask( DWORD idInt, BOOL fDisable );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "OEMMain.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "IsAPIReady",
+  "title": "IsAPIReady (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482834(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL IsAPIReady( DWORD hAPI );",
+  "code_blocks": [
+   "BOOL IsAPIReady( DWORD hAPI );"
+  ],
+  "requirements": {
+   "header": "windev.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "In Windows Embedded CE, a system-level API might not be available to be called at the time that an application or driver needs to use it. In Windows Embedded CE, the APIs that make up a version of the OS can differ from device to device.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "IsNamedEventSignaled",
+  "title": "IsNamedEventSignaled (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482750(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL IsNamedEventSignaled( LPCWSTR pszName, DWORD dwFlags );",
+  "code_blocks": [
+   "BOOL IsNamedEventSignaled( LPCWSTR pszName, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "KCompareFileTime",
+  "title": "KCompareFileTime (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483057(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG KCompareFileTime( LPFILETIME lpft1, LPFILETIME lpft2 );",
+  "code_blocks": [
+   "LONG KCompareFileTime( LPFILETIME lpft1, LPFILETIME lpft2 );"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "KFileTimeToSystemTime",
+  "title": "KFileTimeToSystemTime (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482996(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL KFileTimeToSystemTime( const FILETIME* lpft, LPSYSTEMTIME lpst );",
+  "code_blocks": [
+   "BOOL KFileTimeToSystemTime( const FILETIME* lpft, LPSYSTEMTIME lpst );"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "KSystemTimeToFileTime",
+  "title": "KSystemTimeToFileTime (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482943(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL KSystemTimeToFileTime( LPSYSTEMTIME lpst, LPFILETIME lpft );",
+  "code_blocks": [
+   "BOOL KSystemTimeToFileTime( LPSYSTEMTIME lpst, LPFILETIME lpft );"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "KernelLibIoControl",
+  "title": "KernelLibIoControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482854(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL KernelLibIoControl( HANDLE hModule, DWORD dwIoControlCode, LPVOID lpInBuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned );",
+  "code_blocks": [
+   "BOOL KernelLibIoControl( HANDLE hModule, DWORD dwIoControlCode, LPVOID lpInBuf, DWORD nInBufSize, LPVOID lpOutBuf, DWORD nOutBufSize, LPDWORD lpBytesReturned );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "LoadDriver",
+  "title": "LoadDriver (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482944(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HINSTANCE LoadDriver( LPCWSTR lpszFileName );",
+  "code_blocks": [
+   "HINSTANCE LoadDriver( LPCWSTR lpszFileName );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "LockPages",
+  "title": "LockPages (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482989(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LockPages( LPVOID lpvAddress, DWORD cbSize, PDWORD pPFNs, int fOptions );",
+  "code_blocks": [
+   "BOOL LockPages( LPVOID lpvAddress, DWORD cbSize, PDWORD pPFNs, int fOptions );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "MapCallerPtr",
+  "title": "MapCallerPtr (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482968(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID MapCallerPtr( LPVOID ptr, DWORD dwLen );",
+  "code_blocks": [
+   "LPVOID MapCallerPtr( LPVOID ptr, DWORD dwLen );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "MapPtrToProcess",
+  "title": "MapPtrToProcess (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482835(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID MapPtrToProcess( LPVOID lpv, HANDLE hProc );",
+  "code_blocks": [
+   "LPVOID MapPtrToProcess( LPVOID lpv, HANDLE hProc );",
+   "pPointer_retval = MapPtrToProcess(pPointer, (HANDLE) GetCurrentProcessId());"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "OpenWatchDogTimer",
+  "title": "OpenWatchDogTimer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482817(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE OpenWatchDogTimer( LPCWSTR pszWatchDogName, DWORD dwFlags );",
+  "code_blocks": [
+   "HANDLE OpenWatchDogTimer( LPCWSTR pszWatchDogName, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "PFNAPIERRHANDLER",
+  "title": "PFNAPIERRHANDLER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482821(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef DWORD (*PFNAPIERRHANDLER)(DWORD); DWORD pfnHandler(DWORD iMethod);",
+  "code_blocks": [
+   "typedef DWORD (*PFNAPIERRHANDLER)(DWORD); DWORD pfnHandler(DWORD iMethod);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "PFN_UIENTRYPOINT",
+  "title": "PFN_UIENTRYPOINT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482982(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef BOOL (*PFN_UIENTRYPOINT)( LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, PDWORD pBytesReturned );",
+  "code_blocks": [
+   "typedef BOOL (*PFN_UIENTRYPOINT)( LPVOID lpInBuffer, DWORD nInBufferSize, LPVOID lpOutBuffer, DWORD nOutBufferSize, PDWORD pBytesReturned );"
+  ],
+  "requirements": {
+   "header": "uiproxy.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "PageOutModule",
+  "title": "PageOutModule (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482958(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL PageOutModule( HANDLE hModule, DWORD dwFlags );",
+  "code_blocks": [
+   "BOOL PageOutModule( HANDLE hModule, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfileCaptureStatus",
+  "title": "ProfileCaptureStatus (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482993(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfileCaptureStatus();",
+  "code_blocks": [
+   "VOID ProfileCaptureStatus();"
+  ],
+  "requirements": {
+   "header": "profiler.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfileStart",
+  "title": "ProfileStart (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482995(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfileStart( DWORD dwUSecInterval, DWORD dwOptions );",
+  "code_blocks": [
+   "VOID ProfileStart( DWORD dwUSecInterval, DWORD dwOptions );",
+   "ProfileStart( 500, PROFILE_BUFFER | PROFILE_STARTPAUSED );"
+  ],
+  "requirements": {
+   "header": "profiler.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfileStartEx",
+  "title": "ProfileStartEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483025(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfileStartEx( ProfilerControl* pControl );",
+  "code_blocks": [
+   "VOID ProfileStartEx( ProfilerControl* pControl );"
+  ],
+  "requirements": {
+   "header": "profiler.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfileStop",
+  "title": "ProfileStop (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482806(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfileStop (void);",
+  "code_blocks": [
+   "VOID ProfileStop (void);"
+  ],
+  "requirements": {
+   "header": "profiler.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfilerHit",
+  "title": "ProfilerHit (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483151(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void ProfilerHit( DWORD ra );",
+  "code_blocks": [
+   "void ProfilerHit( DWORD ra );",
+   "extern void ProfilerHit(DWORD);"
+  ],
+  "requirements": {
+   "header": "Developer",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "ProfilerHitEx",
+  "title": "ProfilerHitEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483146(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID ProfilerHitEx( OEMProfilerData* pData );",
+  "code_blocks": [
+   "VOID ProfilerHitEx( OEMProfilerData* pData );"
+  ],
+  "requirements": {
+   "header": "profiler.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "RefreshWatchDogTimer",
+  "title": "RefreshWatchDogTimer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482794(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RefreshWatchDogTimer( HANDLE hWatchDog, DWORD dwFlags );",
+  "code_blocks": [
+   "BOOL RefreshWatchDogTimer( HANDLE hWatchDog, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "OEMMain.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "RegisterAPISet",
+  "title": "RegisterAPISet (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482984(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RegisterAPISet( HANDLE hASet, DWORD dwSetID );",
+  "code_blocks": [
+   "BOOL RegisterAPISet( HANDLE hASet, DWORD dwSetID );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "RegisterDirectMethods",
+  "title": "RegisterDirectMethods (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482823(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RegisterDirectMethods ( HANDLE hApiSet, const PFNVOID *ppfnDirectMethod );",
+  "code_blocks": [
+   "BOOL RegisterDirectMethods ( HANDLE hApiSet, const PFNVOID *ppfnDirectMethod );"
+  ],
+  "requirements": {
+   "header": "mkfuncs.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetAPIErrorHandler",
+  "title": "SetAPIErrorHandler (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482869(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetAPIErrorHandler( HANDLE hApiSet, PFNAPIERRHANDLER pfnHandler );",
+  "code_blocks": [
+   "BOOL SetAPIErrorHandler( HANDLE hApiSet, PFNAPIERRHANDLER pfnHandler );",
+   "typedef DWORD (*PFNAPIERRHANDLER)(DWORD);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetDbgZone",
+  "title": "SetDbgZone (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482783(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetDbgZone( DWORD dwProcid, LPVOID lpvMod, LPVOID baseptr, DWORD zone, LPDBGPARAM lpdbgTgt );",
+  "code_blocks": [
+   "BOOL SetDbgZone( DWORD dwProcid, LPVOID lpvMod, LPVOID baseptr, DWORD zone, LPDBGPARAM lpdbgTgt );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetEventData",
+  "title": "SetEventData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482792(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetEventData( HANDLE hEvent, DWORD dwData );",
+  "code_blocks": [
+   "BOOL SetEventData( HANDLE hEvent, DWORD dwData );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetInterruptEvent",
+  "title": "SetInterruptEvent (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482788(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetInterruptEvent( DWORD idInt );",
+  "code_blocks": [
+   "BOOL SetInterruptEvent( DWORD idInt );"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetJITDebuggerPath",
+  "title": "SetJITDebuggerPath (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483149(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetJITDebuggerPath( LPCWSTR pszDbgrPath );",
+  "code_blocks": [
+   "BOOL SetJITDebuggerPath( LPCWSTR pszDbgrPath );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "SetJITDebuggerPath is used primarily to handle Windows Embedded CE error reporting and to enable debugger writers to handle breakpoint exceptions coming from processes that are not being debugged.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetKMode",
+  "title": "SetKMode (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482868(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetKMode( BOOL fMode );",
+  "code_blocks": [
+   "BOOL SetKMode( BOOL fMode );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetKernelCommDev",
+  "title": "SetKernelCommDev (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482953(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetProcPermissions",
+  "title": "SetProcPermissions (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482959(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SetProcPermissions( DWORD newperms );",
+  "code_blocks": [
+   "DWORD SetProcPermissions( DWORD newperms );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetStdioPathW",
+  "title": "SetStdioPathW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482743(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetStdioPathW( DWORD id, PWSTR pwszPath );",
+  "code_blocks": [
+   "BOOL SetStdioPathW( DWORD id, PWSTR pwszPath );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetStoreQueueBase",
+  "title": "SetStoreQueueBase (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482754(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID SetStoreQueueBase( DWORD dwPhysPage );",
+  "code_blocks": [
+   "LPVOID SetStoreQueueBase( DWORD dwPhysPage );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SetSystemMemoryDivision",
+  "title": "SetSystemMemoryDivision (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482768(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SetSystemMemoryDivision( DWORD dwStorePages );",
+  "code_blocks": [
+   "DWORD SetSystemMemoryDivision( DWORD dwStorePages );"
+  ],
+  "requirements": {
+   "header": "pwindbas.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "You cannot shrink system memory or the object store memory to be less than 128 KB each, including space for existing files and records.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "SleepTillTick",
+  "title": "SleepTillTick (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482769(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void SleepTillTick();",
+  "code_blocks": [
+   "void SleepTillTick();"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "StartWatchDogTimer",
+  "title": "StartWatchDogTimer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482881(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL StartWatchDogTimer( HANDLE hWatchDog, DWORD dwFlags );",
+  "code_blocks": [
+   "BOOL StartWatchDogTimer( HANDLE hWatchDog, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "StopWatchDogTimer",
+  "title": "StopWatchDogTimer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482847(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL StopWatchDogTimer( HANDLE hWatchDog, DWORD dwFlags );",
+  "code_blocks": [
+   "BOOL StopWatchDogTimer( HANDLE hWatchDog, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "UnMapPtr",
+  "title": "UnMapPtr (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482864(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID UnMapPtr( LPVOID lpv );",
+  "code_blocks": [
+   "LPVOID UnMapPtr( LPVOID lpv );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "UnhookInterrupt",
+  "title": "UnhookInterrupt (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482747(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnhookInterrupt( INT hwInterruptNumber, FARPROC pfnHandler );",
+  "code_blocks": [
+   "BOOL UnhookInterrupt( INT hwInterruptNumber, FARPROC pfnHandler );"
+  ],
+  "requirements": {
+   "header": "nkintr.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "UnlockPages",
+  "title": "UnlockPages (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483160(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnlockPages( LPVOID lpvAddress, DWORD cbSize );",
+  "code_blocks": [
+   "BOOL UnlockPages( LPVOID lpvAddress, DWORD cbSize );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "VirtualCopy",
+  "title": "VirtualCopy (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483154(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL VirtualCopy( LPVOID lpvDest, LPVOID lpvSrc, DWORD cbSize, DWORD fdwProtect );",
+  "code_blocks": [
+   "BOOL VirtualCopy( LPVOID lpvDest, LPVOID lpvSrc, DWORD cbSize, DWORD fdwProtect );",
+   "VirtualCopy (0x50000, 0xC00DA800, 0x1000, . . .);",
+   "VirtualCopy(pvDest, (void *) (0x64000000/256), 128*1024, PAGE_READWRITE | PAGE_PHYSICAL | PAGE_NOCACHE);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "In Windows Embedded CE 6.0, Windows Embedded CE 6.0 R2, and Windows Embedded CE 6.0 R3, VirtualCopy is a kernel-mode-only function.",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "VirtualSetAttributes",
+  "title": "VirtualSetAttributes (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482857(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL VirtualSetAttributes( LPVOID lpvAddress, DWORD cbSize, DWORD dwNewFlags, DWORD dwMask, LPDWORD lpdwOldFlags );",
+  "code_blocks": [
+   "BOOL VirtualSetAttributes( LPVOID lpvAddress, DWORD cbSize, DWORD dwNewFlags, DWORD dwMask, LPDWORD lpdwOldFlags );",
+   "newValue = (oldValue & ~dwMask)|(dwNewFlags & dwMask);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "WaitForAPIReady",
+  "title": "WaitForAPIReady (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482994(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WaitForAPIReady( DWORD dwAPISlotIndex, DWORD dwTimeout );",
+  "code_blocks": [
+   "DWORD WaitForAPIReady( DWORD dwAPISlotIndex, DWORD dwTimeout );",
+   "#define SH_WIN32 0 #define SH_CURTHREAD 1 #define SH_CURPROC 2 #define SH_CURTOKEN 3 #define HT_EVENT 4 // Event handle type #define HT_MUTEX 5 // Mutex handle type #define HT_APISET 6 // kernel API set handle type #define HT_FILE 7 // open file handle type #define HT_FIND 8 // FindFirst handle type #define HT_DBFILE 9 // open database handle type #define HT_DBFIND 10 // database find handle type #define HT_SOCKET 11 // WinSock open socket handle type #define HT_CRITSEC 12 // Critical section #define HT_SEMAPHORE 13 // Semaphore handle type #define HT_FSMAP 14 // mapped files #define HT_WNETENUM 15 // Net Resource Enumeration #define HT_AFSVOLUME 16 // file system volume handle type #define SH_GDI 80 #define SH_WMGR 81 #define SH_WNET 82 // WNet APIs for network redirector #define SH_COMM 83 // Communications not COM #define SH_FILESYS_APIS 84 // File system APIS #define SH_SHELL 85 #define SH_DEVMGR_APIS 86 // File system device manager #define SH_TAPI 87 #define SH_CPROG 88 // Handle to the specified API set #define SH_SERVICES 90 #define SH_DDRAW 91 #define SH_D3DM 92"
+  ],
+  "requirements": {
+   "header": "kfuncs.h",
+   "library": "coredll.dll",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Functions"
+ },
+ {
+  "name": "cbNKPagingPoolSize",
+  "title": "cbNKPagingPoolSize (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482819(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD cbNKPagingPoolSize;",
+  "code_blocks": [
+   "DWORD cbNKPagingPoolSize;"
+  ],
+  "requirements": {
+   "header": "Developer",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Global Variables"
+ },
+ {
+  "name": "IOCTL_KLIB_GET_POOL_STATE",
+  "title": "IOCTL_KLIB_GET_POOL_STATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483005(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel I/O Controls"
+ },
+ {
+  "name": "IsInPwrHdlr",
+  "title": "IsInPwrHdlr (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482786(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "#define IsInPwrHdlr() (0 != PUserKData[PWR_FLAG_OFFSET]);",
+  "code_blocks": [
+   "#define IsInPwrHdlr() (0 != PUserKData[PWR_FLAG_OFFSET]);"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Macros"
+ },
+ {
+  "name": "CacheInfo",
+  "title": "CacheInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483008(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CacheInfo { DWORD dwL1Flags; DWORD dwL1ICacheSize; DWORD dwL1ICacheLineSize; DWORD dwL1ICacheNumWays; DWORD dwL1DCacheSize; DWORD dwL1DCacheLineSize; DWORD dwL1DCacheNumWays; DWORD dwL2Flags; DWORD dwL2ICacheSize; DWORD dwL2ICacheLineSize; DWORD dwL2ICacheNumWays; DWORD dwL2DCacheSize; DWORD dwL2DCacheLineSize; DWORD dwL2DCacheNumWays; } CacheInfo, *PCacheInfo;",
+  "code_blocks": [
+   "typedef struct _CacheInfo { DWORD dwL1Flags; DWORD dwL1ICacheSize; DWORD dwL1ICacheLineSize; DWORD dwL1ICacheNumWays; DWORD dwL1DCacheSize; DWORD dwL1DCacheLineSize; DWORD dwL1DCacheNumWays; DWORD dwL2Flags; DWORD dwL2ICacheSize; DWORD dwL2ICacheLineSize; DWORD dwL2ICacheNumWays; DWORD dwL2DCacheSize; DWORD dwL2DCacheLineSize; DWORD dwL2DCacheNumWays; } CacheInfo, *PCacheInfo;"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "CallSnapshot",
+  "title": "CallSnapshot (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482955(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CallSnapshot { DWORD dwReturnAddr; } CallSnapshot;",
+  "code_blocks": [
+   "typedef struct _CallSnapshot { DWORD dwReturnAddr; } CallSnapshot;"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "CallSnapshot3",
+  "title": "CallSnapshot3 (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483137(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CallSnapshot3 { DWORD dwReturnAddr; DWORD dwFramePtr; DWORD dwActvProc; DWORD dwVMProc; DWORD dwParams[4]; } CallSnapshot3;",
+  "code_blocks": [
+   "typedef struct _CallSnapshot3 { DWORD dwReturnAddr; DWORD dwFramePtr; DWORD dwActvProc; DWORD dwVMProc; DWORD dwParams[4]; } CallSnapshot3;"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "CallSnapshotEx",
+  "title": "CallSnapshotEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483016(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CallSnapshotEx { DWORD dwReturnAddr; DWORD dwFramePtr; DWORD dwCurProc; DWORD dwParams[4]; } CallSnapshotEx;",
+  "code_blocks": [
+   "typedef struct _CallSnapshotEx { DWORD dwReturnAddr; DWORD dwFramePtr; DWORD dwCurProc; DWORD dwParams[4]; } CallSnapshotEx;"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "NKPagePoolState",
+  "title": "NKPagePoolState (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482990(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { WORD Version; WORD Reserved; PagePoolParameters LoaderParams; PagePoolState LoaderState; PagePoolParameters FileParams; PagePoolState FileState; } NKPagePoolState;",
+  "code_blocks": [
+   "typedef struct { WORD Version; WORD Reserved; PagePoolParameters LoaderParams; PagePoolState LoaderState; PagePoolParameters FileParams; PagePoolState FileState; } NKPagePoolState;"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "OEMProfilerData",
+  "title": "OEMProfilerData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483135(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct OEMProfilerData { DWORD ra; DWORD dwBufSize; BYTE buf[0]; } OEMProfilerData;",
+  "code_blocks": [
+   "typedef struct OEMProfilerData { DWORD ra; DWORD dwBufSize; BYTE buf[0]; } OEMProfilerData;"
+  ],
+  "requirements": {
+   "header": "profiler.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "PagePoolState",
+  "title": "PagePoolState (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482954(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD CurrentSize; DWORD TrimCount; DWORD TrimTime; DWORD CriticalCount; DWORD CriticalTime; DWORD FailCount; } PagePoolState;",
+  "code_blocks": [
+   "typedef struct { DWORD CurrentSize; DWORD TrimCount; DWORD TrimTime; DWORD CriticalCount; DWORD CriticalTime; DWORD FailCount; } PagePoolState;"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "ProfilerControl",
+  "title": "ProfilerControl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483042(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct ProfilerControl { DWORD dwVersion; DWORD dwOptions; DWORD dwReserved; union { struct { DWORD dwUSecInterval; } Kernel; struct { DWORD dwProcessorType; DWORD dwControlSize; BYTE bHardwareSpecificSettings[0]; } OEM; }; } ProfilerControl;",
+  "code_blocks": [
+   "typedef struct ProfilerControl { DWORD dwVersion; DWORD dwOptions; DWORD dwReserved; union { struct { DWORD dwUSecInterval; } Kernel; struct { DWORD dwProcessorType; DWORD dwControlSize; BYTE bHardwareSpecificSettings[0]; } OEM; }; } ProfilerControl;"
+  ],
+  "requirements": {
+   "header": "profiler.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "ROMHDR",
+  "title": "ROMHDR (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee482991(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct ROMHDR { ULONG dllfirst; ULONG dlllast; ULONG physfirst; ULONG physlast; ULONG nummods; ULONG ulRAMStart; ULONG ulRAMFree; ULONG ulRAMEnd; ULONG ulCopyEntries; ULONG ulCopyOffset; ULONG ulProfileLen; ULONG ulProfileOffset; ULONG numfiles; ULONG ulKernelFlags; ULONG ulFSRamPercent; ULONG ulDrivglobStart; ULONG ulDrivglobLen; USHORT usCPUType; USHORT usMiscFlags; PVOID pExtensions; ULONG ulTrackingStart; ULONG ulTrackingLen; } ROMHDR;",
+  "code_blocks": [
+   "typedef struct ROMHDR { ULONG dllfirst; ULONG dlllast; ULONG physfirst; ULONG physlast; ULONG nummods; ULONG ulRAMStart; ULONG ulRAMFree; ULONG ulRAMEnd; ULONG ulCopyEntries; ULONG ulCopyOffset; ULONG ulProfileLen; ULONG ulProfileOffset; ULONG numfiles; ULONG ulKernelFlags; ULONG ulFSRamPercent; ULONG ulDrivglobStart; ULONG ulDrivglobLen; USHORT usCPUType; USHORT usMiscFlags; PVOID pExtensions; ULONG ulTrackingStart; ULONG ulTrackingLen; } ROMHDR;"
+  ],
+  "requirements": {
+   "header": "romldr.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "XIPCHAIN_ENTRY",
+  "title": "XIPCHAIN_ENTRY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483159(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _XIPCHAIN_ENTRY { LPVOID pvAddr; DWORD dwLength; DWORD dwMaxLength; USHORT usOrder; USHORT usFlags; DWORD dwVersion; CHAR szName[XIP_NAMELEN]; DWORD dwAlgoFlags; DWORD dwKeyLen; BYTE byPublicKey[596]; } XIPCHAIN_ENTRY, *PXIPCHAIN_ENTRY;",
+  "code_blocks": [
+   "typedef struct _XIPCHAIN_ENTRY { LPVOID pvAddr; DWORD dwLength; DWORD dwMaxLength; USHORT usOrder; USHORT usFlags; DWORD dwVersion; CHAR szName[XIP_NAMELEN]; DWORD dwAlgoFlags; DWORD dwKeyLen; BYTE byPublicKey[596]; } XIPCHAIN_ENTRY, *PXIPCHAIN_ENTRY;"
+  ],
+  "requirements": {
+   "header": "romldr.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ },
+ {
+  "name": "XIPCHAIN_INFO",
+  "title": "XIPCHAIN_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee483006(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _XIPCHAIN_INFO { DWORD cXIPs; XIPCHAIN_ENTRY xipEntryStart; } XIPCHAIN_INFO, *PXIPCHAIN_INFO;",
+  "code_blocks": [
+   "typedef struct _XIPCHAIN_INFO { DWORD cXIPs; XIPCHAIN_ENTRY xipEntryStart; } XIPCHAIN_INFO, *PXIPCHAIN_INFO;"
+  ],
+  "requirements": {
+   "header": "romldr.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "kernel",
+  "sub": "Kernel Structures"
+ }
+]

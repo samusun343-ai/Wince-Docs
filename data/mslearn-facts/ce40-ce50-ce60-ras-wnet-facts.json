@@ -1,0 +1,2861 @@
+[
+ {
+  "name": "RASCONNSTATE",
+  "title": "RASCONNSTATE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897084(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _RASCONNSTATE { RASCS_OpenPort = 0, RASCS_PortOpened, RASCS_ConnectDevice, RASCS_DeviceConnected, RASCS_AllDevicesConnected, RASCS_Authenticate, RASCS_AuthNotify, RASCS_AuthRetry, RASCS_AuthCallback, RASCS_AuthChangePassword, RASCS_AuthProject, RASCS_AuthLinkSpeed, RASCS_AuthAck, RASCS_ReAuthenticate, RASCS_Authenticated, RASCS_PrepareForCallback, RASCS_WaitForModemReset, RASCS_WaitForCallback, RASCS_Projected, RASCS_Interactive = RASCS_PAUSED, RASCS_RetryAuthentication, RASCS_CallbackSetByCaller, RASCS_PasswordExpired, RASCS_Connected = RASCS_DONE, RASCS_Disconnected } RASCONNSTATE;",
+  "code_blocks": [
+   "typedef enum _RASCONNSTATE { RASCS_OpenPort = 0, RASCS_PortOpened, RASCS_ConnectDevice, RASCS_DeviceConnected, RASCS_AllDevicesConnected, RASCS_Authenticate, RASCS_AuthNotify, RASCS_AuthRetry, RASCS_AuthCallback, RASCS_AuthChangePassword, RASCS_AuthProject, RASCS_AuthLinkSpeed, RASCS_AuthAck, RASCS_ReAuthenticate, RASCS_Authenticated, RASCS_PrepareForCallback, RASCS_WaitForModemReset, RASCS_WaitForCallback, RASCS_Projected, RASCS_Interactive = RASCS_PAUSED, RASCS_RetryAuthentication, RASCS_CallbackSetByCaller, RASCS_PasswordExpired, RASCS_Connected = RASCS_DONE, RASCS_Disconnected } RASCONNSTATE;",
+   "fDoneState = (state & RASCS_DONE); fPausedState = (state & RASCS_PAUSED); fRunState = !(fDoneState || fPausedState);"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Enumerations"
+ },
+ {
+  "name": "RASPROJECTION",
+  "title": "RASPROJECTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897112(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _RASPROJECTION { RASP_Amb = 0x10000, RASP_PppNbf = 0x803F, RASP_PppIpx = 0x802B, RASP_PppIp = 0x8021, RASP_PppIpV6 = 0x8057, RASP_PppCcp = 0x80FD, RASP_PppLcp = 0xC021, RASP_Slip = 0x20000 } RASPROJECTION;",
+  "code_blocks": [
+   "typedef enum _RASPROJECTION { RASP_Amb = 0x10000, RASP_PppNbf = 0x803F, RASP_PppIpx = 0x802B, RASP_PppIp = 0x8021, RASP_PppIpV6 = 0x8057, RASP_PppCcp = 0x80FD, RASP_PppLcp = 0xC021, RASP_Slip = 0x20000 } RASPROJECTION;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE supports the RASP_PppIp and RASP_PppIpv6 values.",
+  "area": "ras",
+  "sub": "RAS Enumerations"
+ },
+ {
+  "name": "RasDeleteEntry",
+  "title": "RasDeleteEntry",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897087(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasDeleteEntry( LPWSTR lpszPhonebook, LPWSTR lpszEntry );",
+  "code_blocks": [
+   "DWORD RasDeleteEntry( LPWSTR lpszPhonebook, LPWSTR lpszEntry );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasDevConfigDialogEdit",
+  "title": "RasDevConfigDialogEdit",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897088(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasDevConfigDialogEdit( LPCWSTR szDeviceName, LPCWSTR szDeviceType, HWND hWndOwner, LPVOID lpDeviceConfigIn, DWORD dwSize, LPVARSTRING lpDeviceConfigOut );",
+  "code_blocks": [
+   "DWORD RasDevConfigDialogEdit( LPCWSTR szDeviceName, LPCWSTR szDeviceType, HWND hWndOwner, LPVOID lpDeviceConfigIn, DWORD dwSize, LPVARSTRING lpDeviceConfigOut );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasDial",
+  "title": "RasDial",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897090(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasDial( LPRASDIALEXTENSIONS dialExtensions, LPTSTR phoneBookPath, LPRASDIALPARAMS rasDialParam, DWORD NotifierType, LPVOID notifier, LPHRASCONN pRasConn );",
+  "code_blocks": [
+   "DWORD RasDial( LPRASDIALEXTENSIONS dialExtensions, LPTSTR phoneBookPath, LPRASDIALPARAMS rasDialParam, DWORD NotifierType, LPVOID notifier, LPHRASCONN pRasConn );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasEnumConnections",
+  "title": "RasEnumConnections",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897095(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasEnumConnections( LPRASCONN lprasconn, LPDWORD lpcb, LPDWORD lpcConnections );",
+  "code_blocks": [
+   "DWORD RasEnumConnections( LPRASCONN lprasconn, LPDWORD lpcb, LPDWORD lpcConnections );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasEnumDevices",
+  "title": "RasEnumDevices",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897096(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasEnumDevices( LPRASDEVINFOW lpRasDevinfo, LPDWORD lpcb, LPDWORD lpcDevices );",
+  "code_blocks": [
+   "DWORD RasEnumDevices( LPRASDEVINFOW lpRasDevinfo, LPDWORD lpcb, LPDWORD lpcDevices );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasEnumEntries",
+  "title": "RasEnumEntries",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897097(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasEnumEntries( LPWSTR Reserved, LPWSTR lpszPhoneBookPath, LPRASENTRYNAME lprasentryname, LPDWORD lpcb, LPDWORD lpcEntries );",
+  "code_blocks": [
+   "DWORD RasEnumEntries( LPWSTR Reserved, LPWSTR lpszPhoneBookPath, LPRASENTRYNAME lprasentryname, LPDWORD lpcb, LPDWORD lpcEntries );",
+   "lprasentryname = (LPRASENTRYNAME)LocalAlloc(LPTR, sizeof(RASENTRYNAME)); lprasentryname->dwSize = sizeof(RASENTRYNAME); if ((nRet = RasEnumEntries(NULL, NULL, lprasentryname, &cb, &cEntries)) == ERROR_BUFFER_TOO_SMALL) { lprasentryname = (LPRASENTRYNAME)LocalAlloc(LPTR, cb); lprasentryname->dwSize = sizeof(RASENTRYNAME); } // Calling RasEnumEntries to enumerate the phonebook entries nRet = RasEnumEntries(NULL, NULL, lprasentryname, &cb, &cEntries); if (nRet != ERROR_SUCCESS) { printf(\"RasEnumEntries failed: Error %d\\n\", nRet); } else { printf(\"Phone book entries in the default phonebook:\\n\\n\"); for(i=0;i < cEntries;i++) { printf(\"%s\\n\",lprasentryname->szEntryName); lprasentryname++; } }"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetConnectStatus",
+  "title": "RasGetConnectStatus",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897100(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetConnectStatus( HRASCONN rasconn, LPRASCONNSTATUS lprasconnstatus );",
+  "code_blocks": [
+   "DWORD RasGetConnectStatus( HRASCONN rasconn, LPRASCONNSTATUS lprasconnstatus );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetDispPhoneNum",
+  "title": "RasGetDispPhoneNum",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897101(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "RasGetDispPhoneNum( LPCWSTR szPhonebook, LPCWSTR szEntry, LPWSTR szPhoneNum, DWORD dwPhoneNumLen );",
+  "code_blocks": [
+   "RasGetDispPhoneNum( LPCWSTR szPhonebook, LPCWSTR szEntry, LPWSTR szPhoneNum, DWORD dwPhoneNumLen );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEapConnectionData",
+  "title": "RasGetEapConnectionData",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897102(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEapConnectionData( LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );",
+  "code_blocks": [
+   "DWORD RasGetEapConnectionData( LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEapUserData",
+  "title": "RasGetEapUserData",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897103(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEapUserData( HANDLE hToken, LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );",
+  "code_blocks": [
+   "DWORD RasGetEapUserData( HANDLE hToken, LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEntryDialParams",
+  "title": "RasGetEntryDialParams",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897104(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEntryDialParams( LPWSTR lpszPhoneBook, LPRASDIALPARAMS lpRasDialParams, LPBOOL lpfPassword );",
+  "code_blocks": [
+   "DWORD RasGetEntryDialParams( LPWSTR lpszPhoneBook, LPRASDIALPARAMS lpRasDialParams, LPBOOL lpfPassword );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "To provide a networking environment with enhanced security, Windows CE-based devices should include the functionality for a power-on password.",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEntryProperties",
+  "title": "RasGetEntryProperties",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897105(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEntryProperties( LPWSTR lpszPhoneBook, LPWSTR szEntry, LPRASENTRY lpbEntry, LPDWORD lpdwEntrySize, LPBYTE lpb, LPDWORD lpdwSize );",
+  "code_blocks": [
+   "DWORD RasGetEntryProperties( LPWSTR lpszPhoneBook, LPWSTR szEntry, LPRASENTRY lpbEntry, LPDWORD lpdwEntrySize, LPBYTE lpb, LPDWORD lpdwSize );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For Windows CE version 2.0 and later, device configuration information can be retrieved by using the lpb and lpdwSize parameters. For Windows CE version 1.0 and 1.01, the lpb and lpdwSize parameters are ignored and should be set to NULL.",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetLinkStatistics",
+  "title": "RasGetLinkStatistics",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897106(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetLinkStatistics( HRASCONN hRasConn, DWORD dwSubEntry, RAS_STATS* lpStatistics );",
+  "code_blocks": [
+   "DWORD RasGetLinkStatistics( HRASCONN hRasConn, DWORD dwSubEntry, RAS_STATS* lpStatistics );"
+  ],
+  "requirements": {
+   "header": "Ras.h.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetProjectionInfo",
+  "title": "RasGetProjectionInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897107(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetProjectionInfo( HRASCONN hrasconn, RASPROJECTION rasprojection, LPVOID lpprojection, LPDWORD lpcb );",
+  "code_blocks": [
+   "DWORD RasGetProjectionInfo( HRASCONN hrasconn, RASPROJECTION rasprojection, LPVOID lpprojection, LPDWORD lpcb );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasHangUp",
+  "title": "RasHangUp",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897108(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasHangUp( HRASCONN Session );",
+  "code_blocks": [
+   "DWORD RasHangUp( HRASCONN Session );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasRenameEntry",
+  "title": "RasRenameEntry",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897114(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasRenameEntry( LPWSTR lpszPhonebook, LPWSTR lpszOldEntry, LPWSTR lpszNewEntry );",
+  "code_blocks": [
+   "DWORD RasRenameEntry( LPWSTR lpszPhonebook, LPWSTR lpszOldEntry, LPWSTR lpszNewEntry );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEapConnectionData",
+  "title": "RasSetEapConnectionData",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897092(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEapConnectionData ( LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );",
+  "code_blocks": [
+   "DWORD RasSetEapConnectionData ( LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEapUserData",
+  "title": "RasSetEapUserData",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897117(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEapUserData( HANDLE hToken, LPCTSTR pszPhonebook, LPCTSTR pszEntry, BYTE* pbEapData, DWORD dwSizeofEapData );",
+  "code_blocks": [
+   "DWORD RasSetEapUserData( HANDLE hToken, LPCTSTR pszPhonebook, LPCTSTR pszEntry, BYTE* pbEapData, DWORD dwSizeofEapData );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEntryDialParams",
+  "title": "RasSetEntryDialParams",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897118(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEntryDialParams( LPWSTR lpszPhoneBook, LPRASDIALPARAMS lpRasDialParams, BOOL fRemovePassword );",
+  "code_blocks": [
+   "DWORD RasSetEntryDialParams( LPWSTR lpszPhoneBook, LPRASDIALPARAMS lpRasDialParams, BOOL fRemovePassword );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEntryProperties",
+  "title": "RasSetEntryProperties",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897119(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEntryProperties( LPWSTR lpszPhoneBook, LPWSTR szEntry, LPRASENTRY lpbEntry, DWORD dwEntrySize, LPBYTE lpb, DWORD dwSize );",
+  "code_blocks": [
+   "DWORD RasSetEntryProperties( LPWSTR lpszPhoneBook, LPWSTR szEntry, LPRASENTRY lpbEntry, DWORD dwEntrySize, LPBYTE lpb, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For Windows CE version 1.0 and 1.01, the lpb and dwSize parameters are ignored and should be set to NULL. For Windows CE version 2.0 and later, device configuration information can be set by using lpb and dwSize parameters. Windows CE does not use the alternate phone number list.",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasValidateEntryName",
+  "title": "RasValidateEntryName",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897120(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasValidateEntryName( LPWSTR lpszPhonebook, LPWSTR lpszEntry );",
+  "code_blocks": [
+   "DWORD RasValidateEntryName( LPWSTR lpszPhonebook, LPWSTR lpszEntry );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "WM_RASDIALEVENT",
+  "title": "WM_RASDIALEVENT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897135(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WM_RASDIALEVENT rasconnstate = (RASCONNSTATE) wParam; dwError = (DWORD) lParam;",
+  "code_blocks": [
+   "WM_RASDIALEVENT rasconnstate = (RASCONNSTATE) wParam; dwError = (DWORD) lParam;"
+  ],
+  "requirements": {
+   "header": "Winuser.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Messages"
+ },
+ {
+  "name": "DIALER_NOTIFICATION",
+  "title": "DIALER_NOTIFICATION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897083(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwNotificationId; DWORD dwNotificationParam; } DIALER_NOTIFICATION, PDIALER_NOTIFICATION;",
+  "code_blocks": [
+   "typedef struct { DWORD dwNotificationId; DWORD dwNotificationParam; } DIALER_NOTIFICATION, PDIALER_NOTIFICATION;"
+  ],
+  "requirements": {
+   "header": "Autoras.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASCONN",
+  "title": "RASCONN",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897054(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASCONN { DWORD dwSize; HRASCONN hrasconn; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASCONN;",
+  "code_blocks": [
+   "typedef struct _RASCONN { DWORD dwSize; HRASCONN hrasconn; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASCONN;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASCONNSTATUS",
+  "title": "RASCONNSTATUS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897085(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASCONNSTATUS { DWORD dwSize; RASCONNSTATE rasconnstate; DWORD dwError; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASCONNSTATUS;",
+  "code_blocks": [
+   "typedef struct _RASCONNSTATUS { DWORD dwSize; RASCONNSTATE rasconnstate; DWORD dwError; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASCONNSTATUS;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASDEVINFO",
+  "title": "RASDEVINFO",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897089(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagRASDEVINFO { DWORD dwSize; CHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; CHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASDEVINFO;",
+  "code_blocks": [
+   "typedef struct tagRASDEVINFO { DWORD dwSize; CHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; CHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASDEVINFO;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASDIALPARAMS",
+  "title": "RASDIALPARAMS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897091(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASDIALPARAMS { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; TCHAR szPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; TCHAR szCallbackNumber[ RAS_MaxCallbackNumber + 1 ]; TCHAR szUserName[ UNLEN + 1 ]; TCHAR szPassword[ PWLEN + 1 ]; TCHAR szDomain[ DNLEN + 1 ]; } RASDIALPARAMS;",
+  "code_blocks": [
+   "typedef struct _RASDIALPARAMS { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; TCHAR szPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; TCHAR szCallbackNumber[ RAS_MaxCallbackNumber + 1 ]; TCHAR szUserName[ UNLEN + 1 ]; TCHAR szPassword[ PWLEN + 1 ]; TCHAR szDomain[ DNLEN + 1 ]; } RASDIALPARAMS;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "The szCallbackNumber and szPhoneNumber members are ignored and should always be set to NULL. When retrieving the password using the RasGetEntryDialParams function in Windows CE 3.0 or later, the szPassword member does not receive the actual password.",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASENTRY",
+  "title": "RASENTRY",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897093(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef_struct_RASENTRY { DWORD dwSize; DWORD dwfOptions; DWORD dwCountryID; DWORD dwCountryCode; TCHAR szAreaCode[ RAS_MaxAreaCode + 1 ]; TCHAR szLocalPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; DWORD dwAlternatesOffset; RASIPADDR ipaddr; RASIPADDR ipaddrDns; RASIPADDR ipaddrDnsAlt; RASIPADDR ipaddrWins; RASIPADDR ipaddrWinsAlt; DWORD dwFrameSize; DWORD dwfNetProtocols; DWORD dwFramingProtocol; TCHAR szScript[ MAX_PATH ]; TCHAR szAutoDialDll[ MAX_PATH ]; TCHAR szAutoDialFunc[ MAX_PATH ]; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; TCHAR szX25PadType[ RAS_MaxPadType + 1 ]; TCHAR szX25Address[ RAS_MaxX25Address + 1 ]; TCHAR szX25Facilities[ RAS_MaxFacilities + 1 ]; TCHAR szX25UserData[ RAS_MaxUserData + 1 ]; DWORD dwChannels; DWORD dwReserved1; DWORD dwReserved2; DWORD dwCustomAuthKey; } RASENTRY;",
+  "code_blocks": [
+   "typedef_struct_RASENTRY { DWORD dwSize; DWORD dwfOptions; DWORD dwCountryID; DWORD dwCountryCode; TCHAR szAreaCode[ RAS_MaxAreaCode + 1 ]; TCHAR szLocalPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; DWORD dwAlternatesOffset; RASIPADDR ipaddr; RASIPADDR ipaddrDns; RASIPADDR ipaddrDnsAlt; RASIPADDR ipaddrWins; RASIPADDR ipaddrWinsAlt; DWORD dwFrameSize; DWORD dwfNetProtocols; DWORD dwFramingProtocol; TCHAR szScript[ MAX_PATH ]; TCHAR szAutoDialDll[ MAX_PATH ]; TCHAR szAutoDialFunc[ MAX_PATH ]; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; TCHAR szX25PadType[ RAS_MaxPadType + 1 ]; TCHAR szX25Address[ RAS_MaxX25Address + 1 ]; TCHAR szX25Facilities[ RAS_MaxFacilities + 1 ]; TCHAR szX25UserData[ RAS_MaxUserData + 1 ]; DWORD dwChannels; DWORD dwReserved1; DWORD dwReserved2; DWORD dwCustomAuthKey; } RASENTRY;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "On Windows CE, the dwCountryID member is ignored, and the dwCountryCode member must be set to the correct country/region code for the phone number of the entry. Windows CE does not support the RASEO_TerminalBeforeDial and RASEO_TerminalAfterDial values for the dwfOptions member.",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASENTRYNAME",
+  "title": "RASENTRYNAME",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897094(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASENTRYNAME { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASENTRYNAME;",
+  "code_blocks": [
+   "typedef struct _RASENTRYNAME { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASENTRYNAME;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASIPADDR",
+  "title": "RASIPADDR",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897109(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct RASIPADDR { BYTE a; BYTE b; BYTE c; BYTE d; } RASIPADDR;",
+  "code_blocks": [
+   "typedef struct RASIPADDR { BYTE a; BYTE b; BYTE c; BYTE d; } RASIPADDR;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE, the order of the a , b , c , and d members are transposed to d , c , b , and a .",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASPPPIP",
+  "title": "RASPPPIP",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897110(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASPPPIP { DWORD dwSize; DWORD dwError; TCHAR szIpAddress[ RAS_MaxIpAddress + 1 ]; } RASPPPIP;",
+  "code_blocks": [
+   "typedef struct _RASPPPIP { DWORD dwSize; DWORD dwError; TCHAR szIpAddress[ RAS_MaxIpAddress + 1 ]; } RASPPPIP;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Remarks To retrieve PPP IP information on Windows CE–based devices, dwSize must specify the size of the RASPPPIP structure without the szServerIpAddress member.",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASPPPIPV6",
+  "title": "RASPPPIPV6",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897068(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "#define RASPPPIPV6 struct tagRASPPPIPV6 RASPPPIPV6 { DWORD dwSize; DWORD dwError; BYTE LocalInterfaceIdentifier[8]; BYTE PeerInterfaceIdentifier[8]; BYTE LocalCompressionProtocol[2]; BYTE PeerCompressionProtocol[2]; }; #define LPRASPPPIPV6 RASPPPIPV6*",
+  "code_blocks": [
+   "#define RASPPPIPV6 struct tagRASPPPIPV6 RASPPPIPV6 { DWORD dwSize; DWORD dwError; BYTE LocalInterfaceIdentifier[8]; BYTE PeerInterfaceIdentifier[8]; BYTE LocalCompressionProtocol[2]; BYTE PeerCompressionProtocol[2]; }; #define LPRASPPPIPV6 RASPPPIPV6*"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RAS_STATS",
+  "title": "RAS_STATS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms897121(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RAS_STATS { DWORD dwSize; DWORD dwBytesXmited; DWORD dwBytesRcved; DWORD dwFramesXmited; DWORD dwFramesRcved; DWORD dwCrcErr; DWORD dwTimeoutErr; DWORD dwAlignmentErr; DWORD dwHardwareOverrunErr; DWORD dwFramingErr; DWORD dwBufferOverrunErr; DWORD dwCompressionRatioIn; DWORD dwCompressionRatioOut; DWORD dwBps; DWORD dwConnectDuration; } RAS_STATS, *PRAS_STATS;",
+  "code_blocks": [
+   "typedef struct _RAS_STATS { DWORD dwSize; DWORD dwBytesXmited; DWORD dwBytesRcved; DWORD dwFramesXmited; DWORD dwFramesRcved; DWORD dwCrcErr; DWORD dwTimeoutErr; DWORD dwAlignmentErr; DWORD dwHardwareOverrunErr; DWORD dwFramingErr; DWORD dwBufferOverrunErr; DWORD dwCompressionRatioIn; DWORD dwCompressionRatioOut; DWORD dwBps; DWORD dwConnectDuration; } RAS_STATS, *PRAS_STATS;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "WNetAddConnection3",
+  "title": "WNetAddConnection3",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925120(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetAddConnection3( HWND hwndOwner, LPNETRESOURCE lpNetResource, LPTSTR lpPassword, LPTSTR lpUserName, DWORD dwFlags );",
+  "code_blocks": [
+   "DWORD WNetAddConnection3( HWND hwndOwner, LPNETRESOURCE lpNetResource, LPTSTR lpPassword, LPTSTR lpUserName, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE does not support the concept of drive-letters. Windows CE supports only the \"Microsoft Windows Network\" provider.",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetCancelConnection2",
+  "title": "WNetCancelConnection2",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925121(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetCancelConnection2( LPTSTR lpName, DWORD dwFlags, BOOL fForce );",
+  "code_blocks": [
+   "DWORD WNetCancelConnection2( LPTSTR lpName, DWORD dwFlags, BOOL fForce );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetCloseEnum",
+  "title": "WNetCloseEnum",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925122(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetCloseEnum( HANDLE hEnum );",
+  "code_blocks": [
+   "DWORD WNetCloseEnum( HANDLE hEnum );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetConnectionDialog1",
+  "title": "WNetConnectionDialog1",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925123(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetConnectionDialog1( LPCONNECTDLGSTRUCT lpConnectDlgStruct );",
+  "code_blocks": [
+   "DWORD WNetConnectionDialog1( LPCONNECTDLGSTRUCT lpConnectDlgStruct );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "The **dwDevNum****member of the CONNECTDLGSTRUCT structure pointed to by the lpConnectDlgStruc parameter is ignored.",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetDisconnectDialog",
+  "title": "WNetDisconnectDialog",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925124(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetDisconnectDialog( HWND hwnd, DWORD dwType );",
+  "code_blocks": [
+   "DWORD WNetDisconnectDialog( HWND hwnd, DWORD dwType );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetDisconnectDialog1",
+  "title": "WNetDisconnectDialog1",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925125(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetDisconnectDialog1( LPDISCDLGSTRUCT lpDiscDlgStruct );",
+  "code_blocks": [
+   "DWORD WNetDisconnectDialog1( LPDISCDLGSTRUCT lpDiscDlgStruct );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetEnumResource",
+  "title": "WNetEnumResource",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925126(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetEnumResource( HANDLE hEnum, LPDWORD lpcCount, LPVOID lpBuffer, LPDWORD lpBufferSize );",
+  "code_blocks": [
+   "DWORD WNetEnumResource( HANDLE hEnum, LPDWORD lpcCount, LPVOID lpBuffer, LPDWORD lpBufferSize );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetGetConnection",
+  "title": "WNetGetConnection",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925127(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetGetConnection( LPCTSTR lpLocalName, LPTSTR lpRemoteName, LPDWORD lpnLength );",
+  "code_blocks": [
+   "DWORD WNetGetConnection( LPCTSTR lpLocalName, LPTSTR lpRemoteName, LPDWORD lpnLength );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetGetUniversalName",
+  "title": "WNetGetUniversalName",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925128(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetGetUniversalName( LPCTSTR lpLocalPath, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpBufferSize );",
+  "code_blocks": [
+   "DWORD WNetGetUniversalName( LPCTSTR lpLocalPath, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpBufferSize );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetGetUser",
+  "title": "WNetGetUser",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925129(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetGetUser( LPCTSTR lpName, LPTSTR lpUserName, LPDWORD lpnLength );",
+  "code_blocks": [
+   "DWORD WNetGetUser( LPCTSTR lpName, LPTSTR lpUserName, LPDWORD lpnLength );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetOpenEnum",
+  "title": "WNetOpenEnum",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925130(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetOpenEnum( DWORD dwScope, DWORD dwType, DWORD dwUsage, LPNETRESOURCE lpNetResource, LPHANDLE lphEnum );",
+  "code_blocks": [
+   "DWORD WNetOpenEnum( DWORD dwScope, DWORD dwType, DWORD dwUsage, LPNETRESOURCE lpNetResource, LPHANDLE lphEnum );",
+   "LanMan (container, in this case the provider) ACCOUNTING (container, in this case the domain) \\\\ACCTSPAY (container, in this case the server) PAYFILES (disk) LASERJET (print)"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "CONNECTDLGSTRUCT",
+  "title": "CONNECTDLGSTRUCT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925115(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD cbStructure; HWND hwndOwner; LPNETRESOURCE lpConnRes; DWORD dwFlags; DWORD dwDevNum; } CONNECTDLGSTRUCT;",
+  "code_blocks": [
+   "typedef struct { DWORD cbStructure; HWND hwndOwner; LPNETRESOURCE lpConnRes; DWORD dwFlags; DWORD dwDevNum; } CONNECTDLGSTRUCT;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "DISCDLGSTRUCT",
+  "title": "DISCDLGSTRUCT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925116(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _wcesdk_win32_DISCDLGSTRUCT_str{ DWORD cbStructure; HWND hwndOwner; LPTSTR lpLocalName; LPTSTR lpRemoteName; DWORD dwFlags; } DISCDLGSTRUCT;",
+  "code_blocks": [
+   "typedef struct _wcesdk_win32_DISCDLGSTRUCT_str{ DWORD cbStructure; HWND hwndOwner; LPTSTR lpLocalName; LPTSTR lpRemoteName; DWORD dwFlags; } DISCDLGSTRUCT;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "NETRESOURCE",
+  "title": "NETRESOURCE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925117(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _NETRESOURCE { DWORD dwScope; DWORD dwType; DWORD dwDisplayType; DWORD dwUsage; LPTSTR lpLocalName; LPTSTR lpRemoteName; LPTSTR lpComment; LPTSTR lpProvider; } NETRESOURCE;",
+  "code_blocks": [
+   "typedef struct _NETRESOURCE { DWORD dwScope; DWORD dwType; DWORD dwDisplayType; DWORD dwUsage; LPTSTR lpLocalName; LPTSTR lpRemoteName; LPTSTR lpComment; LPTSTR lpProvider; } NETRESOURCE;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE does not support paths with the prefix of \"drive letters.\" The lpLocalName member can contain any string of up to 64 characters long.",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "REMOTE_NAME_INFO",
+  "title": "REMOTE_NAME_INFO",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925118(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _REMOTE_NAME_INFO { LPTSTR lpUniversalName; LPTSTR lpConnectionName; LPTSTR lpRemainingPath; } REMOTE_NAME_INFO;",
+  "code_blocks": [
+   "typedef struct _REMOTE_NAME_INFO { LPTSTR lpUniversalName; LPTSTR lpConnectionName; LPTSTR lpRemainingPath; } REMOTE_NAME_INFO;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "UNIVERSAL_NAME_INFO",
+  "title": "UNIVERSAL_NAME_INFO",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms925119(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _UNIVERSAL_NAME_INFO { LPTSTR lpUniversalName; } UNIVERSAL_NAME_INFO;",
+  "code_blocks": [
+   "typedef struct _UNIVERSAL_NAME_INFO { LPTSTR lpUniversalName; } UNIVERSAL_NAME_INFO;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "RASCONNSTATE",
+  "title": "RASCONNSTATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896360(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _RASCONNSTATE { RASCS_OpenPort = 0,RASCS_PortOpened,RASCS_ConnectDevice,RASCS_DeviceConnected,RASCS_AllDevicesConnected,RASCS_Authenticate,RASCS_AuthNotify,RASCS_AuthRetry,RASCS_AuthCallback,RASCS_AuthChangePassword,RASCS_AuthProject,RASCS_AuthLinkSpeed,RASCS_AuthAck,RASCS_ReAuthenticate,RASCS_Authenticated,RASCS_PrepareForCallback,RASCS_WaitForModemReset,RASCS_WaitForCallback,RASCS_Projected,RASCS_Interactive = RASCS_PAUSED,RASCS_RetryAuthentication,RASCS_CallbackSetByCaller,RASCS_PasswordExpired,RASCS_Connected = RASCS_DONE,RASCS_Disconnected } RASCONNSTATE;",
+  "code_blocks": [
+   "typedef enum _RASCONNSTATE { RASCS_OpenPort = 0,RASCS_PortOpened,RASCS_ConnectDevice,RASCS_DeviceConnected,RASCS_AllDevicesConnected,RASCS_Authenticate,RASCS_AuthNotify,RASCS_AuthRetry,RASCS_AuthCallback,RASCS_AuthChangePassword,RASCS_AuthProject,RASCS_AuthLinkSpeed,RASCS_AuthAck,RASCS_ReAuthenticate,RASCS_Authenticated,RASCS_PrepareForCallback,RASCS_WaitForModemReset,RASCS_WaitForCallback,RASCS_Projected,RASCS_Interactive = RASCS_PAUSED,RASCS_RetryAuthentication,RASCS_CallbackSetByCaller,RASCS_PasswordExpired,RASCS_Connected = RASCS_DONE,RASCS_Disconnected } RASCONNSTATE;",
+   "fDoneState = (state & RASCS_DONE); fPausedState = (state & RASCS_PAUSED); fRunState = !(fDoneState || fPausedState);"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Enumerations"
+ },
+ {
+  "name": "RASPROJECTION",
+  "title": "RASPROJECTION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450856(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _RASPROJECTION { RASP_Amb = 0x10000, RASP_PppNbf = 0x803F, RASP_PppIpx = 0x802B, RASP_PppIp = 0x8021, RASP_PppIpV6 = 0x8057, RASP_PppCcp = 0x80FD, RASP_PppLcp = 0xC021, RASP_Slip = 0x20000} RASPROJECTION;",
+  "code_blocks": [
+   "typedef enum _RASPROJECTION { RASP_Amb = 0x10000, RASP_PppNbf = 0x803F, RASP_PppIpx = 0x802B, RASP_PppIp = 0x8021, RASP_PppIpV6 = 0x8057, RASP_PppCcp = 0x80FD, RASP_PppLcp = 0xC021, RASP_Slip = 0x20000} RASPROJECTION;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE supports the RASP_PppIp and RASP_PppIpv6 values.",
+  "area": "ras",
+  "sub": "RAS Enumerations"
+ },
+ {
+  "name": "RasDeleteEntry",
+  "title": "RasDeleteEntry (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896363(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasDeleteEntry(LPWSTR lpszPhonebook, LPWSTR lpszEntry);",
+  "code_blocks": [
+   "DWORD RasDeleteEntry(LPWSTR lpszPhonebook, LPWSTR lpszEntry);"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasDevConfigDialogEdit",
+  "title": "RasDevConfigDialogEdit (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450832(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasDevConfigDialogEdit(LPCWSTRszDeviceName,LPCWSTRszDeviceType,HWNDhWndOwner,LPVOIDlpDeviceConfigIn,DWORD dwSize,LPVARSTRINGlpDeviceConfigOut);",
+  "code_blocks": [
+   "DWORD RasDevConfigDialogEdit(LPCWSTRszDeviceName,LPCWSTRszDeviceType,HWNDhWndOwner,LPVOIDlpDeviceConfigIn,DWORD dwSize,LPVARSTRINGlpDeviceConfigOut);"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasDial",
+  "title": "RasDial (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450834(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasDial(LPRASDIALEXTENSIONSdialExtensions, LPTSTRphoneBookPath, LPRASDIALPARAMSrasDialParam, DWORDNotifierType, LPVOIDnotifier, LPHRASCONNpRasConn );",
+  "code_blocks": [
+   "DWORDRasDial(LPRASDIALEXTENSIONSdialExtensions, LPTSTRphoneBookPath, LPRASDIALPARAMSrasDialParam, DWORDNotifierType, LPVOIDnotifier, LPHRASCONNpRasConn );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasEnumConnections",
+  "title": "RasEnumConnections (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450838(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasEnumConnections(LPRASCONNlprasconn, LPDWORDlpcb, LPDWORDlpcConnections );",
+  "code_blocks": [
+   "DWORDRasEnumConnections(LPRASCONNlprasconn, LPDWORDlpcb, LPDWORDlpcConnections );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasEnumDevices",
+  "title": "RasEnumDevices (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450839(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasEnumDevices( LPRASDEVINFOW lpRasDevinfo, LPDWORD lpcb, LPDWORD lpcDevices );",
+  "code_blocks": [
+   "DWORD RasEnumDevices( LPRASDEVINFOW lpRasDevinfo, LPDWORD lpcb, LPDWORD lpcDevices );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasEnumEntries",
+  "title": "RasEnumEntries (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450840(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasEnumEntries(LPWSTRReserved, LPWSTRlpszPhoneBookPath, LPRASENTRYNAMElprasentryname, LPDWORDlpcb, LPDWORDlpcEntries );",
+  "code_blocks": [
+   "DWORDRasEnumEntries(LPWSTRReserved, LPWSTRlpszPhoneBookPath, LPRASENTRYNAMElprasentryname, LPDWORDlpcb, LPDWORDlpcEntries );",
+   "lprasentryname = (LPRASENTRYNAME)LocalAlloc(LPTR, sizeof(RASENTRYNAME)); lprasentryname->dwSize = sizeof(RASENTRYNAME); if ((nRet = RasEnumEntries(NULL, NULL, lprasentryname, &cb, &cEntries)) == ERROR_BUFFER_TOO_SMALL) { lprasentryname = (LPRASENTRYNAME)LocalAlloc(LPTR, cb); lprasentryname->dwSize = sizeof(RASENTRYNAME); } // Calling RasEnumEntries to enumerate the phonebook entries nRet = RasEnumEntries(NULL, NULL, lprasentryname, &cb, &cEntries); if (nRet != ERROR_SUCCESS) { printf(\"RasEnumEntries failed: Error %d\\n\", nRet); } else { printf(\"Phone book entries in the default phonebook:\\n\\n\"); for(i=0;i < cEntries;i++) { printf(\"%s\\n\",lprasentryname->szEntryName); lprasentryname++; } }"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetConnectStatus",
+  "title": "RasGetConnectStatus (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450843(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasGetConnectStatus(HRASCONNrasconn, LPRASCONNSTATUSlprasconnstatus );",
+  "code_blocks": [
+   "DWORDRasGetConnectStatus(HRASCONNrasconn, LPRASCONNSTATUSlprasconnstatus );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetDispPhoneNum",
+  "title": "RasGetDispPhoneNum (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450844(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "RasGetDispPhoneNum(LPCWSTRszPhonebook,LPCWSTRszEntry,LPWSTRszPhoneNum,DWORDdwPhoneNumLen);",
+  "code_blocks": [
+   "RasGetDispPhoneNum(LPCWSTRszPhonebook,LPCWSTRszEntry,LPWSTRszPhoneNum,DWORDdwPhoneNumLen);"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEapConnectionData",
+  "title": "RasGetEapConnectionData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450845(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEapConnectionData(LPCTSTRpszPhonebook,LPCTSTRpszEntry,PBYTEpbEapData,PDWORDpdwSizeofEapData);",
+  "code_blocks": [
+   "DWORD RasGetEapConnectionData(LPCTSTRpszPhonebook,LPCTSTRpszEntry,PBYTEpbEapData,PDWORDpdwSizeofEapData);"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEapUserData",
+  "title": "RasGetEapUserData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450846(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEapUserData( HANDLEhToken, LPCTSTRpszPhonebook, LPCTSTRpszEntry, PBYTEpbEapData, PDWORDpdwSizeofEapData);",
+  "code_blocks": [
+   "DWORD RasGetEapUserData( HANDLEhToken, LPCTSTRpszPhonebook, LPCTSTRpszEntry, PBYTEpbEapData, PDWORDpdwSizeofEapData);"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEntryDialParams",
+  "title": "RasGetEntryDialParams (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450847(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasGetEntryDialParams(LPWSTRlpszPhoneBook, LPRASDIALPARAMSlpRasDialParams, LPBOOLlpfPassword );",
+  "code_blocks": [
+   "DWORDRasGetEntryDialParams(LPWSTRlpszPhoneBook, LPRASDIALPARAMSlpRasDialParams, LPBOOLlpfPassword );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "To provide a networking environment with enhanced security, Windows CE-based devices should include the functionality for a power-on password.",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEntryProperties",
+  "title": "RasGetEntryProperties (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450848(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasGetEntryProperties(LPWSTRlpszPhoneBook, LPWSTRszEntry, LPRASENTRYlpbEntry, LPDWORDlpdwEntrySize, LPBYTElpb, LPDWORDlpdwSize );",
+  "code_blocks": [
+   "DWORDRasGetEntryProperties(LPWSTRlpszPhoneBook, LPWSTRszEntry, LPRASENTRYlpbEntry, LPDWORDlpdwEntrySize, LPBYTElpb, LPDWORDlpdwSize );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For Windows CE 2.0 and later, device configuration information can be retrieved by using the lpb and lpdwSize parameters. For Windows CE 1.0 and 1.01, the lpb and lpdwSize parameters are ignored and should be set to NULL.",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetLinkStatistics",
+  "title": "RasGetLinkStatistics (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450849(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetLinkStatistics(HRASCONNhRasConn,DWORDdwSubEntry,RAS_STATS* lpStatistics);",
+  "code_blocks": [
+   "DWORD RasGetLinkStatistics(HRASCONNhRasConn,DWORDdwSubEntry,RAS_STATS* lpStatistics);"
+  ],
+  "requirements": {
+   "header": "Ras.h.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetProjectionInfo",
+  "title": "RasGetProjectionInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450850(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetProjectionInfo(HRASCONN hrasconn, RASPROJECTION rasprojection,LPVOID lpprojection,LPDWORD lpcb );",
+  "code_blocks": [
+   "DWORD RasGetProjectionInfo(HRASCONN hrasconn, RASPROJECTION rasprojection,LPVOID lpprojection,LPDWORD lpcb );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasHangUp",
+  "title": "RasHangUp (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450851(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasHangUp(HRASCONNSession );",
+  "code_blocks": [
+   "DWORDRasHangUp(HRASCONNSession );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasRenameEntry",
+  "title": "RasRenameEntry (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450858(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasRenameEntry(LPWSTRlpszPhonebook, LPWSTRlpszOldEntry, LPWSTRlpszNewEntry );",
+  "code_blocks": [
+   "DWORDRasRenameEntry(LPWSTRlpszPhonebook, LPWSTRlpszOldEntry, LPWSTRlpszNewEntry );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEapConnectionData",
+  "title": "RasSetEapConnectionData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450861(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEapConnectionData (LPCTSTRpszPhonebook,LPCTSTRpszEntry,PBYTEpbEapData,PDWORDpdwSizeofEapData);",
+  "code_blocks": [
+   "DWORD RasSetEapConnectionData (LPCTSTRpszPhonebook,LPCTSTRpszEntry,PBYTEpbEapData,PDWORDpdwSizeofEapData);"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEapUserData",
+  "title": "RasSetEapUserData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450862(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEapUserData(HANDLEhToken,LPCTSTRpszPhonebook,LPCTSTRpszEntry,BYTE* pbEapData,DWORDdwSizeofEapData);",
+  "code_blocks": [
+   "DWORD RasSetEapUserData(HANDLEhToken,LPCTSTRpszPhonebook,LPCTSTRpszEntry,BYTE* pbEapData,DWORDdwSizeofEapData);"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEntryDialParams",
+  "title": "RasSetEntryDialParams (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450863(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasSetEntryDialParams(LPWSTRlpszPhoneBook, LPRASDIALPARAMSlpRasDialParams, BOOLfRemovePassword );",
+  "code_blocks": [
+   "DWORDRasSetEntryDialParams(LPWSTRlpszPhoneBook, LPRASDIALPARAMSlpRasDialParams, BOOLfRemovePassword );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEntryProperties",
+  "title": "RasSetEntryProperties (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450864(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEntryProperties(LPWSTRlpszPhoneBook, LPWSTRszEntry, LPRASENTRYlpbEntry, DWORD dwEntrySize, LPBYTElpb, DWORDdwSize );",
+  "code_blocks": [
+   "DWORD RasSetEntryProperties(LPWSTRlpszPhoneBook, LPWSTRszEntry, LPRASENTRYlpbEntry, DWORD dwEntrySize, LPBYTElpb, DWORDdwSize );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For Windows CE 1.0 and 1.01, the lpb and dwSize parameters are ignored and should be set to NULL. For Windows CE 2.0 and later, device configuration information can be set by using lpb and dwSize parameters. Windows CE does not use the alternate phone number list.",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasValidateEntryName",
+  "title": "RasValidateEntryName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450866(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDRasValidateEntryName(LPWSTRlpszPhonebook,LPWSTRlpszEntry );",
+  "code_blocks": [
+   "DWORDRasValidateEntryName(LPWSTRlpszPhonebook,LPWSTRlpszEntry );"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "WM_RASDIALEVENT",
+  "title": "WM_RASDIALEVENT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898580(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WM_RASDIALEVENT rasconnstate=(RASCONNSTATE)wParam;dwError=(DWORD)lParam;",
+  "code_blocks": [
+   "WM_RASDIALEVENT rasconnstate=(RASCONNSTATE)wParam;dwError=(DWORD)lParam;"
+  ],
+  "requirements": {
+   "header": "Winuser.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Messages"
+ },
+ {
+  "name": "DIALER_NOTIFICATION",
+  "title": "DIALER_NOTIFICATION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450331(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwNotificationId; DWORD dwNotificationParam; } DIALER_NOTIFICATION, PDIALER_NOTIFICATION;",
+  "code_blocks": [
+   "typedef struct { DWORD dwNotificationId; DWORD dwNotificationParam; } DIALER_NOTIFICATION, PDIALER_NOTIFICATION;"
+  ],
+  "requirements": {
+   "header": "Autoras.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASCONN",
+  "title": "RASCONN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896359(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASCONN { DWORD dwSize; HRASCONN hrasconn; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASCONN;",
+  "code_blocks": [
+   "typedef struct _RASCONN { DWORD dwSize; HRASCONN hrasconn; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASCONN;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASCONNSTATUS",
+  "title": "RASCONNSTATUS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896361(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASCONNSTATUS { DWORD dwSize; RASCONNSTATE rasconnstate; DWORD dwError; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASCONNSTATUS;",
+  "code_blocks": [
+   "typedef struct _RASCONNSTATUS { DWORD dwSize; RASCONNSTATE rasconnstate; DWORD dwError; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASCONNSTATUS;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASDEVINFO",
+  "title": "RASDEVINFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450833(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagRASDEVINFO {DWORD dwSize;CHAR szDeviceType[ RAS_MaxDeviceType + 1 ];CHAR szDeviceName[ RAS_MaxDeviceName + 1 ];} RASDEVINFO;",
+  "code_blocks": [
+   "typedef struct tagRASDEVINFO {DWORD dwSize;CHAR szDeviceType[ RAS_MaxDeviceType + 1 ];CHAR szDeviceName[ RAS_MaxDeviceName + 1 ];} RASDEVINFO;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASDIALPARAMS",
+  "title": "RASDIALPARAMS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450835(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASDIALPARAMS { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; TCHAR szPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; TCHAR szCallbackNumber[ RAS_MaxCallbackNumber + 1 ]; TCHAR szUserName[ UNLEN + 1 ]; TCHAR szPassword[ PWLEN + 1 ]; TCHAR szDomain[ DNLEN + 1 ]; } RASDIALPARAMS;",
+  "code_blocks": [
+   "typedef struct _RASDIALPARAMS { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; TCHAR szPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; TCHAR szCallbackNumber[ RAS_MaxCallbackNumber + 1 ]; TCHAR szUserName[ UNLEN + 1 ]; TCHAR szPassword[ PWLEN + 1 ]; TCHAR szDomain[ DNLEN + 1 ]; } RASDIALPARAMS;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "The szCallbackNumber and szPhoneNumber members are ignored and should always be set to NULL. When retrieving the password using the RasGetEntryDialParams function in Windows CE 3.0 or later, the szPassword member does not receive the actual password.",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASENTRY",
+  "title": "RASENTRY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450836(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef_struct_RASENTRY {DWORD dwSize;DWORD dwfOptions;DWORD dwCountryID;DWORD dwCountryCode;TCHAR szAreaCode[ RAS_MaxAreaCode + 1 ];TCHAR szLocalPhoneNumber[ RAS_MaxPhoneNumber + 1 ];DWORD dwAlternatesOffset;RASIPADDR ipaddr;RASIPADDR ipaddrDns;RASIPADDR ipaddrDnsAlt;RASIPADDR ipaddrWins;RASIPADDR ipaddrWinsAlt;DWORD dwFrameSize;DWORD dwfNetProtocols;DWORD dwFramingProtocol;TCHAR szScript[ MAX_PATH ];TCHAR szAutoDialDll[ MAX_PATH];TCHAR szAutoDialFunc[ MAX_PATH ];TCHAR szDeviceType[ RAS_MaxDeviceType+ 1];TCHAR szDeviceName[ RAS_MaxDeviceName + 1];TCHAR szX25PadType[ RAS_MaxPadType+ 1];TCHAR szX25Address[ RAS_MaxX25Address+ 1];TCHAR szX25Facilities[ RAS_MaxFacilities + 1];TCHAR szX25UserData[ RAS_MaxUserData + 1 ];DWORD dwChannels;DWORD dwReserved1;DWORD dwReserved2; DWORD dwCustomAuthKey;} RASENTRY;",
+  "code_blocks": [
+   "typedef_struct_RASENTRY {DWORD dwSize;DWORD dwfOptions;DWORD dwCountryID;DWORD dwCountryCode;TCHAR szAreaCode[ RAS_MaxAreaCode + 1 ];TCHAR szLocalPhoneNumber[ RAS_MaxPhoneNumber + 1 ];DWORD dwAlternatesOffset;RASIPADDR ipaddr;RASIPADDR ipaddrDns;RASIPADDR ipaddrDnsAlt;RASIPADDR ipaddrWins;RASIPADDR ipaddrWinsAlt;DWORD dwFrameSize;DWORD dwfNetProtocols;DWORD dwFramingProtocol;TCHAR szScript[ MAX_PATH ];TCHAR szAutoDialDll[ MAX_PATH];TCHAR szAutoDialFunc[ MAX_PATH ];TCHAR szDeviceType[ RAS_MaxDeviceType+ 1];TCHAR szDeviceName[ RAS_MaxDeviceName + 1];TCHAR szX25PadType[ RAS_MaxPadType+ 1];TCHAR szX25Address[ RAS_MaxX25Address+ 1];TCHAR szX25Facilities[ RAS_MaxFacilities + 1];TCHAR szX25UserData[ RAS_MaxUserData + 1 ];DWORD dwChannels;DWORD dwReserved1;DWORD dwReserved2; DWORD dwCustomAuthKey;} RASENTRY;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "On Windows CE, the dwCountryID member is ignored, and the dwCountryCode member must be set to the correct country/region code for the phone number of the entry. Windows CE does not support the RASEO_TerminalBeforeDial and RASEO_TerminalAfterDial values for the dwfOptions member.",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASENTRYNAME",
+  "title": "RASENTRYNAME (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450837(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASENTRYNAME {DWORD dwSize;TCHAR szEntryName[ RAS_MaxEntryName + 1];} RASENTRYNAME;",
+  "code_blocks": [
+   "typedef struct _RASENTRYNAME {DWORD dwSize;TCHAR szEntryName[ RAS_MaxEntryName + 1];} RASENTRYNAME;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASIPADDR",
+  "title": "RASIPADDR (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450853(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct RASIPADDR {BYTE a;BYTE b;BYTE c;BYTE d;} RASIPADDR;",
+  "code_blocks": [
+   "typedef struct RASIPADDR {BYTE a;BYTE b;BYTE c;BYTE d;} RASIPADDR;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE, the order of the a , b , c , and d members are transposed to d , c , b , and a .",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASPPPIP",
+  "title": "RASPPPIP (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450854(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASPPPIP { DWORD dwSize; DWORD dwError; TCHAR szIpAddress[ RAS_MaxIpAddress + 1 ]; } RASPPPIP;",
+  "code_blocks": [
+   "typedef struct _RASPPPIP { DWORD dwSize; DWORD dwError; TCHAR szIpAddress[ RAS_MaxIpAddress + 1 ]; } RASPPPIP;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Remarks To retrieve PPP IP information on Windows CE–based devices, dwSize must specify the size of the RASPPPIP structure without the szServerIpAddress member.",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASPPPIPV6",
+  "title": "RASPPPIPV6 (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450855(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "#define RASPPPIPV6 struct tagRASPPPIPV6RASPPPIPV6{DWORDdwSize;DWORDdwError;BYTELocalInterfaceIdentifier[8];BYTEPeerInterfaceIdentifier[8];BYTELocalCompressionProtocol[2];BYTEPeerCompressionProtocol[2];};#define LPRASPPPIPV6 RASPPPIPV6*",
+  "code_blocks": [
+   "#define RASPPPIPV6 struct tagRASPPPIPV6RASPPPIPV6{DWORDdwSize;DWORDdwError;BYTELocalInterfaceIdentifier[8];BYTEPeerInterfaceIdentifier[8];BYTELocalCompressionProtocol[2];BYTEPeerCompressionProtocol[2];};#define LPRASPPPIPV6 RASPPPIPV6*"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RAS_STATS",
+  "title": "RAS_STATS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450865(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RAS_STATS {DWORDdwSize;DWORDdwBytesXmited;DWORDdwBytesRcved;DWORDdwFramesXmited;DWORDdwFramesRcved;DWORDdwCrcErr;DWORDdwTimeoutErr;DWORDdwAlignmentErr;DWORDdwHardwareOverrunErr;DWORDdwFramingErr;DWORDdwBufferOverrunErr;DWORDdwCompressionRatioIn;DWORDdwCompressionRatioOut;DWORDdwBps;DWORDdwConnectDuration;} RAS_STATS, *PRAS_STATS;",
+  "code_blocks": [
+   "typedef struct _RAS_STATS {DWORDdwSize;DWORDdwBytesXmited;DWORDdwBytesRcved;DWORDdwFramesXmited;DWORDdwFramesRcved;DWORDdwCrcErr;DWORDdwTimeoutErr;DWORDdwAlignmentErr;DWORDdwHardwareOverrunErr;DWORDdwFramingErr;DWORDdwBufferOverrunErr;DWORDdwCompressionRatioIn;DWORDdwCompressionRatioOut;DWORDdwBps;DWORDdwConnectDuration;} RAS_STATS, *PRAS_STATS;"
+  ],
+  "requirements": {
+   "header": "Ras.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "WNetAddConnection3",
+  "title": "WNetAddConnection3 (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898589(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetAddConnection3(HWNDhwndOwner,LPNETRESOURCElpNetResource,LPTSTRlpPassword,LPTSTRlpUserName,DWORDdwFlags );",
+  "code_blocks": [
+   "DWORD WNetAddConnection3(HWNDhwndOwner,LPNETRESOURCElpNetResource,LPTSTRlpPassword,LPTSTRlpUserName,DWORDdwFlags );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE does not support the concept of drive-letters. Windows CE supports only the \"Microsoft Windows Network\" provider.",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetCancelConnection2",
+  "title": "WNetCancelConnection2 (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898597(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetCancelConnection2(LPTSTRlpName,DWORDdwFlags,BOOLfForce );",
+  "code_blocks": [
+   "DWORD WNetCancelConnection2(LPTSTRlpName,DWORDdwFlags,BOOLfForce );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetCloseEnum",
+  "title": "WNetCloseEnum (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898606(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetCloseEnum(HANDLEhEnum );",
+  "code_blocks": [
+   "DWORD WNetCloseEnum(HANDLEhEnum );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetConnectionDialog1",
+  "title": "WNetConnectionDialog1 (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898611(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDWNetConnectionDialog1(LPCONNECTDLGSTRUCTlpConnectDlgStruct );",
+  "code_blocks": [
+   "DWORDWNetConnectionDialog1(LPCONNECTDLGSTRUCTlpConnectDlgStruct );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "The **dwDevNum****member of the CONNECTDLGSTRUCT structure pointed to by the lpConnectDlgStruc parameter is ignored.",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetDisconnectDialog",
+  "title": "WNetDisconnectDialog (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898697(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetDisconnectDialog( HWND hwnd, DWORD dwType);",
+  "code_blocks": [
+   "DWORD WNetDisconnectDialog( HWND hwnd, DWORD dwType);"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetDisconnectDialog1",
+  "title": "WNetDisconnectDialog1 (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898705(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDWNetDisconnectDialog1(LPDISCDLGSTRUCTlpDiscDlgStruct );",
+  "code_blocks": [
+   "DWORDWNetDisconnectDialog1(LPDISCDLGSTRUCTlpDiscDlgStruct );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetEnumResource",
+  "title": "WNetEnumResource (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898709(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetEnumResource(HANDLEhEnum,LPDWORDlpcCount,LPVOIDlpBuffer,LPDWORDlpBufferSize );",
+  "code_blocks": [
+   "DWORD WNetEnumResource(HANDLEhEnum,LPDWORDlpcCount,LPVOIDlpBuffer,LPDWORDlpBufferSize );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetGetConnection",
+  "title": "WNetGetConnection (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898710(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetGetConnection( LPCTSTR lpLocalName, LPTSTR lpRemoteName, LPDWORD lpnLength );",
+  "code_blocks": [
+   "DWORD WNetGetConnection( LPCTSTR lpLocalName, LPTSTR lpRemoteName, LPDWORD lpnLength );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetGetUniversalName",
+  "title": "WNetGetUniversalName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898711(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetGetUniversalName(LPCTSTR lpLocalPath, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpBufferSize );",
+  "code_blocks": [
+   "DWORD WNetGetUniversalName(LPCTSTR lpLocalPath, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpBufferSize );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetGetUser",
+  "title": "WNetGetUser (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898712(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetGetUser(LPCTSTRlpName,LPTSTRlpUserName,LPDWORDlpnLength );",
+  "code_blocks": [
+   "DWORD WNetGetUser(LPCTSTRlpName,LPTSTRlpUserName,LPDWORDlpnLength );"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetOpenEnum",
+  "title": "WNetOpenEnum (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms898713(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetOpenEnum(DWORDdwScope,DWORDdwType,DWORDdwUsage,LPNETRESOURCElpNetResource,LPHANDLElphEnum );",
+  "code_blocks": [
+   "DWORD WNetOpenEnum(DWORDdwScope,DWORDdwType,DWORDdwUsage,LPNETRESOURCElpNetResource,LPHANDLElphEnum );",
+   "LanMan (container, in this case the provider) ACCOUNTING (container, in this case the domain) \\\\ACCTSPAY (container, in this case the server) PAYFILES (disk) LASERJET (print)"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "CONNECTDLGSTRUCT",
+  "title": "CONNECTDLGSTRUCT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887910(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORD cbStructure;HWND hwndOwner;LPNETRESOURCE lpConnRes;DWORD dwFlags;DWORD dwDevNum;} CONNECTDLGSTRUCT;",
+  "code_blocks": [
+   "typedef struct {DWORD cbStructure;HWND hwndOwner;LPNETRESOURCE lpConnRes;DWORD dwFlags;DWORD dwDevNum;} CONNECTDLGSTRUCT;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "DISCDLGSTRUCT",
+  "title": "DISCDLGSTRUCT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450334(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _wcesdk_win32_DISCDLGSTRUCT_str{DWORD cbStructure;HWND hwndOwner;LPTSTR lpLocalName;LPTSTR lpRemoteName;DWORD dwFlags;} DISCDLGSTRUCT;",
+  "code_blocks": [
+   "typedef struct _wcesdk_win32_DISCDLGSTRUCT_str{DWORD cbStructure;HWND hwndOwner;LPTSTR lpLocalName;LPTSTR lpRemoteName;DWORD dwFlags;} DISCDLGSTRUCT;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "NETRESOURCE",
+  "title": "NETRESOURCE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895665(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _NETRESOURCE {DWORD dwScope; DWORD dwType; DWORD dwDisplayType; DWORD dwUsage; LPTSTR lpLocalName; LPTSTR lpRemoteName; LPTSTR lpComment; LPTSTR lpProvider; } NETRESOURCE;",
+  "code_blocks": [
+   "typedef struct _NETRESOURCE {DWORD dwScope; DWORD dwType; DWORD dwDisplayType; DWORD dwUsage; LPTSTR lpLocalName; LPTSTR lpRemoteName; LPTSTR lpComment; LPTSTR lpProvider; } NETRESOURCE;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE does not support paths with the prefix of \"drive letters.\" The lpLocalName member can contain any string of up to 64 characters long.",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "REMOTE_NAME_INFO",
+  "title": "REMOTE_NAME_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450872(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _REMOTE_NAME_INFO {LPTSTR lpUniversalName; LPTSTR lpConnectionName; LPTSTR lpRemainingPath;} REMOTE_NAME_INFO;",
+  "code_blocks": [
+   "typedef struct _REMOTE_NAME_INFO {LPTSTR lpUniversalName; LPTSTR lpConnectionName; LPTSTR lpRemainingPath;} REMOTE_NAME_INFO;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "UNIVERSAL_NAME_INFO",
+  "title": "UNIVERSAL_NAME_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451137(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _UNIVERSAL_NAME_INFO {LPTSTR lpUniversalName;} UNIVERSAL_NAME_INFO;",
+  "code_blocks": [
+   "typedef struct _UNIVERSAL_NAME_INFO {LPTSTR lpUniversalName;} UNIVERSAL_NAME_INFO;"
+  ],
+  "requirements": {
+   "header": "Winnetwk.h",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "RASCONNSTATE",
+  "title": "RASCONNSTATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496970(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _RASCONNSTATE { RASCS_OpenPort = 0, RASCS_PortOpened, RASCS_ConnectDevice, RASCS_DeviceConnected, RASCS_AllDevicesConnected, RASCS_Authenticate, RASCS_AuthNotify, RASCS_AuthRetry, RASCS_AuthCallback, RASCS_AuthChangePassword, RASCS_AuthProject, RASCS_AuthLinkSpeed, RASCS_AuthAck, RASCS_ReAuthenticate, RASCS_Authenticated, RASCS_PrepareForCallback, RASCS_WaitForModemReset, RASCS_WaitForCallback, RASCS_Projected, RASCS_Interactive = RASCS_PAUSED, RASCS_RetryAuthentication, RASCS_CallbackSetByCaller, RASCS_PasswordExpired, RASCS_Connected = RASCS_DONE, RASCS_Disconnected } RASCONNSTATE;",
+  "code_blocks": [
+   "typedef enum _RASCONNSTATE { RASCS_OpenPort = 0, RASCS_PortOpened, RASCS_ConnectDevice, RASCS_DeviceConnected, RASCS_AllDevicesConnected, RASCS_Authenticate, RASCS_AuthNotify, RASCS_AuthRetry, RASCS_AuthCallback, RASCS_AuthChangePassword, RASCS_AuthProject, RASCS_AuthLinkSpeed, RASCS_AuthAck, RASCS_ReAuthenticate, RASCS_Authenticated, RASCS_PrepareForCallback, RASCS_WaitForModemReset, RASCS_WaitForCallback, RASCS_Projected, RASCS_Interactive = RASCS_PAUSED, RASCS_RetryAuthentication, RASCS_CallbackSetByCaller, RASCS_PasswordExpired, RASCS_Connected = RASCS_DONE, RASCS_Disconnected } RASCONNSTATE;",
+   "fDoneState = (state & RASCS_DONE); fPausedState = (state & RASCS_PAUSED); fRunState = !(fDoneState || fPausedState);"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Enumerations"
+ },
+ {
+  "name": "RASPROJECTION",
+  "title": "RASPROJECTION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496410(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _RASPROJECTION { RASP_Amb = 0x10000, RASP_PppNbf = 0x803F, RASP_PppIpx = 0x802B, RASP_PppIp = 0x8021, RASP_PppIpV6 = 0x8057, RASP_PppCcp = 0x80FD, RASP_PppLcp = 0xC021, RASP_Slip = 0x20000 } RASPROJECTION;",
+  "code_blocks": [
+   "typedef enum _RASPROJECTION { RASP_Amb = 0x10000, RASP_PppNbf = 0x803F, RASP_PppIpx = 0x802B, RASP_PppIp = 0x8021, RASP_PppIpV6 = 0x8057, RASP_PppCcp = 0x80FD, RASP_PppLcp = 0xC021, RASP_Slip = 0x20000 } RASPROJECTION;"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Remarks Windows Embedded CE supports the RASP_PppIp and RASP_PppIpv6 values.",
+  "area": "ras",
+  "sub": "RAS Enumerations"
+ },
+ {
+  "name": "RasDeleteEntry",
+  "title": "RasDeleteEntry (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497338(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasDeleteEntry( LPWSTR lpszPhonebook, LPWSTR lpszEntry );",
+  "code_blocks": [
+   "DWORD RasDeleteEntry( LPWSTR lpszPhonebook, LPWSTR lpszEntry );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasDevConfigDialogEdit",
+  "title": "RasDevConfigDialogEdit (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496850(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasDevConfigDialogEdit( LPCWSTR szDeviceName, LPCWSTR szDeviceType, HWND hWndOwner, LPVOID lpDeviceConfigIn, DWORD dwSize, LPVARSTRING lpDeviceConfigOut );",
+  "code_blocks": [
+   "DWORD RasDevConfigDialogEdit( LPCWSTR szDeviceName, LPCWSTR szDeviceType, HWND hWndOwner, LPVOID lpDeviceConfigIn, DWORD dwSize, LPVARSTRING lpDeviceConfigOut );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasDial",
+  "title": "RasDial (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496966(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasDial( LPRASDIALEXTENSIONS dialExtensions, LPTSTR phoneBookPath, LPRASDIALPARAMS rasDialParam, DWORD NotifierType, LPVOID notifier, LPHRASCONN pRasConn );",
+  "code_blocks": [
+   "DWORD RasDial( LPRASDIALEXTENSIONS dialExtensions, LPTSTR phoneBookPath, LPRASDIALPARAMS rasDialParam, DWORD NotifierType, LPVOID notifier, LPHRASCONN pRasConn );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasEnumConnections",
+  "title": "RasEnumConnections (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496203(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasEnumConnections( LPRASCONN lprasconn, LPDWORD lpcb, LPDWORD lpcConnections );",
+  "code_blocks": [
+   "DWORD RasEnumConnections( LPRASCONN lprasconn, LPDWORD lpcb, LPDWORD lpcConnections );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasEnumDevices",
+  "title": "RasEnumDevices (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497423(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasEnumDevices( LPRASDEVINFOW lpRasDevinfo, LPDWORD lpcb, LPDWORD lpcDevices );",
+  "code_blocks": [
+   "DWORD RasEnumDevices( LPRASDEVINFOW lpRasDevinfo, LPDWORD lpcb, LPDWORD lpcDevices );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasEnumEntries",
+  "title": "RasEnumEntries (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496207(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasEnumEntries( LPWSTR Reserved, LPWSTR lpszPhoneBookPath, LPRASENTRYNAME lprasentryname, LPDWORD lpcb, LPDWORD lpcEntries );",
+  "code_blocks": [
+   "DWORD RasEnumEntries( LPWSTR Reserved, LPWSTR lpszPhoneBookPath, LPRASENTRYNAME lprasentryname, LPDWORD lpcb, LPDWORD lpcEntries );",
+   "lprasentryname = (LPRASENTRYNAME)LocalAlloc(LPTR, sizeof(RASENTRYNAME)); lprasentryname->dwSize = sizeof(RASENTRYNAME); if ((nRet = RasEnumEntries(NULL, NULL, lprasentryname, &cb, &cEntries)) == ERROR_BUFFER_TOO_SMALL) { lprasentryname = (LPRASENTRYNAME)LocalAlloc(LPTR, cb); lprasentryname->dwSize = sizeof(RASENTRYNAME); } // Calling RasEnumEntries to enumerate the phonebook entries nRet = RasEnumEntries(NULL, NULL, lprasentryname, &cb, &cEntries); if (nRet != ERROR_SUCCESS) { printf(\"RasEnumEntries failed: Error %d\\n\", nRet); } else { printf(\"Phone book entries in the default phonebook:\\n\\n\"); for(i=0;i < cEntries;i++) { printf(\"%s\\n\",lprasentryname->szEntryName); lprasentryname++; } }"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetConnectStatus",
+  "title": "RasGetConnectStatus (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497517(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetConnectStatus( HRASCONN rasconn, LPRASCONNSTATUS lprasconnstatus );",
+  "code_blocks": [
+   "DWORD RasGetConnectStatus( HRASCONN rasconn, LPRASCONNSTATUS lprasconnstatus );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetDispPhoneNum",
+  "title": "RasGetDispPhoneNum (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497505(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "RasGetDispPhoneNum( LPCWSTR szPhonebook, LPCWSTR szEntry, LPWSTR szPhoneNum, DWORD dwPhoneNumLen );",
+  "code_blocks": [
+   "RasGetDispPhoneNum( LPCWSTR szPhonebook, LPCWSTR szEntry, LPWSTR szPhoneNum, DWORD dwPhoneNumLen );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEapConnectionData",
+  "title": "RasGetEapConnectionData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496643(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEapConnectionData( LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );",
+  "code_blocks": [
+   "DWORD RasGetEapConnectionData( LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEapUserData",
+  "title": "RasGetEapUserData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496401(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEapUserData( HANDLE hToken, LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );",
+  "code_blocks": [
+   "DWORD RasGetEapUserData( HANDLE hToken, LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEntryDialParams",
+  "title": "RasGetEntryDialParams (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496835(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEntryDialParams( LPWSTR lpszPhoneBook, LPRASDIALPARAMS lpRasDialParams, LPBOOL lpfPassword );",
+  "code_blocks": [
+   "DWORD RasGetEntryDialParams( LPWSTR lpszPhoneBook, LPRASDIALPARAMS lpRasDialParams, LPBOOL lpfPassword );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Note To provide a networking environment with enhanced security, Windows Embedded CE-based devices should include the functionality for a power-on password.",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetEntryProperties",
+  "title": "RasGetEntryProperties (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496231(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetEntryProperties( LPWSTR lpszPhoneBook, LPWSTR szEntry, LPRASENTRY lpbEntry, LPDWORD lpdwEntrySize, LPBYTE lpb, LPDWORD lpdwSize );",
+  "code_blocks": [
+   "DWORD RasGetEntryProperties( LPWSTR lpszPhoneBook, LPWSTR szEntry, LPRASENTRY lpbEntry, LPDWORD lpdwEntrySize, LPBYTE lpb, LPDWORD lpdwSize );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "For Windows CE 2.0 and later, device configuration information can be retrieved by using the lpb and lpdwSize parameters. For Windows CE 1.0 and 1.01, the lpb and lpdwSize parameters are ignored and should be set to NULL.",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetLinkStatistics",
+  "title": "RasGetLinkStatistics (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496606(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetLinkStatistics( HRASCONN hRasConn, DWORD dwSubEntry, RAS_STATS* lpStatistics );",
+  "code_blocks": [
+   "DWORD RasGetLinkStatistics( HRASCONN hRasConn, DWORD dwSubEntry, RAS_STATS* lpStatistics );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasGetProjectionInfo",
+  "title": "RasGetProjectionInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496239(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasGetProjectionInfo( HRASCONN hrasconn, RASPROJECTION rasprojection, LPVOID lpprojection, LPDWORD lpcb );",
+  "code_blocks": [
+   "DWORD RasGetProjectionInfo( HRASCONN hrasconn, RASPROJECTION rasprojection, LPVOID lpprojection, LPDWORD lpcb );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasHangUp",
+  "title": "RasHangUp (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497206(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasHangUp( HRASCONN Session );",
+  "code_blocks": [
+   "DWORD RasHangUp( HRASCONN Session );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasRenameEntry",
+  "title": "RasRenameEntry (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497260(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasRenameEntry( LPWSTR lpszPhonebook, LPWSTR lpszOldEntry, LPWSTR lpszNewEntry );",
+  "code_blocks": [
+   "DWORD RasRenameEntry( LPWSTR lpszPhonebook, LPWSTR lpszOldEntry, LPWSTR lpszNewEntry );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEapConnectionData",
+  "title": "RasSetEapConnectionData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496985(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEapConnectionData ( LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );",
+  "code_blocks": [
+   "DWORD RasSetEapConnectionData ( LPCTSTR pszPhonebook, LPCTSTR pszEntry, PBYTE pbEapData, PDWORD pdwSizeofEapData );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEapUserData",
+  "title": "RasSetEapUserData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496200(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEapUserData( HANDLE hToken, LPCTSTR pszPhonebook, LPCTSTR pszEntry, BYTE* pbEapData, DWORD dwSizeofEapData );",
+  "code_blocks": [
+   "DWORD RasSetEapUserData( HANDLE hToken, LPCTSTR pszPhonebook, LPCTSTR pszEntry, BYTE* pbEapData, DWORD dwSizeofEapData );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEntryDialParams",
+  "title": "RasSetEntryDialParams (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496751(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEntryDialParams( LPWSTR lpszPhoneBook, LPRASDIALPARAMS lpRasDialParams, BOOL fRemovePassword );",
+  "code_blocks": [
+   "DWORD RasSetEntryDialParams( LPWSTR lpszPhoneBook, LPRASDIALPARAMS lpRasDialParams, BOOL fRemovePassword );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasSetEntryProperties",
+  "title": "RasSetEntryProperties (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497296(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasSetEntryProperties( LPWSTR lpszPhoneBook, LPWSTR szEntry, LPRASENTRY lpbEntry, DWORD dwEntrySize, LPBYTE lpb, DWORD dwSize );",
+  "code_blocks": [
+   "DWORD RasSetEntryProperties( LPWSTR lpszPhoneBook, LPWSTR szEntry, LPRASENTRY lpbEntry, DWORD dwEntrySize, LPBYTE lpb, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "For Windows CE 1.0 and 1.01, the lpb and dwSize parameters are ignored and should be set to NULL. For Windows CE 2.0 and later, device configuration information can be set by using lpb and dwSize parameters. Windows Embedded CE does not use the alternate phone number list.",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "RasValidateEntryName",
+  "title": "RasValidateEntryName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496752(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD RasValidateEntryName( LPWSTR lpszPhonebook, LPWSTR lpszEntry );",
+  "code_blocks": [
+   "DWORD RasValidateEntryName( LPWSTR lpszPhonebook, LPWSTR lpszEntry );"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Functions"
+ },
+ {
+  "name": "WM_RASDIALEVENT",
+  "title": "WM_RASDIALEVENT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497264(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WM_RASDIALEVENT rasconnstate = (RASCONNSTATE) wParam; dwError = (DWORD) lParam;",
+  "code_blocks": [
+   "WM_RASDIALEVENT rasconnstate = (RASCONNSTATE) wParam; dwError = (DWORD) lParam;"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Messages"
+ },
+ {
+  "name": "DIALER_NOTIFICATION",
+  "title": "DIALER_NOTIFICATION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496233(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwNotificationId; DWORD dwNotificationParam; } DIALER_NOTIFICATION, PDIALER_NOTIFICATION;",
+  "code_blocks": [
+   "typedef struct { DWORD dwNotificationId; DWORD dwNotificationParam; } DIALER_NOTIFICATION, PDIALER_NOTIFICATION;"
+  ],
+  "requirements": {
+   "header": "autoras.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASCONN",
+  "title": "RASCONN (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497565(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASCONN { DWORD dwSize; HRASCONN hrasconn; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASCONN;",
+  "code_blocks": [
+   "typedef struct _RASCONN { DWORD dwSize; HRASCONN hrasconn; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASCONN;"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASCONNSTATUS",
+  "title": "RASCONNSTATUS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497411(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASCONNSTATUS { DWORD dwSize; RASCONNSTATE rasconnstate; DWORD dwError; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASCONNSTATUS;",
+  "code_blocks": [
+   "typedef struct _RASCONNSTATUS { DWORD dwSize; RASCONNSTATE rasconnstate; DWORD dwError; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASCONNSTATUS;"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASDEVINFO",
+  "title": "RASDEVINFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497426(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagRASDEVINFO { DWORD dwSize; CHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; CHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASDEVINFO;",
+  "code_blocks": [
+   "typedef struct tagRASDEVINFO { DWORD dwSize; CHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; CHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; } RASDEVINFO;"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASDIALPARAMS",
+  "title": "RASDIALPARAMS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496581(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASDIALPARAMS { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; TCHAR szPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; TCHAR szCallbackNumber[ RAS_MaxCallbackNumber + 1 ]; TCHAR szUserName[ UNLEN + 1 ]; TCHAR szPassword[ PWLEN + 1 ]; TCHAR szDomain[ DNLEN + 1 ]; } RASDIALPARAMS;",
+  "code_blocks": [
+   "typedef struct _RASDIALPARAMS { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; TCHAR szPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; TCHAR szCallbackNumber[ RAS_MaxCallbackNumber + 1 ]; TCHAR szUserName[ UNLEN + 1 ]; TCHAR szPassword[ PWLEN + 1 ]; TCHAR szDomain[ DNLEN + 1 ]; } RASDIALPARAMS;"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "The szCallbackNumber and szPhoneNumber members are ignored and should always be set to NULL. When retrieving the password using the RasGetEntryDialParams function in Windows CE 3.0 or later, the szPassword member does not receive the actual password.",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASENTRY",
+  "title": "RASENTRY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496191(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef_struct_RASENTRY { DWORD dwSize; DWORD dwfOptions; DWORD dwCountryID; DWORD dwCountryCode; TCHAR szAreaCode[ RAS_MaxAreaCode + 1 ]; TCHAR szLocalPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; DWORD dwAlternatesOffset; RASIPADDR ipaddr; RASIPADDR ipaddrDns; RASIPADDR ipaddrDnsAlt; RASIPADDR ipaddrWins; RASIPADDR ipaddrWinsAlt; DWORD dwFrameSize; DWORD dwfNetProtocols; DWORD dwFramingProtocol; TCHAR szScript[ MAX_PATH ]; TCHAR szAutoDialDll[ MAX_PATH ]; TCHAR szAutoDialFunc[ MAX_PATH ]; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; TCHAR szX25PadType[ RAS_MaxPadType + 1 ]; TCHAR szX25Address[ RAS_MaxX25Address + 1 ]; TCHAR szX25Facilities[ RAS_MaxFacilities + 1 ]; TCHAR szX25UserData[ RAS_MaxUserData + 1 ]; DWORD dwChannels; DWORD dwReserved1; DWORD dwReserved2; DWORD dwCustomAuthKey; } RASENTRY;",
+  "code_blocks": [
+   "typedef_struct_RASENTRY { DWORD dwSize; DWORD dwfOptions; DWORD dwCountryID; DWORD dwCountryCode; TCHAR szAreaCode[ RAS_MaxAreaCode + 1 ]; TCHAR szLocalPhoneNumber[ RAS_MaxPhoneNumber + 1 ]; DWORD dwAlternatesOffset; RASIPADDR ipaddr; RASIPADDR ipaddrDns; RASIPADDR ipaddrDnsAlt; RASIPADDR ipaddrWins; RASIPADDR ipaddrWinsAlt; DWORD dwFrameSize; DWORD dwfNetProtocols; DWORD dwFramingProtocol; TCHAR szScript[ MAX_PATH ]; TCHAR szAutoDialDll[ MAX_PATH ]; TCHAR szAutoDialFunc[ MAX_PATH ]; TCHAR szDeviceType[ RAS_MaxDeviceType + 1 ]; TCHAR szDeviceName[ RAS_MaxDeviceName + 1 ]; TCHAR szX25PadType[ RAS_MaxPadType + 1 ]; TCHAR szX25Address[ RAS_MaxX25Address + 1 ]; TCHAR szX25Facilities[ RAS_MaxFacilities + 1 ]; TCHAR szX25UserData[ RAS_MaxUserData + 1 ]; DWORD dwChannels; DWORD dwReserved1; DWORD dwReserved2; DWORD dwCustomAuthKey; } RASENTRY;"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "On Windows Embedded CE, the dwCountryID member is ignored, and the dwCountryCode member must be set to the correct country/region code for the phone number of the entry. Windows Embedded CE does not support the RASEO_TerminalBeforeDial and RASEO_TerminalAfterDial values for the dwfOptions member.",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASENTRYNAME",
+  "title": "RASENTRYNAME (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496429(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RASENTRYNAME { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASENTRYNAME;",
+  "code_blocks": [
+   "typedef struct _RASENTRYNAME { DWORD dwSize; TCHAR szEntryName[ RAS_MaxEntryName + 1 ]; } RASENTRYNAME;"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASIPADDR",
+  "title": "RASIPADDR (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497043(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct RASIPADDR { BYTE a; BYTE b; BYTE c; BYTE d; } RASIPADDR;",
+  "code_blocks": [
+   "typedef struct RASIPADDR { BYTE a; BYTE b; BYTE c; BYTE d; } RASIPADDR;"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "In Windows Embedded CE, the order of the a , b , c , and d members are transposed to d , c , b , and a .",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASPPPIP",
+  "title": "RASPPPIP (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497546(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "#define RASPPPIPW struct tagRASPPPIPW RASPPPIPW { // Required members DWORD dwSize; DWORD dwError; WCHAR szIpAddress[ RAS_MaxIpAddress + 1 ]; // Optional members WCHAR szServerIpAddress[ RAS_MaxIpAddress + 1 ]; DWORD dwOptions; DWORD dwServerOptions; }; #define RASPPPIP RASPPPIPW",
+  "code_blocks": [
+   "#define RASPPPIPW struct tagRASPPPIPW RASPPPIPW { // Required members DWORD dwSize; DWORD dwError; WCHAR szIpAddress[ RAS_MaxIpAddress + 1 ]; // Optional members WCHAR szServerIpAddress[ RAS_MaxIpAddress + 1 ]; DWORD dwOptions; DWORD dwServerOptions; }; #define RASPPPIP RASPPPIPW"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Remarks To retrieve PPP IP information on Windows Embedded CE–based devices, dwSize must specify the size of the RASPPPIP structure that indicates the cumulative size of all members you are using.",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RASPPPIPV6",
+  "title": "RASPPPIPV6 (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee496784(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "#define RASPPPIPV6 struct tagRASPPPIPV6 RASPPPIPV6 { DWORD dwSize; DWORD dwError; BYTE LocalInterfaceIdentifier[8]; BYTE PeerInterfaceIdentifier[8]; BYTE LocalCompressionProtocol[2]; BYTE PeerCompressionProtocol[2]; }; #define LPRASPPPIPV6 RASPPPIPV6*",
+  "code_blocks": [
+   "#define RASPPPIPV6 struct tagRASPPPIPV6 RASPPPIPV6 { DWORD dwSize; DWORD dwError; BYTE LocalInterfaceIdentifier[8]; BYTE PeerInterfaceIdentifier[8]; BYTE LocalCompressionProtocol[2]; BYTE PeerCompressionProtocol[2]; }; #define LPRASPPPIPV6 RASPPPIPV6*"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "RAS_STATS",
+  "title": "RAS_STATS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee497301(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _RAS_STATS { DWORD dwSize; DWORD dwBytesXmited; DWORD dwBytesRcved; DWORD dwFramesXmited; DWORD dwFramesRcved; DWORD dwCrcErr; DWORD dwTimeoutErr; DWORD dwAlignmentErr; DWORD dwHardwareOverrunErr; DWORD dwFramingErr; DWORD dwBufferOverrunErr; DWORD dwCompressionRatioIn; DWORD dwCompressionRatioOut; DWORD dwBps; DWORD dwConnectDuration; } RAS_STATS, *PRAS_STATS;",
+  "code_blocks": [
+   "typedef struct _RAS_STATS { DWORD dwSize; DWORD dwBytesXmited; DWORD dwBytesRcved; DWORD dwFramesXmited; DWORD dwFramesRcved; DWORD dwCrcErr; DWORD dwTimeoutErr; DWORD dwAlignmentErr; DWORD dwHardwareOverrunErr; DWORD dwFramingErr; DWORD dwBufferOverrunErr; DWORD dwCompressionRatioIn; DWORD dwCompressionRatioOut; DWORD dwBps; DWORD dwConnectDuration; } RAS_STATS, *PRAS_STATS;"
+  ],
+  "requirements": {
+   "header": "ras.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "ras",
+  "sub": "RAS Structures"
+ },
+ {
+  "name": "WNetAddConnection3",
+  "title": "WNetAddConnection3 (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493048(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetAddConnection3( HWND hwndOwner, LPNETRESOURCE lpNetResource, LPTSTR lpPassword, LPTSTR lpUserName, DWORD dwFlags );",
+  "code_blocks": [
+   "DWORD WNetAddConnection3( HWND hwndOwner, LPNETRESOURCE lpNetResource, LPTSTR lpPassword, LPTSTR lpUserName, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE does not support the concept of drive-letters. Windows Embedded CE supports only the \"Microsoft Windows Network\" provider.",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetCancelConnection2",
+  "title": "WNetCancelConnection2 (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493217(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetCancelConnection2( LPTSTR lpName, DWORD dwFlags, BOOL fForce );",
+  "code_blocks": [
+   "DWORD WNetCancelConnection2( LPTSTR lpName, DWORD dwFlags, BOOL fForce );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetCloseEnum",
+  "title": "WNetCloseEnum (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493625(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetCloseEnum( HANDLE hEnum );",
+  "code_blocks": [
+   "DWORD WNetCloseEnum( HANDLE hEnum );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetConnectionDialog1",
+  "title": "WNetConnectionDialog1 (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493274(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetConnectionDialog1( LPCONNECTDLGSTRUCT lpConnectDlgStruct );",
+  "code_blocks": [
+   "DWORD WNetConnectionDialog1( LPCONNECTDLGSTRUCT lpConnectDlgStruct );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "The dwDevNum member of the CONNECTDLGSTRUCT structure pointed to by the lpConnectDlgStruc parameter is ignored.",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetDisconnectDialog",
+  "title": "WNetDisconnectDialog (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494231(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetDisconnectDialog( HWND hwnd, DWORD dwType );",
+  "code_blocks": [
+   "DWORD WNetDisconnectDialog( HWND hwnd, DWORD dwType );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetDisconnectDialog1",
+  "title": "WNetDisconnectDialog1 (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493699(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetDisconnectDialog1( LPDISCDLGSTRUCT lpDiscDlgStruct );",
+  "code_blocks": [
+   "DWORD WNetDisconnectDialog1( LPDISCDLGSTRUCT lpDiscDlgStruct );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetEnumResource",
+  "title": "WNetEnumResource (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494478(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetEnumResource( HANDLE hEnum, LPDWORD lpcCount, LPVOID lpBuffer, LPDWORD lpBufferSize );",
+  "code_blocks": [
+   "DWORD WNetEnumResource( HANDLE hEnum, LPDWORD lpcCount, LPVOID lpBuffer, LPDWORD lpBufferSize );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetGetConnection",
+  "title": "WNetGetConnection (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494692(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetGetConnection( LPCTSTR lpLocalName, LPTSTR lpRemoteName, LPDWORD lpnLength );",
+  "code_blocks": [
+   "DWORD WNetGetConnection( LPCTSTR lpLocalName, LPTSTR lpRemoteName, LPDWORD lpnLength );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetGetUniversalName",
+  "title": "WNetGetUniversalName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493865(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetGetUniversalName( LPCTSTR lpLocalPath, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpBufferSize );",
+  "code_blocks": [
+   "DWORD WNetGetUniversalName( LPCTSTR lpLocalPath, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpBufferSize );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetGetUser",
+  "title": "WNetGetUser (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494025(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetGetUser( LPCTSTR lpName, LPTSTR lpUserName, LPDWORD lpnLength );",
+  "code_blocks": [
+   "DWORD WNetGetUser( LPCTSTR lpName, LPTSTR lpUserName, LPDWORD lpnLength );"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "WNetOpenEnum",
+  "title": "WNetOpenEnum (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494315(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD WNetOpenEnum( DWORD dwScope, DWORD dwType, DWORD dwUsage, LPNETRESOURCE lpNetResource, LPHANDLE lphEnum );",
+  "code_blocks": [
+   "DWORD WNetOpenEnum( DWORD dwScope, DWORD dwType, DWORD dwUsage, LPNETRESOURCE lpNetResource, LPHANDLE lphEnum );",
+   "LanMan (container, in this case the provider) ACCOUNTING (container, in this case the domain) \\\\ACCTSPAY (container, in this case the server) PAYFILES (disk) LASERJET (print)"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Functions"
+ },
+ {
+  "name": "CONNECTDLGSTRUCT",
+  "title": "CONNECTDLGSTRUCT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493071(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD cbStructure; HWND hwndOwner; LPNETRESOURCE lpConnRes; DWORD dwFlags; DWORD dwDevNum; } CONNECTDLGSTRUCT;",
+  "code_blocks": [
+   "typedef struct { DWORD cbStructure; HWND hwndOwner; LPNETRESOURCE lpConnRes; DWORD dwFlags; DWORD dwDevNum; } CONNECTDLGSTRUCT;"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "DISCDLGSTRUCT",
+  "title": "DISCDLGSTRUCT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494734(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _wcesdk_win32_DISCDLGSTRUCT_str{ DWORD cbStructure; HWND hwndOwner; LPTSTR lpLocalName; LPTSTR lpRemoteName; DWORD dwFlags; } DISCDLGSTRUCT;",
+  "code_blocks": [
+   "typedef struct _wcesdk_win32_DISCDLGSTRUCT_str{ DWORD cbStructure; HWND hwndOwner; LPTSTR lpLocalName; LPTSTR lpRemoteName; DWORD dwFlags; } DISCDLGSTRUCT;"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "NETRESOURCE",
+  "title": "NETRESOURCE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493893(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _NETRESOURCE { DWORD dwScope; DWORD dwType; DWORD dwDisplayType; DWORD dwUsage; LPTSTR lpLocalName; LPTSTR lpRemoteName; LPTSTR lpComment; LPTSTR lpProvider; } NETRESOURCE;",
+  "code_blocks": [
+   "typedef struct _NETRESOURCE { DWORD dwScope; DWORD dwType; DWORD dwDisplayType; DWORD dwUsage; LPTSTR lpLocalName; LPTSTR lpRemoteName; LPTSTR lpComment; LPTSTR lpProvider; } NETRESOURCE;"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE does not support paths with the prefix of \"drive letters.\" The lpLocalName member can contain any string of up to 64 characters long.",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "REMOTE_NAME_INFO",
+  "title": "REMOTE_NAME_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493451(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _REMOTE_NAME_INFO { LPTSTR lpUniversalName; LPTSTR lpConnectionName; LPTSTR lpRemainingPath; } REMOTE_NAME_INFO;",
+  "code_blocks": [
+   "typedef struct _REMOTE_NAME_INFO { LPTSTR lpUniversalName; LPTSTR lpConnectionName; LPTSTR lpRemainingPath; } REMOTE_NAME_INFO;"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ },
+ {
+  "name": "UNIVERSAL_NAME_INFO",
+  "title": "UNIVERSAL_NAME_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493299(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _UNIVERSAL_NAME_INFO { LPTSTR lpUniversalName; } UNIVERSAL_NAME_INFO;",
+  "code_blocks": [
+   "typedef struct _UNIVERSAL_NAME_INFO { LPTSTR lpUniversalName; } UNIVERSAL_NAME_INFO;"
+  ],
+  "requirements": {
+   "header": "winnetwk.h",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wnet",
+  "sub": "Windows Networking API/Redirector Structures"
+ }
+]

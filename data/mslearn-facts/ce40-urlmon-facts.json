@@ -1,0 +1,2699 @@
+[
+ {
+  "name": "BINDSTRING",
+  "title": "BINDSTRING",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928722(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum tagBINDSTRING { BINDSTRING_HEADERS = 1, BINDSTRING_ACCEPT_MIMES, BINDSTRING_EXTRA_URL, BINDSTRING_LANGUAGE, BINDSTRING_USERNAME, BINDSTRING_PASSWORD, BINDSTRING_UA_PIXELS, BINDSTRING_UA_COLOR, BINDSTRING_OS, BINDSTRING_USERAGENT, BINDSTRING_ACCEPT_ENCODINGS, BINDSTRING_POST_COOKIE, BINDSTRING_POST_DATA_MIME, BINDSTRING_URL, BINDSTRING_IID, BINDSTRING_FLAG_BIND_TO_OBJECT, BINDSTRING_PTR_BIND_CONTEXT } BINDSTRING;",
+  "code_blocks": [
+   "typedef enum tagBINDSTRING { BINDSTRING_HEADERS = 1, BINDSTRING_ACCEPT_MIMES, BINDSTRING_EXTRA_URL, BINDSTRING_LANGUAGE, BINDSTRING_USERNAME, BINDSTRING_PASSWORD, BINDSTRING_UA_PIXELS, BINDSTRING_UA_COLOR, BINDSTRING_OS, BINDSTRING_USERAGENT, BINDSTRING_ACCEPT_ENCODINGS, BINDSTRING_POST_COOKIE, BINDSTRING_POST_DATA_MIME, BINDSTRING_URL, BINDSTRING_IID, BINDSTRING_FLAG_BIND_TO_OBJECT, BINDSTRING_PTR_BIND_CONTEXT } BINDSTRING;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Enumerations"
+ },
+ {
+  "name": "PARSEACTION",
+  "title": "PARSEACTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928734(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _tagPARSEACTION { PARSE_CANONICALIZE = 1, PARSE_FRIENDLY, PARSE_SECURITY_URL, PARSE_ROOTDOCUMENT, PARSE_DOCUMENT, PARSE_ANCHOR, PARSE_ENCODE, PARSE_DECODE, PARSE_PATH_FROM_URL, PARSE_URL_FROM_PATH, PARSE_MIME, PARSE_SERVER, PARSE_SCHEMA, PARSE_SITE, PARSE_DOMAIN, PARSE_LOCATION, PARSE_SECURITY_DOMAIN, PARSE_ESCAPE, PARSE_UNESCAPE } PARSEACTION;",
+  "code_blocks": [
+   "typedef enum _tagPARSEACTION { PARSE_CANONICALIZE = 1, PARSE_FRIENDLY, PARSE_SECURITY_URL, PARSE_ROOTDOCUMENT, PARSE_DOCUMENT, PARSE_ANCHOR, PARSE_ENCODE, PARSE_DECODE, PARSE_PATH_FROM_URL, PARSE_URL_FROM_PATH, PARSE_MIME, PARSE_SERVER, PARSE_SCHEMA, PARSE_SITE, PARSE_DOMAIN, PARSE_LOCATION, PARSE_SECURITY_DOMAIN, PARSE_ESCAPE, PARSE_UNESCAPE } PARSEACTION;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Enumerations"
+ },
+ {
+  "name": "PI_FLAGS",
+  "title": "PI_FLAGS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928735(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _tagPI_FLAGS { PI_PARSE_URL = 0x00000001, PI_FILTER_MODE = 0x00000002, PI_FORCE_ASYNC = 0x00000004, PI_USE_WORKERTHREAD = 0x00000008, PI_MIMEVERIFICATION = 0x00000010, PI_CLSIDLOOKUP = 0x00000020, PI_DATAPROGRESS = 0x00000040, PI_SYNCHRONOUS = 0x00000080, PI_APARTMENTTHREADED = 0x00000100, PI_CLASSINSTALL = 0x00000200, PI_PASSONBINDCTX = 0x00002000, PI_NOMIMEHANDLER = 0x00008000, PI_LOADAPPDIRECT = 0x00004000, PD_FORCE_SWITCH = 0x00010000 } PI_FLAGS;",
+  "code_blocks": [
+   "typedef enum _tagPI_FLAGS { PI_PARSE_URL = 0x00000001, PI_FILTER_MODE = 0x00000002, PI_FORCE_ASYNC = 0x00000004, PI_USE_WORKERTHREAD = 0x00000008, PI_MIMEVERIFICATION = 0x00000010, PI_CLSIDLOOKUP = 0x00000020, PI_DATAPROGRESS = 0x00000040, PI_SYNCHRONOUS = 0x00000080, PI_APARTMENTTHREADED = 0x00000100, PI_CLASSINSTALL = 0x00000200, PI_PASSONBINDCTX = 0x00002000, PI_NOMIMEHANDLER = 0x00008000, PI_LOADAPPDIRECT = 0x00004000, PD_FORCE_SWITCH = 0x00010000 } PI_FLAGS;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Enumerations"
+ },
+ {
+  "name": "CoInternetGetProtocolFlags",
+  "title": "CoInternetGetProtocolFlags",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928723(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "STDAPI CoInternetGetProtocolFlags( LPCWSTR pwzUrl, DWORD* pdwFlags, DWORD dwReserved );",
+  "code_blocks": [
+   "STDAPI CoInternetGetProtocolFlags( LPCWSTR pwzUrl, DWORD* pdwFlags, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Functions"
+ },
+ {
+  "name": "CoInternetGetSession",
+  "title": "CoInternetGetSession",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928724(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "STDAPI CoInternetGetSession( DWORD dwSessionMode, IInternetSession** ppIInternetSession, DWORD dwReserved );",
+  "code_blocks": [
+   "STDAPI CoInternetGetSession( DWORD dwSessionMode, IInternetSession** ppIInternetSession, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Functions"
+ },
+ {
+  "name": "CoInternetParseUrl",
+  "title": "CoInternetParseUrl",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928770(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "STDAPI CoInternetParseUrl( LPCWSTR pwzUrl, PARSEACTION ParseAction, DWORD dwFlags, LPWSTR pszResult, DWORD cchResult, DWORD* pcchResult, DWORD dwReserved );",
+  "code_blocks": [
+   "STDAPI CoInternetParseUrl( LPCWSTR pwzUrl, PARSEACTION ParseAction, DWORD dwFlags, LPWSTR pszResult, DWORD cchResult, DWORD* pcchResult, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Functions"
+ },
+ {
+  "name": "IInternet",
+  "title": "IInternet",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928811(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetBindInfo::GetBindInfo",
+  "title": "IInternetBindInfo::GetBindInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928813(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetBindInfo( DWORD* grfBINDF, BINDINFO* pbindinfo );",
+  "code_blocks": [
+   "HRESULT GetBindInfo( DWORD* grfBINDF, BINDINFO* pbindinfo );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetBindInfo::GetBindString",
+  "title": "IInternetBindInfo::GetBindString",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928814(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetBindString( ULONG ulStringType, LPOLESTR* ppwzStr, ULONG cEl, ULONG* pcElFetched );",
+  "code_blocks": [
+   "HRESULT GetBindString( ULONG ulStringType, LPOLESTR* ppwzStr, ULONG cEl, ULONG* pcElFetched );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetPriority::GetPriority",
+  "title": "IInternetPriority::GetPriority",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908622(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetPriority( LONG* pnPriority );",
+  "code_blocks": [
+   "HRESULT GetPriority( LONG* pnPriority );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetPriority::SetPriority",
+  "title": "IInternetPriority::SetPriority",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908623(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetPriority( LONG nPriority );",
+  "code_blocks": [
+   "HRESULT SetPriority( LONG nPriority );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "All IInternetPriority::SetPriority calls made after IInternetProtocolRoot::Start has been called are ignored.",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocol::LockRequest",
+  "title": "IInternetProtocol::LockRequest",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928832(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ockRequest( DWORD dwOptions );",
+  "code_blocks": [
+   "HRESULT ockRequest( DWORD dwOptions );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocol::Read",
+  "title": "IInternetProtocol::Read",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928833(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Read( void* pv, ULONG cb, ULONG* pcbRead );",
+  "code_blocks": [
+   "HRESULT Read( void* pv, ULONG cb, ULONG* pcbRead );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocol::Seek",
+  "title": "IInternetProtocol::Seek",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928839(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Seek( LARGE_INTEGER dlibMove, DWORD dwOrigin, ULARGE_INTEGER* plibNewPosition );",
+  "code_blocks": [
+   "HRESULT Seek( LARGE_INTEGER dlibMove, DWORD dwOrigin, ULARGE_INTEGER* plibNewPosition );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocol::UnlockRequest",
+  "title": "IInternetProtocol::UnlockRequest",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928849(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT UnlockRequest(VOID);",
+  "code_blocks": [
+   "HRESULT UnlockRequest(VOID);"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolInfo::CombineUrl",
+  "title": "IInternetProtocolInfo::CombineUrl",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928828(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CombineUrl( LPCWSTR pwzBaseUrl, LPCWSTR pwzRelativeUrl, DWORD dwCombineFlags, LPWSTR pwzResult, DWORD cchResult, DWORD* pcchResult, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT CombineUrl( LPCWSTR pwzBaseUrl, LPCWSTR pwzRelativeUrl, DWORD dwCombineFlags, LPWSTR pwzResult, DWORD cchResult, DWORD* pcchResult, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolInfo::CompareUrl",
+  "title": "IInternetProtocolInfo::CompareUrl",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928829(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CompareUrl( LPCWSTR pwzUrl1, LPCWSTR pwzUrl2, DWORD dwCompareFlags );",
+  "code_blocks": [
+   "HRESULT CompareUrl( LPCWSTR pwzUrl1, LPCWSTR pwzUrl2, DWORD dwCompareFlags );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolInfo::ParseUrl",
+  "title": "IInternetProtocolInfo::ParseUrl",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928830(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ParseUrl( LPCWSTR pwzUrl, PARSEACTION ParseAction, DWORD dwParseFlags, LPWSTR pwzResult, DWORD cchResult, DWORD* pcchResult, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT ParseUrl( LPCWSTR pwzUrl, PARSEACTION ParseAction, DWORD dwParseFlags, LPWSTR pwzResult, DWORD cchResult, DWORD* pcchResult, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolInfo::QueryInfo",
+  "title": "IInternetProtocolInfo::QueryInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928831(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT QueryInfo( LPCWSTR pwzUrl, QUERYOPTION OueryOption, DWORD dwQueryFlags, LPVOID pBuffer, DWORD cbBuffer, DWORD* pcbBuf, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT QueryInfo( LPCWSTR pwzUrl, QUERYOPTION OueryOption, DWORD dwQueryFlags, LPVOID pBuffer, DWORD cbBuffer, DWORD* pcbBuf, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolRoot::Abort",
+  "title": "IInternetProtocolRoot::Abort",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928835(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Abort( HRESULT hrReason, DWORD dwOptions );",
+  "code_blocks": [
+   "HRESULT Abort( HRESULT hrReason, DWORD dwOptions );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolRoot::Continue",
+  "title": "IInternetProtocolRoot::Continue",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928836(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Continue( PROTOCOLDATA* pProtocolData );",
+  "code_blocks": [
+   "HRESULT Continue( PROTOCOLDATA* pProtocolData );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolRoot::Start",
+  "title": "IInternetProtocolRoot::Start",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928837(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Start( LPCWSTR szUrl, IInternetProtocolSink* pOIProtSink, IInternetBindInfo* pOIBindInfo, DWORD grfPI, HANDLE_PTR dwReserved );",
+  "code_blocks": [
+   "HRESULT Start( LPCWSTR szUrl, IInternetProtocolSink* pOIProtSink, IInternetBindInfo* pOIBindInfo, DWORD grfPI, HANDLE_PTR dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolRoot::Terminate",
+  "title": "IInternetProtocolRoot::Terminate",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928838(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Terminate( DWORD dwOptions );",
+  "code_blocks": [
+   "HRESULT Terminate( DWORD dwOptions );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolSink::ReportData",
+  "title": "IInternetProtocolSink::ReportData",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928841(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ReportData( DWORD grfBSCF, ULONG ulProgress, ULONG ulProgressMax );",
+  "code_blocks": [
+   "HRESULT ReportData( DWORD grfBSCF, ULONG ulProgress, ULONG ulProgressMax );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolSink::ReportProgress",
+  "title": "IInternetProtocolSink::ReportProgress",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928842(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ReportProgress( ULONG ulStatusCode, LPCWSTR szStatusText );",
+  "code_blocks": [
+   "HRESULT ReportProgress( ULONG ulStatusCode, LPCWSTR szStatusText );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolSink::ReportResult",
+  "title": "IInternetProtocolSink::ReportResult",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928843(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ReportResult( HRESULT hrResult, DWORD dwError, LPCWSTR szResult );",
+  "code_blocks": [
+   "HRESULT ReportResult( HRESULT hrResult, DWORD dwError, LPCWSTR szResult );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolSink::Switch",
+  "title": "IInternetProtocolSink::Switch",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928848(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Switch( PROTOCOLDATA* pProtocolData );",
+  "code_blocks": [
+   "HRESULT Switch( PROTOCOLDATA* pProtocolData );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolSinkStackable::CommitSwitch",
+  "title": "IInternetProtocolSinkStackable::CommitSwitch",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928845(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CommitSwitch(VOID);",
+  "code_blocks": [
+   "HRESULT CommitSwitch(VOID);"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolSinkStackable::RollbackSwitch",
+  "title": "IInternetProtocolSinkStackable::RollbackSwitch",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928846(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RollbackSwitch(VOID);",
+  "code_blocks": [
+   "HRESULT RollbackSwitch(VOID);"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetProtocolSinkStackable::SwitchSink",
+  "title": "IInternetProtocolSinkStackable::SwitchSink",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928847(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SwitchSink( IInternetProtocolSink* pOIProtSink );",
+  "code_blocks": [
+   "HRESULT SwitchSink( IInternetProtocolSink* pOIProtSink );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetSession::RegisterMimeFilter",
+  "title": "IInternetSession::RegisterMimeFilter",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928863(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RegisterMimeFilter( IClassFactory* pCF, REFCLSID rclsid, LPCWSTR pwzType );",
+  "code_blocks": [
+   "HRESULT RegisterMimeFilter( IClassFactory* pCF, REFCLSID rclsid, LPCWSTR pwzType );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetSession::RegisterNameSpace",
+  "title": "IInternetSession::RegisterNameSpace",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928864(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RegisterNameSpace( IClassFactory* pCF, REFCLSID rclsid, LPCWSTR pwzProtocol, ULONG cPatterns, const LPCWSTR* ppwzPatterns, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT RegisterNameSpace( IClassFactory* pCF, REFCLSID rclsid, LPCWSTR pwzProtocol, ULONG cPatterns, const LPCWSTR* ppwzPatterns, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetSession::UnregisterMimeFilter",
+  "title": "IInternetSession::UnregisterMimeFilter",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928865(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT UnregisterMimeFilter( IClassFactory* pCF, LPCWSTR pwzType );",
+  "code_blocks": [
+   "HRESULT UnregisterMimeFilter( IClassFactory* pCF, LPCWSTR pwzType );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "IInternetSession::UnregisterNameSpace",
+  "title": "IInternetSession::UnregisterNameSpace",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928866(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT UnregisterNameSpace( IClassFactory* pCF, LPCWSTR pszProtocol );",
+  "code_blocks": [
+   "HRESULT UnregisterNameSpace( IClassFactory* pCF, LPCWSTR pszProtocol );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Interfaces"
+ },
+ {
+  "name": "PROTOCOLDATA",
+  "title": "PROTOCOLDATA",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928908(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _tagPROTOCOLDATA { DWORD grfFlags; DWORD dwState; LPVOID pData; ULONG cbData; } PROTOCOLDATA;",
+  "code_blocks": [
+   "typedef struct _tagPROTOCOLDATA { DWORD grfFlags; DWORD dwState; LPVOID pData; ULONG cbData; } PROTOCOLDATA;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Structures"
+ },
+ {
+  "name": "PROTOCOLFILTERDATA",
+  "title": "PROTOCOLFILTERDATA",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928909(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _tagPROTOCOLFILTERDATA { DWORD cbSize; IInternetProtocolSink* pProtocolSink; IInternetProtocol* pProtocol; IUnknown* pUnk; DWORD dwFilterFlags; } PROTOCOLFILTERDATA;",
+  "code_blocks": [
+   "typedef struct _tagPROTOCOLFILTERDATA { DWORD cbSize; IInternetProtocolSink* pProtocolSink; IInternetProtocol* pProtocol; IUnknown* pUnk; DWORD dwFilterFlags; } PROTOCOLFILTERDATA;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "Asynchronous Pluggable Protocols Structures"
+ },
+ {
+  "name": "BINDF",
+  "title": "BINDF",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928760(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { BINDF_ASYNCHRONOUS = 0x00000001, BINDF_ASYNCSTORAGE = 0x00000002, BINDF_NOPROGRESSIVERENDERING = 0x00000004, BINDF_OFFLINEOPERATION = 0x00000008, BINDF_GETNEWESTVERSION = 0x00000010, BINDF_NOWRITECACHE = 0x00000020, BINDF_NEEDFILE = 0x00000040, BINDF_PULLDATA = 0x00000080, BINDF_IGNORESECURITYPROBLEM = 0x00000100, BINDF_RESYNCHRONIZE = 0x00000200, BINDF_HYPERLINK = 0x00000400, BINDF_NO_UI = 0x00000800, BINDF_SILENTOPERATION = 0x00001000, BINDF_PRAGMA_NO_CACHE = 0x00002000, BINDF_GETCLASSOBJECT = 0x00004000, BINDF_RESERVED_1 = 0x00008000, BINDF_FREE_THREADED = 0x00010000, BINDF_DIRECT_READ = 0x00020000, BINDF_FORMS_SUBMIT = 0x00040000, BINDF_GETFROMCACHE_IF_NET_FAIL = 0x00080000, BINDF_FROMURLMON = 0x00100000, BINDF_FWD_BACK = 0x00200000, BINDF_PREFERDEFAULTHANDLER = 0x00400000, BINDF_RESERVED_3 = 0x00800000 } BINDF;",
+  "code_blocks": [
+   "typedef enum { BINDF_ASYNCHRONOUS = 0x00000001, BINDF_ASYNCSTORAGE = 0x00000002, BINDF_NOPROGRESSIVERENDERING = 0x00000004, BINDF_OFFLINEOPERATION = 0x00000008, BINDF_GETNEWESTVERSION = 0x00000010, BINDF_NOWRITECACHE = 0x00000020, BINDF_NEEDFILE = 0x00000040, BINDF_PULLDATA = 0x00000080, BINDF_IGNORESECURITYPROBLEM = 0x00000100, BINDF_RESYNCHRONIZE = 0x00000200, BINDF_HYPERLINK = 0x00000400, BINDF_NO_UI = 0x00000800, BINDF_SILENTOPERATION = 0x00001000, BINDF_PRAGMA_NO_CACHE = 0x00002000, BINDF_GETCLASSOBJECT = 0x00004000, BINDF_RESERVED_1 = 0x00008000, BINDF_FREE_THREADED = 0x00010000, BINDF_DIRECT_READ = 0x00020000, BINDF_FORMS_SUBMIT = 0x00040000, BINDF_GETFROMCACHE_IF_NET_FAIL = 0x00080000, BINDF_FROMURLMON = 0x00100000, BINDF_FWD_BACK = 0x00200000, BINDF_PREFERDEFAULTHANDLER = 0x00400000, BINDF_RESERVED_3 = 0x00800000 } BINDF;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Enumerations"
+ },
+ {
+  "name": "BINDINFOF",
+  "title": "BINDINFOF",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928762(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum tagBINDINFOF { BINDINFOF_URLENCODESTGMEDDATA, BINDINFOF_URLENCODEDEXTRAINFO } BINDINFOF;",
+  "code_blocks": [
+   "typedef enum tagBINDINFOF { BINDINFOF_URLENCODESTGMEDDATA, BINDINFOF_URLENCODEDEXTRAINFO } BINDINFOF;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Enumerations"
+ },
+ {
+  "name": "BINDINFO_OPTIONS",
+  "title": "BINDINFO_OPTIONS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928763(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { BINDINFO_OPTIONS_WININETFLAG = 0x00010000, BINDINFO_OPTIONS_ENABLE_UTF8 = 0x00020000, BINDINFO_OPTIONS_DISABLE_UTF8 = 0x00040000, BINDINFO_OPTIONS_USE_IE_ENCODING = 0x00080000, BINDINFO_OPTIONS_BINDTOOBJECT = 0x00100000 } BINDINFO_OPTIONS;",
+  "code_blocks": [
+   "typedef enum { BINDINFO_OPTIONS_WININETFLAG = 0x00010000, BINDINFO_OPTIONS_ENABLE_UTF8 = 0x00020000, BINDINFO_OPTIONS_DISABLE_UTF8 = 0x00040000, BINDINFO_OPTIONS_USE_IE_ENCODING = 0x00080000, BINDINFO_OPTIONS_BINDTOOBJECT = 0x00100000 } BINDINFO_OPTIONS;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Enumerations"
+ },
+ {
+  "name": "BINDSTATUS",
+  "title": "BINDSTATUS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928764(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum tagBINDSTATUS { BINDSTATUS_FINDINGRESOURCE, BINDSTATUS_CONNECTING, BINDSTATUS_REDIRECTING, BINDSTATUS_BEGINDOWNLOADDATA, BINDSTATUS_DOWNLOADINGDATA, BINDSTATUS_ENDDOWNLOADDATA, BINDSTATUS_BEGINDOWNLOADCOMPONENTS, BINDSTATUS_INSTALLINGCOMPONENTS, BINDSTATUS_ENDDOWNLOADCOMPONENTS, BINDSTATUS_USINGCACHEDCOPY, BINDSTATUS_SENDINGREQUEST, BINDSTATUS_CLASSIDAVAILABLE, BINDSTATUS_MIMETYPEAVAILABLE, BINDSTATUS_CACHEFILENAMEAVAILABLE, BINDSTATUS_BEGINSYNCOPERATION, BINDSTATUS_ENDSYNCOPERATION, BINDSTATUS_BEGINUPLOADDATA, BINDSTATUS_UPLOADINGDATA, BINDSTATUS_ENDUPLOADINGDATA, BINDSTATUS_PROTOCOLCLASSID, BINDSTATUS_ENCODING, BINDSTATUS_VERFIEDMIMETYPEAVAILABLE, BINDSTATUS_CLASSINSTALLLOCATION, BINDSTATUS_DECODING, BINDSTATUS_LOADINGMIMEHANDLER, BINDSTATUS_CONTENTDISPOSITIONATTACH, BINDSTATUS_FILTERREPORTMIMETYPE, BINDSTATUS_CLSIDCANINSTANTIATE, BINDSTATUS_IUNKNOWNAVAILABLE, BINDSTATUS_DIRECTBIND, BINDSTATUS_RAWMIMETYPE, BINDSTATUS_PROXYDETECTING, BINDSTATUS_ACCEPTRANGES } BINDSTATUS;",
+  "code_blocks": [
+   "typedef enum tagBINDSTATUS { BINDSTATUS_FINDINGRESOURCE, BINDSTATUS_CONNECTING, BINDSTATUS_REDIRECTING, BINDSTATUS_BEGINDOWNLOADDATA, BINDSTATUS_DOWNLOADINGDATA, BINDSTATUS_ENDDOWNLOADDATA, BINDSTATUS_BEGINDOWNLOADCOMPONENTS, BINDSTATUS_INSTALLINGCOMPONENTS, BINDSTATUS_ENDDOWNLOADCOMPONENTS, BINDSTATUS_USINGCACHEDCOPY, BINDSTATUS_SENDINGREQUEST, BINDSTATUS_CLASSIDAVAILABLE, BINDSTATUS_MIMETYPEAVAILABLE, BINDSTATUS_CACHEFILENAMEAVAILABLE, BINDSTATUS_BEGINSYNCOPERATION, BINDSTATUS_ENDSYNCOPERATION, BINDSTATUS_BEGINUPLOADDATA, BINDSTATUS_UPLOADINGDATA, BINDSTATUS_ENDUPLOADINGDATA, BINDSTATUS_PROTOCOLCLASSID, BINDSTATUS_ENCODING, BINDSTATUS_VERFIEDMIMETYPEAVAILABLE, BINDSTATUS_CLASSINSTALLLOCATION, BINDSTATUS_DECODING, BINDSTATUS_LOADINGMIMEHANDLER, BINDSTATUS_CONTENTDISPOSITIONATTACH, BINDSTATUS_FILTERREPORTMIMETYPE, BINDSTATUS_CLSIDCANINSTANTIATE, BINDSTATUS_IUNKNOWNAVAILABLE, BINDSTATUS_DIRECTBIND, BINDSTATUS_RAWMIMETYPE, BINDSTATUS_PROXYDETECTING, BINDSTATUS_ACCEPTRANGES } BINDSTATUS;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Enumerations"
+ },
+ {
+  "name": "BINDVERB",
+  "title": "BINDVERB",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928765(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { BINDVERB_GET, BINDVERB_POST, BINDVERB_PUT, BINDVERB_CUSTOM } BINDVERB;",
+  "code_blocks": [
+   "typedef enum { BINDVERB_GET, BINDVERB_POST, BINDVERB_PUT, BINDVERB_CUSTOM } BINDVERB;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Enumerations"
+ },
+ {
+  "name": "BSCF",
+  "title": "BSCF",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928766(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { BSCF_FIRSTDATANOTIFICATION, BSCF_INTERMEDIATEDATANOTIFICATION, BSCF_LASTDATANOTIFICATION, BSCF_DATAFULLYAVAILABLE, BSCF_AVAILABLEDATASIZEUNKNOWN } BSCF;",
+  "code_blocks": [
+   "typedef enum { BSCF_FIRSTDATANOTIFICATION, BSCF_INTERMEDIATEDATANOTIFICATION, BSCF_LASTDATANOTIFICATION, BSCF_DATAFULLYAVAILABLE, BSCF_AVAILABLEDATASIZEUNKNOWN } BSCF;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Enumerations"
+ },
+ {
+  "name": "MONIKERPROPERTY",
+  "title": "MONIKERPROPERTY",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928906(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { MIMETYPEPROP = 0x00000000 } MONIKERPROPERTY;",
+  "code_blocks": [
+   "typedef enum { MIMETYPEPROP = 0x00000000 } MONIKERPROPERTY;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Enumerations"
+ },
+ {
+  "name": "QUERYOPTION",
+  "title": "QUERYOPTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928912(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _tagQUERYOPTION { QUERY_EXPIRATION_DATE = 1, QUERY_TIME_OF_LAST_CHANGE, QUERY_CONTENT_ENCODING, QUERY_CONTENT_TYPE, QUERY_REFRESH, QUERY_RECOMBINE, QUERY_CAN_NAVIGATE, QUERY_USES_NETWORK, QUERY_IS_CACHED, QUERY_IS_INSTALLEDENTRY, QUERY_IS_CACHED_OR_MAPPED, QUERY_USES_CACHE, QUERY_IS_SECURE, QUERY_IS_SAFE } QUERYOPTION;",
+  "code_blocks": [
+   "typedef enum _tagQUERYOPTION { QUERY_EXPIRATION_DATE = 1, QUERY_TIME_OF_LAST_CHANGE, QUERY_CONTENT_ENCODING, QUERY_CONTENT_TYPE, QUERY_REFRESH, QUERY_RECOMBINE, QUERY_CAN_NAVIGATE, QUERY_USES_NETWORK, QUERY_IS_CACHED, QUERY_IS_INSTALLEDENTRY, QUERY_IS_CACHED_OR_MAPPED, QUERY_USES_CACHE, QUERY_IS_SECURE, QUERY_IS_SAFE } QUERYOPTION;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Enumerations"
+ },
+ {
+  "name": "URL_ENCODING",
+  "title": "URL_ENCODING",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms929030(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { URL_ENCODING_NONE = 0x00000000, URL_ENCODING_ENABLE_UTF8 = 0x10000000, URL_ENCODING_DISABLE_UTF8 = 0x20000000 } URL_ENCODING;",
+  "code_blocks": [
+   "typedef enum { URL_ENCODING_NONE = 0x00000000, URL_ENCODING_ENABLE_UTF8 = 0x10000000, URL_ENCODING_DISABLE_UTF8 = 0x20000000 } URL_ENCODING;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Enumerations"
+ },
+ {
+  "name": "URL Moniker Error Codes Constants",
+  "title": "URL Moniker Error Codes Constants",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928926(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Errors"
+ },
+ {
+  "name": "CoGetClassObjectFromURL",
+  "title": "CoGetClassObjectFromURL",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928767(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CoGetClassObjectFromURL( REFCLSID rclsid, LPCWSTR szCodeURL, DWORD dwFileVersionMS, DWORD dwFileVersionLS, LPCWSTR szContentType, LPBINDCTX pBindCtx, DWORD dwClsContext, LPVOID pvReserved, REFIID riid, VOID** ppv );",
+  "code_blocks": [
+   "HRESULT CoGetClassObjectFromURL( REFCLSID rclsid, LPCWSTR szCodeURL, DWORD dwFileVersionMS, DWORD dwFileVersionLS, LPCWSTR szContentType, LPBINDCTX pBindCtx, DWORD dwClsContext, LPVOID pvReserved, REFIID riid, VOID** ppv );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "CoInternetCombineUrl",
+  "title": "CoInternetCombineUrl",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928768(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CoInternetCombineUrl( LPCWSTR pwzBaseUrl, LPCWSTR pwzRelativeUrl, DWORD dwCombineFlags, LPWSTR pwzResult, DWORD cchResult, DWORD* pcchResult, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT CoInternetCombineUrl( LPCWSTR pwzBaseUrl, LPCWSTR pwzRelativeUrl, DWORD dwCombineFlags, LPWSTR pwzResult, DWORD cchResult, DWORD* pcchResult, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "CoInternetQueryInfo",
+  "title": "CoInternetQueryInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928771(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CoInternetQueryInfo( LPCWSTR pwzUrl, QUERYOPTION QueryOption, DWORD dwQueryFlags, LPVOID pvBuffer, DWORD cbBuffer, DWORD* pcbBuffer, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT CoInternetQueryInfo( LPCWSTR pwzUrl, QUERYOPTION QueryOption, DWORD dwQueryFlags, LPVOID pvBuffer, DWORD cbBuffer, DWORD* pcbBuffer, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "CopyBindInfo",
+  "title": "CopyBindInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928772(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CopyBindInfo( const BINDINFO* pcbiSrc, BINDINFO* pcbiDest );",
+  "code_blocks": [
+   "HRESULT CopyBindInfo( const BINDINFO* pcbiSrc, BINDINFO* pcbiDest );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "CopyStgMedium",
+  "title": "CopyStgMedium",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928773(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CopyStgMedium( const STGMEDIUM* pcstgmedSrc, STGMEDIUM* pstgmedDest );",
+  "code_blocks": [
+   "HRESULT CopyStgMedium( const STGMEDIUM* pcstgmedSrc, STGMEDIUM* pstgmedDest );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "CreateAsyncBindCtx",
+  "title": "CreateAsyncBindCtx",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928774(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateAsyncBindCtx( DWORD dwReserved, IBindStatusCallback* pbsc, IEnumFORMATETC* penumfmtetc, IBindCtx** ppbc );",
+  "code_blocks": [
+   "HRESULT CreateAsyncBindCtx( DWORD dwReserved, IBindStatusCallback* pbsc, IEnumFORMATETC* penumfmtetc, IBindCtx** ppbc );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "CreateAsyncBindCtxEx",
+  "title": "CreateAsyncBindCtxEx",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928775(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateAsyncBindCtxEx( IBindCtx* pbc, DWORD dwOptions, IBindStatusCallback* pBSCb, IEnumFORMATETC* pEnum, IBindCtx** ppBC, DWORD reserved );",
+  "code_blocks": [
+   "HRESULT CreateAsyncBindCtxEx( IBindCtx* pbc, DWORD dwOptions, IBindStatusCallback* pBSCb, IEnumFORMATETC* pEnum, IBindCtx** ppBC, DWORD reserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "CreateFormatEnumerator",
+  "title": "CreateFormatEnumerator",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928776(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateFormatEnumerator( UINT cfmtetc, FORMATETC* rgfmtetc, IEnumFORMATETC** ppenumfmtetc );",
+  "code_blocks": [
+   "HRESULT CreateFormatEnumerator( UINT cfmtetc, FORMATETC* rgfmtetc, IEnumFORMATETC** ppenumfmtetc );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "CreateURLMoniker",
+  "title": "CreateURLMoniker",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928778(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateURLMoniker( IMoniker* pmkContext, LPWSTR szURL, IMoniker** ppmk );",
+  "code_blocks": [
+   "HRESULT CreateURLMoniker( IMoniker* pmkContext, LPWSTR szURL, IMoniker** ppmk );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "CreateURLMonikerEx",
+  "title": "CreateURLMonikerEx",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928779(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateURLMonikerEx( LPMONIKER pMkCtx, LPCWSTR szURL, LPMONIKER* ppmk, DWORD dwFlags );",
+  "code_blocks": [
+   "HRESULT CreateURLMonikerEx( LPMONIKER pMkCtx, LPCWSTR szURL, LPMONIKER* ppmk, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "FindMediaType",
+  "title": "FindMediaType",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928781(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT FindMediaType( LPCSTR rgszTypes, CLIPFORMAT* rgcfTypes );",
+  "code_blocks": [
+   "HRESULT FindMediaType( LPCSTR rgszTypes, CLIPFORMAT* rgcfTypes );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "FindMediaTypeClass",
+  "title": "FindMediaTypeClass",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928782(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT FindMediaTypeClass( LPBC pbc, LPCSTR szType, CLSID* pclsID, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT FindMediaTypeClass( LPBC pbc, LPCSTR szType, CLSID* pclsID, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "FindMimeFromData",
+  "title": "FindMimeFromData",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928783(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT FindMimeFromData( LPBC pBC, LPCWSTR pwzUrl, LPVOID pBuffer, DWORD cbSize, LPCWSTR pwzMimeProposed, DWORD dwMimeFlags, LPWSTR* ppwzMimeOut, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT FindMimeFromData( LPBC pBC, LPCWSTR pwzUrl, LPVOID pBuffer, DWORD cbSize, LPCWSTR pwzMimeProposed, DWORD dwMimeFlags, LPWSTR* ppwzMimeOut, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "GetClassFileOrMime",
+  "title": "GetClassFileOrMime",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928784(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetClassFileOrMime( LPBC pBC, LPCWSTR szFilename, LPVOID pBuffer, DWORD cbSize, LPCWSTR szMime, DWORD dwReserved, CLSID* pclsid );",
+  "code_blocks": [
+   "HRESULT GetClassFileOrMime( LPBC pBC, LPCWSTR szFilename, LPVOID pBuffer, DWORD cbSize, LPCWSTR szMime, DWORD dwReserved, CLSID* pclsid );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "IsAsyncMoniker",
+  "title": "IsAsyncMoniker",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928896(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT IsAsyncMoniker( IMoniker* pmk );",
+  "code_blocks": [
+   "HRESULT IsAsyncMoniker( IMoniker* pmk );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "IsValidURL",
+  "title": "IsValidURL",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928898(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT IsValidURL( LPBC pBC, LPCWSTR szURL, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT IsValidURL( LPBC pBC, LPCWSTR szURL, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "MkParseDisplayNameEx",
+  "title": "MkParseDisplayNameEx",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928905(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT MkParseDisplayNameEx( IBindCtx* pbc, LPWSTR szDisplayName, ULONG* pcchEaten, IMoniker** ppmk );",
+  "code_blocks": [
+   "HRESULT MkParseDisplayNameEx( IBindCtx* pbc, LPWSTR szDisplayName, ULONG* pcchEaten, IMoniker** ppmk );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "ObtainUserAgentString",
+  "title": "ObtainUserAgentString",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928907(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ObtainUserAgentString( DWORD dwOption, LPCSTR pcszUAOut, DWORD* cbSize );",
+  "code_blocks": [
+   "HRESULT ObtainUserAgentString( DWORD dwOption, LPCSTR pcszUAOut, DWORD* cbSize );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "RegisterBindStatusCallback",
+  "title": "RegisterBindStatusCallback",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928913(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RegisterBindStatusCallback( IBindCtx* pbc, IBindStatusCallback* pbsc, IBindStatusCallback** ppbscPrevious, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT RegisterBindStatusCallback( IBindCtx* pbc, IBindStatusCallback* pbsc, IBindStatusCallback** ppbscPrevious, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "RegisterFormatEnumerator",
+  "title": "RegisterFormatEnumerator",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928914(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RegisterFormatEnumerator( LPBC pBC, IEnumFORMATETC* pEFetc, DWORD reserved );",
+  "code_blocks": [
+   "HRESULT RegisterFormatEnumerator( LPBC pBC, IEnumFORMATETC* pEFetc, DWORD reserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "RegisterMediaTypeClass",
+  "title": "RegisterMediaTypeClass",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928915(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RegisterMediaTypeClass( LPBC pbc, UINT ctypes, LPCSTR* rgszTypes, CLSID* rgclsID, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT RegisterMediaTypeClass( LPBC pbc, UINT ctypes, LPCSTR* rgszTypes, CLSID* rgclsID, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "RegisterMediaTypes",
+  "title": "RegisterMediaTypes",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928916(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RegisterMediaTypes( UINT ctypes, LPCSTR* rgszTypes, CLIPFORMAT* rgcfTypes );",
+  "code_blocks": [
+   "HRESULT RegisterMediaTypes( UINT ctypes, LPCSTR* rgszTypes, CLIPFORMAT* rgcfTypes );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "ReleaseBindInfo",
+  "title": "ReleaseBindInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928917(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void ReleaseBindInfo( BINDINFO* pbindinfo );",
+  "code_blocks": [
+   "void ReleaseBindInfo( BINDINFO* pbindinfo );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "RevokeBindStatusCallback",
+  "title": "RevokeBindStatusCallback",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928918(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RevokeBindStatusCallback( IBindCtx* pbc, IBindStatusCallback* pbsc );",
+  "code_blocks": [
+   "HRESULT RevokeBindStatusCallback( IBindCtx* pbc, IBindStatusCallback* pbsc );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "RevokeFormatEnumerator",
+  "title": "RevokeFormatEnumerator",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928919(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RevokeFormatEnumerator( LPBC pbc, IEnumFORMATETC* pEFetc );",
+  "code_blocks": [
+   "HRESULT RevokeFormatEnumerator( LPBC pbc, IEnumFORMATETC* pEFetc );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "URLDownloadToCacheFile",
+  "title": "URLDownloadToCacheFile",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928922(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT URLDownloadToCacheFile( LPUNKNOWN lpUnkcaller, LPCSTR szURL, LPTSTR szFileName, DWORD dwBufLength, DWORD dwReserved, IBindStatusCallback* pBSC );",
+  "code_blocks": [
+   "HRESULT URLDownloadToCacheFile( LPUNKNOWN lpUnkcaller, LPCSTR szURL, LPTSTR szFileName, DWORD dwBufLength, DWORD dwReserved, IBindStatusCallback* pBSC );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "URLDownloadToFile",
+  "title": "URLDownloadToFile",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928923(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT URLDownloadToFile( LPUNKNOWN pCaller, LPCTSTR szURL, LPCTSTR szFileName, DWORD dwReserved, LPBINDSTATUSCALLBACK lpfnCB );",
+  "code_blocks": [
+   "HRESULT URLDownloadToFile( LPUNKNOWN pCaller, LPCTSTR szURL, LPCTSTR szFileName, DWORD dwReserved, LPBINDSTATUSCALLBACK lpfnCB );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "URLOpenBlockingStream",
+  "title": "URLOpenBlockingStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928928(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT URLOpenBlockingStream( LPUNKNOWN pCaller, LPCSTR szURL, LPSTREAM* ppStream, DWORD dwReserved, LPBINDSTATUSCALLBACK lpfnCB );",
+  "code_blocks": [
+   "HRESULT URLOpenBlockingStream( LPUNKNOWN pCaller, LPCSTR szURL, LPSTREAM* ppStream, DWORD dwReserved, LPBINDSTATUSCALLBACK lpfnCB );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "URLOpenPullStream",
+  "title": "URLOpenPullStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928929(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT URLOpenPullStream( LPUNKNOWN pCaller, LPCSTR szURL, DWORD dwReserved, LPBINDSTATUSCALLBACK lpfnCB );",
+  "code_blocks": [
+   "HRESULT URLOpenPullStream( LPUNKNOWN pCaller, LPCSTR szURL, DWORD dwReserved, LPBINDSTATUSCALLBACK lpfnCB );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "URLOpenStream",
+  "title": "URLOpenStream",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928930(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT URLOpenStream( LPUNKNOWN pCaller, LPCSTR szURL, DWORD dwReserved, LPBINDSTATUSCALLBACK lpfnCB );",
+  "code_blocks": [
+   "HRESULT URLOpenStream( LPUNKNOWN pCaller, LPCSTR szURL, DWORD dwReserved, LPBINDSTATUSCALLBACK lpfnCB );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "UrlMkGetSessionOption",
+  "title": "UrlMkGetSessionOption",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928924(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT UrlMkGetSessionOption( DWORD dwOption, LPVOID pBuffer, DWORD dwBufferLength, DWORD* pdwBufferLength, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT UrlMkGetSessionOption( DWORD dwOption, LPVOID pBuffer, DWORD dwBufferLength, DWORD* pdwBufferLength, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "UrlMkSetSessionOption",
+  "title": "UrlMkSetSessionOption",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928925(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT UrlMkSetSessionOption( DWORD dwOption, LPVOID pBuffer, DWORD dwBufferLength, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT UrlMkSetSessionOption( DWORD dwOption, LPVOID pBuffer, DWORD dwBufferLength, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Functions"
+ },
+ {
+  "name": "IAsyncMoniker",
+  "title": "IAsyncMoniker",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928786(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IAuthenticate::Authenticate",
+  "title": "IAuthenticate::Authenticate",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928787(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Authenticate( HWND* phwnd, LPWSTR* pszUsername, LPWSTR* pszPassword );",
+  "code_blocks": [
+   "HRESULT Authenticate( HWND* phwnd, LPWSTR* pszUsername, LPWSTR* pszPassword );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindHost::CreateMoniker",
+  "title": "IBindHost::CreateMoniker",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928789(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateMoniker( LPOLESTR szName, IBindCtx* pBC, IMoniker** ppmk, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT CreateMoniker( LPOLESTR szName, IBindCtx* pBC, IMoniker** ppmk, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindHost::MonikerBindToObject",
+  "title": "IBindHost::MonikerBindToObject",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928791(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT MonikerBindToObject( IMoniker* pMk, IBindCtx* pBC, IBindStatusCallback* pBSC, REFIID riid, void** ppvObj );",
+  "code_blocks": [
+   "HRESULT MonikerBindToObject( IMoniker* pMk, IBindCtx* pBC, IBindStatusCallback* pBSC, REFIID riid, void** ppvObj );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindHost::MonikerBindToStorage",
+  "title": "IBindHost::MonikerBindToStorage",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928792(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT MonikerBindToStorage( IMoniker* pMk, IBindCtx* pBC, IBindStatusCallback* pBSC, REFIID riid, void** ppvObj );",
+  "code_blocks": [
+   "HRESULT MonikerBindToStorage( IMoniker* pMk, IBindCtx* pBC, IBindStatusCallback* pBSC, REFIID riid, void** ppvObj );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindStatusCallback::GetBindInfo",
+  "title": "IBindStatusCallback::GetBindInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928798(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetBindInfo( DWORD* grfBINDF, BINDINFO* pbindinfo );",
+  "code_blocks": [
+   "HRESULT GetBindInfo( DWORD* grfBINDF, BINDINFO* pbindinfo );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindStatusCallback::GetPriority",
+  "title": "IBindStatusCallback::GetPriority",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928799(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetPriority( LONG* pnPriority );",
+  "code_blocks": [
+   "HRESULT GetPriority( LONG* pnPriority );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindStatusCallback::OnDataAvailable",
+  "title": "IBindStatusCallback::OnDataAvailable",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928801(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT OnDataAvailable( DWORD grfBSCF, DWORD dwSize, FORMATETC* pformatetc, STGMEDIUM* pstgmed );",
+  "code_blocks": [
+   "HRESULT OnDataAvailable( DWORD grfBSCF, DWORD dwSize, FORMATETC* pformatetc, STGMEDIUM* pstgmed );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindStatusCallback::OnObjectAvailable",
+  "title": "IBindStatusCallback::OnObjectAvailable",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928802(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT OnObjectAvailable( REFIID riid, IUnknown* punk );",
+  "code_blocks": [
+   "HRESULT OnObjectAvailable( REFIID riid, IUnknown* punk );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindStatusCallback::OnProgress",
+  "title": "IBindStatusCallback::OnProgress",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928803(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT OnProgress( ULONG ulProgress, ULONG ulProgressMax, ULONG ulStatusCode, LPCWSTR szStatusText );",
+  "code_blocks": [
+   "HRESULT OnProgress( ULONG ulProgress, ULONG ulProgressMax, ULONG ulStatusCode, LPCWSTR szStatusText );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindStatusCallback::OnStartBinding",
+  "title": "IBindStatusCallback::OnStartBinding",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928804(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT OnStartBinding( DWORD dwReserved, IBinding* pib );",
+  "code_blocks": [
+   "HRESULT OnStartBinding( DWORD dwReserved, IBinding* pib );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBindStatusCallback::OnStopBinding",
+  "title": "IBindStatusCallback::OnStopBinding",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928805(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT OnStopBinding( HRESULT hresult, LPCWSTR szError );",
+  "code_blocks": [
+   "HRESULT OnStopBinding( HRESULT hresult, LPCWSTR szError );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBinding::Abort",
+  "title": "IBinding::Abort",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928793(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Abort(VOID);",
+  "code_blocks": [
+   "HRESULT Abort(VOID);"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBinding::GetBindResult",
+  "title": "IBinding::GetBindResult",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928794(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetBindResult( CLSID* pclsidProtocol, DWORD* pdwResult, LPOLESTR* pszResult, DWORD* pdwReserved );",
+  "code_blocks": [
+   "HRESULT GetBindResult( CLSID* pclsidProtocol, DWORD* pdwResult, LPOLESTR* pszResult, DWORD* pdwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBinding::GetPriority",
+  "title": "IBinding::GetPriority",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928795(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetPriority( LONG* pnPriority );",
+  "code_blocks": [
+   "HRESULT GetPriority( LONG* pnPriority );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IBinding::Resume",
+  "title": "IBinding::Resume",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928797(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Resume(VOID);",
+  "code_blocks": [
+   "HRESULT Resume(VOID);"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IHttpNegotiate::BeginningTransaction",
+  "title": "IHttpNegotiate::BeginningTransaction",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928806(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT BeginningTransaction( LPCWSTR szURL, DWORD dwReserved, LPCWSTR szHeaders, LPWSTR* pszAdditionalHeaders );",
+  "code_blocks": [
+   "HRESULT BeginningTransaction( LPCWSTR szURL, DWORD dwReserved, LPCWSTR szHeaders, LPWSTR* pszAdditionalHeaders );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IHttpNegotiate::OnResponse",
+  "title": "IHttpNegotiate::OnResponse",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928808(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT OnResponse( DWORD dwResponseCode, LPCWSTR szResponseHeaders, LPCWSTR szRequestHeaders, LPWSTR* pszAdditionalRequestHeaders );",
+  "code_blocks": [
+   "HRESULT OnResponse( DWORD dwResponseCode, LPCWSTR szResponseHeaders, LPCWSTR szRequestHeaders, LPWSTR* pszAdditionalRequestHeaders );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IHttpSecurity::OnSecurityProblem",
+  "title": "IHttpSecurity::OnSecurityProblem",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928810(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT OnSecurityProblem( DWORD dwProblem );",
+  "code_blocks": [
+   "HRESULT OnSecurityProblem( DWORD dwProblem );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IMonikerProp::PutProperty",
+  "title": "IMonikerProp::PutProperty",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928878(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT PutProperty( MONIKERPROPERTY mkp, LPCWSTR val );",
+  "code_blocks": [
+   "HRESULT PutProperty( MONIKERPROPERTY mkp, LPCWSTR val );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IPersistMoniker::GetClassID",
+  "title": "IPersistMoniker::GetClassID",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928879(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetClassID( CLSID* pClassID );",
+  "code_blocks": [
+   "HRESULT GetClassID( CLSID* pClassID );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IPersistMoniker::GetCurMoniker",
+  "title": "IPersistMoniker::GetCurMoniker",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928890(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetCurMoniker( IMoniker** ppimkName );",
+  "code_blocks": [
+   "HRESULT GetCurMoniker( IMoniker** ppimkName );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IPersistMoniker::IsDirty",
+  "title": "IPersistMoniker::IsDirty",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928892(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT IsDirty(VOID);",
+  "code_blocks": [
+   "HRESULT IsDirty(VOID);"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IPersistMoniker::Load",
+  "title": "IPersistMoniker::Load",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928893(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Load( BOOL fFullyAvailable, IMoniker* pimkName, LPBC pibc, DWORD grfMode );",
+  "code_blocks": [
+   "HRESULT Load( BOOL fFullyAvailable, IMoniker* pimkName, LPBC pibc, DWORD grfMode );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IPersistMoniker::Save",
+  "title": "IPersistMoniker::Save",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928895(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Save( IMoniker* pimkName, LPBC pbc, BOOL fRemember );",
+  "code_blocks": [
+   "HRESULT Save( IMoniker* pimkName, LPBC pbc, BOOL fRemember );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IPersistMoniker::SaveCompleted",
+  "title": "IPersistMoniker::SaveCompleted",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928894(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SaveCompleted( IMoniker* pimkName, LPBC pibc );",
+  "code_blocks": [
+   "HRESULT SaveCompleted( IMoniker* pimkName, LPBC pibc );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IWinInetHttpInfo::QueryInfo",
+  "title": "IWinInetHttpInfo::QueryInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928902(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT QueryInfo( DWORD dwOption, LPVOID pBuffer, DWORD* pcbBuf, DWORD* pdwFlags, DWORD* pdwReserved );",
+  "code_blocks": [
+   "HRESULT QueryInfo( DWORD dwOption, LPVOID pBuffer, DWORD* pcbBuf, DWORD* pdwFlags, DWORD* pdwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IWinInetInfo::QueryOption",
+  "title": "IWinInetInfo::QueryOption",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928904(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT QueryOption( DWORD dwOption, LPVOID pBuffer, DWORD* pcbBuf );",
+  "code_blocks": [
+   "HRESULT QueryOption( DWORD dwOption, LPVOID pBuffer, DWORD* pcbBuf );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "IWindowForBindingUI::GetWindow",
+  "title": "IWindowForBindingUI::GetWindow",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928899(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetWindow( REFGUID rguidReason, HWND* phwnd );",
+  "code_blocks": [
+   "HRESULT GetWindow( REFGUID rguidReason, HWND* phwnd );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Interfaces"
+ },
+ {
+  "name": "BINDINFO",
+  "title": "BINDINFO",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928761(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _tagBINDINFO { ULONG cbSize; LPWSTR szExtraInfo; STGMEDIUM stgmedData; DWORD grfBindInfoF; DWORD dwBindVerb; LPWSTR szCustomVerb; DWORD cbStgmedData; DWORD dwOptions; DWORD dwOptionsFlags; DWORD dwCodePage; SECURITY_ATTRIBUTES securityAttributes; IID iid; IUnknown* pUnk; DWORD dwReserved; } BINDINFO;",
+  "code_blocks": [
+   "typedef struct _tagBINDINFO { ULONG cbSize; LPWSTR szExtraInfo; STGMEDIUM stgmedData; DWORD grfBindInfoF; DWORD dwBindVerb; LPWSTR szCustomVerb; DWORD cbStgmedData; DWORD dwOptions; DWORD dwOptionsFlags; DWORD dwCodePage; SECURITY_ATTRIBUTES securityAttributes; IID iid; IUnknown* pUnk; DWORD dwReserved; } BINDINFO;"
+  ],
+  "requirements": {
+   "header": "Objidl.h, Objidl.idl",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Structures"
+ },
+ {
+  "name": "STGMEDIUM",
+  "title": "STGMEDIUM",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928939(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagSTGMEDIUM { DWORD tymed; [switch_type(DWORD), switch_is((DWORD) tymed)] union { [case(TYMED_GDI)] HBITMAPhBitmap; [case(TYMED_MFPICT)] HMETAFILEPICT hMetaFilePict; [case(TYMED_ENHMF)]HENHMETAFILE hEnhMetaFile; [case(TYMED_HGLOBAL)] HGLOBAL hGlobal; [case(TYMED_FILE)] LPWSTR lpszFileName; [case(TYMED_ISTREAM)] IStream* pstm; [case(TYMED_ISTORAGE)] IStorage* pstg; [default]; }; [unique] IUnknown* pUnkForRelease; }STGMEDIUM; typedef STGMEDIUM *LPSTGMEDIUM;",
+  "code_blocks": [
+   "typedef struct tagSTGMEDIUM { DWORD tymed; [switch_type(DWORD), switch_is((DWORD) tymed)] union { [case(TYMED_GDI)] HBITMAPhBitmap; [case(TYMED_MFPICT)] HMETAFILEPICT hMetaFilePict; [case(TYMED_ENHMF)]HENHMETAFILE hEnhMetaFile; [case(TYMED_HGLOBAL)] HGLOBAL hGlobal; [case(TYMED_FILE)] LPWSTR lpszFileName; [case(TYMED_ISTREAM)] IStream* pstm; [case(TYMED_ISTORAGE)] IStorage* pstg; [default]; }; [unique] IUnknown* pUnkForRelease; }STGMEDIUM; typedef STGMEDIUM *LPSTGMEDIUM;"
+  ],
+  "requirements": {
+   "header": "Objidl.h, Objidl.idl",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Moniker Services Structures"
+ },
+ {
+  "name": "URL Action Flags",
+  "title": "URL Action Flags",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928921(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Constants"
+ },
+ {
+  "name": "URL Policy Flags",
+  "title": "URL Policy Flags",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928931(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Constants"
+ },
+ {
+  "name": "PSUACTION",
+  "title": "PSUACTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928910(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _tagPSUACTION { PSU_DEFAULT = 1, PSU_SECURITY_URL_ONLY } PSUACTION;",
+  "code_blocks": [
+   "typedef enum _tagPSUACTION { PSU_DEFAULT = 1, PSU_SECURITY_URL_ONLY } PSUACTION;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Enumerations"
+ },
+ {
+  "name": "PUAF",
+  "title": "PUAF",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928911(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { PUAF_DEFAULT = 0x0000000, PUAF_NOUI = 0x00000001, PUAF_ISFILE = 0x00000002, PUAF_WARN_IF_DENIED = 0x00000004, PUAF_FORCEUI_FOREGROUND = 0x00000008, PUAF_CHECK_TIFS = 0x00000010, PUAF_DONTCHECKBOXINDIALOG = 0x00000020, PUAF_TRUSTED = 0x00000040, PUAF_ACCEPT_WILDCARD_SCHEME = 0x00000080 } PUAF;",
+  "code_blocks": [
+   "typedef enum { PUAF_DEFAULT = 0x0000000, PUAF_NOUI = 0x00000001, PUAF_ISFILE = 0x00000002, PUAF_WARN_IF_DENIED = 0x00000004, PUAF_FORCEUI_FOREGROUND = 0x00000008, PUAF_CHECK_TIFS = 0x00000010, PUAF_DONTCHECKBOXINDIALOG = 0x00000020, PUAF_TRUSTED = 0x00000040, PUAF_ACCEPT_WILDCARD_SCHEME = 0x00000080 } PUAF;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Enumerations"
+ },
+ {
+  "name": "SZM_FLAGS",
+  "title": "SZM_FLAGS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928920(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { SZM_CREATE = 0x00000000, SZM_DELETE = 0x00000001 } SZM_FLAGS;",
+  "code_blocks": [
+   "typedef enum { SZM_CREATE = 0x00000000, SZM_DELETE = 0x00000001 } SZM_FLAGS;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Enumerations"
+ },
+ {
+  "name": "URLTEMPLATE",
+  "title": "URLTEMPLATE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928754(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum tagURLTEMPLATE { URLTEMPLATE_CUSTOM = 0x00000, URLTEMPLATE_PREDEFINED_MIN = 0x10000, URLTEMPLATE_LOW = 0x10000, URLTEMPLATE_MEDLOW = 0x10500, URLTEMPLATE_MEDIUM = 0x11000, URLTEMPLATE_HIGH = 0x12000, URLTEMPLATE_PREDEFINED_MAX = 0x20000 } URLTEMPLATE;",
+  "code_blocks": [
+   "typedef enum tagURLTEMPLATE { URLTEMPLATE_CUSTOM = 0x00000, URLTEMPLATE_PREDEFINED_MIN = 0x10000, URLTEMPLATE_LOW = 0x10000, URLTEMPLATE_MEDLOW = 0x10500, URLTEMPLATE_MEDIUM = 0x11000, URLTEMPLATE_HIGH = 0x12000, URLTEMPLATE_PREDEFINED_MAX = 0x20000 } URLTEMPLATE;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Enumerations"
+ },
+ {
+  "name": "URLZONE",
+  "title": "URLZONE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928755(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum tagURLZONE { URLZONE_PREDEFINED_MIN = 0, URLZONE_LOCAL_MACHINE = 0, URLZONE_INTRANET, URLZONE_TRUSTED, URLZONE_INTERNET, URLZONE_UNTRUSTED, URLZONE_PREDEFINED_MAX = 999, URLZONE_USER_MIN = 1000, URLZONE_USER_MAX = 10000 } URLZONE;",
+  "code_blocks": [
+   "typedef enum tagURLZONE { URLZONE_PREDEFINED_MIN = 0, URLZONE_LOCAL_MACHINE = 0, URLZONE_INTRANET, URLZONE_TRUSTED, URLZONE_INTERNET, URLZONE_UNTRUSTED, URLZONE_PREDEFINED_MAX = 999, URLZONE_USER_MIN = 1000, URLZONE_USER_MAX = 10000 } URLZONE;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Enumerations"
+ },
+ {
+  "name": "URLZONEREG",
+  "title": "URLZONEREG",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928756(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _URLZONEREG { URLZONEREG_DEFAULT = 0, URLZONEREG_HKLM, URLZONEREG_HKCU } URLZONEREG;",
+  "code_blocks": [
+   "typedef enum _URLZONEREG { URLZONEREG_DEFAULT = 0, URLZONEREG_HKLM, URLZONEREG_HKCU } URLZONEREG;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Enumerations"
+ },
+ {
+  "name": "ZAFLAGS",
+  "title": "ZAFLAGS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928759(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { ZAFLAGS_CUSTOM_EDIT = 0x00000001, ZAFLAGS_ADD_SITES = 0x00000002, ZAFLAGS_REQUIRE_VERIFICATION = 0x00000004, ZAFLAGS_INCLUDE_PROXY_OVERRIDE = 0x00000008, ZAFLAGS_INCLUDE_INTRANET_SITES = 0x00000010, ZAFLAGS_NO_UI = 0x00000020, ZAFLAGS_SUPPORTS_VERIFICATION = 0x00000040, ZAFLAGS_UNC_AS_INTRANET = 0x00000080 } ZAFLAGS;",
+  "code_blocks": [
+   "typedef enum { ZAFLAGS_CUSTOM_EDIT = 0x00000001, ZAFLAGS_ADD_SITES = 0x00000002, ZAFLAGS_REQUIRE_VERIFICATION = 0x00000004, ZAFLAGS_INCLUDE_PROXY_OVERRIDE = 0x00000008, ZAFLAGS_INCLUDE_INTRANET_SITES = 0x00000010, ZAFLAGS_NO_UI = 0x00000020, ZAFLAGS_SUPPORTS_VERIFICATION = 0x00000040, ZAFLAGS_UNC_AS_INTRANET = 0x00000080 } ZAFLAGS;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Enumerations"
+ },
+ {
+  "name": "CoInternetGetSecurityUrl",
+  "title": "CoInternetGetSecurityUrl",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928769(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CoInternetGetSecurityURL( LPCWSTR pwzUrl, LPWSTR* ppwzSecUrl, PSUACTION psuAction, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT CoInternetGetSecurityURL( LPCWSTR pwzUrl, LPWSTR* ppwzSecUrl, PSUACTION psuAction, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Functions"
+ },
+ {
+  "name": "IInternetHostSecurityManager::GetSecurityId",
+  "title": "IInternetHostSecurityManager::GetSecurityId",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928816(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetSecurityId( BYTE* pbSecurityId, DWORD* pcbSecurityId, DWORD_PTR dwReserved );",
+  "code_blocks": [
+   "HRESULT GetSecurityId( BYTE* pbSecurityId, DWORD* pcbSecurityId, DWORD_PTR dwReserved );",
+   "<scheme>:<domain>+<zone>"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetHostSecurityManager::ProcessUrlAction",
+  "title": "IInternetHostSecurityManager::ProcessUrlAction",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928817(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ProcessUrlAction( DWORD dwAction, BYTE* pPolicy, DWORD cbPolicy, BYTE* pContext, DWORD cbContext, DWORD dwFlags, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT ProcessUrlAction( DWORD dwAction, BYTE* pPolicy, DWORD cbPolicy, BYTE* pContext, DWORD cbContext, DWORD dwFlags, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetHostSecurityManager::QueryCustomPolicy",
+  "title": "IInternetHostSecurityManager::QueryCustomPolicy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908442(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT QueryCustomPolicy( REFGUID guidKey, BYTE** ppPolicy, DWORD* pcbPolicy, BYTE* pContext, DWORD cbContext, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT QueryCustomPolicy( REFGUID guidKey, BYTE** ppPolicy, DWORD* pcbPolicy, BYTE* pContext, DWORD cbContext, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityManager::GetSecurityId",
+  "title": "IInternetSecurityManager::GetSecurityId",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928851(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetSecurityId( LPCWSTR pwszUrl, BYTE* pbSecurityId, DWORD* pcbSecurityId, DWORD_PTR dwReserved );",
+  "code_blocks": [
+   "HRESULT GetSecurityId( LPCWSTR pwszUrl, BYTE* pbSecurityId, DWORD* pcbSecurityId, DWORD_PTR dwReserved );",
+   "<scheme>:<domain>+<zone>"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityManager::GetSecuritySite",
+  "title": "IInternetSecurityManager::GetSecuritySite",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928852(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetSecuritySite( IInternetSecurityMgrSite** ppSite );",
+  "code_blocks": [
+   "HRESULT GetSecuritySite( IInternetSecurityMgrSite** ppSite );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityManager::GetZoneMappings",
+  "title": "IInternetSecurityManager::GetZoneMappings",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928853(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetZoneMappings( DWORD dwZone, IEnumString** ppenumString, DWORD dwFlags );",
+  "code_blocks": [
+   "HRESULT GetZoneMappings( DWORD dwZone, IEnumString** ppenumString, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityManager::MapUrlToZone",
+  "title": "IInternetSecurityManager::MapUrlToZone",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928854(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT MapUrlToZone( LPCWSTR pwszUrl, DWORD* pdwZone, DWORD dwFlags );",
+  "code_blocks": [
+   "HRESULT MapUrlToZone( LPCWSTR pwszUrl, DWORD* pdwZone, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityManager::ProcessUrlAction",
+  "title": "IInternetSecurityManager::ProcessUrlAction",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928855(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT ProcessUrlAction( LPCWSTR pwszUrl, DWORD dwAction, BYTE* pPolicy, DWORD cbPolicy, BYTE* pContext, DWORD cbContext, DWORD dwFlags, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT ProcessUrlAction( LPCWSTR pwszUrl, DWORD dwAction, BYTE* pPolicy, DWORD cbPolicy, BYTE* pContext, DWORD cbContext, DWORD dwFlags, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityManager::QueryCustomPolicy",
+  "title": "IInternetSecurityManager::QueryCustomPolicy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928856(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT QueryCustomPolicy( LPCWSTR pwszUrl, REFGUID guidKey, BYTE** ppPolicy, DWORD* pcbPolicy, BYTE* pContext, DWORD cbContext, DWORD dwReserved );",
+  "code_blocks": [
+   "HRESULT QueryCustomPolicy( LPCWSTR pwszUrl, REFGUID guidKey, BYTE** ppPolicy, DWORD* pcbPolicy, BYTE* pContext, DWORD cbContext, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityManager::SetSecuritySite",
+  "title": "IInternetSecurityManager::SetSecuritySite",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928857(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetSecuritySite( IInternetSecurityMgrSite* pSite );",
+  "code_blocks": [
+   "HRESULT SetSecuritySite( IInternetSecurityMgrSite* pSite );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityManager::SetZoneMapping",
+  "title": "IInternetSecurityManager::SetZoneMapping",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928858(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetZoneMapping( DWORD dwZone, LPCWSTR lpszPattern, DWORD dwFlags );",
+  "code_blocks": [
+   "HRESULT SetZoneMapping( DWORD dwZone, LPCWSTR lpszPattern, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityMgrSite::EnableModeless",
+  "title": "IInternetSecurityMgrSite::EnableModeless",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928860(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnableModeless( BOOL fEnable );",
+  "code_blocks": [
+   "HRESULT EnableModeless( BOOL fEnable );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetSecurityMgrSite::GetWindow",
+  "title": "IInternetSecurityMgrSite::GetWindow",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928861(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetWindow( HWND* phwnd );",
+  "code_blocks": [
+   "HRESULT GetWindow( HWND* phwnd );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetZoneManager::CreateZoneEnumerator",
+  "title": "IInternetZoneManager::CreateZoneEnumerator",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928868(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CreateZoneEnumerator( DWORD* pdwEnum, DWORD* pdwCount, DWORD dwFlags );",
+  "code_blocks": [
+   "HRESULT CreateZoneEnumerator( DWORD* pdwEnum, DWORD* pdwCount, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetZoneManager::DestroyZoneEnumerator",
+  "title": "IInternetZoneManager::DestroyZoneEnumerator",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928869(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT DestroyZoneEnumerator( DWORD dwEnum );",
+  "code_blocks": [
+   "HRESULT DestroyZoneEnumerator( DWORD dwEnum );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetZoneManager::GetZoneActionPolicy",
+  "title": "IInternetZoneManager::GetZoneActionPolicy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928870(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetZoneActionPolicy( DWORD dwZone, DWORD dwAction, BYTE* pPolicy, DWORD cbPolicy, URLZONEREG urlZoneReg );",
+  "code_blocks": [
+   "HRESULT GetZoneActionPolicy( DWORD dwZone, DWORD dwAction, BYTE* pPolicy, DWORD cbPolicy, URLZONEREG urlZoneReg );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetZoneManager::GetZoneAt",
+  "title": "IInternetZoneManager::GetZoneAt",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928871(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetZoneAt( DWORD dwEnum, DWORD dwIndex, DWORD* pdwZone );",
+  "code_blocks": [
+   "HRESULT GetZoneAt( DWORD dwEnum, DWORD dwIndex, DWORD* pdwZone );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetZoneManager::GetZoneAttributes",
+  "title": "IInternetZoneManager::GetZoneAttributes",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928872(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetZoneAttributes( DWORD dwZone, ZONEATTRIBUTES* pZoneAttributes );",
+  "code_blocks": [
+   "HRESULT GetZoneAttributes( DWORD dwZone, ZONEATTRIBUTES* pZoneAttributes );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetZoneManager::GetZoneCustomPolicy",
+  "title": "IInternetZoneManager::GetZoneCustomPolicy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928873(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetZoneCustomPolicy( DWORD dwZone, REFGUID guidKey, BYTE** ppPolicy, DWORD* pcbPolicy, URLZONEREG urlZoneReg );",
+  "code_blocks": [
+   "HRESULT GetZoneCustomPolicy( DWORD dwZone, REFGUID guidKey, BYTE** ppPolicy, DWORD* pcbPolicy, URLZONEREG urlZoneReg );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetZoneManager::SetZoneActionPolicy",
+  "title": "IInternetZoneManager::SetZoneActionPolicy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928874(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetZoneActionPolicy( DWORD dwZone, DWORD dwAction, BYTE* pPolicy, DWORD cbPolicy, URLZONEREG urlZoneReg );",
+  "code_blocks": [
+   "HRESULT SetZoneActionPolicy( DWORD dwZone, DWORD dwAction, BYTE* pPolicy, DWORD cbPolicy, URLZONEREG urlZoneReg );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetZoneManager::SetZoneAttributes",
+  "title": "IInternetZoneManager::SetZoneAttributes",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928875(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetZoneAttributes( DWORD dwZone, ZONEATTRIBUTES* pZoneAttributes );",
+  "code_blocks": [
+   "HRESULT SetZoneAttributes( DWORD dwZone, ZONEATTRIBUTES* pZoneAttributes );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "IInternetZoneManager::SetZoneCustomPolicy",
+  "title": "IInternetZoneManager::SetZoneCustomPolicy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928876(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetZoneCustomPolicy( DWORD dwZone, REFGUID guidKey, BYTE* pPolicy, DWORD cbPolicy, URLZONEREG urlZoneReg );",
+  "code_blocks": [
+   "HRESULT SetZoneCustomPolicy( DWORD dwZone, REFGUID guidKey, BYTE* pPolicy, DWORD cbPolicy, URLZONEREG urlZoneReg );"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Interfaces"
+ },
+ {
+  "name": "Internet Security Manager",
+  "title": "Internet Security Manager",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928729(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.dll",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Objects"
+ },
+ {
+  "name": "Internet Zone Manager",
+  "title": "Internet Zone Manager",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928730(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "library": "Urlmon.dll",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Objects"
+ },
+ {
+  "name": "ZONEATTRIBUTES",
+  "title": "ZONEATTRIBUTES",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms908705(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _ZONEATTRIBUTES { ULONG cbSize; WCHAR szDisplayName[MAX_PATH]; WCHAR szDescription[MAX_ZONE_DESCRIPTION]; WCHAR szIconPath[MAX_PATH]; DWORD dwTemplateMinLevel; DWORD dwTemplateRecommended; DWORD dwTemplateCurrentLevel; DWORD dwFlags; } ZONEATTRIBUTES, *LPZONEATTRIBUTES;",
+  "code_blocks": [
+   "typedef struct _ZONEATTRIBUTES { ULONG cbSize; WCHAR szDisplayName[MAX_PATH]; WCHAR szDescription[MAX_ZONE_DESCRIPTION]; WCHAR szIconPath[MAX_PATH]; DWORD dwTemplateMinLevel; DWORD dwTemplateRecommended; DWORD dwTemplateCurrentLevel; DWORD dwFlags; } ZONEATTRIBUTES, *LPZONEATTRIBUTES;"
+  ],
+  "requirements": {
+   "header": "Urlmon.h, Urlmon.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "urlmon",
+  "sub": "URL Security Zones Structures"
+ }
+]

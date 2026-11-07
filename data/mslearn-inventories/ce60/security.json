@@ -1,0 +1,1934 @@
+[
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "AcceptSecurityContext",
+"u": "ee498791(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "AcquireCredentialsHandle",
+"u": "ee498319(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "ApplyControlToken",
+"u": "ee498530(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "CompleteAuthToken",
+"u": "ee498357(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "DecryptMessage",
+"u": "ee497924(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "DeleteSecurityContext",
+"u": "ee498155(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "EncryptMessage",
+"u": "ee497967(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "EnumerateSecurityPackages",
+"u": "ee498364(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "FreeContextBuffer",
+"u": "ee498365(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "FreeCredentialsHandle",
+"u": "ee498358(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "InitializeSecurityContext",
+"u": "ee498386(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "InitSecurityInterface",
+"u": "ee497969(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "InternetCanonicalizeUrl",
+"u": "ee498343(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "MakeSignature",
+"u": "ee497994(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMAddGroup",
+"u": "ee498366(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMAddUserToGroup",
+"u": "ee497921(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMDeleteUser",
+"u": "ee498394(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMEnumGroups",
+"u": "ee498765(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMEnumUser",
+"u": "ee498360(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMGetGroupList",
+"u": "ee498383(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMGetUserList",
+"u": "ee498578(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMRemoveGroup",
+"u": "ee498518(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMRemoveUserFromGroup",
+"u": "ee498567(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "NTLMSetUserInfo",
+"u": "ee498121(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "QueryContextAttributes",
+"u": "ee497975(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "QueryCredentialsAttributes",
+"u": "ee498153(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "QuerySecurityPackageInfo",
+"u": "ee498368(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "SealMessage",
+"u": "ee498528(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "UnsealMessage",
+"u": "ee498320(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Functions",
+"t": "VerifySignature",
+"u": "ee498591(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SCHANNEL_CRED",
+"u": "ee498356(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SEC_WINNT_AUTH_IDENTITY",
+"u": "ee497950(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecBuffer",
+"u": "ee498790(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecBufferDesc",
+"u": "ee498562(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_Authority",
+"u": "ee498700(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_ConnectionInfo",
+"u": "ee497983(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_DceInfo",
+"u": "ee498306(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_IssuerListInfoEx",
+"u": "ee498389(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_KeyInfo",
+"u": "ee498301(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_Lifespan",
+"u": "ee498124(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_MasterKeyInfo",
+"u": "ee498323(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_Names",
+"u": "ee498151(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_ProtoInfo",
+"u": "ee498508(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_Sizes",
+"u": "ee498359(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgContext_StreamSizes",
+"u": "ee498163(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgCred_CipherStrengths",
+"u": "ee497970(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgCred_SupportedAlgs",
+"u": "ee498177(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgCred_SupportedProtocols",
+"u": "ee498355(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgCredentials_Names",
+"u": "ee498362(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecPkgInfo",
+"u": "ee498134(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SecurityFunctionTable",
+"u": "ee498731(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Authentication Services Structures",
+"t": "SSPI Handles",
+"u": "ee498699(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddCertificateContextToStore",
+"u": "ee497929(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddCertificateLinkToStore",
+"u": "ee498298(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddEncodedCertificateToStore",
+"u": "ee497972(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddEnhancedKeyUsageIdentifier",
+"u": "ee498535(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAddSerializedElementToStore",
+"u": "ee498342(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertAlgIdToOID",
+"u": "ee498361(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCloseStore",
+"u": "ee497948(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCompareCertificate",
+"u": "ee498759(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCompareCertificateName",
+"u": "ee498702(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCompareIntegerBlob",
+"u": "ee498550(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertComparePublicKeyInfo",
+"u": "ee498717(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertControlStore",
+"u": "ee498575(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertCreateCertificateContext",
+"u": "ee497916(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertDeleteCertificateFromStore",
+"u": "ee498327(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertDuplicateCertificateChain",
+"u": "ee497971(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertDuplicateCertificateContext",
+"u": "ee498738(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertDuplicateStore",
+"u": "ee498141(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumCertificateContextProperties",
+"u": "ee498541(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumCertificatesInStore",
+"u": "ee498594(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumPhysicalStore",
+"u": "ee498173(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumSystemStore",
+"u": "ee498597(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertEnumSystemStoreLocation",
+"u": "ee498792(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFindAttribute",
+"u": "ee498341(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFindCertificateInStore",
+"u": "ee498126(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFindExtension",
+"u": "ee498538(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFindRDNAttr",
+"u": "ee498561(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFreeCertificateChain",
+"u": "ee498107(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertFreeCertificateContext",
+"u": "ee498150(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetCertificateChain",
+"u": "ee498136(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetCertificateContextProperty",
+"u": "ee498568(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetEnhancedKeyUsage",
+"u": "ee498162(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetIntendedKeyUsage",
+"u": "ee498514(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetIssuerCertificateFromStore",
+"u": "ee497905(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetNameString",
+"u": "ee498387(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetPublicKeyLength",
+"u": "ee498135(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetStoreProperty",
+"u": "ee498794(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetSubjectCertificateFromStore",
+"u": "ee498737(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertGetValidUsages",
+"u": "ee498783(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertInit",
+"u": "ee498713(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertIsRDNAttrsInCertificateName",
+"u": "ee498392(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertNameToStr",
+"u": "ee497932(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertOIDToAlgId",
+"u": "ee498584(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertOpenStore",
+"u": "ee498874(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertOpenSystemStore",
+"u": "ee498189(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertRDNValueToStr",
+"u": "ee498565(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertRemoveEnhancedKeyUsageIdentifier",
+"u": "ee498513(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSaveStore",
+"u": "ee497947(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSerializeCertificateStoreElement",
+"u": "ee498395(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSetCertificateContextProperty",
+"u": "ee497940(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSetEnhancedKeyUsage",
+"u": "ee498186(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertSetStoreProperty",
+"u": "ee498796(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertStrToName",
+"u": "ee498720(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertVerify",
+"u": "ee498571(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertVerifySubjectCertificateContext",
+"u": "ee498115(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertVerifyTimeValidity",
+"u": "ee498564(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CertVerifyValidityNesting",
+"u": "ee497912(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptAcquireCertificatePrivateKey",
+"u": "ee498105(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptCreateKeyIdentifierFromCSP",
+"u": "ee498312(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptDecodeObjectEx",
+"u": "ee498858(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptEncodeObjectEx",
+"u": "ee498735(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptEnumKeyIdentifierProperties",
+"u": "ee497902(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptEnumOIDInfo",
+"u": "ee498512(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptExportPublicKeyInfoEx",
+"u": "ee498316(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptFindCertificateKeyProvInfo",
+"u": "ee497934(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptFindOIDInfo",
+"u": "ee498577(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptFreeOIDFunctionAddress",
+"u": "ee498740(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptGetDefaultOIDFunctionAddress",
+"u": "ee497954(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptGetKeyIdentifierProperty",
+"u": "ee498579(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptGetOIDFunctionAddress",
+"u": "ee497953(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptHashCertificate",
+"u": "ee498747(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptHashPublicKeyInfo",
+"u": "ee498352(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptHashToBeSigned",
+"u": "ee498730(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptImportPublicKeyInfoEx",
+"u": "ee498103(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptInitOIDFunctionSet",
+"u": "ee498391(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptInstallDefaultContext",
+"u": "ee498529(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptInstallOIDFunctionAddress",
+"u": "ee497989(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptSetKeyIdentifierProperty",
+"u": "ee498850(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptSignAndEncodeCertificate",
+"u": "ee498566(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptSignCertificate",
+"u": "ee498588(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptUninstallDefaultContext",
+"u": "ee498534(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "CryptVerifyCertificateSignature",
+"u": "ee498122(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "PFXExportCertStoreEx",
+"u": "ee498373(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "PFXImportCertStore",
+"u": "ee498157(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "PFXIsPFXBlob",
+"u": "ee497945(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Certificates Functions",
+"t": "PFXVerifyPassword",
+"u": "ee498310(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CeCredFree",
+"u": "ee497925(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CeCredRead",
+"u": "ee498192(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CeCredWrite",
+"u": "ee498563(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredDelete",
+"u": "ee498519(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredFree",
+"u": "ee498739(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredRead",
+"u": "ee498709(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredUpdate",
+"u": "ee498536(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Functions",
+"t": "CredWrite",
+"u": "ee498168(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "HandleBlob",
+"u": "ee498797(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "Load Function (Credential Manager)",
+"u": "ee498721(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "MatchTarget",
+"u": "ee498375(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "MatchUser",
+"u": "ee498586(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Type Provider Functions",
+"t": "Unload Function (Credential Manager)",
+"u": "ee498154(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Structures",
+"t": "CRED",
+"u": "ee498123(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Credential Manager Structures",
+"t": "CREDENTIAL",
+"u": "ee497996(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "(top)",
+"t": "Credential Manager Error Codes",
+"u": "ee498848(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Data Types",
+"t": "ALG_ID",
+"u": "ee498732(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Data Types",
+"t": "HCRYPTHASH",
+"u": "ee498761(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Data Types",
+"t": "HCRYPTKEY",
+"u": "ee498734(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Data Types",
+"t": "HCRYPTPROV",
+"u": "ee497942(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CPAcquireContext",
+"u": "ee498152(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptAcquireContext",
+"u": "ee498334(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptContextAddRef",
+"u": "ee498165(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptCreateHash",
+"u": "ee498326(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDecrypt",
+"u": "ee498592(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDeriveKey",
+"u": "ee498712(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDestroyHash",
+"u": "ee497992(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDestroyKey",
+"u": "ee497982(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDuplicateHash",
+"u": "ee498714(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptDuplicateKey",
+"u": "ee498556(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptEncrypt",
+"u": "ee498872(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptEnumProviders",
+"u": "ee498517(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptEnumProviderTypes",
+"u": "ee498351(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptExportKey",
+"u": "ee498393(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptFindLocalizedName",
+"u": "ee498335(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGenKey",
+"u": "ee498114(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGenRandom",
+"u": "ee498196(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetDefaultProvider",
+"u": "ee498701(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetHashParam",
+"u": "ee498187(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetKeyParam",
+"u": "ee497956(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetProvParam",
+"u": "ee498741(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptGetUserKey",
+"u": "ee498133(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptHashData",
+"u": "ee498197(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptHashSessionKey",
+"u": "ee498762(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptImportKey",
+"u": "ee498498(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgCalculateEncodedLength",
+"u": "ee498727(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgClose",
+"u": "ee498330(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgControl",
+"u": "ee498201(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgDuplicate",
+"u": "ee498149(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgGetParam",
+"u": "ee497910(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgOpenToDecode",
+"u": "ee497927(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgOpenToEncode",
+"u": "ee498722(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptMsgUpdate",
+"u": "ee498781(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptProtectData",
+"u": "ee498338(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptReleaseContext",
+"u": "ee497977(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetHashParam",
+"u": "ee498200(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetKeyParam",
+"u": "ee497991(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetProvider",
+"u": "ee497957(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetProviderEx",
+"u": "ee498315(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSetProvParam",
+"u": "ee498703(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptSignHash",
+"u": "ee498198(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptUnprotectData",
+"u": "ee498169(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Functions",
+"t": "CryptVerifySignature",
+"u": "ee498354(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "BLOB (Cryptography)",
+"u": "ee498188(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ACCESS_DESCRIPTION",
+"u": "ee498183(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ALT_NAME_ENTRY",
+"u": "ee498785(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ALT_NAME_INFO",
+"u": "ee498112(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_AUTHORITY_INFO_ACCESS",
+"u": "ee498308(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_AUTHORITY_KEY_ID_INFO",
+"u": "ee498873(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_AUTHORITY_KEY_ID2_INFO",
+"u": "ee498867(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_BASIC_CONSTRAINTS_INFO",
+"u": "ee498117(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_BASIC_CONSTRAINTS2_INFO",
+"u": "ee498524(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CHAIN_CONTEXT",
+"u": "ee497976(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CHAIN_ELEMENT",
+"u": "ee497988(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CHAIN_ENGINE_CONFIG",
+"u": "ee498705(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CHAIN_PARA",
+"u": "ee497918(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_CONTEXT",
+"u": "ee498773(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_EXTENSION",
+"u": "ee498161(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ID",
+"u": "ee498769(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_INFO",
+"u": "ee498367(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_ISSUER_SERIAL_NUMBER",
+"u": "ee498728(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_KEY_ATTRIBUTES_INFO",
+"u": "ee498847(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_KEY_CONTEXT",
+"u": "ee498745(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_KEY_USAGE_RESTRICTION_INFO",
+"u": "ee498760(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_KEYGEN_REQUEST_INFO",
+"u": "ee498108(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_NAME_INFO",
+"u": "ee498297(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_POLICIES_INFO",
+"u": "ee498303(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_POLICY_ID",
+"u": "ee498543(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_POLICY_INFO",
+"u": "ee498148(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_POLICY_QUALIFIER_INFO",
+"u": "ee498138(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_PRIVATE_KEY_VALIDITY",
+"u": "ee497923(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_PUBLIC_KEY_INFO",
+"u": "ee498199(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_RDN",
+"u": "ee498557(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_RDN_ATTR",
+"u": "ee498325(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_REQUEST_INFO",
+"u": "ee497963(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_SIGNED_CONTENT_INFO",
+"u": "ee498768(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_SIMPLE_CHAIN",
+"u": "ee497928(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_SYSTEM_STORE_INFO",
+"u": "ee498708(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_SYSTEM_STORE_RELOCATE_PARA",
+"u": "ee498379(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_TRUST_LIST_INFO",
+"u": "ee498381(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_TRUST_STATUS",
+"u": "ee498329(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CERT_USAGE_MATCH",
+"u": "ee498706(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CMS_RECIPIENT_INFO",
+"u": "ee498300(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CMS_SIGNER_INFO",
+"u": "ee498766(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA",
+"u": "ee498526(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_DECRYPT_PARA",
+"u": "ee498774(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA",
+"u": "ee498743(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_KEY_AGREE_DECRYPT_PARA",
+"u": "ee498573(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA",
+"u": "ee498321(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_ENVELOPED_ENCODE_INFO",
+"u": "ee498372(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_HASHED_ENCODE_INFO",
+"u": "ee498521(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_KEY_TRANS_RECIPIENT_INFO",
+"u": "ee497941(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_MAIL_LIST_RECIPIENT_INFO",
+"u": "ee498892(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_SIGNED_ENCODE_INFO",
+"u": "ee498378(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_SIGNER_ENCODE_INFO",
+"u": "ee498203(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_SIGNER_INFO",
+"u": "ee498500(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CMSG_STREAM_INFO",
+"u": "ee497904(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_ALGORITHM_IDENTIFIER",
+"u": "ee498716(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_ATTRIBUTE",
+"u": "ee498752(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_ATTRIBUTES",
+"u": "ee497936(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_BIT_BLOB",
+"u": "ee498304(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_ENCODE_PARA",
+"u": "ee498596(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_KEY_PROV_INFO",
+"u": "ee497933(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_KEY_PROV_PARAM",
+"u": "ee498190(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_OID_FUNC_ENTRY",
+"u": "ee498137(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPT_OID_INFO",
+"u": "ee498167(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CRYPTOAPI_BLOB",
+"u": "ee498331(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "CTL_USAGE",
+"u": "ee498793(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "HMAC_INFO",
+"u": "ee498582(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "PROV_ENUMALGS",
+"u": "ee498501(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "PROV_ENUMALGS_EX",
+"u": "ee498001(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "PUBLICKEYSTRUC",
+"u": "ee497981(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "RSAPUBKEY",
+"u": "ee497922(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Cryptography Structures",
+"t": "VTableProvStruc",
+"u": "ee498497(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "CreateEnrollmentConfigDialog",
+"u": "ee498318(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "LASSClose",
+"u": "ee497926(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "LASSGetResult",
+"u": "ee498744(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "LASSGetValue",
+"u": "ee498753(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "LASSReloadConfig",
+"u": "ee498746(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "VerifyUser",
+"u": "ee498587(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LASS Functions",
+"t": "VerifyUserAsync",
+"u": "ee497978(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "DeinitLAP",
+"u": "ee498525(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "InitLAP (function)",
+"u": "ee498547(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "LAPCancelVerifySequence",
+"u": "ee498710(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "LAPCreateEnrollmentConfigDialog",
+"u": "ee497901(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "LAPDisplayCodeword",
+"u": "ee498295(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "LAPDisplayPreWipe",
+"u": "ee498158(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "LAPLockoutUser",
+"u": "ee498374(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "VerifyUser (LAP)",
+"u": "ee498142(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "VerifyUserStart",
+"u": "ee498589(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "VerifyUserStop",
+"u": "ee498789(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LAP-Exported Functions",
+"t": "VerifyUserToTop",
+"u": "ee498339(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "LASS Structures",
+"t": "InitLap (structure)",
+"u": "ee498129(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardBeginTransaction",
+"u": "ee498118(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardCancel",
+"u": "ee497935(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardConnect",
+"u": "ee498194(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardControl",
+"u": "ee498583(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardFreeMemory",
+"u": "ee498172(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardDisconnect",
+"u": "ee498515(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardEndTransaction",
+"u": "ee498580(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardEstablishContext",
+"u": "ee498313(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardForgetCardType",
+"u": "ee498788(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardForgetReader",
+"u": "ee498164(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardGetAttrib",
+"u": "ee497944(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardGetCardTypeProviderName",
+"u": "ee497908(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardGetProviderId",
+"u": "ee498532(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardGetStatusChange",
+"u": "ee498377(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardIntroduceCardType",
+"u": "ee498390(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardIntroduceReader",
+"u": "ee498309(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardIsValidContext",
+"u": "ee498542(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardListCards",
+"u": "ee498504(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardListInterfaces",
+"u": "ee498870(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardListReaders",
+"u": "ee498314(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardLocateCards",
+"u": "ee498758(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardLocateCardsByATR",
+"u": "ee497985(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardReconnect",
+"u": "ee498725(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardReleaseContext",
+"u": "ee498311(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardSetAttrib",
+"u": "ee497964(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardSetCardTypeProviderName",
+"u": "ee498120(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardStatus",
+"u": "ee498340(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Functions",
+"t": "SCardTransmit",
+"u": "ee498507(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Structures",
+"t": "SCARD_ATRMASK",
+"u": "ee498363(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Structures",
+"t": "SCARD_IO_REQUEST",
+"u": "ee498559(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "Smart Card Structures",
+"t": "SCARD_READERSTATE",
+"u": "ee497987(v=winembedded.60)"
+},
+{
+"area": "security",
+"sub": "(top)",
+"t": "Smart Card Error Values",
+"u": "ee498299(v=winembedded.60)"
+}
+]

@@ -31,19 +31,21 @@ The header set is derived from the **official API reference organization** (inve
 
 *Status update (P2 session):* **3,173 further pages harvested (0 failures)** — the remaining Core-OS app subareas, File I/O/Registry/User-Mgmt/File-Sys-Password, the GWES remainder (incl. the internal-surface exclusion register), AYGShell/Standard Shell/Console/Winsock-SPI, and the full remaining common-controls set. Ten further specs delivered (`spec-winbase-file-io.md`, `spec-winreg.md`, `spec-winbase-os.md`, `spec-toolhelp.md`, `spec-msgqueue.md`, `spec-notify.md`, `spec-aygshell.md`, `spec-shellapi.md`, `spec-commctrl-controls.md`, `spec-gwes-misc.md`); 14 new fact YAMLs bring the DB to **3,177 unique records**.
 
+*Status update (P3 session):* **6,986 further pages harvested (0 failures, incl. the CE 4.x docset)** — the last Core-OS subareas (CeLog/NAT/State-Broker/Marshaling), Database/StorageMgr/FAT/Partition + the FSD driver-exclusion register, and the entire previously-uninventoried application surface: COM/DCOM/Automation/OLE/Storage (1,724), Security (799: crypto/cert/SSPI/smartcard/credman/LASS), NLS/IMM/MUI (398), WinInet/URLMoniker (860), TAPI/RAS/WNet (795), RAPI/ConnMgr/Power/GPS (313), OBEX (163), IP-Helper/DNS/IPv6 (326), Waveform Audio (188), Bluetooth (473), Fonts (109), Kernel (186), SNMP (126). Ten further specs delivered (`spec-ole-com.md`, `spec-security.md`, `spec-international.md`, `spec-wininet-urlmon.md`, `spec-rapi.md`, `spec-tapi-ras.md`, `spec-networking-extras.md`, `spec-mmedia-audio-fonts.md`, `spec-database-storemgr.md`, `spec-coreos-extras.md`); 35 new fact YAMLs bring the DB to **5,966 unique records**; the documented import-library map grows to **~60 libraries**.
+
 | Header | Documentation source area (CE6/CE5 pages) | Notes |
 | --- | --- | --- |
-| `winbase.h` (remainder) | File I/O (48), File Mapping, Registry (30 CE6), Database (134 CE6 — legacy CE database API), Find/FindNext pages, ToolHelp, Interlocked/other subareas of Core OS Reference (408 total) | **File I/O + File Mapping + User Mgmt + File Sys Password + all Core-OS app subareas delivered (P2)**: `spec-winbase-file-io.md`, `spec-winbase-os.md`; remaining within this row: CeLog/NAT/State-Broker/Kernel-Marshaling subareas + Database area (P2) |
+| `winbase.h` (remainder) | File I/O (48), File Mapping, Registry (30 CE6), Database (134 CE6 — legacy CE database API), Find/FindNext pages, ToolHelp, Interlocked/other subareas of Core OS Reference (408 total) | **Core OS Services area fully closed (P2 + P3)**: File I/O + File Mapping + User Mgmt + File Sys Password + all Core-OS app subareas (P2) + CeLog/State-Broker/NAT/Kernel-Marshaling + Database area (P3) — `spec-winbase-file-io.md`, `spec-winbase-os.md`, `spec-database-storemgr.md`, `spec-coreos-extras.md` |
 | `winreg.h` | Registry Reference (30 CE6 / 14 CE5) + pwinreg.h multi-user set | **delivered (P2)** — `spec-winreg.md` (33 records; Nkstub.lib CE6 bindings recorded) |
 | `toolhelp.h` | ToolHelp Reference (18+18) | **delivered (P2)** — `spec-toolhelp.md` (Toolhelp.lib) |
 | `msgqueue.h` | Message Queue Point-to-Point (9+8) | **delivered (P2)** — `spec-msgqueue.md` (ce-only) |
 | `notify.h` | Notify Reference (13+13) | **delivered (P2)** — `spec-notify.md` (ce-only) |
-| `windbase.h` (initial) | object-store structs + password API (File Sys Password 6+6) | **initial set delivered (P2)** in `spec-winbase-file-io.md` §3.3; full Database area (134) remains P2 |
+| `windbase.h` (initial) | object-store structs + password API (File Sys Password 6+6) | **full Database area delivered (P3)** — CEDB+EDB+replication in `spec-database-storemgr.md` (135 records, variant-split `_CEDB`/`_EDB`); object-store base (P2) in `spec-winbase-file-io.md` §3.3 |
 | `winuser.h` | GWES › Windows Reference (56), Window and Control Styles (24), Window Class Reference, Window Properties, Windows Timer, Keyboard Reference (49 CE5 tree / 51 CE6 index supplement), Menus, Carets, Atoms | **core spec delivered**; 20 documented link libraries; `pwinuser.h` finding below |
 | `wingdi.h` | GDI Reference — Functions (132), Structures (29), Macros (7), Messages (5), Raster Operation Codes (2) | **core spec delivered**; `coredll.lib`+`rectapi.lib`+4 specialty libs |
 | `windowsx.h`, `winuser` macros | Window Control Reference pages | P1 tail (macros; message records already in fact DB) |
 | `winsock2.h` / `winsock.h` | Winsock Reference (110 CE6) + SPI (57) | **core spec delivered**; `Ws2.lib` for all documented bindings; 35 documented WSAE values |
-| `ws2tcpip.h`, `ws2ip6.h` | Winsock IPv6 / getaddrinfo pages; CeGCC ChangeLog.ce documents the CE availability of `getaddrinfo` family | |
+| `ws2tcpip.h`, `ws2ip6.h` | Winsock IPv6 / getaddrinfo pages; CeGCC ChangeLog.ce documents the CE availability of `getaddrinfo` family | **closed (P3)** — `getaddrinfo`/`freeaddrinfo`/`addrinfo` documented in the Winsock Reference (introduced 4.1) and already recorded in `winsock.yaml`; the IPv6 Application Development pages are conceptual only (`spec-networking-extras.md` §3) |
 | `msgqueue.h` | Core OS › Message Queue Point-to-Point (msqueued APIs) | CE-only header |
 | `toolhelp.h` | Core OS › ToolHelp Reference (snapshot/process APIs) | CE-specific toolhelp surface |
 | `pwindow.h`/`aygshell.h` | AYGShell Reference (60) | **delivered (P2)** — `spec-aygshell.md` (46 new + 45 pre-existing records; Aygshell.lib per-page) |
@@ -83,15 +85,68 @@ The header set is derived from the **official API reference organization** (inve
 
 ### P2 — full documented surface (selection; full lists in `data/mslearn-inventories/`)
 
-| Header | Documentation source area | Pages (CE6) |
+*Status update (P3 session):* the three application-facing rows below are now delivered; the remaining rows are driver/OEM- or media-server-facing and stay on the roadmap.
+
+| Header | Documentation source area | Pages (CE6) | Status |
+| --- | --- | --- | --- |
+| `shellapi.h`, `ceshell`/shell items | Standard Shell Reference, Console Reference | 93 | **delivered (P2)** |
+| `objbase.h`/`objidl.h`/`ocidl.h`/`oleidl.h`/`ole2.h`/`oleauto.h`/`oaidl.h`/`dccole.h`/`iaccess.h` | COM and DCOM Reference (COM 341, Automation 303, OLE 150, Storage 66) | 860 | **delivered (P3)** — `spec-ole-com.md` (506 records) |
+| `wincrypt.h`/`sspi.h`/`winscard.h`/`credui.h`/`credmgr.h`/`lass.h` | Security areas (Cryptography 118, Certificates 85, SSPI 52, Smart Card 32, CredMan 16, LASS 19) | ~322 | **delivered (P3)** — `spec-security.md` (321 records) |
+| `winnls.h`/`imm.h`/MUI | International (NLS 42, IMM 152, MUI 5) | 199 | **delivered (P3)** — `spec-international.md` (200 records) |
+| `wininet.h`/`urlmon.h` | WinInet 108 + URL Moniker/Zones/APP 149 | 257 | **delivered (P3)** — `spec-wininet-urlmon.md` (204 records) |
+| `tapi.h`/`ras.h`/`winnetwk.h` | TAPI 205, RAS 35, WNet 16 | 256 | **delivered (P3)** — `spec-tapi-ras.md` (257 records; TSPI excluded as driver surface) |
+| `rapi.h`/`rapi2.h`/`rapitypes*.h` | RAPI 105 + RAPI2 102 | 207 | **delivered (P3)** — `spec-rapi.md` (112 records, host-side adjunct) |
+| `iphlpapi.h`/`windns.h`/`obex.h`/`connmgr.h`/`gpsapi.h`/BT headers/`snmp.h` | Networking extras (see `spec-networking-extras.md`) | 1,537 | **delivered (P3)** (457 records; `bt_ddi.h` excluded as DDI) |
+| `mmsystem.h` + fonts | Waveform Audio 99 + Fonts 50 | ~150 | **delivered (P3)** — `spec-mmedia-audio-fonts.md` (149 records; font DDI excluded) |
+| `windbase.h`(full)/`storemgr.h`/`fatutil.h`/`partdrv.h` | Database 134 + Storage/Partition/FAT 67 | 201+ | **delivered (P3)** — `spec-database-storemgr.md` (202 + 125-record FSD exclusion register) |
+| `celog.h`/`regext.h`/`nat.h`/`marshal.h`/`pkfuncs.h`-surface/`pwinbase.h`(power) | Core-OS extras (CeLog 73, State-Broker 17, NAT 20, Marshaling 10, Kernel 102, Power 58) | 460 | **delivered (P3)** — `spec-coreos-extras.md` (256 records) |
+| `storemgr.h`, `fsdmgr.h`, `bootpart.h` (driver remainder) | FSD Reference 99, Bootpart 8, Disk Cache 9, Copy External 7 | 123 | **registered as driver-surface exclusion (P3)** — `fsdriver-excluded.yaml` |
+| `usp10`-class complex scripts | Unicode Script Processor | 52 | P4 roadmap |
+| CellCore (`sms.h`/`sim.h`/ext API) | CellCore area | 675 | P4 roadmap |
+| MSHTML/DHTML, IE multilanguage, TV-style | IE Embedded Support areas | 394 | P4 roadmap (COM-heavy) |
+| `directshow`/WMP/Encoded Media areas | Encoded Media | 1,999 | P4 roadmap (COM-heavy) |
+| Speech API 5.0 | Applications and Services | 431 | P4 roadmap (COM) |
+| POOM (Pocket Outlook), GPS-ID already done, Location, Exchange, LDAP, SOAP, RDP, ActiveSync, WMP | Applications and Services | ~1,200 | P4 roadmap |
+| VoIP (RTC API) | Voice over IP Phone Services | 665 | P4 roadmap |
+| `ndis.h`, `ntddndis.h` | Network Driver Reference (765) | 765 | driver-facing — excluded from app set, inventory-registered |
+| Servers (UPnP, HTTPD, SNMP-service remainder, print server) | Servers area | 929 | P4 roadmap (mixed app/service) |
+| XML (`msxml`) | XML area | 436 | P4 roadmap (COM) |
+| `windows.h` umbrella | — | — | includes everything P0–P3 applicable |
+
+### P3 header-placement decisions
+
+* **R-HDR-18 (P3).** COM family keeps the desktop split (`objbase.h`, `objidl.h`, `ocidl.h`, `oleidl.h`, `ole2.h`, `oleauto.h`, `oaidl.h`, `wtypes.h`); `dccole.h` and `iaccess.h` are CE additions shipped as their own headers.
+* **R-HDR-19 (P3).** Security: `wincrypt.h` (crypto + certificates — CE documents no crypt32 header split), `sspi.h` (+`security.h` umbrella), `winscard.h`, `credui.h` + `credmgr.h`, `lass.h` (ce-only standalone).
+* **R-HDR-20 (P3).** `winnls.h` and `imm.h` standalone, desktop-compatible; `imm.h` interfaces declared structurally (no `ole2.h` dependency).
+* **R-HDR-21 (P3).** `wininet.h` and `urlmon.h` standalone; urlmon's interfaces are not folded into `objidl.h`.
+* **R-HDR-22 (P3).** RAPI (`rapi.h`, `rapi2.h`, `rapitypes.h`, `rapitypes2.h`) ships as a **host-side adjunct** in a `rapi/` include subdirectory — compiled against desktop Win32, never included by `windows.h`, not gated on `_WIN32_WCE`.
+* **R-HDR-23 (P3).** `tapi.h`, `ras.h`, `winnetwk.h` standalone; `unimodem.h` rides along; `autoras.h` is a shim-level adjunct. TSPI is driver surface (excluded).
+* **R-HDR-24 (P3).** `iphlpapi.h`/`iprtrmib.h`/`iptypes.h`/`ipexport.h`/`icmpapi.h`, `windns.h`, `ws2tcpip.h`, `obex.h`+`obexserver.h`, `connmgr.h`, `gpsapi.h`+`gpsdev.h`, `snmp.h`(+`snmpexts.h`, `snmpapi.h`) all standalone.
+* **R-HDR-25 (P3).** Bluetooth application headers (`bt_api.h`, `bthutil.h`, `ws2bth.h`, `bthsdpdef.h`, `btagpub.h`) ship in the app set; **`bt_ddi.h` is driver-DDI and is excluded from the application include set** (records retained).
+* **R-HDR-26 (P3).** `mmsystem.h` standalone with CE-only audio adjuncts `wfmtmidi.h`/`audiosys.h`; font **application** functions declare in `wingdi.h`; `fontdrv.h`/`winddi.h`/`winddif.h` are driver-DDI (excluded from app set).
+* **R-HDR-27 (P3).** `windbase.h` carries CEDB (legacy) and EDB (gated `_WIN32_WCE >= 0x0500`) declarations side by side; same-name CEDB/EDB items are never merged; `pwindbas.h`/`windbase_edb.h` are compat shims; `storemgr.h` standalone; `partdrv.h`/`fatutil.h`/`defragdisk.h`/`scandisk.h`/`formatdisk.h` tool-surface headers.
+* **R-HDR-28 (P3).** `celog.h`, `regext.h`, `nat.h`, `marshal.h` are ce-only standalone headers; `pkfuncs.h`/`nkintr.h`/`profiler.h` declarations route per R-HDR-11 with export gating; power functions (documented `pwinbase.h`/`pm.h`) declare in `winbase.h` per the R-HDR-11 pattern.
+
+### CE-only register additions (P3 session)
+
+| Item | Class | Evidence |
 | --- | --- | --- |
-| `shellapi.h`, `ceshell`/shell items | Standard Shell Reference, Console Reference | 93 |
-| `ole2.h`, `oleauto.h`, `oaidl.h`… | Automation Reference (303), COM/DCOM Reference (860), OLE | 1,163+ |
-| `cred.h`? `security` headers | Security (Crypt, Certificates) areas | ~300 |
-| `db_*.h`? | Database Reference (legacy CE data store) | 134 |
-| `storemgr.h`, `fsdmgr.h`, `bootpart.h` | Storage Manager / FSD / Partition references | ~150 |
-| `ndis.h`, `ntddndis.h` | Network Driver Reference (765) | driver-facing |
-| `windows.h` umbrella | — | includes everything P0–P2 applicable |
+| EDB transaction/props/stream set (`CeBeginTransaction_EDB` family) | ce-only | Database Reference (5.0+) |
+| `WM_DBNOTIFICATION` + `CHECK_*GUID`/`CREATE_*GUID` | ce-only | Database macros/messages pages |
+| State and Notifications Broker (`regext.h`: `RegistryGetDWORD`, `RegistryNotifyApp`, `NOTIFICATIONCONDITION`) | ce-only (6.0 docset; **aygshell.lib** binding) | State-Broker Reference |
+| Kernel Buffer Marshaling (`marshal.h`: `MarshalStore*`) | ce-only (6.0) | Kernel Buffer Marshaling Reference |
+| CeLog `CEL_*` event-record grammar (65 structures) | ce-only | CeLog Event Tracking Reference |
+| `MM_WOM_ATTENUATED`/`FORCESPEAKER`/`SETSECONDARYGAINCLASS`/`SETSECONDARYGAINLIMIT` gain-control messages | ce-only | Waveform Audio Messages (values open — OQ-33) |
+| OBEX COM contract (`IObex`, `IObexDevice`, `IHeaderCollection`…; `obex.h`/`obexserver.h`; uuid.lib) | ce-only | OBEX Reference |
+| Connection Manager (`connmgr.h`; cellcore.lib; 4.2+) | ce-only | Connection Manager Reference (CE 6.0 docset) |
+| GPS Intermediate Driver (`gpsapi.h`/`gpsdev.h`; gpsapi.lib; 6.0) | ce-only | GPS ID Reference (CE 6.0 docset) |
+| Bluetooth application set (bt_api.h/bthutil.h/ws2bth.h/bthsdpdef.h/btagpub.h; btdrt/bthutil/btd/btagsvc_* libs) | ce-only | Bluetooth Reference (3 docsets) |
+| LASS (`lass.h` LAP-Exported Functions; 5.0+) | ce-only | Local Authentication Subsystem |
+| `dccole.h` DCOM additions + `iaccess.h` | ce-only headers | COM and DCOM Reference |
+| RAPI/RAPI2 host-side set (whole area) | ce-only (host-side adjunct per R-HDR-22) | RAPI/RAPI2 References (CE 6.0 docset) |
+| DNS API (`windns.h`; dnsapi.lib; 5.0+) | CE-first availability wave | DNS Reference |
+| NAT helper (`nat.h`; coredll.dll binding) | ce-only | NAT Reference |
+| fatutil.dll / certmod.dll DLL-named bindings | ce-only bindings | Storage/FAT + Certificates Requirements blocks |
 
 ### CE-only / CE-modified items register
 

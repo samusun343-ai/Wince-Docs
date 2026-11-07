@@ -1,0 +1,1232 @@
+[
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneClose",
+"u": "ee497563(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneCallbackFunc",
+"u": "ee496217(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneConfigDialog",
+"u": "ee496802(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneDevSpecific",
+"u": "ee497085(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetDevCaps",
+"u": "ee496961(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetGain",
+"u": "ee497201(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetHookSwitch",
+"u": "ee496383(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetIcon",
+"u": "ee497454(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetID",
+"u": "ee497446(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetMessage",
+"u": "ee497034(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetRing",
+"u": "ee497279(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetStatus",
+"u": "ee497534(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetStatusMessages",
+"u": "ee496796(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetVolume",
+"u": "ee496628(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneInitializeEx",
+"u": "ee496455(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneNegotiateAPIVersion",
+"u": "ee496831(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneNegotiateExtVersion",
+"u": "ee497586(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneOpen",
+"u": "ee496647(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetGain",
+"u": "ee496435(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetHookSwitch",
+"u": "ee496763(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetRing",
+"u": "ee497075(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetStatusMessages",
+"u": "ee497509(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetVolume",
+"u": "ee497311(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneShutdown",
+"u": "ee496753(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineAccept",
+"u": "ee496861(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineAddProvider",
+"u": "ee496170(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineAddToConference",
+"u": "ee497292(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineAnswer",
+"u": "ee496826(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineBlindTransfer",
+"u": "ee497294(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineCallbackFunc",
+"u": "ee497464(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineClose",
+"u": "ee496234(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineCompleteTransfer",
+"u": "ee496216(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineConfigDialogEdit",
+"u": "ee496372(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineDeallocateCall",
+"u": "ee496595(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineDevSpecific",
+"u": "ee496418(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineDial",
+"u": "ee497324(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineDrop",
+"u": "ee496817(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineForward",
+"u": "ee496439(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGenerateDigits",
+"u": "ee497164(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGenerateTone (function)",
+"u": "ee496400(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetAddressCaps",
+"u": "ee497244(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetAddressID",
+"u": "ee496453(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetAddressStatus",
+"u": "ee496590(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetAppPriority",
+"u": "ee496213(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetCallInfo",
+"u": "ee497573(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetCallStatus",
+"u": "ee496564(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetConfRelatedCalls",
+"u": "ee497572(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetDevCaps",
+"u": "ee496823(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetDevConfig",
+"u": "ee497547(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetIcon",
+"u": "ee496452(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetID",
+"u": "ee496197(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetLineDevStatus",
+"u": "ee496583(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetMessage",
+"u": "ee497542(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetNewCalls",
+"u": "ee496642(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetNumRings",
+"u": "ee497340(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetProviderList",
+"u": "ee497058(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetStatusMessages",
+"u": "ee497468(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetTranslateCaps",
+"u": "ee496389(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineHandoff",
+"u": "ee496980(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineHold",
+"u": "ee497082(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineInitialize",
+"u": "ee496252(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineInitializeEx",
+"u": "ee497221(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineMakeCall",
+"u": "ee496190(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineMonitorDigits",
+"u": "ee496792(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineMonitorMedia",
+"u": "ee496381(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineNegotiateAPIVersion",
+"u": "ee497496(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineNegotiateExtVersion",
+"u": "ee496603(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineOpen",
+"u": "ee496621(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "linePickup",
+"u": "ee497466(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "linePrepareAddToConference",
+"u": "ee496163(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineRedirect",
+"u": "ee496779(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineReleaseUserUserInfo",
+"u": "ee496617(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineRemoveFromConference",
+"u": "ee497473(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSendUserUserInfo",
+"u": "ee497012(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetAppPriority",
+"u": "ee497342(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetCallParams",
+"u": "ee496794(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetCallPrivilege",
+"u": "ee496785(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetCurrentLocation",
+"u": "ee496427(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetDevConfig",
+"u": "ee496687(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetMediaMode",
+"u": "ee496245(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetNumRings",
+"u": "ee496449(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetStatusMessages",
+"u": "ee497233(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetTerminal",
+"u": "ee496414(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetTollList",
+"u": "ee496816(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetupConference",
+"u": "ee497199(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetupTransfer",
+"u": "ee496615(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineShutdown",
+"u": "ee497210(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSwapHold",
+"u": "ee496613(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineTranslateAddress",
+"u": "ee496994(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineTranslateDialog (TAPI)",
+"u": "ee496229(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineUnhold",
+"u": "ee497327(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_APPNEWCALL",
+"u": "ee496795(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_CALLINFO (TAPI)",
+"u": "ee497418(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_CALLSTATE (TAPI)",
+"u": "ee497273(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_CLOSE (TAPI)",
+"u": "ee496384(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_CREATE (TAPI)",
+"u": "ee496812(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_DEVSPECIFIC (TAPI)",
+"u": "ee496584(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_GATHERDIGITS",
+"u": "ee496757(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_GENERATE (TAPI)",
+"u": "ee496402(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_LINEDEVSTATE (TAPI)",
+"u": "ee497386(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_MONITORDIGITS (TAPI)",
+"u": "ee497159(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_MONITORMEDIA (TAPI)",
+"u": "ee496962(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_REMOVE (TAPI)",
+"u": "ee496992(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_REPLY",
+"u": "ee496456(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_BUTTON (TAPI)",
+"u": "ee496376(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_CLOSE (TAPI)",
+"u": "ee497286(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_CREATE (TAPI)",
+"u": "ee497389(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_DEVSPECIFIC (TAPI)",
+"u": "ee497383(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_REMOVE (TAPI)",
+"u": "ee497526(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_REPLY",
+"u": "ee496198(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_STATE (TAPI)",
+"u": "ee496567(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_ADDRESSSTATE (TAPI)",
+"u": "ee497056(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEADDRESSCAPS",
+"u": "ee496250(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEADDRESSSTATUS",
+"u": "ee497041(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLINFO",
+"u": "ee496164(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLLIST",
+"u": "ee496251(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLPARAMS",
+"u": "ee496633(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLSTATUS",
+"u": "ee496599(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLTREATMENTENTRY",
+"u": "ee496447(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEDEVCAPS",
+"u": "ee496211(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEDEVSTATUS",
+"u": "ee496416(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEDIALPARAMS",
+"u": "ee496204(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEEXTENSIONID",
+"u": "ee496772(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEFORWARDLIST",
+"u": "ee496573(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEGENERATETONE (structure)",
+"u": "ee496995(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEINITIALIZEEXPARAMS",
+"u": "ee497345(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINELOCATIONENTRY",
+"u": "ee497513(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEMESSAGE",
+"u": "ee496798(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEPROVIDERENTRY",
+"u": "ee497316(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEPROVIDERLIST",
+"u": "ee496377(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINETRANSLATECAPS",
+"u": "ee496386(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINETRANSLATEOUTPUT",
+"u": "ee496782(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONECAPS",
+"u": "ee497021(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONEEXTENSIONID",
+"u": "ee497558(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONEINITIALIZEEXPARAMS",
+"u": "ee497449(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONEMESSAGE",
+"u": "ee497540(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONESTATUS",
+"u": "ee496778(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "UNIMDM_CHG_DEVCFG",
+"u": "ee496243(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "UNIMODEM_INFO",
+"u": "ee496805(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "VARSTRING",
+"u": "ee497037(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRCAPFLAGS",
+"u": "ee496761(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRESSMODE",
+"u": "ee496951(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRESSSHARING",
+"u": "ee496770(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRESSSTATE",
+"u": "ee496433(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRESSTYPE",
+"u": "ee497153(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRFEATURE",
+"u": "ee497163(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEANSWERMODE",
+"u": "ee497031(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEBEARERMODE",
+"u": "ee497321(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEBUSYMODE",
+"u": "ee496866(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLCOMPLCOND",
+"u": "ee497049(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLCOMPLMODE",
+"u": "ee496226(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLFEATURE",
+"u": "ee496764(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLFEATURE2",
+"u": "ee497403(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLINFOSTATE",
+"u": "ee496789(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLORIGIN",
+"u": "ee496186(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLPARAMFLAGS",
+"u": "ee497522(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLPARTYID",
+"u": "ee496249(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLPRIVILEGE",
+"u": "ee496181(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLREASON",
+"u": "ee496406(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLSELECT",
+"u": "ee497414(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLSTATE",
+"u": "ee496228(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLTREATMENT",
+"u": "ee496399(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECONNECTEDMODE",
+"u": "ee496650(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDEVCAPFLAGS",
+"u": "ee496589(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDEVSTATE",
+"u": "ee497590(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDEVSTATUSFLAGS",
+"u": "ee497380(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDIALTONEMODE",
+"u": "ee497076(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDIGITMODE",
+"u": "ee496390(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDISCONNECTMODE",
+"u": "ee497063(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEERR",
+"u": "ee496762(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEFEATURE",
+"u": "ee496253(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEFORWARDMODE",
+"u": "ee496670(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEGATHERTERM",
+"u": "ee496201(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEGENERATETERM",
+"u": "ee497203(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEINITIALIZEEXOPTION",
+"u": "ee496689(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINELOCATIONOPTION",
+"u": "ee496780(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEMEDIACONTROL",
+"u": "ee496391(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEMEDIAMODE",
+"u": "ee496415(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEOFFERINGMODE",
+"u": "ee496588(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEOPENOPTION",
+"u": "ee497472(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEPARKMODE",
+"u": "ee496800(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEREMOVEFROMCONF",
+"u": "ee496417(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEROAMMODE",
+"u": "ee496957(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINESPECIALINFO",
+"u": "ee496379(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETERMDEV",
+"u": "ee496965(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETERMMODE",
+"u": "ee497036(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETERMSHARING",
+"u": "ee496806(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETOLLLISTOPTION",
+"u": "ee496601(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETONEMODE",
+"u": "ee496586(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETRANSFERMODE",
+"u": "ee496169(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETRANSLATEOPTION",
+"u": "ee496574(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETRANSLATERESULT",
+"u": "ee497424(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEBUTTONFUNCTION",
+"u": "ee497438(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEBUTTONMODE",
+"u": "ee497448(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEBUTTONSTATE",
+"u": "ee496434(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEERR",
+"u": "ee497433(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEFEATURE",
+"u": "ee497026(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEHOOKSWITCHDEV",
+"u": "ee497252(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEHOOKSWITCHMODE",
+"u": "ee496178(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEINITIALIZEEXOPTION",
+"u": "ee497277(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONELAMPMODE",
+"u": "ee497549(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEPRIVILEGE",
+"u": "ee496199(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONESTATE",
+"u": "ee496577(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONESTATUSFLAGS",
+"u": "ee496182(v=winembedded.60)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "STRINGFORMAT",
+"u": "ee497434(v=winembedded.60)"
+}
+]

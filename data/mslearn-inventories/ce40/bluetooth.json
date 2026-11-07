@@ -1,0 +1,380 @@
+[
+{
+"area": "bluetooth",
+"sub": "Bluetooth Enumerations",
+"t": "NODECONTAINERTYPE",
+"u": "ms863400(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Enumerations",
+"t": "SDP_SPECIFICTYPE",
+"u": "ms863406(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Enumerations",
+"t": "SDP_TYPE",
+"u": "ms863407(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "accept (Bluetooth)",
+"u": "ms863305(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "bind (Bluetooth)",
+"u": "ms863315(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "connect (Bluetooth)",
+"u": "ms863326(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "getpeername (Bluetooth)",
+"u": "ms863329(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "getsockname (Bluetooth)",
+"u": "ms863340(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "getsockopt (Bluetooth)",
+"u": "ms863342(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "setsockopt (Bluetooth)",
+"u": "ms863347(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "socket (Bluetooth)",
+"u": "ms863348(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "WSALookupServiceBegin (Bluetooth)",
+"u": "ms863410(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "WSALookupServiceEnd (Bluetooth)",
+"u": "ms863411(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "WSALookupServiceNext (Bluetooth)",
+"u": "ms863412(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Functions",
+"t": "WSASetService (Bluetooth)",
+"u": "ms863409(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::AppendNode",
+"u": "ms863364(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::CreateFromStream",
+"u": "ms863365(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::CreateStream",
+"u": "ms863366(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::GetNode",
+"u": "ms863367(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::GetNodeCount",
+"u": "ms863368(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::GetNodeStringData",
+"u": "ms863369(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::GetStreamSize",
+"u": "ms863370(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::GetType",
+"u": "ms863371(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::LockContainer",
+"u": "ms863373(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::SetNode",
+"u": "ms863374(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::SetType",
+"u": "ms863375(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::Walk",
+"u": "ms863376(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpNodeContainer::WriteStream",
+"u": "ms863377(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpRecord::CreateFromStream",
+"u": "ms863378(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpRecord::GetAttribute",
+"u": "ms863379(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpRecord::GetAttributeAsStream",
+"u": "ms863380(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpRecord::GetAttributeList",
+"u": "ms863381(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpRecord::GetServiceClass",
+"u": "ms863382(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpRecord::SetAttribute",
+"u": "ms863384(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpRecord::SetAttributeFromStream",
+"u": "ms863385(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpRecord::Walk",
+"u": "ms863386(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpRecord::WriteToStream",
+"u": "ms863387(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpStream::ByteSwap*",
+"u": "ms863388(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpStream::NormalizeUuid",
+"u": "ms863390(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpStream::Retrieve*",
+"u": "ms863391(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpStream::RetrieveElementInfo",
+"u": "ms863393(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpStream::RetrieveRecords",
+"u": "ms863392(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpStream::Validate",
+"u": "ms863394(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpStream::VerifySequenceOf",
+"u": "ms863395(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpStream::Walk",
+"u": "ms863396(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpWalk::WalkNode",
+"u": "ms863398(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Interfaces",
+"t": "ISdpWalk::WalkStream",
+"u": "ms863399(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "BASEBAND_CONNECTION",
+"u": "ms863354(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "BTH_LOCAL_VERSION",
+"u": "ms863360(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "BTH_REMOTE_NAME",
+"u": "ms863361(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "BTH_REMOTE_VERSION",
+"u": "ms863362(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "BTH_SOCKOPT_SECURITY",
+"u": "ms863363(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "BTHINQUIRYRESULT",
+"u": "ms863356(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "BTHNS_INQUIRYBLOB",
+"u": "ms863357(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "BTHNS_RESTRICTIONBLOB",
+"u": "ms863358(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "BTHNS_SETBLOB",
+"u": "ms863359(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "NodeData",
+"u": "ms863401(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "NodeDataUnion",
+"u": "ms863402(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "SdpAttributeRange",
+"u": "ms863403(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "SdpQueryUuid",
+"u": "ms863404(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "SdpQueryUuidUnion",
+"u": "ms863405(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "SOCKADDR_BTH",
+"u": "ms863408(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Structures",
+"t": "WSAQUERYSET (Bluetooth)",
+"u": "ms863413(v=msdn.10)"
+}
+]

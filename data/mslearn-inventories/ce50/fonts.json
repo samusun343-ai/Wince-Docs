@@ -1,0 +1,194 @@
+[
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "AddFontResource",
+"u": "ms901109(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "CreateFontIndirect",
+"u": "ms901120(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "DrawText",
+"u": "ms901121(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnableEUDC",
+"u": "ms901122(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontFamilies",
+"u": "ms901123(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontFamiliesEx",
+"u": "ms901124(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontFamProc",
+"u": "ms901125(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFonts",
+"u": "ms901126(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontsProc",
+"u": "ms901127(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "ExtTextOut",
+"u": "ms901129(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetCharABCWidths",
+"u": "ms901130(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetCharABCWidthsI",
+"u": "aa520324(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetCharWidth32",
+"u": "ms901131(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetFontData",
+"u": "aa520325(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextAlign",
+"u": "ms901132(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextCharacterExtra",
+"u": "ms901133(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextColor",
+"u": "ms901134(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextExtentExPoint",
+"u": "ms901135(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextExtentPoint",
+"u": "ms901136(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextExtentPoint32",
+"u": "ms901137(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextFace",
+"u": "ms901138(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextMetrics",
+"u": "ms901139(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "RemoveFontResource",
+"u": "ms901142(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "SetTextAlign",
+"u": "ms901143(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "SetTextCharacterExtra",
+"u": "ms901144(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "SetTextColor",
+"u": "ms901145(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Messages",
+"t": "WM_FONTCHANGE",
+"u": "ms901147(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "ABC",
+"u": "ms901108(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "ENUMLOGFONT",
+"u": "ms901128(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "LOGFONT",
+"u": "ms901140(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "NEWTEXTMETRIC",
+"u": "ms901141(v=msdn.10)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "TEXTMETRIC",
+"u": "ms901146(v=msdn.10)"
+}
+]

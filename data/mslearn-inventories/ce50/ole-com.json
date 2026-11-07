@@ -1,0 +1,5186 @@
+[
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DISPID",
+"u": "ms864423(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "MEMBERID",
+"u": "ms892344(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CALLCONV",
+"u": "ms863871(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DESCKIND",
+"u": "ms864416(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "FUNCFLAGS",
+"u": "aa515008(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "FUNCKIND",
+"u": "aa515010(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "INVOKEKIND",
+"u": "ms882878(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "TYPEKIND",
+"u": "ms896496(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VARTYPE",
+"u": "ms897140(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "BstrFromVector",
+"u": "ms863869(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CreateErrorInfo",
+"u": "ms864392(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CreateTypeLib2",
+"u": "ms864403(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DispGetIDsOfNames",
+"u": "ms864421(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DispGetParam",
+"u": "ms864422(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DispInvoke",
+"u": "ms864425(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "FreePropVariantArray",
+"u": "aa519255(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "GetErrorInfo",
+"u": "aa515037(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "LoadRegTypeLib",
+"u": "ms892335(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "LoadTypeLib",
+"u": "ms892336(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PropVariantClear",
+"u": "aa519285(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PropVariantCopy",
+"u": "aa519286(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "RegisterTypeLib",
+"u": "ms892648(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayAccessData",
+"u": "ms893348(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayAllocData",
+"u": "ms893355(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayAllocDescriptor",
+"u": "ms893361(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayCopy",
+"u": "ms893371(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayCopyData",
+"u": "ms893377(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayCreate",
+"u": "ms893380(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayCreateVector",
+"u": "ms893388(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayDestroy",
+"u": "ms893389(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayDestroyData",
+"u": "ms893396(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayDestroyDescriptor",
+"u": "ms893402(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetDim",
+"u": "ms893408(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetElement",
+"u": "ms893416(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetElemsize",
+"u": "ms893423(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetLBound",
+"u": "ms893432(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetUBound",
+"u": "ms893434(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayLock",
+"u": "ms893435(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayPtrOfIndex",
+"u": "ms893436(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayPutElement",
+"u": "ms893437(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayRedim",
+"u": "ms893438(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayUnaccessData",
+"u": "ms893439(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayUnlock",
+"u": "ms893440(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SetErrorInfo",
+"u": "ms893458(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysAllocString",
+"u": "ms896470(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysAllocStringByteLen",
+"u": "ms896471(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysAllocStringLen",
+"u": "ms896472(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysFreeString",
+"u": "ms896473(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysReAllocString",
+"u": "ms896475(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysReAllocStringLen",
+"u": "ms896476(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysStringByteLen",
+"u": "ms896477(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysStringLen",
+"u": "ms896478(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SystemTimeToVariantTime",
+"u": "ms896482(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "UnRegisterTypeLib",
+"u": "ms896499(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromCy",
+"u": "ms896506(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromDate",
+"u": "ms896507(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromDec",
+"u": "ms896508(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromDisp",
+"u": "ms896509(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromI2",
+"u": "ms896511(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromI4",
+"u": "ms896512(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromR4",
+"u": "ms896513(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromR8",
+"u": "ms896514(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromStr",
+"u": "ms896515(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromUI1",
+"u": "ms896516(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromBool",
+"u": "ms896519(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromCy",
+"u": "ms896520(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromDate",
+"u": "ms896521(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromDec",
+"u": "ms896522(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromDisp",
+"u": "ms896523(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromI2",
+"u": "ms896525(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromI4",
+"u": "ms896526(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromR4",
+"u": "ms896527(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromR8",
+"u": "ms896528(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromUI1",
+"u": "ms896529(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromBool",
+"u": "ms896532(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromDate",
+"u": "ms896533(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromDec",
+"u": "ms896534(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromDisp",
+"u": "ms896535(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromI2",
+"u": "ms896537(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromI4",
+"u": "ms896538(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromR4",
+"u": "ms896539(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromR8",
+"u": "ms896540(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromStr",
+"u": "ms896541(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromUI1",
+"u": "aa518631(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromBool",
+"u": "aa519022(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromCy",
+"u": "aa519023(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromDec",
+"u": "aa519024(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromDisp",
+"u": "aa519025(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromI2",
+"u": "aa519027(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromI4",
+"u": "aa519028(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromR4",
+"u": "aa519029(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromR8",
+"u": "aa519030(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromStr",
+"u": "aa519031(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromUdate",
+"u": "aa519032(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromUI1",
+"u": "aa519033(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromBool",
+"u": "aa519036(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromCy",
+"u": "aa519037(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromDate",
+"u": "aa519038(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromDisp",
+"u": "aa519039(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromI2",
+"u": "aa519041(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromI4",
+"u": "aa519042(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromR4",
+"u": "aa519043(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromR8",
+"u": "aa519044(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromStr",
+"u": "aa519045(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromUI1",
+"u": "aa519046(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromBool",
+"u": "aa519063(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromCy",
+"u": "aa519064(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromDate",
+"u": "aa519065(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromDec",
+"u": "aa519066(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromDisp",
+"u": "aa519067(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromI4",
+"u": "aa519069(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromR4",
+"u": "aa519070(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromR8",
+"u": "aa519071(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromStr",
+"u": "aa519072(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromUI1",
+"u": "aa519073(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromBool",
+"u": "aa519076(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromCy",
+"u": "aa519077(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromDate",
+"u": "aa519078(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromDec",
+"u": "aa519079(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromDisp",
+"u": "aa519080(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromI2",
+"u": "aa519082(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromR4",
+"u": "aa519083(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromR8",
+"u": "aa519084(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromStr",
+"u": "aa519085(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromUI1",
+"u": "aa519086(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantChangeType",
+"u": "aa519090(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantChangeTypeEx",
+"u": "aa519091(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantClear",
+"u": "aa519092(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantCopy",
+"u": "aa519093(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantCopyInd",
+"u": "aa519094(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantInit",
+"u": "aa519095(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantTimeToSystemTime",
+"u": "aa519096(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarNumFromParseNum",
+"u": "aa519098(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarParseNumFromStr",
+"u": "aa519099(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromBool",
+"u": "aa519100(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromCy",
+"u": "aa519101(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromDate",
+"u": "aa519102(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromDec",
+"u": "aa519103(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromDisp",
+"u": "aa519104(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromI2",
+"u": "aa519107(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromI4",
+"u": "aa519109(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromR8",
+"u": "aa519114(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromStr",
+"u": "aa519115(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromUI1",
+"u": "aa519118(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromBool",
+"u": "aa519126(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromCy",
+"u": "aa519130(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromDate",
+"u": "aa519132(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromDec",
+"u": "aa519134(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromDisp",
+"u": "aa519138(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromI2",
+"u": "ms896713(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromI4",
+"u": "ms896721(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromR4",
+"u": "ms896833(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromStr",
+"u": "ms896942(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromUI1",
+"u": "ms897055(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUdateFromDate",
+"u": "ms897142(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromBool",
+"u": "ms897143(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromCy",
+"u": "ms897144(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromDate",
+"u": "ms897145(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromDec",
+"u": "ms897146(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromDisp",
+"u": "ms897147(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromI2",
+"u": "ms897149(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromI4",
+"u": "ms897150(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromR4",
+"u": "ms897151(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromR8",
+"u": "ms897153(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromStr",
+"u": "ms897154(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VectorFromBstr",
+"u": "ms897183(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetGUID",
+"u": "ms880208(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetSource",
+"u": "ms880226(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetDescription",
+"u": "ms880205(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetHelpFile",
+"u": "ms880219(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetHelpContext",
+"u": "ms880214(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::AddFuncDesc",
+"u": "ms880379(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::AddImplType",
+"u": "ms880384(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::AddRefTypeInfo",
+"u": "ms880385(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::AddVarDesc",
+"u": "ms880386(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::DefineFuncAsDllEntry",
+"u": "ms880387(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::LayOut",
+"u": "ms880388(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetAlignment",
+"u": "ms880389(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetDocString",
+"u": "ms880390(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetFuncAndParamNames",
+"u": "ms880393(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetFuncDocString",
+"u": "ms880394(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetFuncHelpContext",
+"u": "ms880395(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetGuid",
+"u": "ms880396(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetHelpContext",
+"u": "ms880397(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetImplTypeFlags",
+"u": "ms880398(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetMops",
+"u": "ms880399(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetTypeDescAlias",
+"u": "ms880400(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetTypeFlags",
+"u": "ms880401(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetVarDocString",
+"u": "ms880402(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetVarHelpContext",
+"u": "ms880403(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetVarName",
+"u": "ms880404(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetVersion",
+"u": "ms880405(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteFuncDesc",
+"u": "ms880230(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteFuncDescByMemId",
+"u": "ms880237(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteVarDesc",
+"u": "ms880247(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteVarDescByMemId",
+"u": "ms880252(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteImplType",
+"u": "ms880241(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetCustData",
+"u": "ms880260(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetFuncCustData",
+"u": "ms880265(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetParamCustData",
+"u": "ms880290(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetVarCustData",
+"u": "ms880295(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetImplTypeCustData",
+"u": "ms880280(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetHelpStringContext",
+"u": "ms880272(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetFuncHelpStringContext",
+"u": "ms880271(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetVarHelpStringContext",
+"u": "ms880371(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetName",
+"u": "ms880288(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::CreateTypeInfo",
+"u": "aa515505(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetName",
+"u": "aa515532(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetVersion",
+"u": "aa515533(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetGuid",
+"u": "aa515506(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetHelpFileName",
+"u": "aa515529(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetHelpContext",
+"u": "aa515528(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetLcid",
+"u": "aa515530(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetLibFlags",
+"u": "aa515531(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib2::DeleteTypeInfo",
+"u": "ms880407(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib2::SetCustData",
+"u": "ms880409(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib2::SetHelpStringContext",
+"u": "ms880410(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib2::SetHelpStringDll",
+"u": "ms880411(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDispatch::GetTypeInfoCount",
+"u": "aa515585(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDispatch::GetTypeInfo",
+"u": "aa515584(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDispatch::GetIDsOfNames",
+"u": "aa515582(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDispatch::Invoke",
+"u": "aa515589(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "dispinterface",
+"u": "ms864424(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IEnumVARIANT::Next",
+"u": "aa515688(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IEnumVARIANT::Skip",
+"u": "aa515694(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IEnumVARIANT::Reset",
+"u": "aa515691(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IEnumVARIANT::Clone",
+"u": "aa515685(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetGUID",
+"u": "aa515705(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetSource",
+"u": "aa515708(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetDescription",
+"u": "aa515702(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetHelpFile",
+"u": "aa515707(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetHelpContext",
+"u": "aa515706(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ISupportErrorInfo::InterfaceSupportsErrorInfo",
+"u": "ms890756(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeComp::Bind",
+"u": "ms890890(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeComp::BindType",
+"u": "ms890896(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::AddressOfMember",
+"u": "ms891040(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::CreateInstance",
+"u": "ms891048(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetContainingTypeLib",
+"u": "ms891056(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetDllEntry",
+"u": "ms891065(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetDocumentation",
+"u": "ms891070(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetFuncDesc",
+"u": "ms891080(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetIDsOfNames",
+"u": "ms891088(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetImplTypeFlags",
+"u": "ms891098(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetMops",
+"u": "ms891106(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetNames",
+"u": "ms891123(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetRefTypeInfo",
+"u": "ms891131(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetRefTypeOfImplType",
+"u": "ms891140(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetTypeAttr",
+"u": "ms891249(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetTypeComp",
+"u": "ms891334(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetVarDesc",
+"u": "ms891338(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::Invoke",
+"u": "ms891343(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::ReleaseFuncDesc",
+"u": "ms891345(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::ReleaseTypeAttr",
+"u": "ms891352(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::ReleaseVarDesc",
+"u": "ms891356(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetTypeKind",
+"u": "ms891019(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetTypeFlags",
+"u": "ms891010(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetFuncIndexOfMemId",
+"u": "ms890986(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetVarIndexOfMemId",
+"u": "ms891032(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetCustData",
+"u": "ms890962(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetFuncCustData",
+"u": "ms890980(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetParamCustData",
+"u": "ms891006(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetVarCustData",
+"u": "ms891027(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetImplTypeCustData",
+"u": "ms890994(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetDocumentation2",
+"u": "ms890971(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllCustData",
+"u": "ms890921(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllFuncCustData",
+"u": "ms890930(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllParamCustData",
+"u": "ms890945(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllVarCustData",
+"u": "ms890954(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllImplTypeCustData",
+"u": "ms890936(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::FindName",
+"u": "ms891489(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetDocumentation",
+"u": "ms891492(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetLibAttr",
+"u": "ms891497(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeComp",
+"u": "ms891502(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeInfo",
+"u": "ms891508(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeInfoCount",
+"u": "ms891513(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeInfoOfGuid",
+"u": "ms891517(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeInfoType",
+"u": "ms891521(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::IsName",
+"u": "ms891529(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::ReleaseTLibAttr",
+"u": "ms891535(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib2::GetCustData",
+"u": "ms891369(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib2::GetLibStatistics",
+"u": "ms891478(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib2::GetDocumentation2",
+"u": "ms891374(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib2::GetAllCustData",
+"u": "ms891365(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ARRAYDESC",
+"u": "ms863667(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "BINDPTR",
+"u": "ms863861(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CURRENCY",
+"u": "ms864404(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CUSTDATA",
+"u": "ms864406(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CUSTDATAITEM",
+"u": "ms864407(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DISPPARAMS",
+"u": "ms864426(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ELEMDESC",
+"u": "ms864455(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "EXCEPINFO",
+"u": "aa514943(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "FUNCDESC",
+"u": "aa515005(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDLDESC",
+"u": "aa515591(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "METHODDATA",
+"u": "ms892346(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PARAMDATA",
+"u": "ms892619(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PARAMDESC",
+"u": "ms892620(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PROPVARIANT",
+"u": "aa519284(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SAFEARRAY",
+"u": "ms893344(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SAFEARRAYBOUND",
+"u": "ms893364(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "TYPEATTR",
+"u": "ms896493(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "TYPEDESC",
+"u": "ms896494(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VARDESC",
+"u": "aa519049(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VARIANT and VARIANTARG",
+"u": "aa519089(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "BindMoniker",
+"u": "ms863843(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CLSIDFromProgID",
+"u": "ms863883(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CLSIDFromString",
+"u": "ms863884(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoAddRefServerProcess",
+"u": "ms863885(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoBuildVersion",
+"u": "ms863889(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCopyProxy",
+"u": "ms863890(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCreateFreeThreadedMarshaler",
+"u": "ms863891(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCreateGuid",
+"u": "ms863892(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCreateInstance",
+"u": "ms863893(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCreateInstanceEx",
+"u": "ms863894(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoDisconnectObject",
+"u": "ms863895(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFileTimeNow",
+"u": "ms863896(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFreeAllLibraries",
+"u": "ms863897(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFreeLibrary",
+"u": "ms863898(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFreeUnusedLibraries",
+"u": "ms863899(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFreeUnusedLibrariesEx",
+"u": "ms863900(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetCallContext",
+"u": "ms863901(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetClassObject",
+"u": "ms863902(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetCurrentProcess",
+"u": "ms863903(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetInstanceFromFile",
+"u": "ms863904(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetInstanceFromIStorage",
+"u": "ms863905(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetInterfaceAndReleaseStream",
+"u": "ms863906(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetMalloc",
+"u": "ms863907(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetMarshalSizeMax",
+"u": "ms863908(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetObject",
+"u": "ms863909(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetPSClsid",
+"u": "ms863910(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetStandardMarshal",
+"u": "ms863911(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetTreatAsClass",
+"u": "ms863912(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoImpersonateClient",
+"u": "ms863913(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoInitialize",
+"u": "ms863914(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoInitializeEx",
+"u": "ms863915(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoInitializeSecurity",
+"u": "ms863916(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoIsHandlerConnected",
+"u": "ms863917(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoIsOle1Class",
+"u": "ms863918(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoLoadLibrary",
+"u": "ms863920(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoLockObjectExternal",
+"u": "ms863921(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoMarshalHresult",
+"u": "ms863922(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoMarshalInterface",
+"u": "ms863923(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoMarshalInterThreadInterfaceInStream",
+"u": "ms863924(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoQueryAuthenticationServices",
+"u": "ms864027(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoQueryClientBlanket",
+"u": "ms864032(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoQueryProxyBlanket",
+"u": "ms864041(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterClassObject",
+"u": "ms864053(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterMallocSpy",
+"u": "ms864061(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterMessageFilter",
+"u": "ms864067(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterPSClsid",
+"u": "ms864076(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterSurrogate",
+"u": "ms864084(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoReleaseMarshalData",
+"u": "ms864093(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoReleaseServerProcess",
+"u": "ms864104(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoResumeClassObjects",
+"u": "ms864120(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRevertToSelf",
+"u": "ms864129(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRevokeClassObject",
+"u": "ms864137(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRevokeMallocSpy",
+"u": "ms864148(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoSetProxyBlanket",
+"u": "ms864164(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoSuspendClassObjects",
+"u": "ms864171(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoSwitchCallContext",
+"u": "ms864179(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoTaskMemAlloc",
+"u": "ms864185(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoTaskMemFree",
+"u": "ms864196(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoTaskMemRealloc",
+"u": "ms864283(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoTreatAsClass",
+"u": "ms864357(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoUninitialize",
+"u": "ms864368(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoUnmarshalHresult",
+"u": "ms864379(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoUnmarshalInterface",
+"u": "ms864380(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateAntiMoniker",
+"u": "ms864382(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateBindCtx",
+"u": "ms864385(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateClassMoniker",
+"u": "ms864387(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateFileMoniker",
+"u": "ms864393(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateGenericComposite",
+"u": "ms864394(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateItemMoniker",
+"u": "ms864395(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreatePointerMoniker",
+"u": "ms864398(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DirectInputCreate",
+"u": "ms864419(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DllCanUnloadNow",
+"u": "ms864427(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DllGetClassObject",
+"u": "ms864428(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DllRegisterServer",
+"u": "ms864429(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DllUnregisterServer",
+"u": "ms864430(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "GetClassFile",
+"u": "aa515023(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "GetRunningObjectTable",
+"u": "aa515060(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IIDFromString",
+"u": "aa516171(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsEqualGUID",
+"u": "ms886018(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsValidIid",
+"u": "ms890785(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsValidInterface",
+"u": "ms890791(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsValidPtrIn",
+"u": "ms890797(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsValidPtrOut",
+"u": "ms890804(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MkParseDisplayName",
+"u": "ms892347(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MonikerCommonPrefixWith",
+"u": "ms892350(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MonikerRelativePathTo",
+"u": "ms892351(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ProgIDFromCLSID",
+"u": "ms892634(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "StringFromCLSID",
+"u": "ms896375(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "StringFromGUID2",
+"u": "ms896381(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "StringFromIID",
+"u": "ms896389(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "UpdateDCOMSettings",
+"u": "ms896500(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::GetAllAccessRights",
+"u": "aa515095(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::GrantAccessRights",
+"u": "aa515097(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::IsAccessAllowed",
+"u": "aa515099(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::RevokeAccessRights",
+"u": "aa515102(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::SetAccessRights",
+"u": "aa515103(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::SetOwner",
+"u": "aa515104(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::EnumObjectParam",
+"u": "aa515367(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::GetBindOptions",
+"u": "aa515369(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::GetObjectParam",
+"u": "aa515370(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::GetRunningObjectTable",
+"u": "aa515371(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::RegisterObjectBound",
+"u": "ms879962(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::RegisterObjectParam",
+"u": "ms879966(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::ReleaseBoundObjects",
+"u": "ms879972(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::RevokeObjectBound",
+"u": "ms879976(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::RevokeObjectParam",
+"u": "ms879981(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::SetBindOptions",
+"u": "ms879984(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatInformation::EnumCategories",
+"u": "ms879987(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatInformation::EnumClassesOfCategories",
+"u": "ms880012(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatInformation::EnumImplCategoriesOfClass",
+"u": "ms880020(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatInformation::EnumReqCategoriesOfClass",
+"u": "ms880024(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatInformation::GetCategoryDesc",
+"u": "ms880029(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatInformation::IsClassOfCategories",
+"u": "ms880032(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::RegisterCategories",
+"u": "ms880045(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::RegisterClassImplCategories",
+"u": "ms880052(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::RegisterClassReqCategories",
+"u": "ms880057(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::UnRegisterCategories",
+"u": "ms880063(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::UnRegisterClassImplCategories",
+"u": "ms880068(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::UnRegisterClassReqCategories",
+"u": "ms880073(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassActivator::GetClassObject",
+"u": "ms880078(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory::CreateInstance",
+"u": "ms880100(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory::LockServer",
+"u": "ms880110(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory2::CreateInstanceLic",
+"u": "ms880086(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory2::GetLicInfo",
+"u": "ms880090(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory2::RequestLicKey",
+"u": "ms880096(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClientSecurity::CopyProxy",
+"u": "ms880114(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClientSecurity::QueryBlanket",
+"u": "ms880121(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClientSecurity::SetBlanket",
+"u": "ms880124(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::Advise",
+"u": "ms880127(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::EnumConnections",
+"u": "ms880146(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::GetConnectionInterface",
+"u": "ms880151(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::GetConnectionPointContainer",
+"u": "ms880154(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::Unadvise",
+"u": "ms880162(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPointContainer::EnumConnectionPoints",
+"u": "ms880130(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPointContainer::FindConnectionPoint",
+"u": "ms880137(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IContinueCallback::FContinue",
+"u": "ms880185(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IContinueCallback::FContinuePrinting",
+"u": "ms880191(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::DAdvise",
+"u": "aa515534(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::DUnadvise",
+"u": "aa515535(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::EnumDAdvise",
+"u": "aa515536(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::EnumFormatEtc",
+"u": "aa515537(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::GetCanonicalFormatEtc",
+"u": "aa515538(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::GetData",
+"u": "aa515539(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::GetDataHere",
+"u": "aa515540(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::QueryGetData",
+"u": "aa515542(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::SetData",
+"u": "aa515543(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccMan::Advise",
+"u": "aa515544(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccMan::ShowCommSettings",
+"u": "aa515546(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccMan::Unadvise",
+"u": "aa515572(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogActive",
+"u": "aa515548(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogAnswered",
+"u": "aa515560(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogDisconnection",
+"u": "aa515561(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogError",
+"u": "aa515562(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogInactive",
+"u": "aa515564(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogIpAddr",
+"u": "aa515566(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogListen",
+"u": "aa515568(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogTerminated",
+"u": "aa515570(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnectionPoints::Clone",
+"u": "aa515592(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnectionPoints::Next",
+"u": "aa515596(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnectionPoints::Reset",
+"u": "aa515598(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnectionPoints::Skip",
+"u": "aa515601(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnections::Clone",
+"u": "aa515605(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnections::Next",
+"u": "aa515608(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnections::Reset",
+"u": "aa515609(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnections::Skip",
+"u": "aa515611(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumFORMATETC::Clone",
+"u": "aa515612(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumFORMATETC::Next",
+"u": "aa515616(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumFORMATETC::Reset",
+"u": "aa515618(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumFORMATETC::Skip",
+"u": "aa515620(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumMoniker::Clone",
+"u": "aa515623(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumMoniker::Next",
+"u": "aa515626(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumMoniker::Reset",
+"u": "aa515627(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumMoniker::Skip",
+"u": "aa515628(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATDATA::Clone",
+"u": "aa515655(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATDATA::Next",
+"u": "aa515659(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATDATA::Reset",
+"u": "aa515660(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATDATA::Skip",
+"u": "aa515663(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATSTG::Clone",
+"u": "aa515665(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATSTG::Next",
+"u": "aa515672(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATSTG::Reset",
+"u": "aa515673(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATSTG::Skip",
+"u": "aa515675(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumString::Clone",
+"u": "aa515678(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumString::Next",
+"u": "aa515679(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumString::Reset",
+"u": "aa515681(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumString::Skip",
+"u": "aa515682(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumUnknown",
+"u": "aa515683(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IErrorlog::AddError",
+"u": "aa515710(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IExternalConnection::AddConnection",
+"u": "aa516153(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IExternalConnection::ReleaseConnection",
+"u": "aa516154(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes::FillAppend",
+"u": "aa516156(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes::FillAt",
+"u": "aa516157(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes::SetFillSize",
+"u": "aa516159(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes::Terminate",
+"u": "aa516160(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes Implementation",
+"u": "aa516158(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IGlobalInterfaceTable::GetInterfaceFromGlobal",
+"u": "aa516166(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IGlobalInterfaceTable::RegisterInterfaceInGlobal",
+"u": "aa516168(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IGlobalInterfaceTable::RevokeInterfaceFromGlobal",
+"u": "aa516169(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::Alloc",
+"u": "aa516180(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::DidAlloc",
+"u": "aa516181(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::Free",
+"u": "aa516182(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::GetSize",
+"u": "aa516183(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::HeapMinimize",
+"u": "aa516184(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::Realloc",
+"u": "aa516186(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreAlloc",
+"u": "aa516194(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostAlloc",
+"u": "aa516188(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreDidAlloc",
+"u": "aa516195(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostDidAlloc",
+"u": "aa516189(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreFree",
+"u": "aa516196(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostFree",
+"u": "aa516190(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreGetSize",
+"u": "aa516197(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostGetSize",
+"u": "aa516191(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreHeapMinimize",
+"u": "aa516198(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostHeapMinimize",
+"u": "aa516192(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreRealloc",
+"u": "aa516199(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostRealloc",
+"u": "aa516193(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal Default Implementation",
+"u": "aa516200(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::DisconnectObject",
+"u": "aa516201(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::GetMarshalSizeMax",
+"u": "aa516202(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::GetUnmarshalClass",
+"u": "aa516203(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::MarshalInterface",
+"u": "aa516205(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::ReleaseMarshalData",
+"u": "aa516206(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::UnmarshalInterface",
+"u": "aa516207(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMessageFilter::HandleInComingCall",
+"u": "ms882404(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMessageFilter::MessagePending",
+"u": "ms882626(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMessageFilter::RetryRejectedCall",
+"u": "ms882639(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::BindToObject",
+"u": "ms882659(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::BindToStorage",
+"u": "ms882672(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::CommonPrefixWith",
+"u": "ms882688(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::ComposeWith",
+"u": "ms882696(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::Enum",
+"u": "ms882703(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::GetDisplayName",
+"u": "ms882716(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::GetTimeOfLastChange",
+"u": "ms882726(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::Hash",
+"u": "ms882736(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::Inverse",
+"u": "ms882744(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::IsEqual",
+"u": "ms882749(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::IsRunning",
+"u": "ms882756(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::IsSystemMoniker",
+"u": "ms882765(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::ParseDisplayName",
+"u": "ms882784(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::Reduce",
+"u": "ms882796(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::RelativePathTo",
+"u": "ms882804(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMultiQI::QueryMultipleInterfaces",
+"u": "ms882837(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IObjectSafety::GetInterfaceSafetyOptions",
+"u": "ms882879(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IObjectSafety::SetInterfaceSafetyOptions",
+"u": "ms882881(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::GetExtendedControl",
+"u": "aa519259(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::LockInPlaceActive",
+"u": "aa519261(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::OnControlInfoChanged",
+"u": "aa519262(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::OnFocus",
+"u": "aa519263(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::ShowPropertyFrame",
+"u": "aa519264(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::TransformCoords",
+"u": "aa519265(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::TranslateAccelerator",
+"u": "aa519266(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleItemContainer::GetObject",
+"u": "ms882897(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleItemContainer::GetObjectStorage",
+"u": "ms882898(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleItemContainer::IsRunning",
+"u": "ms882899(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::BindIfRunning",
+"u": "ms882901(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::BindToSource",
+"u": "ms882902(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::GetBoundSource",
+"u": "ms882903(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::GetSourceDisplayName",
+"u": "ms882904(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::GetSourceMoniker",
+"u": "ms882905(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::GetUpdateOptions",
+"u": "ms882906(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::SetSourceDisplayName",
+"u": "ms882908(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::SetSourceMoniker",
+"u": "ms882909(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::SetUpdateOptions",
+"u": "ms882910(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::UnbindSource",
+"u": "ms882911(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::Update",
+"u": "ms882912(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IParseDisplayName::ParseDisplayName",
+"u": "ms882936(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersist::GetClassID",
+"u": "ms883501(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::GetCurFile",
+"u": "ms882937(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::IsDirty",
+"u": "ms882938(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::Load",
+"u": "ms882940(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::Save",
+"u": "ms882941(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::SaveCompleted",
+"u": "ms883493(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistPropertyBag::InitNew",
+"u": "ms883625(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistPropertyBag::Load",
+"u": "ms883649(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistPropertyBag::Save",
+"u": "ms883662(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::HandsOffStorage",
+"u": "ms883673(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::InitNew",
+"u": "ms883686(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::IsDirty",
+"u": "ms883704(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::Load",
+"u": "ms883717(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::Save",
+"u": "ms883726(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::SaveCompleted",
+"u": "ms883737(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream URL Moniker Implementation",
+"u": "ms883866(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream::GetSizeMax",
+"u": "ms883746(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream::IsDirty",
+"u": "ms883830(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream::Load",
+"u": "ms883840(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream::Save",
+"u": "ms883850(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::GetSizeMax",
+"u": "ms883758(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::InitNew",
+"u": "ms883767(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::IsDirty",
+"u": "ms883784(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::Load",
+"u": "ms883792(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::Save",
+"u": "ms883806(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IProgressNotify::OnProgress",
+"u": "ms884240(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPropertyBag::Read",
+"u": "ms884257(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPropertyBag::Write",
+"u": "ms884267(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IProvideClassInfo::GetClassInfo",
+"u": "ms884308(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IProvideClassInfo2::GetGUID",
+"u": "ms884278(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IROTData::GetComparisonData",
+"u": "ms884587(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::GetRunningClass",
+"u": "ms884589(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::IsRunning",
+"u": "ms884590(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::LockRunning",
+"u": "ms884593(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::Run",
+"u": "ms884594(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::SetContainedObject",
+"u": "ms884595(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::EnumRunning",
+"u": "ms884596(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::GetObject",
+"u": "ms884597(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::GetTimeOfLastChange",
+"u": "ms884598(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::IsRunning",
+"u": "ms884600(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::NoteChangeTime",
+"u": "ms884602(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::Register",
+"u": "ms884603(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::Revoke",
+"u": "ms884604(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ISequentialStream::Read",
+"u": "ms886039(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ISequentialStream::Write",
+"u": "ms886049(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IServerSecurity::ImpersonateClient",
+"u": "ms886057(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IServerSecurity::IsImpersonating",
+"u": "ms886067(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IServerSecurity::QueryBlanket",
+"u": "ms886085(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IServerSecurity::RevertToSelf",
+"u": "ms886097(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IStdMarshalInfo::GetClassForHandler",
+"u": "ms890547(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ISurrogate::LoadDllServer",
+"u": "ms890776(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ISurrogate::FreeSurrogate",
+"u": "ms890764(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IUnknown::AddRef",
+"u": "ms891547(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IUnknown::QueryInterface",
+"u": "ms891550(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IUnknown::Release",
+"u": "ms891556(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObject2::GetExtent",
+"u": "ms891559(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::GetNaturalExtent",
+"u": "ms891573(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::GetRect",
+"u": "ms891577(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::GetViewStatus",
+"u": "ms891581(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::QueryHitPoint",
+"u": "ms891589(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::QueryHitRect",
+"u": "ms891594(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "BIND_FLAGS",
+"u": "ms863834(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "BIND_OPTS",
+"u": "ms863848(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "BIND_OPTS2",
+"u": "ms863857(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CLSCTX",
+"u": "ms863882(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "COAUTHINFO",
+"u": "ms863887(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CONTROLINFO",
+"u": "ms864020(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "COSERVERINFO",
+"u": "ms864158(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DATADIR",
+"u": "ms864408(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DVASPECT2",
+"u": "ms864438(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DVEXTENTMODE",
+"u": "ms864452(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "HITRESULT",
+"u": "aa515087(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MKRREDUCE",
+"u": "ms892348(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MKSYS",
+"u": "ms892349(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "OLEGETMONIKER",
+"u": "ms892592(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "OLELINKBIND",
+"u": "ms892594(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "OLEUPDATE",
+"u": "ms892601(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "OLEWHICHMK",
+"u": "ms892604(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "STGC",
+"u": "ms896217(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "VIEWSTATUS",
+"u": "ms897186(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "CreateOleAdviseHolder",
+"u": "ms864397(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "CreateStreamOnHGlobal",
+"u": "ms864401(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "GetHGlobalFromStream",
+"u": "aa515040(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleCreate",
+"u": "ms892590(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleDraw",
+"u": "ms892591(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleIsRunning",
+"u": "ms892593(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleLoadFromStream",
+"u": "ms892595(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleRun",
+"u": "ms892596(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleSave",
+"u": "ms892597(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleSaveToStream",
+"u": "ms892598(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleSetContainedObject",
+"u": "ms892599(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleSetMenuDescriptor",
+"u": "ms892600(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "ReleaseStgMedium",
+"u": "ms892649(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBoolFromI1",
+"u": "ms896510(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBoolFromUI2",
+"u": "ms896517(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBoolFromUI4",
+"u": "ms896518(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBstrFromI1",
+"u": "ms896524(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBstrFromUI2",
+"u": "ms896530(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBstrFromUI4",
+"u": "ms896531(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarCyFromI1",
+"u": "ms896536(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarCyFromUI2",
+"u": "aa518802(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarCyFromUI4",
+"u": "aa519021(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDateFromI1",
+"u": "aa519026(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDateFromUI2",
+"u": "aa519034(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDateFromUI4",
+"u": "aa519035(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDecFromI1",
+"u": "aa519040(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDecFromUI2",
+"u": "aa519047(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDecFromUI4",
+"u": "aa519048(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromBool",
+"u": "aa519050(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromCy",
+"u": "aa519051(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromDate",
+"u": "aa519052(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromDec",
+"u": "aa519053(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromDisp",
+"u": "aa519054(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromI2",
+"u": "aa519055(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromI4",
+"u": "aa519056(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromR4",
+"u": "aa519057(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromR8",
+"u": "aa519058(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromStr",
+"u": "aa519059(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromUI1",
+"u": "aa519060(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromUI2",
+"u": "aa519061(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromUI4",
+"u": "aa519062(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI2FromI1",
+"u": "aa519068(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI2FromUI2",
+"u": "aa519074(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI2FromUI4",
+"u": "aa519075(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI4FromI1",
+"u": "aa519081(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI4FromUI2",
+"u": "aa519087(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI4FromUI4",
+"u": "aa519088(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR4FromI1",
+"u": "aa519105(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR4FromUI2",
+"u": "aa519121(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR4FromUI4",
+"u": "aa519124(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR8FromI1",
+"u": "aa519141(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR8FromUI2",
+"u": "ms897137(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR8FromUI4",
+"u": "ms897139(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI1FromI1",
+"u": "ms897148(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI1FromUI2",
+"u": "ms897155(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI1FromUI4",
+"u": "ms897156(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromBool",
+"u": "ms897157(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromCy",
+"u": "ms897158(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromDate",
+"u": "ms897159(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromDec",
+"u": "ms897160(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromDisp",
+"u": "ms897161(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromI1",
+"u": "ms897162(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromI2",
+"u": "ms897163(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromI4",
+"u": "ms897164(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromR4",
+"u": "ms897165(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromR8",
+"u": "ms897166(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromStr",
+"u": "ms897167(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromUI1",
+"u": "ms897168(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromUI4",
+"u": "ms897169(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromBool",
+"u": "ms897170(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromCy",
+"u": "ms897171(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromDate",
+"u": "ms897172(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromDec",
+"u": "ms897173(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromDisp",
+"u": "ms897174(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromI1",
+"u": "ms897175(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromI2",
+"u": "ms897176(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromI4",
+"u": "ms897177(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromR4",
+"u": "ms897178(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromR8",
+"u": "ms897179(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromStr",
+"u": "ms897180(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromUI1",
+"u": "ms897181(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromUI2",
+"u": "ms897182(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnClose",
+"u": "aa515106(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnDataChange",
+"u": "aa515110(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnRename",
+"u": "aa515340(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnSave",
+"u": "aa515342(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnViewChange",
+"u": "aa515344(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IEnumOLEVERB::Next",
+"u": "aa515635(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IEnumOLEVERB::Skip",
+"u": "aa515638(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IEnumOLEVERB::Reset",
+"u": "aa515636(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IEnumOLEVERB::Clone",
+"u": "aa515631(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::Advise",
+"u": "ms882882(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::EnumAdvise",
+"u": "ms882883(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::SendOnClose",
+"u": "ms882885(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::SendOnRename",
+"u": "ms882886(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::SendOnSave",
+"u": "ms882887(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::Unadvise",
+"u": "ms882889(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::GetContainer",
+"u": "ms882890(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::GetMoniker",
+"u": "ms882891(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::OnShowWindow",
+"u": "ms882893(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::RequestNewObjectLayout",
+"u": "ms882894(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::SaveObject",
+"u": "ms882895(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::ShowObject",
+"u": "ms882896(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleContainer::EnumObjects",
+"u": "aa519256(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleContainer::LockContainer",
+"u": "aa519258(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::CanInPlaceActivate",
+"u": "aa519268(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::DeactivateAndUndo",
+"u": "aa519269(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::DiscardUndoState",
+"u": "aa519270(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::GetWindowContext",
+"u": "aa519271(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnInPlaceActivate",
+"u": "aa519273(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnInPlaceDeactivate",
+"u": "aa519274(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnPosRectChange",
+"u": "aa519275(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnUIActivate",
+"u": "aa519276(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnUIDeactivate",
+"u": "aa519277(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::Scroll",
+"u": "aa519278(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::Advise",
+"u": "ms882913(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::Close",
+"u": "ms882914(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::DoVerb",
+"u": "ms882915(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::EnumAdvise",
+"u": "ms882916(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::EnumVerbs",
+"u": "ms882917(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetClientSite",
+"u": "ms882918(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetClipboardData",
+"u": "ms882919(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetExtent",
+"u": "ms882920(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetMiscStatus",
+"u": "ms882921(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetMoniker",
+"u": "ms882922(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetUserClassID",
+"u": "ms882923(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetUserType",
+"u": "ms882924(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::InitFromData",
+"u": "ms882925(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::IsUpToDate",
+"u": "ms882926(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetClientSite",
+"u": "ms882928(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetColorScheme",
+"u": "ms882929(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetExtent",
+"u": "ms882930(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetHostNames",
+"u": "ms882931(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetMoniker",
+"u": "ms882932(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::Unadvise",
+"u": "ms882933(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::Update",
+"u": "ms882934(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleWindow::ContextSensitiveHelp",
+"u": "aa519279(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleWindow::GetWindow",
+"u": "aa519280(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::Draw",
+"u": "ms891568(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::Freeze",
+"u": "ms891597(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::GetAdvise",
+"u": "ms891602(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::GetColorSet",
+"u": "ms891695(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::SetAdvise",
+"u": "ms891709(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::Unfreeze",
+"u": "ms891710(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "DVASPECT",
+"u": "ms864437(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "DVEXTENTINFO",
+"u": "ms864451(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "DVTARGETDEVICE",
+"u": "ms864453(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "FORMATETC",
+"u": "aa514993(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "STGMEDIUM",
+"u": "ms896247(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "TYMED",
+"u": "ms896492(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ADVF",
+"u": "aa513925(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "DVASPECTINFOFLAG",
+"u": "ms864450(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "OLEVERBATTRIB",
+"u": "ms892603(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STGM",
+"u": "ms896239(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "SYSKIND",
+"u": "ms896474(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "TYPEFLAGS",
+"u": "ms896495(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "VARKIND",
+"u": "aa519097(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ReadClassStg",
+"u": "ms892641(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ReadClassStm",
+"u": "ms892642(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "StgCreateDocfile",
+"u": "ms896225(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "StgCreateDocfileOnILockBytes",
+"u": "ms896230(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "StgOpenStorage",
+"u": "ms896253(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "StgOpenStorageOnILockBytes",
+"u": "ms896261(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "WriteClassStg",
+"u": "ms897190(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "WriteClassStm",
+"u": "ms897191(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::Commit",
+"u": "ms890561(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::CopyTo",
+"u": "ms890565(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::CreateStorage",
+"u": "ms890573(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::CreateStream",
+"u": "ms890579(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::DestroyElement",
+"u": "ms890584(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::EnumElements",
+"u": "ms890596(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::MoveElementTo",
+"u": "ms890609(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::OpenStorage",
+"u": "ms890617(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::OpenStream",
+"u": "ms890624(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::RenameElement",
+"u": "ms890628(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::Revert",
+"u": "ms890635(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::SetClass",
+"u": "ms890641(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::SetElementTimes",
+"u": "ms890645(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::SetStateBits",
+"u": "ms890655(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::Stat",
+"u": "ms890663(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Clone",
+"u": "ms890670(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Commit",
+"u": "ms890676(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::CopyTo",
+"u": "ms890680(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::LockRegion",
+"u": "ms890689(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Read",
+"u": "ms890697(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Revert",
+"u": "ms890706(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Seek",
+"u": "ms890715(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::SetSize",
+"u": "ms890722(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Stat",
+"u": "ms890729(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::UnlockRegion",
+"u": "ms890740(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Write",
+"u": "ms890746(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::Flush",
+"u": "aa516172(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::LockRegion",
+"u": "aa516174(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::ReadAt",
+"u": "aa516175(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::SetSize",
+"u": "aa516176(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::Stat",
+"u": "aa516177(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::UnlockRegion",
+"u": "aa516178(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::WriteAt",
+"u": "aa516179(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IRootStorage::SwitchToFile",
+"u": "ms884586(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "BSTR",
+"u": "ms863868(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "COAUTHIDENTITY",
+"u": "ms863886(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "CONNECTDATA",
+"u": "ms863928(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "DVASPECTINFO",
+"u": "ms864439(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "HREFTYPE",
+"u": "aa515089(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IMPLTYPEFLAGS",
+"u": "ms882821(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "INTERFACEINFO",
+"u": "ms882877(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "LCID",
+"u": "ms891741(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "LICINFO",
+"u": "ms892327(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "MULTI_QI",
+"u": "ms892354(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "OLEVERB",
+"u": "ms892602(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "SOLE_AUTHENTICATION_SERVICE",
+"u": "ms893478(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STATDATA",
+"u": "ms896188(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STATSTG",
+"u": "ms896194(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STORE_INFORMATION",
+"u": "ms896367(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STOREINFO (COM)",
+"u": "ms896271(v=msdn.10)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "TLIBATTR",
+"u": "ms896486(v=msdn.10)"
+}
+]

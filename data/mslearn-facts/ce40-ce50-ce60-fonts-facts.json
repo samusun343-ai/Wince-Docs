@@ -1,0 +1,2046 @@
+[
+ {
+  "name": "AddFontResource",
+  "title": "AddFontResource",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900628(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int AddFontResource( LPCTSTR lpszFilename );",
+  "code_blocks": [
+   "int AddFontResource( LPCTSTR lpszFilename );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "CreateFontIndirect",
+  "title": "CreateFontIndirect",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900632(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HFONT CreateFontIndirect( const LOGFONT* lplf );",
+  "code_blocks": [
+   "HFONT CreateFontIndirect( const LOGFONT* lplf );",
+   "/********************************************************************** THIS CODE AND INFORMATION IS PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE. Copyright (c) 2003 Microsoft Corporation. All Rights Reserved. MODULE: cleartype_sample.cpp ABSTRACT: This application code draws ClearType fonts with different settings. **********************************************************************/ #include <windows.h> #include <tchar.h> int WINAPI WinMain ( HINSTANCE hInstance, HINSTANCE hInstPrev, #ifdef UNDER_CE LPWSTR pszCmdLine, #else LPSTR pszCmdLine, #endif int nCmdShow ) { // This retrieves the device context (DC) for the primary display driver. This is not associated with a window. // This is only used for simplicity of the example. HDC hdc = GetDC(NULL); int nSmooth, nOldSmooth; // A rectangle to hold the text. RECT rc = { 10, 10, 100, 100}; LOGFONT lf; HFONT hFontNew, hFontOld; int nTextHeight; // Clear out the lf structure to use when creating the font. memset(&lf, 0, sizeof(LOGFONT)); // Retrieve the old Cleartype gamma. SystemParametersInfo(SPI_GETFONTSMOOTHINGCONTRAST, 0, &nOldSmooth, FALSE); // Draw text with the default system font. First calculate the size of the rectangle to use. DrawText(hdc, TEXT(\"This is the default system font.\"), -1, &rc, DT_CALCRECT | DT_LEFT | DT_TOP); DrawText(hdc, TEXT(\"This is the default system font.\"), -1, &rc, DT_LEFT | DT_TOP); // Draw a Cleartype font with a font smoothing of 1000. nSmooth = 1000; SystemParametersInfo(SPI_SETFONTSMOOTHINGCONTRAST, 0, &nSmooth, FALSE); nTextHeight = rc.bottom - rc.top; rc.top += nTextHeight; rc.bottom += nTextHeight; lf.lfQuality = CLEARTYPE_QUALITY; hFontNew = CreateFontIndirect(&lf); hFontOld = (HFONT) SelectObject(hdc, hFontNew); DrawText(hdc, TEXT(\"This is a ClearType font w/ 1000 font smoothing.\"), -1, &rc, DT_CALCRECT | DT_LEFT | DT_TOP); DrawText(hdc, TEXT(\"This is a ClearType font w/ 1000 font smoothing.\"), -1, &rc, DT_LEFT | DT_TOP); SelectObject(hdc, hFontOld); DeleteObject(hFontNew); // Sleep 20 seconds to let the user see the text. Sleep(20000); SystemParametersInfo(SPI_SETFONTSMOOTHINGCONTRAST, 0, &nOldSmooth, FALSE); DeleteDC(hdc); }"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "DrawText",
+  "title": "DrawText",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900650(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int DrawText( HDC hDC, LPCTSTR lpString, int nCount, LPRECT lpRect, UNIT uFormat );",
+  "code_blocks": [
+   "int DrawText( HDC hDC, LPCTSTR lpString, int nCount, LPRECT lpRect, UNIT uFormat );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For Windows CE 2.10 and later, line breaking is supported for the Chinese, Korean, and Japanese languages.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnableEUDC",
+  "title": "EnableEUDC",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900655(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL EnableEUDC( BOOL fEnableEUDC );",
+  "code_blocks": [
+   "BOOL EnableEUDC( BOOL fEnableEUDC );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.01 and later."
+  },
+  "ce_notes_excerpt": "By default, Windows CE enables EUDC fonts during GWES initialization. For Windows CE 2.01 and later, this function is supported in TrueType font and no longer supported in raster font.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontFamProc",
+  "title": "EnumFontFamProc",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900667(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int CALLBACK EnumFontFamProc( ENUMLOGFONT FAR* lpelf, TEXTMETRIC FAR* lpntm, DWORD FontType, LPARAM lParam );",
+  "code_blocks": [
+   "int CALLBACK EnumFontFamProc( ENUMLOGFONT FAR* lpelf, TEXTMETRIC FAR* lpntm, DWORD FontType, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 1.0 and 1.01 do not support TrueType fonts. In Windows CE 2.0 and later, FontType can have a value of either RASTER_FONTTYPE or TRUETYPE_FONTTYPE, depending on the Windows CE-based platform. Any Windows CE-based platform supports only raster fonts or TrueType fonts, but not both.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontFamilies",
+  "title": "EnumFontFamilies",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900661(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int EnumFontFamilies( HDC hdc, LPCTSTR lpszFamily, FONTENUMPROC lpEnumFontFamProc, LPARAM lParam );",
+  "code_blocks": [
+   "int EnumFontFamilies( HDC hdc, LPCTSTR lpszFamily, FONTENUMPROC lpEnumFontFamProc, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFonts",
+  "title": "EnumFonts",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900669(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int EnumFonts( HDC hdc, LPCTSTR lpFaceName, FONTENUMPROC lpFontFunc, LPARAM lParam );",
+  "code_blocks": [
+   "int EnumFonts( HDC hdc, LPCTSTR lpFaceName, FONTENUMPROC lpFontFunc, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontsProc",
+  "title": "EnumFontsProc",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900673(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int CALLBACK EnumFontsProc( lplf lplf, lptm lptm, DWORD dwType, LPARAM lpData );",
+  "code_blocks": [
+   "int CALLBACK EnumFontsProc( lplf lplf, lptm lptm, DWORD dwType, LPARAM lpData );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 1.0 and 1.01 do not support TrueType fonts. Windows CE 2.0 and later support both TrueType and raster fonts so FontType can have a value of either RASTER_FONTTYPE or TRUETYPE_FONTTYPE, depending on the Windows CE-based platform. Any given Windows CE-based platform supports only raster fonts or TrueType fonts, but not both.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "ExtTextOut",
+  "title": "ExtTextOut",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900676(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ExtTextOut( HDC hdc, int X, int Y, UINT fuOptions, const RECT* lprc, LPCTSTR lpString, UINT cbCount, const int* lpDx );",
+  "code_blocks": [
+   "BOOL ExtTextOut( HDC hdc, int X, int Y, UINT fuOptions, const RECT* lprc, LPCTSTR lpString, UINT cbCount, const int* lpDx );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetCharABCWidths",
+  "title": "GetCharABCWidths",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900754(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetCharABCWidths( HDC hdc, UINT uFirstChar, UINT uLastChar, LPABC lpabc );",
+  "code_blocks": [
+   "BOOL GetCharABCWidths( HDC hdc, UINT uFirstChar, UINT uLastChar, LPABC lpabc );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetCharWidth32",
+  "title": "GetCharWidth32",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900727(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WINGDIAPI BOOL WINAPI GetCharWidth32( HDC hdc, UINT iFirstChar, UINT iLastChar, LPINT lpBuffer );",
+  "code_blocks": [
+   "WINGDIAPI BOOL WINAPI GetCharWidth32( HDC hdc, UINT iFirstChar, UINT iLastChar, LPINT lpBuffer );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextAlign",
+  "title": "GetTextAlign",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900729(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WINGDIAPI UINT WINAPI GetTextAlign( HDC hdc );",
+  "code_blocks": [
+   "WINGDIAPI UINT WINAPI GetTextAlign( HDC hdc );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextColor",
+  "title": "GetTextColor",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900694(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "COLORREF GetTextColor( HDC hdc );",
+  "code_blocks": [
+   "COLORREF GetTextColor( HDC hdc );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextExtentExPoint",
+  "title": "GetTextExtentExPoint",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900696(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextExtentExPoint( HDC hdc, LPCTSTR lpszStr, int cchString, int nMaxExtent, LPINT lpnFit, LPINT alpDx, LPSIZE lpSize );",
+  "code_blocks": [
+   "BOOL GetTextExtentExPoint( HDC hdc, LPCTSTR lpszStr, int cchString, int nMaxExtent, LPINT lpnFit, LPINT alpDx, LPSIZE lpSize );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextExtentPoint",
+  "title": "GetTextExtentPoint",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900698(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextExtentPoint( HDC hdc, LPCTSTR lpString, int cbString, LPSIZE lpSize );",
+  "code_blocks": [
+   "BOOL GetTextExtentPoint( HDC hdc, LPCTSTR lpString, int cbString, LPSIZE lpSize );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextExtentPoint32",
+  "title": "GetTextExtentPoint32",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900699(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextExtentPoint32( HDC hdc, LPCTSTR lpString, int cbString, LPSIZE lpSize );",
+  "code_blocks": [
+   "BOOL GetTextExtentPoint32( HDC hdc, LPCTSTR lpString, int cbString, LPSIZE lpSize );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextFace",
+  "title": "GetTextFace",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900701(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int GetTextFace( HDC hdc, int nCount, LPTSTR lpFaceName );",
+  "code_blocks": [
+   "int GetTextFace( HDC hdc, int nCount, LPTSTR lpFaceName );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextMetrics",
+  "title": "GetTextMetrics",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900702(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextMetrics( HDC hdc, LPTEXTMETRIC lptm );",
+  "code_blocks": [
+   "BOOL GetTextMetrics( HDC hdc, LPTEXTMETRIC lptm );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For any given font, the text metric values in Windows CE do not necessarily match the text metric values on Windows-based desktop platforms.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "RemoveFontResource",
+  "title": "RemoveFontResource",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900714(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RemoveFontResource( LPCTSTR lpFileName );",
+  "code_blocks": [
+   "BOOL RemoveFontResource( LPCTSTR lpFileName );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "SetTextAlign",
+  "title": "SetTextAlign",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900733(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WINGDIAPI UINT WINAPI SetTextAlign( HDC hdc, UINT fmode );",
+  "code_blocks": [
+   "WINGDIAPI UINT WINAPI SetTextAlign( HDC hdc, UINT fmode );",
+   "SetTextAlign (hdc, GetTextAlign(hdc) & (~TA_CENTER)) SetTextAlign (hdc, TA_LEFT | <other flags>)",
+   "SetTextAlign (hdc, TA_LEFT)"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "SetTextColor",
+  "title": "SetTextColor",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900716(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "COLORREF SetTextColor( HDC hdc, COLORREF crColor );",
+  "code_blocks": [
+   "COLORREF SetTextColor( HDC hdc, COLORREF crColor );"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "WM_FONTCHANGE",
+  "title": "WM_FONTCHANGE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900718(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WM_FONTCHANGE wParam = 0; lParam = 0;",
+  "code_blocks": [
+   "WM_FONTCHANGE wParam = 0; lParam = 0;"
+  ],
+  "requirements": {
+   "header": "Winuser.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Messages"
+ },
+ {
+  "name": "ABC",
+  "title": "ABC",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900753(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _ABC { int abcA; UINT abcB; int abcC; } ABC, *PABC;",
+  "code_blocks": [
+   "typedef struct _ABC { int abcA; UINT abcB; int abcC; } ABC, *PABC;"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "ENUMLOGFONT",
+  "title": "ENUMLOGFONT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900725(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagENUMLOGFONT { LOGFONT elfLogFont; TCHAR elfFullName[LF_FULLFACESIZE]; TCHAR elfStyle[LF_FACESIZE]; } ENUMLOGFONT;",
+  "code_blocks": [
+   "typedef struct tagENUMLOGFONT { LOGFONT elfLogFont; TCHAR elfFullName[LF_FULLFACESIZE]; TCHAR elfStyle[LF_FACESIZE]; } ENUMLOGFONT;"
+  ],
+  "requirements": {
+   "header": "Wingdi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "LOGFONT",
+  "title": "LOGFONT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900730(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagLOGFONT { LONG lfHeight; LONG lfWidth; LONG lfEscapement; LONG lfOrientation; LONG lfWeight; BYTE lfItalic; BYTE lfUnderline; BYTE lfStrikeOut; BYTE lfCharSet; BYTE lfOutPrecision; BYTE lfClipPrecision; BYTE lfQuality; BYTE lfPitchAndFamily; TCHAR lfFaceName[LF_FACESIZE]; } LOGFONT;",
+  "code_blocks": [
+   "typedef struct tagLOGFONT { LONG lfHeight; LONG lfWidth; LONG lfEscapement; LONG lfOrientation; LONG lfWeight; BYTE lfItalic; BYTE lfUnderline; BYTE lfStrikeOut; BYTE lfCharSet; BYTE lfOutPrecision; BYTE lfClipPrecision; BYTE lfQuality; BYTE lfPitchAndFamily; TCHAR lfFaceName[LF_FACESIZE]; } LOGFONT;",
+   "lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);"
+  ],
+  "requirements": {
+   "header": "Wingdi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 1.0 and 1.01 do not support the following values for lfClipPrecision : CLIP_MASK CLIP_EMBEDDED CLIP_LH_ANGLES CLIP_TT_ALWAYS Windows CE 2.0 and later ignore the lfClipPrecision and lfQuality members with one important exception.",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "NEWTEXTMETRIC",
+  "title": "NEWTEXTMETRIC",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900732(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagNEWTEXTMETRIC { LONG tmHeight; LONG tmAscent; LONG tmDescent; LONG tmInternalLeading; LONG tmExternalLeading; LONG tmAveCharWidth; LONG tmMaxCharWidth; LONG tmWeight; LONG tmOverhang; LONG tmDigitizedAspectX; LONG tmDigitizedAspectY; BCHAR tmFirstChar; BCHAR tmLastChar; BCHAR tmDefaultChar; BCHAR tmBreakChar; BYTE tmItalic; BYTE tmUnderlined; BYTE tmStruckOut; BYTE tmPitchAndFamily; BYTE tmCharSet; DWORD ntmFlags; UINT ntmSizeEM; UINT ntmCellHeight; UINT ntmAvgWidth; } NEWTEXTMETRIC;",
+  "code_blocks": [
+   "typedef struct tagNEWTEXTMETRIC { LONG tmHeight; LONG tmAscent; LONG tmDescent; LONG tmInternalLeading; LONG tmExternalLeading; LONG tmAveCharWidth; LONG tmMaxCharWidth; LONG tmWeight; LONG tmOverhang; LONG tmDigitizedAspectX; LONG tmDigitizedAspectY; BCHAR tmFirstChar; BCHAR tmLastChar; BCHAR tmDefaultChar; BCHAR tmBreakChar; BYTE tmItalic; BYTE tmUnderlined; BYTE tmStruckOut; BYTE tmPitchAndFamily; BYTE tmCharSet; DWORD ntmFlags; UINT ntmSizeEM; UINT ntmCellHeight; UINT ntmAvgWidth; } NEWTEXTMETRIC;"
+  ],
+  "requirements": {
+   "header": "Wingdi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "TEXTMETRIC",
+  "title": "TEXTMETRIC",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900735(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagTEXTMETRIC { LONG tmHeight; LONG tmAscent; LONG tmDescent; LONG tmInternalLeading; LONG tmExternalLeading; LONG tmAveCharWidth; LONG tmMaxCharWidth; LONG tmWeight; LONG tmOverhang; LONG tmDigitizedAspectX; LONG tmDigitizedAspectY; char tmFirstChar; char tmLastChar; char tmDefaultChar; char tmBreakChar; BYTE tmItalic; BYTE tmUnderlined; BYTE tmStruckOut; BYTE tmPitchAndFamily; BYTE tmCharSet; } TEXTMETRIC;",
+  "code_blocks": [
+   "typedef struct tagTEXTMETRIC { LONG tmHeight; LONG tmAscent; LONG tmDescent; LONG tmInternalLeading; LONG tmExternalLeading; LONG tmAveCharWidth; LONG tmMaxCharWidth; LONG tmWeight; LONG tmOverhang; LONG tmDigitizedAspectX; LONG tmDigitizedAspectY; char tmFirstChar; char tmLastChar; char tmDefaultChar; char tmBreakChar; BYTE tmItalic; BYTE tmUnderlined; BYTE tmStruckOut; BYTE tmPitchAndFamily; BYTE tmCharSet; } TEXTMETRIC;"
+  ],
+  "requirements": {
+   "header": "Wingdi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "AddFontResource",
+  "title": "AddFontResource (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901109(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "intAddFontResource(LPCTSTRlpszFilename);",
+  "code_blocks": [
+   "intAddFontResource(LPCTSTRlpszFilename);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "CreateFontIndirect",
+  "title": "CreateFontIndirect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901120(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HFONTCreateFontIndirect(constLOGFONT* lplf);",
+  "code_blocks": [
+   "HFONTCreateFontIndirect(constLOGFONT* lplf);",
+   "/********************************************************************** THIS CODE AND INFORMATION IS PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE. Copyright (c) 2003 Microsoft Corporation. All Rights Reserved. MODULE: cleartype_sample.cpp ABSTRACT: This application code draws ClearType fonts with different settings. **********************************************************************/ #include <windows.h> #include <tchar.h> int WINAPI WinMain ( HINSTANCE hInstance, HINSTANCE hInstPrev, #ifdef UNDER_CE LPWSTR pszCmdLine, #else LPSTR pszCmdLine, #endif int nCmdShow ) { // This retrieves the device context (DC) for the primary display driver. This is not associated with a window. // This is only used for simplicity of the example. HDC hdc = GetDC(NULL); int nSmooth, nOldSmooth; // A rectangle to hold the text. RECT rc = { 10, 10, 100, 100}; LOGFONT lf; HFONT hFontNew, hFontOld; int nTextHeight; // Clear out the lf structure to use when creating the font. memset(&lf, 0, sizeof(LOGFONT)); // Retrieve the old Cleartype gamma. SystemParametersInfo(SPI_GETFONTSMOOTHINGCONTRAST, 0, &nOldSmooth, FALSE); // Draw text with the default system font. First calculate the size of the rectangle to use. DrawText(hdc, TEXT(\"This is the default system font.\"), -1, &rc, DT_CALCRECT | DT_LEFT | DT_TOP); DrawText(hdc, TEXT(\"This is the default system font.\"), -1, &rc, DT_LEFT | DT_TOP); // Draw a Cleartype font with a font smoothing of 1000. nSmooth = 1000; SystemParametersInfo(SPI_SETFONTSMOOTHINGCONTRAST, 0, &nSmooth, FALSE); nTextHeight = rc.bottom - rc.top; rc.top += nTextHeight; rc.bottom += nTextHeight; lf.lfQuality = CLEARTYPE_QUALITY; hFontNew = CreateFontIndirect(&lf); hFontOld = (HFONT) SelectObject(hdc, hFontNew); DrawText(hdc, TEXT(\"This is a ClearType font w/ 1000 font smoothing.\"), -1, &rc, DT_CALCRECT | DT_LEFT | DT_TOP); DrawText(hdc, TEXT(\"This is a ClearType font w/ 1000 font smoothing.\"), -1, &rc, DT_LEFT | DT_TOP); SelectObject(hdc, hFontOld); DeleteObject(hFontNew); // Sleep 20 seconds to let the user see the text. Sleep(20000); SystemParametersInfo(SPI_SETFONTSMOOTHINGCONTRAST, 0, &nOldSmooth, FALSE); DeleteDC(hdc); }"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "DrawText",
+  "title": "DrawText (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901121(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "intDrawText(HDChDC, LPCTSTRlpString, intnCount, LPRECTlpRect, UNITuFormat);",
+  "code_blocks": [
+   "intDrawText(HDChDC, LPCTSTRlpString, intnCount, LPRECTlpRect, UNITuFormat);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For Windows CE 2.10 and later, line breaking is supported for the Chinese, Korean, and Japanese languages.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnableEUDC",
+  "title": "EnableEUDC (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901122(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL EnableEUDC(BOOL fEnableEUDC);",
+  "code_blocks": [
+   "BOOL EnableEUDC(BOOL fEnableEUDC);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.01 and later."
+  },
+  "ce_notes_excerpt": "By default, Windows CE enables EUDC fonts during GWES initialization. For Windows CE 2.01 and later, this function is supported in TrueType font and no longer supported in raster font.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontFamProc",
+  "title": "EnumFontFamProc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901125(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int CALLBACK EnumFontFamProc( const LOGFONT FAR* lpelf, const TEXTMETRIC FAR* lpntm, DWORD FontType, LPARAM lParam);",
+  "code_blocks": [
+   "int CALLBACK EnumFontFamProc( const LOGFONT FAR* lpelf, const TEXTMETRIC FAR* lpntm, DWORD FontType, LPARAM lParam);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 1.0 and 1.01 do not support TrueType fonts. In Windows CE 2.0 and later, FontType can have a value of either RASTER_FONTTYPE or TRUETYPE_FONTTYPE, depending on the Windows CE-based platform. Any Windows CE-based platform supports only raster fonts or TrueType fonts, but not both.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontFamilies",
+  "title": "EnumFontFamilies (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901123(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "intEnumFontFamilies(HDChdc, LPCTSTRlpszFamily, FONTENUMPROClpEnumFontFamProc, LPARAMlParam);",
+  "code_blocks": [
+   "intEnumFontFamilies(HDChdc, LPCTSTRlpszFamily, FONTENUMPROClpEnumFontFamProc, LPARAMlParam);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontFamiliesEx",
+  "title": "EnumFontFamiliesEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901124(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int EnumFontFamiliesEx( HDC hdc, // handle to DC LPLOGFONT lpLogfont, // font information FONTENUMPROC lpEnumFontFamExProc, // callback function LPARAM lParam, // additional data DWORD dwFlags // not used; must be 0);",
+  "code_blocks": [
+   "int EnumFontFamiliesEx( HDC hdc, // handle to DC LPLOGFONT lpLogfont, // font information FONTENUMPROC lpEnumFontFamExProc, // callback function LPARAM lParam, // additional data DWORD dwFlags // not used; must be 0);",
+   "//To enumerate all styles and charsets of all fonts: lf.lfFaceName[0] = '\\0'; lf.lfCharSet = DEFAULT_CHARSET; HRESULT hr; //To enumerate all styles and character sets of the Arial font: hr = StringCchCopy( (LPSTR)&lf.lfFaceName, 6, \"Arial\" ); if (FAILED(hr)) { // TODO: write error handler } lf.lfCharSet = DEFAULT_CHARSET; //To enumerate all styles of all fonts for the ANSI character set: lf.lfFaceName[0] = '\\0'; lf.lfCharSet = ANSI_CHARSET; //To enumerate all styles of Arial font that cover the ANSI charset: hr = StringCchCopy( (LPSTR)&lf.lfFaceName, 6, \"Arial\" ); if (FAILED(hr)) { // Handle errors appropriately } lf.lfCharSet = ANSI_CHARSET;"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "For example, Fontorama Bold might contain ANSI, Greek, and Cyrillic characters, but Fontorama Italic might contain only ANSI characters. For this reason, it is best not to assume that a specified font covers a specific character set, even if it is the ANSI character set. //To enumerate all styles and charsets of all fonts: lf.lfFaceName[0] = '\\0'; lf.lfCharSet = DEFAULT_CHARSET; HRESULT hr; //To enumerate all styles and character sets of the Arial font: hr = StringCchCopy( (LPSTR)&lf.lfFaceName, 6, \"Arial\" ); if (FAILED(hr)) { // TODO: write error handler } lf.lfCharSet = DEFAULT_CHARSET; //To enumerate all styles of all fonts for the ANSI character set: lf.lfFaceName[0] = '\\0'; lf.lfCharSet = ANSI_CHARSET; //To enumerate all styles of Arial font that cover the ANSI charset: hr = StringCchCopy( (LPSTR)&lf.lfFaceName, 6, \"Arial\" ); if (FAILED(hr)) { // Handle errors appropriately } lf.lfC",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFonts",
+  "title": "EnumFonts (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901126(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "intEnumFonts(HDChdc, LPCTSTRlpFaceName, FONTENUMPROClpFontFunc, LPARAMlParam);",
+  "code_blocks": [
+   "intEnumFonts(HDChdc, LPCTSTRlpFaceName, FONTENUMPROClpFontFunc, LPARAMlParam);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontsProc",
+  "title": "EnumFontsProc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901127(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int CALLBACK EnumFontsProc(lplflplf, lptmlptm,DWORDdwType,LPARAMlpData);",
+  "code_blocks": [
+   "int CALLBACK EnumFontsProc(lplflplf, lptmlptm,DWORDdwType,LPARAMlpData);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 1.0 and 1.01 do not support TrueType fonts. Windows CE 2.0 and later support both TrueType and raster fonts so FontType can have a value of either RASTER_FONTTYPE or TRUETYPE_FONTTYPE, depending on the Windows CE-based platform. Any given Windows CE-based platform supports only raster fonts or TrueType fonts, but not both.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "ExtTextOut",
+  "title": "ExtTextOut (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901129(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLExtTextOut(HDChdc, intX, intY, UINTfuOptions, constRECT* lprc, LPCTSTRlpString, UINTcbCount, constint* lpDx);",
+  "code_blocks": [
+   "BOOLExtTextOut(HDChdc, intX, intY, UINTfuOptions, constRECT* lprc, LPCTSTRlpString, UINTcbCount, constint* lpDx);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetCharABCWidths",
+  "title": "GetCharABCWidths (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901130(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetCharABCWidths( HDC hdc, UINT uFirstChar, UINT uLastChar, LPABC lpabc);",
+  "code_blocks": [
+   "BOOL GetCharABCWidths( HDC hdc, UINT uFirstChar, UINT uLastChar, LPABC lpabc);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetCharABCWidthsI",
+  "title": "GetCharABCWidthsI (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa520324(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetCharABCWidthsI( HDC hdc, UINT giFirst, UINT cgi, LPWORD pgi, LPABC lpabc);",
+  "code_blocks": [
+   "BOOL GetCharABCWidthsI( HDC hdc, UINT giFirst, UINT cgi, LPWORD pgi, LPABC lpabc);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetCharWidth32",
+  "title": "GetCharWidth32 (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901131(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WINGDIAPI BOOL WINAPI GetCharWidth32(HDChdc,UINTiFirstChar,UINTiLastChar,LPINTlpBuffer);",
+  "code_blocks": [
+   "WINGDIAPI BOOL WINAPI GetCharWidth32(HDChdc,UINTiFirstChar,UINTiLastChar,LPINTlpBuffer);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetFontData",
+  "title": "GetFontData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa520325(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetFontData( HDC hdc, DWORD dwTable, DWORD dwOffset, LPVOID lpvBuffer, DWORD cbData);",
+  "code_blocks": [
+   "DWORD GetFontData( HDC hdc, DWORD dwTable, DWORD dwOffset, LPVOID lpvBuffer, DWORD cbData);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextAlign",
+  "title": "GetTextAlign (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901132(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WINGDIAPI UINT WINAPI GetTextAlign(HDChdc);",
+  "code_blocks": [
+   "WINGDIAPI UINT WINAPI GetTextAlign(HDChdc);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextCharacterExtra",
+  "title": "GetTextCharacterExtra (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901133(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int GetTextCharacterExtra( HDC hdc // handle to DC);",
+  "code_blocks": [
+   "int GetTextCharacterExtra( HDC hdc // handle to DC);"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextColor",
+  "title": "GetTextColor (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901134(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "COLORREFGetTextColor(HDChdc);",
+  "code_blocks": [
+   "COLORREFGetTextColor(HDChdc);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextExtentExPoint",
+  "title": "GetTextExtentExPoint (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901135(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLGetTextExtentExPoint(HDChdc, LPCTSTRlpszStr, intcchString, intnMaxExtent, LPINTlpnFit, LPINTalpDx, LPSIZElpSize);",
+  "code_blocks": [
+   "BOOLGetTextExtentExPoint(HDChdc, LPCTSTRlpszStr, intcchString, intnMaxExtent, LPINTlpnFit, LPINTalpDx, LPSIZElpSize);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextExtentPoint",
+  "title": "GetTextExtentPoint (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901136(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextExtentPoint( HDC hdc,LPCTSTRlpString,intcbString,LPSIZElpSize);",
+  "code_blocks": [
+   "BOOL GetTextExtentPoint( HDC hdc,LPCTSTRlpString,intcbString,LPSIZElpSize);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextExtentPoint32",
+  "title": "GetTextExtentPoint32 (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901137(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextExtentPoint32( HDChdc,LPCTSTRlpString,intcbString,LPSIZElpSize);",
+  "code_blocks": [
+   "BOOL GetTextExtentPoint32( HDChdc,LPCTSTRlpString,intcbString,LPSIZElpSize);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextFace",
+  "title": "GetTextFace (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901138(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "intGetTextFace(HDChdc, intnCount, LPTSTRlpFaceName);",
+  "code_blocks": [
+   "intGetTextFace(HDChdc, intnCount, LPTSTRlpFaceName);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextMetrics",
+  "title": "GetTextMetrics (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901139(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLGetTextMetrics(HDChdc, LPTEXTMETRIClptm);",
+  "code_blocks": [
+   "BOOLGetTextMetrics(HDChdc, LPTEXTMETRIClptm);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For any given font, the text metric values in Windows CE do not necessarily match the text metric values on Windows-based desktop platforms.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "RemoveFontResource",
+  "title": "RemoveFontResource (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901142(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLRemoveFontResource(LPCTSTRlpFileName);",
+  "code_blocks": [
+   "BOOLRemoveFontResource(LPCTSTRlpFileName);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "SetTextAlign",
+  "title": "SetTextAlign (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901143(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WINGDIAPI UINT WINAPI SetTextAlign(HDChdc,UINTfmode);",
+  "code_blocks": [
+   "WINGDIAPI UINT WINAPI SetTextAlign(HDChdc,UINTfmode);",
+   "SetTextAlign (hdc, GetTextAlign(hdc) & (~TA_CENTER)) SetTextAlign (hdc, TA_LEFT | <other flags>)",
+   "SetTextAlign (hdc, TA_LEFT)"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "SetTextCharacterExtra",
+  "title": "SetTextCharacterExtra (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901144(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "int SetTextCharacterExtra( HDC hdc, // handle to DC int nCharExtra // extra-space value);",
+  "code_blocks": [
+   "int SetTextCharacterExtra( HDC hdc, // handle to DC int nCharExtra // extra-space value);"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "SetTextColor",
+  "title": "SetTextColor (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901145(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "COLORREFSetTextColor(HDChdc, COLORREFcrColor);",
+  "code_blocks": [
+   "COLORREFSetTextColor(HDChdc, COLORREFcrColor);"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "WM_FONTCHANGE",
+  "title": "WM_FONTCHANGE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901147(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "WM_FONTCHANGE wParam = 0;lParam = 0;",
+  "code_blocks": [
+   "WM_FONTCHANGE wParam = 0;lParam = 0;"
+  ],
+  "requirements": {
+   "header": "Winuser.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Messages"
+ },
+ {
+  "name": "ABC",
+  "title": "ABC (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901108(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _ABC { int abcA; UINT abcB; int abcC; } ABC, *PABC;",
+  "code_blocks": [
+   "typedef struct _ABC { int abcA; UINT abcB; int abcC; } ABC, *PABC;"
+  ],
+  "requirements": {
+   "header": "Windows.h",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "ENUMLOGFONT",
+  "title": "ENUMLOGFONT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901128(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedefstructtagENUMLOGFONT{LOGFONTelfLogFont;TCHARelfFullName[LF_FULLFACESIZE];TCHARelfStyle[LF_FACESIZE];}ENUMLOGFONT;",
+  "code_blocks": [
+   "typedefstructtagENUMLOGFONT{LOGFONTelfLogFont;TCHARelfFullName[LF_FULLFACESIZE];TCHARelfStyle[LF_FACESIZE];}ENUMLOGFONT;"
+  ],
+  "requirements": {
+   "header": "Wingdi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "LOGFONT",
+  "title": "LOGFONT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901140(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedefstructtagLOGFONT{LONGlfHeight;LONGlfWidth;LONGlfEscapement;LONGlfOrientation;LONGlfWeight;BYTElfItalic;BYTElfUnderline;BYTElfStrikeOut;BYTElfCharSet;BYTElfOutPrecision;BYTElfClipPrecision;BYTElfQuality;BYTElfPitchAndFamily;TCHARlfFaceName[LF_FACESIZE];}LOGFONT;",
+  "code_blocks": [
+   "typedefstructtagLOGFONT{LONGlfHeight;LONGlfWidth;LONGlfEscapement;LONGlfOrientation;LONGlfWeight;BYTElfItalic;BYTElfUnderline;BYTElfStrikeOut;BYTElfCharSet;BYTElfOutPrecision;BYTElfClipPrecision;BYTElfQuality;BYTElfPitchAndFamily;TCHARlfFaceName[LF_FACESIZE];}LOGFONT;",
+   "lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);",
+   "#define MulDiv(a,b,c) (((a)*(b))/(c))"
+  ],
+  "requirements": {
+   "header": "Wingdi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE 1.0 and 1.01 do not support the following values for lfClipPrecision : CLIP_MASK CLIP_EMBEDDED CLIP_LH_ANGLES CLIP_TT_ALWAYS Windows CE 2.0 and later ignore the lfClipPrecision and lfQuality members with one important exception.",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "NEWTEXTMETRIC",
+  "title": "NEWTEXTMETRIC (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901141(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedefstructtagNEWTEXTMETRIC{LONGtmHeight;LONGtmAscent;LONGtmDescent;LONGtmInternalLeading;LONGtmExternalLeading;LONGtmAveCharWidth;LONGtmMaxCharWidth;LONGtmWeight;LONGtmOverhang;LONGtmDigitizedAspectX;LONGtmDigitizedAspectY;BCHARtmFirstChar;BCHARtmLastChar;BCHARtmDefaultChar;BCHARtmBreakChar;BYTEtmItalic;BYTEtmUnderlined;BYTEtmStruckOut;BYTEtmPitchAndFamily;BYTEtmCharSet;DWORDntmFlags;UINTntmSizeEM;UINTntmCellHeight;UINTntmAvgWidth;}NEWTEXTMETRIC;",
+  "code_blocks": [
+   "typedefstructtagNEWTEXTMETRIC{LONGtmHeight;LONGtmAscent;LONGtmDescent;LONGtmInternalLeading;LONGtmExternalLeading;LONGtmAveCharWidth;LONGtmMaxCharWidth;LONGtmWeight;LONGtmOverhang;LONGtmDigitizedAspectX;LONGtmDigitizedAspectY;BCHARtmFirstChar;BCHARtmLastChar;BCHARtmDefaultChar;BCHARtmBreakChar;BYTEtmItalic;BYTEtmUnderlined;BYTEtmStruckOut;BYTEtmPitchAndFamily;BYTEtmCharSet;DWORDntmFlags;UINTntmSizeEM;UINTntmCellHeight;UINTntmAvgWidth;}NEWTEXTMETRIC;"
+  ],
+  "requirements": {
+   "header": "Wingdi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "TEXTMETRIC",
+  "title": "TEXTMETRIC (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms901146(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagTEXTMETRIC {LONGtmHeight;LONGtmAscent;LONGtmDescent;LONGtmInternalLeading;LONGtmExternalLeading;LONGtmAveCharWidth;LONGtmMaxCharWidth;LONGtmWeight;LONGtmOverhang;LONGtmDigitizedAspectX;LONGtmDigitizedAspectY;chartmFirstChar;chartmLastChar;chartmDefaultChar;chartmBreakChar;BYTEtmItalic;BYTEtmUnderlined;BYTEtmStruckOut;BYTEtmPitchAndFamily;BYTEtmCharSet;}TEXTMETRIC;",
+  "code_blocks": [
+   "typedef struct tagTEXTMETRIC {LONGtmHeight;LONGtmAscent;LONGtmDescent;LONGtmInternalLeading;LONGtmExternalLeading;LONGtmAveCharWidth;LONGtmMaxCharWidth;LONGtmWeight;LONGtmOverhang;LONGtmDigitizedAspectX;LONGtmDigitizedAspectY;chartmFirstChar;chartmLastChar;chartmDefaultChar;chartmBreakChar;BYTEtmItalic;BYTEtmUnderlined;BYTEtmStruckOut;BYTEtmPitchAndFamily;BYTEtmCharSet;}TEXTMETRIC;"
+  ],
+  "requirements": {
+   "header": "Wingdi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "AddFontResource",
+  "title": "AddFontResource (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489896(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int AddFontResource( LPCTSTR lpszFilename );",
+  "code_blocks": [
+   "int AddFontResource( LPCTSTR lpszFilename );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "CreateFontIndirect",
+  "title": "CreateFontIndirect (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489863(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HFONT CreateFontIndirect( const LOGFONT* lplf );",
+  "code_blocks": [
+   "HFONT CreateFontIndirect( const LOGFONT* lplf );",
+   "/********************************************************************** THIS CODE AND INFORMATION IS PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE. Copyright (c) 2003 Microsoft Corporation. All Rights Reserved. MODULE: cleartype_sample.cpp ABSTRACT: This application code draws ClearType fonts with different settings. **********************************************************************/ #include <windows.h> #include <tchar.h> int WINAPI WinMain ( HINSTANCE hInstance, HINSTANCE hInstPrev, #ifdef UNDER_CE LPWSTR pszCmdLine, #else LPSTR pszCmdLine, #endif int nCmdShow ) { // This retrieves the device context (DC) for the primary display driver. This is not associated with a window. // This is only used for simplicity of the example. HDC hdc = GetDC(NULL); int nSmooth, nOldSmooth; // A rectangle to hold the text. RECT rc = { 10, 10, 100, 100}; LOGFONT lf; HFONT hFontNew, hFontOld; int nTextHeight; // Clear out the lf structure to use when creating the font. memset(&lf, 0, sizeof(LOGFONT)); // Retrieve the old Cleartype gamma. SystemParametersInfo(SPI_GETFONTSMOOTHINGCONTRAST, 0, &nOldSmooth, FALSE); // Draw text with the default system font. First calculate the size of the rectangle to use. DrawText(hdc, TEXT(\"This is the default system font.\"), -1, &rc, DT_CALCRECT | DT_LEFT | DT_TOP); DrawText(hdc, TEXT(\"This is the default system font.\"), -1, &rc, DT_LEFT | DT_TOP); // Draw a Cleartype font with a font smoothing of 1000. nSmooth = 1000; SystemParametersInfo(SPI_SETFONTSMOOTHINGCONTRAST, 0, &nSmooth, FALSE); nTextHeight = rc.bottom - rc.top; rc.top += nTextHeight; rc.bottom += nTextHeight; lf.lfQuality = CLEARTYPE_QUALITY; hFontNew = CreateFontIndirect(&lf); hFontOld = (HFONT) SelectObject(hdc, hFontNew); DrawText(hdc, TEXT(\"This is a ClearType font w/ 1000 font smoothing.\"), -1, &rc, DT_CALCRECT | DT_LEFT | DT_TOP); DrawText(hdc, TEXT(\"This is a ClearType font w/ 1000 font smoothing.\"), -1, &rc, DT_LEFT | DT_TOP); SelectObject(hdc, hFontOld); DeleteObject(hFontNew); // Sleep 20 seconds to let the user see the text. Sleep(20000); SystemParametersInfo(SPI_SETFONTSMOOTHINGCONTRAST, 0, &nOldSmooth, FALSE); DeleteDC(hdc); }"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "DrawText",
+  "title": "DrawText (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489886(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int DrawText( HDC hDC, LPCTSTR lpString, int nCount, LPRECT lpRect, UNIT uFormat );",
+  "code_blocks": [
+   "int DrawText( HDC hDC, LPCTSTR lpString, int nCount, LPRECT lpRect, UNIT uFormat );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "For Windows CE 2.10 and later, line breaking is supported for the Chinese, Korean, and Japanese languages.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "DrvTextOut",
+  "title": "DrvTextOut (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489882(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DrvTextOut( SURFOBJ *pso, STROBJ *pstro, FONTOBJ *pfo, CLIPOBJ *pco, RECTL *prclExtra, RECTL *prclOpaque, BRUSHOBJ *pboFore, BRUSHOBJ *pboOpaque, POINTL *pptlOrg, MIX mix );",
+  "code_blocks": [
+   "BOOL DrvTextOut( SURFOBJ *pso, STROBJ *pstro, FONTOBJ *pfo, CLIPOBJ *pco, RECTL *prclExtra, RECTL *prclOpaque, BRUSHOBJ *pboFore, BRUSHOBJ *pboOpaque, POINTL *pptlOrg, MIX mix );"
+  ],
+  "requirements": {
+   "header": "winddif.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnableEUDC",
+  "title": "EnableEUDC (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489913(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL EnableEUDC( BOOL fEnableEUDC );",
+  "code_blocks": [
+   "BOOL EnableEUDC( BOOL fEnableEUDC );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.01 and later"
+  },
+  "ce_notes_excerpt": "For Windows CE 2.0 1 and later, this function is supported in TrueType font and no longer supported in raster font.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontFamProc",
+  "title": "EnumFontFamProc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489849(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int CALLBACK EnumFontFamProc( const LOGFONT FAR* lpelf, const TEXTMETRIC FAR* lpntm, DWORD FontType, LPARAM lParam );",
+  "code_blocks": [
+   "int CALLBACK EnumFontFamProc( const LOGFONT FAR* lpelf, const TEXTMETRIC FAR* lpntm, DWORD FontType, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Windows CE 1.0 and 1.01 do not support TrueType fonts. In Windows CE 2.0 and later, FontType can have a value of either RASTER_FONTTYPE or TRUETYPE_FONTTYPE, depending on the Windows Embedded CE-based platform. Any Windows Embedded CE-based platform supports only raster fonts or TrueType fonts, but not both.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontFamilies",
+  "title": "EnumFontFamilies (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489908(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int EnumFontFamilies( HDC hdc, LPCTSTR lpszFamily, FONTENUMPROC lpEnumFontFamProc, LPARAM lParam );",
+  "code_blocks": [
+   "int EnumFontFamilies( HDC hdc, LPCTSTR lpszFamily, FONTENUMPROC lpEnumFontFamProc, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontFamiliesEx",
+  "title": "EnumFontFamiliesEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489844(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int EnumFontFamiliesEx( HDC hdc, // handle to DC LPLOGFONT lpLogfont, // font information FONTENUMPROC lpEnumFontFamExProc, // callback function LPARAM lParam, // additional data DWORD dwFlags // not used; must be 0 );",
+  "code_blocks": [
+   "int EnumFontFamiliesEx( HDC hdc, // handle to DC LPLOGFONT lpLogfont, // font information FONTENUMPROC lpEnumFontFamExProc, // callback function LPARAM lParam, // additional data DWORD dwFlags // not used; must be 0 );",
+   "//To enumerate all styles and charsets of all fonts: lf.lfFaceName[0] = '\\0'; lf.lfCharSet = DEFAULT_CHARSET; HRESULT hr; //To enumerate all styles and character sets of the Arial font: hr = StringCchCopy( (LPSTR)&lf.lfFaceName, 6, \"Arial\" ); if (FAILED(hr)) { // TODO: write error handler } lf.lfCharSet = DEFAULT_CHARSET; //To enumerate all styles of all fonts for the ANSI character set: lf.lfFaceName[0] = '\\0'; lf.lfCharSet = ANSI_CHARSET; //To enumerate all styles of Arial font that cover the ANSI charset: hr = StringCchCopy( (LPSTR)&lf.lfFaceName, 6, \"Arial\" ); if (FAILED(hr)) { // Handle errors appropriately } lf.lfCharSet = ANSI_CHARSET;"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "For example, Fontorama Bold might contain ANSI, Greek, and Cyrillic characters, but Fontorama Italic might contain only ANSI characters. For this reason, it is best not to assume that a specified font covers a specific character set, even if it is the ANSI character set. //To enumerate all styles and charsets of all fonts: lf.lfFaceName[0] = '\\0'; lf.lfCharSet = DEFAULT_CHARSET; HRESULT hr; //To enumerate all styles and character sets of the Arial font: hr = StringCchCopy( (LPSTR)&lf.lfFaceName, 6, \"Arial\" ); if (FAILED(hr)) { // TODO: write error handler } lf.lfCharSet = DEFAULT_CHARSET; //To enumerate all styles of all fonts for the ANSI character set: lf.lfFaceName[0] = '\\0'; lf.lfCharSet = ANSI_CHARSET; //To enumerate all styles of Arial font that cover the ANSI charset: hr = StringCchCopy( (LPSTR)&lf.lfFaceName, 6, \"Arial\" ); if (FAILED(hr)) { // Handle errors appropriately } lf.lfC",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFonts",
+  "title": "EnumFonts (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489905(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int EnumFonts( HDC hdc, LPCTSTR lpFaceName, FONTENUMPROC lpFontFunc, LPARAM lParam );",
+  "code_blocks": [
+   "int EnumFonts( HDC hdc, LPCTSTR lpFaceName, FONTENUMPROC lpFontFunc, LPARAM lParam );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Windows CE 2.0 and later support systems that use either TrueType or raster fonts, but not both. Windows CE 1.0 and 1.01 support only raster fonts.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "EnumFontsProc",
+  "title": "EnumFontsProc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489833(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int CALLBACK EnumFontsProc( lplf lplf, lptm lptm, DWORD dwType, LPARAM lpData );",
+  "code_blocks": [
+   "int CALLBACK EnumFontsProc( lplf lplf, lptm lptm, DWORD dwType, LPARAM lpData );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Windows CE 1.0 and 1.01 do not support TrueType fonts. Windows CE 2.0 and later support both TrueType and raster fonts so FontType can have a value of either RASTER_FONTTYPE or TRUETYPE_FONTTYPE, depending on the Windows Embedded CE-based platform. Any given Windows Embedded CE-based platform supports only raster fonts or TrueType fonts, but not both.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "ExtTextOut",
+  "title": "ExtTextOut (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489846(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ExtTextOut( HDC hdc, int X, int Y, UINT fuOptions, const RECT* lprc, LPCTSTR lpString, UINT cbCount, const int* lpDx );",
+  "code_blocks": [
+   "BOOL ExtTextOut( HDC hdc, int X, int Y, UINT fuOptions, const RECT* lprc, LPCTSTR lpString, UINT cbCount, const int* lpDx );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "FDDESTROYFONT",
+  "title": "FDDESTROYFONT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489854(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID FDDESTROYFONT(FONTOBJ *pfo);",
+  "code_blocks": [
+   "VOID FDDESTROYFONT(FONTOBJ *pfo);"
+  ],
+  "requirements": {
+   "header": "fontdrv.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "FDGETFONTTABLE",
+  "title": "FDGETFONTTABLE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489843(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG FDGETFONTTABLE ( ULONG_PTR iFile, ULONG ulFont, ULONG ulTag, PTRDIFF dpStart, ULONG cjBuf, BYTE *pjBuf, PBYTE *ppjTable, ULONG *pcjTable );",
+  "code_blocks": [
+   "LONG FDGETFONTTABLE ( ULONG_PTR iFile, ULONG ulFont, ULONG ulTag, PTRDIFF dpStart, ULONG cjBuf, BYTE *pjBuf, PBYTE *ppjTable, ULONG *pcjTable );"
+  ],
+  "requirements": {
+   "header": "fontdrv.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "FDLOADFONTFILE",
+  "title": "FDLOADFONTFILE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489877(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "ULONG_PTR FDLOADFONTFILE( ULONG cFiles, ULONG_PTR *piFile, PVOID *ppvView, ULONG *pcjView, DESIGNVECTOR *pdv, ULONG ulLangID, ULONG ulFastCheckSum );",
+  "code_blocks": [
+   "ULONG_PTR FDLOADFONTFILE( ULONG cFiles, ULONG_PTR *piFile, PVOID *ppvView, ULONG *pcjView, DESIGNVECTOR *pdv, ULONG ulLangID, ULONG ulFastCheckSum );"
+  ],
+  "requirements": {
+   "header": "fontdrv.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "FDQUERYFONT",
+  "title": "FDQUERYFONT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489869(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "PIFIMETRICS FDQUERYFONT( DHPDEV dhpdev, ULONG_PTR iFile, ULONG iFace, ULONG_PTR *pid );",
+  "code_blocks": [
+   "PIFIMETRICS FDQUERYFONT( DHPDEV dhpdev, ULONG_PTR iFile, ULONG iFace, ULONG_PTR *pid );"
+  ],
+  "requirements": {
+   "header": "fontdrv.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "FDQUERYFONTDATA",
+  "title": "FDQUERYFONTDATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489837(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG FDQUERYFONTDATA( DHPDEV dhpdev, FONTOBJ *pfo, ULONG iMode, HGLYPH hg, GLYPHDATA *pgd, PVOID pv, ULONG cjSize );",
+  "code_blocks": [
+   "LONG FDQUERYFONTDATA( DHPDEV dhpdev, FONTOBJ *pfo, ULONG iMode, HGLYPH hg, GLYPHDATA *pgd, PVOID pv, ULONG cjSize );"
+  ],
+  "requirements": {
+   "header": "fontdrv.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "FDQUERYFONTFILE",
+  "title": "FDQUERYFONTFILE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489873(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG FDQUERYFONTFILE( ULONG_PTR iFile, ULONG ulMode, ULONG cjBuf, ULONG *pulBuf );",
+  "code_blocks": [
+   "LONG FDQUERYFONTFILE( ULONG_PTR iFile, ULONG ulMode, ULONG cjBuf, ULONG *pulBuf );"
+  ],
+  "requirements": {
+   "header": "fontdrv.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "FDUNLOADFONTFILE",
+  "title": "FDUNLOADFONTFILE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489898(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FDUNLOADFONTFILE(ULONG_PTR iFile);",
+  "code_blocks": [
+   "BOOL FDUNLOADFONTFILE(ULONG_PTR iFile);"
+  ],
+  "requirements": {
+   "header": "fontdrv.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetCharABCWidths",
+  "title": "GetCharABCWidths (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489910(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetCharABCWidths( HDC hdc, UINT uFirstChar, UINT uLastChar, LPABC lpabc );",
+  "code_blocks": [
+   "BOOL GetCharABCWidths( HDC hdc, UINT uFirstChar, UINT uLastChar, LPABC lpabc );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetCharABCWidthsI",
+  "title": "GetCharABCWidthsI (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489855(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetCharABCWidthsI( HDC hdc, UINT giFirst, UINT cgi, LPWORD pgi, LPABC lpabc );",
+  "code_blocks": [
+   "BOOL GetCharABCWidthsI( HDC hdc, UINT giFirst, UINT cgi, LPWORD pgi, LPABC lpabc );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetCharWidth32",
+  "title": "GetCharWidth32 (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489848(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WINGDIAPI BOOL WINAPI GetCharWidth32( HDC hdc, UINT iFirstChar, UINT iLastChar, LPINT lpBuffer );",
+  "code_blocks": [
+   "WINGDIAPI BOOL WINAPI GetCharWidth32( HDC hdc, UINT iFirstChar, UINT iLastChar, LPINT lpBuffer );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetFontData",
+  "title": "GetFontData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489901(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetFontData( HDC hdc, DWORD dwTable, DWORD dwOffset, LPVOID lpvBuffer, DWORD cbData );",
+  "code_blocks": [
+   "DWORD GetFontData( HDC hdc, DWORD dwTable, DWORD dwOffset, LPVOID lpvBuffer, DWORD cbData );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later Remarks Note If an application attempts to use this function to retrieve information for a non-"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextAlign",
+  "title": "GetTextAlign (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489856(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WINGDIAPI UINT WINAPI GetTextAlign( HDC hdc );",
+  "code_blocks": [
+   "WINGDIAPI UINT WINAPI GetTextAlign( HDC hdc );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextCharacterExtra",
+  "title": "GetTextCharacterExtra (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489907(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int GetTextCharacterExtra( HDC hdc );",
+  "code_blocks": [
+   "int GetTextCharacterExtra( HDC hdc );"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextColor",
+  "title": "GetTextColor (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489912(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "COLORREF GetTextColor( HDC hdc );",
+  "code_blocks": [
+   "COLORREF GetTextColor( HDC hdc );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextExtentExPoint",
+  "title": "GetTextExtentExPoint (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489883(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextExtentExPoint( HDC hdc, LPCTSTR lpszStr, int cchString, int nMaxExtent, LPINT lpnFit, LPINT alpDx, LPSIZE lpSize );",
+  "code_blocks": [
+   "BOOL GetTextExtentExPoint( HDC hdc, LPCTSTR lpszStr, int cchString, int nMaxExtent, LPINT lpnFit, LPINT alpDx, LPSIZE lpSize );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextExtentPoint",
+  "title": "GetTextExtentPoint (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489897(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextExtentPoint( HDC hdc, LPCTSTR lpString, int cbString, LPSIZE lpSize );",
+  "code_blocks": [
+   "BOOL GetTextExtentPoint( HDC hdc, LPCTSTR lpString, int cbString, LPSIZE lpSize );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextExtentPoint32",
+  "title": "GetTextExtentPoint32 (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489838(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextExtentPoint32( HDC hdc, LPCTSTR lpString, int cbString, LPSIZE lpSize );",
+  "code_blocks": [
+   "BOOL GetTextExtentPoint32( HDC hdc, LPCTSTR lpString, int cbString, LPSIZE lpSize );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextFace",
+  "title": "GetTextFace (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489915(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int GetTextFace( HDC hdc, int nCount, LPTSTR lpFaceName );",
+  "code_blocks": [
+   "int GetTextFace( HDC hdc, int nCount, LPTSTR lpFaceName );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "GetTextMetrics",
+  "title": "GetTextMetrics (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489911(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetTextMetrics( HDC hdc, LPTEXTMETRIC lptm );",
+  "code_blocks": [
+   "BOOL GetTextMetrics( HDC hdc, LPTEXTMETRIC lptm );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "For any given font, the text metric values in Windows Embedded CE do not necessarily match the text metric values on Windows-based desktop platforms.",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "RemoveFontResource",
+  "title": "RemoveFontResource (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489851(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RemoveFontResource( LPCTSTR lpFileName );",
+  "code_blocks": [
+   "BOOL RemoveFontResource( LPCTSTR lpFileName );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "SetTextAlign",
+  "title": "SetTextAlign (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489853(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WINGDIAPI UINT WINAPI SetTextAlign( HDC hdc, UINT fmode );",
+  "code_blocks": [
+   "WINGDIAPI UINT WINAPI SetTextAlign( HDC hdc, UINT fmode );",
+   "SetTextAlign (hdc, GetTextAlign(hdc) & (~TA_CENTER)) SetTextAlign (hdc, TA_LEFT | <other flags>)",
+   "SetTextAlign (hdc, TA_LEFT)"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "SetTextCharacterExtra",
+  "title": "SetTextCharacterExtra (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489860(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "int SetTextCharacterExtra( HDC hdc, // handle to DC int nCharExtra // extra-space value );",
+  "code_blocks": [
+   "int SetTextCharacterExtra( HDC hdc, // handle to DC int nCharExtra // extra-space value );"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "SetTextColor",
+  "title": "SetTextColor (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489887(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "COLORREF SetTextColor( HDC hdc, COLORREF crColor );",
+  "code_blocks": [
+   "COLORREF SetTextColor( HDC hdc, COLORREF crColor );"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Functions"
+ },
+ {
+  "name": "WM_FONTCHANGE",
+  "title": "WM_FONTCHANGE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489917(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "WM_FONTCHANGE wParam = 0; lParam = 0;",
+  "code_blocks": [
+   "WM_FONTCHANGE wParam = 0; lParam = 0;"
+  ],
+  "requirements": {
+   "header": "winuser.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Messages"
+ },
+ {
+  "name": "ABC",
+  "title": "ABC (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489865(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _ABC { int abcA; UINT abcB; int abcC; } ABC, *PABC;",
+  "code_blocks": [
+   "typedef struct _ABC { int abcA; UINT abcB; int abcC; } ABC, *PABC;"
+  ],
+  "requirements": {
+   "header": "windows.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "BRUSHOBJ",
+  "title": "BRUSHOBJ (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489919(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BRUSHOBJ { ULONG iSolidColor; PVOID pvRbrush; FLONG flColorType; } BRUSHOBJ;",
+  "code_blocks": [
+   "typedef struct _BRUSHOBJ { ULONG iSolidColor; PVOID pvRbrush; FLONG flColorType; } BRUSHOBJ;"
+  ],
+  "requirements": {
+   "header": "winddi.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "CLIPOBJ",
+  "title": "CLIPOBJ (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489903(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CLIPOBJ { ULONG iUniq; RECTL rclBounds; BYTE iDComplexity; BYTE iFComplexity; BYTE iMode; BYTE fjOptions; } CLIPOBJ;",
+  "code_blocks": [
+   "typedef struct _CLIPOBJ { ULONG iUniq; RECTL rclBounds; BYTE iDComplexity; BYTE iFComplexity; BYTE iMode; BYTE fjOptions; } CLIPOBJ;"
+  ],
+  "requirements": {
+   "header": "winddi.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "ENUMLOGFONT",
+  "title": "ENUMLOGFONT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489900(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagENUMLOGFONT { LOGFONT elfLogFont; TCHAR elfFullName[LF_FULLFACESIZE]; TCHAR elfStyle[LF_FACESIZE]; } ENUMLOGFONT;",
+  "code_blocks": [
+   "typedef struct tagENUMLOGFONT { LOGFONT elfLogFont; TCHAR elfFullName[LF_FULLFACESIZE]; TCHAR elfStyle[LF_FACESIZE]; } ENUMLOGFONT;"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "FD_DEVICEMETRICS",
+  "title": "FD_DEVICEMETRICS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489893(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FD_DEVICEMETRICS { FLONG flRealizedType; POINTE pteBase; POINTE pteSide; LONG lD; FIX fxMaxAscender; FIX fxMaxDescender; POINTL ptlUnderline1; POINTL ptlStrikeout; POINTL ptlULThickness; POINTL ptlSOThickness; ULONG cxMax; ULONG cyMax; ULONG cjGlyphMax; FD_XFORM fdxQuantized; LONG lNonLinearExtLeading; LONG lNonLinearIntLeading; LONG lNonLinearMaxCharWidth; LONG lNonLinearAvgCharWidth; LONG lMinA; LONG lMinC; LONG lMinD; LONG alReserved[1]; } FD_DEVICEMETRICS, *PFD_DEVICEMETRICS;",
+  "code_blocks": [
+   "typedef struct _FD_DEVICEMETRICS { FLONG flRealizedType; POINTE pteBase; POINTE pteSide; LONG lD; FIX fxMaxAscender; FIX fxMaxDescender; POINTL ptlUnderline1; POINTL ptlStrikeout; POINTL ptlULThickness; POINTL ptlSOThickness; ULONG cxMax; ULONG cyMax; ULONG cjGlyphMax; FD_XFORM fdxQuantized; LONG lNonLinearExtLeading; LONG lNonLinearIntLeading; LONG lNonLinearMaxCharWidth; LONG lNonLinearAvgCharWidth; LONG lMinA; LONG lMinC; LONG lMinD; LONG alReserved[1]; } FD_DEVICEMETRICS, *PFD_DEVICEMETRICS;"
+  ],
+  "requirements": {
+   "header": "winddif.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "FONTOBJ",
+  "title": "FONTOBJ (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489872(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FONTOBJ { ULONG iUniq; ULONG iFace; ULONG cxMax; FLONG flFontType; ULONG_PTR iTTUniq; ULONG_PTR iFile; SIZE sizLogResPpi; ULONG ulStyleSize; PVOID pvConsumer; PVOID pvProducer;} FONTOBJ;",
+  "code_blocks": [
+   "typedef struct _FONTOBJ { ULONG iUniq; ULONG iFace; ULONG cxMax; FLONG flFontType; ULONG_PTR iTTUniq; ULONG_PTR iFile; SIZE sizLogResPpi; ULONG ulStyleSize; PVOID pvConsumer; PVOID pvProducer;} FONTOBJ;"
+  ],
+  "requirements": {
+   "header": "winddif.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "GLYPHBITS",
+  "title": "GLYPHBITS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489875(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _GLYPHBITS { POINTL ptlOrigin; SIZEL sizlBitmap; BYTE aj[1]; } GLYPHBITS;",
+  "code_blocks": [
+   "typedef struct _GLYPHBITS { POINTL ptlOrigin; SIZEL sizlBitmap; BYTE aj[1]; } GLYPHBITS;"
+  ],
+  "requirements": {
+   "header": "winddif.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "GLYPHDATA",
+  "title": "GLYPHDATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489842(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _GLYPHDATA { GLYPHDEF gdf; HGLYPH hg; FIX fxD; FIX fxA; FIX fxAB; FIX fxInkTop; FIX fxInkBottom; RECTL rclInk; POINTQF ptqD; } GLYPHDATA;",
+  "code_blocks": [
+   "typedef struct _GLYPHDATA { GLYPHDEF gdf; HGLYPH hg; FIX fxD; FIX fxA; FIX fxAB; FIX fxInkTop; FIX fxInkBottom; RECTL rclInk; POINTQF ptqD; } GLYPHDATA;"
+  ],
+  "requirements": {
+   "header": "winddif.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "IFIMETRICS",
+  "title": "IFIMETRICS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489861(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _IFIMETRICS { ULONG cjThis; ULONG cjIfiExtra; PTRDIFF dpwszFamilyName; PTRDIFF dpwszStyleName; PTRDIFF dpwszFaceName; PTRDIFF dpwszUniqueName; PTRDIFF dpFontSim; LONG lEmbedId; LONG lItalicAngle; LONG lCharBias; PTRDIFF dpCharSets; BYTE jWinCharSet; BYTE jWinPitchAndFamily; USHORT usWinWeight; ULONG flInfo; USHORT fsSelection; USHORT fsType; FWORD fwdUnitsPerEm; FWORD fwdLowestPPEm; FWORD fwdWinAscender; FWORD fwdWinDescender; FWORD fwdMacAscender; FWORD fwdMacDescender; FWORD fwdMacLineGap; FWORD fwdTypoAscender; FWORD fwdTypoDescender; FWORD fwdTypoLineGap; FWORD fwdAveCharWidth; FWORD fwdMaxCharInc; FWORD fwdCapHeight; FWORD fwdXHeight; FWORD fwdSubscriptXSize; FWORD fwdSubscriptYSize; FWORD fwdSubscriptXOffset; FWORD fwdSubscriptYOffset; FWORD fwdSuperscriptXSize; FWORD fwdSuperscriptYSize; FWORD fwdSuperscriptXOffset; FWORD fwdSuperscriptYOffset; FWORD fwdUnderscoreSize; FWORD fwdUnderscorePosition; FWORD fwdStrikeoutSize; FWORD fwdStrikeoutPosition; BYTE chFirstChar; BYTE chLastChar; BYTE chDefaultChar; BYTE chBreakChar; WCHAR wcFirstChar; WCHAR wcLastChar; WCHAR wcDefaultChar; WCHAR wcBreakChar; POINTL ptlBaseline; POINTL ptlAspect; POINTL ptlCaret; RECTL rclFontBox; BYTE achVendId[4]; ULONG cKerningPairs; ULONG ulPanoseCulture; PANOSE panose; } IFIMETRICS, *PIFIMETRICS;",
+  "code_blocks": [
+   "typedef struct _IFIMETRICS { ULONG cjThis; ULONG cjIfiExtra; PTRDIFF dpwszFamilyName; PTRDIFF dpwszStyleName; PTRDIFF dpwszFaceName; PTRDIFF dpwszUniqueName; PTRDIFF dpFontSim; LONG lEmbedId; LONG lItalicAngle; LONG lCharBias; PTRDIFF dpCharSets; BYTE jWinCharSet; BYTE jWinPitchAndFamily; USHORT usWinWeight; ULONG flInfo; USHORT fsSelection; USHORT fsType; FWORD fwdUnitsPerEm; FWORD fwdLowestPPEm; FWORD fwdWinAscender; FWORD fwdWinDescender; FWORD fwdMacAscender; FWORD fwdMacDescender; FWORD fwdMacLineGap; FWORD fwdTypoAscender; FWORD fwdTypoDescender; FWORD fwdTypoLineGap; FWORD fwdAveCharWidth; FWORD fwdMaxCharInc; FWORD fwdCapHeight; FWORD fwdXHeight; FWORD fwdSubscriptXSize; FWORD fwdSubscriptYSize; FWORD fwdSubscriptXOffset; FWORD fwdSubscriptYOffset; FWORD fwdSuperscriptXSize; FWORD fwdSuperscriptYSize; FWORD fwdSuperscriptXOffset; FWORD fwdSuperscriptYOffset; FWORD fwdUnderscoreSize; FWORD fwdUnderscorePosition; FWORD fwdStrikeoutSize; FWORD fwdStrikeoutPosition; BYTE chFirstChar; BYTE chLastChar; BYTE chDefaultChar; BYTE chBreakChar; WCHAR wcFirstChar; WCHAR wcLastChar; WCHAR wcDefaultChar; WCHAR wcBreakChar; POINTL ptlBaseline; POINTL ptlAspect; POINTL ptlCaret; RECTL rclFontBox; BYTE achVendId[4]; ULONG cKerningPairs; ULONG ulPanoseCulture; PANOSE panose; } IFIMETRICS, *PIFIMETRICS;"
+  ],
+  "requirements": {
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "LOGFONT",
+  "title": "LOGFONT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489840(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagLOGFONT { LONG lfHeight; LONG lfWidth; LONG lfEscapement; LONG lfOrientation; LONG lfWeight; BYTE lfItalic; BYTE lfUnderline; BYTE lfStrikeOut; BYTE lfCharSet; BYTE lfOutPrecision; BYTE lfClipPrecision; BYTE lfQuality; BYTE lfPitchAndFamily; TCHAR lfFaceName[LF_FACESIZE]; } LOGFONT;",
+  "code_blocks": [
+   "typedef struct tagLOGFONT { LONG lfHeight; LONG lfWidth; LONG lfEscapement; LONG lfOrientation; LONG lfWeight; BYTE lfItalic; BYTE lfUnderline; BYTE lfStrikeOut; BYTE lfCharSet; BYTE lfOutPrecision; BYTE lfClipPrecision; BYTE lfQuality; BYTE lfPitchAndFamily; TCHAR lfFaceName[LF_FACESIZE]; } LOGFONT;",
+   "lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);",
+   "#define MulDiv(a,b,c) (((a)*(b))/(c))"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Windows CE 1.0 and 1.01 do not support the following values for lfClipPrecision : CLIP_MASK CLIP_EMBEDDED CLIP_LH_ANGLES CLIP_TT_ALWAYS Windows CE 2.0 and later ignore the lfClipPrecision and lfQuality members with one important exception.",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "NEWTEXTMETRIC",
+  "title": "NEWTEXTMETRIC (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489904(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagNEWTEXTMETRIC { LONG tmHeight; LONG tmAscent; LONG tmDescent; LONG tmInternalLeading; LONG tmExternalLeading; LONG tmAveCharWidth; LONG tmMaxCharWidth; LONG tmWeight; LONG tmOverhang; LONG tmDigitizedAspectX; LONG tmDigitizedAspectY; BCHAR tmFirstChar; BCHAR tmLastChar; BCHAR tmDefaultChar; BCHAR tmBreakChar; BYTE tmItalic; BYTE tmUnderlined; BYTE tmStruckOut; BYTE tmPitchAndFamily; BYTE tmCharSet; DWORD ntmFlags; UINT ntmSizeEM; UINT ntmCellHeight; UINT ntmAvgWidth; } NEWTEXTMETRIC;",
+  "code_blocks": [
+   "typedef struct tagNEWTEXTMETRIC { LONG tmHeight; LONG tmAscent; LONG tmDescent; LONG tmInternalLeading; LONG tmExternalLeading; LONG tmAveCharWidth; LONG tmMaxCharWidth; LONG tmWeight; LONG tmOverhang; LONG tmDigitizedAspectX; LONG tmDigitizedAspectY; BCHAR tmFirstChar; BCHAR tmLastChar; BCHAR tmDefaultChar; BCHAR tmBreakChar; BYTE tmItalic; BYTE tmUnderlined; BYTE tmStruckOut; BYTE tmPitchAndFamily; BYTE tmCharSet; DWORD ntmFlags; UINT ntmSizeEM; UINT ntmCellHeight; UINT ntmAvgWidth; } NEWTEXTMETRIC;"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "PATHOBJ",
+  "title": "PATHOBJ (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489909(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _PATHOBJ{ FLONG fl; ULONG cCurves; } PATHOBJ;",
+  "code_blocks": [
+   "typedef struct _PATHOBJ{ FLONG fl; ULONG cCurves; } PATHOBJ;"
+  ],
+  "requirements": {
+   "header": "winddi.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "STROBJ",
+  "title": "STROBJ (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489906(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "class _STROBJ { ULONG cGlyphs; FLONG flAccel; ULONG ulCharInc; RECTL rclBkGround; GLYPHPOS *pgp; LPWSTR pwszOrg; } STROBJ;",
+  "code_blocks": [
+   "class _STROBJ { ULONG cGlyphs; FLONG flAccel; ULONG ulCharInc; RECTL rclBkGround; GLYPHPOS *pgp; LPWSTR pwszOrg; } STROBJ;"
+  ],
+  "requirements": {
+   "header": "winddi.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "SURFOBJ",
+  "title": "SURFOBJ (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489862(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _SURFOBJ { DHSURF dhsurf; HSURF hsurf; DHPDEV dhpdev; HDEV hdev; SIZEL sizlBitmap; ULONG cjBits; PVOID pvBits; PVOID pvScan0; LONG lDelta; ULONG iUniq; ULONG iBitmapFormat; USHORT iType; USHORT fjBitmap; } SURFOBJ;",
+  "code_blocks": [
+   "typedef struct _SURFOBJ { DHSURF dhsurf; HSURF hsurf; DHPDEV dhpdev; HDEV hdev; SIZEL sizlBitmap; ULONG cjBits; PVOID pvBits; PVOID pvScan0; LONG lDelta; ULONG iUniq; ULONG iBitmapFormat; USHORT iType; USHORT fjBitmap; } SURFOBJ;"
+  ],
+  "requirements": {
+   "header": "winddi.h",
+   "os": "Windows Embedded CE 6.0 R2"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ },
+ {
+  "name": "TEXTMETRIC",
+  "title": "TEXTMETRIC (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489884(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagTEXTMETRIC { LONG tmHeight; LONG tmAscent; LONG tmDescent; LONG tmInternalLeading; LONG tmExternalLeading; LONG tmAveCharWidth; LONG tmMaxCharWidth; LONG tmWeight; LONG tmOverhang; LONG tmDigitizedAspectX; LONG tmDigitizedAspectY; char tmFirstChar; char tmLastChar; char tmDefaultChar; char tmBreakChar; BYTE tmItalic; BYTE tmUnderlined; BYTE tmStruckOut; BYTE tmPitchAndFamily; BYTE tmCharSet; } TEXTMETRIC;",
+  "code_blocks": [
+   "typedef struct tagTEXTMETRIC { LONG tmHeight; LONG tmAscent; LONG tmDescent; LONG tmInternalLeading; LONG tmExternalLeading; LONG tmAveCharWidth; LONG tmMaxCharWidth; LONG tmWeight; LONG tmOverhang; LONG tmDigitizedAspectX; LONG tmDigitizedAspectY; char tmFirstChar; char tmLastChar; char tmDefaultChar; char tmBreakChar; BYTE tmItalic; BYTE tmUnderlined; BYTE tmStruckOut; BYTE tmPitchAndFamily; BYTE tmCharSet; } TEXTMETRIC;"
+  ],
+  "requirements": {
+   "header": "wingdi.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "fonts",
+  "sub": "Fonts Structures"
+ }
+]

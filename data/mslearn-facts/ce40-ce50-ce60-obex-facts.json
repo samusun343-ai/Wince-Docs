@@ -1,0 +1,3087 @@
+[
+ {
+  "name": "OBEX_EVENT",
+  "title": "OBEX_EVENT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922563(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _OBEX_EVENT { OE_QUERY_PASSWORD = 0, OE_NEW_CONNECTION = OE_QUERY_PASSWORD + 1, OE_NEW_COMMAND = OE_NEW_CONNECTION + 1, OE_ABORT = OE_NEW_COMMAND + 1, OE_DISCONNECT = OE_ABORT + 1, OE_DEVICE_ARRIVAL = OE_DISCONNECT + 1, OE_DEVICE_DEPARTURE = OE_DEVICE_ARRIVAL + 1, OE_DEVICE_UPDATE = OE_DEVICE_DEPARTURE + 1 } OBEX_EVENT, *LPOBEX_EVENT;",
+  "code_blocks": [
+   "typedef enum _OBEX_EVENT { OE_QUERY_PASSWORD = 0, OE_NEW_CONNECTION = OE_QUERY_PASSWORD + 1, OE_NEW_COMMAND = OE_NEW_CONNECTION + 1, OE_ABORT = OE_NEW_COMMAND + 1, OE_DISCONNECT = OE_ABORT + 1, OE_DEVICE_ARRIVAL = OE_DISCONNECT + 1, OE_DEVICE_DEPARTURE = OE_DEVICE_ARRIVAL + 1, OE_DEVICE_UPDATE = OE_DEVICE_DEPARTURE + 1 } OBEX_EVENT, *LPOBEX_EVENT;"
+  ],
+  "requirements": {
+   "header": "Obex.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Enumerations"
+ },
+ {
+  "name": "IDeviceEnum::Next",
+  "title": "IDeviceEnum::Next",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922512(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Next( ULONG celt, IObexDevice** rgelt, ULONG* pceltFetched );",
+  "code_blocks": [
+   "HRESULT Next( ULONG celt, IObexDevice** rgelt, ULONG* pceltFetched );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IDeviceEnum::Reset",
+  "title": "IDeviceEnum::Reset",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922513(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Reset ();",
+  "code_blocks": [
+   "HRESULT Reset ();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IDeviceEnum::Skip",
+  "title": "IDeviceEnum::Skip",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922514(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Skip( ULONG celt );",
+  "code_blocks": [
+   "HRESULT Skip( ULONG celt );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddAppParams",
+  "title": "IHeaderCollection::AddAppParams",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922515(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddAppParams( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddAppParams( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddBody",
+  "title": "IHeaderCollection::AddBody",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922516(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddBody( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddBody( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddByte",
+  "title": "IHeaderCollection::AddByte",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922517(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddByte( byte Id, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddByte( byte Id, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddByteArray",
+  "title": "IHeaderCollection::AddByteArray",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922518(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddByteArray( byte Id, unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddByteArray( byte Id, unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddConnectionId",
+  "title": "IHeaderCollection::AddConnectionId",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922519(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddConnectionId( unsigned long ulConnectionId );",
+  "code_blocks": [
+   "HRESULT AddConnectionId( unsigned long ulConnectionId );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddCount",
+  "title": "IHeaderCollection::AddCount",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922520(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddCount( unsigned long ulCount );",
+  "code_blocks": [
+   "HRESULT AddCount( unsigned long ulCount );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddDescription",
+  "title": "IHeaderCollection::AddDescription",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922521(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddDescription( LPCWSTR pszDescription );",
+  "code_blocks": [
+   "HRESULT AddDescription( LPCWSTR pszDescription );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddEndOfBody",
+  "title": "IHeaderCollection::AddEndOfBody",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922522(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddEndOfBody( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddEndOfBody( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddHTTP",
+  "title": "IHeaderCollection::AddHTTP",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922523(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddHTTP( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddHTTP( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddLength",
+  "title": "IHeaderCollection::AddLength",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922524(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddLength( unsigned long ulLength );",
+  "code_blocks": [
+   "HRESULT AddLength( unsigned long ulLength );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddLong",
+  "title": "IHeaderCollection::AddLong",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922525(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddLong( byte Id, unsigned long ulData );",
+  "code_blocks": [
+   "HRESULT AddLong( byte Id, unsigned long ulData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddName",
+  "title": "IHeaderCollection::AddName",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922526(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddName( LPCWSTR pszName );",
+  "code_blocks": [
+   "HRESULT AddName( LPCWSTR pszName );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddObjectClass",
+  "title": "IHeaderCollection::AddObjectClass",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922527(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddObjectClass( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddObjectClass( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddTarget",
+  "title": "IHeaderCollection::AddTarget",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922528(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddTarget( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddTarget( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddTime",
+  "title": "IHeaderCollection::AddTime",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922529(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddTime( FILETIME* pFiletime );",
+  "code_blocks": [
+   "HRESULT AddTime( FILETIME* pFiletime );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddTimeOld",
+  "title": "IHeaderCollection::AddTimeOld",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922530(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddTimeOld( unsigned long ulTime );",
+  "code_blocks": [
+   "HRESULT AddTimeOld( unsigned long ulTime );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddType",
+  "title": "IHeaderCollection::AddType",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922531(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddType( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddType( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddUnicodeString",
+  "title": "IHeaderCollection::AddUnicodeString",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922532(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddUnicodeString( byte Id, LPCWSTR pszData );",
+  "code_blocks": [
+   "HRESULT AddUnicodeString( byte Id, LPCWSTR pszData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddWho",
+  "title": "IHeaderCollection::AddWho",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922533(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddWho( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddWho( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::EnumHeaders",
+  "title": "IHeaderCollection::EnumHeaders",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922534(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumHeaders( IHeaderEnum** pHeaderEnum );",
+  "code_blocks": [
+   "HRESULT EnumHeaders( IHeaderEnum** pHeaderEnum );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::Remove",
+  "title": "IHeaderCollection::Remove",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922536(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Remove( byte Id );",
+  "code_blocks": [
+   "HRESULT Remove( byte Id );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::RemoveAll",
+  "title": "IHeaderCollection::RemoveAll",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922537(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RemoveAll();",
+  "code_blocks": [
+   "HRESULT RemoveAll();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderEnum::Clone",
+  "title": "IHeaderEnum::Clone",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922538(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Clone( IHeaderEnum** ppenum );",
+  "code_blocks": [
+   "HRESULT Clone( IHeaderEnum** ppenum );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderEnum::Next",
+  "title": "IHeaderEnum::Next",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922540(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Next( ULONG celt, OBEX_HEADER** rgelt, ULONG* pceltFetched );",
+  "code_blocks": [
+   "HRESULT Next( ULONG celt, OBEX_HEADER** rgelt, ULONG* pceltFetched );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderEnum::Reset",
+  "title": "IHeaderEnum::Reset",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922541(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Reset ();",
+  "code_blocks": [
+   "HRESULT Reset ();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::BindToDevice",
+  "title": "IObex::BindToDevice",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922543(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT BindToDevice( IPropertyBag* pPropertyBag, IObexDevice** ppDevice );",
+  "code_blocks": [
+   "HRESULT BindToDevice( IPropertyBag* pPropertyBag, IObexDevice** ppDevice );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::EnumDevices",
+  "title": "IObex::EnumDevices",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922553(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumDevices( IDeviceEnum** ppDeviceEnum, REFCLSID uuidTransport );",
+  "code_blocks": [
+   "HRESULT EnumDevices( IDeviceEnum** ppDeviceEnum, REFCLSID uuidTransport );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::EnumTransports",
+  "title": "IObex::EnumTransports",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922554(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumTransports( IPropertyBagEnum** ppTransportEnum );",
+  "code_blocks": [
+   "HRESULT EnumTransports( IPropertyBagEnum** ppTransportEnum );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::Initialize",
+  "title": "IObex::Initialize",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922556(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Initialize();",
+  "code_blocks": [
+   "HRESULT Initialize();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::Shutdown",
+  "title": "IObex::Shutdown",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922558(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Shutdown();",
+  "code_blocks": [
+   "HRESULT Shutdown();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::StartDeviceEnum",
+  "title": "IObex::StartDeviceEnum",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922561(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT StartDeviceEnum();",
+  "code_blocks": [
+   "HRESULT StartDeviceEnum();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::StopDeviceEnum",
+  "title": "IObex::StopDeviceEnum",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922562(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT StopDeviceEnum();",
+  "code_blocks": [
+   "HRESULT StopDeviceEnum();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Abort",
+  "title": "IObexDevice::Abort",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922544(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Abort( IHeaderCollection* pHeaders );",
+  "code_blocks": [
+   "HRESULT Abort( IHeaderCollection* pHeaders );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Connect",
+  "title": "IObexDevice::Connect",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922545(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Connect( LPCWSTR pszPassword, DWORD dwCapability, IHeaderCollection* pHeaders );",
+  "code_blocks": [
+   "HRESULT Connect( LPCWSTR pszPassword, DWORD dwCapability, IHeaderCollection* pHeaders );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Disconnect",
+  "title": "IObexDevice::Disconnect",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922546(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Disconnect( IHeaderCollection* pHeaders );",
+  "code_blocks": [
+   "HRESULT Disconnect( IHeaderCollection* pHeaders );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::EnumProperties",
+  "title": "IObexDevice::EnumProperties",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922547(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumProperties( REFIID riid, void** ppv );",
+  "code_blocks": [
+   "HRESULT EnumProperties( REFIID riid, void** ppv );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Get",
+  "title": "IObexDevice::Get",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922548(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Get( IHeaderCollection* pHeaders, IStream** ppStream );",
+  "code_blocks": [
+   "HRESULT Get( IHeaderCollection* pHeaders, IStream** ppStream );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Put",
+  "title": "IObexDevice::Put",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922550(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Put( IHeaderCollection* pHeaders, IStream** ppStream );",
+  "code_blocks": [
+   "HRESULT Put( IHeaderCollection* pHeaders, IStream** ppStream );",
+   "// // A PUT operation that has BODY is assumed by the // server to be a delete (per IrOBEX 1.2 spec section 3.3.3.6). // This example demonstrates how to use the WinCE OBEX client // implementation to delete a file. // // ---The construction/connection code of IObex/IObexDevice has been // omitted for brevity. // IStream *pStream = NULL; if(FAILED(pHeaderCollection->AddName(L\"MyFile.txt\")) goto Error; if(FAILED(pObexDevice->Put(pHeaderCollection, &pStream)) { goto Error; // NOTE: If Commit fails, the delete operation was either // rejected by the server or the connection was lost. // In either case, the file deletion failed. if(FAILED(pStream->Commit(0)) goto Error; //Success return. hRet = S_OK; goto Done; Error: //Display Error and go to cleanup code. hRet = E_FAIL; Done: //Clean up."
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::SetPassword",
+  "title": "IObexDevice::SetPassword",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922551(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetPassword( LPCWSTR pszPassword );",
+  "code_blocks": [
+   "HRESULT SetPassword( LPCWSTR pszPassword );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::SetPath",
+  "title": "IObexDevice::SetPath",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922552(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetPath( LPCWSTR pszName, DWORD dwFlags, IHeaderCollection* pHeaders );",
+  "code_blocks": [
+   "HRESULT SetPath( LPCWSTR pszName, DWORD dwFlags, IHeaderCollection* pHeaders );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexSink::Notify",
+  "title": "IObexSink::Notify",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922560(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Notify( OBEX_EVENT Event, IUnknown* pUnk1, IUnknown* pUnk2 );",
+  "code_blocks": [
+   "HRESULT Notify( OBEX_EVENT Event, IUnknown* pUnk1, IUnknown* pUnk2 );"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "INBOX_EVENT_DATA",
+  "title": "INBOX_EVENT_DATA",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922542(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _INBOX_EVENT_DATA { DWORD dwRequest; DWORD dwInboxEvent; LPCWSTR pszName; LPCWSTR pszInboxDestination; IHeaderCollection* pHeaderCol; IStream* pStream; } INBOX_EVENT_DATA, *PINBOX_EVENT_DATA;",
+  "code_blocks": [
+   "typedef struct _INBOX_EVENT_DATA { DWORD dwRequest; DWORD dwInboxEvent; LPCWSTR pszName; LPCWSTR pszInboxDestination; IHeaderCollection* pHeaderCol; IStream* pStream; } INBOX_EVENT_DATA, *PINBOX_EVENT_DATA;"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEX_HEADER",
+  "title": "OBEX_HEADER",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922564(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _OBEX_HEADER { byte bId; [switch_is(bId & OBEX_HEADER_4BYTE)] union { [case(OBEX_HEADER_UNICODE)] [string] LPWSTR pszData; [case(OBEX_HEADER_4BYTE)] DWORD dwData; [case(OBEX_HEADER_1BYTE)] byte bData; [case(OBEX_HEADER_STREAM)] struct { DWORD dwSize; [size_is(dwSize)] byte* pbaData; } ba; } value; } OBEX_HEADER;",
+  "code_blocks": [
+   "typedef struct _OBEX_HEADER { byte bId; [switch_is(bId & OBEX_HEADER_4BYTE)] union { [case(OBEX_HEADER_UNICODE)] [string] LPWSTR pszData; [case(OBEX_HEADER_4BYTE)] DWORD dwData; [case(OBEX_HEADER_1BYTE)] byte bData; [case(OBEX_HEADER_STREAM)] struct { DWORD dwSize; [size_is(dwSize)] byte* pbaData; } ba; } value; } OBEX_HEADER;"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "Depending on the type of header (OBEX_HEADER_UNICODE, OBEX_HEADER_STREAM, OBEX_HEADER_1BYTE, and OBEX_HEADER_1BYTE) defined by the bId member, specific fields should be used.",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEX_REQUEST",
+  "title": "OBEX_REQUEST",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms922565(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _OBEX_REQUEST { DWORD dwRequest; DWORD dwFlags; IHeaderCollection* pHeaderCol; BOOL fStream; IStream* pStream; } OBEX_REQUEST, *POBEX_REQUEST;",
+  "code_blocks": [
+   "typedef struct _OBEX_REQUEST { DWORD dwRequest; DWORD dwFlags; IHeaderCollection* pHeaderCol; BOOL fStream; IStream* pStream; } OBEX_REQUEST, *POBEX_REQUEST;"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEX_EVENT",
+  "title": "OBEX_EVENT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895790(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _OBEX_EVENT {OE_QUERY_PASSWORD = 0,OE_NEW_CONNECTION = OE_QUERY_PASSWORD + 1,OE_NEW_COMMAND = OE_NEW_CONNECTION + 1,OE_ABORT = OE_NEW_COMMAND + 1,OE_DISCONNECT = OE_ABORT + 1,OE_DEVICE_ARRIVAL = OE_DISCONNECT + 1,OE_DEVICE_DEPARTURE = OE_DEVICE_ARRIVAL + 1,OE_DEVICE_UPDATE = OE_DEVICE_DEPARTURE + 1 } OBEX_EVENT, *LPOBEX_EVENT;",
+  "code_blocks": [
+   "typedef enum _OBEX_EVENT {OE_QUERY_PASSWORD = 0,OE_NEW_CONNECTION = OE_QUERY_PASSWORD + 1,OE_NEW_COMMAND = OE_NEW_CONNECTION + 1,OE_ABORT = OE_NEW_COMMAND + 1,OE_DISCONNECT = OE_ABORT + 1,OE_DEVICE_ARRIVAL = OE_DISCONNECT + 1,OE_DEVICE_DEPARTURE = OE_DEVICE_ARRIVAL + 1,OE_DEVICE_UPDATE = OE_DEVICE_DEPARTURE + 1 } OBEX_EVENT, *LPOBEX_EVENT;"
+  ],
+  "requirements": {
+   "header": "Obex.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Enumerations"
+ },
+ {
+  "name": "ServerCallback",
+  "title": "ServerCallback (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900565(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef int (*ServerCallback)(unsigned int uiOp, unsigned int uiId, struct _obex_command * pCommand);",
+  "code_blocks": [
+   "typedef int (*ServerCallback)(unsigned int uiOp, unsigned int uiId, struct _obex_command * pCommand);"
+  ],
+  "requirements": {
+   "header": "Obexserver.h",
+   "library": "Developer",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Functions"
+ },
+ {
+  "name": "ServiceCallback",
+  "title": "ServiceCallback (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900568(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef int (*ServiceCallback)(struct _obex_transaction * pTrans);",
+  "code_blocks": [
+   "typedef int (*ServiceCallback)(struct _obex_transaction * pTrans);"
+  ],
+  "requirements": {
+   "header": "Obexserver.h",
+   "library": "Developer",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Functions"
+ },
+ {
+  "name": "IDeviceEnum::Clone",
+  "title": "IDeviceEnum::Clone (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900495(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Clone(IDeviceEnum * ppenum);",
+  "code_blocks": [
+   "HRESULT Clone(IDeviceEnum * ppenum);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IDeviceEnum::Next",
+  "title": "IDeviceEnum::Next (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890398(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Next(ULONGcelt,IObexDevice** rgelt,ULONG* pceltFetched);",
+  "code_blocks": [
+   "HRESULT Next(ULONGcelt,IObexDevice** rgelt,ULONG* pceltFetched);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IDeviceEnum::Reset",
+  "title": "IDeviceEnum::Reset (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890399(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Reset ();",
+  "code_blocks": [
+   "HRESULT Reset ();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IDeviceEnum::Skip",
+  "title": "IDeviceEnum::Skip (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890400(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Skip(ULONGcelt);",
+  "code_blocks": [
+   "HRESULT Skip(ULONGcelt);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddAppParams",
+  "title": "IHeaderCollection::AddAppParams (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890891(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddAppParams(unsigned longulSize,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddAppParams(unsigned longulSize,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddBody",
+  "title": "IHeaderCollection::AddBody (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890893(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddBody(unsigned longulSize,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddBody(unsigned longulSize,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddByte",
+  "title": "IHeaderCollection::AddByte (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890897(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddByte(byteId,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddByte(byteId,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddByteArray",
+  "title": "IHeaderCollection::AddByteArray (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890900(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddByteArray(byteId,unsigned longulSize,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddByteArray(byteId,unsigned longulSize,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddConnectionId",
+  "title": "IHeaderCollection::AddConnectionId (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890902(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddConnectionId(unsigned long ulConnectionId);",
+  "code_blocks": [
+   "HRESULT AddConnectionId(unsigned long ulConnectionId);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddCount",
+  "title": "IHeaderCollection::AddCount (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890906(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddCount(unsigned longulCount);",
+  "code_blocks": [
+   "HRESULT AddCount(unsigned longulCount);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddDescription",
+  "title": "IHeaderCollection::AddDescription (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890910(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddDescription(LPCWSTR pszDescription);",
+  "code_blocks": [
+   "HRESULT AddDescription(LPCWSTR pszDescription);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddEndOfBody",
+  "title": "IHeaderCollection::AddEndOfBody (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890914(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddEndOfBody(unsigned longulSize,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddEndOfBody(unsigned longulSize,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddHTTP",
+  "title": "IHeaderCollection::AddHTTP (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890916(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddHTTP(unsigned long ulSize,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddHTTP(unsigned long ulSize,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddLength",
+  "title": "IHeaderCollection::AddLength (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890920(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddLength(unsigned longulLength);",
+  "code_blocks": [
+   "HRESULT AddLength(unsigned longulLength);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddLong",
+  "title": "IHeaderCollection::AddLong (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890922(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddLong(byte Id, unsigned long ulData);",
+  "code_blocks": [
+   "HRESULT AddLong(byte Id, unsigned long ulData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddName",
+  "title": "IHeaderCollection::AddName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890925(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddName(LPCWSTR pszName);",
+  "code_blocks": [
+   "HRESULT AddName(LPCWSTR pszName);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddObjectClass",
+  "title": "IHeaderCollection::AddObjectClass (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890927(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddObjectClass(unsigned longulSize,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddObjectClass(unsigned longulSize,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddTarget",
+  "title": "IHeaderCollection::AddTarget (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890931(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddTarget(unsigned longulSize,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddTarget(unsigned longulSize,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddTime",
+  "title": "IHeaderCollection::AddTime (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890933(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddTime(FILETIME* pFiletime);",
+  "code_blocks": [
+   "HRESULT AddTime(FILETIME* pFiletime);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddTimeOld",
+  "title": "IHeaderCollection::AddTimeOld (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890938(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddTimeOld(unsigned long ulTime);",
+  "code_blocks": [
+   "HRESULT AddTimeOld(unsigned long ulTime);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddType",
+  "title": "IHeaderCollection::AddType (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890942(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddType(unsigned longulSize,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddType(unsigned longulSize,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddUnicodeString",
+  "title": "IHeaderCollection::AddUnicodeString (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890944(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddUnicodeString(byte Id, LPCWSTR pszData);",
+  "code_blocks": [
+   "HRESULT AddUnicodeString(byte Id, LPCWSTR pszData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddWho",
+  "title": "IHeaderCollection::AddWho (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890947(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddWho(unsigned long ulSize,byte* pData);",
+  "code_blocks": [
+   "HRESULT AddWho(unsigned long ulSize,byte* pData);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::EnumHeaders",
+  "title": "IHeaderCollection::EnumHeaders (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890950(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumHeaders(IHeaderEnum** pHeaderEnum);",
+  "code_blocks": [
+   "HRESULT EnumHeaders(IHeaderEnum** pHeaderEnum);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::Remove",
+  "title": "IHeaderCollection::Remove (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890955(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Remove(byteId);",
+  "code_blocks": [
+   "HRESULT Remove(byteId);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::RemoveAll",
+  "title": "IHeaderCollection::RemoveAll (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890957(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RemoveAll();",
+  "code_blocks": [
+   "HRESULT RemoveAll();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderEnum::Clone",
+  "title": "IHeaderEnum::Clone (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890961(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Clone(IHeaderEnum** ppenum);",
+  "code_blocks": [
+   "HRESULT Clone(IHeaderEnum** ppenum);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderEnum::Next",
+  "title": "IHeaderEnum::Next (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890966(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Next(ULONGcelt,OBEX_HEADER** rgelt,ULONG* pceltFetched);",
+  "code_blocks": [
+   "HRESULT Next(ULONGcelt,OBEX_HEADER** rgelt,ULONG* pceltFetched);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderEnum::Reset",
+  "title": "IHeaderEnum::Reset (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890969(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Reset ();",
+  "code_blocks": [
+   "HRESULT Reset ();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::BindToDevice",
+  "title": "IObex::BindToDevice (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890990(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT BindToDevice(IPropertyBag* pPropertyBag,IObexDevice** ppDevice);",
+  "code_blocks": [
+   "HRESULT BindToDevice(IPropertyBag* pPropertyBag,IObexDevice** ppDevice);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::EnumDevices",
+  "title": "IObex::EnumDevices (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891030(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumDevices(IDeviceEnum** ppDeviceEnum,REFCLSIDuuidTransport);",
+  "code_blocks": [
+   "HRESULT EnumDevices(IDeviceEnum** ppDeviceEnum,REFCLSIDuuidTransport);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::EnumTransports",
+  "title": "IObex::EnumTransports (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891033(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumTransports(IPropertyBagEnum** ppTransportEnum);",
+  "code_blocks": [
+   "HRESULT EnumTransports(IPropertyBagEnum** ppTransportEnum);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::Initialize",
+  "title": "IObex::Initialize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891037(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Initialize();",
+  "code_blocks": [
+   "HRESULT Initialize();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::Shutdown",
+  "title": "IObex::Shutdown (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891044(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Shutdown();",
+  "code_blocks": [
+   "HRESULT Shutdown();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::StartDeviceEnum",
+  "title": "IObex::StartDeviceEnum (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891054(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT StartDeviceEnum();",
+  "code_blocks": [
+   "HRESULT StartDeviceEnum();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::StopDeviceEnum",
+  "title": "IObex::StopDeviceEnum (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891057(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT StopDeviceEnum();",
+  "code_blocks": [
+   "HRESULT StopDeviceEnum();"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Abort",
+  "title": "IObexDevice::Abort (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890995(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Abort(IHeaderCollection* pHeaders);",
+  "code_blocks": [
+   "HRESULT Abort(IHeaderCollection* pHeaders);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Connect",
+  "title": "IObexDevice::Connect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890998(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Connect(LPCWSTRpszPassword,DWORDdwCapability,IHeaderCollection* pHeaders);",
+  "code_blocks": [
+   "HRESULT Connect(LPCWSTRpszPassword,DWORDdwCapability,IHeaderCollection* pHeaders);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Disconnect",
+  "title": "IObexDevice::Disconnect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891002(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Disconnect(IHeaderCollection* pHeaders);",
+  "code_blocks": [
+   "HRESULT Disconnect(IHeaderCollection* pHeaders);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::EnumProperties",
+  "title": "IObexDevice::EnumProperties (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891005(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumProperties(REFIIDriid,void** ppv);",
+  "code_blocks": [
+   "HRESULT EnumProperties(REFIIDriid,void** ppv);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Get",
+  "title": "IObexDevice::Get (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891008(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Get(IHeaderCollection* pHeaders,IStream** ppStream);",
+  "code_blocks": [
+   "HRESULT Get(IHeaderCollection* pHeaders,IStream** ppStream);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Put",
+  "title": "IObexDevice::Put (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891015(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Put(IHeaderCollection* pHeaders,IStream** ppStream);",
+  "code_blocks": [
+   "HRESULT Put(IHeaderCollection* pHeaders,IStream** ppStream);",
+   "// // A PUT operation that has BODY is assumed by the // server to be a delete (per IrOBEX 1.2 spec section 3.3.3.6). // This example demonstrates how to use the WinCE OBEX client // implementation to delete a file. // // ---The construction/connection code of IObex/IObexDevice has been // omitted for brevity. // IStream *pStream = NULL; if(FAILED(pHeaderCollection->AddName(L\"MyFile.txt\"))) goto Error; if(FAILED(pObexDevice->Put(pHeaderCollection, &pStream))) goto Error; // NOTE: If Commit fails, the delete operation was either // rejected by the server or the connection was lost. // In either case, the file deletion failed. if(FAILED(pStream->Commit(0))) goto Error; //Success return. hRet = S_OK; goto Done; Error: //Display Error and go to cleanup code. hRet = E_FAIL; Done: //Clean up."
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::SetPassword",
+  "title": "IObexDevice::SetPassword (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891017(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetPassword(LPCWSTRpszPassword);",
+  "code_blocks": [
+   "HRESULT SetPassword(LPCWSTRpszPassword);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::SetPath",
+  "title": "IObexDevice::SetPath (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891020(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetPath(LPCWSTRpszName,DWORDdwFlags,IHeaderCollection* pHeaders);",
+  "code_blocks": [
+   "HRESULT SetPath(LPCWSTRpszName,DWORDdwFlags,IHeaderCollection* pHeaders);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexSink::Notify",
+  "title": "IObexSink::Notify (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891050(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Notify(OBEX_EVENTEvent,IUnknown* pUnk1,IUnknown* pUnk2);",
+  "code_blocks": [
+   "HRESULT Notify(OBEX_EVENTEvent,IUnknown* pUnk1,IUnknown* pUnk2);"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IPropertyBagEnum::Clone",
+  "title": "IPropertyBagEnum::Clone (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900502(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Clone(IPropertyBagEnum * ppenum);",
+  "code_blocks": [
+   "HRESULT Clone(IPropertyBagEnum * ppenum);"
+  ],
+  "requirements": {
+   "header": "Obex.h",
+   "library": "Uuid.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IPropertyBagEnum::Next",
+  "title": "IPropertyBagEnum::Next (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900507(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Next( ULONG celt,LPPROPERTYBAG2 * rgelt,ULONG * pceltFetched);",
+  "code_blocks": [
+   "HRESULT Next( ULONG celt,LPPROPERTYBAG2 * rgelt,ULONG * pceltFetched);"
+  ],
+  "requirements": {
+   "header": "Obex.h",
+   "library": "Uuid.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IPropertyBagEnum::Reset",
+  "title": "IPropertyBagEnum::Reset (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900511(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Reset( void );",
+  "code_blocks": [
+   "HRESULT Reset( void );"
+  ],
+  "requirements": {
+   "header": "Obex.h",
+   "library": "Uuid.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IPropertyBagEnum::Skip",
+  "title": "IPropertyBagEnum::Skip (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900514(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Skip( ULONG celt);",
+  "code_blocks": [
+   "HRESULT Skip( ULONG celt);"
+  ],
+  "requirements": {
+   "header": "Obex.h",
+   "library": "Uuid.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "INBOX_EVENT_DATA",
+  "title": "INBOX_EVENT_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890978(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _INBOX_EVENT_DATA {DWORDdwRequest;DWORDdwInboxEvent;LPCWSTRpszName;LPCWSTRpszInboxDestination;IHeaderCollection* pHeaderCol;IStream* pStream;} INBOX_EVENT_DATA, *PINBOX_EVENT_DATA;",
+  "code_blocks": [
+   "typedef struct _INBOX_EVENT_DATA {DWORDdwRequest;DWORDdwInboxEvent;LPCWSTRpszName;LPCWSTRpszInboxDestination;IHeaderCollection* pHeaderCol;IStream* pStream;} INBOX_EVENT_DATA, *PINBOX_EVENT_DATA;"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEXCOMMAND",
+  "title": "OBEXCOMMAND (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900557(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _obex_command { unsigned int uiOp; unsigned int uiResp; unsigned int fFinal; ObexPacketData sPktData; unsigned int cProp; unsigned int * aPropID; ObexVariant * aPropVar;} ObexCommand;",
+  "code_blocks": [
+   "typedef struct _obex_command { unsigned int uiOp; unsigned int uiResp; unsigned int fFinal; ObexPacketData sPktData; unsigned int cProp; unsigned int * aPropID; ObexVariant * aPropVar;} ObexCommand;"
+  ],
+  "requirements": {
+   "header": "Obexserver.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEXTRANSACTION",
+  "title": "OBEXTRANSACTION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms900561(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _obex_transaction {unsigned int uiConnectionId;unsigned int uiTransactionId;unsigned int uiOp;ObexCommand * pObex;MemAlloc ObexAlloc;MemFree ObexFree;ServerCallback ObexExecute;} ObexTransaction;",
+  "code_blocks": [
+   "typedef struct _obex_transaction {unsigned int uiConnectionId;unsigned int uiTransactionId;unsigned int uiOp;ObexCommand * pObex;MemAlloc ObexAlloc;MemFree ObexFree;ServerCallback ObexExecute;} ObexTransaction;"
+  ],
+  "requirements": {
+   "header": "Obexserver.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEX_HEADER",
+  "title": "OBEX_HEADER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895794(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _OBEX_HEADER {byte bId;[switch_is(bId & OBEX_HEADER_4BYTE)]union {[case(OBEX_HEADER_UNICODE)][string] LPWSTR pszData;[case(OBEX_HEADER_4BYTE)]DWORD dwData;[case(OBEX_HEADER_1BYTE)]byte bData;[case(OBEX_HEADER_STREAM)]struct {DWORD dwSize; [size_is(dwSize)] byte* pbaData;} ba;} value;} OBEX_HEADER;",
+  "code_blocks": [
+   "typedef struct _OBEX_HEADER {byte bId;[switch_is(bId & OBEX_HEADER_4BYTE)]union {[case(OBEX_HEADER_UNICODE)][string] LPWSTR pszData;[case(OBEX_HEADER_4BYTE)]DWORD dwData;[case(OBEX_HEADER_1BYTE)]byte bData;[case(OBEX_HEADER_STREAM)]struct {DWORD dwSize; [size_is(dwSize)] byte* pbaData;} ba;} value;} OBEX_HEADER;"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "Depending on the type of header (OBEX_HEADER_UNICODE, OBEX_HEADER_STREAM, OBEX_HEADER_1BYTE, and OBEX_HEADER_1BYTE) defined by the bId member, specific fields should be used.",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEX_REQUEST",
+  "title": "OBEX_REQUEST (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms895798(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _OBEX_REQUEST {DWORD dwRequest;DWORD dwFlags;IHeaderCollection* pHeaderCol;BOOL fStream;IStream* pStream;} OBEX_REQUEST, *POBEX_REQUEST;",
+  "code_blocks": [
+   "typedef struct _OBEX_REQUEST {DWORD dwRequest;DWORD dwFlags;IHeaderCollection* pHeaderCol;BOOL fStream;IStream* pStream;} OBEX_REQUEST, *POBEX_REQUEST;"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEX_EVENT",
+  "title": "OBEX_EVENT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493664(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _OBEX_EVENT { OE_QUERY_PASSWORD = 0, OE_NEW_CONNECTION = OE_QUERY_PASSWORD + 1, OE_NEW_COMMAND = OE_NEW_CONNECTION + 1, OE_ABORT = OE_NEW_COMMAND + 1, OE_DISCONNECT = OE_ABORT + 1, OE_DEVICE_ARRIVAL = OE_DISCONNECT + 1, OE_DEVICE_DEPARTURE = OE_DEVICE_ARRIVAL + 1, OE_DEVICE_UPDATE = OE_DEVICE_DEPARTURE + 1 } OBEX_EVENT, *LPOBEX_EVENT;",
+  "code_blocks": [
+   "typedef enum _OBEX_EVENT { OE_QUERY_PASSWORD = 0, OE_NEW_CONNECTION = OE_QUERY_PASSWORD + 1, OE_NEW_COMMAND = OE_NEW_CONNECTION + 1, OE_ABORT = OE_NEW_COMMAND + 1, OE_DISCONNECT = OE_ABORT + 1, OE_DEVICE_ARRIVAL = OE_DISCONNECT + 1, OE_DEVICE_DEPARTURE = OE_DEVICE_ARRIVAL + 1, OE_DEVICE_UPDATE = OE_DEVICE_DEPARTURE + 1 } OBEX_EVENT, *LPOBEX_EVENT;"
+  ],
+  "requirements": {
+   "header": "obex.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Enumerations"
+ },
+ {
+  "name": "ServerCallback",
+  "title": "ServerCallback (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494075(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef int (*ServerCallback)( unsigned int uiOp, unsigned int uiId, struct _obex_command * pCommand );",
+  "code_blocks": [
+   "typedef int (*ServerCallback)( unsigned int uiOp, unsigned int uiId, struct _obex_command * pCommand );"
+  ],
+  "requirements": {
+   "header": "obexserver.h",
+   "library": "Developer",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Functions"
+ },
+ {
+  "name": "ServiceCallback",
+  "title": "ServiceCallback (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493247(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef int (*ServiceCallback)( struct _obex_transaction * pTrans );",
+  "code_blocks": [
+   "typedef int (*ServiceCallback)( struct _obex_transaction * pTrans );"
+  ],
+  "requirements": {
+   "header": "obexserver.h",
+   "library": "Developer",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Functions"
+ },
+ {
+  "name": "IDeviceEnum::Clone",
+  "title": "IDeviceEnum::Clone (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493429(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Clone( IDeviceEnum * ppenum );",
+  "code_blocks": [
+   "HRESULT Clone( IDeviceEnum * ppenum );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IDeviceEnum::Next",
+  "title": "IDeviceEnum::Next (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494512(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Next( ULONG celt, IObexDevice** rgelt, ULONG* pceltFetched );",
+  "code_blocks": [
+   "HRESULT Next( ULONG celt, IObexDevice** rgelt, ULONG* pceltFetched );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IDeviceEnum::Reset",
+  "title": "IDeviceEnum::Reset (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494290(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Reset ();",
+  "code_blocks": [
+   "HRESULT Reset ();"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IDeviceEnum::Skip",
+  "title": "IDeviceEnum::Skip (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494106(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Skip( ULONG celt );",
+  "code_blocks": [
+   "HRESULT Skip( ULONG celt );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddAppParams",
+  "title": "IHeaderCollection::AddAppParams (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494479(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddAppParams( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddAppParams( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddBody",
+  "title": "IHeaderCollection::AddBody (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494464(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddBody( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddBody( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddByte",
+  "title": "IHeaderCollection::AddByte (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494892(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddByte( byte Id, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddByte( byte Id, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddByteArray",
+  "title": "IHeaderCollection::AddByteArray (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493250(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddByteArray( byte Id, unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddByteArray( byte Id, unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddConnectionId",
+  "title": "IHeaderCollection::AddConnectionId (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee495168(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddConnectionId( unsigned long ulConnectionId );",
+  "code_blocks": [
+   "HRESULT AddConnectionId( unsigned long ulConnectionId );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddCount",
+  "title": "IHeaderCollection::AddCount (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494905(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddCount( unsigned long ulCount );",
+  "code_blocks": [
+   "HRESULT AddCount( unsigned long ulCount );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddDescription",
+  "title": "IHeaderCollection::AddDescription (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493880(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddDescription( LPCWSTR pszDescription );",
+  "code_blocks": [
+   "HRESULT AddDescription( LPCWSTR pszDescription );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddEndOfBody",
+  "title": "IHeaderCollection::AddEndOfBody (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494891(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddEndOfBody( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddEndOfBody( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddHTTP",
+  "title": "IHeaderCollection::AddHTTP (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494844(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddHTTP( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddHTTP( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddLength",
+  "title": "IHeaderCollection::AddLength (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494646(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddLength( unsigned long ulLength );",
+  "code_blocks": [
+   "HRESULT AddLength( unsigned long ulLength );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddLong",
+  "title": "IHeaderCollection::AddLong (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493100(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddLong( byte Id, unsigned long ulData );",
+  "code_blocks": [
+   "HRESULT AddLong( byte Id, unsigned long ulData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddName",
+  "title": "IHeaderCollection::AddName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494705(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddName( LPCWSTR pszName );",
+  "code_blocks": [
+   "HRESULT AddName( LPCWSTR pszName );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddObjectClass",
+  "title": "IHeaderCollection::AddObjectClass (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494889(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddObjectClass( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddObjectClass( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddTarget",
+  "title": "IHeaderCollection::AddTarget (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee495254(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddTarget( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddTarget( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddTime",
+  "title": "IHeaderCollection::AddTime (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493297(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddTime( FILETIME* pFiletime );",
+  "code_blocks": [
+   "HRESULT AddTime( FILETIME* pFiletime );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddTimeOld",
+  "title": "IHeaderCollection::AddTimeOld (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493856(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddTimeOld( unsigned long ulTime );",
+  "code_blocks": [
+   "HRESULT AddTimeOld( unsigned long ulTime );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddType",
+  "title": "IHeaderCollection::AddType (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493268(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddType( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddType( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddUnicodeString",
+  "title": "IHeaderCollection::AddUnicodeString (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee495174(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddUnicodeString( byte Id, LPCWSTR pszData );",
+  "code_blocks": [
+   "HRESULT AddUnicodeString( byte Id, LPCWSTR pszData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::AddWho",
+  "title": "IHeaderCollection::AddWho (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494095(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT AddWho( unsigned long ulSize, byte* pData );",
+  "code_blocks": [
+   "HRESULT AddWho( unsigned long ulSize, byte* pData );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::EnumHeaders",
+  "title": "IHeaderCollection::EnumHeaders (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493478(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumHeaders( IHeaderEnum** pHeaderEnum );",
+  "code_blocks": [
+   "HRESULT EnumHeaders( IHeaderEnum** pHeaderEnum );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::Remove",
+  "title": "IHeaderCollection::Remove (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493037(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Remove( byte Id );",
+  "code_blocks": [
+   "HRESULT Remove( byte Id );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderCollection::RemoveAll",
+  "title": "IHeaderCollection::RemoveAll (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494845(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT RemoveAll();",
+  "code_blocks": [
+   "HRESULT RemoveAll();"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderEnum::Clone",
+  "title": "IHeaderEnum::Clone (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493709(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Clone( IHeaderEnum** ppenum );",
+  "code_blocks": [
+   "HRESULT Clone( IHeaderEnum** ppenum );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderEnum::Next",
+  "title": "IHeaderEnum::Next (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493282(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Next( ULONG celt, OBEX_HEADER** rgelt, ULONG* pceltFetched );",
+  "code_blocks": [
+   "HRESULT Next( ULONG celt, OBEX_HEADER** rgelt, ULONG* pceltFetched );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IHeaderEnum::Reset",
+  "title": "IHeaderEnum::Reset (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493827(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Reset ();",
+  "code_blocks": [
+   "HRESULT Reset ();"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::BindToDevice",
+  "title": "IObex::BindToDevice (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494030(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT BindToDevice( IPropertyBag* pPropertyBag, IObexDevice** ppDevice );",
+  "code_blocks": [
+   "HRESULT BindToDevice( IPropertyBag* pPropertyBag, IObexDevice** ppDevice );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::EnumDevices",
+  "title": "IObex::EnumDevices (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494890(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumDevices( IDeviceEnum** ppDeviceEnum, REFCLSID uuidTransport );",
+  "code_blocks": [
+   "HRESULT EnumDevices( IDeviceEnum** ppDeviceEnum, REFCLSID uuidTransport );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::EnumTransports",
+  "title": "IObex::EnumTransports (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494041(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumTransports( IPropertyBagEnum** ppTransportEnum );",
+  "code_blocks": [
+   "HRESULT EnumTransports( IPropertyBagEnum** ppTransportEnum );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::Initialize",
+  "title": "IObex::Initialize (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494493(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Initialize();",
+  "code_blocks": [
+   "HRESULT Initialize();"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::Shutdown",
+  "title": "IObex::Shutdown (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494883(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Shutdown();",
+  "code_blocks": [
+   "HRESULT Shutdown();"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::StartDeviceEnum",
+  "title": "IObex::StartDeviceEnum (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494506(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT StartDeviceEnum();",
+  "code_blocks": [
+   "HRESULT StartDeviceEnum();"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObex::StopDeviceEnum",
+  "title": "IObex::StopDeviceEnum (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494301(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT StopDeviceEnum();",
+  "code_blocks": [
+   "HRESULT StopDeviceEnum();"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Abort",
+  "title": "IObexDevice::Abort (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493480(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Abort( IHeaderCollection* pHeaders );",
+  "code_blocks": [
+   "HRESULT Abort( IHeaderCollection* pHeaders );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Connect",
+  "title": "IObexDevice::Connect (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494718(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Connect( LPCWSTR pszPassword, DWORD dwCapability, IHeaderCollection* pHeaders );",
+  "code_blocks": [
+   "HRESULT Connect( LPCWSTR pszPassword, DWORD dwCapability, IHeaderCollection* pHeaders );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Disconnect",
+  "title": "IObexDevice::Disconnect (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494700(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Disconnect( IHeaderCollection* pHeaders );",
+  "code_blocks": [
+   "HRESULT Disconnect( IHeaderCollection* pHeaders );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::EnumProperties",
+  "title": "IObexDevice::EnumProperties (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494930(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT EnumProperties( REFIID riid, void** ppv );",
+  "code_blocks": [
+   "HRESULT EnumProperties( REFIID riid, void** ppv );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Get",
+  "title": "IObexDevice::Get (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494714(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Get( IHeaderCollection* pHeaders, IStream** ppStream );",
+  "code_blocks": [
+   "HRESULT Get( IHeaderCollection* pHeaders, IStream** ppStream );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::Put",
+  "title": "IObexDevice::Put (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493212(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Put( IHeaderCollection* pHeaders, IStream** ppStream );",
+  "code_blocks": [
+   "HRESULT Put( IHeaderCollection* pHeaders, IStream** ppStream );",
+   "// // A PUT operation that has BODY is assumed by the // server to be a delete (per IrOBEX 1.2 spec section 3.3.3.6). // This example demonstrates how to use the Windows Embedded CE OBEX client // implementation to delete a file. // // ---The construction/connection code of IObex/IObexDevice has been // omitted for brevity. // IStream *pStream = NULL; if(FAILED(pHeaderCollection->AddName(L\"MyFile.txt\"))) goto Error; if(FAILED(pObexDevice->Put(pHeaderCollection, &pStream))) goto Error; // NOTE: If Commit fails, the delete operation was either // rejected by the server or the connection was lost. // In either case, the file deletion failed. if(FAILED(pStream->Commit(0))) goto Error; //Success return. hRet = S_OK; goto Done; Error: //Display Error and go to cleanup code. hRet = E_FAIL; Done: //Clean up."
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "// This example demonstrates how to use the Windows Embedded CE OBEX client // implementation to delete a file.",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::SetPassword",
+  "title": "IObexDevice::SetPassword (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493078(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetPassword( LPCWSTR pszPassword );",
+  "code_blocks": [
+   "HRESULT SetPassword( LPCWSTR pszPassword );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexDevice::SetPath",
+  "title": "IObexDevice::SetPath (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493214(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT SetPath( LPCWSTR pszName, DWORD dwFlags, IHeaderCollection* pHeaders );",
+  "code_blocks": [
+   "HRESULT SetPath( LPCWSTR pszName, DWORD dwFlags, IHeaderCollection* pHeaders );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexResponse::GetLastResponseCode",
+  "title": "IObexResponse::GetLastResponseCode (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493822(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT GetLastResponseCode( BYTE *pResponseCode );",
+  "code_blocks": [
+   "HRESULT GetLastResponseCode( BYTE *pResponseCode );",
+   "// Assume that pMyStream has already been initialized IObexResponse *pResp; BYTE lastResponse; hr = pMyStream->QueryInterface(IID_IObexResponse,(void**)&pResp); if (FAILED(hr)) goto cleanup; hr = pResp->GetLastResponseCode(&lastResponse); if (FAILED(hr)) goto cleanup;"
+  ],
+  "requirements": {
+   "header": "Obex.h, Obex.idl",
+   "library": "Uuid.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IObexSink::Notify",
+  "title": "IObexSink::Notify (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494263(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Notify( OBEX_EVENT Event, IUnknown* pUnk1, IUnknown* pUnk2 );",
+  "code_blocks": [
+   "HRESULT Notify( OBEX_EVENT Event, IUnknown* pUnk1, IUnknown* pUnk2 );"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "library": "uuid.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IPropertyBagEnum::Clone",
+  "title": "IPropertyBagEnum::Clone (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493651(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Clone( IPropertyBagEnum * ppenum );",
+  "code_blocks": [
+   "HRESULT Clone( IPropertyBagEnum * ppenum );"
+  ],
+  "requirements": {
+   "header": "obex.h",
+   "library": "uuid.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IPropertyBagEnum::Next",
+  "title": "IPropertyBagEnum::Next (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493909(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Next( ULONG celt, LPPROPERTYBAG2 * rgelt, ULONG * pceltFetched );",
+  "code_blocks": [
+   "HRESULT Next( ULONG celt, LPPROPERTYBAG2 * rgelt, ULONG * pceltFetched );"
+  ],
+  "requirements": {
+   "header": "obex.h",
+   "library": "uuid.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IPropertyBagEnum::Reset",
+  "title": "IPropertyBagEnum::Reset (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494326(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Reset( void );",
+  "code_blocks": [
+   "HRESULT Reset( void );"
+  ],
+  "requirements": {
+   "header": "obex.h",
+   "library": "uuid.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "IPropertyBagEnum::Skip",
+  "title": "IPropertyBagEnum::Skip (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493656(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT Skip( ULONG celt );",
+  "code_blocks": [
+   "HRESULT Skip( ULONG celt );"
+  ],
+  "requirements": {
+   "header": "obex.h",
+   "library": "uuid.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Interfaces"
+ },
+ {
+  "name": "INBOX_EVENT_DATA",
+  "title": "INBOX_EVENT_DATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493091(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _INBOX_EVENT_DATA { DWORD dwRequest; DWORD dwInboxEvent; LPCWSTR pszName; LPCWSTR pszInboxDestination; IHeaderCollection* pHeaderCol; IStream* pStream; } INBOX_EVENT_DATA, *PINBOX_EVENT_DATA;",
+  "code_blocks": [
+   "typedef struct _INBOX_EVENT_DATA { DWORD dwRequest; DWORD dwInboxEvent; LPCWSTR pszName; LPCWSTR pszInboxDestination; IHeaderCollection* pHeaderCol; IStream* pStream; } INBOX_EVENT_DATA, *PINBOX_EVENT_DATA;"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEXCOMMAND",
+  "title": "OBEXCOMMAND (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494039(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _obex_command { unsigned int uiOp; unsigned int uiResp; unsigned int fFinal; ObexPacketData sPktData; unsigned int cProp; unsigned int * aPropID; ObexVariant * aPropVar; } ObexCommand;",
+  "code_blocks": [
+   "typedef struct _obex_command { unsigned int uiOp; unsigned int uiResp; unsigned int fFinal; ObexPacketData sPktData; unsigned int cProp; unsigned int * aPropID; ObexVariant * aPropVar; } ObexCommand;"
+  ],
+  "requirements": {
+   "header": "obexserver.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEXTRANSACTION",
+  "title": "OBEXTRANSACTION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee494876(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _obex_transaction { unsigned int uiConnectionId; unsigned int uiTransactionId; unsigned int uiOp; ObexCommand * pObex; MemAlloc ObexAlloc; MemFree ObexFree; ServerCallback ObexExecute; } ObexTransaction;",
+  "code_blocks": [
+   "typedef struct _obex_transaction { unsigned int uiConnectionId; unsigned int uiTransactionId; unsigned int uiOp; ObexCommand * pObex; MemAlloc ObexAlloc; MemFree ObexFree; ServerCallback ObexExecute; } ObexTransaction;"
+  ],
+  "requirements": {
+   "header": "obexserver.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEX_HEADER",
+  "title": "OBEX_HEADER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493481(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _OBEX_HEADER { byte bId; [switch_is(bId & OBEX_HEADER_4BYTE)] union { [case(OBEX_HEADER_UNICODE)] [string] LPWSTR pszData; [case(OBEX_HEADER_4BYTE)] DWORD dwData; [case(OBEX_HEADER_1BYTE)] byte bData; [case(OBEX_HEADER_STREAM)] struct { DWORD dwSize; [size_is(dwSize)] byte* pbaData; } ba; } value; } OBEX_HEADER;",
+  "code_blocks": [
+   "typedef struct _OBEX_HEADER { byte bId; [switch_is(bId & OBEX_HEADER_4BYTE)] union { [case(OBEX_HEADER_UNICODE)] [string] LPWSTR pszData; [case(OBEX_HEADER_4BYTE)] DWORD dwData; [case(OBEX_HEADER_1BYTE)] byte bData; [case(OBEX_HEADER_STREAM)] struct { DWORD dwSize; [size_is(dwSize)] byte* pbaData; } ba; } value; } OBEX_HEADER;"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "os": "Windows CE .NET 4.0 and later Note This information applies to the version of the operating system as provided by Micros"
+  },
+  "ce_notes_excerpt": "Depending on the type of header (OBEX_HEADER_UNICODE, OBEX_HEADER_STREAM, OBEX_HEADER_1BYTE, and OBEX_HEADER_1BYTE) defined by the bId member, specific fields should be used.",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ },
+ {
+  "name": "OBEX_REQUEST",
+  "title": "OBEX_REQUEST (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee493504(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _OBEX_REQUEST { DWORD dwRequest; DWORD dwFlags; IHeaderCollection* pHeaderCol; BOOL fStream; IStream* pStream; } OBEX_REQUEST, *POBEX_REQUEST;",
+  "code_blocks": [
+   "typedef struct _OBEX_REQUEST { DWORD dwRequest; DWORD dwFlags; IHeaderCollection* pHeaderCol; BOOL fStream; IStream* pStream; } OBEX_REQUEST, *POBEX_REQUEST;"
+  ],
+  "requirements": {
+   "header": "obex.h, obex.idl",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "obex",
+  "sub": "OBEX Structures"
+ }
+]

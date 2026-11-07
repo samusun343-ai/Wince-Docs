@@ -1,0 +1,506 @@
+[
+{
+"area": "kernel",
+"sub": "Kernel Enumerations",
+"t": "EXTENDED_NAME_FORMAT",
+"u": "aa450831(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "AllocPhysMem",
+"u": "aa450785(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CacheRangeFlush",
+"u": "aa450787(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CacheSync",
+"u": "aa450788(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeGetCacheInfo",
+"u": "aa450791(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeGetCurrentTrust",
+"u": "aa450793(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeGetRandomSeed",
+"u": "aa450794(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeSetMemoryAttributes",
+"u": "ms885152(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeSetPowerOnEvent",
+"u": "ms885153(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CeVirtualSharedAlloc",
+"u": "ms885157(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CreateStaticMapping",
+"u": "ms885185(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "CreateWatchDogTimer",
+"u": "ms885190(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonClear",
+"u": "ms885203(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonFlush",
+"u": "ms885204(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonGetSize",
+"u": "ms885205(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonReadData",
+"u": "ms885206(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "DrWatsonWriteData",
+"u": "ms885207(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ForcePageout",
+"u": "ms885598(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "FreePhysMem",
+"u": "ms885603(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetCallerProcess",
+"u": "ms885604(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetCurrentPermissions",
+"u": "ms885612(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetEPC",
+"u": "ms885618(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetEventData",
+"u": "ms885619(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetOwnerProcess",
+"u": "ms885633(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetStdioPathW",
+"u": "ms885637(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetSystemMemoryDivision",
+"u": "ms885639(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "GetThreadCallStack",
+"u": "ms885641(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "HookInterrupt",
+"u": "ms885664(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "InterruptDisable",
+"u": "ms885675(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "InterruptDone",
+"u": "ms885676(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "InterruptInitialize",
+"u": "ms885677(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "InterruptMask",
+"u": "ms885678(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "INTERRUPTS_ENABLE",
+"u": "ms885679(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "INTERRUPTS_OFF",
+"u": "ms885680(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "INTERRUPTS_ON",
+"u": "ms885681(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "IsAPIReady",
+"u": "ms885686(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "IsNamedEventSignaled",
+"u": "ms886725(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ISRHandler",
+"u": "ms886727(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "KCompareFileTime",
+"u": "ms886728(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "KernelIoControl",
+"u": "ms886729(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "KernelLibIoControl",
+"u": "ms886730(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "KFileTimeToSystemTime",
+"u": "ms886731(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "KSystemTimeToFileTime",
+"u": "ms886732(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "LoadDriver",
+"u": "ms886735(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "LockPages",
+"u": "ms886744(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "MapCallerPtr",
+"u": "ms886749(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "MapPtrToProcess",
+"u": "ms886751(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "OpenWatchDogTimer",
+"u": "ms886767(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "PageOutModule",
+"u": "ms886771(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfileCaptureStatus",
+"u": "ms886776(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfilerHit",
+"u": "ms886779(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfilerHitEx",
+"u": "ms886780(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfileStart",
+"u": "ms886781(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfileStartEx",
+"u": "ms886782(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "ProfileStop",
+"u": "ms886783(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "RefreshWatchDogTimer",
+"u": "ms886795(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetDbgZone",
+"u": "ms886809(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetEventData",
+"u": "ms886811(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetInterruptEvent",
+"u": "ms886813(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetJITDebuggerPath",
+"u": "ms886814(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetKernelCommDev",
+"u": "ms886815(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetKMode",
+"u": "ms886816(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetProcPermissions",
+"u": "ms886819(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetStdioPathW",
+"u": "ms886820(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetStoreQueueBase",
+"u": "ms886821(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SetSystemMemoryDivision",
+"u": "ms886822(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "SleepTillTick",
+"u": "aa450901(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "StartWatchDogTimer",
+"u": "aa450903(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "StopWatchDogTimer",
+"u": "aa450905(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "UnhookInterrupt",
+"u": "aa450961(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "UnlockPages",
+"u": "aa450966(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "UnMapPtr",
+"u": "aa450968(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "VirtualCopy",
+"u": "aa450977(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Functions",
+"t": "VirtualSetAttributes",
+"u": "aa450982(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Global Variables",
+"t": "cbNKPagingPoolSize",
+"u": "aa451041(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Macros",
+"t": "IsInPwrHdlr",
+"u": "ms886723(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "CacheInfo",
+"u": "aa450786(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "CallSnapshot",
+"u": "aa450789(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "CallSnapshotEx",
+"u": "aa450790(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "OEMProfilerData",
+"u": "ms886763(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "ProfilerControl",
+"u": "ms886778(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "ROMHDR",
+"u": "ms886802(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "XIPCHAIN_ENTRY",
+"u": "aa450995(v=msdn.10)"
+},
+{
+"area": "kernel",
+"sub": "Kernel Structures",
+"t": "XIPCHAIN_INFO",
+"u": "aa450996(v=msdn.10)"
+}
+]

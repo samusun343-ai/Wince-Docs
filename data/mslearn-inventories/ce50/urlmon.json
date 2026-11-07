@@ -1,0 +1,884 @@
+[
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Enumerations",
+"t": "BINDF",
+"u": "aa452098(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Enumerations",
+"t": "BINDINFO_OPTIONS",
+"u": "aa452101(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Enumerations",
+"t": "BINDINFOF",
+"u": "aa452100(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Enumerations",
+"t": "BINDSTATUS",
+"u": "aa452102(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Enumerations",
+"t": "BINDVERB",
+"u": "aa452104(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Enumerations",
+"t": "BSCF",
+"u": "aa452105(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Enumerations",
+"t": "MONIKERPROPERTY",
+"u": "ms918826(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Enumerations",
+"t": "QUERYOPTION",
+"u": "ms918843(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Enumerations",
+"t": "URL_ENCODING",
+"u": "ms918867(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Errors",
+"t": "URL Moniker Error Codes Constants",
+"u": "ms918870(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CoGetClassObjectFromURL",
+"u": "aa452108(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CoInternetCombineUrl",
+"u": "aa452109(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CoInternetQueryInfo",
+"u": "aa452118(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CopyBindInfo",
+"u": "aa452131(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CopyStgMedium",
+"u": "aa452132(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CreateAsyncBindCtx",
+"u": "aa452136(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CreateAsyncBindCtxEx",
+"u": "aa452138(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CreateFormatEnumerator",
+"u": "aa452140(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CreateURLMoniker",
+"u": "aa452144(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "CreateURLMonikerEx",
+"u": "aa452146(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "FindMediaType",
+"u": "aa452199(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "FindMediaTypeClass",
+"u": "aa452201(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "FindMimeFromData",
+"u": "aa452204(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "GetClassFileOrMime",
+"u": "ms906288(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "IsAsyncMoniker",
+"u": "ms918804(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "IsValidURL",
+"u": "ms918810(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "MkParseDisplayNameEx",
+"u": "ms918822(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "ObtainUserAgentString",
+"u": "ms918829(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "RegisterBindStatusCallback",
+"u": "ms918844(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "RegisterFormatEnumerator",
+"u": "ms918845(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "RegisterMediaTypeClass",
+"u": "ms918846(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "RegisterMediaTypes",
+"u": "ms918847(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "ReleaseBindInfo",
+"u": "ms918848(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "RevokeBindStatusCallback",
+"u": "ms918850(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "RevokeFormatEnumerator",
+"u": "ms918851(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "URLDownloadToCacheFile",
+"u": "ms918865(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "URLDownloadToFile",
+"u": "ms918866(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "UrlMkGetSessionOption",
+"u": "ms918868(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "UrlMkSetSessionOption",
+"u": "ms918869(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "URLOpenBlockingStream",
+"u": "ms918871(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "URLOpenPullStream",
+"u": "ms918872(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Functions",
+"t": "URLOpenStream",
+"u": "ms918873(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IAsyncMoniker",
+"u": "ms906353(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IAuthenticate::Authenticate",
+"u": "ms906355(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindHost::CreateMoniker",
+"u": "ms906357(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindHost::MonikerBindToObject",
+"u": "ms906358(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindHost::MonikerBindToStorage",
+"u": "ms906359(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBinding::Abort",
+"u": "ms906361(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBinding::GetBindResult",
+"u": "ms906362(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBinding::GetPriority",
+"u": "ms906363(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBinding::Resume",
+"u": "ms906364(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindStatusCallback::GetBindInfo",
+"u": "ms906366(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindStatusCallback::GetPriority",
+"u": "ms906367(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindStatusCallback::OnDataAvailable",
+"u": "ms906368(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindStatusCallback::OnObjectAvailable",
+"u": "ms906369(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindStatusCallback::OnProgress",
+"u": "ms906370(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindStatusCallback::OnStartBinding",
+"u": "ms906371(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IBindStatusCallback::OnStopBinding",
+"u": "ms906372(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IHttpNegotiate::BeginningTransaction",
+"u": "aa452286(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IHttpNegotiate::OnResponse",
+"u": "aa452288(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IHttpSecurity::OnSecurityProblem",
+"u": "aa452291(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IMonikerProp::PutProperty",
+"u": "ms918294(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IPersistMoniker::GetClassID",
+"u": "ms918775(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IPersistMoniker::GetCurMoniker",
+"u": "ms918789(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IPersistMoniker::IsDirty",
+"u": "ms918798(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IPersistMoniker::Load",
+"u": "ms918800(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IPersistMoniker::Save",
+"u": "ms918801(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IPersistMoniker::SaveCompleted",
+"u": "ms918802(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IWindowForBindingUI::GetWindow",
+"u": "ms918812(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IWinInetHttpInfo::QueryInfo",
+"u": "ms918814(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Interfaces",
+"t": "IWinInetInfo::QueryOption",
+"u": "ms918816(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Moniker Services Structures",
+"t": "BINDINFO",
+"u": "aa452099(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Enumerations",
+"t": "BINDSTRING",
+"u": "aa452103(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Enumerations",
+"t": "PARSEACTION",
+"u": "ms918832(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Enumerations",
+"t": "PI_FLAGS",
+"u": "ms918833(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Functions",
+"t": "CoInternetGetProtocolFlags",
+"u": "aa452110(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Functions",
+"t": "CoInternetGetSession",
+"u": "aa452114(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Functions",
+"t": "CoInternetParseUrl",
+"u": "aa452117(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternet",
+"u": "aa452292(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetBindInfo::GetBindInfo",
+"u": "aa452294(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetBindInfo::GetBindString",
+"u": "aa452295(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetPriority::GetPriority",
+"u": "aa452301(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetPriority::SetPriority",
+"u": "aa452302(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocol::LockRequest",
+"u": "aa452309(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocol::Read",
+"u": "aa452310(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocol::Seek",
+"u": "aa452316(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocol::UnlockRequest",
+"u": "aa452326(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolInfo::CombineUrl",
+"u": "aa452305(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolInfo::CompareUrl",
+"u": "aa452306(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolInfo::ParseUrl",
+"u": "aa452307(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolInfo::QueryInfo",
+"u": "aa452308(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolRoot::Abort",
+"u": "aa452312(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolRoot::Continue",
+"u": "aa452313(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolRoot::Start",
+"u": "aa452314(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolRoot::Terminate",
+"u": "aa452315(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolSink::ReportData",
+"u": "aa452318(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolSink::ReportProgress",
+"u": "aa452319(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolSink::ReportResult",
+"u": "aa452320(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolSink::Switch",
+"u": "aa452325(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolSinkStackable::CommitSwitch",
+"u": "aa452322(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolSinkStackable::RollbackSwitch",
+"u": "aa452323(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetProtocolSinkStackable::SwitchSink",
+"u": "aa452324(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetSession::RegisterMimeFilter",
+"u": "aa452341(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetSession::RegisterNameSpace",
+"u": "aa452342(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetSession::UnregisterMimeFilter",
+"u": "aa452343(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Interfaces",
+"t": "IInternetSession::UnregisterNameSpace",
+"u": "aa452344(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Structures",
+"t": "PROTOCOLDATA",
+"u": "ms918838(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "Asynchronous Pluggable Protocols Structures",
+"t": "PROTOCOLFILTERDATA",
+"u": "ms918839(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Settings",
+"t": "Internet Zone Settings",
+"u": "aa452027(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Settings",
+"t": "Local Intranet Zone Settings",
+"u": "aa452033(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Settings",
+"t": "Restricted Sites Zone Settings",
+"u": "ms905325(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Settings",
+"t": "Trusted Sites Zone Settings",
+"u": "ms905634(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Constants",
+"t": "URL Action Flags",
+"u": "ms918863(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Constants",
+"t": "URL Policy Flags",
+"u": "ms918874(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Enumerations",
+"t": "PSUACTION",
+"u": "ms918840(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Enumerations",
+"t": "PUAF",
+"u": "ms918841(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Enumerations",
+"t": "SZM_FLAGS",
+"u": "ms918860(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Enumerations",
+"t": "URLTEMPLATE",
+"u": "ms918875(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Enumerations",
+"t": "URLZONE",
+"u": "ms918876(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Enumerations",
+"t": "URLZONEREG",
+"u": "ms918877(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Enumerations",
+"t": "ZAFLAGS",
+"u": "ms918890(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Functions",
+"t": "CoInternetGetSecurityUrl",
+"u": "aa452113(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetHostSecurityManager::GetSecurityId",
+"u": "aa452297(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetHostSecurityManager::ProcessUrlAction",
+"u": "aa452298(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetHostSecurityManager::QueryCustomPolicy",
+"u": "aa452299(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityManager::GetSecurityId",
+"u": "aa452328(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityManager::GetSecuritySite",
+"u": "aa452329(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityManager::GetZoneMappings",
+"u": "aa452330(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityManager::MapUrlToZone",
+"u": "aa452331(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityManager::ProcessUrlAction",
+"u": "aa452332(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityManager::QueryCustomPolicy",
+"u": "aa452334(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityManager::SetSecuritySite",
+"u": "aa452335(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityManager::SetZoneMapping",
+"u": "aa452336(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityMgrSite::EnableModeless",
+"u": "aa452338(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetSecurityMgrSite::GetWindow",
+"u": "aa452339(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetZoneManager::CreateZoneEnumerator",
+"u": "aa452346(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetZoneManager::DestroyZoneEnumerator",
+"u": "aa452347(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetZoneManager::GetZoneActionPolicy",
+"u": "aa452348(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetZoneManager::GetZoneAt",
+"u": "aa452349(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetZoneManager::GetZoneAttributes",
+"u": "aa452350(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetZoneManager::GetZoneCustomPolicy",
+"u": "aa452351(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetZoneManager::SetZoneActionPolicy",
+"u": "aa452352(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetZoneManager::SetZoneAttributes",
+"u": "aa452353(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Interfaces",
+"t": "IInternetZoneManager::SetZoneCustomPolicy",
+"u": "aa452354(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Objects",
+"t": "Internet Security Manager",
+"u": "aa452025(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Objects",
+"t": "Internet Zone Manager",
+"u": "aa452026(v=msdn.10)"
+},
+{
+"area": "urlmon",
+"sub": "URL Security Zones Structures",
+"t": "ZONEATTRIBUTES",
+"u": "ms918891(v=msdn.10)"
+}
+]

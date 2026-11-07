@@ -1,0 +1,350 @@
+[
+{
+"area": "obex",
+"sub": "OBEX Functions",
+"t": "ServerCallback",
+"u": "ee494075(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Functions",
+"t": "ServiceCallback",
+"u": "ee493247(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Enumerations",
+"t": "OBEX_EVENT",
+"u": "ee493664(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddAppParams",
+"u": "ee494479(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddBody",
+"u": "ee494464(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddByte",
+"u": "ee494892(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddByteArray",
+"u": "ee493250(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddConnectionId",
+"u": "ee495168(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddCount",
+"u": "ee494905(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddDescription",
+"u": "ee493880(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddEndOfBody",
+"u": "ee494891(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddHTTP",
+"u": "ee494844(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddLength",
+"u": "ee494646(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddLong",
+"u": "ee493100(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddName",
+"u": "ee494705(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddObjectClass",
+"u": "ee494889(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddTarget",
+"u": "ee495254(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddTime",
+"u": "ee493297(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddTimeOld",
+"u": "ee493856(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddType",
+"u": "ee493268(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddUnicodeString",
+"u": "ee495174(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddWho",
+"u": "ee494095(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::EnumHeaders",
+"u": "ee493478(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::Remove",
+"u": "ee493037(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::RemoveAll",
+"u": "ee494845(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexSink::Notify",
+"u": "ee494263(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IPropertyBagEnum::Clone",
+"u": "ee493651(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IPropertyBagEnum::Next",
+"u": "ee493909(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IPropertyBagEnum::Reset",
+"u": "ee494326(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IPropertyBagEnum::Skip",
+"u": "ee493656(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::BindToDevice",
+"u": "ee494030(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::EnumDevices",
+"u": "ee494890(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::EnumTransports",
+"u": "ee494041(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::Initialize",
+"u": "ee494493(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::Shutdown",
+"u": "ee494883(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::StartDeviceEnum",
+"u": "ee494506(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::StopDeviceEnum",
+"u": "ee494301(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IDeviceEnum::Clone",
+"u": "ee493429(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IDeviceEnum::Next",
+"u": "ee494512(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IDeviceEnum::Reset",
+"u": "ee494290(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IDeviceEnum::Skip",
+"u": "ee494106(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Abort",
+"u": "ee493480(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Connect",
+"u": "ee494718(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Disconnect",
+"u": "ee494700(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::EnumProperties",
+"u": "ee494930(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Get",
+"u": "ee494714(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Put",
+"u": "ee493212(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::SetPassword",
+"u": "ee493078(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::SetPath",
+"u": "ee493214(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexResponse::GetLastResponseCode",
+"u": "ee493822(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderEnum::Clone",
+"u": "ee493709(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderEnum::Next",
+"u": "ee493282(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderEnum::Reset",
+"u": "ee493827(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "INBOX_EVENT_DATA",
+"u": "ee493091(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "OBEX_HEADER",
+"u": "ee493481(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "OBEX_REQUEST",
+"u": "ee493504(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "OBEXCOMMAND",
+"u": "ee494039(v=winembedded.60)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "OBEXTRANSACTION",
+"u": "ee494876(v=winembedded.60)"
+}
+]

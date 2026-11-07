@@ -152,3 +152,28 @@ Status: living document | Each item has an owner-role and a resolution method. N
 
 * **State:** CE-only IME message documented by name (winuser.h page) with no value in any approved source.
 * **Resolution (Role A):** permissively-licensed IME-era article; else the name ships in a commented block only (never an invented value).
+
+## OQ-29 — TAPI constant-family numeric values
+
+* **State:** the 64 documented TAPI constant families (`LINEADDRCAPFLAGS`, `LINEBEARERMODE`, `LINECALLFEATURE`, `PHONEBUTTONMODE`, …, `tapi.yaml`) are name-complete but value-open: `tapi.h` is not in the audited w32api lineage, and mingw-w64's `tapi.h` reuse is deferred pending its per-file license scan (`docs/02-sources/audits/mingw-w64.md` §4.2).
+* **Resolution:** Role A: complete the mingw-w64 per-file audit for `tapi.h` specifically (public-domain marking check) — if clean, add as Class B channel; else Role C on-device probing with desktop-known candidates (TAPI 2.x values are desktop-stable).
+
+## OQ-30 — Bluetooth constant values (`BTH_*`, `OBEX_*`)
+
+* **State:** the CE Bluetooth/OBEX constants (24 `BTH_*` records, OBEX enum) are documented by name only; no audited lineage header covers them (`ws2bth.h` is not in the w32api lineage).
+* **Resolution:** Role C probe sweep on a BT-equipped CE 5/6 image; values recorded to the fact DB before any header emission.
+
+## OQ-31 — CEDB vs EDB same-name layout divergence
+
+* **State:** the Database Reference documents structurally different APIs under equal names (`CEDBASEINFOEX`, `CeChangeDatabaseLCID`, … — variant-suffixed records `_CEDB`/`_EDB` in `database.yaml`).
+* **Resolution:** Role C `sizeof`/field-probe battery on 4.x (CEDB) vs 5.0+ (EDB) images; the two declarations stay separately gated and are never merged.
+
+## OQ-32 — GPS Intermediate Driver constants (`GPS_*`)
+
+* **State:** `gpsapi.h`/`gpsdev.h` constants and enums documented CE 6.0 only, values not stated.
+* **Resolution:** Role C probe on a GPSID image; desktop `gpsapi.h` (Windows 7-era) is a different lineage — do not cross-copy.
+
+## OQ-33 — CE-only waveform gain-control message values
+
+* **State:** `MM_WOM_ATTENUATED`, `MM_WOM_FORCESPEAKER`, `MM_WOM_SETSECONDARYGAINCLASS`, `MM_WOM_SETSECONDARYGAINLIMIT` are CE-only documented messages with no numeric value in any approved source.
+* **Resolution:** Role C message-id sweep on CE 5/6 audio images (candidates derived from the documented `MM_WOM_*` neighbourhood); never invented in headers.

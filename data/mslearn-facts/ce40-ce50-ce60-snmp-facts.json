@@ -1,0 +1,2378 @@
+[
+ {
+  "name": "SnmpExtensionClose",
+  "title": "SnmpExtensionClose",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927046(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpExtensionClose();",
+  "code_blocks": [
+   "VOID SnmpExtensionClose();"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionInit",
+  "title": "SnmpExtensionInit",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927051(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionInit( DWORD dwUptimeReference, Handle dwUptimeReference, AsnObjectIdentifier pFirstSupportedRegion )",
+  "code_blocks": [
+   "BOOL SnmpExtensionInit( DWORD dwUptimeReference, Handle dwUptimeReference, AsnObjectIdentifier pFirstSupportedRegion )"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionInitEx",
+  "title": "SnmpExtensionInitEx",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927054(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionInitEx( AsnObjectIdentifier* pNextSupportedRegion );",
+  "code_blocks": [
+   "BOOL SnmpExtensionInitEx( AsnObjectIdentifier* pNextSupportedRegion );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionQuery",
+  "title": "SnmpExtensionQuery",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927057(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionQuery( BYTE bPduType, SnmpVarBindList pVarBindList, AsnInteger32 pErrorStatus, AsnInteger32 pErrorIndex );",
+  "code_blocks": [
+   "BOOL SnmpExtensionQuery( BYTE bPduType, SnmpVarBindList pVarBindList, AsnInteger32 pErrorStatus, AsnInteger32 pErrorIndex );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionQueryEx",
+  "title": "SnmpExtensionQueryEx",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927060(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionQueryEx( DWORD dwRequestType, DWORD dwTransactionId, SnmpVarBindList pVarBindList, AsnOctetString pContextInfo, AsnInteger32 pErrorStatus, AsnInteger32 pErrorIndex );",
+  "code_blocks": [
+   "BOOL SnmpExtensionQueryEx( DWORD dwRequestType, DWORD dwTransactionId, SnmpVarBindList pVarBindList, AsnOctetString pContextInfo, AsnInteger32 pErrorStatus, AsnInteger32 pErrorIndex );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionTrap",
+  "title": "SnmpExtensionTrap",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927063(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionTrap( AsnObjectIdentifier pEnterpriseOid, AsnInteger32 pGenericTrapId, AsnInteger32 pSpecificTrapId, AsnTimeticks pTimeStamp, SnmpVarBindList pVarBindList );",
+  "code_blocks": [
+   "BOOL SnmpExtensionTrap( AsnObjectIdentifier pEnterpriseOid, AsnInteger32 pGenericTrapId, AsnInteger32 pSpecificTrapId, AsnTimeticks pTimeStamp, SnmpVarBindList pVarBindList );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpSvcGetUptime",
+  "title": "SnmpSvcGetUptime",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927065(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SnmpSvcGetUptime();",
+  "code_blocks": [
+   "DWORD SnmpSvcGetUptime();"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpSvcSetLogLevel",
+  "title": "SnmpSvcSetLogLevel",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927069(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SnmpSvcSetLogLevel( INT nLogLevel );",
+  "code_blocks": [
+   "DWORD SnmpSvcSetLogLevel( INT nLogLevel );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpSvcSetLogType",
+  "title": "SnmpSvcSetLogType",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927071(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SnmpSvcSetLogType( INT nLogType );",
+  "code_blocks": [
+   "DWORD SnmpSvcSetLogType( INT nLogType );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpTfxClose",
+  "title": "SnmpTfxClose",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927073(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID WINAPI SnmpTfxClose( SnmpTfxHandle tfxHandle );",
+  "code_blocks": [
+   "VOID WINAPI SnmpTfxClose( SnmpTfxHandle tfxHandle );"
+  ],
+  "requirements": {
+   "header": "Snmpexts.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpTfxOpen",
+  "title": "SnmpTfxOpen",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927076(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SnmpTfxHandle WINAPI SnmpTfxOpen( DWORD numViews, SnmpMibView* supportedViews );",
+  "code_blocks": [
+   "SnmpTfxHandle WINAPI SnmpTfxOpen( DWORD numViews, SnmpMibView* supportedViews );"
+  ],
+  "requirements": {
+   "header": "Snmpexts.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpTfxQuery",
+  "title": "SnmpTfxQuery",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927079(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI SnmpTfxQuery( SnmpTfxHandle tfxHandle, BYTE RequestType, RFC1157VarBindList* pVarBindList, AsnInteger* pErrorStatus, AsnInteger* pErrorIndex );",
+  "code_blocks": [
+   "BOOL WINAPI SnmpTfxQuery( SnmpTfxHandle tfxHandle, BYTE RequestType, RFC1157VarBindList* pVarBindList, AsnInteger* pErrorStatus, AsnInteger* pErrorIndex );"
+  ],
+  "requirements": {
+   "header": "Snmpexts.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilAsnAnyCpy",
+  "title": "SnmpUtilAsnAnyCpy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927083(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilAsnAnyCpy( AsnAny* pAnyDest, AsnAny* pAnySrc );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilAsnAnyCpy( AsnAny* pAnyDest, AsnAny* pAnySrc );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilAsnAnyFree",
+  "title": "SnmpUtilAsnAnyFree",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927087(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilAsnAnyFree( AsnAny* pAny );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilAsnAnyFree( AsnAny* pAny );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilDbgPrint",
+  "title": "SnmpUtilDbgPrint",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927091(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilDbgPrint( INT nLogLevel, LPSTR szFormat );",
+  "code_blocks": [
+   "VOID SnmpUtilDbgPrint( INT nLogLevel, LPSTR szFormat );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilIdsToA",
+  "title": "SnmpUtilIdsToA",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927095(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPSTR SnmpUtilIdsToA( UINT Ids, UINT IdLength );",
+  "code_blocks": [
+   "LPSTR SnmpUtilIdsToA( UINT Ids, UINT IdLength );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "Return Values The function returns a null-terminated string of ANSI characters that contains the string representation of the array of numbers pointed to by the Ids parameter.",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilIdsToW",
+  "title": "SnmpUtilIdsToW",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927099(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPTSTR SnmpUtilIdsToW( UINT Ids, UINT IdLength );",
+  "code_blocks": [
+   "LPTSTR SnmpUtilIdsToW( UINT Ids, UINT IdLength );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "Return Values The function returns a Unicode-based string of ANSI characters that contains the string representation of the array of numbers pointed to by the Ids parameter.",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilMemAlloc",
+  "title": "SnmpUtilMemAlloc",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927102(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID SnmpUtilMemAlloc( UINT nBytes );",
+  "code_blocks": [
+   "LPVOID SnmpUtilMemAlloc( UINT nBytes );"
+  ],
+  "requirements": {
+   "header": "Snmpapi.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilMemFree",
+  "title": "SnmpUtilMemFree",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927106(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilMemFree( LPVOID pMem );",
+  "code_blocks": [
+   "VOID SnmpUtilMemFree( LPVOID pMem );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilMemReAlloc",
+  "title": "SnmpUtilMemReAlloc",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927110(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID SnmpUtilMemReAlloc( LPVOID pmem, UINT nBytes );",
+  "code_blocks": [
+   "LPVOID SnmpUtilMemReAlloc( LPVOID pmem, UINT nBytes );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsCmp",
+  "title": "SnmpUtilOctetsCmp",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927115(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOctetsComp( AsnOctetString pOctets1, AsnOctetString pOctets2 );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOctetsComp( AsnOctetString pOctets1, AsnOctetString pOctets2 );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsCpy",
+  "title": "SnmpUtilOctetsCpy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927119(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOctetsCpy( AsnOctetString pOctetsDest, AsnOctetString pOctetsSrc );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOctetsCpy( AsnOctetString pOctetsDest, AsnOctetString pOctetsSrc );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsFree",
+  "title": "SnmpUtilOctetsFree",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927121(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilOctetsFree( AsnOctetString* pOctetsDst );",
+  "code_blocks": [
+   "VOID SnmpUtilOctetsFree( AsnOctetString* pOctetsDst );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsNCmp",
+  "title": "SnmpUtilOctetsNCmp",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927125(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOctetsFree( AsnOctetString* pOctets1, AsnOctetString* pOctets2, UINT nChars );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOctetsFree( AsnOctetString* pOctets1, AsnOctetString* pOctets2, UINT nChars );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidAppend",
+  "title": "SnmpUtilOidAppend",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927126(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOidAppend( AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOidAppend( AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidCmp",
+  "title": "SnmpUtilOidCmp",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927129(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOidCmp( AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2 );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOidCmp( AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2 );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidCpy",
+  "title": "SnmpUtilOidCpy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927131(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOidCpy( AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOidCpy( AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidFree",
+  "title": "SnmpUtilOidFree",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927134(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilOidFree( AsnObjectIdentifier* pOid );",
+  "code_blocks": [
+   "VOID SnmpUtilOidFree( AsnObjectIdentifier* pOid );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidNCmp",
+  "title": "SnmpUtilOidNCmp",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927135(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilOidFree( AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2, UINT nSubIds );",
+  "code_blocks": [
+   "VOID SnmpUtilOidFree( AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2, UINT nSubIds );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidToA",
+  "title": "SnmpUtilOidToA",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927138(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPSTR SnmpUtilOidToA( AsnObjectIdentifier Oid );",
+  "code_blocks": [
+   "LPSTR SnmpUtilOidToA( AsnObjectIdentifier Oid );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidToW",
+  "title": "SnmpUtilOidToW",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927140(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPTSTR SnmpUtilOidToW( AsnObjectIdentifier Oid );",
+  "code_blocks": [
+   "LPTSTR SnmpUtilOidToW( AsnObjectIdentifier Oid );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilPrintToStrAsnAny",
+  "title": "SnmpUtilPrintToStrAsnAny",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927142(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilPrintToStrAsnAny( AsnAny* pAny );",
+  "code_blocks": [
+   "VOID SnmpUtilPrintToStrAsnAny( AsnAny* pAny );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "The SnmpUtilPrintToStrAsnAny is specific to Windows CE.",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindCpy",
+  "title": "SnmpUtilVarBindCpy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927144(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindCpy( SnmpVarBind* pVbDest, SnmpVarBind* pVbSrc );",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindCpy( SnmpVarBind* pVbDest, SnmpVarBind* pVbSrc );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindFree",
+  "title": "SnmpUtilVarBindFree",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927148(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindFree( SnmpVarBind* pVb );",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindFree( SnmpVarBind* pVb );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindListCpy",
+  "title": "SnmpUtilVarBindListCpy",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927149(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindListCpy( SnmpVarBindList* pVblDst, SnmpVarBindList* pVblSrc );",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindListCpy( SnmpVarBindList* pVblDst, SnmpVarBindList* pVblSrc );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindListFree",
+  "title": "SnmpUtilVarBindListFree",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927152(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindListFree( SnmpVarBindList* pVbl );",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindListFree( SnmpVarBindList* pVbl );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "AsnAny",
+  "title": "AsnAny",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927024(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { BYTE asnType; union { AsnInteger32 number; AsnUnsigned32 unsigned32; AsnCounter64 counter64; AsnOctetString string; AsnBits bits; AsnObjectIdentifier object; AsnSequence sequence; AsnIPAdress address; AsnCounter32 counter32; AsnGauge32 gauge; AsnTimeTicks ticks; AsnOpaque arbitrary; } asnValue; } AsnAny;",
+  "code_blocks": [
+   "typedef struct { BYTE asnType; union { AsnInteger32 number; AsnUnsigned32 unsigned32; AsnCounter64 counter64; AsnOctetString string; AsnBits bits; AsnObjectIdentifier object; AsnSequence sequence; AsnIPAdress address; AsnCounter32 counter32; AsnGauge32 gauge; AsnTimeTicks ticks; AsnOpaque arbitrary; } asnValue; } AsnAny;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "AsnCounter64",
+  "title": "AsnCounter64",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927030(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { ULONG LowPart; ULONG HighPart; } AsnCounter64;",
+  "code_blocks": [
+   "typedef struct { ULONG LowPart; ULONG HighPart; } AsnCounter64;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "AsnObjectIdentifier",
+  "title": "AsnObjectIdentifier",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927036(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { UINT idLength; UINT* ids; } AsnObjectIdentifier;",
+  "code_blocks": [
+   "typedef struct { UINT idLength; UINT* ids; } AsnObjectIdentifier;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "AsnOctetString",
+  "title": "AsnOctetString",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927041(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { BYTE* stream; UINT length; BOOL dynamic; } AsnOctetString;",
+  "code_blocks": [
+   "typedef struct { BYTE* stream; UINT length; BOOL dynamic; } AsnOctetString;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "SnmpVarBind",
+  "title": "SnmpVarBind",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927154(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { AsnObjectName name; AsnObjectSyntax value; }SnmpVarBind;",
+  "code_blocks": [
+   "typedef struct { AsnObjectName name; AsnObjectSyntax value; }SnmpVarBind;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "SnmpVarBindList",
+  "title": "SnmpVarBindList",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927156(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { SnmpVarBind* list; UINT len; }SnmpVarBindList;",
+  "code_blocks": [
+   "typedef struct { SnmpVarBind* list; UINT len; }SnmpVarBindList;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "SnmpExtensionClose",
+  "title": "SnmpExtensionClose (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896018(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpExtensionClose();",
+  "code_blocks": [
+   "VOID SnmpExtensionClose();"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionInit",
+  "title": "SnmpExtensionInit (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896019(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionInit(DWORDdwUptimeReference,Handle dwUptimeReference, AsnObjectIdentifierpFirstSupportedRegion);",
+  "code_blocks": [
+   "BOOL SnmpExtensionInit(DWORDdwUptimeReference,Handle dwUptimeReference, AsnObjectIdentifierpFirstSupportedRegion);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionInitEx",
+  "title": "SnmpExtensionInitEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896020(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionInitEx(AsnObjectIdentifier* pNextSupportedRegion );",
+  "code_blocks": [
+   "BOOL SnmpExtensionInitEx(AsnObjectIdentifier* pNextSupportedRegion );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionQuery",
+  "title": "SnmpExtensionQuery (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896021(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionQuery(BYTEbPduType,SnmpVarBindList pVarBindList,AsnInteger32pErrorStatus,AsnInteger32 pErrorIndex );",
+  "code_blocks": [
+   "BOOL SnmpExtensionQuery(BYTEbPduType,SnmpVarBindList pVarBindList,AsnInteger32pErrorStatus,AsnInteger32 pErrorIndex );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionQueryEx",
+  "title": "SnmpExtensionQueryEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896022(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionQueryEx(DWORD dwRequestType,DWORD dwTransactionId,SnmpVarBindListpVarBindList,AsnOctetStringpContextInfo,AsnInteger32 pErrorStatus,AsnInteger32pErrorIndex );",
+  "code_blocks": [
+   "BOOL SnmpExtensionQueryEx(DWORD dwRequestType,DWORD dwTransactionId,SnmpVarBindListpVarBindList,AsnOctetStringpContextInfo,AsnInteger32 pErrorStatus,AsnInteger32pErrorIndex );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionTrap",
+  "title": "SnmpExtensionTrap (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896023(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionTrap(AsnObjectIdentifierpEnterpriseOid,AsnInteger32 pGenericTrapId,AsnInteger32 pSpecificTrapId,AsnTimetickspTimeStamp,SnmpVarBindList pVarBindList );",
+  "code_blocks": [
+   "BOOL SnmpExtensionTrap(AsnObjectIdentifierpEnterpriseOid,AsnInteger32 pGenericTrapId,AsnInteger32 pSpecificTrapId,AsnTimetickspTimeStamp,SnmpVarBindList pVarBindList );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpSvcGetUptime",
+  "title": "SnmpSvcGetUptime (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896024(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SnmpSvcGetUptime();",
+  "code_blocks": [
+   "DWORD SnmpSvcGetUptime();"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpSvcSetLogLevel",
+  "title": "SnmpSvcSetLogLevel (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896025(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SnmpSvcSetLogLevel(INTnLogLevel);",
+  "code_blocks": [
+   "DWORD SnmpSvcSetLogLevel(INTnLogLevel);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpSvcSetLogType",
+  "title": "SnmpSvcSetLogType (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896026(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SnmpSvcSetLogType(INTnLogType);",
+  "code_blocks": [
+   "DWORD SnmpSvcSetLogType(INTnLogType);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpTfxClose",
+  "title": "SnmpTfxClose (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896028(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID WINAPI SnmpTfxClose(SnmpTfxHandletfxHandle );",
+  "code_blocks": [
+   "VOID WINAPI SnmpTfxClose(SnmpTfxHandletfxHandle );"
+  ],
+  "requirements": {
+   "header": "Snmpexts.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpTfxOpen",
+  "title": "SnmpTfxOpen (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896029(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SnmpTfxHandle WINAPI SnmpTfxOpen(DWORDnumViews,SnmpMibView* supportedViews );",
+  "code_blocks": [
+   "SnmpTfxHandle WINAPI SnmpTfxOpen(DWORDnumViews,SnmpMibView* supportedViews );"
+  ],
+  "requirements": {
+   "header": "Snmpexts.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpTfxQuery",
+  "title": "SnmpTfxQuery (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896030(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI SnmpTfxQuery(SnmpTfxHandletfxHandle,BYTERequestType,RFC1157VarBindList* pVarBindList,AsnInteger* pErrorStatus,AsnInteger* pErrorIndex);",
+  "code_blocks": [
+   "BOOL WINAPI SnmpTfxQuery(SnmpTfxHandletfxHandle,BYTERequestType,RFC1157VarBindList* pVarBindList,AsnInteger* pErrorStatus,AsnInteger* pErrorIndex);"
+  ],
+  "requirements": {
+   "header": "Snmpexts.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilAsnAnyCpy",
+  "title": "SnmpUtilAsnAnyCpy (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896031(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilAsnAnyCpy(AsnAny* pAnyDest,AsnAny* pAnySrc );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilAsnAnyCpy(AsnAny* pAnyDest,AsnAny* pAnySrc );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilAsnAnyFree",
+  "title": "SnmpUtilAsnAnyFree (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896032(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilAsnAnyFree(AsnAny* pAny);",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilAsnAnyFree(AsnAny* pAny);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilDbgPrint",
+  "title": "SnmpUtilDbgPrint (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896033(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilDbgPrint(INTnLogLevel,LPSTRszFormat);",
+  "code_blocks": [
+   "VOID SnmpUtilDbgPrint(INTnLogLevel,LPSTRszFormat);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilIdsToA",
+  "title": "SnmpUtilIdsToA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896034(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPSTR SnmpUtilIdsToA(UINT Ids,UINT IdLength );",
+  "code_blocks": [
+   "LPSTR SnmpUtilIdsToA(UINT Ids,UINT IdLength );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "Return Values The function returns a null-terminated string of ANSI characters that contains the string representation of the array of numbers pointed to by the Ids parameter.",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilIdsToW",
+  "title": "SnmpUtilIdsToW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896035(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPTSTR SnmpUtilIdsToW(UINT Ids,UINT IdLength );",
+  "code_blocks": [
+   "LPTSTR SnmpUtilIdsToW(UINT Ids,UINT IdLength );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "Return Values The function returns a Unicode-based string of ANSI characters that contains the string representation of the array of numbers pointed to by the Ids parameter.",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilMemAlloc",
+  "title": "SnmpUtilMemAlloc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896036(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID SnmpUtilMemAlloc(UINTnBytes);",
+  "code_blocks": [
+   "LPVOID SnmpUtilMemAlloc(UINTnBytes);"
+  ],
+  "requirements": {
+   "header": "Snmpapi.h",
+   "library": "Snmp.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilMemFree",
+  "title": "SnmpUtilMemFree (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896037(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilMemFree(LPVOID pMem);",
+  "code_blocks": [
+   "VOID SnmpUtilMemFree(LPVOID pMem);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilMemReAlloc",
+  "title": "SnmpUtilMemReAlloc (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896038(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID SnmpUtilMemReAlloc(LPVOID pmem, UINT nBytes );",
+  "code_blocks": [
+   "LPVOID SnmpUtilMemReAlloc(LPVOID pmem, UINT nBytes );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsCmp",
+  "title": "SnmpUtilOctetsCmp (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896039(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOctetsComp(AsnOctetString pOctets1, AsnOctetString pOctets2 );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOctetsComp(AsnOctetString pOctets1, AsnOctetString pOctets2 );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsCpy",
+  "title": "SnmpUtilOctetsCpy (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896040(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPISnmpUtilOctetsCpy(AsnOctetString pOctetsDest,AsnOctetStringpOctetsSrc);",
+  "code_blocks": [
+   "SNMPAPISnmpUtilOctetsCpy(AsnOctetString pOctetsDest,AsnOctetStringpOctetsSrc);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsFree",
+  "title": "SnmpUtilOctetsFree (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896041(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilOctetsFree(AsnOctetString* pOctetsDst);",
+  "code_blocks": [
+   "VOID SnmpUtilOctetsFree(AsnOctetString* pOctetsDst);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsNCmp",
+  "title": "SnmpUtilOctetsNCmp (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896042(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOctetsFree(AsnOctetString* pOctets1, AsnOctetString* pOctets2,UINT nChars);",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOctetsFree(AsnOctetString* pOctets1, AsnOctetString* pOctets2,UINT nChars);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidAppend",
+  "title": "SnmpUtilOidAppend (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896043(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOidAppend(AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc);",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOidAppend(AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidCmp",
+  "title": "SnmpUtilOidCmp (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896044(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOidCmp(AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2);",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOidCmp(AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidCpy",
+  "title": "SnmpUtilOidCpy (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896045(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOidCpy(AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc);",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOidCpy(AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidFree",
+  "title": "SnmpUtilOidFree (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896046(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilOidFree(AsnObjectIdentifier* pOid);",
+  "code_blocks": [
+   "VOID SnmpUtilOidFree(AsnObjectIdentifier* pOid);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidNCmp",
+  "title": "SnmpUtilOidNCmp (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896047(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilOidFree(AsnObjectIdentifier* pOid1,AsnObjectIdentifier* pOid2,UINT nSubIds );",
+  "code_blocks": [
+   "VOID SnmpUtilOidFree(AsnObjectIdentifier* pOid1,AsnObjectIdentifier* pOid2,UINT nSubIds );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidToA",
+  "title": "SnmpUtilOidToA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896048(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPSTR SnmpUtilOidToA(AsnObjectIdentifier Oid );",
+  "code_blocks": [
+   "LPSTR SnmpUtilOidToA(AsnObjectIdentifier Oid );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidToW",
+  "title": "SnmpUtilOidToW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896049(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPTSTR SnmpUtilOidToW(AsnObjectIdentifier Oid );",
+  "code_blocks": [
+   "LPTSTR SnmpUtilOidToW(AsnObjectIdentifier Oid );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilPrintToStrAsnAny",
+  "title": "SnmpUtilPrintToStrAsnAny (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896050(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilPrintToStrAsnAny(AsnAny* pAny );",
+  "code_blocks": [
+   "VOID SnmpUtilPrintToStrAsnAny(AsnAny* pAny );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "The SnmpUtilPrintToStrAsnAny is specific to Windows CE.",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindCpy",
+  "title": "SnmpUtilVarBindCpy (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896051(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindCpy(SnmpVarBind* pVbDest, SnmpVarBind* pVbSrc );",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindCpy(SnmpVarBind* pVbDest, SnmpVarBind* pVbSrc );"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindFree",
+  "title": "SnmpUtilVarBindFree (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896052(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindFree(SnmpVarBind* pVb);",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindFree(SnmpVarBind* pVb);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindListCpy",
+  "title": "SnmpUtilVarBindListCpy (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896053(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindListCpy(SnmpVarBindList* pVblDst,SnmpVarBindList* pVblSrc);",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindListCpy(SnmpVarBindList* pVblDst,SnmpVarBindList* pVblSrc);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindListFree",
+  "title": "SnmpUtilVarBindListFree (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896054(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindListFree(SnmpVarBindList* pVbl);",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindListFree(SnmpVarBindList* pVbl);"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "library": "Snmpapi.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "AsnAny",
+  "title": "AsnAny (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms894988(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {BYTE asnType;union {AsnInteger32 number;AsnUnsigned32 unsigned32;AsnCounter64 counter64;AsnOctetString string;AsnBits bits;AsnObjectIdentifier object;AsnSequence sequence;AsnIPAdress address;AsnCounter32 counter32;AsnGauge32 gauge;AsnTimeTicks ticks;AsnOpaque arbitrary;} asnValue;} AsnAny;",
+  "code_blocks": [
+   "typedef struct {BYTE asnType;union {AsnInteger32 number;AsnUnsigned32 unsigned32;AsnCounter64 counter64;AsnOctetString string;AsnBits bits;AsnObjectIdentifier object;AsnSequence sequence;AsnIPAdress address;AsnCounter32 counter32;AsnGauge32 gauge;AsnTimeTicks ticks;AsnOpaque arbitrary;} asnValue;} AsnAny;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "AsnCounter64",
+  "title": "AsnCounter64 (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms894989(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {ULONG LowPart;ULONGHighPart;} AsnCounter64;",
+  "code_blocks": [
+   "typedef struct {ULONG LowPart;ULONGHighPart;} AsnCounter64;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "AsnObjectIdentifier",
+  "title": "AsnObjectIdentifier (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms894991(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {UINTidLength;UINT* ids;}AsnObjectIdentifier;",
+  "code_blocks": [
+   "typedef struct {UINTidLength;UINT* ids;}AsnObjectIdentifier;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "AsnOctetString",
+  "title": "AsnOctetString (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms894993(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {BYTE* stream;UINT length;BOOLdynamic;} AsnOctetString;",
+  "code_blocks": [
+   "typedef struct {BYTE* stream;UINT length;BOOLdynamic;} AsnOctetString;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "SnmpVarBind",
+  "title": "SnmpVarBind (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896055(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {AsnObjectNamename;AsnObjectSyntaxvalue;}SnmpVarBind;",
+  "code_blocks": [
+   "typedef struct {AsnObjectNamename;AsnObjectSyntaxvalue;}SnmpVarBind;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "SnmpVarBindList",
+  "title": "SnmpVarBindList (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms896056(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {SnmpVarBind* list;UINTlen;}SnmpVarBindList;",
+  "code_blocks": [
+   "typedef struct {SnmpVarBind* list;UINTlen;}SnmpVarBindList;"
+  ],
+  "requirements": {
+   "header": "Snmp.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "SnmpExtensionClose",
+  "title": "SnmpExtensionClose (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489097(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpExtensionClose();",
+  "code_blocks": [
+   "VOID SnmpExtensionClose();"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmp.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionInit",
+  "title": "SnmpExtensionInit (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489093(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionInit( DWORD dwUptimeReference, Handle dwUptimeReference, AsnObjectIdentifier pFirstSupportedRegion );",
+  "code_blocks": [
+   "BOOL SnmpExtensionInit( DWORD dwUptimeReference, Handle dwUptimeReference, AsnObjectIdentifier pFirstSupportedRegion );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmp.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionInitEx",
+  "title": "SnmpExtensionInitEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489339(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionInitEx( AsnObjectIdentifier* pNextSupportedRegion );",
+  "code_blocks": [
+   "BOOL SnmpExtensionInitEx( AsnObjectIdentifier* pNextSupportedRegion );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmp.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionQuery",
+  "title": "SnmpExtensionQuery (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489304(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionQuery( BYTE bPduType, SnmpVarBindList pVarBindList, AsnInteger32 pErrorStatus, AsnInteger32 pErrorIndex );",
+  "code_blocks": [
+   "BOOL SnmpExtensionQuery( BYTE bPduType, SnmpVarBindList pVarBindList, AsnInteger32 pErrorStatus, AsnInteger32 pErrorIndex );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmp.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionQueryEx",
+  "title": "SnmpExtensionQueryEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489416(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionQueryEx( DWORD dwRequestType, DWORD dwTransactionId, SnmpVarBindList pVarBindList, AsnOctetString pContextInfo, AsnInteger32 pErrorStatus, AsnInteger32 pErrorIndex );",
+  "code_blocks": [
+   "BOOL SnmpExtensionQueryEx( DWORD dwRequestType, DWORD dwTransactionId, SnmpVarBindList pVarBindList, AsnOctetString pContextInfo, AsnInteger32 pErrorStatus, AsnInteger32 pErrorIndex );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmp.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpExtensionTrap",
+  "title": "SnmpExtensionTrap (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489068(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SnmpExtensionTrap( AsnObjectIdentifier pEnterpriseOid, AsnInteger32 pGenericTrapId, AsnInteger32 pSpecificTrapId, AsnTimeticks pTimeStamp, SnmpVarBindList pVarBindList );",
+  "code_blocks": [
+   "BOOL SnmpExtensionTrap( AsnObjectIdentifier pEnterpriseOid, AsnInteger32 pGenericTrapId, AsnInteger32 pSpecificTrapId, AsnTimeticks pTimeStamp, SnmpVarBindList pVarBindList );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmp.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpSvcGetUptime",
+  "title": "SnmpSvcGetUptime (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489404(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SnmpSvcGetUptime();",
+  "code_blocks": [
+   "DWORD SnmpSvcGetUptime();"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpSvcSetLogLevel",
+  "title": "SnmpSvcSetLogLevel (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489296(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SnmpSvcSetLogLevel( INT nLogLevel );",
+  "code_blocks": [
+   "DWORD SnmpSvcSetLogLevel( INT nLogLevel );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpSvcSetLogType",
+  "title": "SnmpSvcSetLogType (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489352(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SnmpSvcSetLogType( INT nLogType );",
+  "code_blocks": [
+   "DWORD SnmpSvcSetLogType( INT nLogType );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpTfxClose",
+  "title": "SnmpTfxClose (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489435(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID WINAPI SnmpTfxClose( SnmpTfxHandle tfxHandle );",
+  "code_blocks": [
+   "VOID WINAPI SnmpTfxClose( SnmpTfxHandle tfxHandle );"
+  ],
+  "requirements": {
+   "header": "snmpexts.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpTfxOpen",
+  "title": "SnmpTfxOpen (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489090(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SnmpTfxHandle WINAPI SnmpTfxOpen( DWORD numViews, SnmpMibView* supportedViews );",
+  "code_blocks": [
+   "SnmpTfxHandle WINAPI SnmpTfxOpen( DWORD numViews, SnmpMibView* supportedViews );"
+  ],
+  "requirements": {
+   "header": "snmpexts.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpTfxQuery",
+  "title": "SnmpTfxQuery (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489248(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI SnmpTfxQuery( SnmpTfxHandle tfxHandle, BYTE RequestType, RFC1157VarBindList* pVarBindList, AsnInteger* pErrorStatus, AsnInteger* pErrorIndex );",
+  "code_blocks": [
+   "BOOL WINAPI SnmpTfxQuery( SnmpTfxHandle tfxHandle, BYTE RequestType, RFC1157VarBindList* pVarBindList, AsnInteger* pErrorStatus, AsnInteger* pErrorIndex );"
+  ],
+  "requirements": {
+   "header": "snmpexts.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilAsnAnyCpy",
+  "title": "SnmpUtilAsnAnyCpy (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489357(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilAsnAnyCpy( AsnAny* pAnyDest, AsnAny* pAnySrc );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilAsnAnyCpy( AsnAny* pAnyDest, AsnAny* pAnySrc );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilAsnAnyFree",
+  "title": "SnmpUtilAsnAnyFree (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489319(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilAsnAnyFree( AsnAny* pAny );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilAsnAnyFree( AsnAny* pAny );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilDbgPrint",
+  "title": "SnmpUtilDbgPrint (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489448(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilDbgPrint( INT nLogLevel, LPSTR szFormat );",
+  "code_blocks": [
+   "VOID SnmpUtilDbgPrint( INT nLogLevel, LPSTR szFormat );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilIdsToA",
+  "title": "SnmpUtilIdsToA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489430(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPSTR SnmpUtilIdsToA( UINT Ids, UINT IdLength );",
+  "code_blocks": [
+   "LPSTR SnmpUtilIdsToA( UINT Ids, UINT IdLength );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "Return Value The function returns a null-terminated string of ANSI characters that contains the string representation of the array of numbers pointed to by the Ids parameter.",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilIdsToW",
+  "title": "SnmpUtilIdsToW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489054(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPTSTR SnmpUtilIdsToW( UINT Ids, UINT IdLength );",
+  "code_blocks": [
+   "LPTSTR SnmpUtilIdsToW( UINT Ids, UINT IdLength );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "Return Value The function returns a Unicode-based string of ANSI characters that contains the string representation of the array of numbers pointed to by the Ids parameter.",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilMemAlloc",
+  "title": "SnmpUtilMemAlloc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489293(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID SnmpUtilMemAlloc( UINT nBytes );",
+  "code_blocks": [
+   "LPVOID SnmpUtilMemAlloc( UINT nBytes );"
+  ],
+  "requirements": {
+   "header": "Snmpapi.h",
+   "library": "snmp.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilMemFree",
+  "title": "SnmpUtilMemFree (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489331(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilMemFree( LPVOID pMem );",
+  "code_blocks": [
+   "VOID SnmpUtilMemFree( LPVOID pMem );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilMemReAlloc",
+  "title": "SnmpUtilMemReAlloc (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489311(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID SnmpUtilMemReAlloc( LPVOID pmem, UINT nBytes );",
+  "code_blocks": [
+   "LPVOID SnmpUtilMemReAlloc( LPVOID pmem, UINT nBytes );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsCmp",
+  "title": "SnmpUtilOctetsCmp (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489065(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOctetsComp( AsnOctetString pOctets1, AsnOctetString pOctets2 );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOctetsComp( AsnOctetString pOctets1, AsnOctetString pOctets2 );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsCpy",
+  "title": "SnmpUtilOctetsCpy (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489344(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOctetsCpy( AsnOctetString pOctetsDest, AsnOctetString pOctetsSrc );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOctetsCpy( AsnOctetString pOctetsDest, AsnOctetString pOctetsSrc );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsFree",
+  "title": "SnmpUtilOctetsFree (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489114(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilOctetsFree( AsnOctetString* pOctetsDst );",
+  "code_blocks": [
+   "VOID SnmpUtilOctetsFree( AsnOctetString* pOctetsDst );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOctetsNCmp",
+  "title": "SnmpUtilOctetsNCmp (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489117(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOctetsFree( AsnOctetString* pOctets1, AsnOctetString* pOctets2, UINT nChars );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOctetsFree( AsnOctetString* pOctets1, AsnOctetString* pOctets2, UINT nChars );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidAppend",
+  "title": "SnmpUtilOidAppend (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489466(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOidAppend( AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOidAppend( AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidCmp",
+  "title": "SnmpUtilOidCmp (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489490(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOidCmp( AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2 );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOidCmp( AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2 );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidCpy",
+  "title": "SnmpUtilOidCpy (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489088(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "SNMPAPI SnmpUtilOidCpy( AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc );",
+  "code_blocks": [
+   "SNMPAPI SnmpUtilOidCpy( AsnObjectIdentifier* pOidDst, AsnObjectIdentifier* pOidSrc );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidFree",
+  "title": "SnmpUtilOidFree (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489113(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilOidFree( AsnObjectIdentifier* pOid );",
+  "code_blocks": [
+   "VOID SnmpUtilOidFree( AsnObjectIdentifier* pOid );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidNCmp",
+  "title": "SnmpUtilOidNCmp (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489247(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilOidFree( AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2, UINT nSubIds );",
+  "code_blocks": [
+   "VOID SnmpUtilOidFree( AsnObjectIdentifier* pOid1, AsnObjectIdentifier* pOid2, UINT nSubIds );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidToA",
+  "title": "SnmpUtilOidToA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489120(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPSTR SnmpUtilOidToA( AsnObjectIdentifier Oid );",
+  "code_blocks": [
+   "LPSTR SnmpUtilOidToA( AsnObjectIdentifier Oid );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilOidToW",
+  "title": "SnmpUtilOidToW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489330(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPTSTR SnmpUtilOidToW( AsnObjectIdentifier Oid );",
+  "code_blocks": [
+   "LPTSTR SnmpUtilOidToW( AsnObjectIdentifier Oid );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilPrintToStrAsnAny",
+  "title": "SnmpUtilPrintToStrAsnAny (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489051(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilPrintToStrAsnAny( OUT TCHAR *szOut, AsnAny *pAny );",
+  "code_blocks": [
+   "VOID SnmpUtilPrintToStrAsnAny( OUT TCHAR *szOut, AsnAny *pAny );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "The SnmpUtilPrintToStrAsnAny is specific to Windows Embedded CE.",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindCpy",
+  "title": "SnmpUtilVarBindCpy (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489317(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindCpy( SnmpVarBind* pVbDest, SnmpVarBind* pVbSrc );",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindCpy( SnmpVarBind* pVbDest, SnmpVarBind* pVbSrc );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindFree",
+  "title": "SnmpUtilVarBindFree (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489384(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindFree( SnmpVarBind* pVb );",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindFree( SnmpVarBind* pVb );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindListCpy",
+  "title": "SnmpUtilVarBindListCpy (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489128(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindListCpy( SnmpVarBindList* pVblDst, SnmpVarBindList* pVblSrc );",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindListCpy( SnmpVarBindList* pVblDst, SnmpVarBindList* pVblSrc );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "SnmpUtilVarBindListFree",
+  "title": "SnmpUtilVarBindListFree (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489315(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID SnmpUtilVarBindListFree( SnmpVarBindList* pVbl );",
+  "code_blocks": [
+   "VOID SnmpUtilVarBindListFree( SnmpVarBindList* pVbl );"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "library": "snmpapi.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Functions"
+ },
+ {
+  "name": "AsnAny",
+  "title": "AsnAny (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489287(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { BYTE asnType; union { AsnInteger32 number; AsnUnsigned32 unsigned32; AsnCounter64 counter64; AsnOctetString string; AsnBits bits; AsnObjectIdentifier object; AsnSequence sequence; AsnIPAdress address; AsnCounter32 counter32; AsnGauge32 gauge; AsnTimeTicks ticks; AsnOpaque arbitrary; } asnValue; } AsnAny;",
+  "code_blocks": [
+   "typedef struct { BYTE asnType; union { AsnInteger32 number; AsnUnsigned32 unsigned32; AsnCounter64 counter64; AsnOctetString string; AsnBits bits; AsnObjectIdentifier object; AsnSequence sequence; AsnIPAdress address; AsnCounter32 counter32; AsnGauge32 gauge; AsnTimeTicks ticks; AsnOpaque arbitrary; } asnValue; } AsnAny;"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "AsnCounter64",
+  "title": "AsnCounter64 (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489124(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { ULONG LowPart; ULONG HighPart; } AsnCounter64;",
+  "code_blocks": [
+   "typedef struct { ULONG LowPart; ULONG HighPart; } AsnCounter64;"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "AsnObjectIdentifier",
+  "title": "AsnObjectIdentifier (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489297(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { UINT idLength; UINT* ids; } AsnObjectIdentifier;",
+  "code_blocks": [
+   "typedef struct { UINT idLength; UINT* ids; } AsnObjectIdentifier;"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "AsnOctetString",
+  "title": "AsnOctetString (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489131(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { BYTE* stream; UINT length; BOOL dynamic; } AsnOctetString;",
+  "code_blocks": [
+   "typedef struct { BYTE* stream; UINT length; BOOL dynamic; } AsnOctetString;"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "SnmpVarBind",
+  "title": "SnmpVarBind (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489290(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { AsnObjectName name; AsnObjectSyntax value; }SnmpVarBind;",
+  "code_blocks": [
+   "typedef struct { AsnObjectName name; AsnObjectSyntax value; }SnmpVarBind;"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ },
+ {
+  "name": "SnmpVarBindList",
+  "title": "SnmpVarBindList (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489381(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { SnmpVarBind* list; UINT len; }SnmpVarBindList;",
+  "code_blocks": [
+   "typedef struct { SnmpVarBind* list; UINT len; }SnmpVarBindList;"
+  ],
+  "requirements": {
+   "header": "snmp.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "snmp",
+  "sub": "SNMP Structures"
+ }
+]

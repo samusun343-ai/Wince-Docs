@@ -44,10 +44,30 @@ The documentation's per-function `Requirements → Link Library` field is the au
 | `msgbeep.lib` | `MessageBeep` | documented |
 | `hotkey.lib` | `RegisterHotKey`/`UnregisterHotKey` group | documented |
 | `nclient.lib` | `DrawFrameControl` | documented |
-| `aygshell.lib` | AYGShell Reference area (88 per-page bindings, P2 harvest) | documented (per-page harvest complete) |
-| `ole32.lib`, `oleaut32.lib`, `uuid.lib`, … | COM areas | per-page harvest pending (P2) |
+| `aygshell.lib` | AYGShell Reference area (88 per-page bindings, P2 harvest) + State-Broker `regext.h` set (13, CE 6.0 pages — P3) | documented (per-page harvest complete) |
+| `ole32.lib` | COM/OLE/Storage reference areas — 160 bindings (P3 harvest) | documented |
+| `oleaut32.lib` | Automation reference area — 171 bindings (P3 harvest; largest single-library binding of P3) | documented |
+| `uuid.lib` | OBEX interface set (8, P3) | documented |
+| `crypt32.lib` | Cryptography/Certificates set — 90 bindings (P3) | documented |
+| `secur32.lib` + `ntlmssp.lib` | SSPI set — 19 + 10 bindings (P3) | documented |
+| `winscard.lib` | smart-card resource-manager set — 28 (P3) | documented |
+| `wininet.lib` | WinInet set — 84 (P3) | documented |
+| `urlmon.lib` | URL Moniker set — 67 (P3) | documented |
+| `iphlpapi.lib` | IP Helper + ICMP set — 56 (P3) | documented |
+| `dnsapi.lib` | DNS resolver set — 4 (P3) | documented |
+| `btdrt.lib` | Bluetooth application set — 59 (P3) | documented |
+| `bthutil.lib`, `btd.lib`, `btagsvc_network.lib`, `btagsvc_phoneext.lib` | Bluetooth utility/driver-bridge/audio-gateway sets — 2+2+12+9 (P3) | documented |
+| `cellcore.lib` | Connection Manager set — 14 (P3) | documented |
+| `gpsapi.lib` | GPS Intermediate Driver set — 4 (P3) | documented |
+| `snmpapi.lib` + `snmp.lib` | WinSNMP set — 29 + 7 (P3) | documented |
+| `storeapi.lib` | Storage Manager set — 22 (P3) | documented |
+| `fatutil.dll` | FAT utility set — 9 bindings; **only DLL-named binding found** (P3) | documented (fatutil.dll, not .lib) |
+| `rapi.lib` | RAPI host-side set (3 pages state a library; rest unspecified) | documented |
+| `coreloc.lib` | locale group (P2) + NLS set 31 + MUI 5 (P3) | documented |
+| `coreimm.lib` | IMM set — 55 bindings (P3; window-manager record from P1 rides along) | documented |
+| `certmod.dll` | certificate-module pages (2) | documented (DLL-named) |
 
-The complete module set SHALL be derived by harvesting the Requirements blocks of the full inventories (`data/mslearn-inventories/`), which is a mechanical extension of `tools/harvest_facts.py` (realised for area harvests as `tools/harvest_area.py`). Functions whose pages document **no** Link Library line (98 in the winuser set, 10 in the GDI set, ~700 macro-only common-control pages) are tracked as binding-hypothesis items (OQ-14) and default to the GWES runtime-module hypothesis. The P2 session added the CE 6.0 kernel-split bindings (`Nkstub.lib`, `Oemmain.lib` above) — nine functions total change import library between CE 5.0 and CE 6.0 documentation, joining `Sleep`.
+The complete module set SHALL be derived by harvesting the Requirements blocks of the full inventories (`data/mslearn-inventories/`), which is a mechanical extension of `tools/harvest_facts.py` (realised for area harvests as `tools/harvest_area.py`). Functions whose pages document **no** Link Library line (98 in the winuser set, 10 in the GDI set, ~700 macro-only common-control pages) are tracked as binding-hypothesis items (OQ-14) and default to the GWES runtime-module hypothesis. The P2 session added the CE 6.0 kernel-split bindings (`Nkstub.lib`, `Oemmain.lib` above) — nine functions total change import library between CE 5.0 and CE 6.0 documentation, joining `Sleep`. The P3 session brings the documented library map to **~60 libraries** (26 above grew or were confirmed, 24 newly added) and confirms the kernel-split pattern in a third area: the kernel reference (`pkfuncs.h`) binds 11 records to `Nkstub.lib` on CE 6.0 pages while CE 5.0 pages say `coredll.lib`. TAPI (91), RAS (21), WNet (11), power (0 stated) and kernel functions bind `coredll.lib` where stated — CE has no tapi32/rasapi32/winmm split. Two DLL-named bindings exist (`fatutil.dll`, `certmod.dll`) — the `.def` generator must accept module names that are not `.lib`-suffixed.
 
 ## 3. `.def` file requirements (normative)
 

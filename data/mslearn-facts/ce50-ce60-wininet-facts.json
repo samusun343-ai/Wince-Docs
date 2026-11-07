@@ -1,0 +1,3969 @@
+[
+ {
+  "name": "WinInet Error Messages",
+  "title": "WinInet Error Messages (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452091(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "(top)"
+ },
+ {
+  "name": "API Flags",
+  "title": "API Flags (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452096(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "HTTP Response Headers",
+  "title": "HTTP Response Headers (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906348(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "HTTP Status Codes",
+  "title": "HTTP Status Codes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906351(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "Option Flags",
+  "title": "Option Flags (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918831(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "Privacy Flags",
+  "title": "Privacy Flags (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918835(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "Query Info Flags",
+  "title": "Query Info Flags (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918842(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "INTERNET_SCHEME",
+  "title": "INTERNET_SCHEME (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918377(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { INTERNET_SCHEME_PARTIAL = -2, INTERNET_SCHEME_UNKNOWN = -1, INTERNET_SCHEME_DEFAULT = 0, INTERNET_SCHEME_FTP, INTERNET_SCHEME_GOPHER, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, INTERNET_SCHEME_FILE, INTERNET_SCHEME_NEWS, INTERNET_SCHEME_MAILTO, INTERNET_SCHEME_SOCKS, INTERNET_SCHEME_JAVASCRIPT, INTERNET_SCHEME_VBSCRIPT, INTERNET_SCHEME_FIRST = INTERNET_SCHEME_FTP, INTERNET_SCHEME_LAST = INTERNET_SCHEME_VBSCRIPT} INTERNET_SCHEME, *LPINTERNET_SCHEME;",
+  "code_blocks": [
+   "typedef enum { INTERNET_SCHEME_PARTIAL = -2, INTERNET_SCHEME_UNKNOWN = -1, INTERNET_SCHEME_DEFAULT = 0, INTERNET_SCHEME_FTP, INTERNET_SCHEME_GOPHER, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, INTERNET_SCHEME_FILE, INTERNET_SCHEME_NEWS, INTERNET_SCHEME_MAILTO, INTERNET_SCHEME_SOCKS, INTERNET_SCHEME_JAVASCRIPT, INTERNET_SCHEME_VBSCRIPT, INTERNET_SCHEME_FIRST = INTERNET_SCHEME_FTP, INTERNET_SCHEME_LAST = INTERNET_SCHEME_VBSCRIPT} INTERNET_SCHEME, *LPINTERNET_SCHEME;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Enumerations"
+ },
+ {
+  "name": "InternetCookieState",
+  "title": "InternetCookieState (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918353(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum InternetCookieState { COOKIE_STATE_UNKNOWN = 0x0, COOKIE_STATE_ACCEPT = 0x1, COOKIE_STATE_PROMPT = 0x2, COOKIE_STATE_LEASH = 0x3, COOKIE_STATE_DOWNGRADE = 0x4, COOKIE_STATE_REJECT = 0x5, COOKIE_STATE_MAX = COOKIE_STATE_REJECT } InternetCookieState;",
+  "code_blocks": [
+   "typedef enum InternetCookieState { COOKIE_STATE_UNKNOWN = 0x0, COOKIE_STATE_ACCEPT = 0x1, COOKIE_STATE_PROMPT = 0x2, COOKIE_STATE_LEASH = 0x3, COOKIE_STATE_DOWNGRADE = 0x4, COOKIE_STATE_REJECT = 0x5, COOKIE_STATE_MAX = COOKIE_STATE_REJECT } InternetCookieState;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Enumerations"
+ },
+ {
+  "name": "CommitUrlCacheEntry",
+  "title": "CommitUrlCacheEntry (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452121(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CommitUrlCacheEntry( LPCTSTR lpszUrlName,LPCTSTR lpszLocalFileName,FILETIME ExpireTime,FILETIME LastModifiedTime,DWORD CacheEntryType,LPBYTE lpHeaderInfo,DWORD dwHeaderSize,LPCTSTR lpszFileExtension,DWORD dwReserved);",
+  "code_blocks": [
+   "BOOL CommitUrlCacheEntry( LPCTSTR lpszUrlName,LPCTSTR lpszLocalFileName,FILETIME ExpireTime,FILETIME LastModifiedTime,DWORD CacheEntryType,LPBYTE lpHeaderInfo,DWORD dwHeaderSize,LPCTSTR lpszFileExtension,DWORD dwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "CreateUrlCacheEntry",
+  "title": "CreateUrlCacheEntry (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452142(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CreateUrlCacheEntry( LPCTSTR lpszUrlName,DWORD dwExpectedFileSize,LPCTSTR lpszFileExtension,LPSTR lpszFileName,DWORD dwReserved);",
+  "code_blocks": [
+   "BOOL CreateUrlCacheEntry( LPCTSTR lpszUrlName,DWORD dwExpectedFileSize,LPCTSTR lpszFileExtension,LPSTR lpszFileName,DWORD dwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "CreateUrlCacheGroup",
+  "title": "CreateUrlCacheGroup (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452433(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "GROUPID CreateUrlCacheGroup( DWORDdwFlags, LPVOIDlpReserved);",
+  "code_blocks": [
+   "GROUPID CreateUrlCacheGroup( DWORDdwFlags, LPVOIDlpReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "DeleteUrlCacheEntry",
+  "title": "DeleteUrlCacheEntry (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452150(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DeleteUrlCacheEntry( LPCTSTR lpszUrlName);",
+  "code_blocks": [
+   "BOOL DeleteUrlCacheEntry( LPCTSTR lpszUrlName);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "DeleteUrlCacheGroup",
+  "title": "DeleteUrlCacheGroup (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452434(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DeleteUrlCacheGroup( GROUPIDGroupId, DWORDdwFlags, LPVOIDlpReserved)",
+  "code_blocks": [
+   "BOOL DeleteUrlCacheGroup( GROUPIDGroupId, DWORDdwFlags, LPVOIDlpReserved)"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindCloseUrlCache",
+  "title": "FindCloseUrlCache (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452195(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindCloseUrlCache( HANDLE hEnumHandle);",
+  "code_blocks": [
+   "BOOL FindCloseUrlCache( HANDLE hEnumHandle);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindFirstUrlCacheEntry",
+  "title": "FindFirstUrlCacheEntry (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452197(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstUrlCacheEntry( LPCTSTR lpszUrlSearchPattern,LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo,LPDWORD lpdwFirstCacheEntryInfoBufferSize);",
+  "code_blocks": [
+   "HANDLE FindFirstUrlCacheEntry( LPCTSTR lpszUrlSearchPattern,LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo,LPDWORD lpdwFirstCacheEntryInfoBufferSize);"
+  ],
+  "requirements": {
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later. Link Library: Wininet.lib."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindFirstUrlCacheEntryEx",
+  "title": "FindFirstUrlCacheEntryEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms919201(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstUrlCacheEntryEx( LPCWSTR lpszUrlSearchPattern,DWORD dwFlags,DWORD dwFilter,GROUPID GroupId,LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo,LPDWORD lpdwFirstCacheEntryInfoBufferSize,LPVOID lpGroupAttributes,LPDWORD pcbGroupAttributes,LPVOID lpReserved);",
+  "code_blocks": [
+   "HANDLE FindFirstUrlCacheEntryEx( LPCWSTR lpszUrlSearchPattern,DWORD dwFlags,DWORD dwFilter,GROUPID GroupId,LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo,LPDWORD lpdwFirstCacheEntryInfoBufferSize,LPVOID lpGroupAttributes,LPDWORD pcbGroupAttributes,LPVOID lpReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindFirstUrlCacheGroup",
+  "title": "FindFirstUrlCacheGroup (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452486(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindFirstUrlCacheGroup( DWORDdwFlags, DWORDdwFilter, LPVOIDlpSearchCondition, DWORDdwSearchCondition, GROUPID*lpGroupId, LPVOIDlpReserved);",
+  "code_blocks": [
+   "BOOL FindFirstUrlCacheGroup( DWORDdwFlags, DWORDdwFilter, LPVOIDlpSearchCondition, DWORDdwSearchCondition, GROUPID*lpGroupId, LPVOIDlpReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindNextUrlCacheEntry",
+  "title": "FindNextUrlCacheEntry (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms919204(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindNextUrlCacheEntry( HANDLE hEnumHandle,LPINTERNET_CACHE_ENTRY_INFO lpNextCacheEntryInfo,LPDWORD lpdwNextCacheEntryInfoBufferSize);",
+  "code_blocks": [
+   "BOOL FindNextUrlCacheEntry( HANDLE hEnumHandle,LPINTERNET_CACHE_ENTRY_INFO lpNextCacheEntryInfo,LPDWORD lpdwNextCacheEntryInfoBufferSize);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindNextUrlCacheEntryEx",
+  "title": "FindNextUrlCacheEntryEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452206(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLAPI FindNextUrlCacheEntryEx( HANDLE hEnumHandle,LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo,LPDWORD lpdwFirstCacheEntryInfoBufferSize,LPVOID lpGroupAttributes,LPDWORD pcbGroupAttributes,LPVOID lpReserved);",
+  "code_blocks": [
+   "BOOLAPI FindNextUrlCacheEntryEx( HANDLE hEnumHandle,LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo,LPDWORD lpdwFirstCacheEntryInfoBufferSize,LPVOID lpGroupAttributes,LPDWORD pcbGroupAttributes,LPVOID lpReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindNextUrlCacheGroup",
+  "title": "FindNextUrlCacheGroup (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452487(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindNextUrlCacheGroup( HANDLEhFind, GROUPID*lpGroupId, LPVOIDlpReserved);",
+  "code_blocks": [
+   "BOOL FindNextUrlCacheGroup( HANDLEhFind, GROUPID*lpGroupId, LPVOIDlpReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpCommand",
+  "title": "FtpCommand (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452208(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpCommand(HINTERNET hConnect, BOOL fExpectResponse, DWORD dwFlags, LPCTSTR lpszCommand, DWORD dwContext);",
+  "code_blocks": [
+   "BOOL WINAPI FtpCommand(HINTERNET hConnect, BOOL fExpectResponse, DWORD dwFlags, LPCTSTR lpszCommand, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpCreateDirectory",
+  "title": "FtpCreateDirectory (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452210(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpCreateDirectory(HINTERNET hConnect, LPCTSTR lpszDirectory);",
+  "code_blocks": [
+   "BOOL WINAPI FtpCreateDirectory(HINTERNET hConnect, LPCTSTR lpszDirectory);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpDeleteFile",
+  "title": "FtpDeleteFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452212(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpDeleteFile(HINTERNET hConnect, LPCTSTR lpszFileName);",
+  "code_blocks": [
+   "BOOL WINAPI FtpDeleteFile(HINTERNET hConnect, LPCTSTR lpszFileName);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpFindFirstFile",
+  "title": "FtpFindFirstFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452214(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET FtpFindFirstFile(HINTERNET hConnect, LPCTSTR lpszSearchFile, LPWIN32_FIND_DATA lpFindFileData, DWORD dwFlags, DWORD dwContext);",
+  "code_blocks": [
+   "HINTERNET FtpFindFirstFile(HINTERNET hConnect, LPCTSTR lpszSearchFile, LPWIN32_FIND_DATA lpFindFileData, DWORD dwFlags, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpGetCurrentDirectory",
+  "title": "FtpGetCurrentDirectory (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452216(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpGetCurrentDirectory(HINTERNET hConnect, LPCTSTR lpszCurrentDirectory, LPDWORD lpdwCurrentDirectory);",
+  "code_blocks": [
+   "BOOL WINAPI FtpGetCurrentDirectory(HINTERNET hConnect, LPCTSTR lpszCurrentDirectory, LPDWORD lpdwCurrentDirectory);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpGetFile",
+  "title": "FtpGetFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452218(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpGetFile(HINTERNET hConnect, LPCTSTR lpszRemoteFile, LPCTSTR lpszNewFile, BOOL fFailIfExists, DWORD dwFlagsAndAttributes, DWORD dwFlags, DWORD dwContext);",
+  "code_blocks": [
+   "BOOL WINAPI FtpGetFile(HINTERNET hConnect, LPCTSTR lpszRemoteFile, LPCTSTR lpszNewFile, BOOL fFailIfExists, DWORD dwFlagsAndAttributes, DWORD dwFlags, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpGetFileEx",
+  "title": "FtpGetFileEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452230(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpGetFileEx(HINTERNEThFtpSession,LPCTSTR lpszRemoteFile, LPCTSTR lpszNewFile, BOOL fFailIfExists, DWORD dwFlagsAndAttributes, DWORD dwFlags, DWORD dwContext);",
+  "code_blocks": [
+   "BOOL WINAPI FtpGetFileEx(HINTERNEThFtpSession,LPCTSTR lpszRemoteFile, LPCTSTR lpszNewFile, BOOL fFailIfExists, DWORD dwFlagsAndAttributes, DWORD dwFlags, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpGetFileSize",
+  "title": "FtpGetFileSize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452232(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FtpGetFileSize(HINTERNEThFile,LPDWORDlpdwFileSizeHigh);",
+  "code_blocks": [
+   "DWORD FtpGetFileSize(HINTERNEThFile,LPDWORDlpdwFileSizeHigh);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpOpenFile",
+  "title": "FtpOpenFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452234(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET FtpOpenFile(HINTERNET hConnect, LPCTSTR lpszFileName, DWORD dwAccess, DWORD dwFlags, DWORD dwContext);",
+  "code_blocks": [
+   "HINTERNET FtpOpenFile(HINTERNET hConnect, LPCTSTR lpszFileName, DWORD dwAccess, DWORD dwFlags, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpPutFile",
+  "title": "FtpPutFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452236(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpPutFile(HINTERNET hConnect, LPCTSTR lpszLocalFile, LPCTSTR lpszNewRemoteFile, DWORD dwFlags, DWORD dwContext);",
+  "code_blocks": [
+   "BOOL WINAPI FtpPutFile(HINTERNET hConnect, LPCTSTR lpszLocalFile, LPCTSTR lpszNewRemoteFile, DWORD dwFlags, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpPutFileEx",
+  "title": "FtpPutFileEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452238(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLAPI FtpPutFileEx(HINTERNET hFtpSession, LPCTSTR lpszLocalFile, LPCTSTR lpszNewRemoteFile, DWORD dwFlags, DWORD dwContext);",
+  "code_blocks": [
+   "BOOLAPI FtpPutFileEx(HINTERNET hFtpSession, LPCTSTR lpszLocalFile, LPCTSTR lpszNewRemoteFile, DWORD dwFlags, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpRemoveDirectory",
+  "title": "FtpRemoveDirectory (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452240(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpRemoveDirectory(HINTERNET hConnect, LPCTSTR lpszDirectory);",
+  "code_blocks": [
+   "BOOL WINAPI FtpRemoveDirectory(HINTERNET hConnect, LPCTSTR lpszDirectory);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpRenameFile",
+  "title": "FtpRenameFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906192(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpRenameFile(HINTERNET hConnect, LPCTSTR lpszExisting, LPCTSTR lpszNew);",
+  "code_blocks": [
+   "BOOL WINAPI FtpRenameFile(HINTERNET hConnect, LPCTSTR lpszExisting, LPCTSTR lpszNew);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpSetCurrentDirectory",
+  "title": "FtpSetCurrentDirectory (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906282(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpSetCurrentDirectory(HINTERNET hConnect, LPCTSTR lpszDirectory);",
+  "code_blocks": [
+   "BOOL WINAPI FtpSetCurrentDirectory(HINTERNET hConnect, LPCTSTR lpszDirectory);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "GetUrlCacheEntryInfo",
+  "title": "GetUrlCacheEntryInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906320(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetUrlCacheEntryInfo( LPCTSTR lpszUrlName,LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo,LPDWORD lpdwCacheEntryInfoBufferSize);",
+  "code_blocks": [
+   "BOOL GetUrlCacheEntryInfo( LPCTSTR lpszUrlName,LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo,LPDWORD lpdwCacheEntryInfoBufferSize);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "GetUrlCacheEntryInfoEx",
+  "title": "GetUrlCacheEntryInfoEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906328(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetUrlCacheEntryInfoEx( LPCSTR lpszUrl,LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo,LPDWORD lpdwCacheEntryInfoBufSize,LPSTRlpszReserved,LPDWORDlpdwReserved,LPVOIDlpReserved,DWORDdwFlags);",
+  "code_blocks": [
+   "BOOL GetUrlCacheEntryInfoEx( LPCSTR lpszUrl,LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo,LPDWORD lpdwCacheEntryInfoBufSize,LPSTRlpszReserved,LPDWORDlpdwReserved,LPVOIDlpReserved,DWORDdwFlags);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "GetUrlCacheGroupAttribute",
+  "title": "GetUrlCacheGroupAttribute (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452488(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetUrlCacheGroupAttribute( GROUPIDgid, DWORDdwFlags, DWORDdwAttributes, LPINTERNET_CACHE_GROUP_INFOlpGroupInfo, LPWORDlpdwGroupInfo, LPVOIDlpReserved);",
+  "code_blocks": [
+   "BOOL GetUrlCacheGroupAttribute( GROUPIDgid, DWORDdwFlags, DWORDdwAttributes, LPINTERNET_CACHE_GROUP_INFOlpGroupInfo, LPWORDlpdwGroupInfo, LPVOIDlpReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpAddRequestHeaders",
+  "title": "HttpAddRequestHeaders (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906344(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI HttpAddRequestHeaders(HINTERNET hHttpRequest, LPCTSTR lpszHeaders, DWORD dwHeadersLength, DWORD dwModifiers);",
+  "code_blocks": [
+   "BOOL WINAPI HttpAddRequestHeaders(HINTERNET hHttpRequest, LPCTSTR lpszHeaders, DWORD dwHeadersLength, DWORD dwModifiers);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpEndRequest",
+  "title": "HttpEndRequest (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906345(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL HttpEndRequest(HINTERNET hRequest,LPINTERNET_BUFFERS lpBuffersOut, DWORD dwFlags,DWORD dwContext);",
+  "code_blocks": [
+   "BOOL HttpEndRequest(HINTERNET hRequest,LPINTERNET_BUFFERS lpBuffersOut, DWORD dwFlags,DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpOpenRequest",
+  "title": "HttpOpenRequest (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906346(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET WINAPI HttpOpenRequest(HINTERNET hConnect, LPCTSTR lpszVerb, LPCTSTR lpszObjectName, LPCTSTR lpszVersion, LPCTSTR lpszReferrer, LPCTSTR* lplpszAcceptTypes, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "HINTERNET WINAPI HttpOpenRequest(HINTERNET hConnect, LPCTSTR lpszVerb, LPCTSTR lpszObjectName, LPCTSTR lpszVersion, LPCTSTR lpszReferrer, LPCTSTR* lplpszAcceptTypes, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpQueryInfo",
+  "title": "HttpQueryInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906347(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI HttpQueryInfo(HINTERNET hRequest, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpdwBufferLength, LPDWORD lpdwIndex);",
+  "code_blocks": [
+   "BOOL WINAPI HttpQueryInfo(HINTERNET hRequest, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpdwBufferLength, LPDWORD lpdwIndex);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpSendRequest",
+  "title": "HttpSendRequest (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906349(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI HttpSendRequest(HINTERNET hRequest, LPCTSTR lpszHeaders, DWORD dwHeadersLength, LPVOID lpOptional, DWORD dwOptionalLength);",
+  "code_blocks": [
+   "BOOL WINAPI HttpSendRequest(HINTERNET hRequest, LPCTSTR lpszHeaders, DWORD dwHeadersLength, LPVOID lpOptional, DWORD dwOptionalLength);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Remarks There are two versions of this function HttpSendRequestA is used with ANSI builds and HttpSendRequestW is used with Unicode builds.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpSendRequestEx",
+  "title": "HttpSendRequestEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906350(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL HttpSendRequestEx(HINTERNET hRequest, LPINTERNET_BUFFERS lpBuffersIn,LPINTERNET_BUFFERS lpBuffersOut,DWORD dwFlags,DWORD dwContext);",
+  "code_blocks": [
+   "BOOL HttpSendRequestEx(HINTERNET hRequest, LPINTERNET_BUFFERS lpBuffersIn,LPINTERNET_BUFFERS lpBuffersOut,DWORD dwFlags,DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetAttemptConnect",
+  "title": "InternetAttemptConnect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918340(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD InternetAttemptConnect(DWORDdwReserved);",
+  "code_blocks": [
+   "DWORD InternetAttemptConnect(DWORDdwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCheckConnection",
+  "title": "InternetCheckConnection (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918346(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetCheckConnection(LPCTSTRlpszUrl,DWORDdwFlags,DWORDdwReserved);",
+  "code_blocks": [
+   "BOOL InternetCheckConnection(LPCTSTRlpszUrl,DWORDdwFlags,DWORDdwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCloseHandle",
+  "title": "InternetCloseHandle (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918348(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetCloseHandle(HINTERNEThInternet);",
+  "code_blocks": [
+   "BOOL WINAPI InternetCloseHandle(HINTERNEThInternet);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCombineUrl",
+  "title": "InternetCombineUrl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918349(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetCombineUrl(LPCTSTR lpszBaseUrl, LPCTSTR lpszRelativeUrl, LPTSTR lpszBuffer, LPDWORD lpdwBufferLength, DWORD dwFlags);",
+  "code_blocks": [
+   "BOOL WINAPI InternetCombineUrl(LPCTSTR lpszBaseUrl, LPCTSTR lpszRelativeUrl, LPTSTR lpszBuffer, LPDWORD lpdwBufferLength, DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetConfirmZoneCrossing",
+  "title": "InternetConfirmZoneCrossing (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918350(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDInternetConfirmZoneCrossing(HWNDhWnd,LPTSTRszUrlPrev,LPTSTRszUrlNew,BOOLbPost);",
+  "code_blocks": [
+   "DWORDInternetConfirmZoneCrossing(HWNDhWnd,LPTSTRszUrlPrev,LPTSTRszUrlNew,BOOLbPost);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetConnect",
+  "title": "InternetConnect (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918351(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET WINAPI InternetConnect(HINTERNET hInternet, LPCTSTR lpszServerName, INTERNET_PORT nServerPort, LPCTSTR lpszUserName, LPCTSTR lpszPassword, DWORD dwService, DWORD dwFlags, DWORD dwContext);",
+  "code_blocks": [
+   "HINTERNET WINAPI InternetConnect(HINTERNET hInternet, LPCTSTR lpszServerName, INTERNET_PORT nServerPort, LPCTSTR lpszUserName, LPCTSTR lpszPassword, DWORD dwService, DWORD dwFlags, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "However, it**does not accept INTERNET_SERVICE_GOPHER, as GOPHER is not supported in Windows CE. INTERNET_FLAG_SECURE is not supported.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCrackUrl",
+  "title": "InternetCrackUrl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918354(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPIInternetCrackUrl(LPCTSTRlpszUrl,DWORDdwUrlLength,DWORDdwFlags,LPURL_COMPONENTSlpUrlComponents);",
+  "code_blocks": [
+   "BOOL WINAPIInternetCrackUrl(LPCTSTRlpszUrl,DWORDdwUrlLength,DWORDdwFlags,LPURL_COMPONENTSlpUrlComponents);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Always directly call the ANSI version of this function, InternetCrackUrlA .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCreateUrl",
+  "title": "InternetCreateUrl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918355(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetCreateUrl(LPURL_COMPONENTS lpUrlComponents, DWORD dwFlags, LPTSTR lpszUrl, LPDWORD lpdwUrlLength );",
+  "code_blocks": [
+   "BOOL WINAPI InternetCreateUrl(LPURL_COMPONENTS lpUrlComponents, DWORD dwFlags, LPTSTR lpszUrl, LPDWORD lpdwUrlLength );"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetEnumPerSiteCookieDecisionA",
+  "title": "InternetEnumPerSiteCookieDecisionA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918356(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetEnumPerSiteCookieDecisionA( LPSTR pszSiteName, unsigned long *pcSiteNameSize, unsigned long *pdwDecision, unsigned long dwIndex);",
+  "code_blocks": [
+   "BOOL InternetEnumPerSiteCookieDecisionA( LPSTR pszSiteName, unsigned long *pcSiteNameSize, unsigned long *pdwDecision, unsigned long dwIndex);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "Use this function for the ANSI implementation. If you call the Unicode implementation, use the InternetEnumPerSiteCookieDecisionW .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetEnumPerSiteCookieDecisionW",
+  "title": "InternetEnumPerSiteCookieDecisionW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918357(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetEnumPerSiteCookieDecisionW( LPSTR pszSiteName, unsigned long *pcSiteNameSize, unsigned long *pdwDecision, unsigned long dwIndex);",
+  "code_blocks": [
+   "BOOL InternetEnumPerSiteCookieDecisionW( LPSTR pszSiteName, unsigned long *pcSiteNameSize, unsigned long *pdwDecision, unsigned long dwIndex);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "Use this function for the ANSI implementation. If you call the Unicode implementation, use the InternetEnumPerSiteCookieDecisionA .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetErrorDlg",
+  "title": "InternetErrorDlg (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918358(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD InternetErrorDlg(HWND hWnd, HINTERNET hRequest,DWORD dwError,DWORD dwFlags,LPVOID* lppvData);",
+  "code_blocks": [
+   "DWORD InternetErrorDlg(HWND hWnd, HINTERNET hRequest,DWORD dwError,DWORD dwFlags,LPVOID* lppvData);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetFindNextFile",
+  "title": "InternetFindNextFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918359(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetFindNextFile(HINTERNET hFind, LPVOID lpvFindData);",
+  "code_blocks": [
+   "BOOL WINAPI InternetFindNextFile(HINTERNET hFind, LPVOID lpvFindData);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetConnectedState",
+  "title": "InternetGetConnectedState (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918360(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGetConnectedState(LPDWORD lpdwFlags,DWORD dwReserved);",
+  "code_blocks": [
+   "BOOL InternetGetConnectedState(LPDWORD lpdwFlags,DWORD dwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetConnectedStateEx",
+  "title": "InternetGetConnectedStateEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918361(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLInternetGetConnectedStateEx(LPDWORDlpdwFlags,LPTSTRlpszConnectionName,DWORDdwNameLen,DWORDdwReserved);",
+  "code_blocks": [
+   "BOOLInternetGetConnectedStateEx(LPDWORDlpdwFlags,LPTSTRlpszConnectionName,DWORDdwNameLen,DWORDdwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetCookie",
+  "title": "InternetGetCookie (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918362(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGetCookie(LPCTSTR lpszUrl,LPCTSTR lpszCookieName,LPSTR lpCookieData,LPDWORD lpdwSize);",
+  "code_blocks": [
+   "BOOL InternetGetCookie(LPCTSTR lpszUrl,LPCTSTR lpszCookieName,LPSTR lpCookieData,LPDWORD lpdwSize);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetLastResponseInfo",
+  "title": "InternetGetLastResponseInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918363(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetGetLastResponseInfo( LPDWORD lpdwError, LPTSTR lpszBuffer, LPDWORD lpdwBufferLength);",
+  "code_blocks": [
+   "BOOL WINAPI InternetGetLastResponseInfo( LPDWORD lpdwError, LPTSTR lpszBuffer, LPDWORD lpdwBufferLength);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetPerSiteCookieDecisionA",
+  "title": "InternetGetPerSiteCookieDecisionA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918364(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGetPerSiteCookieDecisionA ( LPCSTR pchHostName, unsigned long* pResult);",
+  "code_blocks": [
+   "BOOL InternetGetPerSiteCookieDecisionA ( LPCSTR pchHostName, unsigned long* pResult);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "Use this function for the ANSI implementation. If you call the Unicode implementation, use the InternetGetPerSiteCookieDecisionW .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetPerSiteCookieDecisionW",
+  "title": "InternetGetPerSiteCookieDecisionW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918365(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGetPerSiteCookieDecisionW ( LPCSTR pchHostName, unsigned long* pResult);",
+  "code_blocks": [
+   "BOOL InternetGetPerSiteCookieDecisionW ( LPCSTR pchHostName, unsigned long* pResult);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "Use this function for the Unicode implementation. If you call the ANSI implementation, use the InternetGetPerSiteCookieDecisionA .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGoOnline",
+  "title": "InternetGoOnline (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918366(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGoOnline(LPTSTR lpszURL,HWND hwndParent,DWORD dwReserved);",
+  "code_blocks": [
+   "BOOL InternetGoOnline(LPTSTR lpszURL,HWND hwndParent,DWORD dwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetLockRequestFile",
+  "title": "InternetLockRequestFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918367(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetLockRequestFile(HINTERNEThInternet,HANDLE* lphLockRequestInfo);",
+  "code_blocks": [
+   "BOOL InternetLockRequestFile(HINTERNEThInternet,HANDLE* lphLockRequestInfo);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetOpen",
+  "title": "InternetOpen (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918368(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET WINAPI InternetOpen(LPCTSTRlpszAgent,DWORD dwAccessType, LPCTSTR lpszProxy, LPCTSTR lpszProxyBypass, DWORD dwFlags);",
+  "code_blocks": [
+   "HINTERNET WINAPI InternetOpen(LPCTSTRlpszAgent,DWORD dwAccessType, LPCTSTR lpszProxy, LPCTSTR lpszProxyBypass, DWORD dwFlags);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetOpenUrl",
+  "title": "InternetOpenUrl (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918369(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET InternetOpenUrl( HINTERNET hInternetSession, LPCTSTR lpszUrl, LPCTSTR lpszHeaders, DWORD dwHeadersLength, DWORD dwFlags, DWORD dwContext);",
+  "code_blocks": [
+   "HINTERNET InternetOpenUrl( HINTERNET hInternetSession, LPCTSTR lpszUrl, LPCTSTR lpszHeaders, DWORD dwHeadersLength, DWORD dwFlags, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE supports only FTP and HTTP protocols. The following list shows the values that Windows CE supports for the dwFlags parameter: INTERNET_FLAG_RAW_DATA INTERNET_FLAG_RELOAD INTERNET_FLAG_SECURE The dwContext parameter allows for progress status callbacks to the application, but all requests are handled synchronously.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetQueryDataAvailable",
+  "title": "InternetQueryDataAvailable (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918373(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetQueryDataAvailable(HINTERNET hFile, LPDWORD lpdwNumberOfBytesAvailable, DWORD dwFlags, DWORD dwContext);",
+  "code_blocks": [
+   "BOOL WINAPI InternetQueryDataAvailable(HINTERNET hFile, LPDWORD lpdwNumberOfBytesAvailable, DWORD dwFlags, DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetQueryOption",
+  "title": "InternetQueryOption (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918374(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetQueryOption(HINTERNET hInternet, DWORD dwOption, LPVOID lpBuffer OPTIONAL, LPDWORD lpdwBufferLength);",
+  "code_blocks": [
+   "BOOL WINAPI InternetQueryOption(HINTERNET hInternet, DWORD dwOption, LPVOID lpBuffer OPTIONAL, LPDWORD lpdwBufferLength);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetReadFile",
+  "title": "InternetReadFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918375(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetReadFile(HINTERNEThFile,LPVOIDlpBuffer,DWORDdwNumberOfBytesToRead,LPDWORDlpdwNumberOfBytesRead);",
+  "code_blocks": [
+   "BOOL WINAPI InternetReadFile(HINTERNEThFile,LPVOIDlpBuffer,DWORDdwNumberOfBytesToRead,LPDWORDlpdwNumberOfBytesRead);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE supports valid Internet handles returned by HttpOpenRequest , FtpOpenFile , and InternetOpenUrl .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetReadFileEx",
+  "title": "InternetReadFileEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918376(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetReadFileEx(HINTERNEThFile,LPINTERNET_BUFFERS lpBuffersOut,DWORD dwFlags,DWORD dwContext);",
+  "code_blocks": [
+   "BOOL InternetReadFileEx(HINTERNEThFile,LPINTERNET_BUFFERS lpBuffersOut,DWORD dwFlags,DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetCookie",
+  "title": "InternetSetCookie (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918378(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetSetCookie(LPCTSTR lpszUrl, LPCTSTR lpszCookieName, LPCTSTR lpszCookieData);",
+  "code_blocks": [
+   "BOOL InternetSetCookie(LPCTSTR lpszUrl, LPCTSTR lpszCookieName, LPCTSTR lpszCookieData);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "There is no way to change the registry value from a WinInet function in Windows CE.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetCookieEx",
+  "title": "InternetSetCookieEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918379(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetSetCookieEx( LPCTSTRlpszUrl,LPCTSTRlpszCookieName,LPCTSTRlpszCookieData,DWORDdwFlags,DWORD_PTRdwReserved);",
+  "code_blocks": [
+   "BOOL InternetSetCookieEx( LPCTSTRlpszUrl,LPCTSTRlpszCookieName,LPCTSTRlpszCookieData,DWORDdwFlags,DWORD_PTRdwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetFilePointer",
+  "title": "InternetSetFilePointer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918380(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD InternetSetFilePointer(HINTERNET hFile,LONG lDistanceToMove, PVOID pReserved, DWORD dwMoveMethod,DWORD dwContext);",
+  "code_blocks": [
+   "DWORD InternetSetFilePointer(HINTERNET hFile,LONG lDistanceToMove, PVOID pReserved, DWORD dwMoveMethod,DWORD dwContext);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetOption",
+  "title": "InternetSetOption (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918381(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetSetOption(HINTERNET hInternet, DWORD dwOption, LPVOID lpBuffer, DWORD dwBufferLength);",
+  "code_blocks": [
+   "BOOL WINAPI InternetSetOption(HINTERNET hInternet, DWORD dwOption, LPVOID lpBuffer, DWORD dwBufferLength);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetOptionEx",
+  "title": "InternetSetOptionEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918382(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetPerSiteCookieDecisionA",
+  "title": "InternetSetPerSiteCookieDecisionA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918383(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetSetPerSiteCookieDecisionA( LPCSTR pchHostName, DWORD dwDecision);",
+  "code_blocks": [
+   "BOOL InternetSetPerSiteCookieDecisionA( LPCSTR pchHostName, DWORD dwDecision);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "Use this function for the ANSI implementation. If you call the Unicode implementation, use the InternetSetPerSiteCookieDecisionW .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetPerSiteCookieDecisionW",
+  "title": "InternetSetPerSiteCookieDecisionW (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918384(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetSetPerSiteCookieDecisionW( LPCSTR pchHostName, DWORD dwDecision);",
+  "code_blocks": [
+   "BOOL InternetSetPerSiteCookieDecisionW( LPCSTR pchHostName, DWORD dwDecision);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "Use this function for the Unicode implementation. If you call the ANSI implementation, use the InternetSetPerSiteCookieDecisionA .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetStatusCallback",
+  "title": "InternetSetStatusCallback (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918385(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "INTERNET_STATUS_CALLBACK WINAPIInternetSetStatusCallback(HINTERNEThInternet,INTERNET_STATUS_CALLBACKlpfnInternetCallback);",
+  "code_blocks": [
+   "INTERNET_STATUS_CALLBACK WINAPIInternetSetStatusCallback(HINTERNEThInternet,INTERNET_STATUS_CALLBACKlpfnInternetCallback);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE only InternetReadFile and InternetQueryDataAvailable support asynchronous operations.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetTimeFromSystemTime",
+  "title": "InternetTimeFromSystemTime (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918387(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetTimeFromSystemTime(CONST SYSTEMTIME* pst, DWORD dwRFC, LPTSTR lpszTime, DWORD cbTime);",
+  "code_blocks": [
+   "BOOL WINAPI InternetTimeFromSystemTime(CONST SYSTEMTIME* pst, DWORD dwRFC, LPTSTR lpszTime, DWORD cbTime);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetTimeToSystemTime",
+  "title": "InternetTimeToSystemTime (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918388(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetTimeToSystemTime(LPCTSTR lpszTime, SYSTEMTIME* pst, DWORD dwReserved);",
+  "code_blocks": [
+   "BOOL InternetTimeToSystemTime(LPCTSTR lpszTime, SYSTEMTIME* pst, DWORD dwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetUnlockRequestFile",
+  "title": "InternetUnlockRequestFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918389(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetUnlockRequestFile(HANDLE hLockRequestInfo);",
+  "code_blocks": [
+   "BOOL InternetUnlockRequestFile(HANDLE hLockRequestInfo);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetWriteFile",
+  "title": "InternetWriteFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918391(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetWriteFile(HINTERNET hFile,LPCVOIDlpBuffer,DWORDdwNumberOfBytesToWrite,LPDWORDlpdwNumberOfBytesWritten);",
+  "code_blocks": [
+   "BOOL InternetWriteFile(HINTERNET hFile,LPCVOIDlpBuffer,DWORDdwNumberOfBytesToWrite,LPDWORDlpdwNumberOfBytesWritten);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "ReadUrlCacheEntryStream",
+  "title": "ReadUrlCacheEntryStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452489(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ReadUrlCacheEntryStream( HANDLE hUrlCacheStream,DWORD dwLocation, LPVOIDlpBuffer,LPDWORDlpdwLen, DWORDdwReserved );",
+  "code_blocks": [
+   "BOOL ReadUrlCacheEntryStream( HANDLE hUrlCacheStream,DWORD dwLocation, LPVOIDlpBuffer,LPDWORDlpdwLen, DWORDdwReserved );"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "RetrieveUrlCacheEntryFile",
+  "title": "RetrieveUrlCacheEntryFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918849(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLRetrieveUrlCacheEntryFile(LPCTSTRlpszUrlName, LPINTERNET_CACHE_ENTRY_INFOlpCacheEntryInfo,LPDWORDlpdwCacheEntryInfoBufferSize, DWORDdwReserved);",
+  "code_blocks": [
+   "BOOLRetrieveUrlCacheEntryFile(LPCTSTRlpszUrlName, LPINTERNET_CACHE_ENTRY_INFOlpCacheEntryInfo,LPDWORDlpdwCacheEntryInfoBufferSize, DWORDdwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "RetrieveUrlCacheEntryStream",
+  "title": "RetrieveUrlCacheEntryStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452490(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE RetrieveUrlCacheEntryStream( LPCTSTR lpszUrlName LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufferSize, BOOL fRandomRead, DWORD dwReserved);",
+  "code_blocks": [
+   "HANDLE RetrieveUrlCacheEntryStream( LPCTSTR lpszUrlName LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufferSize, BOOL fRandomRead, DWORD dwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "SetUrlCacheConfigInfo",
+  "title": "SetUrlCacheConfigInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms905355(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLAPI SetUrlCacheConfigInfoA(LPINTERNET_CACHE_CONFIG_INFOAlpCacheConfigInfo, DWORDdwFieldControl);",
+  "code_blocks": [
+   "BOOLAPI SetUrlCacheConfigInfoA(LPINTERNET_CACHE_CONFIG_INFOAlpCacheConfigInfo, DWORDdwFieldControl);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "SetUrlCacheEntryGroup",
+  "title": "SetUrlCacheEntryGroup (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452491(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetUrlCacheEntryGroup( LPCTSTR lpszUrlName, DWORD dwFlags, GROUPID GroupId, LPBYTE pbGroupAttributes, DWORD cbGroupAttributes, LPVOID lpReserved);",
+  "code_blocks": [
+   "BOOL SetUrlCacheEntryGroup( LPCTSTR lpszUrlName, DWORD dwFlags, GROUPID GroupId, LPBYTE pbGroupAttributes, DWORD cbGroupAttributes, LPVOID lpReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "SetUrlCacheEntryInfo",
+  "title": "SetUrlCacheEntryInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918858(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLSetUrlCacheEntryInfo(LPCSTRlpszUrlName,LPINTERNET_CACHE_ENTRY_INFOlpCacheEntryInfo,DWORDdwFieldControl);",
+  "code_blocks": [
+   "BOOLSetUrlCacheEntryInfo(LPCSTRlpszUrlName,LPINTERNET_CACHE_ENTRY_INFOlpCacheEntryInfo,DWORDdwFieldControl);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "SetUrlCacheGroupAttribute",
+  "title": "SetUrlCacheGroupAttribute (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452492(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetUrlCacheGroupAttribute( GROUPID gid, DWORD dwFlags, DWORD dwAttributes, LPINTERNET_CACHE_GROUP_INFO lpGroupInfo, LPVOID lpReserved);",
+  "code_blocks": [
+   "BOOL SetUrlCacheGroupAttribute( GROUPID gid, DWORD dwFlags, DWORD dwAttributes, LPINTERNET_CACHE_GROUP_INFO lpGroupInfo, LPVOID lpReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "Must be set to NULL.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "UnlockUrlCacheEntryFile",
+  "title": "UnlockUrlCacheEntryFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918862(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLUnlockUrlCacheEntryFile(LPCSTRlpszUrlName,DWORDdwReserved);",
+  "code_blocks": [
+   "BOOLUnlockUrlCacheEntryFile(LPCSTRlpszUrlName,DWORDdwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "UnlockUrlCacheEntryStream",
+  "title": "UnlockUrlCacheEntryStream (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452493(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnlockUrlCacheEntryStream( LHANDLE hUrlCacheStream, DWORD dwReserved);",
+  "code_blocks": [
+   "BOOL UnlockUrlCacheEntryStream( LHANDLE hUrlCacheStream, DWORD dwReserved);"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "library": "Wininet.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HTTP_VERSION_INFO",
+  "title": "HTTP_VERSION_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms906352(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORDdwMajorVersion;DWORDdwMinorVersion;} HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO;",
+  "code_blocks": [
+   "typedef struct {DWORDdwMajorVersion;DWORDdwMinorVersion;} HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_ASYNC_RESULT",
+  "title": "INTERNET_ASYNC_RESULT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918339(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORDdwResult;DWORDdwError;} INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT;",
+  "code_blocks": [
+   "typedef struct {DWORDdwResult;DWORDdwError;} INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_AUTH_NOTIFY_DATA",
+  "title": "INTERNET_AUTH_NOTIFY_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918341(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORDcbStruct;DWORDdwOptions;PFN_PUTHNOTIFYpfnNotify;DWORD_PTRdwContext;} INTERNET_AUTH_NOTIFY_DATA;",
+  "code_blocks": [
+   "typedef struct {DWORDcbStruct;DWORDdwOptions;PFN_PUTHNOTIFYpfnNotify;DWORD_PTRdwContext;} INTERNET_AUTH_NOTIFY_DATA;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_BUFFERS",
+  "title": "INTERNET_BUFFERS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918342(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _INTERNET_BUFFERS {DWORDdwStructSize;_INTERNET_BUFFERS* Next;LPCTSTRlpcszHeader;DWORDdwHeadersLength;DWORDdwHeadersTotal;LPVOIDlpvBuffer;DWORDdwBufferLength;DWORDdwBufferTotal;DWORDdwOffsetLow;DWORDdwOffsetHigh;} INTERNET_BUFFERS, *LPINTERNET_BUFFERS;",
+  "code_blocks": [
+   "typedef struct _INTERNET_BUFFERS {DWORDdwStructSize;_INTERNET_BUFFERS* Next;LPCTSTRlpcszHeader;DWORDdwHeadersLength;DWORDdwHeadersTotal;LPVOIDlpvBuffer;DWORDdwBufferLength;DWORDdwBufferTotal;DWORDdwOffsetLow;DWORDdwOffsetHigh;} INTERNET_BUFFERS, *LPINTERNET_BUFFERS;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_CACHE_ENTRY_INFO",
+  "title": "INTERNET_CACHE_ENTRY_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918343(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _INTERNET_CACHE_ENTRY_INFO {DWORDdwStructSize;LPTSTRlpszSourceUrlName;LPTSTRlpszLocalFileName;DWORDCacheEntryType;DWORDdwUseCount;DWORDdwHitRate;DWORDdwSizeLow;DWORDdwSizeHigh;FILETIMELastModifiedTime;FILETIMEExpireTime;FILETIMELastAccessTime;FILETIMELastSyncTime;LPBYTElpHeaderInfo;DWORDdwHeaderInfoSize;LPTSTRlpszFileExtension;union{DWORDdwReserved;DWORDdwExemptDelta;};} INTERNET_CACHE_ENTRY_INFO, *LPINTERNET_CACHE_ENTRY_INFO;",
+  "code_blocks": [
+   "typedef struct _INTERNET_CACHE_ENTRY_INFO {DWORDdwStructSize;LPTSTRlpszSourceUrlName;LPTSTRlpszLocalFileName;DWORDCacheEntryType;DWORDdwUseCount;DWORDdwHitRate;DWORDdwSizeLow;DWORDdwSizeHigh;FILETIMELastModifiedTime;FILETIMEExpireTime;FILETIMELastAccessTime;FILETIMELastSyncTime;LPBYTElpHeaderInfo;DWORDdwHeaderInfoSize;LPTSTRlpszFileExtension;union{DWORDdwReserved;DWORDdwExemptDelta;};} INTERNET_CACHE_ENTRY_INFO, *LPINTERNET_CACHE_ENTRY_INFO;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_CACHE_TIMESTAMPS",
+  "title": "INTERNET_CACHE_TIMESTAMPS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918344(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _INTERNET_CACHE_TIMESTAMPS {FILETIME ftExpires;FILETIME ftLastModified;} INTERNET_CACHE_TIMESTAMPS, *LPINTERNET_CACHE_TIMESTAMPS;",
+  "code_blocks": [
+   "typedef struct _INTERNET_CACHE_TIMESTAMPS {FILETIME ftExpires;FILETIME ftLastModified;} INTERNET_CACHE_TIMESTAMPS, *LPINTERNET_CACHE_TIMESTAMPS;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_CERTIFICATE_INFO",
+  "title": "INTERNET_CERTIFICATE_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918345(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {FILETIMEftExpiry;FILETIMEftStart;LPTSTRlpszSubjectInfo;LPTSTRlpszIssuerInfo;LPTSTRlpszProtocolName;LPTSTRlpszSignatureAlgName;LPTSTRlpszEncryptionAlgName;DWORDdwKeySize;} INTERNET_CERTIFICATE_INFO, *LPINTERNET_CERTIFICATE_INFO;",
+  "code_blocks": [
+   "typedef struct {FILETIMEftExpiry;FILETIMEftStart;LPTSTRlpszSubjectInfo;LPTSTRlpszIssuerInfo;LPTSTRlpszProtocolName;LPTSTRlpszSignatureAlgName;LPTSTRlpszEncryptionAlgName;DWORDdwKeySize;} INTERNET_CERTIFICATE_INFO, *LPINTERNET_CERTIFICATE_INFO;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_CONNECTED_INFO",
+  "title": "INTERNET_CONNECTED_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918352(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORDdwConnectedState;DWORDdwFlags;} INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO;",
+  "code_blocks": [
+   "typedef struct {DWORDdwConnectedState;DWORDdwFlags;} INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_PER_CONN_OPTION",
+  "title": "INTERNET_PER_CONN_OPTION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918370(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORDdwOption;union {DWORDdwValue;LPTSTRpszValue;FILETIMEftValue;}Value;} INTERNET_PER_CONN_OPTION, *LPINTERNET_PER_CONN_OPTION;",
+  "code_blocks": [
+   "typedef struct {DWORDdwOption;union {DWORDdwValue;LPTSTRpszValue;FILETIMEftValue;}Value;} INTERNET_PER_CONN_OPTION, *LPINTERNET_PER_CONN_OPTION;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_PER_CONN_OPTION_LIST",
+  "title": "INTERNET_PER_CONN_OPTION_LIST (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918371(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORDdwSize;LPTSTRpszConnection;DWORDdwOptionCount;DWORDdwOptionError;LPINTERNET_PER_CONN_OPTIONpOptions;} INTERNET_PER_CONN_OPTION_LIST, *LPINTERNET_PER_CONN_OPTION_LIST;",
+  "code_blocks": [
+   "typedef struct {DWORDdwSize;LPTSTRpszConnection;DWORDdwOptionCount;DWORDdwOptionError;LPINTERNET_PER_CONN_OPTIONpOptions;} INTERNET_PER_CONN_OPTION_LIST, *LPINTERNET_PER_CONN_OPTION_LIST;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "In Internet Explorer 5, only the ANSI versions of InternetQueryOption and InternetSetOption will work with this structure. The Unicode versions will support using this structure in later versions of Internet Explorer.",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_PROXY_INFO",
+  "title": "INTERNET_PROXY_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918372(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORDdwAccessType;LPCTSTRlpszProxy;LPCTSTRlpszProxyBypass;} INTERNET_PROXY_INFO, *LPINTERNET_PROXY_INFO;",
+  "code_blocks": [
+   "typedef struct {DWORDdwAccessType;LPCTSTRlpszProxy;LPCTSTRlpszProxyBypass;} INTERNET_PROXY_INFO, *LPINTERNET_PROXY_INFO;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_STATUS_CALLBACK",
+  "title": "INTERNET_STATUS_CALLBACK (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918386(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef void (CALLBACK* INTERNET_STATUS_CALLBACK) (HINTERNEThInternet,DWORD_PTRdwContext,DWORDdwInternetStatus,LPVOIDlpvStatusInformation,DWORDdwStatusInformationLength);",
+  "code_blocks": [
+   "typedef void (CALLBACK* INTERNET_STATUS_CALLBACK) (HINTERNEThInternet,DWORD_PTRdwContext,DWORDdwInternetStatus,LPVOIDlpvStatusInformation,DWORDdwStatusInformationLength);"
+  ],
+  "requirements": {
+   "header": "User-defined",
+   "os": "Windows CE 2.12 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_VERSION_INFO",
+  "title": "INTERNET_VERSION_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918390(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORDdwMajorVersion;DWORDdwMinorVersion;} INTERNET_VERSION_INFO, *LPINTERNET_VERSION_INFO;",
+  "code_blocks": [
+   "typedef struct {DWORDdwMajorVersion;DWORDdwMinorVersion;} INTERNET_VERSION_INFO, *LPINTERNET_VERSION_INFO;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "URL_COMPONENTS",
+  "title": "URL_COMPONENTS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms918864(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {DWORDdwStructSize;LPTSTRlpszScheme;DWORDdwSchemeLength;INTERNET_SCHEMEnScheme;LPTSTRlpszHostName;DWORDdwHostNameLength;INTERNET_PORTnPort;LPTSTRlpszUserName;DWORDdwUserNameLength;LPTSTRlpszPassword;DWORDdwPasswordLength;LPTSTRlpszUrlPath;DWORDdwUrlPathLength;LPTSTRlpszExtraInfo;DWORDdwExtraInfoLength;} URL_COMPONENTS, *LPURL_COMPONENTS;",
+  "code_blocks": [
+   "typedef struct {DWORDdwStructSize;LPTSTRlpszScheme;DWORDdwSchemeLength;INTERNET_SCHEMEnScheme;LPTSTRlpszHostName;DWORDdwHostNameLength;INTERNET_PORTnPort;LPTSTRlpszUserName;DWORDdwUserNameLength;LPTSTRlpszPassword;DWORDdwPasswordLength;LPTSTRlpszUrlPath;DWORDdwUrlPathLength;LPTSTRlpszExtraInfo;DWORDdwExtraInfoLength;} URL_COMPONENTS, *LPURL_COMPONENTS;"
+  ],
+  "requirements": {
+   "header": "Wininet.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "WinInet Error Messages",
+  "title": "WinInet Error Messages (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492075(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "(top)"
+ },
+ {
+  "name": "API Flags",
+  "title": "API Flags (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491836(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "HTTP Response Headers",
+  "title": "HTTP Response Headers (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491881(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "HTTP Status Codes",
+  "title": "HTTP Status Codes (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492039(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "Option Flags",
+  "title": "Option Flags (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492812(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "Privacy Flags",
+  "title": "Privacy Flags (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492267(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "Query Info Flags",
+  "title": "Query Info Flags (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492813(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Constants"
+ },
+ {
+  "name": "INTERNET_SCHEME",
+  "title": "INTERNET_SCHEME (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492774(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { INTERNET_SCHEME_PARTIAL = -2, INTERNET_SCHEME_UNKNOWN = -1, INTERNET_SCHEME_DEFAULT = 0, INTERNET_SCHEME_FTP, INTERNET_SCHEME_GOPHER, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, INTERNET_SCHEME_FILE, INTERNET_SCHEME_NEWS, INTERNET_SCHEME_MAILTO, INTERNET_SCHEME_SOCKS, INTERNET_SCHEME_JAVASCRIPT, INTERNET_SCHEME_VBSCRIPT, INTERNET_SCHEME_FIRST = INTERNET_SCHEME_FTP, INTERNET_SCHEME_LAST = INTERNET_SCHEME_VBSCRIPT } INTERNET_SCHEME, *LPINTERNET_SCHEME;",
+  "code_blocks": [
+   "typedef enum { INTERNET_SCHEME_PARTIAL = -2, INTERNET_SCHEME_UNKNOWN = -1, INTERNET_SCHEME_DEFAULT = 0, INTERNET_SCHEME_FTP, INTERNET_SCHEME_GOPHER, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, INTERNET_SCHEME_FILE, INTERNET_SCHEME_NEWS, INTERNET_SCHEME_MAILTO, INTERNET_SCHEME_SOCKS, INTERNET_SCHEME_JAVASCRIPT, INTERNET_SCHEME_VBSCRIPT, INTERNET_SCHEME_FIRST = INTERNET_SCHEME_FTP, INTERNET_SCHEME_LAST = INTERNET_SCHEME_VBSCRIPT } INTERNET_SCHEME, *LPINTERNET_SCHEME;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Enumerations"
+ },
+ {
+  "name": "InternetCookieState",
+  "title": "InternetCookieState (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491841(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum InternetCookieState { COOKIE_STATE_UNKNOWN = 0x0, COOKIE_STATE_ACCEPT = 0x1, COOKIE_STATE_PROMPT = 0x2, COOKIE_STATE_LEASH = 0x3, COOKIE_STATE_DOWNGRADE = 0x4, COOKIE_STATE_REJECT = 0x5, COOKIE_STATE_MAX = COOKIE_STATE_REJECT } InternetCookieState;",
+  "code_blocks": [
+   "typedef enum InternetCookieState { COOKIE_STATE_UNKNOWN = 0x0, COOKIE_STATE_ACCEPT = 0x1, COOKIE_STATE_PROMPT = 0x2, COOKIE_STATE_LEASH = 0x3, COOKIE_STATE_DOWNGRADE = 0x4, COOKIE_STATE_REJECT = 0x5, COOKIE_STATE_MAX = COOKIE_STATE_REJECT } InternetCookieState;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Enumerations"
+ },
+ {
+  "name": "CommitUrlCacheEntry",
+  "title": "CommitUrlCacheEntry (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492853(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CommitUrlCacheEntry( LPCTSTR lpszUrlName, LPCTSTR lpszLocalFileName, FILETIME ExpireTime, FILETIME LastModifiedTime, DWORD CacheEntryType, LPBYTE lpHeaderInfo, DWORD dwHeaderSize, LPCTSTR lpszFileExtension, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL CommitUrlCacheEntry( LPCTSTR lpszUrlName, LPCTSTR lpszLocalFileName, FILETIME ExpireTime, FILETIME LastModifiedTime, DWORD CacheEntryType, LPBYTE lpHeaderInfo, DWORD dwHeaderSize, LPCTSTR lpszFileExtension, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "CreateUrlCacheEntry",
+  "title": "CreateUrlCacheEntry (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492427(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CreateUrlCacheEntry( LPCTSTR lpszUrlName, DWORD dwExpectedFileSize, LPCTSTR lpszFileExtension, LPTSTR lpszFileName, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL CreateUrlCacheEntry( LPCTSTR lpszUrlName, DWORD dwExpectedFileSize, LPCTSTR lpszFileExtension, LPTSTR lpszFileName, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "CreateUrlCacheGroup",
+  "title": "CreateUrlCacheGroup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492254(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "GROUPID CreateUrlCacheGroup( DWORD dwFlags, LPVOID lpReserved );",
+  "code_blocks": [
+   "GROUPID CreateUrlCacheGroup( DWORD dwFlags, LPVOID lpReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "DeleteUrlCacheEntry",
+  "title": "DeleteUrlCacheEntry (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491822(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DeleteUrlCacheEntry( LPCTSTR lpszUrlName );",
+  "code_blocks": [
+   "BOOL DeleteUrlCacheEntry( LPCTSTR lpszUrlName );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "DeleteUrlCacheGroup",
+  "title": "DeleteUrlCacheGroup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492189(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DeleteUrlCacheGroup( GROUPID GroupId, DWORD dwFlags, LPVOID lpReserved )",
+  "code_blocks": [
+   "BOOL DeleteUrlCacheGroup( GROUPID GroupId, DWORD dwFlags, LPVOID lpReserved )"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindCloseUrlCache",
+  "title": "FindCloseUrlCache (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492163(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindCloseUrlCache( HANDLE hEnumHandle );",
+  "code_blocks": [
+   "BOOL FindCloseUrlCache( HANDLE hEnumHandle );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindFirstUrlCacheEntry",
+  "title": "FindFirstUrlCacheEntry (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492186(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstUrlCacheEntry( LPCTSTR lpszUrlSearchPattern, LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo, LPDWORD lpdwFirstCacheEntryInfoBufferSize );",
+  "code_blocks": [
+   "HANDLE FindFirstUrlCacheEntry( LPCTSTR lpszUrlSearchPattern, LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo, LPDWORD lpdwFirstCacheEntryInfoBufferSize );"
+  ],
+  "requirements": {
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindFirstUrlCacheEntryEx",
+  "title": "FindFirstUrlCacheEntryEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491797(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstUrlCacheEntryEx( LPCWSTR lpszUrlSearchPattern, DWORD dwFlags, DWORD dwFilter, GROUPID GroupId, LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo, LPDWORD lpdwFirstCacheEntryInfoBufferSize, LPVOID lpGroupAttributes, LPDWORD pcbGroupAttributes, LPVOID lpReserved );",
+  "code_blocks": [
+   "HANDLE FindFirstUrlCacheEntryEx( LPCWSTR lpszUrlSearchPattern, DWORD dwFlags, DWORD dwFilter, GROUPID GroupId, LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo, LPDWORD lpdwFirstCacheEntryInfoBufferSize, LPVOID lpGroupAttributes, LPDWORD pcbGroupAttributes, LPVOID lpReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindFirstUrlCacheGroup",
+  "title": "FindFirstUrlCacheGroup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492070(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindFirstUrlCacheGroup( DWORD dwFlags, DWORD dwFilter, LPVOID lpSearchCondition, DWORD dwSearchCondition, GROUPID* lpGroupId, LPVOID lpReserved );",
+  "code_blocks": [
+   "BOOL FindFirstUrlCacheGroup( DWORD dwFlags, DWORD dwFilter, LPVOID lpSearchCondition, DWORD dwSearchCondition, GROUPID* lpGroupId, LPVOID lpReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindNextUrlCacheEntry",
+  "title": "FindNextUrlCacheEntry (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492035(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindNextUrlCacheEntry( HANDLE hEnumHandle, LPINTERNET_CACHE_ENTRY_INFO lpNextCacheEntryInfo, LPDWORD lpdwNextCacheEntryInfoBufferSize );",
+  "code_blocks": [
+   "BOOL FindNextUrlCacheEntry( HANDLE hEnumHandle, LPINTERNET_CACHE_ENTRY_INFO lpNextCacheEntryInfo, LPDWORD lpdwNextCacheEntryInfoBufferSize );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindNextUrlCacheEntryEx",
+  "title": "FindNextUrlCacheEntryEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491823(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLAPI FindNextUrlCacheEntryEx( HANDLE hEnumHandle, LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo, LPDWORD lpdwFirstCacheEntryInfoBufferSize, LPVOID lpGroupAttributes, LPDWORD pcbGroupAttributes, LPVOID lpReserved );",
+  "code_blocks": [
+   "BOOLAPI FindNextUrlCacheEntryEx( HANDLE hEnumHandle, LPINTERNET_CACHE_ENTRY_INFO lpFirstCacheEntryInfo, LPDWORD lpdwFirstCacheEntryInfoBufferSize, LPVOID lpGroupAttributes, LPDWORD pcbGroupAttributes, LPVOID lpReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FindNextUrlCacheGroup",
+  "title": "FindNextUrlCacheGroup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492578(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindNextUrlCacheGroup( HANDLE hFind, GROUPID* lpGroupId, LPVOID lpReserved );",
+  "code_blocks": [
+   "BOOL FindNextUrlCacheGroup( HANDLE hFind, GROUPID* lpGroupId, LPVOID lpReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpCommand",
+  "title": "FtpCommand (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492630(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpCommand( HINTERNET hConnect, BOOL fExpectResponse, DWORD dwFlags, LPCTSTR lpszCommand, DWORD dwContext );",
+  "code_blocks": [
+   "BOOL WINAPI FtpCommand( HINTERNET hConnect, BOOL fExpectResponse, DWORD dwFlags, LPCTSTR lpszCommand, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpCreateDirectory",
+  "title": "FtpCreateDirectory (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492470(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpCreateDirectory( HINTERNET hConnect, LPCTSTR lpszDirectory );",
+  "code_blocks": [
+   "BOOL WINAPI FtpCreateDirectory( HINTERNET hConnect, LPCTSTR lpszDirectory );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpDeleteFile",
+  "title": "FtpDeleteFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492815(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpDeleteFile( HINTERNET hConnect, LPCTSTR lpszFileName );",
+  "code_blocks": [
+   "BOOL WINAPI FtpDeleteFile( HINTERNET hConnect, LPCTSTR lpszFileName );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpFindFirstFile",
+  "title": "FtpFindFirstFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492397(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET FtpFindFirstFile( HINTERNET hConnect, LPCTSTR lpszSearchFile, LPWIN32_FIND_DATA lpFindFileData, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "HINTERNET FtpFindFirstFile( HINTERNET hConnect, LPCTSTR lpszSearchFile, LPWIN32_FIND_DATA lpFindFileData, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpGetCurrentDirectory",
+  "title": "FtpGetCurrentDirectory (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492802(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpGetCurrentDirectory( HINTERNET hConnect, LPCTSTR lpszCurrentDirectory, LPDWORD lpdwCurrentDirectory );",
+  "code_blocks": [
+   "BOOL WINAPI FtpGetCurrentDirectory( HINTERNET hConnect, LPCTSTR lpszCurrentDirectory, LPDWORD lpdwCurrentDirectory );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpGetFile",
+  "title": "FtpGetFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492396(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpGetFile( HINTERNET hConnect, LPCTSTR lpszRemoteFile, LPCTSTR lpszNewFile, BOOL fFailIfExists, DWORD dwFlagsAndAttributes, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "BOOL WINAPI FtpGetFile( HINTERNET hConnect, LPCTSTR lpszRemoteFile, LPCTSTR lpszNewFile, BOOL fFailIfExists, DWORD dwFlagsAndAttributes, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpGetFileEx",
+  "title": "FtpGetFileEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491828(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpGetFileEx( HINTERNET hFtpSession, LPCTSTR lpszRemoteFile, LPCTSTR lpszNewFile, BOOL fFailIfExists, DWORD dwFlagsAndAttributes, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "BOOL WINAPI FtpGetFileEx( HINTERNET hFtpSession, LPCTSTR lpszRemoteFile, LPCTSTR lpszNewFile, BOOL fFailIfExists, DWORD dwFlagsAndAttributes, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpGetFileSize",
+  "title": "FtpGetFileSize (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492614(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD FtpGetFileSize( HINTERNET hFile, LPDWORD lpdwFileSizeHigh );",
+  "code_blocks": [
+   "DWORD FtpGetFileSize( HINTERNET hFile, LPDWORD lpdwFileSizeHigh );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpOpenFile",
+  "title": "FtpOpenFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492663(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET FtpOpenFile( HINTERNET hConnect, LPCTSTR lpszFileName, DWORD dwAccess, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "HINTERNET FtpOpenFile( HINTERNET hConnect, LPCTSTR lpszFileName, DWORD dwAccess, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpPutFile",
+  "title": "FtpPutFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492833(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpPutFile( HINTERNET hConnect, LPCTSTR lpszLocalFile, LPCTSTR lpszNewRemoteFile, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "BOOL WINAPI FtpPutFile( HINTERNET hConnect, LPCTSTR lpszLocalFile, LPCTSTR lpszNewRemoteFile, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpPutFileEx",
+  "title": "FtpPutFileEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492187(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLAPI FtpPutFileEx( HINTERNET hFtpSession, LPCTSTR lpszLocalFile, LPCTSTR lpszNewRemoteFile, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "BOOLAPI FtpPutFileEx( HINTERNET hFtpSession, LPCTSTR lpszLocalFile, LPCTSTR lpszNewRemoteFile, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpRemoveDirectory",
+  "title": "FtpRemoveDirectory (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492589(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpRemoveDirectory( HINTERNET hConnect, LPCTSTR lpszDirectory );",
+  "code_blocks": [
+   "BOOL WINAPI FtpRemoveDirectory( HINTERNET hConnect, LPCTSTR lpszDirectory );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpRenameFile",
+  "title": "FtpRenameFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492006(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpRenameFile( HINTERNET hConnect, LPCTSTR lpszExisting, LPCTSTR lpszNew );",
+  "code_blocks": [
+   "BOOL WINAPI FtpRenameFile( HINTERNET hConnect, LPCTSTR lpszExisting, LPCTSTR lpszNew );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "FtpSetCurrentDirectory",
+  "title": "FtpSetCurrentDirectory (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492829(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FtpSetCurrentDirectory( HINTERNET hConnect, LPCTSTR lpszDirectory );",
+  "code_blocks": [
+   "BOOL WINAPI FtpSetCurrentDirectory( HINTERNET hConnect, LPCTSTR lpszDirectory );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "GetUrlCacheEntryInfo",
+  "title": "GetUrlCacheEntryInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491832(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetUrlCacheEntryInfo( LPCTSTR lpszUrlName, LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufferSize );",
+  "code_blocks": [
+   "BOOL GetUrlCacheEntryInfo( LPCTSTR lpszUrlName, LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufferSize );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "GetUrlCacheEntryInfoEx",
+  "title": "GetUrlCacheEntryInfoEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491829(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetUrlCacheEntryInfoEx( LPCSTR lpszUrl, LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufSize, LPSTR lpszReserved, LPDWORD lpdwReserved, LPVOID lpReserved, DWORD dwFlags );",
+  "code_blocks": [
+   "BOOL GetUrlCacheEntryInfoEx( LPCSTR lpszUrl, LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufSize, LPSTR lpszReserved, LPDWORD lpdwReserved, LPVOID lpReserved, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "GetUrlCacheGroupAttribute",
+  "title": "GetUrlCacheGroupAttribute (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492626(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetUrlCacheGroupAttribute( GROUPID gid, DWORD dwFlags, DWORD dwAttributes, LPINTERNET_CACHE_GROUP_INFO lpGroupInfo, LPWORD lpdwGroupInfo, LPVOID lpReserved );",
+  "code_blocks": [
+   "BOOL GetUrlCacheGroupAttribute( GROUPID gid, DWORD dwFlags, DWORD dwAttributes, LPINTERNET_CACHE_GROUP_INFO lpGroupInfo, LPWORD lpdwGroupInfo, LPVOID lpReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpAddRequestHeaders",
+  "title": "HttpAddRequestHeaders (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492818(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI HttpAddRequestHeaders( HINTERNET hHttpRequest, LPCTSTR lpszHeaders, DWORD dwHeadersLength, DWORD dwModifiers );",
+  "code_blocks": [
+   "BOOL WINAPI HttpAddRequestHeaders( HINTERNET hHttpRequest, LPCTSTR lpszHeaders, DWORD dwHeadersLength, DWORD dwModifiers );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpEndRequest",
+  "title": "HttpEndRequest (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492407(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL HttpEndRequest( HINTERNET hRequest, LPINTERNET_BUFFERS lpBuffersOut, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "BOOL HttpEndRequest( HINTERNET hRequest, LPINTERNET_BUFFERS lpBuffersOut, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpOpenRequest",
+  "title": "HttpOpenRequest (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491851(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET WINAPI HttpOpenRequest( HINTERNET hConnect, LPCTSTR lpszVerb, LPCTSTR lpszObjectName, LPCTSTR lpszVersion, LPCTSTR lpszReferrer, LPCTSTR* lplpszAcceptTypes, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "HINTERNET WINAPI HttpOpenRequest( HINTERNET hConnect, LPCTSTR lpszVerb, LPCTSTR lpszObjectName, LPCTSTR lpszVersion, LPCTSTR lpszReferrer, LPCTSTR* lplpszAcceptTypes, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpQueryInfo",
+  "title": "HttpQueryInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492848(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI HttpQueryInfo( HINTERNET hRequest, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpdwBufferLength, LPDWORD lpdwIndex );",
+  "code_blocks": [
+   "BOOL WINAPI HttpQueryInfo( HINTERNET hRequest, DWORD dwInfoLevel, LPVOID lpBuffer, LPDWORD lpdwBufferLength, LPDWORD lpdwIndex );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpSendRequest",
+  "title": "HttpSendRequest (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492362(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI HttpSendRequest( HINTERNET hRequest, LPCTSTR lpszHeaders, DWORD dwHeadersLength, LPVOID lpOptional, DWORD dwOptionalLength );",
+  "code_blocks": [
+   "BOOL WINAPI HttpSendRequest( HINTERNET hRequest, LPCTSTR lpszHeaders, DWORD dwHeadersLength, LPVOID lpOptional, DWORD dwOptionalLength );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Remarks There are two versions of this function HttpSendRequestA is used with ANSI builds and HttpSendRequestW is used with Unicode builds.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HttpSendRequestEx",
+  "title": "HttpSendRequestEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492193(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL HttpSendRequestEx( HINTERNET hRequest, LPINTERNET_BUFFERS lpBuffersIn, LPINTERNET_BUFFERS lpBuffersOut, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "BOOL HttpSendRequestEx( HINTERNET hRequest, LPINTERNET_BUFFERS lpBuffersIn, LPINTERNET_BUFFERS lpBuffersOut, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetAttemptConnect",
+  "title": "InternetAttemptConnect (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492581(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD InternetAttemptConnect( DWORD dwReserved );",
+  "code_blocks": [
+   "DWORD InternetAttemptConnect( DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCheckConnection",
+  "title": "InternetCheckConnection (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492236(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetCheckConnection( LPCTSTR lpszUrl, DWORD dwFlags, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL InternetCheckConnection( LPCTSTR lpszUrl, DWORD dwFlags, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetClearAllPerSiteCookieDecisions",
+  "title": "InternetClearAllPerSiteCookieDecisions (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492602(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetClearAllPerSiteCookieDecisions(void);",
+  "code_blocks": [
+   "BOOL InternetClearAllPerSiteCookieDecisions(void);"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCloseHandle",
+  "title": "InternetCloseHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492251(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetCloseHandle( HINTERNET hInternet );",
+  "code_blocks": [
+   "BOOL WINAPI InternetCloseHandle( HINTERNET hInternet );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCombineUrl",
+  "title": "InternetCombineUrl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492584(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetCombineUrl( LPCTSTR lpszBaseUrl, LPCTSTR lpszRelativeUrl, LPTSTR lpszBuffer, LPDWORD lpdwBufferLength, DWORD dwFlags );",
+  "code_blocks": [
+   "BOOL WINAPI InternetCombineUrl( LPCTSTR lpszBaseUrl, LPCTSTR lpszRelativeUrl, LPTSTR lpszBuffer, LPDWORD lpdwBufferLength, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetConfirmZoneCrossing",
+  "title": "InternetConfirmZoneCrossing (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492166(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD InternetConfirmZoneCrossing( HWND hWnd, LPTSTR szUrlPrev, LPTSTR szUrlNew, BOOL bPost );",
+  "code_blocks": [
+   "DWORD InternetConfirmZoneCrossing( HWND hWnd, LPTSTR szUrlPrev, LPTSTR szUrlNew, BOOL bPost );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetConnect",
+  "title": "InternetConnect (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492231(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET WINAPI InternetConnect( HINTERNET hInternet, LPCTSTR lpszServerName, INTERNET_PORT nServerPort, LPCTSTR lpszUserName, LPCTSTR lpszPassword, DWORD dwService, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "HINTERNET WINAPI InternetConnect( HINTERNET hInternet, LPCTSTR lpszServerName, INTERNET_PORT nServerPort, LPCTSTR lpszUserName, LPCTSTR lpszPassword, DWORD dwService, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "However, itdoes not accept INTERNET_SERVICE_GOPHER, as GOPHER is not supported in Windows Embedded CE. INTERNET_FLAG_SECURE is not supported.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCrackUrl",
+  "title": "InternetCrackUrl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492398(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetCrackUrl( LPCTSTR lpszUrl, DWORD dwUrlLength, DWORD dwFlags, LPURL_COMPONENTS lpUrlComponents );",
+  "code_blocks": [
+   "BOOL WINAPI InternetCrackUrl( LPCTSTR lpszUrl, DWORD dwUrlLength, DWORD dwFlags, LPURL_COMPONENTS lpUrlComponents );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Always directly call the ANSI version of this function, InternetCrackUrlA .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetCreateUrl",
+  "title": "InternetCreateUrl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492780(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetCreateUrl( LPURL_COMPONENTS lpUrlComponents, DWORD dwFlags, LPTSTR lpszUrl, LPDWORD lpdwUrlLength );",
+  "code_blocks": [
+   "BOOL WINAPI InternetCreateUrl( LPURL_COMPONENTS lpUrlComponents, DWORD dwFlags, LPTSTR lpszUrl, LPDWORD lpdwUrlLength );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetEnumPerSiteCookieDecisionA",
+  "title": "InternetEnumPerSiteCookieDecisionA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492442(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetEnumPerSiteCookieDecisionA( LPSTR pszSiteName, unsigned long *pcSiteNameSize, unsigned long *pdwDecision, unsigned long dwIndex );",
+  "code_blocks": [
+   "BOOL InternetEnumPerSiteCookieDecisionA( LPSTR pszSiteName, unsigned long *pcSiteNameSize, unsigned long *pdwDecision, unsigned long dwIndex );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Use this function for the ANSI implementation. If you call the Unicode implementation, use the InternetEnumPerSiteCookieDecisionW .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetEnumPerSiteCookieDecisionW",
+  "title": "InternetEnumPerSiteCookieDecisionW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491798(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetEnumPerSiteCookieDecisionW( LPSTR pszSiteName, unsigned long *pcSiteNameSize, unsigned long *pdwDecision, unsigned long dwIndex );",
+  "code_blocks": [
+   "BOOL InternetEnumPerSiteCookieDecisionW( LPSTR pszSiteName, unsigned long *pcSiteNameSize, unsigned long *pdwDecision, unsigned long dwIndex );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Use this function for the ANSI implementation. If you call the Unicode implementation, use the InternetEnumPerSiteCookieDecisionA .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetErrorDlg",
+  "title": "InternetErrorDlg (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492869(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD InternetErrorDlg( HWND hWnd, HINTERNET hRequest, DWORD dwError, DWORD dwFlags, LPVOID* lppvData );",
+  "code_blocks": [
+   "DWORD InternetErrorDlg( HWND hWnd, HINTERNET hRequest, DWORD dwError, DWORD dwFlags, LPVOID* lppvData );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetFindNextFile",
+  "title": "InternetFindNextFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492003(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetFindNextFile( HINTERNET hFind, LPVOID lpvFindData );",
+  "code_blocks": [
+   "BOOL WINAPI InternetFindNextFile( HINTERNET hFind, LPVOID lpvFindData );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetConnectedState",
+  "title": "InternetGetConnectedState (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492424(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGetConnectedState( LPDWORD lpdwFlags, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL InternetGetConnectedState( LPDWORD lpdwFlags, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetConnectedStateEx",
+  "title": "InternetGetConnectedStateEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491815(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGetConnectedStateEx( LPDWORD lpdwFlags, LPTSTR lpszConnectionName, DWORD dwNameLen, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL InternetGetConnectedStateEx( LPDWORD lpdwFlags, LPTSTR lpszConnectionName, DWORD dwNameLen, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetCookie",
+  "title": "InternetGetCookie (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492451(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGetCookie( LPCTSTR lpszUrl, LPCTSTR lpszCookieName, LPSTR lpCookieData, LPDWORD lpdwSize );",
+  "code_blocks": [
+   "BOOL InternetGetCookie( LPCTSTR lpszUrl, LPCTSTR lpszCookieName, LPSTR lpCookieData, LPDWORD lpdwSize );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetLastResponseInfo",
+  "title": "InternetGetLastResponseInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492799(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetGetLastResponseInfo( LPDWORD lpdwError, LPTSTR lpszBuffer, LPDWORD lpdwBufferLength );",
+  "code_blocks": [
+   "BOOL WINAPI InternetGetLastResponseInfo( LPDWORD lpdwError, LPTSTR lpszBuffer, LPDWORD lpdwBufferLength );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetPerSiteCookieDecisionA",
+  "title": "InternetGetPerSiteCookieDecisionA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492810(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGetPerSiteCookieDecisionA ( LPCSTR pchHostName, unsigned long* pResult );",
+  "code_blocks": [
+   "BOOL InternetGetPerSiteCookieDecisionA ( LPCSTR pchHostName, unsigned long* pResult );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Use this function for the ANSI implementation. If you call the Unicode implementation, use the InternetGetPerSiteCookieDecisionW .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGetPerSiteCookieDecisionW",
+  "title": "InternetGetPerSiteCookieDecisionW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492202(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGetPerSiteCookieDecisionW ( LPCSTR pchHostName, unsigned long* pResult );",
+  "code_blocks": [
+   "BOOL InternetGetPerSiteCookieDecisionW ( LPCSTR pchHostName, unsigned long* pResult );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Use this function for the Unicode implementation. If you call the ANSI implementation, use the InternetGetPerSiteCookieDecisionA .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetGoOnline",
+  "title": "InternetGoOnline (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491886(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetGoOnline( LPTSTR lpszURL, HWND hwndParent, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL InternetGoOnline( LPTSTR lpszURL, HWND hwndParent, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetLockRequestFile",
+  "title": "InternetLockRequestFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492208(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetLockRequestFile( HINTERNET hInternet, HANDLE* lphLockRequestInfo );",
+  "code_blocks": [
+   "BOOL InternetLockRequestFile( HINTERNET hInternet, HANDLE* lphLockRequestInfo );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetOpen",
+  "title": "InternetOpen (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492088(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET WINAPI InternetOpen( LPCTSTR lpszAgent, DWORD dwAccessType, LPCTSTR lpszProxy, LPCTSTR lpszProxyBypass, DWORD dwFlags );",
+  "code_blocks": [
+   "HINTERNET WINAPI InternetOpen( LPCTSTR lpszAgent, DWORD dwAccessType, LPCTSTR lpszProxy, LPCTSTR lpszProxyBypass, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetOpenUrl",
+  "title": "InternetOpenUrl (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492089(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HINTERNET InternetOpenUrl( HINTERNET hInternetSession, LPCTSTR lpszUrl, LPCTSTR lpszHeaders, DWORD dwHeadersLength, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "HINTERNET InternetOpenUrl( HINTERNET hInternetSession, LPCTSTR lpszUrl, LPCTSTR lpszHeaders, DWORD dwHeadersLength, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE supports only FTP and HTTP protocols. The following list shows the values that Windows Embedded CE supports for the dwFlags parameter: INTERNET_FLAG_RAW_DATA INTERNET_FLAG_RELOAD INTERNET_FLAG_SECURE The dwContext parameter allows for progress status callbacks to the application, but all requests are handled synchronously.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetQueryDataAvailable",
+  "title": "InternetQueryDataAvailable (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491998(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetQueryDataAvailable( HINTERNET hFile, LPDWORD lpdwNumberOfBytesAvailable, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "BOOL WINAPI InternetQueryDataAvailable( HINTERNET hFile, LPDWORD lpdwNumberOfBytesAvailable, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetQueryOption",
+  "title": "InternetQueryOption (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492415(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetQueryOption( HINTERNET hInternet, DWORD dwOption, LPVOID lpBuffer OPTIONAL, LPDWORD lpdwBufferLength );",
+  "code_blocks": [
+   "BOOL WINAPI InternetQueryOption( HINTERNET hInternet, DWORD dwOption, LPVOID lpBuffer OPTIONAL, LPDWORD lpdwBufferLength );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetReadFile",
+  "title": "InternetReadFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491861(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetReadFile( HINTERNET hFile, LPVOID lpBuffer, DWORD dwNumberOfBytesToRead, LPDWORD lpdwNumberOfBytesRead );",
+  "code_blocks": [
+   "BOOL WINAPI InternetReadFile( HINTERNET hFile, LPVOID lpBuffer, DWORD dwNumberOfBytesToRead, LPDWORD lpdwNumberOfBytesRead );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE supports valid Internet handles returned by HttpOpenRequest , FtpOpenFile , and InternetOpenUrl .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetReadFileEx",
+  "title": "InternetReadFileEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492164(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetReadFileEx( HINTERNET hFile, LPINTERNET_BUFFERS lpBuffersOut, DWORD dwFlags, DWORD dwContext );",
+  "code_blocks": [
+   "BOOL InternetReadFileEx( HINTERNET hFile, LPINTERNET_BUFFERS lpBuffersOut, DWORD dwFlags, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetCookie",
+  "title": "InternetSetCookie (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492074(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetSetCookie( LPCTSTR lpszUrl, LPCTSTR lpszCookieName, LPCTSTR lpszCookieData );",
+  "code_blocks": [
+   "BOOL InternetSetCookie( LPCTSTR lpszUrl, LPCTSTR lpszCookieName, LPCTSTR lpszCookieData );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "There is no way to change the registry value from a WinInet function in Windows Embedded CE.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetCookieEx",
+  "title": "InternetSetCookieEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492855(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetSetCookieEx( LPCTSTR lpszUrl, LPCTSTR lpszCookieName, LPCTSTR lpszCookieData, DWORD dwFlags, DWORD_PTR dwReserved );",
+  "code_blocks": [
+   "BOOL InternetSetCookieEx( LPCTSTR lpszUrl, LPCTSTR lpszCookieName, LPCTSTR lpszCookieData, DWORD dwFlags, DWORD_PTR dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetFilePointer",
+  "title": "InternetSetFilePointer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492858(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD InternetSetFilePointer( HINTERNET hFile, LONG lDistanceToMove, PVOID pReserved, DWORD dwMoveMethod, DWORD dwContext );",
+  "code_blocks": [
+   "DWORD InternetSetFilePointer( HINTERNET hFile, LONG lDistanceToMove, PVOID pReserved, DWORD dwMoveMethod, DWORD dwContext );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetOption",
+  "title": "InternetSetOption (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492811(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetSetOption( HINTERNET hInternet, DWORD dwOption, LPVOID lpBuffer, DWORD dwBufferLength );",
+  "code_blocks": [
+   "BOOL WINAPI InternetSetOption( HINTERNET hInternet, DWORD dwOption, LPVOID lpBuffer, DWORD dwBufferLength );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetOptionEx",
+  "title": "InternetSetOptionEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492610(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetPerSiteCookieDecisionA",
+  "title": "InternetSetPerSiteCookieDecisionA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492093(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetSetPerSiteCookieDecisionA( LPCSTR pchHostName, DWORD dwDecision );",
+  "code_blocks": [
+   "BOOL InternetSetPerSiteCookieDecisionA( LPCSTR pchHostName, DWORD dwDecision );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Use this function for the ANSI implementation. If you call the Unicode implementation, use the InternetSetPerSiteCookieDecisionW .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetPerSiteCookieDecisionW",
+  "title": "InternetSetPerSiteCookieDecisionW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491817(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetSetPerSiteCookieDecisionW( LPCSTR pchHostName, DWORD dwDecision );",
+  "code_blocks": [
+   "BOOL InternetSetPerSiteCookieDecisionW( LPCSTR pchHostName, DWORD dwDecision );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "Use this function for the Unicode implementation. If you call the ANSI implementation, use the InternetSetPerSiteCookieDecisionA .",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetSetStatusCallback",
+  "title": "InternetSetStatusCallback (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492013(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "INTERNET_STATUS_CALLBACK WINAPI InternetSetStatusCallback( HINTERNET hInternet, INTERNET_STATUS_CALLBACK lpfnInternetCallback );",
+  "code_blocks": [
+   "INTERNET_STATUS_CALLBACK WINAPI InternetSetStatusCallback( HINTERNET hInternet, INTERNET_STATUS_CALLBACK lpfnInternetCallback );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "In Windows Embedded CE only InternetReadFile and InternetQueryDataAvailable support asynchronous operations.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetTimeFromSystemTime",
+  "title": "InternetTimeFromSystemTime (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492591(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI InternetTimeFromSystemTime( CONST SYSTEMTIME* pst, DWORD dwRFC, LPTSTR lpszTime, DWORD cbTime );",
+  "code_blocks": [
+   "BOOL WINAPI InternetTimeFromSystemTime( CONST SYSTEMTIME* pst, DWORD dwRFC, LPTSTR lpszTime, DWORD cbTime );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetTimeToSystemTime",
+  "title": "InternetTimeToSystemTime (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492864(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetTimeToSystemTime( LPCTSTR lpszTime, SYSTEMTIME* pst, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL InternetTimeToSystemTime( LPCTSTR lpszTime, SYSTEMTIME* pst, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetUnlockRequestFile",
+  "title": "InternetUnlockRequestFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492872(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetUnlockRequestFile( HANDLE hLockRequestInfo );",
+  "code_blocks": [
+   "BOOL InternetUnlockRequestFile( HANDLE hLockRequestInfo );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "InternetWriteFile",
+  "title": "InternetWriteFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492463(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL InternetWriteFile( HINTERNET hFile, LPCVOID lpBuffer, DWORD dwNumberOfBytesToWrite, LPDWORD lpdwNumberOfBytesWritten );",
+  "code_blocks": [
+   "BOOL InternetWriteFile( HINTERNET hFile, LPCVOID lpBuffer, DWORD dwNumberOfBytesToWrite, LPDWORD lpdwNumberOfBytesWritten );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "PrivacyGetZonePreferenceW",
+  "title": "PrivacyGetZonePreferenceW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492807(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD PrivacyGetZonePreferenceW ( DWORD dwZone, DWORD dwType, LPDWORD pdwTemplate, LPWSTR pszBuffer, LPDWORD pdwBufferLength );",
+  "code_blocks": [
+   "DWORD PrivacyGetZonePreferenceW ( DWORD dwZone, DWORD dwType, LPDWORD pdwTemplate, LPWSTR pszBuffer, LPDWORD pdwBufferLength );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "PrivacySetZonePreferenceW",
+  "title": "PrivacySetZonePreferenceW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492181(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD PrivacyGetZonePreferenceW( DWORD dwZone, DWORD dwType, DWORD dwTemplate, LPCWSTR pszPreference, );",
+  "code_blocks": [
+   "DWORD PrivacyGetZonePreferenceW( DWORD dwZone, DWORD dwType, DWORD dwTemplate, LPCWSTR pszPreference, );",
+   "<signature> <logical-rule> <special-rule>",
+   "/<expression>=<decision>/",
+   "/DEM=d/ Deny a cookie whose compact policy contains the DEM token /CON&!TEL=a/ Accept a cookie whose compact policy contains the CON token and does not contain the TEL token /=a/ Accept all cookies",
+   "IE6-P3PSettings/V1: /FIN&CONi=a/ /FIN&CONo=r/ /FIN&CONa=r/ /FIN&CON=r/ /GOV&PUB=r/ /TEL=r/ /UNR=p/ nopolicy=d /=a/"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "ReadUrlCacheEntryStream",
+  "title": "ReadUrlCacheEntryStream (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492009(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ReadUrlCacheEntryStream( HANDLE hUrlCacheStream, DWORD dwLocation, LPVOID lpBuffer, LPDWORD lpdwLen, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL ReadUrlCacheEntryStream( HANDLE hUrlCacheStream, DWORD dwLocation, LPVOID lpBuffer, LPDWORD lpdwLen, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "RetrieveUrlCacheEntryFile",
+  "title": "RetrieveUrlCacheEntryFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492063(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RetrieveUrlCacheEntryFile( LPCTSTR lpszUrlName, LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufferSize, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL RetrieveUrlCacheEntryFile( LPCTSTR lpszUrlName, LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufferSize, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "RetrieveUrlCacheEntryStream",
+  "title": "RetrieveUrlCacheEntryStream (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491819(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE RetrieveUrlCacheEntryStream( LPCTSTR lpszUrlName LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufferSize, BOOL fRandomRead, DWORD dwReserved );",
+  "code_blocks": [
+   "HANDLE RetrieveUrlCacheEntryStream( LPCTSTR lpszUrlName LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, LPDWORD lpdwCacheEntryInfoBufferSize, BOOL fRandomRead, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "SetUrlCacheConfigInfo",
+  "title": "SetUrlCacheConfigInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492619(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLAPI SetUrlCacheConfigInfoA( LPINTERNET_CACHE_CONFIG_INFOA lpCacheConfigInfo, DWORD dwFieldControl );",
+  "code_blocks": [
+   "BOOLAPI SetUrlCacheConfigInfoA( LPINTERNET_CACHE_CONFIG_INFOA lpCacheConfigInfo, DWORD dwFieldControl );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "SetUrlCacheEntryGroup",
+  "title": "SetUrlCacheEntryGroup (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492057(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetUrlCacheEntryGroup( LPCTSTR lpszUrlName, DWORD dwFlags, GROUPID GroupId, LPBYTE pbGroupAttributes, DWORD cbGroupAttributes, LPVOID lpReserved );",
+  "code_blocks": [
+   "BOOL SetUrlCacheEntryGroup( LPCTSTR lpszUrlName, DWORD dwFlags, GROUPID GroupId, LPBYTE pbGroupAttributes, DWORD cbGroupAttributes, LPVOID lpReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "SetUrlCacheEntryInfo",
+  "title": "SetUrlCacheEntryInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492792(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetUrlCacheEntryInfo( LPCSTR lpszUrlName, LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, DWORD dwFieldControl );",
+  "code_blocks": [
+   "BOOL SetUrlCacheEntryInfo( LPCSTR lpszUrlName, LPINTERNET_CACHE_ENTRY_INFO lpCacheEntryInfo, DWORD dwFieldControl );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "SetUrlCacheGroupAttribute",
+  "title": "SetUrlCacheGroupAttribute (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492385(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetUrlCacheGroupAttribute( GROUPID gid, DWORD dwFlags, DWORD dwAttributes, LPINTERNET_CACHE_GROUP_INFO lpGroupInfo, LPVOID lpReserved );",
+  "code_blocks": [
+   "BOOL SetUrlCacheGroupAttribute( GROUPID gid, DWORD dwFlags, DWORD dwAttributes, LPINTERNET_CACHE_GROUP_INFO lpGroupInfo, LPVOID lpReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "Must be set to NULL.",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "UnlockUrlCacheEntryFile",
+  "title": "UnlockUrlCacheEntryFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492887(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnlockUrlCacheEntryFile( LPCSTR lpszUrlName, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL UnlockUrlCacheEntryFile( LPCSTR lpszUrlName, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "UnlockUrlCacheEntryStream",
+  "title": "UnlockUrlCacheEntryStream (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491889(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnlockUrlCacheEntryStream( LHANDLE hUrlCacheStream, DWORD dwReserved );",
+  "code_blocks": [
+   "BOOL UnlockUrlCacheEntryStream( LHANDLE hUrlCacheStream, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "library": "wininet.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Functions"
+ },
+ {
+  "name": "HTTP_VERSION_INFO",
+  "title": "HTTP_VERSION_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491813(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwMajorVersion; DWORD dwMinorVersion; } HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO;",
+  "code_blocks": [
+   "typedef struct { DWORD dwMajorVersion; DWORD dwMinorVersion; } HTTP_VERSION_INFO, *LPHTTP_VERSION_INFO;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_ASYNC_RESULT",
+  "title": "INTERNET_ASYNC_RESULT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492789(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwResult; DWORD dwError; } INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT;",
+  "code_blocks": [
+   "typedef struct { DWORD dwResult; DWORD dwError; } INTERNET_ASYNC_RESULT, *LPINTERNET_ASYNC_RESULT;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_AUTH_NOTIFY_DATA",
+  "title": "INTERNET_AUTH_NOTIFY_DATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492191(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD cbStruct; DWORD dwOptions; PFN_PUTHNOTIFY pfnNotify; DWORD_PTR dwContext; } INTERNET_AUTH_NOTIFY_DATA;",
+  "code_blocks": [
+   "typedef struct { DWORD cbStruct; DWORD dwOptions; PFN_PUTHNOTIFY pfnNotify; DWORD_PTR dwContext; } INTERNET_AUTH_NOTIFY_DATA;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_BUFFERS",
+  "title": "INTERNET_BUFFERS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492175(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _INTERNET_BUFFERS { DWORD dwStructSize; _INTERNET_BUFFERS* Next; LPCTSTR lpcszHeader; DWORD dwHeadersLength; DWORD dwHeadersTotal; LPVOID lpvBuffer; DWORD dwBufferLength; DWORD dwBufferTotal; DWORD dwOffsetLow; DWORD dwOffsetHigh; } INTERNET_BUFFERS, *LPINTERNET_BUFFERS;",
+  "code_blocks": [
+   "typedef struct _INTERNET_BUFFERS { DWORD dwStructSize; _INTERNET_BUFFERS* Next; LPCTSTR lpcszHeader; DWORD dwHeadersLength; DWORD dwHeadersTotal; LPVOID lpvBuffer; DWORD dwBufferLength; DWORD dwBufferTotal; DWORD dwOffsetLow; DWORD dwOffsetHigh; } INTERNET_BUFFERS, *LPINTERNET_BUFFERS;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_CACHE_ENTRY_INFO",
+  "title": "INTERNET_CACHE_ENTRY_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492007(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _INTERNET_CACHE_ENTRY_INFO { DWORD dwStructSize; LPTSTR lpszSourceUrlName; LPTSTR lpszLocalFileName; DWORD CacheEntryType; DWORD dwUseCount; DWORD dwHitRate; DWORD dwSizeLow; DWORD dwSizeHigh; FILETIME LastModifiedTime; FILETIME ExpireTime; FILETIME LastAccessTime; FILETIME LastSyncTime; LPBYTE lpHeaderInfo; DWORD dwHeaderInfoSize; LPTSTR lpszFileExtension; union { DWORD dwReserved; DWORD dwExemptDelta; }; } INTERNET_CACHE_ENTRY_INFO, *LPINTERNET_CACHE_ENTRY_INFO;",
+  "code_blocks": [
+   "typedef struct _INTERNET_CACHE_ENTRY_INFO { DWORD dwStructSize; LPTSTR lpszSourceUrlName; LPTSTR lpszLocalFileName; DWORD CacheEntryType; DWORD dwUseCount; DWORD dwHitRate; DWORD dwSizeLow; DWORD dwSizeHigh; FILETIME LastModifiedTime; FILETIME ExpireTime; FILETIME LastAccessTime; FILETIME LastSyncTime; LPBYTE lpHeaderInfo; DWORD dwHeaderInfoSize; LPTSTR lpszFileExtension; union { DWORD dwReserved; DWORD dwExemptDelta; }; } INTERNET_CACHE_ENTRY_INFO, *LPINTERNET_CACHE_ENTRY_INFO;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_CACHE_TIMESTAMPS",
+  "title": "INTERNET_CACHE_TIMESTAMPS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492174(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _INTERNET_CACHE_TIMESTAMPS { FILETIME ftExpires; FILETIME ftLastModified; } INTERNET_CACHE_TIMESTAMPS, *LPINTERNET_CACHE_TIMESTAMPS;",
+  "code_blocks": [
+   "typedef struct _INTERNET_CACHE_TIMESTAMPS { FILETIME ftExpires; FILETIME ftLastModified; } INTERNET_CACHE_TIMESTAMPS, *LPINTERNET_CACHE_TIMESTAMPS;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_CERTIFICATE_INFO",
+  "title": "INTERNET_CERTIFICATE_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491887(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { FILETIME ftExpiry; FILETIME ftStart; LPTSTR lpszSubjectInfo; LPTSTR lpszIssuerInfo; LPTSTR lpszProtocolName; LPTSTR lpszSignatureAlgName; LPTSTR lpszEncryptionAlgName; DWORD dwKeySize; } INTERNET_CERTIFICATE_INFO, *LPINTERNET_CERTIFICATE_INFO;",
+  "code_blocks": [
+   "typedef struct { FILETIME ftExpiry; FILETIME ftStart; LPTSTR lpszSubjectInfo; LPTSTR lpszIssuerInfo; LPTSTR lpszProtocolName; LPTSTR lpszSignatureAlgName; LPTSTR lpszEncryptionAlgName; DWORD dwKeySize; } INTERNET_CERTIFICATE_INFO, *LPINTERNET_CERTIFICATE_INFO;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_CONNECTED_INFO",
+  "title": "INTERNET_CONNECTED_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492889(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwConnectedState; DWORD dwFlags; } INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO;",
+  "code_blocks": [
+   "typedef struct { DWORD dwConnectedState; DWORD dwFlags; } INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_PER_CONN_OPTION",
+  "title": "INTERNET_PER_CONN_OPTION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492431(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwOption; union { DWORD dwValue; LPTSTR pszValue; FILETIME ftValue; } Value; } INTERNET_PER_CONN_OPTION, *LPINTERNET_PER_CONN_OPTION;",
+  "code_blocks": [
+   "typedef struct { DWORD dwOption; union { DWORD dwValue; LPTSTR pszValue; FILETIME ftValue; } Value; } INTERNET_PER_CONN_OPTION, *LPINTERNET_PER_CONN_OPTION;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_PER_CONN_OPTION_LIST",
+  "title": "INTERNET_PER_CONN_OPTION_LIST (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492031(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwSize; LPTSTR pszConnection; DWORD dwOptionCount; DWORD dwOptionError; LPINTERNET_PER_CONN_OPTION pOptions; } INTERNET_PER_CONN_OPTION_LIST, *LPINTERNET_PER_CONN_OPTION_LIST;",
+  "code_blocks": [
+   "typedef struct { DWORD dwSize; LPTSTR pszConnection; DWORD dwOptionCount; DWORD dwOptionError; LPINTERNET_PER_CONN_OPTION pOptions; } INTERNET_PER_CONN_OPTION_LIST, *LPINTERNET_PER_CONN_OPTION_LIST;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "In Internet Explorer 5, only the ANSI versions of InternetQueryOption and InternetSetOption will work with this structure. The Unicode versions will support using this structure in later versions of Internet Explorer.",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_PROXY_INFO",
+  "title": "INTERNET_PROXY_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492002(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwAccessType; LPCTSTR lpszProxy; LPCTSTR lpszProxyBypass; } INTERNET_PROXY_INFO, *LPINTERNET_PROXY_INFO;",
+  "code_blocks": [
+   "typedef struct { DWORD dwAccessType; LPCTSTR lpszProxy; LPCTSTR lpszProxyBypass; } INTERNET_PROXY_INFO, *LPINTERNET_PROXY_INFO;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "Users of this structure can use the WideCharToMultiByte function to convert a UNICODE string to a multi-byte string.",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_STATUS_CALLBACK",
+  "title": "INTERNET_STATUS_CALLBACK (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492059(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef void (CALLBACK* INTERNET_STATUS_CALLBACK) ( HINTERNET hInternet, DWORD_PTR dwContext, DWORD dwInternetStatus, LPVOID lpvStatusInformation, DWORD dwStatusInformationLength );",
+  "code_blocks": [
+   "typedef void (CALLBACK* INTERNET_STATUS_CALLBACK) ( HINTERNET hInternet, DWORD_PTR dwContext, DWORD dwInternetStatus, LPVOID lpvStatusInformation, DWORD dwStatusInformationLength );"
+  ],
+  "requirements": {
+   "header": "Developer",
+   "os": "Windows CE 2.12 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "INTERNET_VERSION_INFO",
+  "title": "INTERNET_VERSION_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee492083(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwMajorVersion; DWORD dwMinorVersion; } INTERNET_VERSION_INFO, *LPINTERNET_VERSION_INFO;",
+  "code_blocks": [
+   "typedef struct { DWORD dwMajorVersion; DWORD dwMinorVersion; } INTERNET_VERSION_INFO, *LPINTERNET_VERSION_INFO;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ },
+ {
+  "name": "URL_COMPONENTS",
+  "title": "URL_COMPONENTS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee491864(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { DWORD dwStructSize; LPTSTR lpszScheme; DWORD dwSchemeLength; INTERNET_SCHEME nScheme; LPTSTR lpszHostName; DWORD dwHostNameLength; INTERNET_PORT nPort; LPTSTR lpszUserName; DWORD dwUserNameLength; LPTSTR lpszPassword; DWORD dwPasswordLength; LPTSTR lpszUrlPath; DWORD dwUrlPathLength; LPTSTR lpszExtraInfo; DWORD dwExtraInfoLength; } URL_COMPONENTS, *LPURL_COMPONENTS;",
+  "code_blocks": [
+   "typedef struct { DWORD dwStructSize; LPTSTR lpszScheme; DWORD dwSchemeLength; INTERNET_SCHEME nScheme; LPTSTR lpszHostName; DWORD dwHostNameLength; INTERNET_PORT nPort; LPTSTR lpszUserName; DWORD dwUserNameLength; LPTSTR lpszPassword; DWORD dwPasswordLength; LPTSTR lpszUrlPath; DWORD dwUrlPathLength; LPTSTR lpszExtraInfo; DWORD dwExtraInfoLength; } URL_COMPONENTS, *LPURL_COMPONENTS;"
+  ],
+  "requirements": {
+   "header": "wininet.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "wininet",
+  "sub": "WinInet Structures"
+ }
+]

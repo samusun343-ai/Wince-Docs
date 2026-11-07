@@ -1,0 +1,914 @@
+[
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "EnumRegisterWordProc",
+"u": "ee491719(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmAssociateContext",
+"u": "ee491374(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmAssociateContextEx",
+"u": "ee491367(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmConfigureIME",
+"u": "ee491365(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmCreateContext",
+"u": "ee491164(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmCreateIMCC",
+"u": "ee491001(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmDestroyContext",
+"u": "ee490961(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmDestroyIMCC",
+"u": "ee491407(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmDisableIME",
+"u": "ee491729(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmEnumRegisterWord",
+"u": "ee491937(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmEscape",
+"u": "ee490923(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGenerateMessage",
+"u": "ee490998(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCandidateList",
+"u": "ee492157(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCandidateListCount",
+"u": "ee491358(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCandidateWindow",
+"u": "ee491933(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCompositionFont",
+"u": "ee491528(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCompositionString",
+"u": "ee490974(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCompositionWindow",
+"u": "ee491126(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetContext",
+"u": "ee491330(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetConversionList",
+"u": "ee491360(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetConversionStatus",
+"u": "ee491176(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetConversionStatusForeground",
+"u": "ee491931(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetDefaultIMEWnd",
+"u": "ee491130(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetDescription",
+"u": "ee491387(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetGuideLine",
+"u": "ee491970(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetHotKey",
+"u": "ee491215(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetIMCCLockCount",
+"u": "ee491578(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetIMCCSize",
+"u": "ee492130(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetIMCLockCount",
+"u": "ee491942(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetIMEFileName",
+"u": "ee490980(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetImeMenuItems",
+"u": "ee491582(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetOpenStatus",
+"u": "ee491397(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetProperty",
+"u": "ee491973(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetRegisterWordStyle",
+"u": "ee491981(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetStatusWindowPos",
+"u": "ee491188(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetVirtualKey",
+"u": "ee491569(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmIsIME",
+"u": "ee490955(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmIsUIMessage",
+"u": "ee492129(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmLockIMC",
+"u": "ee491932(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmLockIMCC",
+"u": "ee491536(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmNotifyIME",
+"u": "ee491005(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmRegisterWord",
+"u": "ee491595(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmReleaseContext",
+"u": "ee492152(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmReSizeIMCC",
+"u": "ee491768(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetCandidateWindow",
+"u": "ee490976(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetCompositionFont",
+"u": "ee491377(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetCompositionString",
+"u": "ee491749(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetCompositionWindow",
+"u": "ee491195(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetConversionStatus",
+"u": "ee490991(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetHotKey",
+"u": "ee492112(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetOpenStatus",
+"u": "ee491611(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetStatusWindowPos",
+"u": "ee492138(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSimulateHotKey",
+"u": "ee491184(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSIPanelState",
+"u": "ee491162(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmUnlockIMC",
+"u": "ee490916(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmUnlockIMCC",
+"u": "ee491361(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmUnregisterWord",
+"u": "ee491214(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETBACKSPACE",
+"u": "ee491945(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETBOTTOM",
+"u": "ee491988(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETDELETE",
+"u": "ee491952(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETLEFT",
+"u": "ee491124(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETRIGHT",
+"u": "ee491959(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETSET",
+"u": "ee491392(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETTOP",
+"u": "ee490949(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CLEARALL",
+"u": "ee491691(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CONVERTALL",
+"u": "ee491375(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_DETERMINALL",
+"u": "ee491540(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_GETCONVERSIONMODE",
+"u": "ee490907(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_GETERROR",
+"u": "ee492127(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_INSERTFULLSPACE",
+"u": "ee491915(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_INSERTHALFSPACE",
+"u": "ee491702(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_INSERTSPACE",
+"u": "ee490983(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_BUNLENDEC",
+"u": "ee490964(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_BUNLENINC",
+"u": "ee491132(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_CRSRLEFT",
+"u": "ee491978(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_CRSRRIGHT",
+"u": "ee491614(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_UNDOBUNSETSU",
+"u": "ee491757(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_UNDOCLR",
+"u": "ee491992(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_MAKECANDIDATE",
+"u": "ee491642(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_OFFIME",
+"u": "ee491357(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_ONIME",
+"u": "ee491159(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_PHRASEDELETE",
+"u": "ee491559(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_PRECONVERSION",
+"u": "ee491417(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_RELOADCFG",
+"u": "ee491704(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_SELECTCANDIDATE",
+"u": "ee490919(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_SETCONVERSIONMODE",
+"u": "ee491736(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_SETSHIFTSTATE",
+"u": "ee491613(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_CLOSESTATUSWINDOW",
+"u": "ee491413(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETCANDIDATEPOS",
+"u": "ee491772(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETCOMPOSITIONFONT",
+"u": "ee492159(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETCOMPOSITIONWINDOW",
+"u": "ee491199(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETCONVERSIONMODE",
+"u": "ee491896(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETOPENSTATUS",
+"u": "ee492099(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETSENTENCEMODE",
+"u": "ee491579(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETSTATUSWINDOWPOS",
+"u": "ee491210(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_OPENSTATUSWINDOW",
+"u": "ee492125(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETCANDIDATEPOS",
+"u": "ee491746(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETCOMPOSITIONFONT",
+"u": "ee491390(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETCOMPOSITIONWINDOW",
+"u": "ee491956(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETCONVERSIONMODE",
+"u": "ee491625(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETOPENSTATUS",
+"u": "ee491734(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETSENTENCEMODE",
+"u": "ee491194(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETSTATUSWINDOWPOS",
+"u": "ee491349(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_CHANGECANDIDATE",
+"u": "ee491563(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_CLOSECANDIDATE",
+"u": "ee491538(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_CLOSESTATUSWINDOW",
+"u": "ee491743(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_GUIDELINE",
+"u": "ee491783(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_OPENCANDIDATE",
+"u": "ee490935(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_OPENSTATUSWINDOW",
+"u": "ee491158(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETCANDIDATEPOS",
+"u": "ee491107(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETCOMPOSITIONFONT",
+"u": "ee491720(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETCOMPOSITIONWINDOW",
+"u": "ee490944(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETCONVERSIONMODE",
+"u": "ee491155(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETOPENSTATUS",
+"u": "ee491391(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETSENTENCEMODE",
+"u": "ee491604(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETSTATUSWINDOWPOS",
+"u": "ee490915(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_CANDIDATEFORM",
+"u": "ee492116(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_COMPOSITIONFONT",
+"u": "ee491744(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_COMPOSITIONFORM",
+"u": "ee490947(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_CONFIRMRECONVERTSTRING",
+"u": "ee491721(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_DOCUMENTFEED",
+"u": "ee491570(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_QUERYCHARPOSITION",
+"u": "ee491319(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_RECONVERTSTRING",
+"u": "ee491739(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_CHAR",
+"u": "ee490906(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_COMPOSITION",
+"u": "ee491790(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_COMPOSITIONFULL",
+"u": "ee491186(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_CONTROL",
+"u": "ee491974(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_ENDCOMPOSITION",
+"u": "ee490990(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_KEYDOWN",
+"u": "ee491767(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_KEYUP",
+"u": "ee492151(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_NOTIFY",
+"u": "ee491362(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_REQUEST",
+"u": "ee491402(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_SELECT",
+"u": "ee491400(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_SETCONTEXT",
+"u": "ee491182(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_STARTCOMPOSITION",
+"u": "ee491109(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "CANDIDATEFORM",
+"u": "ee491383(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "CANDIDATEINFO",
+"u": "ee491558(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "CANDIDATELIST",
+"u": "ee491139(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "COMPOSITIONFORM",
+"u": "ee491639(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "COMPOSITIONSTRING",
+"u": "ee491699(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "GUIDELINE",
+"u": "ee491173(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "IMECHARPOSITION",
+"u": "ee491567(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "IMEMENUITEMINFO",
+"u": "ee491368(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "INPUTCONTEXT",
+"u": "ee491193(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "RECONVERTSTRING",
+"u": "ee491760(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "REGISTERWORD",
+"u": "ee491388(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "STYLEBUF",
+"u": "ee491722(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Editor (IME) Constants",
+"t": "IME Conversion Mode Values",
+"u": "ee491174(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Editor (IME) Constants",
+"t": "IME Hot Key Identifiers",
+"u": "ee491163(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Editor (IME) Constants",
+"t": "IME Sentence Mode Values",
+"u": "ee491938(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Editor (IME) Constants",
+"t": "IME Escapes",
+"u": "ee491940(v=winembedded.60)"
+},
+{
+"area": "imm",
+"sub": "Input Method Editor (IME) Constants",
+"t": "IME Composition String Values",
+"u": "ee491913(v=winembedded.60)"
+}
+]

@@ -1,0 +1,344 @@
+[
+{
+"area": "obex",
+"sub": "OBEX Enumerations",
+"t": "OBEX_EVENT",
+"u": "ms895790(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Functions",
+"t": "ServerCallback",
+"u": "ms900565(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Functions",
+"t": "ServiceCallback",
+"u": "ms900568(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IDeviceEnum::Clone",
+"u": "ms900495(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IDeviceEnum::Next",
+"u": "ms890398(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IDeviceEnum::Skip",
+"u": "ms890400(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IDeviceEnum::Reset",
+"u": "ms890399(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddAppParams",
+"u": "ms890891(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddBody",
+"u": "ms890893(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddByte",
+"u": "ms890897(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddByteArray",
+"u": "ms890900(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddConnectionId",
+"u": "ms890902(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddCount",
+"u": "ms890906(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddDescription",
+"u": "ms890910(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddEndOfBody",
+"u": "ms890914(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddHTTP",
+"u": "ms890916(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddLength",
+"u": "ms890920(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddLong",
+"u": "ms890922(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddName",
+"u": "ms890925(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddObjectClass",
+"u": "ms890927(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddTarget",
+"u": "ms890931(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddTime",
+"u": "ms890933(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddTimeOld",
+"u": "ms890938(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddType",
+"u": "ms890942(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddUnicodeString",
+"u": "ms890944(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::AddWho",
+"u": "ms890947(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::EnumHeaders",
+"u": "ms890950(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::Remove",
+"u": "ms890955(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderCollection::RemoveAll",
+"u": "ms890957(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderEnum::Next",
+"u": "ms890966(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderEnum::Reset",
+"u": "ms890969(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IHeaderEnum::Clone",
+"u": "ms890961(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::BindToDevice",
+"u": "ms890990(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::EnumDevices",
+"u": "ms891030(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::EnumTransports",
+"u": "ms891033(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::Initialize",
+"u": "ms891037(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::Shutdown",
+"u": "ms891044(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::StartDeviceEnum",
+"u": "ms891054(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObex::StopDeviceEnum",
+"u": "ms891057(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Abort",
+"u": "ms890995(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Connect",
+"u": "ms890998(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Disconnect",
+"u": "ms891002(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::EnumProperties",
+"u": "ms891005(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Get",
+"u": "ms891008(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::Put",
+"u": "ms891015(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::SetPassword",
+"u": "ms891017(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexDevice::SetPath",
+"u": "ms891020(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IObexSink::Notify",
+"u": "ms891050(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IPropertyBagEnum::Clone",
+"u": "ms900502(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IPropertyBagEnum::Next",
+"u": "ms900507(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IPropertyBagEnum::Reset",
+"u": "ms900511(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Interfaces",
+"t": "IPropertyBagEnum::Skip",
+"u": "ms900514(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "OBEXCOMMAND",
+"u": "ms900557(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "OBEXTRANSACTION",
+"u": "ms900561(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "INBOX_EVENT_DATA",
+"u": "ms890978(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "OBEX_HEADER",
+"u": "ms895794(v=msdn.10)"
+},
+{
+"area": "obex",
+"sub": "OBEX Structures",
+"t": "OBEX_REQUEST",
+"u": "ms895798(v=msdn.10)"
+}
+]

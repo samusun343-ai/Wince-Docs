@@ -1,0 +1,914 @@
+[
+{
+"area": "imm",
+"sub": "Input Method Editor Constants",
+"t": "IME Conversion Mode Values",
+"u": "ms905974(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Editor Constants",
+"t": "IME Composition String Values",
+"u": "ms905973(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Editor Constants",
+"t": "IME Hot Key Identifiers",
+"u": "ms905979(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Editor Constants",
+"t": "IME Sentence Mode Values",
+"u": "ms905981(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Editor Constants",
+"t": "IME Escapes",
+"u": "ms905976(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "EnumRegisterWordProc",
+"u": "ms904955(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmAssociateContext",
+"u": "ms905984(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmAssociateContextEx",
+"u": "ms905985(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmConfigureIME",
+"u": "ms905986(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmCreateContext",
+"u": "ms905987(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmCreateIMCC",
+"u": "ms905988(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmDestroyContext",
+"u": "ms905989(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmDestroyIMCC",
+"u": "ms905990(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmDisableIME",
+"u": "ms905991(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmEnumRegisterWord",
+"u": "ms905992(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmEscape",
+"u": "ms905993(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGenerateMessage",
+"u": "ms905994(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCandidateList",
+"u": "ms905995(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCandidateListCount",
+"u": "ms905996(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCandidateWindow",
+"u": "ms905997(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCompositionFont",
+"u": "ms905998(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCompositionString",
+"u": "ms906001(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetCompositionWindow",
+"u": "ms906002(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetContext",
+"u": "ms906003(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetConversionList",
+"u": "ms906004(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetConversionStatus",
+"u": "ms906005(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetConversionStatusForeground",
+"u": "ms906006(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetDefaultIMEWnd",
+"u": "ms906007(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetDescription",
+"u": "ms906008(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetGuideLine",
+"u": "ms906009(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetHotKey",
+"u": "ms906010(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetIMCCLockCount",
+"u": "ms906011(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetIMCCSize",
+"u": "ms906012(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetIMCLockCount",
+"u": "ms906013(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetIMEFileName",
+"u": "ms906014(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetImeMenuItems",
+"u": "ms906015(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetOpenStatus",
+"u": "ms906016(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetProperty",
+"u": "ms906017(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetRegisterWordStyle",
+"u": "ms906018(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetStatusWindowPos",
+"u": "ms906019(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmGetVirtualKey",
+"u": "ms906020(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmIsIME",
+"u": "ms906021(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmIsUIMessage",
+"u": "ms906022(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmLockIMC",
+"u": "ms906023(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmLockIMCC",
+"u": "ms906024(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmNotifyIME",
+"u": "ms906025(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmRegisterWord",
+"u": "ms906026(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmReleaseContext",
+"u": "ms906027(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmReSizeIMCC",
+"u": "ms906028(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetCandidateWindow",
+"u": "ms906029(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetCompositionFont",
+"u": "ms906030(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetCompositionString",
+"u": "ms906031(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetCompositionWindow",
+"u": "ms906032(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetConversionStatus",
+"u": "ms906033(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetHotKey",
+"u": "ms906034(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetOpenStatus",
+"u": "ms906035(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSetStatusWindowPos",
+"u": "ms906036(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSimulateHotKey",
+"u": "ms906037(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmSIPanelState",
+"u": "ms906038(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmUnlockIMC",
+"u": "ms906039(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmUnlockIMCC",
+"u": "ms906040(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Functions",
+"t": "ImmUnregisterWord",
+"u": "ms906041(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_CLOSESTATUSWINDOW",
+"u": "ms905842(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETCANDIDATEPOS",
+"u": "ms905949(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETCOMPOSITIONFONT",
+"u": "ms905955(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETCOMPOSITIONWINDOW",
+"u": "ms905958(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETCONVERSIONMODE",
+"u": "ms905959(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETOPENSTATUS",
+"u": "ms905960(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETSENTENCEMODE",
+"u": "ms905961(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_GETSTATUSWINDOWPOS",
+"u": "ms905962(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_OPENSTATUSWINDOW",
+"u": "ms905963(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETCANDIDATEPOS",
+"u": "ms905964(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETCOMPOSITIONFONT",
+"u": "ms905966(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETCOMPOSITIONWINDOW",
+"u": "ms905967(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETCONVERSIONMODE",
+"u": "ms905968(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETOPENSTATUS",
+"u": "ms905969(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETSENTENCEMODE",
+"u": "ms905970(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMC_SETSTATUSWINDOWPOS",
+"u": "ms905971(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_CHANGECANDIDATE",
+"u": "ms906042(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_CLOSECANDIDATE",
+"u": "ms906043(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_CLOSESTATUSWINDOW",
+"u": "ms906044(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_GUIDELINE",
+"u": "ms906045(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_OPENCANDIDATE",
+"u": "ms906046(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_OPENSTATUSWINDOW",
+"u": "ms906047(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETCANDIDATEPOS",
+"u": "ms906048(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETCOMPOSITIONFONT",
+"u": "ms906049(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETCOMPOSITIONWINDOW",
+"u": "ms906050(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETCONVERSIONMODE",
+"u": "ms906051(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETOPENSTATUS",
+"u": "ms906052(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETSENTENCEMODE",
+"u": "ms906053(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMN_SETSTATUSWINDOWPOS",
+"u": "ms906054(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_CANDIDATEFORM",
+"u": "ms906055(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_COMPOSITIONFONT",
+"u": "ms906056(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_COMPOSITIONFORM",
+"u": "ms906147(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_CONFIRMRECONVERTSTRING",
+"u": "ms906166(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_DOCUMENTFEED",
+"u": "ms906175(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_QUERYCHARPOSITION",
+"u": "ms906183(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "IMR_RECONVERTSTRING",
+"u": "ms906184(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_CHAR",
+"u": "ms906445(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_COMPOSITION",
+"u": "ms906446(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_COMPOSITIONFULL",
+"u": "ms906447(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_CONTROL",
+"u": "ms906448(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_ENDCOMPOSITION",
+"u": "ms906449(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_KEYDOWN",
+"u": "ms906450(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_KEYUP",
+"u": "ms906451(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_NOTIFY",
+"u": "ms906452(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_REQUEST",
+"u": "ms906453(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_SELECT",
+"u": "ms906454(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_SETCONTEXT",
+"u": "ms906455(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Messages",
+"t": "WM_IME_STARTCOMPOSITION",
+"u": "ms906456(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "CANDIDATEFORM",
+"u": "ms904636(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "CANDIDATEINFO",
+"u": "ms904637(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "CANDIDATELIST",
+"u": "ms904638(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "COMPOSITIONFORM",
+"u": "ms904714(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "COMPOSITIONSTR",
+"u": "ms904715(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "GUIDELINE",
+"u": "ms905340(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "IMECHARPOSITION",
+"u": "ms905972(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "IMEMENUITEMINFO",
+"u": "ms905980(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "INPUTCONTEXT",
+"u": "ms906185(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "RECONVERTSTRING",
+"u": "ms906231(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "REGISTERWORD",
+"u": "ms906232(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Structures",
+"t": "STYLEBUF",
+"u": "ms906434(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETBACKSPACE",
+"u": "ms906187(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETBOTTOM",
+"u": "ms906188(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETDELETE",
+"u": "ms906189(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETLEFT",
+"u": "ms906190(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETRIGHT",
+"u": "ms906191(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETSET",
+"u": "ms906193(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CARETTOP",
+"u": "ms906194(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CLEARALL",
+"u": "ms906195(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_CONVERTALL",
+"u": "ms906196(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_DETERMINALL",
+"u": "ms906197(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_GETCONVERSIONMODE",
+"u": "ms906198(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_GETERROR",
+"u": "ms906199(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_INSERTFULLSPACE",
+"u": "ms906200(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_INSERTHALFSPACE",
+"u": "ms906201(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_INSERTSPACE",
+"u": "ms906202(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_BUNLENDEC",
+"u": "ms906203(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_BUNLENINC",
+"u": "ms906204(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_CRSRLEFT",
+"u": "ms906205(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_CRSRRIGHT",
+"u": "ms906206(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_UNDOBUNSETSU",
+"u": "ms906207(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_JPN_UNDOCLR",
+"u": "ms906208(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_MAKECANDIDATE",
+"u": "ms906209(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_OFFIME",
+"u": "ms906210(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_ONIME",
+"u": "ms906211(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_PHRASEDELETE",
+"u": "ms906212(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_PRECONVERSION",
+"u": "ms906213(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_RELOADCFG",
+"u": "ms906214(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_SELECTCANDIDATE",
+"u": "ms906215(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_SETCONVERSIONMODE",
+"u": "ms906216(v=msdn.10)"
+},
+{
+"area": "imm",
+"sub": "Input Method Manager (IMM) Function Identifiers",
+"t": "IPCTRL_SETSHIFTSTATE",
+"u": "ms906217(v=msdn.10)"
+}
+]

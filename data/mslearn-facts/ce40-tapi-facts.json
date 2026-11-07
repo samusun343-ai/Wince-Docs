@@ -1,0 +1,3636 @@
+[
+ {
+  "name": "LINEADDRCAPFLAGS",
+  "title": "LINEADDRCAPFLAGS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907135(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEADDRESSMODE",
+  "title": "LINEADDRESSMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907146(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEADDRESSSHARING",
+  "title": "LINEADDRESSSHARING",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907155(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEADDRESSSTATE",
+  "title": "LINEADDRESSSTATE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907164(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEADDRESSTYPE",
+  "title": "LINEADDRESSTYPE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907178(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEADDRFEATURE",
+  "title": "LINEADDRFEATURE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907120(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEANSWERMODE",
+  "title": "LINEANSWERMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907125(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEBEARERMODE",
+  "title": "LINEBEARERMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907184(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEBUSYMODE",
+  "title": "LINEBUSYMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907190(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLCOMPLCOND",
+  "title": "LINECALLCOMPLCOND",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907198(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLCOMPLMODE",
+  "title": "LINECALLCOMPLMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907203(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLFEATURE",
+  "title": "LINECALLFEATURE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907292(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLFEATURE2",
+  "title": "LINECALLFEATURE2",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907287(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLINFOSTATE",
+  "title": "LINECALLINFOSTATE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907298(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLORIGIN",
+  "title": "LINECALLORIGIN",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907307(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLPARAMFLAGS",
+  "title": "LINECALLPARAMFLAGS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907311(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLPARTYID",
+  "title": "LINECALLPARTYID",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907318(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLPRIVILEGE",
+  "title": "LINECALLPRIVILEGE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907327(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLREASON",
+  "title": "LINECALLREASON",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927280(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLSELECT",
+  "title": "LINECALLSELECT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927285(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLSTATE",
+  "title": "LINECALLSTATE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927290(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "The message carries the new call state that the call transitioned to.",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECALLTREATMENT",
+  "title": "LINECALLTREATMENT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927297(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "The value 0x00000000 is reserved to indicate that the service provider does not support call treatments.",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINECONNECTEDMODE",
+  "title": "LINECONNECTEDMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927309(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "For backward compatibility, it is the responsibility of the service provider to examine the negotiated API version on the line, and to not use those LINECONNECTEDMODE_ values that are not supported on the negotiated version.",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEDEVCAPFLAGS",
+  "title": "LINEDEVCAPFLAGS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927317(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEDEVSTATE",
+  "title": "LINEDEVSTATE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927320(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEDEVSTATUSFLAGS",
+  "title": "LINEDEVSTATUSFLAGS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927324(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEDIALTONEMODE",
+  "title": "LINEDIALTONEMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927327(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEDIGITMODE",
+  "title": "LINEDIGITMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927330(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEDISCONNECTMODE",
+  "title": "LINEDISCONNECTMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927334(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "A remote disconnect request for a given call results in the call state transitioning to the disconnected state and a LINE_CALLSTATE message is sent to the application. For backward compatibility, it is the responsibility of the service provider to examine the version of TAPI on the line, and to not use this LINEDISCONNECTMODE_ value if it is not supported on the negotiated version (LINEDISCONNECTMODE_NORMAL or _UNKNOWN could be used instead).",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEERR",
+  "title": "LINEERR",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927337(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEFEATURE",
+  "title": "LINEFEATURE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927343(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEFORWARDMODE",
+  "title": "LINEFORWARDMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927347(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "For backward compatibility, it is the responsibility of the service provider to examine the negotiated API version on the line, and to not use these LINEFORWARDMODE_ values if the negotiated version does not support them.",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEGATHERTERM",
+  "title": "LINEGATHERTERM",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927351(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEGENERATETERM",
+  "title": "LINEGENERATETERM",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927357(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEINITIALIZEEXOPTION",
+  "title": "LINEINITIALIZEEXOPTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927366(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINELOCATIONOPTION",
+  "title": "LINELOCATIONOPTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927368(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEMEDIACONTROL",
+  "title": "LINEMEDIACONTROL",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927371(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "Media-control actions can be associated with the detection of digits, the detection of tones, the transition into a call state, and the detection of a media type.",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEMEDIAMODE",
+  "title": "LINEMEDIAMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927373(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEOFFERINGMODE",
+  "title": "LINEOFFERINGMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927375(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "For backward compatibility, it is the responsibility of the service provider to examine the negotiated API version on the line, and to not use these LINEOFFERINGMODE_ values if they are not supported on the negotiated version.",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEOPENOPTION",
+  "title": "LINEOPENOPTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927378(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEPARKMODE",
+  "title": "LINEPARKMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927381(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEREMOVEFROMCONF",
+  "title": "LINEREMOVEFROMCONF",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927388(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINEROAMMODE",
+  "title": "LINEROAMMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927390(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINESPECIALINFO",
+  "title": "LINESPECIALINFO",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927393(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINETERMDEV",
+  "title": "LINETERMDEV",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927395(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINETERMMODE",
+  "title": "LINETERMMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927398(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINETERMSHARING",
+  "title": "LINETERMSHARING",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927400(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINETOLLLISTOPTION",
+  "title": "LINETOLLLISTOPTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927402(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINETONEMODE",
+  "title": "LINETONEMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927405(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINETRANSFERMODE",
+  "title": "LINETRANSFERMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927407(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINETRANSLATEOPTION",
+  "title": "LINETRANSLATEOPTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927410(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "LINETRANSLATERESULT",
+  "title": "LINETRANSLATERESULT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927412(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONEBUTTONFUNCTION",
+  "title": "PHONEBUTTONFUNCTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927417(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONEBUTTONMODE",
+  "title": "PHONEBUTTONMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927420(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONEBUTTONSTATE",
+  "title": "PHONEBUTTONSTATE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927423(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "For backward compatibility, it is the responsibility of the service provider to examine the negotiated API version on the phone, and to not use those PHONEBUTTONSTATE constants that the negotiated version does not support.",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONEERR",
+  "title": "PHONEERR",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927428(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONEFEATURE",
+  "title": "PHONEFEATURE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927433(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONEHOOKSWITCHDEV",
+  "title": "PHONEHOOKSWITCHDEV",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927436(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONEHOOKSWITCHMODE",
+  "title": "PHONEHOOKSWITCHMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927439(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONEINITIALIZEEXOPTION",
+  "title": "PHONEINITIALIZEEXOPTION",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927442(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONELAMPMODE",
+  "title": "PHONELAMPMODE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927450(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONEPRIVILEGE",
+  "title": "PHONEPRIVILEGE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927456(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONESTATE",
+  "title": "PHONESTATE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927461(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "PHONESTATUSFLAGS",
+  "title": "PHONESTATUSFLAGS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927465(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "STRINGFORMAT",
+  "title": "STRINGFORMAT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927470(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Constants"
+ },
+ {
+  "name": "lineAccept",
+  "title": "lineAccept",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927976(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineAccept( HCALL hCall, LPCSTR lpsUserUserInfo, DWORD dwSize );",
+  "code_blocks": [
+   "LONG WINAPI lineAccept( HCALL hCall, LPCSTR lpsUserUserInfo, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "After a call has been successfully accepted by an application, alerting begins at both the called and calling device and the call state typically transitions to accepted. The call state transition to accepted can be used by other applications as an indication that another application has claimed responsibility for the call and has presented the call to the user.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineAddProvider",
+  "title": "lineAddProvider",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927977(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineAddProvider( LPCWSTR lpszProviderFilename, HWND hwndOwner, LPDWORD lpdwPermanentProviderID );",
+  "code_blocks": [
+   "LONG lineAddProvider( LPCWSTR lpszProviderFilename, HWND hwndOwner, LPDWORD lpdwPermanentProviderID );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE, TAPI uses a function pointer table to call the service provider instead of using exported ordinal entry points.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineAddToConference",
+  "title": "lineAddToConference",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927978(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineAddToConference( HCALL hConfCall, HCALL hConsultCall );",
+  "code_blocks": [
+   "LONG WINAPI lineAddToConference( HCALL hConfCall, HCALL hConsultCall );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineAnswer",
+  "title": "lineAnswer",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927979(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineAnswer( HCALL hCall, LPCSTR lpsUserUserInfo, DWORD dwSize );",
+  "code_blocks": [
+   "LONG WINAPI lineAnswer( HCALL hCall, LPCSTR lpsUserUserInfo, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "After the call has been successfully answered, the call typically transitions to the connected state. The appropriate LINE_CALLSTATE messages report state transitions to the application about both calls.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineBlindTransfer",
+  "title": "lineBlindTransfer",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927980(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineBlindTransfer( HCALL hCall, LPCWSTR lpszDestAddress, DWORD dwCountryCode );",
+  "code_blocks": [
+   "LONG WINAPI lineBlindTransfer( HCALL hCall, LPCWSTR lpszDestAddress, DWORD dwCountryCode );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "After the blind transfer successfully completes, the specified call is typically cleared from the application's line, and it transitions to the idle state.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineCallbackFunc",
+  "title": "lineCallbackFunc",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927981(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID FAR PASCAL lineCallbackFunc( DWORD hDevice, DWORD dwMsg, DWORD dwCallbackInstance, DWORD dwParam1, DWORD dwParam2, DWORD dwParam3 );",
+  "code_blocks": [
+   "VOID FAR PASCAL lineCallbackFunc( DWORD hDevice, DWORD dwMsg, DWORD dwCallbackInstance, DWORD dwParam1, DWORD dwParam2, DWORD dwParam3 );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineClose",
+  "title": "lineClose",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927985(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineClose( HLINE hLine );",
+  "code_blocks": [
+   "LONG lineClose( HLINE hLine );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineCompleteTransfer",
+  "title": "lineCompleteTransfer",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927986(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineCompleteTransfer( HCALL hCall, HCALL hConsultCall, LPHCALL lphConfCall, DWORD dwTransferMode );",
+  "code_blocks": [
+   "LONG WINAPI lineCompleteTransfer( HCALL hCall, HCALL hConsultCall, LPHCALL lphConfCall, DWORD dwTransferMode );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "When resolved as a transfer, the parties connected by hCall and hConsultCall are connected to each other, and both hCall and hConsultCall are typically cleared from the application's line and transition to the idle state. Both existing call handles remain valid but transition to the conferenced state. A conference call handle is created and returned, and it transitions to the connected state.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineConfigDialogEdit",
+  "title": "lineConfigDialogEdit",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927987(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineConfigDialogEdit( DWORD dwDeviceID, HWND hwndOwner, LPCWSTR lpszDeviceClass, LPVOID const lpDeviceConfigIn, DWORD dwSize, LPVARSTRING lpDeviceConfigOut );",
+  "code_blocks": [
+   "LONG lineConfigDialogEdit( DWORD dwDeviceID, HWND hwndOwner, LPCWSTR lpszDeviceClass, LPVOID const lpDeviceConfigIn, DWORD dwSize, LPVARSTRING lpDeviceConfigOut );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineDeallocateCall",
+  "title": "lineDeallocateCall",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927988(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineDeallocateCall( HCALL hCall );",
+  "code_blocks": [
+   "LONG lineDeallocateCall( HCALL hCall );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineDevSpecific",
+  "title": "lineDevSpecific",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927990(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineDevSpecific( HLINE hLine, DWORD dwAddressID, HCALL hCall, LPVOID lpParams, DWORD dwSize );",
+  "code_blocks": [
+   "LONG WINAPI lineDevSpecific( HLINE hLine, DWORD dwAddressID, HCALL hCall, LPVOID lpParams, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE, Unimodem uses lineDevSpecific to support an interface for programmatically modifying a DevConfig.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineDial",
+  "title": "lineDial",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927992(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineDial( HCALL hCall, LPCWSTR lpszDestAddress, DWORD dwCountryCode );",
+  "code_blocks": [
+   "LONG WINAPI lineDial( HCALL hCall, LPCWSTR lpszDestAddress, DWORD dwCountryCode );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineDrop",
+  "title": "lineDrop",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927994(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineDrop( HCALL hCall, LPCTSTR lpsUserUserInfo, DWORD dwSize );",
+  "code_blocks": [
+   "LONG lineDrop( HCALL hCall, LPCTSTR lpsUserUserInfo, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "A dropped call typically transitions to the idle state. If this is the case, hConfCall shifts to the idle state, and the only remaining participating call transitions to the connected state.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineForward",
+  "title": "lineForward",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927996(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineForward( HLINE hLine, DWORD bAllAddresses, DWORD dwAddressID, LPLINEFORWARDLIST const lpForwardList, DWORD dwNumRingsNoAnswer, LPHCALL lphConsultCall, LPLINECALLPARAMS const lpCallParams );",
+  "code_blocks": [
+   "LONG WINAPI lineForward( HLINE hLine, DWORD bAllAddresses, DWORD dwAddressID, LPLINEFORWARDLIST const lpForwardList, DWORD dwNumRingsNoAnswer, LPHCALL lphConsultCall, LPLINECALLPARAMS const lpCallParams );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGenerateDigits",
+  "title": "lineGenerateDigits",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927997(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGenerateDigits( HCALL hCall, DWORD dwDigitMode, LPCWSTR lpszDigits, DWORD dwDuration );",
+  "code_blocks": [
+   "LONG WINAPI lineGenerateDigits( HCALL hCall, DWORD dwDigitMode, LPCWSTR lpszDigits, DWORD dwDuration );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGenerateTone",
+  "title": "lineGenerateTone",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927998(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGenerateTone( HCALL hCall, DWORD dwToneMode, DWORD dwDuration, DWORD dwNumTones, LPLINEGENERATETONE const lpTones );",
+  "code_blocks": [
+   "LONG WINAPI lineGenerateTone( HCALL hCall, DWORD dwToneMode, DWORD dwDuration, DWORD dwNumTones, LPLINEGENERATETONE const lpTones );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetAddressCaps",
+  "title": "lineGetAddressCaps",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928001(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetAddressCaps( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAddressID, DWORD dwAPIVersion, DWORD dwExtVersion, LPLINEADDRESSCAPS lpAddressCaps );",
+  "code_blocks": [
+   "LONG WINAPI lineGetAddressCaps( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAddressID, DWORD dwAPIVersion, DWORD dwExtVersion, LPLINEADDRESSCAPS lpAddressCaps );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetAddressID",
+  "title": "lineGetAddressID",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928002(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetAddressID( HLINE hLine, LPDWORD lpdwAddressID, DWORD dwAddressMode, LPCWSTR lpsAddress, DWORD dwSize );",
+  "code_blocks": [
+   "LONG WINAPI lineGetAddressID( HLINE hLine, LPDWORD lpdwAddressID, DWORD dwAddressMode, LPCWSTR lpsAddress, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetAddressStatus",
+  "title": "lineGetAddressStatus",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928003(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetAddressStatus( HLINE hLine, DWORD dwAddressID, LPLINEADDRESSSTATUS lpAddressStatus );",
+  "code_blocks": [
+   "LONG WINAPI lineGetAddressStatus( HLINE hLine, DWORD dwAddressID, LPLINEADDRESSSTATUS lpAddressStatus );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetAppPriority",
+  "title": "lineGetAppPriority",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928004(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetAppPriority( LPCWSTR lpszAppFilename, DWORD dwMediaMode, LPLINEEXTENSIONID lpExtensionID, DWORD dwRequestMode, LPVARSTRING lpExtensionName, LPDWORD lpdwPriority );",
+  "code_blocks": [
+   "LONG WINAPI lineGetAppPriority( LPCWSTR lpszAppFilename, DWORD dwMediaMode, LPLINEEXTENSIONID lpExtensionID, DWORD dwRequestMode, LPVARSTRING lpExtensionName, LPDWORD lpdwPriority );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetCallInfo",
+  "title": "lineGetCallInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928006(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetCallInfo( HCALL hCall, LPLINECALLINFO lpCallInfo );",
+  "code_blocks": [
+   "LONG WINAPI lineGetCallInfo( HCALL hCall, LPLINECALLINFO lpCallInfo );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetCallStatus",
+  "title": "lineGetCallStatus",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928007(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetCallStatus( HCALL hCall, LPLINECALLSTATUS lpCallStatus );",
+  "code_blocks": [
+   "LONG WINAPI lineGetCallStatus( HCALL hCall, LPLINECALLSTATUS lpCallStatus );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetConfRelatedCalls",
+  "title": "lineGetConfRelatedCalls",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928008(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetConfRelatedCalls( HCALL hCall, LPLINECALLLIST lpCallList );",
+  "code_blocks": [
+   "LONG WINAPI lineGetConfRelatedCalls( HCALL hCall, LPLINECALLLIST lpCallList );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetDevCaps",
+  "title": "lineGetDevCaps",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928009(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineGetDevCaps( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPIVersion, DWORD dwExtVersion, LPLINEDEVCAPS lpLineDevCaps );",
+  "code_blocks": [
+   "LONG lineGetDevCaps( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPIVersion, DWORD dwExtVersion, LPLINEDEVCAPS lpLineDevCaps );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetDevConfig",
+  "title": "lineGetDevConfig",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928010(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetDevConfig( DWORD dwDeviceID, LPVARSTRING lpDeviceConfig, LPCSTR lpszDeviceClass );",
+  "code_blocks": [
+   "LONG WINAPI lineGetDevConfig( DWORD dwDeviceID, LPVARSTRING lpDeviceConfig, LPCSTR lpszDeviceClass );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE, the lineGetDevConfig function for a unimodem line device returns the default DevConfig.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetID",
+  "title": "lineGetID",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928012(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineGetID( HLINE hLine, DWORD dwAddressID, HCALL hCall, DWORD dwSelect, LPVARSTRING lpDeviceID, LPCWSTR lpszDeviceClass );",
+  "code_blocks": [
+   "LONG lineGetID( HLINE hLine, DWORD dwAddressID, HCALL hCall, DWORD dwSelect, LPVARSTRING lpDeviceID, LPCWSTR lpszDeviceClass );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetIcon",
+  "title": "lineGetIcon",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928011(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetIcon( DWORD dwDeviceID, LPCWSTR lpszDeviceClass, LPHICON lphIcon );",
+  "code_blocks": [
+   "LONG WINAPI lineGetIcon( DWORD dwDeviceID, LPCWSTR lpszDeviceClass, LPHICON lphIcon );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For applications using an API version earlier than 2.0, if the provider does not return an icon (whether because the given device class is invalid or the provider does not support icons), TAPI substitutes a generic Microsoft® Win32® Telephony line device icon. For any other device class, if the given device class is not valid or the provider does not support icons for the class, lineGetIcon returns LINEERR_INVALDEVICECLASS.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetLineDevStatus",
+  "title": "lineGetLineDevStatus",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928013(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetLineDevStatus( HLINE hLine, LPLINEDEVSTATUS lpLineDevStatus );",
+  "code_blocks": [
+   "LONG WINAPI lineGetLineDevStatus( HLINE hLine, LPLINEDEVSTATUS lpLineDevStatus );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetMessage",
+  "title": "lineGetMessage",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928014(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetMessage( HLINEAPP hLineApp, LPLINEMESSAGE lpMessage, DWORD dwTimeout );",
+  "code_blocks": [
+   "LONG WINAPI lineGetMessage( HLINEAPP hLineApp, LPLINEMESSAGE lpMessage, DWORD dwTimeout );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetNewCalls",
+  "title": "lineGetNewCalls",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928015(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetNewCalls( HLINE hLine, DWORD dwAddressID, DWORD dwSelect, LPLINECALLLIST lpCallList );",
+  "code_blocks": [
+   "LONG WINAPI lineGetNewCalls( HLINE hLine, DWORD dwAddressID, DWORD dwSelect, LPLINECALLLIST lpCallList );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetNumRings",
+  "title": "lineGetNumRings",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928016(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetNumRings( HLINE hLine, DWORD dwAddressID, LPDWORD lpdwNumRings );",
+  "code_blocks": [
+   "LONG WINAPI lineGetNumRings( HLINE hLine, DWORD dwAddressID, LPDWORD lpdwNumRings );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetProviderList",
+  "title": "lineGetProviderList",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928017(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetProviderList( DWORD dwAPIVersion, LPLINEPROVIDERLIST lpProviderList );",
+  "code_blocks": [
+   "LONG WINAPI lineGetProviderList( DWORD dwAPIVersion, LPLINEPROVIDERLIST lpProviderList );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetStatusMessages",
+  "title": "lineGetStatusMessages",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928018(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineGetStatusMessages( HLINE hLine, LPDWORD lpdwLineStates, LPDWORD lpdwAddressStates );",
+  "code_blocks": [
+   "LONG WINAPI lineGetStatusMessages( HLINE hLine, LPDWORD lpdwLineStates, LPDWORD lpdwAddressStates );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineGetTranslateCaps",
+  "title": "lineGetTranslateCaps",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928019(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineGetTranslateCaps( HLINEAPP hLineApp, DWORD dwAPIVersion, LPLINETRANSLATECAPS lpTranslateCaps );",
+  "code_blocks": [
+   "LONG lineGetTranslateCaps( HLINEAPP hLineApp, DWORD dwAPIVersion, LPLINETRANSLATECAPS lpTranslateCaps );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineHandoff",
+  "title": "lineHandoff",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928020(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineHandoff( HCALL hCall, LPCSTR lpszFileName, DWORD dwMediaMode );",
+  "code_blocks": [
+   "LONG WINAPI lineHandoff( HCALL hCall, LPCSTR lpszFileName, DWORD dwMediaMode );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineHold",
+  "title": "lineHold",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928021(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineHold( HCALL hCall );",
+  "code_blocks": [
+   "LONG WINAPI lineHold( HCALL hCall );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "After a call has been successfully placed on hold, the call state typically transitions to onHold. For example, if the held party hangs up, the call state can transition to disconnected.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineInitialize",
+  "title": "lineInitialize",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928022(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineInitialize( LPHLINEAPP lphLineApp, HINSTANCE hInstance, LINECALLBACK lpfnCallback, LPCWSTR lpszAppName, LPDWORD lpdwNumDevs );",
+  "code_blocks": [
+   "LONG lineInitialize( LPHLINEAPP lphLineApp, HINSTANCE hInstance, LINECALLBACK lpfnCallback, LPCWSTR lpszAppName, LPDWORD lpdwNumDevs );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineInitializeEx",
+  "title": "lineInitializeEx",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928023(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineInitializeEx( LPHLINEAPP lphLineApp, HINSTANCE hInstance, LINECALLBACK lpfnCallback, LPCWSTR lpszFriendlyAppName, LPDWORD lpdwNumDevs, LPDWORD lpdwAPIVersion, LPLINEINITIALIZEEXPARAMS lpLineInitializeExParams );",
+  "code_blocks": [
+   "LONG WINAPI lineInitializeEx( LPHLINEAPP lphLineApp, HINSTANCE hInstance, LINECALLBACK lpfnCallback, LPCWSTR lpszFriendlyAppName, LPDWORD lpdwNumDevs, LPDWORD lpdwAPIVersion, LPLINEINITIALIZEEXPARAMS lpLineInitializeExParams );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineMakeCall",
+  "title": "lineMakeCall",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928026(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineMakeCall( HLINE hLine, LPHCALL lphCall, LPCWSTR lpszDestAddress, DWORD dwCountryCode, LPLINECALLPARAMS const lpCallParams );",
+  "code_blocks": [
+   "LONG lineMakeCall( HLINE hLine, LPHCALL lphCall, LPCWSTR lpszDestAddress, DWORD dwCountryCode, LPLINECALLPARAMS const lpCallParams );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "No generally valid sequence of call-state transitions is specified, as no single fixed sequence of transitions can be guaranteed in practice. A typical sequence can cause a call to transition from dialtone , dialing , proceeding , ringback , to connected . With non-dialed lines, the call can typically transition directly to connected state.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineMonitorDigits",
+  "title": "lineMonitorDigits",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928028(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineMonitorDigits( HCALL hCall, DWORD dwDigitModes );",
+  "code_blocks": [
+   "LONG WINAPI lineMonitorDigits( HCALL hCall, DWORD dwDigitModes );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Digit monitoring remains in effect until it is explicitly disabled by calling lineMonitorDigits with dwDigitModes set to zero, until the call transitions to idle, or when the application deallocates its call handle for the call.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineMonitorMedia",
+  "title": "lineMonitorMedia",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928029(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineMonitorMedia( HCALL hCall, DWORD dwMediaModes );",
+  "code_blocks": [
+   "LONG WINAPI lineMonitorMedia( HCALL hCall, DWORD dwMediaModes );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Media monitoring for a given media type remains in effect until it is explicitly disabled by calling lineMonitorMedia with a dwMediaModes parameter set to zero, until the call transitions to idle, or when the application deallocates its call handle for the call.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineNegotiateAPIVersion",
+  "title": "lineNegotiateAPIVersion",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928030(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineNegotiateAPIVersion( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPILowVersion, DWORD dwAPIHighVersion, LPDWORD lpdwAPIVersion, LPLINEEXTENSIONID lpExtensionID );",
+  "code_blocks": [
+   "LONG lineNegotiateAPIVersion( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPILowVersion, DWORD dwAPIHighVersion, LPDWORD lpdwAPIVersion, LPLINEEXTENSIONID lpExtensionID );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineNegotiateExtVersion",
+  "title": "lineNegotiateExtVersion",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928031(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineNegotiateExtVersion( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPIVersion, DWORD dwExtLowVersion, DWORD dwExtHighVersion, LPDWORD lpdwExtVersion );",
+  "code_blocks": [
+   "LONG WINAPI lineNegotiateExtVersion( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPIVersion, DWORD dwExtLowVersion, DWORD dwExtHighVersion, LPDWORD lpdwExtVersion );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineOpen",
+  "title": "lineOpen",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928032(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineOpen( HLINEAPP hLineApp, DWORD dwDeviceID, LPHLINE lphLine, DWORD dwAPIVersion, DWORD dwExtVersion, DWORD dwCallbackInstance, DWORD dwPrivileges, DWORD dwMediaModes, LPLINECALLPARAMS const lpCallParams );",
+  "code_blocks": [
+   "LONG lineOpen( HLINEAPP hLineApp, DWORD dwDeviceID, LPHLINE lphLine, DWORD dwAPIVersion, DWORD dwExtVersion, DWORD dwCallbackInstance, DWORD dwPrivileges, DWORD dwMediaModes, LPLINECALLPARAMS const lpCallParams );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "This overcommitment can be transitory, caused by monitoring of media mode or tones, and changes in these activities by other applications can make it possible to reopen the line within a short time period.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "linePickup",
+  "title": "linePickup",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928033(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI linePickup( HLINE hLine, DWORD dwAddressID, LPHCALL lphCall, LPCSTR lpszDestAddress, LPCSTR lpszGroupID );",
+  "code_blocks": [
+   "LONG WINAPI linePickup( HLINE hLine, DWORD dwAddressID, LPHCALL lphCall, LPCSTR lpszDestAddress, LPCSTR lpszGroupID );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Both lpszDestAddress and lpszGroupID pointer parameters must be NULL to pick up a call-waiting call.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "linePrepareAddToConference",
+  "title": "linePrepareAddToConference",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928034(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI linePrepareAddToConference( HCALL hConfCall, LPHCALL lphConsultCall, LPLINECALLPARAMS const lpCallParams );",
+  "code_blocks": [
+   "LONG WINAPI linePrepareAddToConference( HCALL hConfCall, LPHCALL lphConsultCall, LPLINECALLPARAMS const lpCallParams );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineRedirect",
+  "title": "lineRedirect",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928035(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineRedirect( HCALL hCall, LPCSTR lpszDestAddress, DWORD dwCountryCode );",
+  "code_blocks": [
+   "LONG WINAPI lineRedirect( HCALL hCall, LPCSTR lpszDestAddress, DWORD dwCountryCode );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "After a call has been successfully redirected, the call typically transitions to idle.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineReleaseUserUserInfo",
+  "title": "lineReleaseUserUserInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928036(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineReleaseUserUserInfo( HCALL hCall );",
+  "code_blocks": [
+   "LONG WINAPI lineReleaseUserUserInfo( HCALL hCall );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineRemoveFromConference",
+  "title": "lineRemoveFromConference",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928037(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineRemoveFromConference( HCALL hCall );",
+  "code_blocks": [
+   "LONG WINAPI lineRemoveFromConference( HCALL hCall );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSendUserUserInfo",
+  "title": "lineSendUserUserInfo",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928038(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSendUserUserInfo( HCALL hCall, LPCSTR lpsUserUserInfo, DWORD dwSize );",
+  "code_blocks": [
+   "LONG WINAPI lineSendUserUserInfo( HCALL hCall, LPCSTR lpsUserUserInfo, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetAppPriority",
+  "title": "lineSetAppPriority",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928039(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSetAppPriority( LPCSTR lpszAppFilename, DWORD dwMediaMode, LPLINEEXTENSIONID lpExtensionID, DWORD dwRequestMode, LPCSTR lpszExtensionName, DWORD dwPriority );",
+  "code_blocks": [
+   "LONG WINAPI lineSetAppPriority( LPCSTR lpszAppFilename, DWORD dwMediaMode, LPLINEEXTENSIONID lpExtensionID, DWORD dwRequestMode, LPCSTR lpszExtensionName, DWORD dwPriority );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetCallParams",
+  "title": "lineSetCallParams",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928040(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSetCallParams( HCALL hCall, DWORD dwBearerMode, DWORD dwMinRate, DWORD dwMaxRate, LPLINEDIALPARAMS const lpDialParams );",
+  "code_blocks": [
+   "LONG WINAPI lineSetCallParams( HCALL hCall, DWORD dwBearerMode, DWORD dwMinRate, DWORD dwMaxRate, LPLINEDIALPARAMS const lpDialParams );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetCallPrivilege",
+  "title": "lineSetCallPrivilege",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928041(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSetCallPrivilege( HCALL hCall, DWORD dwCallPrivilege );",
+  "code_blocks": [
+   "LONG WINAPI lineSetCallPrivilege( HCALL hCall, DWORD dwCallPrivilege );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "The application can also first drop the call using the lineDrop function to make the call transition to the idle state and then change its privilege.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetCurrentLocation",
+  "title": "lineSetCurrentLocation",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928042(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineSetCurrentLocation( HLINEAPP hLineApp, DWORD dwLocation );",
+  "code_blocks": [
+   "LONG lineSetCurrentLocation( HLINEAPP hLineApp, DWORD dwLocation );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetDevConfig",
+  "title": "lineSetDevConfig",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928043(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineSetDevConfig( DWORD dwDeviceID, LPVOID const lpDeviceConfig, DWORD dwSize, LPCTSTR lpszDeviceClass );",
+  "code_blocks": [
+   "LONG lineSetDevConfig( DWORD dwDeviceID, LPVOID const lpDeviceConfig, DWORD dwSize, LPCTSTR lpszDeviceClass );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetMediaMode",
+  "title": "lineSetMediaMode",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928044(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSetMediaMode( HCALL hCall, DWORD dwMediaModes );",
+  "code_blocks": [
+   "LONG WINAPI lineSetMediaMode( HCALL hCall, DWORD dwMediaModes );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetNumRings",
+  "title": "lineSetNumRings",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928045(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSetNumRings( HLINE hLine, DWORD dwAddressID, DWORD dwNumRings );",
+  "code_blocks": [
+   "LONG WINAPI lineSetNumRings( HLINE hLine, DWORD dwAddressID, DWORD dwNumRings );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetStatusMessages",
+  "title": "lineSetStatusMessages",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928046(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineSetStatusMessages( HLINE hLine, DWORD dwLineStates, DWORD dwAddressStates );",
+  "code_blocks": [
+   "LONG lineSetStatusMessages( HLINE hLine, DWORD dwLineStates, DWORD dwAddressStates );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Prior to Windows CE version 2.12, LINEDEVSTATE_ messages are not supported.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetTerminal",
+  "title": "lineSetTerminal",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928047(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSetTerminal( HLINE hLine, DWORD dwAddressID, HCALL hCall, DWORD dwSelect, DWORD dwTerminalModes, DWORD dwTerminalID, DWORD bEnable );",
+  "code_blocks": [
+   "LONG WINAPI lineSetTerminal( HLINE hLine, DWORD dwAddressID, HCALL hCall, DWORD dwSelect, DWORD dwTerminalModes, DWORD dwTerminalID, DWORD bEnable );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Service providers that do not support this type of event routing would indicate that they have no terminal devices ( dwNumTerminals in the LINEDEVCAPS structure would be zero).",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetTollList",
+  "title": "lineSetTollList",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928048(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSetTollList( HLINEAPP hLineApp, DWORD dwDeviceID, LPCWSTR lpszAddressIn, DWORD dwTollListOption );",
+  "code_blocks": [
+   "LONG WINAPI lineSetTollList( HLINEAPP hLineApp, DWORD dwDeviceID, LPCWSTR lpszAddressIn, DWORD dwTollListOption );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetupConference",
+  "title": "lineSetupConference",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928049(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSetupConference( HCALL hCall, HLINE hLine, LPHCALL lphConfCall, LPHCALL lphConsultCall, DWORD dwNumParties, LPLINECALLPARAMS const lpCallParams );",
+  "code_blocks": [
+   "LONG WINAPI lineSetupConference( HCALL hCall, HLINE hLine, LPHCALL lphConfCall, LPHCALL lphConsultCall, DWORD dwNumParties, LPLINECALLPARAMS const lpCallParams );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "When setting up a conference call from an existing two-party call, the hCall parameter is a valid call handle that is initially added to the conference call by the lineSetupConference request; hLine is ignored. On switches where conference call setup does not start with an existing call, hCall must be NULL and hLine must be specified to identify the line device on which to initiate the conference call. The conference call typically transitions into the onHoldPendingConference state, the consultation call into the dial tone state, and the initial call (if there is one) into the conferenced state. When dropping a consultation call, the existing conference call typically transitions back to the connected state.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSetupTransfer",
+  "title": "lineSetupTransfer",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928051(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSetupTransfer( HCALL hCall, LPHCALL lphConsultCall, LPLINECALLPARAMS const lpCallParams );",
+  "code_blocks": [
+   "LONG WINAPI lineSetupTransfer( HCALL hCall, LPHCALL lphConsultCall, LPLINECALLPARAMS const lpCallParams );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "While the consultation call exists, the original call typically transitions to the onholdPendingTransfer state. After dropping a consultation call, the original call typically transitions back to the connected state.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineShutdown",
+  "title": "lineShutdown",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928052(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineShutdown( HLINEAPP hLineApp );",
+  "code_blocks": [
+   "LONG lineShutdown( HLINEAPP hLineApp );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineSwapHold",
+  "title": "lineSwapHold",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928053(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineSwapHold( HCALL hActiveCall, HCALL hHeldCall );",
+  "code_blocks": [
+   "LONG WINAPI lineSwapHold( HCALL hActiveCall, HCALL hHeldCall );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineTranslateAddress",
+  "title": "lineTranslateAddress",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938808(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineTranslateAddress( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPIVersion, LPCWSTR lpszAddressIn, DWORD dwCard, DWORD dwTranslateOptions, LPLINETRANSLATEOUTPUT lpTranslateOutput );",
+  "code_blocks": [
+   "LONG lineTranslateAddress( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPIVersion, LPCWSTR lpszAddressIn, DWORD dwCard, DWORD dwTranslateOptions, LPLINETRANSLATEOUTPUT lpTranslateOutput );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "The other addresses are ignored.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineTranslateDialog",
+  "title": "lineTranslateDialog",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms939041(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG lineTranslateDialog( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPIVersion, HWND hwndOwner, LPCWSTR lpszAddressIn );",
+  "code_blocks": [
+   "LONG lineTranslateDialog( HLINEAPP hLineApp, DWORD dwDeviceID, DWORD dwAPIVersion, HWND hwndOwner, LPCWSTR lpszAddressIn );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "LINEERR_INIFILECORRUPT is returned the first time any of these functions are used after installation of Windows CE, because the parameters are uninitialized ( lineTranslateDialog takes care of initializing them, using the user-specified default country/region to select the default country/region code).",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "lineUnhold",
+  "title": "lineUnhold",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928103(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI lineUnhold( HCALL hCall );",
+  "code_blocks": [
+   "LONG WINAPI lineUnhold( HCALL hCall );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneCallbackFunc",
+  "title": "phoneCallbackFunc",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928224(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "VOID FAR PASCAL phoneCallbackFunc( HANDLE hDevice, DWORD dwMsg, DWORD dwCallbackInstance, DWORD dwParam1, DWORD dwParam2, DWORD dwParam3 );",
+  "code_blocks": [
+   "VOID FAR PASCAL phoneCallbackFunc( HANDLE hDevice, DWORD dwMsg, DWORD dwCallbackInstance, DWORD dwParam1, DWORD dwParam2, DWORD dwParam3 );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneClose",
+  "title": "phoneClose",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928225(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneClose( HPHONE hPhone );",
+  "code_blocks": [
+   "LONG WINAPI phoneClose( HPHONE hPhone );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneConfigDialog",
+  "title": "phoneConfigDialog",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928226(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneConfigDialog( DWORD dwDeviceID, HWND hwndOwner, LPCSTR lpszDeviceClass );",
+  "code_blocks": [
+   "LONG WINAPI phoneConfigDialog( DWORD dwDeviceID, HWND hwndOwner, LPCSTR lpszDeviceClass );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneDevSpecific",
+  "title": "phoneDevSpecific",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928227(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneDevSpecific( HPHONE hPhone, LPVOID lpParams, DWORD dwSize );",
+  "code_blocks": [
+   "LONG WINAPI phoneDevSpecific( HPHONE hPhone, LPVOID lpParams, DWORD dwSize );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetDevCaps",
+  "title": "phoneGetDevCaps",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928229(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetDevCaps( HPHONEAPP hPhoneApp, DWORD dwDeviceID, DWORD dwAPIVersion, DWORD dwExtVersion, LPPHONECAPS lpPhoneCaps );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetDevCaps( HPHONEAPP hPhoneApp, DWORD dwDeviceID, DWORD dwAPIVersion, DWORD dwExtVersion, LPPHONECAPS lpPhoneCaps );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetGain",
+  "title": "phoneGetGain",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928230(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetGain( HPHONE hPhone, DWORD dwHookSwitchDev, LPDWORD lpdwGain );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetGain( HPHONE hPhone, DWORD dwHookSwitchDev, LPDWORD lpdwGain );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetHookSwitch",
+  "title": "phoneGetHookSwitch",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928231(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetHookSwitch( HPHONE hPhone, LPDWORD lpdwHookSwitchDevs );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetHookSwitch( HPHONE hPhone, LPDWORD lpdwHookSwitchDevs );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetID",
+  "title": "phoneGetID",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928233(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetID( HPHONE hPhone, LPVARSTRING lpDeviceID, LPCWSTR lpszDeviceClass );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetID( HPHONE hPhone, LPVARSTRING lpDeviceID, LPCWSTR lpszDeviceClass );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetIcon",
+  "title": "phoneGetIcon",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928232(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetIcon( DWORD dwDeviceID, LPCWSTR lpszDeviceClass, LPHICON lphIcon );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetIcon( DWORD dwDeviceID, LPCWSTR lpszDeviceClass, LPHICON lphIcon );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "For applications using a TAPI version earlier than 2.0, if the provider does not return an icon (whether because the given device class is invalid or the provider does not support icons), TAPI substitutes a generic Win32 Telephony phone device icon. For any other device class, if the given device class is not valid or the provider does not support icons for the class, phoneGetIcon returns PHONEERR_INVALDEVICECLASS.",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetMessage",
+  "title": "phoneGetMessage",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928234(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetMessage( HPHONEAPP hPhoneApp, LPPHONEMESSAGE lpMessage, DWORD dwTimeout );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetMessage( HPHONEAPP hPhoneApp, LPPHONEMESSAGE lpMessage, DWORD dwTimeout );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetRing",
+  "title": "phoneGetRing",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928235(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetRing( HPHONE hPhone, LPDWORD lpdwRingMode, LPDWORD lpdwVolume );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetRing( HPHONE hPhone, LPDWORD lpdwRingMode, LPDWORD lpdwVolume );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetStatus",
+  "title": "phoneGetStatus",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928236(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetStatus( HPHONE hPhone, LPPHONESTATUS lpPhoneStatus );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetStatus( HPHONE hPhone, LPPHONESTATUS lpPhoneStatus );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetStatusMessages",
+  "title": "phoneGetStatusMessages",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928237(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetStatusMessages( HPHONE hPhone, LPDWORD lpdwPhoneStates, LPDWORD lpdwButtonModes, LPDWORD lpdwButtonStates );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetStatusMessages( HPHONE hPhone, LPDWORD lpdwPhoneStates, LPDWORD lpdwButtonModes, LPDWORD lpdwButtonStates );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneGetVolume",
+  "title": "phoneGetVolume",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928238(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneGetVolume( HPHONE hPhone, DWORD dwHookSwitchDev, LPDWORD lpdwVolume );",
+  "code_blocks": [
+   "LONG WINAPI phoneGetVolume( HPHONE hPhone, DWORD dwHookSwitchDev, LPDWORD lpdwVolume );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneInitializeEx",
+  "title": "phoneInitializeEx",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928239(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneInitializeEx( LPHPHONEAPP lphPhoneApp, HINSTANCE hInstance, PHONECALLBACK lpfnCallback, LPCWSTR lpszFriendlyAppName, LPDWORD lpdwNumDevs, LPDWORD lpdwAPIVersion, LPPHONEINITIALIZEEXPARAMS lpPhoneInitializeExParams );",
+  "code_blocks": [
+   "LONG WINAPI phoneInitializeEx( LPHPHONEAPP lphPhoneApp, HINSTANCE hInstance, PHONECALLBACK lpfnCallback, LPCWSTR lpszFriendlyAppName, LPDWORD lpdwNumDevs, LPDWORD lpdwAPIVersion, LPPHONEINITIALIZEEXPARAMS lpPhoneInitializeExParams );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneNegotiateAPIVersion",
+  "title": "phoneNegotiateAPIVersion",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928242(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneNegotiateAPIVersion( HPHONEAPP hPhoneApp, DWORD dwDeviceID, DWORD dwAPILowVersion, DWORD dwAPIHighVersion, LPDWORD lpdwAPIVersion, LPPHONEEXTENSIONID lpExtensionID );",
+  "code_blocks": [
+   "LONG WINAPI phoneNegotiateAPIVersion( HPHONEAPP hPhoneApp, DWORD dwDeviceID, DWORD dwAPILowVersion, DWORD dwAPIHighVersion, LPDWORD lpdwAPIVersion, LPPHONEEXTENSIONID lpExtensionID );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneNegotiateExtVersion",
+  "title": "phoneNegotiateExtVersion",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928243(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneNegotiateExtVersion( HPHONEAPP hPhoneApp, DWORD dwDeviceID, DWORD dwAPIVersion, DWORD dwExtLowVersion, DWORD dwExtHighVersion, LPDWORD lpdwExtVersion );",
+  "code_blocks": [
+   "LONG WINAPI phoneNegotiateExtVersion( HPHONEAPP hPhoneApp, DWORD dwDeviceID, DWORD dwAPIVersion, DWORD dwExtLowVersion, DWORD dwExtHighVersion, LPDWORD lpdwExtVersion );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneOpen",
+  "title": "phoneOpen",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928244(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneOpen( HPHONEAPP hPhoneApp, DWORD dwDeviceID, LPHPHONE lphPhone, DWORD dwAPIVersion, DWORD dwExtVersion, DWORD_PTR dwCallbackInstance, DWORD dwPrivilege );",
+  "code_blocks": [
+   "LONG WINAPI phoneOpen( HPHONEAPP hPhoneApp, DWORD dwDeviceID, LPHPHONE lphPhone, DWORD dwAPIVersion, DWORD dwExtVersion, DWORD_PTR dwCallbackInstance, DWORD dwPrivilege );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneSetGain",
+  "title": "phoneSetGain",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928245(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneSetGain( HPHONE hPhone, DWORD dwHookSwitchDev, DWORD dwGain );",
+  "code_blocks": [
+   "LONG WINAPI phoneSetGain( HPHONE hPhone, DWORD dwHookSwitchDev, DWORD dwGain );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneSetHookSwitch",
+  "title": "phoneSetHookSwitch",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928246(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneSetHookSwitch( HPHONE hPhone, DWORD dwHookSwitchDevs, DWORD dwHookSwitchMode );",
+  "code_blocks": [
+   "LONG WINAPI phoneSetHookSwitch( HPHONE hPhone, DWORD dwHookSwitchDevs, DWORD dwHookSwitchMode );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneSetRing",
+  "title": "phoneSetRing",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928247(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneSetRing( HPHONE hPhone, DWORD dwRingMode, DWORD dwVolume );",
+  "code_blocks": [
+   "LONG WINAPI phoneSetRing( HPHONE hPhone, DWORD dwRingMode, DWORD dwVolume );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneSetStatusMessages",
+  "title": "phoneSetStatusMessages",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928248(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneSetStatusMessages( HPHONE hPhone, DWORD dwPhoneStates, DWORD dwButtonModes, DWORD dwButtonStates );",
+  "code_blocks": [
+   "LONG WINAPI phoneSetStatusMessages( HPHONE hPhone, DWORD dwPhoneStates, DWORD dwButtonModes, DWORD dwButtonStates );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneSetVolume",
+  "title": "phoneSetVolume",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928249(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneSetVolume( HPHONE hPhone, DWORD dwHookSwitchDev, DWORD dwVolume );",
+  "code_blocks": [
+   "LONG WINAPI phoneSetVolume( HPHONE hPhone, DWORD dwHookSwitchDev, DWORD dwVolume );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "phoneShutdown",
+  "title": "phoneShutdown",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928250(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG WINAPI phoneShutdown( HPHONEAPP hPhoneApp );",
+  "code_blocks": [
+   "LONG WINAPI phoneShutdown( HPHONEAPP hPhoneApp );"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Functions"
+ },
+ {
+  "name": "LINE_ADDRESSSTATE (TAPI)",
+  "title": "LINE_ADDRESSSTATE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928209(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_ADDRESSSTATE dwDevice = (DWORD) hLine; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) idAddress; dwParam2 = (DWORD) AddressState; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "LINE_ADDRESSSTATE dwDevice = (DWORD) hLine; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) idAddress; dwParam2 = (DWORD) AddressState; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_APPNEWCALL",
+  "title": "LINE_APPNEWCALL",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928210(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_APPNEWCALL hDevice = (DWORD) hLine; dwCallbackInstance = (DWORD) dwInstanceData; dwParam1 = (DWORD) dwAddressID; dwParam2 = (DWORD) hCall; dwParam3 = (DWORD) dwPrivilege;",
+  "code_blocks": [
+   "LINE_APPNEWCALL hDevice = (DWORD) hLine; dwCallbackInstance = (DWORD) dwInstanceData; dwParam1 = (DWORD) dwAddressID; dwParam2 = (DWORD) hCall; dwParam3 = (DWORD) dwPrivilege;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_CALLINFO (TAPI)",
+  "title": "LINE_CALLINFO (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928211(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_CALLINFO dwDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) CallInfoState; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "LINE_CALLINFO dwDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) CallInfoState; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_CALLSTATE (TAPI)",
+  "title": "LINE_CALLSTATE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928212(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_CALLSTATE dwDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) CallState; dwParam2 = (DWORD) CallStateDetail; dwParam3 = (DWORD) CallPrivilege;",
+  "code_blocks": [
+   "LINE_CALLSTATE dwDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) CallState; dwParam2 = (DWORD) CallStateDetail; dwParam3 = (DWORD) CallPrivilege;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_CLOSE (TAPI)",
+  "title": "LINE_CLOSE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928213(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_CLOSE dwDevice = (DWORD) hLine; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) 0; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "LINE_CLOSE dwDevice = (DWORD) hLine; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) 0; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_CREATE (TAPI)",
+  "title": "LINE_CREATE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928214(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_CREATE dwDevice = (DWORD) 0; dwCallbackInstance = (DWORD) 0; dwParam1 = (DWORD) idDevice; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "LINE_CREATE dwDevice = (DWORD) 0; dwCallbackInstance = (DWORD) 0; dwParam1 = (DWORD) idDevice; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_DEVSPECIFIC (TAPI)",
+  "title": "LINE_DEVSPECIFIC (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928215(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_DEVSPECIFIC dwDevice = (DWORD) hLineOrCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) DeviceSpecific1; dwParam2 = (DWORD) DeviceSpecific2; dwParam3 = (DWORD) DeviceSpecific3;",
+  "code_blocks": [
+   "LINE_DEVSPECIFIC dwDevice = (DWORD) hLineOrCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) DeviceSpecific1; dwParam2 = (DWORD) DeviceSpecific2; dwParam3 = (DWORD) DeviceSpecific3;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_GATHERDIGITS",
+  "title": "LINE_GATHERDIGITS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928216(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_GATHERDIGITS hDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) GatherTermination; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "LINE_GATHERDIGITS hDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) GatherTermination; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_GENERATE (TAPI)",
+  "title": "LINE_GENERATE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928217(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_GENERATE hDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) GenerateTermination; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "LINE_GENERATE hDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) GenerateTermination; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_LINEDEVSTATE (TAPI)",
+  "title": "LINE_LINEDEVSTATE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928218(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_LINEDEVSTATE dwDevice = (DWORD) hLine; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) DeviceState; dwParam2 = (DWORD) DeviceStateDetail1; dwParam3 = (DWORD) DeviceStateDetail2;",
+  "code_blocks": [
+   "LINE_LINEDEVSTATE dwDevice = (DWORD) hLine; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) DeviceState; dwParam2 = (DWORD) DeviceStateDetail1; dwParam3 = (DWORD) DeviceStateDetail2;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "The dwParam1 parameter does not support the following constants: LINEDEVSTATE_MESAGEWAITON LINEDEVSTATE_MESSAGEWAITOFF LINEDEVSTATE_INSERVICE LINEDEVSTATE_OUTOFSERVICE LINEDEVSTATE_MAINTENANCE LINEDEVSTATE_TERMINALS LINEDEVSTATE_ROAMMODE LINEDEVSTATE_BATTERY LINEDEVSTATE_SIGNAL LINEDEVSTATE_LOCK LINEDEVSTATE_COMPLCANCEL",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_MONITORDIGITS (TAPI)",
+  "title": "LINE_MONITORDIGITS (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928219(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_MONITORDIGITS hDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) Digit; dwParam2 = (DWORD) DigitMode; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "LINE_MONITORDIGITS hDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) Digit; dwParam2 = (DWORD) DigitMode; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_MONITORMEDIA (TAPI)",
+  "title": "LINE_MONITORMEDIA (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928220(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_MONITORMEDIA hDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) MediaMode; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) TickCount;",
+  "code_blocks": [
+   "LINE_MONITORMEDIA hDevice = (DWORD) hCall; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) MediaMode; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) TickCount;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_REMOVE (TAPI)",
+  "title": "LINE_REMOVE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928221(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_REMOVE dwDevice = (DWORD) 0; dwCallbackInstance = (DWORD) 0; dwParam1 = (DWORD) dwDeviceID; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "LINE_REMOVE dwDevice = (DWORD) 0; dwCallbackInstance = (DWORD) 0; dwParam1 = (DWORD) dwDeviceID; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINE_REPLY",
+  "title": "LINE_REPLY",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928223(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LINE_REPLY dwDevice = (DWORD) 0; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) idRequest; dwParam2 = (DWORD) Status; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "LINE_REPLY dwDevice = (DWORD) 0; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) idRequest; dwParam2 = (DWORD) Status; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "PHONE_BUTTON (TAPI)",
+  "title": "PHONE_BUTTON (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928252(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "PHONE_BUTTON hPhone = (HPHONE) hPhoneDevice; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) idButtonOrLamp; dwParam2 = (DWORD) ButtonMode; dwParam3 = (DWORD) ButtonState;",
+  "code_blocks": [
+   "PHONE_BUTTON hPhone = (HPHONE) hPhoneDevice; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) idButtonOrLamp; dwParam2 = (DWORD) ButtonMode; dwParam3 = (DWORD) ButtonState;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "PHONE_CLOSE (TAPI)",
+  "title": "PHONE_CLOSE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928253(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "PHONE_CLOSE hPhone = (HPHONE) hPhoneDevice; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) 0; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "PHONE_CLOSE hPhone = (HPHONE) hPhoneDevice; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) 0; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "PHONE_CREATE (TAPI)",
+  "title": "PHONE_CREATE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928254(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "PHONE_CREATE hPhone = (HPHONE) hPhoneDev; dwCallbackInstance = (DWORD) 0; dwParam1 = (DWORD) idDevice; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "PHONE_CREATE hPhone = (HPHONE) hPhoneDev; dwCallbackInstance = (DWORD) 0; dwParam1 = (DWORD) idDevice; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "PHONE_DEVSPECIFIC (TAPI)",
+  "title": "PHONE_DEVSPECIFIC (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928255(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "PHONE_DEVSPECIFIC hPhone = (HPHONE) hPhoneDevice; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) DeviceSpecific1; dwParam2 = (DWORD) DeviceSpecific2; dwParam3 = (DWORD) DeviceSpecific3;",
+  "code_blocks": [
+   "PHONE_DEVSPECIFIC hPhone = (HPHONE) hPhoneDevice; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) DeviceSpecific1; dwParam2 = (DWORD) DeviceSpecific2; dwParam3 = (DWORD) DeviceSpecific3;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "PHONE_REMOVE (TAPI)",
+  "title": "PHONE_REMOVE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928256(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "PHONE_REMOVE hDevice = (DWORD) 0; dwCallbackInstance = (DWORD) 0; dwParam1 = (DWORD) hDeviceID; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "PHONE_REMOVE hDevice = (DWORD) 0; dwCallbackInstance = (DWORD) 0; dwParam1 = (DWORD) hDeviceID; dwParam2 = (DWORD) 0; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "PHONE_REPLY",
+  "title": "PHONE_REPLY",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928257(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "PHONE_REPLY hPhone = (HPHONE) 0; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) idRequest; dwParam2 = (DWORD) Status; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "PHONE_REPLY hPhone = (HPHONE) 0; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) idRequest; dwParam2 = (DWORD) Status; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "PHONE_STATE (TAPI)",
+  "title": "PHONE_STATE (TAPI)",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928258(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "PHONE_STATE hPhone = (HPHONE) hPhoneDevice; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) PhoneState; dwParam2 = (DWORD) PhoneStateDetails; dwParam3 = (DWORD) 0;",
+  "code_blocks": [
+   "PHONE_STATE hPhone = (HPHONE) hPhoneDevice; dwCallbackInstance = (DWORD) hCallback; dwParam1 = (DWORD) PhoneState; dwParam2 = (DWORD) PhoneStateDetails; dwParam3 = (DWORD) 0;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Messages"
+ },
+ {
+  "name": "LINEADDRESSCAPS",
+  "title": "LINEADDRESSCAPS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907141(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct lineaddresscaps_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwLineDeviceID; DWORD dwAddressSize; DWORD dwAddressOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwAddressSharing; DWORD dwAddressStates; DWORD dwCallInfoStates; DWORD dwCallerIDFlags; DWORD dwCalledIDFlags; DWORD dwConnectedIDFlags; DWORD dwRedirectionIDFlags; DWORD dwRedirectingIDFlags; DWORD dwCallStates; DWORD dwDialToneModes; DWORD dwBusyModes; DWORD dwSpecialInfo; DWORD dwDisconnectModes; DWORD dwMaxNumActiveCalls; DWORD dwMaxNumOnHoldCalls; DWORD dwMaxNumOnHoldPendingCalls; DWORD dwMaxNumConference; DWORD dwMaxNumTransConf; DWORD dwAddrCapFlags; DWORD dwCallFeatures; DWORD dwRemoveFromConfCaps; DWORD dwRemoveFromConfState; DWORD dwTransferModes; DWORD dwParkModes; DWORD dwForwardModes; DWORD dwMaxForwardEntries; DWORD dwMaxSpecificEntries; DWORD dwMinFwdNumRings; DWORD dwMaxFwdNumRings; DWORD dwMaxCallCompletions; DWORD dwCallCompletionConds; DWORD dwCallCompletionModes; DWORD dwNumCompletionMessages; DWORD dwCompletionMsgTextEntrySize; DWORD dwCompletionMsgTextSize; DWORD dwCompletionMsgTextOffset; DWORD dwAddressFeatures; DWORD dwPredictiveAutoTransferStates; DWORD dwNumCallTreatments; DWORD dwCallTreatmentListSize; DWORD dwCallTreatmentListOffset; DWORD dwDeviceClassesSize; DWORD dwDeviceClassesOffset; DWORD dwMaxCallDataSize; DWORD dwCallFeatures2; DWORD dwMaxNoAnswerTimeout; DWORD dwConnectedModes; DWORD dwOfferingModes; DWORD dwAvailableMediaModes; } LINEADDRESSCAPS, FAR* LPLINEADDRESSCAPS;",
+  "code_blocks": [
+   "typedef struct lineaddresscaps_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwLineDeviceID; DWORD dwAddressSize; DWORD dwAddressOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwAddressSharing; DWORD dwAddressStates; DWORD dwCallInfoStates; DWORD dwCallerIDFlags; DWORD dwCalledIDFlags; DWORD dwConnectedIDFlags; DWORD dwRedirectionIDFlags; DWORD dwRedirectingIDFlags; DWORD dwCallStates; DWORD dwDialToneModes; DWORD dwBusyModes; DWORD dwSpecialInfo; DWORD dwDisconnectModes; DWORD dwMaxNumActiveCalls; DWORD dwMaxNumOnHoldCalls; DWORD dwMaxNumOnHoldPendingCalls; DWORD dwMaxNumConference; DWORD dwMaxNumTransConf; DWORD dwAddrCapFlags; DWORD dwCallFeatures; DWORD dwRemoveFromConfCaps; DWORD dwRemoveFromConfState; DWORD dwTransferModes; DWORD dwParkModes; DWORD dwForwardModes; DWORD dwMaxForwardEntries; DWORD dwMaxSpecificEntries; DWORD dwMinFwdNumRings; DWORD dwMaxFwdNumRings; DWORD dwMaxCallCompletions; DWORD dwCallCompletionConds; DWORD dwCallCompletionModes; DWORD dwNumCompletionMessages; DWORD dwCompletionMsgTextEntrySize; DWORD dwCompletionMsgTextSize; DWORD dwCompletionMsgTextOffset; DWORD dwAddressFeatures; DWORD dwPredictiveAutoTransferStates; DWORD dwNumCallTreatments; DWORD dwCallTreatmentListSize; DWORD dwCallTreatmentListOffset; DWORD dwDeviceClassesSize; DWORD dwDeviceClassesOffset; DWORD dwMaxCallDataSize; DWORD dwCallFeatures2; DWORD dwMaxNoAnswerTimeout; DWORD dwConnectedModes; DWORD dwOfferingModes; DWORD dwAvailableMediaModes; } LINEADDRESSCAPS, FAR* LPLINEADDRESSCAPS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEADDRESSSTATUS",
+  "title": "LINEADDRESSSTATUS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907171(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct lineaddressstatus_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwNumInUse; DWORD dwNumActiveCalls; DWORD dwNumOnHoldCalls; DWORD dwNumOnHoldPendCalls; DWORD dwAddressFeatures; DWORD dwNumRingsNoAnswer; DWORD dwForwardNumEntries; DWORD dwForwardSize; DWORD dwForwardOffset; DWORD dwTerminalModesSize; DWORD dwTerminalModesOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; } LINEADDRESSSTATUS, FAR* LPLINEADDRESSSTATUS;",
+  "code_blocks": [
+   "typedef struct lineaddressstatus_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwNumInUse; DWORD dwNumActiveCalls; DWORD dwNumOnHoldCalls; DWORD dwNumOnHoldPendCalls; DWORD dwAddressFeatures; DWORD dwNumRingsNoAnswer; DWORD dwForwardNumEntries; DWORD dwForwardSize; DWORD dwForwardOffset; DWORD dwTerminalModesSize; DWORD dwTerminalModesOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; } LINEADDRESSSTATUS, FAR* LPLINEADDRESSSTATUS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINECALLINFO",
+  "title": "LINECALLINFO",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927982(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linecallinfo_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; HLINE hLine; DWORD dwLineDeviceID; DWORD dwAddressID; DWORD dwBearerMode; DWORD dwRate; DWORD dwMediaMode; DWORD dwAppSpecific; DWORD dwCallID; DWORD dwRelatedCallID; DWORD dwCallParamFlags; DWORD dwCallStates; DWORD dwMonitorDigitModes; DWORD dwMonitorMediaModes; LINEDIALPARAMS DialParams; DWORD dwOrigin; DWORD dwReason; DWORD dwCompletionID; DWORD dwNumOwners; DWORD dwNumMonitors; DWORD dwCountryCode; DWORD dwTrunk; DWORD dwCallerIDFlags; DWORD dwCallerIDSize; DWORD dwCallerIDOffset; DWORD dwCallerIDNameSize; DWORD dwCallerIDNameOffset; DWORD dwCalledIDFlags; DWORD dwCalledIDSize; DWORD dwCalledIDOffset; DWORD dwCalledIDNameSize; DWORD dwCalledIDNameOffset; DWORD dwConnectedIDFlags; DWORD dwConnectedIDSize; DWORD dwConnectedIDOffset; DWORD dwConnectedIDNameSize; DWORD dwConnectedIDNameOffset; DWORD dwRedirectionIDFlags; DWORD dwRedirectionIDSize; DWORD dwRedirectionIDOffset; DWORD dwRedirectionIDNameSize; DWORD dwRedirectionIDNameOffset; DWORD dwRedirectingIDFlags; DWORD dwRedirectingIDSize; DWORD dwRedirectingIDOffset; DWORD dwRedirectingIDNameSize; DWORD dwRedirectingIDNameOffset; DWORD dwAppNameSize; DWORD dwAppNameOffset; DWORD dwDisplayableAddressSize; DWORD dwDisplayableAddressOffset; DWORD dwCalledPartySize; DWORD dwCalledPartyOffset; DWORD dwCommentSize; DWORD dwCommentOffset; DWORD dwDisplaySize; DWORD dwDisplayOffset; DWORD dwUserUserInfoSize; DWORD dwUserUserInfoOffset; DWORD dwHighLevelCompSize; DWORD dwHighLevelCompOffset; DWORD dwLowLevelCompSize; DWORD dwLowLevelCompOffset; DWORD dwChargingInfoSize; DWORD dwChargingInfoOffset; DWORD dwTerminalModesSize; DWORD dwTerminalModesOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; } LINECALLINFO, FAR* LPLINECALLINFO;",
+  "code_blocks": [
+   "typedef struct linecallinfo_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; HLINE hLine; DWORD dwLineDeviceID; DWORD dwAddressID; DWORD dwBearerMode; DWORD dwRate; DWORD dwMediaMode; DWORD dwAppSpecific; DWORD dwCallID; DWORD dwRelatedCallID; DWORD dwCallParamFlags; DWORD dwCallStates; DWORD dwMonitorDigitModes; DWORD dwMonitorMediaModes; LINEDIALPARAMS DialParams; DWORD dwOrigin; DWORD dwReason; DWORD dwCompletionID; DWORD dwNumOwners; DWORD dwNumMonitors; DWORD dwCountryCode; DWORD dwTrunk; DWORD dwCallerIDFlags; DWORD dwCallerIDSize; DWORD dwCallerIDOffset; DWORD dwCallerIDNameSize; DWORD dwCallerIDNameOffset; DWORD dwCalledIDFlags; DWORD dwCalledIDSize; DWORD dwCalledIDOffset; DWORD dwCalledIDNameSize; DWORD dwCalledIDNameOffset; DWORD dwConnectedIDFlags; DWORD dwConnectedIDSize; DWORD dwConnectedIDOffset; DWORD dwConnectedIDNameSize; DWORD dwConnectedIDNameOffset; DWORD dwRedirectionIDFlags; DWORD dwRedirectionIDSize; DWORD dwRedirectionIDOffset; DWORD dwRedirectionIDNameSize; DWORD dwRedirectionIDNameOffset; DWORD dwRedirectingIDFlags; DWORD dwRedirectingIDSize; DWORD dwRedirectingIDOffset; DWORD dwRedirectingIDNameSize; DWORD dwRedirectingIDNameOffset; DWORD dwAppNameSize; DWORD dwAppNameOffset; DWORD dwDisplayableAddressSize; DWORD dwDisplayableAddressOffset; DWORD dwCalledPartySize; DWORD dwCalledPartyOffset; DWORD dwCommentSize; DWORD dwCommentOffset; DWORD dwDisplaySize; DWORD dwDisplayOffset; DWORD dwUserUserInfoSize; DWORD dwUserUserInfoOffset; DWORD dwHighLevelCompSize; DWORD dwHighLevelCompOffset; DWORD dwLowLevelCompSize; DWORD dwLowLevelCompOffset; DWORD dwChargingInfoSize; DWORD dwChargingInfoOffset; DWORD dwTerminalModesSize; DWORD dwTerminalModesOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; } LINECALLINFO, FAR* LPLINECALLINFO;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINECALLLIST",
+  "title": "LINECALLLIST",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms907302(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linecalllist_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwCallsNumEntries; DWORD dwCallsSize; DWORD dwCallsOffset; } LINECALLLIST, FAR* LPLINECALLLIST;",
+  "code_blocks": [
+   "typedef struct linecalllist_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwCallsNumEntries; DWORD dwCallsSize; DWORD dwCallsOffset; } LINECALLLIST, FAR* LPLINECALLLIST;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINECALLPARAMS",
+  "title": "LINECALLPARAMS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927983(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linecallparams_tag { DWORD dwTotalSize; DWORD dwBearerMode; DWORD dwMinRate; DWORD dwMaxRate; DWORD dwMediaMode; DWORD dwCallParamFlags; DWORD dwAddressMode; DWORD dwAddressID; LINEDIALPARAMS DialParams; DWORD dwOrigAddressSize; DWORD dwOrigAddressOffset; DWORD dwDisplayableAddressSize; DWORD dwDisplayableAddressOffset; DWORD dwCalledPartySize; DWORD dwCalledPartyOffset; DWORD dwCommentSize; DWORD dwCommentOffset; DWORD dwUserUserInfoSize; DWORD dwUserUserInfoOffset; DWORD dwHighLevelCompSize; DWORD dwHighLevelCompOffset; DWORD dwLowLevelCompSize; DWORD dwLowLevelCompOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwPredictiveAutoTransferStates; DWORD dwTargetAddressSize; DWORD dwTargetAddressOffset; DWORD dwSendingFlowspecSize; DWORD dwSendingFlowspecOffset; DWORD dwReceivingFlowspecSize; DWORD dwReceivingFlowspecOffset; DWORD dwDeviceClassSize; DWORD dwDeviceClassOffset; DWORD dwDeviceConfigSize; DWORD dwDeviceConfigOffset; DWORD dwCallDataSize; DWORD dwCallDataOffset; DWORD dwNoAnswerTimeout; DWORD dwCallingPartyIDSize; DWORD dwCallingPartyIDOffset; DWORD dwAddressType; } LINECALLPARAMS, FAR* LPLINECALLPARAMS;",
+  "code_blocks": [
+   "typedef struct linecallparams_tag { DWORD dwTotalSize; DWORD dwBearerMode; DWORD dwMinRate; DWORD dwMaxRate; DWORD dwMediaMode; DWORD dwCallParamFlags; DWORD dwAddressMode; DWORD dwAddressID; LINEDIALPARAMS DialParams; DWORD dwOrigAddressSize; DWORD dwOrigAddressOffset; DWORD dwDisplayableAddressSize; DWORD dwDisplayableAddressOffset; DWORD dwCalledPartySize; DWORD dwCalledPartyOffset; DWORD dwCommentSize; DWORD dwCommentOffset; DWORD dwUserUserInfoSize; DWORD dwUserUserInfoOffset; DWORD dwHighLevelCompSize; DWORD dwHighLevelCompOffset; DWORD dwLowLevelCompSize; DWORD dwLowLevelCompOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwPredictiveAutoTransferStates; DWORD dwTargetAddressSize; DWORD dwTargetAddressOffset; DWORD dwSendingFlowspecSize; DWORD dwSendingFlowspecOffset; DWORD dwReceivingFlowspecSize; DWORD dwReceivingFlowspecOffset; DWORD dwDeviceClassSize; DWORD dwDeviceClassOffset; DWORD dwDeviceConfigSize; DWORD dwDeviceConfigOffset; DWORD dwCallDataSize; DWORD dwCallDataOffset; DWORD dwNoAnswerTimeout; DWORD dwCallingPartyIDSize; DWORD dwCallingPartyIDOffset; DWORD dwAddressType; } LINECALLPARAMS, FAR* LPLINECALLPARAMS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Note The members dwOrigAddressSize through dwDevSpecificOffset are ignored when an lpCallParams parameter is specified with the lineOpen function. For Windows CE 1.0 through 2.12, the following members are not supported: dwUUISendUserUserInfoSize dwDeviceClassSize dwMinRate dwDeviceClassOffset dwMaxRate dwDeviceConfigSize dwPredictiveAutoTransferStates dwDeviceConfigOffset dwTargetAddressSize dwCallDataSize dwTargetAddressOffset dwCallDataOffset dwSendingFlowspecSize dwNoAnswerTimeout dwSendingFlowspecOffset dwCallingPartyIDSize dwReceivingFlowspecSize dwCallingPartyIDOffset dwReceivingFlowspecOffset",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINECALLSTATUS",
+  "title": "LINECALLSTATUS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927984(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linecallstatus_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwCallState; DWORD dwCallStateMode; DWORD dwCallPrivilege; DWORD dwCallFeatures; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwCallFeatures2; SYSTEMTIME tStateEntryTime; } LINECALLSTATUS, FAR* LPLINECALLSTATUS;",
+  "code_blocks": [
+   "typedef struct linecallstatus_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwCallState; DWORD dwCallStateMode; DWORD dwCallPrivilege; DWORD dwCallFeatures; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwCallFeatures2; SYSTEMTIME tStateEntryTime; } LINECALLSTATUS, FAR* LPLINECALLSTATUS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINECALLTREATMENTENTRY",
+  "title": "LINECALLTREATMENTENTRY",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927301(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linecalltreatmententry_tag { DWORD dwCallTreatmentID; DWORD dwCallTreatmentNameSize; DWORD dwCallTreatmentNameOffset; } LINECALLTREATMENTENTRY, FAR* LPLINECALLTREATMENTENTRY;",
+  "code_blocks": [
+   "typedef struct linecalltreatmententry_tag { DWORD dwCallTreatmentID; DWORD dwCallTreatmentNameSize; DWORD dwCallTreatmentNameOffset; } LINECALLTREATMENTENTRY, FAR* LPLINECALLTREATMENTENTRY;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEDEVCAPS",
+  "title": "LINEDEVCAPS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927989(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linedevcaps_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwProviderInfoSize; DWORD dwProviderInfoOffset; DWORD dwSwitchInfoSize; DWORD dwSwitchInfoOffset; DWORD dwPermanentLineID; DWORD dwLineNameSize; DWORD dwLineNameOffset; DWORD dwStringFormat; DWORD dwAddressModes; DWORD dwNumAddresses; DWORD dwBearerModes; DWORD dwMaxRate; DWORD dwMediaModes; DWORD dwGenerateToneModes; DWORD dwGenerateToneMaxNumFreq; DWORD dwGenerateDigitModes; DWORD dwMonitorToneMaxNumFreq; DWORD dwMonitorToneMaxNumEntries; DWORD dwMonitorDigitModes; DWORD dwGatherDigitsMinTimeout; DWORD dwGatherDigitsMaxTimeout; DWORD dwMedCtlDigitMaxListSize; DWORD dwMedCtlMediaMaxListSize; DWORD dwMedCtlToneMaxListSize; DWORD dwMedCtlCallStateMaxListSize; DWORD dwDevCapFlags; DWORD dwMaxNumActiveCalls; DWORD dwAnswerMode; DWORD dwRingModes; DWORD dwLineStates; DWORD dwUUIAcceptSize; DWORD dwUUIAnswerSize; DWORD dwUUIMakeCallSize; DWORD dwUUIDropSize; DWORD dwUUISendUserUserInfoSize; DWORD dwUUICallInfoSize; LINEDIALPARAMS MinDialParams; LINEDIALPARAMS MaxDialParams; LINEDIALPARAMS DefaultDialParams; DWORD dwNumTerminals; DWORD dwTerminalCapsSize; DWORD dwTerminalCapsOffset; DWORD dwTerminalTextEntrySize; DWORD dwTerminalTextSize; DWORD dwTerminalTextOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset DWORD dwLineFeatures; DWORD dwSettableDevStatus; DWORD dwDeviceClassesSize; DWORD dwDeviceClassesOffset; } LINEDEVCAPS, Far* LPLINEDEVCAPS;",
+  "code_blocks": [
+   "typedef struct linedevcaps_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwProviderInfoSize; DWORD dwProviderInfoOffset; DWORD dwSwitchInfoSize; DWORD dwSwitchInfoOffset; DWORD dwPermanentLineID; DWORD dwLineNameSize; DWORD dwLineNameOffset; DWORD dwStringFormat; DWORD dwAddressModes; DWORD dwNumAddresses; DWORD dwBearerModes; DWORD dwMaxRate; DWORD dwMediaModes; DWORD dwGenerateToneModes; DWORD dwGenerateToneMaxNumFreq; DWORD dwGenerateDigitModes; DWORD dwMonitorToneMaxNumFreq; DWORD dwMonitorToneMaxNumEntries; DWORD dwMonitorDigitModes; DWORD dwGatherDigitsMinTimeout; DWORD dwGatherDigitsMaxTimeout; DWORD dwMedCtlDigitMaxListSize; DWORD dwMedCtlMediaMaxListSize; DWORD dwMedCtlToneMaxListSize; DWORD dwMedCtlCallStateMaxListSize; DWORD dwDevCapFlags; DWORD dwMaxNumActiveCalls; DWORD dwAnswerMode; DWORD dwRingModes; DWORD dwLineStates; DWORD dwUUIAcceptSize; DWORD dwUUIAnswerSize; DWORD dwUUIMakeCallSize; DWORD dwUUIDropSize; DWORD dwUUISendUserUserInfoSize; DWORD dwUUICallInfoSize; LINEDIALPARAMS MinDialParams; LINEDIALPARAMS MaxDialParams; LINEDIALPARAMS DefaultDialParams; DWORD dwNumTerminals; DWORD dwTerminalCapsSize; DWORD dwTerminalCapsOffset; DWORD dwTerminalTextEntrySize; DWORD dwTerminalTextSize; DWORD dwTerminalTextOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset DWORD dwLineFeatures; DWORD dwSettableDevStatus; DWORD dwDeviceClassesSize; DWORD dwDeviceClassesOffset; } LINEDEVCAPS, Far* LPLINEDEVCAPS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEDEVSTATUS",
+  "title": "LINEDEVSTATUS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927991(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linedevstatus_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwNumOpens; DWORD dwOpenMediaModes; DWORD dwNumActiveCalls; DWORD dwNumOnHoldCalls; DWORD dwNumOnHoldPendCalls; DWORD dwLineFeatures; DWORD dwNumCallCompletions; DWORD dwRingMode; DWORD dwSignalLevel; DWORD dwBatteryLevel; DWORD dwRoamMode; DWORD dwDevStatusFlags; DWORD dwTerminalModesSize; DWORD dwTerminalModesOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; } LINEDEVSTATUS, FAR* LPLINEDEVSTATUS;",
+  "code_blocks": [
+   "typedef struct linedevstatus_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwNumOpens; DWORD dwOpenMediaModes; DWORD dwNumActiveCalls; DWORD dwNumOnHoldCalls; DWORD dwNumOnHoldPendCalls; DWORD dwLineFeatures; DWORD dwNumCallCompletions; DWORD dwRingMode; DWORD dwSignalLevel; DWORD dwBatteryLevel; DWORD dwRoamMode; DWORD dwDevStatusFlags; DWORD dwTerminalModesSize; DWORD dwTerminalModesOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; } LINEDEVSTATUS, FAR* LPLINEDEVSTATUS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEDIALPARAMS",
+  "title": "LINEDIALPARAMS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927993(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linedialparams_tag { DWORD dwDialPause; DWORD dwDialSpeed; DWORD dwDigitDuration; DWORD dwWaitForDialtone; } LINEDIALPARAMS, FAR* LPLINEDIALPARAMS;",
+  "code_blocks": [
+   "typedef struct linedialparams_tag { DWORD dwDialPause; DWORD dwDialSpeed; DWORD dwDigitDuration; DWORD dwWaitForDialtone; } LINEDIALPARAMS, FAR* LPLINEDIALPARAMS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEEXTENSIONID",
+  "title": "LINEEXTENSIONID",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927340(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct lineextensionid_tag { DWORD dwExtensionID0; DWORD dwExtensionID1; DWORD dwExtensionID2; DWORD dwExtensionID3; } LINEEXTENSIONID, FAR* LPLINEEXTENSIONID;",
+  "code_blocks": [
+   "typedef struct lineextensionid_tag { DWORD dwExtensionID0; DWORD dwExtensionID1; DWORD dwExtensionID2; DWORD dwExtensionID3; } LINEEXTENSIONID, FAR* LPLINEEXTENSIONID;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEFORWARDLIST",
+  "title": "LINEFORWARDLIST",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927344(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct lineforwardlist_tag { DWORD dwTotalSize; DWORD dwNumEntries; LINEFORWARD ForwardList[1]; } LINEFORWARDLIST, FAR* LPLINEFORWARDLIST;",
+  "code_blocks": [
+   "typedef struct lineforwardlist_tag { DWORD dwTotalSize; DWORD dwNumEntries; LINEFORWARD ForwardList[1]; } LINEFORWARDLIST, FAR* LPLINEFORWARDLIST;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEGENERATETONE",
+  "title": "LINEGENERATETONE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927362(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linegeneratetone_tag { DWORD dwFrequency; DWORD dwCadenceOn; DWORD dwCadenceOff; DWORD dwVolume; } LINEGENERATETONE, FAR* LPLINEGENERATETONE;",
+  "code_blocks": [
+   "typedef struct linegeneratetone_tag { DWORD dwFrequency; DWORD dwCadenceOn; DWORD dwCadenceOff; DWORD dwVolume; } LINEGENERATETONE, FAR* LPLINEGENERATETONE;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEINITIALIZEEXPARAMS",
+  "title": "LINEINITIALIZEEXPARAMS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928024(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct lineinitializeexparams_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwOptions; union { HANDLE hEvent; HANDLE hCompletionPort; } Handles; DWORD dwCompletionKey; } LINEINITIALIZEEXPARAMS, FAR* LPLINEINITIALIZEEXPARAMS;",
+  "code_blocks": [
+   "typedef struct lineinitializeexparams_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwOptions; union { HANDLE hEvent; HANDLE hCompletionPort; } Handles; DWORD dwCompletionKey; } LINEINITIALIZEEXPARAMS, FAR* LPLINEINITIALIZEEXPARAMS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINELOCATIONENTRY",
+  "title": "LINELOCATIONENTRY",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928025(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linelocationentry_tag { DWORD dwPermanentLocationID; DWORD dwLocationNameSize; DWORD dwLocationNameOffset; DWORD dwCountryCode; DWORD dwCityCodeSize; DWORD dwCityCodeOffset; DWORD dwPreferredCardID; DWORD dwLocalAccessCodeSize; DWORD dwLocalAccessCodeOffset; DWORD dwLongDistanceAccessCodeSize; DWORD dwLongDistanceAccessCodeOffset; DWORD dwTollPrefixListSize; DWORD dwTollPrefixListOffset; DWORD dwCountryID; DWORD dwOptions; DWORD dwCancelCallWaitingSize; DWORD dwCancelCallWaitingOffset; } LINELOCATIONENTRY, FAR* LPLINELOCATIONENTRY;",
+  "code_blocks": [
+   "typedef struct linelocationentry_tag { DWORD dwPermanentLocationID; DWORD dwLocationNameSize; DWORD dwLocationNameOffset; DWORD dwCountryCode; DWORD dwCityCodeSize; DWORD dwCityCodeOffset; DWORD dwPreferredCardID; DWORD dwLocalAccessCodeSize; DWORD dwLocalAccessCodeOffset; DWORD dwLongDistanceAccessCodeSize; DWORD dwLongDistanceAccessCodeOffset; DWORD dwTollPrefixListSize; DWORD dwTollPrefixListOffset; DWORD dwCountryID; DWORD dwOptions; DWORD dwCancelCallWaitingSize; DWORD dwCancelCallWaitingOffset; } LINELOCATIONENTRY, FAR* LPLINELOCATIONENTRY;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEMESSAGE",
+  "title": "LINEMESSAGE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928027(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linemessage_tag { DWORD hDevice; DWORD dwMessageID; DWORD_PTR dwCallbackInstance; DWORD_PTR dwParam1; DWORD_PTR dwParam2; DWORD_PTR dwParam3; } LINEMESSAGE, FAR* LPLINEMESSAGE;",
+  "code_blocks": [
+   "typedef struct linemessage_tag { DWORD hDevice; DWORD dwMessageID; DWORD_PTR dwCallbackInstance; DWORD_PTR dwParam1; DWORD_PTR dwParam2; DWORD_PTR dwParam3; } LINEMESSAGE, FAR* LPLINEMESSAGE;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEPROVIDERENTRY",
+  "title": "LINEPROVIDERENTRY",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927382(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct lineproviderentry_tag { DWORD dwPermanentProviderID; DWORD dwProviderFilenameSize; DWORD dwProviderFilenameOffset; } LINEPROVIDERENTRY, FAR* LPLINEPROVIDERENTRY;",
+  "code_blocks": [
+   "typedef struct lineproviderentry_tag { DWORD dwPermanentProviderID; DWORD dwProviderFilenameSize; DWORD dwProviderFilenameOffset; } LINEPROVIDERENTRY, FAR* LPLINEPROVIDERENTRY;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINEPROVIDERLIST",
+  "title": "LINEPROVIDERLIST",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927386(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct lineproviderlist_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwNumProviders; DWORD dwProviderListSize; DWORD dwProviderListOffset; } LINEPROVIDERLIST, FAR* LPLINEPROVIDERLIST;",
+  "code_blocks": [
+   "typedef struct lineproviderlist_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwNumProviders; DWORD dwProviderListSize; DWORD dwProviderListOffset; } LINEPROVIDERLIST, FAR* LPLINEPROVIDERLIST;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINETRANSLATECAPS",
+  "title": "LINETRANSLATECAPS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms938929(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linetranslatecaps_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwNumLocations; DWORD dwLocationListSize; DWORD dwLocationListOffset; DWORD dwCurrentLocationID; DWORD dwNumCards; DWORD dwCardListSize; DWORD dwCardListOffset; DWORD dwCurrentPreferredCardID; } LINETRANSLATECAPS, FAR* LPLINETRANSLATECAPS;",
+  "code_blocks": [
+   "typedef struct linetranslatecaps_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwNumLocations; DWORD dwLocationListSize; DWORD dwLocationListOffset; DWORD dwCurrentLocationID; DWORD dwNumCards; DWORD dwCardListSize; DWORD dwCardListOffset; DWORD dwCurrentPreferredCardID; } LINETRANSLATECAPS, FAR* LPLINETRANSLATECAPS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "LINETRANSLATEOUTPUT",
+  "title": "LINETRANSLATEOUTPUT",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms939150(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct linetranslateoutput_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwDialableStringSize; DWORD dwDialableStringOffset; DWORD dwDisplayableStringSize; DWORD dwDisplayableStringOffset; DWORD dwCurrentCountry; DWORD dwDestCountry; DWORD dwTranslateResults; } LINETRANSLATEOUTPUT, *LPLINETRANSLATEOUTPUT;",
+  "code_blocks": [
+   "typedef struct linetranslateoutput_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwDialableStringSize; DWORD dwDialableStringOffset; DWORD dwDisplayableStringSize; DWORD dwDisplayableStringOffset; DWORD dwCurrentCountry; DWORD dwDestCountry; DWORD dwTranslateResults; } LINETRANSLATEOUTPUT, *LPLINETRANSLATEOUTPUT;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "PHONECAPS",
+  "title": "PHONECAPS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927425(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct phonecaps_tag{ DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwProviderInfoSize; DWORD dwProviderInfoOffset; DWORD dwPhoneInfoSize; DWORD dwPhoneInfoOffset; DWORD dwPermanentPhoneID; DWORD dwPhoneNameSize; DWORD dwPhoneNameOffset; DWORD dwStringFormat; DWORD dwPhoneStates; DWORD dwHookSwitchDevs; DWORD dwHandsetHookSwitchModes; DWORD dwSpeakerHookSwitchModes; DWORD dwHeadsetHookSwitchModes; DWORD dwVolumeFlags; DWORD dwGainFlags; DWORD dwDisplayNumRows; DWORD dwDisplayNumColumns; DWORD dwNumRingModes; DWORD dwNumButtonLamps; DWORD dwButtonModesSize; DWORD dwButtonModesOffset; DWORD dwButtonModesFunctionsSize; DWORD dwButtonModesFunctionsOffset; DWORD dwLampModesSize; DWORD dwLampModesOffset; DWORD dwNumSetData; DWORD dwSetDataSize; DWORD dwSetDataOffset; DWORD dwNumGetData; DWORD dwGetDataSize; DWORD dwGetDataOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwDeviceClassesSize; DWORD dwDeviceClassesOffset; DWORD dwPhoneFeatures; DWORD dwSettableHandsetHookSwitchModes; DWORD dwSettableSpeakerHookSwitchModes; DWORD dwSettableHeadsetHookSwitchModes; DWORD dwMonitoredHandsetHookSwitchModes; DWORD dwMonitoredSpeakerHookSwitchModes; DWORD dwMonitoredHeadsetHookSwitchModes; } PHONECAPS;",
+  "code_blocks": [
+   "typedef struct phonecaps_tag{ DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwProviderInfoSize; DWORD dwProviderInfoOffset; DWORD dwPhoneInfoSize; DWORD dwPhoneInfoOffset; DWORD dwPermanentPhoneID; DWORD dwPhoneNameSize; DWORD dwPhoneNameOffset; DWORD dwStringFormat; DWORD dwPhoneStates; DWORD dwHookSwitchDevs; DWORD dwHandsetHookSwitchModes; DWORD dwSpeakerHookSwitchModes; DWORD dwHeadsetHookSwitchModes; DWORD dwVolumeFlags; DWORD dwGainFlags; DWORD dwDisplayNumRows; DWORD dwDisplayNumColumns; DWORD dwNumRingModes; DWORD dwNumButtonLamps; DWORD dwButtonModesSize; DWORD dwButtonModesOffset; DWORD dwButtonModesFunctionsSize; DWORD dwButtonModesFunctionsOffset; DWORD dwLampModesSize; DWORD dwLampModesOffset; DWORD dwNumSetData; DWORD dwSetDataSize; DWORD dwSetDataOffset; DWORD dwNumGetData; DWORD dwGetDataSize; DWORD dwGetDataOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwDeviceClassesSize; DWORD dwDeviceClassesOffset; DWORD dwPhoneFeatures; DWORD dwSettableHandsetHookSwitchModes; DWORD dwSettableSpeakerHookSwitchModes; DWORD dwSettableHeadsetHookSwitchModes; DWORD dwMonitoredHandsetHookSwitchModes; DWORD dwMonitoredSpeakerHookSwitchModes; DWORD dwMonitoredHeadsetHookSwitchModes; } PHONECAPS;"
+  ],
+  "requirements": {
+   "header": "Unimodem.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "PHONEEXTENSIONID",
+  "title": "PHONEEXTENSIONID",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927430(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct phoneextensionid_tag { DWORD dwExtensionID0; DWORD dwExtensionID1; DWORD dwExtensionID2; DWORD dwExtensionID3; } PHONEEXTENSIONID, FAR* LPPHONEEXTENSIONID;",
+  "code_blocks": [
+   "typedef struct phoneextensionid_tag { DWORD dwExtensionID0; DWORD dwExtensionID1; DWORD dwExtensionID2; DWORD dwExtensionID3; } PHONEEXTENSIONID, FAR* LPPHONEEXTENSIONID;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "PHONEINITIALIZEEXPARAMS",
+  "title": "PHONEINITIALIZEEXPARAMS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928240(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct phoneinitializeexparams_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwOptions; union { HANDLE hEvent; HANDLE hCompletionPort; } Handles; DWORD dwCompletionKey; } PHONEINITIALIZEEXPARAMS, FAR* LPPHONEINITIALIZEEXPARAMS;",
+  "code_blocks": [
+   "typedef struct phoneinitializeexparams_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwOptions; union { HANDLE hEvent; HANDLE hCompletionPort; } Handles; DWORD dwCompletionKey; } PHONEINITIALIZEEXPARAMS, FAR* LPPHONEINITIALIZEEXPARAMS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "PHONEMESSAGE",
+  "title": "PHONEMESSAGE",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928241(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct phonemessage_tag { DWORD hDevice; DWORD dwMessageID; DWORD dwCallbackInstance; DWORD dwParam1; DWORD dwParam2; DWORD dwParam3; } PHONEMESSAGE, FAR* LPPHONEMESSAGE;",
+  "code_blocks": [
+   "typedef struct phonemessage_tag { DWORD hDevice; DWORD dwMessageID; DWORD dwCallbackInstance; DWORD dwParam1; DWORD dwParam2; DWORD dwParam3; } PHONEMESSAGE, FAR* LPPHONEMESSAGE;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "PHONESTATUS",
+  "title": "PHONESTATUS",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms928251(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct phonestatus_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwStatusFlags; DWORD dwNumOwners; DWORD dwNumMonitors; DWORD dwRingMode; DWORD dwRingVolume; DWORD dwHandsetHookSwitchMode; DWORD dwHandsetVolume; DWORD dwHandsetGain; DWORD dwSpeakerHookSwitchMode; DWORD dwSpeakerVolume; DWORD dwSpeakerGain; DWORD dwHeadsetHookSwitchMode; DWORD dwHeadsetVolume; DWORD dwHeadsetGain; DWORD dwDisplaySize; DWORD dwDisplayOffset; DWORD dwLampModesSize; DWORD dwLampModesOffset; DWORD dwOwnerNameSize; DWORD dwOwnerNameOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwPhoneFeatures; } PHONESTATUS, FAR* LPPHONESTATUS;",
+  "code_blocks": [
+   "typedef struct phonestatus_tag { DWORD dwTotalSize; DWORD dwNeededSize; DWORD dwUsedSize; DWORD dwStatusFlags; DWORD dwNumOwners; DWORD dwNumMonitors; DWORD dwRingMode; DWORD dwRingVolume; DWORD dwHandsetHookSwitchMode; DWORD dwHandsetVolume; DWORD dwHandsetGain; DWORD dwSpeakerHookSwitchMode; DWORD dwSpeakerVolume; DWORD dwSpeakerGain; DWORD dwHeadsetHookSwitchMode; DWORD dwHeadsetVolume; DWORD dwHeadsetGain; DWORD dwDisplaySize; DWORD dwDisplayOffset; DWORD dwLampModesSize; DWORD dwLampModesOffset; DWORD dwOwnerNameSize; DWORD dwOwnerNameOffset; DWORD dwDevSpecificSize; DWORD dwDevSpecificOffset; DWORD dwPhoneFeatures; } PHONESTATUS, FAR* LPPHONESTATUS;"
+  ],
+  "requirements": {
+   "header": "Tapi.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "UNIMDM_CHG_DEVCFG",
+  "title": "UNIMDM_CHG_DEVCFG",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927488(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _UNIMDM_CHG_DEVCFG { DWORD dwCommand; LPCWSTR lpszDeviceClass; LPVARSTRING lpDeviceConfig; DWORD dwOption; DWORD dwValue; } UNIMDM_CHG_DEVCFG;",
+  "code_blocks": [
+   "typedef struct _UNIMDM_CHG_DEVCFG { DWORD dwCommand; LPCWSTR lpszDeviceClass; LPVARSTRING lpDeviceConfig; DWORD dwOption; DWORD dwValue; } UNIMDM_CHG_DEVCFG;",
+   "PUNIMDM_CHG_DEVCFG pUniMdmChgDevCfg; // allocate and set up pUniMdmChgDevCfg fields pUniMdmChgDevCfg->dwCommand = UNIMDM_CMD_CHG_DEVCFG; rc = lineDevSpecific( hLine, 0, NULL, pUniMdmChgDevCfg, sizeof(UNIMDM_CHG_DEVCFG));"
+  ],
+  "requirements": {
+   "header": "Unimodem.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ },
+ {
+  "name": "UNIMODEM_INFO",
+  "title": "UNIMODEM_INFO",
+  "docset": "ce40",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms927492(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct UNIMODEM_INFO_tag { WORD wDeviceType; WORD wActive; DWORD dwPPPMTU; } UNIMODEM_INFO, * PUNIMODEM_INFO;",
+  "code_blocks": [
+   "typedef struct UNIMODEM_INFO_tag { WORD wDeviceType; WORD wActive; DWORD dwPPPMTU; } UNIMODEM_INFO, * PUNIMODEM_INFO;"
+  ],
+  "requirements": {
+   "header": "Unimodem.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "tapi",
+  "sub": "TAPI Structures"
+ }
+]

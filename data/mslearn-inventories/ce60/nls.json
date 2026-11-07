@@ -1,0 +1,254 @@
+[
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "CompareString",
+"u": "ee492131(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "ConvertDefaultLocale",
+"u": "ee491548(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumCalendarInfo",
+"u": "ee491359(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumCalendarInfoProc",
+"u": "ee491129(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumCodePagesProc",
+"u": "ee491122(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumDateFormats",
+"u": "ee491363(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumDateFormatsProc",
+"u": "ee491531(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumLocalesProc",
+"u": "ee491185(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumSystemCodePages",
+"u": "ee491962(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumSystemLocales",
+"u": "ee491192(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumTimeFormats",
+"u": "ee491332(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumTimeFormatsProc",
+"u": "ee491148(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "FoldString",
+"u": "ee491930(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetACP",
+"u": "ee491208(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetCPInfo",
+"u": "ee491373(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetCurrencyFormat",
+"u": "ee491378(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetDateFormat",
+"u": "ee491714(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetLocaleInfo",
+"u": "ee491708(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetNumberFormat",
+"u": "ee490917(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetOEMCP",
+"u": "ee491929(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetStringTypeEx",
+"u": "ee491630(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetStringTypeW",
+"u": "ee490929(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetSystemDefaultLangID",
+"u": "ee491785(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetSystemDefaultLCID",
+"u": "ee491972(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetTimeFormat",
+"u": "ee491547(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetUserDefaultLangID",
+"u": "ee491635(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetUserDefaultLCID",
+"u": "ee491727(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "IsValidCodePage",
+"u": "ee491608(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "IsValidLocale",
+"u": "ee491935(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "LCMapString",
+"u": "ee491201(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "SetLocaleInfo",
+"u": "ee491893(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "SetUserDefaultLCID",
+"u": "ee491343(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Locale Identifiers",
+"t": "LCTYPE Constants",
+"u": "ee491958(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Locale Identifiers",
+"t": "Code Pages",
+"u": "ee491782(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Locale Identifiers",
+"t": "Language Identifiers and Locales",
+"u": "ee491651(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Macros",
+"t": "MAKELANGID",
+"u": "ee491561(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Macros",
+"t": "MAKELCID",
+"u": "ee491150(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Macros",
+"t": "PRIMARYLANGID",
+"u": "ee491738(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Macros",
+"t": "SUBLANGID",
+"u": "ee491948(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Structures",
+"t": "CPINFO",
+"u": "ee490975(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Structures",
+"t": "CURRENCYFMT",
+"u": "ee490960(v=winembedded.60)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Structures",
+"t": "NUMBERFMT",
+"u": "ee491766(v=winembedded.60)"
+}
+]

@@ -1,0 +1,32 @@
+[
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "EnumUILanguages",
+"u": "ms905092(v=msdn.10)"
+},
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "EnumUILanguagesProc",
+"u": "ms905116(v=msdn.10)"
+},
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "GetSystemDefaultUILanguage",
+"u": "ms905303(v=msdn.10)"
+},
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "GetUserDefaultUILanguage",
+"u": "ms905328(v=msdn.10)"
+},
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "SetUserDefaultUILanguage",
+"u": "ms906280(v=msdn.10)"
+}
+]

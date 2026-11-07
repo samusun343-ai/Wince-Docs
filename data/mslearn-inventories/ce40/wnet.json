@@ -1,0 +1,98 @@
+[
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetAddConnection3",
+"u": "ms925120(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetCancelConnection2",
+"u": "ms925121(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetCloseEnum",
+"u": "ms925122(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetConnectionDialog1",
+"u": "ms925123(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetDisconnectDialog",
+"u": "ms925124(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetDisconnectDialog1",
+"u": "ms925125(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetEnumResource",
+"u": "ms925126(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetGetConnection",
+"u": "ms925127(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetGetUniversalName",
+"u": "ms925128(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetGetUser",
+"u": "ms925129(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Functions",
+"t": "WNetOpenEnum",
+"u": "ms925130(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "CONNECTDLGSTRUCT",
+"u": "ms925115(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "DISCDLGSTRUCT",
+"u": "ms925116(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "NETRESOURCE",
+"u": "ms925117(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "REMOTE_NAME_INFO",
+"u": "ms925118(v=msdn.10)"
+},
+{
+"area": "wnet",
+"sub": "Windows Networking API/Redirector Structures",
+"t": "UNIVERSAL_NAME_INFO",
+"u": "ms925119(v=msdn.10)"
+}
+]

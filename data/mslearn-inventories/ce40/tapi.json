@@ -1,0 +1,1226 @@
+[
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRCAPFLAGS",
+"u": "ms907135(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRESSMODE",
+"u": "ms907146(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRESSSHARING",
+"u": "ms907155(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRESSSTATE",
+"u": "ms907164(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRESSTYPE",
+"u": "ms907178(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEADDRFEATURE",
+"u": "ms907120(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEANSWERMODE",
+"u": "ms907125(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEBEARERMODE",
+"u": "ms907184(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEBUSYMODE",
+"u": "ms907190(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLCOMPLCOND",
+"u": "ms907198(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLCOMPLMODE",
+"u": "ms907203(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLFEATURE",
+"u": "ms907292(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLFEATURE2",
+"u": "ms907287(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLINFOSTATE",
+"u": "ms907298(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLORIGIN",
+"u": "ms907307(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLPARAMFLAGS",
+"u": "ms907311(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLPARTYID",
+"u": "ms907318(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLPRIVILEGE",
+"u": "ms907327(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLREASON",
+"u": "ms927280(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLSELECT",
+"u": "ms927285(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLSTATE",
+"u": "ms927290(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECALLTREATMENT",
+"u": "ms927297(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINECONNECTEDMODE",
+"u": "ms927309(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDEVCAPFLAGS",
+"u": "ms927317(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDEVSTATE",
+"u": "ms927320(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDEVSTATUSFLAGS",
+"u": "ms927324(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDIALTONEMODE",
+"u": "ms927327(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDIGITMODE",
+"u": "ms927330(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEDISCONNECTMODE",
+"u": "ms927334(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEERR",
+"u": "ms927337(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEFEATURE",
+"u": "ms927343(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEFORWARDMODE",
+"u": "ms927347(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEGATHERTERM",
+"u": "ms927351(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEGENERATETERM",
+"u": "ms927357(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEINITIALIZEEXOPTION",
+"u": "ms927366(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINELOCATIONOPTION",
+"u": "ms927368(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEMEDIACONTROL",
+"u": "ms927371(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEMEDIAMODE",
+"u": "ms927373(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEOFFERINGMODE",
+"u": "ms927375(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEOPENOPTION",
+"u": "ms927378(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEPARKMODE",
+"u": "ms927381(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEREMOVEFROMCONF",
+"u": "ms927388(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINEROAMMODE",
+"u": "ms927390(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINESPECIALINFO",
+"u": "ms927393(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETERMDEV",
+"u": "ms927395(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETERMMODE",
+"u": "ms927398(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETERMSHARING",
+"u": "ms927400(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETOLLLISTOPTION",
+"u": "ms927402(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETONEMODE",
+"u": "ms927405(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETRANSFERMODE",
+"u": "ms927407(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETRANSLATEOPTION",
+"u": "ms927410(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "LINETRANSLATERESULT",
+"u": "ms927412(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEBUTTONFUNCTION",
+"u": "ms927417(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEBUTTONMODE",
+"u": "ms927420(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEBUTTONSTATE",
+"u": "ms927423(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEERR",
+"u": "ms927428(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEFEATURE",
+"u": "ms927433(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEHOOKSWITCHDEV",
+"u": "ms927436(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEHOOKSWITCHMODE",
+"u": "ms927439(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEINITIALIZEEXOPTION",
+"u": "ms927442(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONELAMPMODE",
+"u": "ms927450(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONEPRIVILEGE",
+"u": "ms927456(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONESTATE",
+"u": "ms927461(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "PHONESTATUSFLAGS",
+"u": "ms927465(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Constants",
+"t": "STRINGFORMAT",
+"u": "ms927470(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineAccept",
+"u": "ms927976(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineAddProvider",
+"u": "ms927977(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineAddToConference",
+"u": "ms927978(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineAnswer",
+"u": "ms927979(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineBlindTransfer",
+"u": "ms927980(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineCallbackFunc",
+"u": "ms927981(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineClose",
+"u": "ms927985(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineCompleteTransfer",
+"u": "ms927986(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineConfigDialogEdit",
+"u": "ms927987(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineDeallocateCall",
+"u": "ms927988(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineDevSpecific",
+"u": "ms927990(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineDial",
+"u": "ms927992(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineDrop",
+"u": "ms927994(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineForward",
+"u": "ms927996(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGenerateDigits",
+"u": "ms927997(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGenerateTone",
+"u": "ms927998(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetAddressCaps",
+"u": "ms928001(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetAddressID",
+"u": "ms928002(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetAddressStatus",
+"u": "ms928003(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetAppPriority",
+"u": "ms928004(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetCallInfo",
+"u": "ms928006(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetCallStatus",
+"u": "ms928007(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetConfRelatedCalls",
+"u": "ms928008(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetDevCaps",
+"u": "ms928009(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetDevConfig",
+"u": "ms928010(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetIcon",
+"u": "ms928011(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetID",
+"u": "ms928012(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetLineDevStatus",
+"u": "ms928013(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetMessage",
+"u": "ms928014(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetNewCalls",
+"u": "ms928015(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetNumRings",
+"u": "ms928016(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetProviderList",
+"u": "ms928017(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetStatusMessages",
+"u": "ms928018(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineGetTranslateCaps",
+"u": "ms928019(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineHandoff",
+"u": "ms928020(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineHold",
+"u": "ms928021(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineInitialize",
+"u": "ms928022(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineInitializeEx",
+"u": "ms928023(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineMakeCall",
+"u": "ms928026(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineMonitorDigits",
+"u": "ms928028(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineMonitorMedia",
+"u": "ms928029(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineNegotiateAPIVersion",
+"u": "ms928030(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineNegotiateExtVersion",
+"u": "ms928031(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineOpen",
+"u": "ms928032(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "linePickup",
+"u": "ms928033(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "linePrepareAddToConference",
+"u": "ms928034(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineRedirect",
+"u": "ms928035(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineReleaseUserUserInfo",
+"u": "ms928036(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineRemoveFromConference",
+"u": "ms928037(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSendUserUserInfo",
+"u": "ms928038(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetAppPriority",
+"u": "ms928039(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetCallParams",
+"u": "ms928040(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetCallPrivilege",
+"u": "ms928041(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetCurrentLocation",
+"u": "ms928042(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetDevConfig",
+"u": "ms928043(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetMediaMode",
+"u": "ms928044(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetNumRings",
+"u": "ms928045(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetStatusMessages",
+"u": "ms928046(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetTerminal",
+"u": "ms928047(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetTollList",
+"u": "ms928048(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetupConference",
+"u": "ms928049(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSetupTransfer",
+"u": "ms928051(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineShutdown",
+"u": "ms928052(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineSwapHold",
+"u": "ms928053(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineTranslateAddress",
+"u": "ms938808(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineTranslateDialog",
+"u": "ms939041(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "lineUnhold",
+"u": "ms928103(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneCallbackFunc",
+"u": "ms928224(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneClose",
+"u": "ms928225(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneConfigDialog",
+"u": "ms928226(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneDevSpecific",
+"u": "ms928227(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetDevCaps",
+"u": "ms928229(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetGain",
+"u": "ms928230(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetHookSwitch",
+"u": "ms928231(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetIcon",
+"u": "ms928232(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetID",
+"u": "ms928233(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetMessage",
+"u": "ms928234(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetRing",
+"u": "ms928235(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetStatus",
+"u": "ms928236(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetStatusMessages",
+"u": "ms928237(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneGetVolume",
+"u": "ms928238(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneInitializeEx",
+"u": "ms928239(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneNegotiateAPIVersion",
+"u": "ms928242(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneNegotiateExtVersion",
+"u": "ms928243(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneOpen",
+"u": "ms928244(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetGain",
+"u": "ms928245(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetHookSwitch",
+"u": "ms928246(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetRing",
+"u": "ms928247(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetStatusMessages",
+"u": "ms928248(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneSetVolume",
+"u": "ms928249(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Functions",
+"t": "phoneShutdown",
+"u": "ms928250(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_ADDRESSSTATE (TAPI)",
+"u": "ms928209(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_APPNEWCALL",
+"u": "ms928210(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_CALLINFO (TAPI)",
+"u": "ms928211(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_CALLSTATE (TAPI)",
+"u": "ms928212(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_CLOSE (TAPI)",
+"u": "ms928213(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_CREATE (TAPI)",
+"u": "ms928214(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_DEVSPECIFIC (TAPI)",
+"u": "ms928215(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_GATHERDIGITS",
+"u": "ms928216(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_GENERATE (TAPI)",
+"u": "ms928217(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_LINEDEVSTATE (TAPI)",
+"u": "ms928218(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_MONITORDIGITS (TAPI)",
+"u": "ms928219(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_MONITORMEDIA (TAPI)",
+"u": "ms928220(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_REMOVE (TAPI)",
+"u": "ms928221(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "LINE_REPLY",
+"u": "ms928223(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_BUTTON (TAPI)",
+"u": "ms928252(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_CLOSE (TAPI)",
+"u": "ms928253(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_CREATE (TAPI)",
+"u": "ms928254(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_DEVSPECIFIC (TAPI)",
+"u": "ms928255(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_REMOVE (TAPI)",
+"u": "ms928256(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_REPLY",
+"u": "ms928257(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Messages",
+"t": "PHONE_STATE (TAPI)",
+"u": "ms928258(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEADDRESSCAPS",
+"u": "ms907141(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEADDRESSSTATUS",
+"u": "ms907171(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLINFO",
+"u": "ms927982(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLLIST",
+"u": "ms907302(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLPARAMS",
+"u": "ms927983(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLSTATUS",
+"u": "ms927984(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINECALLTREATMENTENTRY",
+"u": "ms927301(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEDEVCAPS",
+"u": "ms927989(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEDEVSTATUS",
+"u": "ms927991(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEDIALPARAMS",
+"u": "ms927993(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEEXTENSIONID",
+"u": "ms927340(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEFORWARDLIST",
+"u": "ms927344(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEGENERATETONE",
+"u": "ms927362(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEINITIALIZEEXPARAMS",
+"u": "ms928024(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINELOCATIONENTRY",
+"u": "ms928025(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEMESSAGE",
+"u": "ms928027(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEPROVIDERENTRY",
+"u": "ms927382(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINEPROVIDERLIST",
+"u": "ms927386(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINETRANSLATECAPS",
+"u": "ms938929(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "LINETRANSLATEOUTPUT",
+"u": "ms939150(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONECAPS",
+"u": "ms927425(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONEEXTENSIONID",
+"u": "ms927430(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONEINITIALIZEEXPARAMS",
+"u": "ms928240(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONEMESSAGE",
+"u": "ms928241(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "PHONESTATUS",
+"u": "ms928251(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "UNIMDM_CHG_DEVCFG",
+"u": "ms927488(v=msdn.10)"
+},
+{
+"area": "tapi",
+"sub": "TAPI Structures",
+"t": "UNIMODEM_INFO",
+"u": "ms927492(v=msdn.10)"
+}
+]

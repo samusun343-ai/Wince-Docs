@@ -1,0 +1,302 @@
+[
+{
+"area": "fonts",
+"sub": "Fonts Messages",
+"t": "WM_FONTCHANGE",
+"u": "ee489917(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "ABC",
+"u": "ee489865(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "BRUSHOBJ",
+"u": "ee489919(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "CLIPOBJ",
+"u": "ee489903(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "ENUMLOGFONT",
+"u": "ee489900(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "FD_DEVICEMETRICS",
+"u": "ee489893(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "FONTOBJ",
+"u": "ee489872(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "GLYPHBITS",
+"u": "ee489875(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "GLYPHDATA",
+"u": "ee489842(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "IFIMETRICS",
+"u": "ee489861(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "LOGFONT",
+"u": "ee489840(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "NEWTEXTMETRIC",
+"u": "ee489904(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "PATHOBJ",
+"u": "ee489909(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "STROBJ",
+"u": "ee489906(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "SURFOBJ",
+"u": "ee489862(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Structures",
+"t": "TEXTMETRIC",
+"u": "ee489884(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "AddFontResource",
+"u": "ee489896(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "CreateFontIndirect",
+"u": "ee489863(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "DrawText",
+"u": "ee489886(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "DrvTextOut",
+"u": "ee489882(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnableEUDC",
+"u": "ee489913(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontFamilies",
+"u": "ee489908(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontFamiliesEx",
+"u": "ee489844(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontFamProc",
+"u": "ee489849(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFonts",
+"u": "ee489905(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "EnumFontsProc",
+"u": "ee489833(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "ExtTextOut",
+"u": "ee489846(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "FDDESTROYFONT",
+"u": "ee489854(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "FDGETFONTTABLE",
+"u": "ee489843(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "FDLOADFONTFILE",
+"u": "ee489877(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "FDQUERYFONT",
+"u": "ee489869(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "FDQUERYFONTDATA",
+"u": "ee489837(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "FDQUERYFONTFILE",
+"u": "ee489873(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "FDUNLOADFONTFILE",
+"u": "ee489898(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetCharABCWidths",
+"u": "ee489910(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetCharABCWidthsI",
+"u": "ee489855(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetCharWidth32",
+"u": "ee489848(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetFontData",
+"u": "ee489901(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextAlign",
+"u": "ee489856(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextCharacterExtra",
+"u": "ee489907(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextColor",
+"u": "ee489912(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextExtentExPoint",
+"u": "ee489883(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextExtentPoint",
+"u": "ee489897(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextExtentPoint32",
+"u": "ee489838(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextFace",
+"u": "ee489915(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "GetTextMetrics",
+"u": "ee489911(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "RemoveFontResource",
+"u": "ee489851(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "SetTextAlign",
+"u": "ee489853(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "SetTextCharacterExtra",
+"u": "ee489860(v=winembedded.60)"
+},
+{
+"area": "fonts",
+"sub": "Fonts Functions",
+"t": "SetTextColor",
+"u": "ee489887(v=winembedded.60)"
+}
+]

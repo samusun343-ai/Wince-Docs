@@ -1,0 +1,176 @@
+[
+{
+"area": "power",
+"sub": "Power Management Enumerations",
+"t": "CEDEVICE_POWER_STATE",
+"u": "aa447663(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "DevicePowerNotify",
+"u": "ms898291(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "GetDevicePower",
+"u": "aa447831(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "GetSystemPowerState",
+"u": "ms899319(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformDeviceListInit",
+"u": "ms919405(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformManageSystemPower",
+"u": "ms919406(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformMapPowerStateHint",
+"u": "ms919407(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformResumeSystem",
+"u": "ms919408(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformSendInitialNotifications",
+"u": "ms919409(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformSetSystemPowerState",
+"u": "ms919410(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformValidatePMRegistry",
+"u": "ms919660(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PowerPolicyNotify",
+"u": "ms919677(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "RegisterPowerRelationship",
+"u": "ms919797(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "ReleasePowerRelationship",
+"u": "ms919802(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "ReleasePowerRequirement",
+"u": "ms919803(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "RequestPowerNotifications",
+"u": "ms919833(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "SetDevicePower",
+"u": "ms920584(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "SetPowerRequirement",
+"u": "ms920689(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "SetSystemPowerState",
+"u": "ms920754(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "StopPowerNotifications",
+"u": "aa448148(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management IOCTLs",
+"t": "IOCTL_POWER_CAPABILITIES",
+"u": "ms901415(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management IOCTLs",
+"t": "IOCTL_POWER_GET",
+"u": "ms901416(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management IOCTLs",
+"t": "IOCTL_POWER_QUERY",
+"u": "ms901417(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management IOCTLs",
+"t": "IOCTL_POWER_SET",
+"u": "ms901418(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management IOCTLs",
+"t": "IOCTL_REGISTER_POWER_RELATIONSHIP",
+"u": "ms901419(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Structures",
+"t": "POWER_BROADCAST",
+"u": "ms919667(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Structures",
+"t": "POWER_BROADCAST_POWER_INFO",
+"u": "ms919670(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Structures",
+"t": "POWER_CAPABILITIES",
+"u": "ms919672(v=msdn.10)"
+},
+{
+"area": "power",
+"sub": "Power Management Structures",
+"t": "POWER_RELATIONSHIP",
+"u": "ms919681(v=msdn.10)"
+}
+]

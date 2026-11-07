@@ -1,0 +1,5162 @@
+[
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::EnumObjectParam",
+"u": "ee488490(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::GetBindOptions",
+"u": "ee489157(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::GetObjectParam",
+"u": "ee487763(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::GetRunningObjectTable",
+"u": "ee489660(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::RegisterObjectBound",
+"u": "ee488266(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::RegisterObjectParam",
+"u": "ee487730(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::ReleaseBoundObjects",
+"u": "ee489231(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::RevokeObjectBound",
+"u": "ee488543(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::RevokeObjectParam",
+"u": "ee487876(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IBindCtx::SetBindOptions",
+"u": "ee488702(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::GetAllAccessRights",
+"u": "ee489038(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::GrantAccessRights",
+"u": "ee488077(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::IsAccessAllowed",
+"u": "ee488997(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::RevokeAccessRights",
+"u": "ee488493(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::SetAccessRights",
+"u": "ee487769(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IAccessControl::SetOwner",
+"u": "ee489026(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::RegisterCategories",
+"u": "ee489700(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::RegisterClassImplCategories",
+"u": "ee488099(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::RegisterClassReqCategories",
+"u": "ee489507(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::UnRegisterCategories",
+"u": "ee487683(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::UnRegisterClassImplCategories",
+"u": "ee489143(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ICatRegister::UnRegisterClassReqCategories",
+"u": "ee489453(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassActivator::GetClassObject",
+"u": "ee488280(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory::CreateInstance",
+"u": "ee488680(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory::LockServer",
+"u": "ee488346(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory2::CreateInstanceLic",
+"u": "ee488101(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory2::GetLicInfo",
+"u": "ee487918(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClassFactory2::RequestLicKey",
+"u": "ee488489(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClientSecurity::CopyProxy",
+"u": "ee488052(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClientSecurity::QueryBlanket",
+"u": "ee489467(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IClientSecurity::SetBlanket",
+"u": "ee489698(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::Advise",
+"u": "ee488541(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::EnumConnections",
+"u": "ee488739(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::GetConnectionInterface",
+"u": "ee488696(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::GetConnectionPointContainer",
+"u": "ee487696(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPoint::Unadvise",
+"u": "ee489501(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPointContainer::EnumConnectionPoints",
+"u": "ee487689(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IConnectionPointContainer::FindConnectionPoint",
+"u": "ee488743(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IContinueCallback::FContinue",
+"u": "ee489520(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IContinueCallback::FContinuePrinting",
+"u": "ee489699(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::DAdvise",
+"u": "ee488994(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::DUnadvise",
+"u": "ee489710(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::EnumDAdvise",
+"u": "ee488657(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::EnumFormatEtc",
+"u": "ee489422(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::GetCanonicalFormatEtc",
+"u": "ee489395(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::GetData",
+"u": "ee488265(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::GetDataHere",
+"u": "ee487739(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::QueryGetData",
+"u": "ee489725(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDataObject::SetData",
+"u": "ee489229(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccMan::Advise",
+"u": "ee488249(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccMan::ShowCommSettings",
+"u": "ee488073(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccMan::Unadvise",
+"u": "ee488715(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogActive",
+"u": "ee487694(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogAnswered",
+"u": "ee489519(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogDisconnection",
+"u": "ee487921(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogError",
+"u": "ee488331(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogInactive",
+"u": "ee488995(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogIpAddr",
+"u": "ee489581(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogListen",
+"u": "ee488547(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IDccManSink::OnLogTerminated",
+"u": "ee488487(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnectionPoints::Clone",
+"u": "ee489194(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnectionPoints::Next",
+"u": "ee488477(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnectionPoints::Reset",
+"u": "ee487758(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnectionPoints::Skip",
+"u": "ee488520(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnections::Clone",
+"u": "ee489218(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnections::Next",
+"u": "ee488088(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnections::Reset",
+"u": "ee488454(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumConnections::Skip",
+"u": "ee489407(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumFORMATETC::Clone",
+"u": "ee487720(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumFORMATETC::Next",
+"u": "ee489580(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumFORMATETC::Reset",
+"u": "ee488122(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumFORMATETC::Skip",
+"u": "ee489356(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumMoniker::Clone",
+"u": "ee488492(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumMoniker::Next",
+"u": "ee489584(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumMoniker::Reset",
+"u": "ee489152(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumMoniker::Skip",
+"u": "ee487889(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATDATA::Clone",
+"u": "ee488732(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATDATA::Next",
+"u": "ee488504(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATDATA::Reset",
+"u": "ee489173(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATDATA::Skip",
+"u": "ee488300(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATSTG::Clone",
+"u": "ee488693(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATSTG::Next",
+"u": "ee487935(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATSTG::Reset",
+"u": "ee487679(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumSTATSTG::Skip",
+"u": "ee488990(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumString::Clone",
+"u": "ee489485(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumString::Next",
+"u": "ee489205(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumString::Reset",
+"u": "ee488132(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumString::Skip",
+"u": "ee487897(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IEnumUnknown",
+"u": "ee487712(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IErrorlog::AddError",
+"u": "ee489682(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IExternalConnection::AddConnection",
+"u": "ee489031(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IExternalConnection::ReleaseConnection",
+"u": "ee489677(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes Implementation",
+"u": "ee489473(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes::FillAppend",
+"u": "ee488714(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes::FillAt",
+"u": "ee489459(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes::SetFillSize",
+"u": "ee488332(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IFillLockBytes::Terminate",
+"u": "ee489499(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IGlobalInterfaceTable::GetInterfaceFromGlobal",
+"u": "ee488303(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IGlobalInterfaceTable::RegisterInterfaceInGlobal",
+"u": "ee487894(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IGlobalInterfaceTable::RevokeInterfaceFromGlobal",
+"u": "ee489688(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::Alloc",
+"u": "ee489513(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::DidAlloc",
+"u": "ee488703(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::Free",
+"u": "ee488292(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::GetSize",
+"u": "ee488750(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::HeapMinimize",
+"u": "ee488345(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMalloc::Realloc",
+"u": "ee488097(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostAlloc",
+"u": "ee489181(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostDidAlloc",
+"u": "ee489691(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostFree",
+"u": "ee488499(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostGetSize",
+"u": "ee489150(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostHeapMinimize",
+"u": "ee488072(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PostRealloc",
+"u": "ee489511(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreAlloc",
+"u": "ee489692(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreDidAlloc",
+"u": "ee488311(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreFree",
+"u": "ee487849(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreGetSize",
+"u": "ee488530(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreHeapMinimize",
+"u": "ee489215(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMallocSpy::PreRealloc",
+"u": "ee487865(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::DisconnectObject",
+"u": "ee488317(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal Default Implementation",
+"u": "ee488348(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::GetMarshalSizeMax",
+"u": "ee488062(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::GetUnmarshalClass",
+"u": "ee489193(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::MarshalInterface",
+"u": "ee488081(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::ReleaseMarshalData",
+"u": "ee488548(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMarshal::UnmarshalInterface",
+"u": "ee488287(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMessageFilter::HandleInComingCall",
+"u": "ee488119(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMessageFilter::MessagePending",
+"u": "ee488069(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMessageFilter::RetryRejectedCall",
+"u": "ee489684(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::BindToStorage",
+"u": "ee487759(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::CommonPrefixWith",
+"u": "ee489242(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::ComposeWith",
+"u": "ee488522(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::Enum",
+"u": "ee487904(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::GetDisplayName",
+"u": "ee487881(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::GetTimeOfLastChange",
+"u": "ee489476(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::Hash",
+"u": "ee489208(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::Inverse",
+"u": "ee487690(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::IsEqual",
+"u": "ee488665(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::IsRunning",
+"u": "ee489472(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::IsSystemMoniker",
+"u": "ee489188(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::ParseDisplayName",
+"u": "ee487729(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::Reduce",
+"u": "ee488662(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::RelativePathTo",
+"u": "ee488942(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMoniker::BindToObject",
+"u": "ee488697(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IMultiQI::QueryMultipleInterfaces",
+"u": "ee489470(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IObjectSafety::GetInterfaceSafetyOptions",
+"u": "ee489405(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IObjectSafety::SetInterfaceSafetyOptions",
+"u": "ee488091(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::GetExtendedControl",
+"u": "ee488459(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::LockInPlaceActive",
+"u": "ee489613(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::OnControlInfoChanged",
+"u": "ee488536(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::OnFocus",
+"u": "ee487752(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::ShowPropertyFrame",
+"u": "ee488488(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::TransformCoords",
+"u": "ee488267(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleControlSite::TranslateAccelerator",
+"u": "ee488952(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleItemContainer::GetObject",
+"u": "ee488954(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleItemContainer::GetObjectStorage",
+"u": "ee487885(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleItemContainer::IsRunning",
+"u": "ee489023(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::BindIfRunning",
+"u": "ee489676(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::BindToSource",
+"u": "ee487864(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::GetBoundSource",
+"u": "ee487710(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::GetSourceDisplayName",
+"u": "ee489198(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::GetSourceMoniker",
+"u": "ee488279(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::GetUpdateOptions",
+"u": "ee487765(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::SetSourceDisplayName",
+"u": "ee489012(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::SetSourceMoniker",
+"u": "ee488660(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::SetUpdateOptions",
+"u": "ee488724(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::UnbindSource",
+"u": "ee489494(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IOleLink::Update",
+"u": "ee488321(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IParseDisplayName::ParseDisplayName",
+"u": "ee489443(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersist::GetClassID",
+"u": "ee488957(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::GetCurFile",
+"u": "ee488126(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::IsDirty",
+"u": "ee487902(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::Load",
+"u": "ee489641(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::Save",
+"u": "ee489629(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistFile::SaveCompleted",
+"u": "ee488727(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistPropertyBag::InitNew",
+"u": "ee489462(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistPropertyBag::Load",
+"u": "ee487870(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistPropertyBag::Save",
+"u": "ee489040(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::HandsOffStorage",
+"u": "ee487682(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::InitNew",
+"u": "ee489206(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::IsDirty",
+"u": "ee487764(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::Load",
+"u": "ee488466(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::Save",
+"u": "ee488951(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStorage::SaveCompleted",
+"u": "ee489214(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream URL Moniker Implementation",
+"u": "ee488302(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream::GetSizeMax",
+"u": "ee488545(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream::IsDirty",
+"u": "ee488313(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream::Load",
+"u": "ee487878(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStream::Save",
+"u": "ee489002(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::GetSizeMax",
+"u": "ee488310(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::InitNew",
+"u": "ee489593(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::IsDirty",
+"u": "ee489167(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::Load",
+"u": "ee487928(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPersistStreamInit::Save",
+"u": "ee488698(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IProgressNotify::OnProgress",
+"u": "ee489458(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPropertyBag::Read",
+"u": "ee488084(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IPropertyBag::Write",
+"u": "ee487845(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IProvideClassInfo::GetClassInfo",
+"u": "ee488121(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IProvideClassInfo2::GetGUID",
+"u": "ee487856(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IROTData::GetComparisonData",
+"u": "ee488518(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::GetRunningClass",
+"u": "ee488124(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::IsRunning",
+"u": "ee488047(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::LockRunning",
+"u": "ee488483(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::Run",
+"u": "ee489364(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunnableObject::SetContainedObject",
+"u": "ee488978(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::EnumRunning",
+"u": "ee488129(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::GetObject",
+"u": "ee488470(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::GetTimeOfLastChange",
+"u": "ee489217(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::IsRunning",
+"u": "ee489147(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::NoteChangeTime",
+"u": "ee488481(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::Register",
+"u": "ee489035(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IRunningObjectTable::Revoke",
+"u": "ee489686(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ISpecifyPropertyPages::GetPages",
+"u": "ee488747(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ISequentialStream::Read",
+"u": "ee488142(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ISequentialStream::Write",
+"u": "ee489596(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IServerSecurity::ImpersonateClient",
+"u": "ee487781(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IServerSecurity::IsImpersonating",
+"u": "ee489509(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IServerSecurity::QueryBlanket",
+"u": "ee488251(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IServerSecurity::RevertToSelf",
+"u": "ee487731(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IStdMarshalInfo::GetClassForHandler",
+"u": "ee488533(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ISurrogate::FreeSurrogate",
+"u": "ee487937(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ISurrogate::LoadDllServer",
+"u": "ee489207(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IUnknown::AddRef",
+"u": "ee488723(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IUnknown::QueryInterface",
+"u": "ee489658(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IUnknown::Release",
+"u": "ee487697(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObject2::GetExtent",
+"u": "ee488476(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::GetNaturalExtent",
+"u": "ee487699(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::GetRect",
+"u": "ee488653(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::GetViewStatus",
+"u": "ee489037(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::QueryHitPoint",
+"u": "ee488989(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IViewObjectEx::QueryHitRect",
+"u": "ee488075(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "BIND_OPTS",
+"u": "ee489025(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "HITRESULT",
+"u": "ee488281(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "STGC",
+"u": "ee487922(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "COAUTHINFO",
+"u": "ee489371(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "COSERVERINFO",
+"u": "ee488143(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CLSCTX",
+"u": "ee488717(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DATADIR",
+"u": "ee488500(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DVASPECT2",
+"u": "ee489648(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "OLELINKBIND",
+"u": "ee488133(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "BIND_FLAGS",
+"u": "ee488465(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "OLEGETMONIKER",
+"u": "ee489434(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "OLEWHICHMK",
+"u": "ee489221(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "OLEUPDATE",
+"u": "ee489021(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "VIEWSTATUS",
+"u": "ee488962(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "BIND_OPTS2",
+"u": "ee488671(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MKRREDUCE",
+"u": "ee489498(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CONTROLINFO",
+"u": "ee488517(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DVEXTENTMODE",
+"u": "ee487861(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MKSYS",
+"u": "ee487713(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CAUUID",
+"u": "ee489209(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "BindMoniker",
+"u": "ee489646(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CLSIDFromProgID",
+"u": "ee488120(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CLSIDFromString",
+"u": "ee489033(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoAddRefServerProcess",
+"u": "ee489171(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoBuildVersion",
+"u": "ee489721(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCopyProxy",
+"u": "ee488992(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCreateFreeThreadedMarshaler",
+"u": "ee489165(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCreateGuid",
+"u": "ee489226(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCreateInstance",
+"u": "ee488147(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoCreateInstanceEx",
+"u": "ee488519(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoDisconnectObject",
+"u": "ee488719(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFileTimeNow",
+"u": "ee487936(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFreeAllLibraries",
+"u": "ee488940(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFreeLibrary",
+"u": "ee487866(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFreeUnusedLibraries",
+"u": "ee489211(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoFreeUnusedLibrariesEx",
+"u": "ee488079(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetCallContext",
+"u": "ee488953(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetClassObject",
+"u": "ee488341(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetCurrentProcess",
+"u": "ee487681(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetInstanceFromFile",
+"u": "ee489504(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetInstanceFromIStorage",
+"u": "ee489018(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetInterfaceAndReleaseStream",
+"u": "ee488654(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetMalloc",
+"u": "ee488495(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetMarshalSizeMax",
+"u": "ee488546(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetObject",
+"u": "ee487750(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetPSClsid",
+"u": "ee487728(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetStandardMarshal",
+"u": "ee487714(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoGetTreatAsClass",
+"u": "ee489224(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoImpersonateClient",
+"u": "ee487909(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoInitialize",
+"u": "ee488468(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoInitializeEx",
+"u": "ee489415(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoInitializeSecurity",
+"u": "ee487907(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoIsHandlerConnected",
+"u": "ee487943(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoIsOle1Class",
+"u": "ee488687(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoLoadLibrary",
+"u": "ee488981(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoLockObjectExternal",
+"u": "ee488065(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoMarshalHresult",
+"u": "ee488655(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoMarshalInterface",
+"u": "ee487703(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoMarshalInterThreadInterfaceInStream",
+"u": "ee488098(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoQueryAuthenticationServices",
+"u": "ee487862(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoQueryClientBlanket",
+"u": "ee488969(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoQueryProxyBlanket",
+"u": "ee488701(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterClassObject",
+"u": "ee488458(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterMallocSpy",
+"u": "ee489681(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterMessageFilter",
+"u": "ee489385(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterPSClsid",
+"u": "ee487910(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRegisterSurrogate",
+"u": "ee488709(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoReleaseMarshalData",
+"u": "ee489028(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoReleaseServerProcess",
+"u": "ee488055(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoResumeClassObjects",
+"u": "ee489358(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRevertToSelf",
+"u": "ee488063(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRevokeClassObject",
+"u": "ee489706(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoRevokeMallocSpy",
+"u": "ee488961(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoSetProxyBlanket",
+"u": "ee489203(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoSuspendClassObjects",
+"u": "ee487923(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoSwitchCallContext",
+"u": "ee489027(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoTaskMemAlloc",
+"u": "ee487868(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoTaskMemFree",
+"u": "ee489610(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoTaskMemRealloc",
+"u": "ee488467(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoTreatAsClass",
+"u": "ee489724(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoUninitialize",
+"u": "ee488960(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoUnmarshalHresult",
+"u": "ee489683(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CoUnmarshalInterface",
+"u": "ee488959(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateAntiMoniker",
+"u": "ee489493(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateBindCtx",
+"u": "ee488667(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateClassMoniker",
+"u": "ee489178(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateFileMoniker",
+"u": "ee489024(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateGenericComposite",
+"u": "ee488712(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreateItemMoniker",
+"u": "ee487863(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "CreatePointerMoniker",
+"u": "ee488663(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DirectInputCreate",
+"u": "ee489017(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DllCanUnloadNow",
+"u": "ee489182(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DllGetClassObject",
+"u": "ee487927(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DllRegisterServer",
+"u": "ee487938(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "DllUnregisterServer",
+"u": "ee488537(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "GetClassFile",
+"u": "ee488330(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "GetRunningObjectTable",
+"u": "ee488082(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IIDFromString",
+"u": "ee487879(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsEqualGUID",
+"u": "ee488966(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsValidIid",
+"u": "ee488102(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsValidInterface",
+"u": "ee488987(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsValidPtrIn",
+"u": "ee488342(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "IsValidPtrOut",
+"u": "ee488343(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MkParseDisplayName",
+"u": "ee487869(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MonikerCommonPrefixWith",
+"u": "ee488299(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "MonikerRelativePathTo",
+"u": "ee488104(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "ProgIDFromCLSID",
+"u": "ee488322(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "StringFromCLSID",
+"u": "ee487920(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "StringFromGUID2",
+"u": "ee488720(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "StringFromIID",
+"u": "ee488275(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "COM Reference",
+"t": "UpdateDCOMSettings",
+"u": "ee488064(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IEnumOLEVERB::Clone",
+"u": "ee488677(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IEnumOLEVERB::Next",
+"u": "ee488713(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IEnumOLEVERB::Reset",
+"u": "ee488123(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IEnumOLEVERB::Skip",
+"u": "ee488550(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnClose",
+"u": "ee489166(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnDataChange",
+"u": "ee487851(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnRename",
+"u": "ee488130(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnSave",
+"u": "ee488742(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IAdviseSink::OnViewChange",
+"u": "ee487705(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::Advise",
+"u": "ee489373(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::EnumAdvise",
+"u": "ee488484(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::SendOnClose",
+"u": "ee488301(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::SendOnRename",
+"u": "ee489696(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::SendOnSave",
+"u": "ee487700(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleAdviseHolder::Unadvise",
+"u": "ee488308(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::GetContainer",
+"u": "ee488107(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::GetMoniker",
+"u": "ee488939(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::OnShowWindow",
+"u": "ee488320(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::RequestNewObjectLayout",
+"u": "ee489225(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::SaveObject",
+"u": "ee487930(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleClientSite::ShowObject",
+"u": "ee487858(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleContainer::EnumObjects",
+"u": "ee488730(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleContainer::LockContainer",
+"u": "ee487757(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::CanInPlaceActivate",
+"u": "ee489200(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::DeactivateAndUndo",
+"u": "ee488116(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::DiscardUndoState",
+"u": "ee487717(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::GetWindowContext",
+"u": "ee489515(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnInPlaceActivate",
+"u": "ee489522(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnInPlaceDeactivate",
+"u": "ee489670(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnPosRectChange",
+"u": "ee488089(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnUIActivate",
+"u": "ee488289(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::OnUIDeactivate",
+"u": "ee489015(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleInPlaceSite::Scroll",
+"u": "ee488109(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::Advise",
+"u": "ee488658(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::Close",
+"u": "ee488983(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::DoVerb",
+"u": "ee489451(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::EnumAdvise",
+"u": "ee488976(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::EnumVerbs",
+"u": "ee489375(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetClientSite",
+"u": "ee487725(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetClipboardData",
+"u": "ee489687(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetExtent",
+"u": "ee488512(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetMiscStatus",
+"u": "ee488741(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetMoniker",
+"u": "ee488695(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetUserClassID",
+"u": "ee489235(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::GetUserType",
+"u": "ee488534(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::InitFromData",
+"u": "ee489377(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::IsUpToDate",
+"u": "ee488271(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetClientSite",
+"u": "ee489219(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetColorScheme",
+"u": "ee489500(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetExtent",
+"u": "ee487874(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetHostNames",
+"u": "ee488982(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::SetMoniker",
+"u": "ee487715(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::Unadvise",
+"u": "ee487745(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleObject::Update",
+"u": "ee488525(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleWindow::ContextSensitiveHelp",
+"u": "ee487747(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IOleWindow::GetWindow",
+"u": "ee489714(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::Draw",
+"u": "ee489032(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::Freeze",
+"u": "ee487855(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::GetAdvise",
+"u": "ee489387(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::GetColorSet",
+"u": "ee489030(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::SetAdvise",
+"u": "ee489618(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "IViewObject::Unfreeze",
+"u": "ee489497(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "DVASPECT",
+"u": "ee488141(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "DVEXTENTINFO",
+"u": "ee488144(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "DVTARGETDEVICE",
+"u": "ee489164(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "FORMATETC",
+"u": "ee487762(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "STGMEDIUM",
+"u": "ee488956(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "TYMED",
+"u": "ee488944(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "CreateStreamOnHGlobal",
+"u": "ee487780(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "CreateOleAdviseHolder",
+"u": "ee489605(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "GetHGlobalFromStream",
+"u": "ee488460(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleCreate",
+"u": "ee487704(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleDraw",
+"u": "ee489036(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleIsRunning",
+"u": "ee489723(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleLoadFromStream",
+"u": "ee489483(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleRun",
+"u": "ee487733(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleSave",
+"u": "ee488131(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleSaveToStream",
+"u": "ee489508(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleSetContainedObject",
+"u": "ee488740(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "OleSetMenuDescriptor",
+"u": "ee488661(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "ReleaseStgMedium",
+"u": "ee487903(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBoolFromI1",
+"u": "ee489469(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBoolFromUI2",
+"u": "ee487846(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBoolFromUI4",
+"u": "ee488473(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBstrFromI1",
+"u": "ee489192(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBstrFromUI2",
+"u": "ee489431(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarBstrFromUI4",
+"u": "ee487913(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarCyFromI1",
+"u": "ee488326(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarCyFromUI2",
+"u": "ee489717(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarCyFromUI4",
+"u": "ee489703(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDateFromI1",
+"u": "ee489604(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDateFromUI2",
+"u": "ee489227(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDateFromUI4",
+"u": "ee488453(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDecFromI1",
+"u": "ee488146(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDecFromUI2",
+"u": "ee488501(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarDecFromUI4",
+"u": "ee489163(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromBool",
+"u": "ee489389(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromCy",
+"u": "ee487926(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromDate",
+"u": "ee487782(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromDec",
+"u": "ee488670(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromDisp",
+"u": "ee488048(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromI2",
+"u": "ee487724(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromI4",
+"u": "ee487886(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromR4",
+"u": "ee487732(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromR8",
+"u": "ee489153(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromR4",
+"u": "ee488113(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromR8",
+"u": "ee489715(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromStr",
+"u": "ee489685(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromUI1",
+"u": "ee489237(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromUI4",
+"u": "ee488256(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromBool",
+"u": "ee488668(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromCy",
+"u": "ee488502(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromDate",
+"u": "ee488706(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromDec",
+"u": "ee488744(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromDisp",
+"u": "ee488514(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromI1",
+"u": "ee488288(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromI2",
+"u": "ee488314(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromI4",
+"u": "ee488979(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromR4",
+"u": "ee488669(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromR8",
+"u": "ee489702(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromStr",
+"u": "ee487915(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromUI1",
+"u": "ee489022(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI4FromUI2",
+"u": "ee488257(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromStr",
+"u": "ee489006(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromUI1",
+"u": "ee489232(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromUI2",
+"u": "ee488264(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI1FromUI4",
+"u": "ee487941(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI2FromI1",
+"u": "ee487760(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI2FromUI2",
+"u": "ee487726(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI2FromUI4",
+"u": "ee488285(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI4FromI1",
+"u": "ee489656(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI4FromUI2",
+"u": "ee489639(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarI4FromUI4",
+"u": "ee489393(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR4FromI1",
+"u": "ee489151(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR4FromUI2",
+"u": "ee487912(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR4FromUI4",
+"u": "ee489005(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR8FromI1",
+"u": "ee488056(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR8FromUI2",
+"u": "ee488325(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarR8FromUI4",
+"u": "ee487873(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI1FromI1",
+"u": "ee489034(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI1FromUI2",
+"u": "ee488511(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI1FromUI4",
+"u": "ee487908(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromBool",
+"u": "ee489228(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromCy",
+"u": "ee488053(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromDate",
+"u": "ee488528(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromDec",
+"u": "ee489465(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromDisp",
+"u": "ee489673(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromI1",
+"u": "ee488721(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromI2",
+"u": "ee488298(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "OLE Reference",
+"t": "VarUI2FromI4",
+"u": "ee487875(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ReadClassStg",
+"u": "ee487900(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ReadClassStm",
+"u": "ee487919(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "StgCreateDocfile",
+"u": "ee489142(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "StgCreateDocfileOnILockBytes",
+"u": "ee489602(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "StgOpenStorage",
+"u": "ee489503(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "StgOpenStorageOnILockBytes",
+"u": "ee487932(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "WriteClassStg",
+"u": "ee489160(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "WriteClassStm",
+"u": "ee488996(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "BSTR",
+"u": "ee487693(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "COAUTHIDENTITY",
+"u": "ee488549(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "CONNECTDATA",
+"u": "ee489196(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "DVASPECTINFO",
+"u": "ee488664(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "HREFTYPE",
+"u": "ee488125(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IMPLTYPEFLAGS",
+"u": "ee488269(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "INTERFACEINFO",
+"u": "ee489419(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "LCID",
+"u": "ee487749(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "LICINFO",
+"u": "ee488316(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "MULTI_QI",
+"u": "ee489003(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "OLEVERB",
+"u": "ee488250(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "SOLE_AUTHENTICATION_SERVICE",
+"u": "ee489238(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STATDATA",
+"u": "ee488968(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STATSTG",
+"u": "ee487852(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STORE_INFORMATION",
+"u": "ee488452(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STOREINFO (COM)",
+"u": "ee487684(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "TLIBATTR",
+"u": "ee488678(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Clone",
+"u": "ee488531(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Commit",
+"u": "ee489645(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::CopyTo",
+"u": "ee487695(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::LockRegion",
+"u": "ee488965(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Read",
+"u": "ee489637(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Revert",
+"u": "ee488095(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Seek",
+"u": "ee488738(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::SetSize",
+"u": "ee488749(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Stat",
+"u": "ee488261(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::UnlockRegion",
+"u": "ee488491(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStream::Write",
+"u": "ee488974(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::Flush",
+"u": "ee488270(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::LockRegion",
+"u": "ee489726(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::ReadAt",
+"u": "ee489651(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::SetSize",
+"u": "ee487738(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::Stat",
+"u": "ee488737(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::UnlockRegion",
+"u": "ee488726(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ILockBytes::WriteAt",
+"u": "ee488728(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IRootStorage::SwitchToFile",
+"u": "ee489510(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::CopyTo",
+"u": "ee487892(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::Commit",
+"u": "ee488993(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::CreateStorage",
+"u": "ee487754(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::CreateStream",
+"u": "ee488058(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::DestroyElement",
+"u": "ee488100(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::EnumElements",
+"u": "ee488731(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::MoveElementTo",
+"u": "ee488258(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::OpenStorage",
+"u": "ee487743(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::OpenStream",
+"u": "ee487746(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::RenameElement",
+"u": "ee489711(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::Revert",
+"u": "ee489145(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::SetClass",
+"u": "ee489396(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::SetElementTimes",
+"u": "ee487748(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::SetStateBits",
+"u": "ee489718(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "IStorage::Stat",
+"u": "ee489014(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "ADVF",
+"u": "ee487871(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "DVASPECTINFOFLAG",
+"u": "ee489170(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "OLEVERBATTRIB",
+"u": "ee488507(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "STGM",
+"u": "ee489392(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "SYSKIND",
+"u": "ee488297(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "TYPEFLAGS",
+"u": "ee489586(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Storage Reference",
+"t": "VARKIND",
+"u": "ee488066(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CALLCONV",
+"u": "ee487722(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DESCKIND",
+"u": "ee489675(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "FUNCFLAGS",
+"u": "ee488948(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "FUNCKIND",
+"u": "ee488103(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "INVOKEKIND",
+"u": "ee489492(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "TYPEKIND",
+"u": "ee488260(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VARTYPE",
+"u": "ee488486(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "BstrFromVector",
+"u": "ee487911(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CreateErrorInfo",
+"u": "ee488471(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CreateTypeLib2",
+"u": "ee488108(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DispGetIDsOfNames",
+"u": "ee487709(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DispGetParam",
+"u": "ee488092(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DispInvoke",
+"u": "ee489424(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "FreePropVariantArray",
+"u": "ee488304(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "GetErrorInfo",
+"u": "ee489236(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "LoadRegTypeLib",
+"u": "ee488977(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "LoadTypeLib",
+"u": "ee487857(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PropVariantClear",
+"u": "ee488652(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PropVariantCopy",
+"u": "ee488659(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "RegisterTypeLib",
+"u": "ee487882(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayAccessData",
+"u": "ee488692(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayAllocData",
+"u": "ee488538(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayAllocDescriptor",
+"u": "ee488255(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayCopy",
+"u": "ee488268(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayCopyData",
+"u": "ee488733(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayCreate",
+"u": "ee488691(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayCreateVector",
+"u": "ee489689(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayDestroy",
+"u": "ee489719(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayDestroyData",
+"u": "ee488949(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayDestroyDescriptor",
+"u": "ee487692(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetDim",
+"u": "ee488284(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetElement",
+"u": "ee489234(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetElemsize",
+"u": "ee488054(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetLBound",
+"u": "ee488253(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayGetUBound",
+"u": "ee489720(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayLock",
+"u": "ee487751(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayPtrOfIndex",
+"u": "ee489678(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayPutElement",
+"u": "ee487893(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayRedim",
+"u": "ee488138(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayUnaccessData",
+"u": "ee488318(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SafeArrayUnlock",
+"u": "ee488722(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SetErrorInfo",
+"u": "ee488958(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysAllocString",
+"u": "ee488306(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysAllocStringByteLen",
+"u": "ee489155(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysAllocStringLen",
+"u": "ee489172(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysFreeString",
+"u": "ee488736(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysReAllocString",
+"u": "ee488674(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysReAllocStringLen",
+"u": "ee488497(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysStringByteLen",
+"u": "ee488110(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SysStringLen",
+"u": "ee488335(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SystemTimeToVariantTime",
+"u": "ee488946(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "UnRegisterTypeLib",
+"u": "ee488463(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromCy",
+"u": "ee488252(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromDate",
+"u": "ee488716(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromDec",
+"u": "ee488461(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromDisp",
+"u": "ee489369(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromI2",
+"u": "ee488494(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromI4",
+"u": "ee487883(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromR4",
+"u": "ee488296(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromR8",
+"u": "ee489190(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromStr",
+"u": "ee489144(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBoolFromUI1",
+"u": "ee487944(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromBool",
+"u": "ee489601(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromCy",
+"u": "ee487685(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromDate",
+"u": "ee488273(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromDec",
+"u": "ee488136(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromDisp",
+"u": "ee487721(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromI2",
+"u": "ee487905(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromI4",
+"u": "ee488105(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromR4",
+"u": "ee488729(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromR8",
+"u": "ee487785(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarBstrFromUI1",
+"u": "ee488694(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromBool",
+"u": "ee488096(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromDate",
+"u": "ee488282(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromDec",
+"u": "ee488259(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromDisp",
+"u": "ee489019(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromI2",
+"u": "ee489705(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromI4",
+"u": "ee488513(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromR4",
+"u": "ee487931(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromR8",
+"u": "ee488307(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromStr",
+"u": "ee489185(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarCyFromUI1",
+"u": "ee489625(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromBool",
+"u": "ee489695(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromCy",
+"u": "ee488049(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromDec",
+"u": "ee489622(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromDisp",
+"u": "ee487761(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromI2",
+"u": "ee488117(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromI4",
+"u": "ee489707(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromR4",
+"u": "ee487768(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromR8",
+"u": "ee489148(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromStr",
+"u": "ee489223(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromUdate",
+"u": "ee488319(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDateFromUI1",
+"u": "ee487906(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromBool",
+"u": "ee489240(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromCy",
+"u": "ee489230(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromDate",
+"u": "ee488340(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromDisp",
+"u": "ee488078(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromI2",
+"u": "ee489174(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromI4",
+"u": "ee488263(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromR4",
+"u": "ee489176(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromR8",
+"u": "ee489362(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromStr",
+"u": "ee489409(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarDecFromUI1",
+"u": "ee488941(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromBool",
+"u": "ee489716(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromCy",
+"u": "ee489204(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromDate",
+"u": "ee487853(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromDec",
+"u": "ee488094(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromDisp",
+"u": "ee489456(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromI4",
+"u": "ee487737(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromR4",
+"u": "ee488681(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromR8",
+"u": "ee488336(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromStr",
+"u": "ee489590(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI2FromUI1",
+"u": "ee489197(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromBool",
+"u": "ee488324(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromCy",
+"u": "ee487787(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromDate",
+"u": "ee488718(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromDec",
+"u": "ee489367(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromDisp",
+"u": "ee489455(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromI2",
+"u": "ee488274(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromR4",
+"u": "ee489708(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromR8",
+"u": "ee489161(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromStr",
+"u": "ee489437(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarI4FromUI1",
+"u": "ee489001(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantChangeType",
+"u": "ee488705(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantChangeTypeEx",
+"u": "ee487788(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantClear",
+"u": "ee487940(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantCopy",
+"u": "ee489149(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantCopyInd",
+"u": "ee488945(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantInit",
+"u": "ee488725(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VariantTimeToSystemTime",
+"u": "ee487898(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarNumFromParseNum",
+"u": "ee489521(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarParseNumFromStr",
+"u": "ee488050(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromBool",
+"u": "ee487783(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromCy",
+"u": "ee488482(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromDate",
+"u": "ee487867(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromDec",
+"u": "ee488679(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromDisp",
+"u": "ee489186(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromI2",
+"u": "ee487706(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromI4",
+"u": "ee489029(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromR8",
+"u": "ee488521(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromStr",
+"u": "ee489506(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR4FromUI1",
+"u": "ee489216(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromBool",
+"u": "ee488057(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromCy",
+"u": "ee487727(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromDate",
+"u": "ee488074(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromDec",
+"u": "ee489403(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromDisp",
+"u": "ee489487(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromI2",
+"u": "ee488338(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromI4",
+"u": "ee487718(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromR4",
+"u": "ee489183(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromStr",
+"u": "ee487933(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarR8FromUI1",
+"u": "ee489169(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUdateFromDate",
+"u": "ee489489(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromBool",
+"u": "ee489009(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromCy",
+"u": "ee488991(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromDate",
+"u": "ee488682(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromDec",
+"u": "ee487859(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromDisp",
+"u": "ee488087(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromI2",
+"u": "ee488708(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromI4",
+"u": "ee487702(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromR4",
+"u": "ee489624(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromR8",
+"u": "ee489210(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VarUI1FromStr",
+"u": "ee488293(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VectorFromBstr",
+"u": "ee487707(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::AddImplType",
+"u": "ee489004(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::AddFuncDesc",
+"u": "ee489159(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::AddRefTypeInfo",
+"u": "ee489632(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::AddVarDesc",
+"u": "ee487942(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::DefineFuncAsDllEntry",
+"u": "ee487701(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::LayOut",
+"u": "ee487708(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetAlignment",
+"u": "ee489008(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetDocString",
+"u": "ee488510(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetFuncAndParamNames",
+"u": "ee489202(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetFuncDocString",
+"u": "ee487786(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetFuncHelpContext",
+"u": "ee488532(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetGuid",
+"u": "ee488699(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetHelpContext",
+"u": "ee488972(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetImplTypeFlags",
+"u": "ee489694(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetMops",
+"u": "ee488283(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetTypeDescAlias",
+"u": "ee488508(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetTypeFlags",
+"u": "ee488145(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetVarDocString",
+"u": "ee487884(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetVarHelpContext",
+"u": "ee489496(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetVarName",
+"u": "ee487680(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo::SetVersion",
+"u": "ee489201(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetDescription",
+"u": "ee488684(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetGUID",
+"u": "ee488059(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetHelpContext",
+"u": "ee489399(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetHelpFile",
+"u": "ee487723(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateErrorInfo::SetSource",
+"u": "ee489634(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteFuncDesc",
+"u": "ee489241(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteFuncDescByMemId",
+"u": "ee487734(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteImplType",
+"u": "ee489445(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteVarDesc",
+"u": "ee488535(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::DeleteVarDescByMemId",
+"u": "ee488134(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetCustData",
+"u": "ee488980(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetFuncCustData",
+"u": "ee488262(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetFuncHelpStringContext",
+"u": "ee487887(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetHelpStringContext",
+"u": "ee489220(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetImplTypeCustData",
+"u": "ee488540(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetName",
+"u": "ee487844(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetParamCustData",
+"u": "ee489578(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetVarCustData",
+"u": "ee488675(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeInfo2::SetVarHelpStringContext",
+"u": "ee488544(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::CreateTypeInfo",
+"u": "ee488689(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetGuid",
+"u": "ee488344(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetHelpContext",
+"u": "ee489704(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetHelpFileName",
+"u": "ee488086(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetLcid",
+"u": "ee488457(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetLibFlags",
+"u": "ee489239(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetName",
+"u": "ee489433(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib::SetVersion",
+"u": "ee489213(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib2::DeleteTypeInfo",
+"u": "ee488748(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib2::SetCustData",
+"u": "ee489491(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib2::SetHelpStringContext",
+"u": "ee487924(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ICreateTypeLib2::SetHelpStringDll",
+"u": "ee488295(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "dispinterface",
+"u": "ee488290(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDispatch::GetIDsOfNames",
+"u": "ee488498(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDispatch::GetTypeInfo",
+"u": "ee488986(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDispatch::GetTypeInfoCount",
+"u": "ee487686(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDispatch::Invoke",
+"u": "ee488339(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IEnumVARIANT::Clone",
+"u": "ee488093(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IEnumVARIANT::Next",
+"u": "ee488947(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IEnumVARIANT::Reset",
+"u": "ee489598(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IEnumVARIANT::Skip",
+"u": "ee488127(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetDescription",
+"u": "ee487735(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetGUID",
+"u": "ee489672(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetHelpContext",
+"u": "ee487934(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetHelpFile",
+"u": "ee489512(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IErrorInfo::GetSource",
+"u": "ee489184(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ISupportErrorInfo::InterfaceSupportsErrorInfo",
+"u": "ee487742(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeComp::Bind",
+"u": "ee488114(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeComp::BindType",
+"u": "ee487880(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::AddressOfMember",
+"u": "ee489690(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::CreateInstance",
+"u": "ee487784(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetContainingTypeLib",
+"u": "ee488337(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetDllEntry",
+"u": "ee487711(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetDocumentation",
+"u": "ee488542(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetFuncDesc",
+"u": "ee489713(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetIDsOfNames",
+"u": "ee487687(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetImplTypeFlags",
+"u": "ee487756(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetMops",
+"u": "ee489643(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetNames",
+"u": "ee488060(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetRefTypeInfo",
+"u": "ee487848(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetRefTypeOfImplType",
+"u": "ee487854(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetTypeAttr",
+"u": "ee489653(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetTypeComp",
+"u": "ee489502(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::GetVarDesc",
+"u": "ee489426(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::Invoke",
+"u": "ee488305(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::ReleaseFuncDesc",
+"u": "ee488480(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::ReleaseTypeAttr",
+"u": "ee489516(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo::ReleaseVarDesc",
+"u": "ee488061(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllCustData",
+"u": "ee489616(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllFuncCustData",
+"u": "ee488688(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllImplTypeCustData",
+"u": "ee489179(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllParamCustData",
+"u": "ee489575(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetAllVarCustData",
+"u": "ee488090(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetCustData",
+"u": "ee488673(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetDocumentation2",
+"u": "ee488950(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetFuncCustData",
+"u": "ee488469(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetFuncIndexOfMemId",
+"u": "ee489187(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetImplTypeCustData",
+"u": "ee487896(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetParamCustData",
+"u": "ee488462(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetTypeFlags",
+"u": "ee488067(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetTypeKind",
+"u": "ee488349(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetVarCustData",
+"u": "ee488312(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeInfo2::GetVarIndexOfMemId",
+"u": "ee487691(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::FindName",
+"u": "ee489195(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetDocumentation",
+"u": "ee488751(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetLibAttr",
+"u": "ee489429(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeComp",
+"u": "ee489154(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeInfo",
+"u": "ee488970(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeInfoCount",
+"u": "ee488529(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeInfoOfGuid",
+"u": "ee489156(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::GetTypeInfoType",
+"u": "ee488347(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::IsName",
+"u": "ee487917(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib::ReleaseTLibAttr",
+"u": "ee489158(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib2::GetAllCustData",
+"u": "ee488112(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib2::GetCustData",
+"u": "ee487736(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib2::GetDocumentation2",
+"u": "ee488334(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ITypeLib2::GetLibStatistics",
+"u": "ee488472(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ARRAYDESC",
+"u": "ee489411(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "BINDPTR",
+"u": "ee488076(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CURRENCY",
+"u": "ee489191(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CUSTDATA",
+"u": "ee488085(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "CUSTDATAITEM",
+"u": "ee489010(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DISPPARAMS",
+"u": "ee489712(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "ELEMDESC",
+"u": "ee489680(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "EXCEPINFO",
+"u": "ee488683(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "FUNCDESC",
+"u": "ee488973(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "IDLDESC",
+"u": "ee488071(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "METHODDATA",
+"u": "ee488503(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PARAMDATA",
+"u": "ee489517(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PARAMDESC",
+"u": "ee487939(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "PROPVARIANT",
+"u": "ee489607(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SAFEARRAY",
+"u": "ee487744(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "SAFEARRAYBOUND",
+"u": "ee489665(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "TYPEATTR",
+"u": "ee488118(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "TYPEDESC",
+"u": "ee489482(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VARDESC",
+"u": "ee489016(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "VARIANT and VARIANTARG",
+"u": "ee487850(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "DISPID",
+"u": "ee489414(v=winembedded.60)"
+},
+{
+"area": "ole-com",
+"sub": "Automation Reference",
+"t": "MEMBERID",
+"u": "ee488070(v=winembedded.60)"
+}
+]

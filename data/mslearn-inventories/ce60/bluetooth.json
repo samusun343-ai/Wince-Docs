@@ -1,0 +1,1298 @@
+[
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BTHHID_IOCTL_HIDConnect",
+"u": "ee496033(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BTHHID_IOCTL_HIDDisconnect",
+"u": "ee495827(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_CLOSE_AUDIO",
+"u": "ee495404(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_CLOSE_CONTROL",
+"u": "ee495936(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_GET_MIC_VOL",
+"u": "ee495850(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_GET_SPEAKER_VOL",
+"u": "ee495537(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_OPEN_AUDIO",
+"u": "ee495628(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_OPEN_CONTROL",
+"u": "ee495643(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_SET_MIC_VOL",
+"u": "ee495994(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_SET_SPEAKER_VOL",
+"u": "ee495930(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_SET_USE_HF_AUDIO",
+"u": "ee495813(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAcceptSCOConnections",
+"u": "ee495438(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthActivatePAN",
+"u": "ee495854(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGATHandler",
+"u": "ee495848(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGATSetCallback",
+"u": "ee495634(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGGetLastDialed",
+"u": "ee495991(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGGetNameByPhoneNumber",
+"u": "ee495653(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGGetSpeedDial",
+"u": "ee495797(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkAnswerCall",
+"u": "ee495658(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkDeinit",
+"u": "ee495426(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkDialNumber",
+"u": "ee495832(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkDropCall",
+"u": "ee495838(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkDropSwapCall",
+"u": "ee495860(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkGetCallState",
+"u": "ee495859(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkHoldCall",
+"u": "ee495870(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkInit",
+"u": "ee495547(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkRejectCall",
+"u": "ee495855(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkSwapCall",
+"u": "ee495965(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkTransmitDTMF",
+"u": "ee495902(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkUnholdCall",
+"u": "ee495620(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGOnNetworkEvent",
+"u": "ee495865(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGOverrideCallIn",
+"u": "ee495607(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGOverrideCallOut",
+"u": "ee495670(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGPhoneExtDeinit",
+"u": "ee495979(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGPhoneExtEvent",
+"u": "ee495467(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGPhoneExtInit",
+"u": "ee495665(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGSetServiceCallback",
+"u": "ee495581(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAnswerPairRequest",
+"u": "ee495439(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAuthenticate",
+"u": "ee495954(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthCancelInquiry",
+"u": "ee495808(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthClearInquiryFilter",
+"u": "ee495611(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthCloseConnection",
+"u": "ee495428(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthCreateACLConnection",
+"u": "ee495802(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthCreateSCOConnection",
+"u": "ee495856(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthEnterHoldMode",
+"u": "ee495826(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthEnterParkMode",
+"u": "ee495664(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthEnterSniffMode",
+"u": "ee495649(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthExitParkMode",
+"u": "ee495446(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthExitSniffMode",
+"u": "ee495632(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetAddress",
+"u": "ee495629(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetBasebandConnections",
+"u": "ee495873(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetBasebandHandles",
+"u": "ee495794(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetCurrentMode",
+"u": "ee495775(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetHardwareStatus",
+"u": "ee495817(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetLinkKey",
+"u": "ee495938(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetPINRequest",
+"u": "ee495387(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetRemoteCOD",
+"u": "ee495655(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetRole",
+"u": "ee495829(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthNsLookupServiceBegin",
+"u": "ee495626(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthNsLookupServiceEnd",
+"u": "ee495587(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthNsLookupServiceNext",
+"u": "ee495569(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthNsSetService",
+"u": "ee495417(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthPairRequest",
+"u": "ee495621(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthPerformInquiry",
+"u": "ee495844(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadAuthenticationEnable",
+"u": "ee495811(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadCOD",
+"u": "ee495395(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadLinkPolicySettings",
+"u": "ee495840(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadLocalAddr",
+"u": "ee495466(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadLocalVersion",
+"u": "ee495899(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadPageTimeout",
+"u": "ee495924(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadRemoteVersion",
+"u": "ee495821(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadRSSI",
+"u": "ee495452(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadScanEnableMask",
+"u": "ee495828(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthRefusePINRequest",
+"u": "ee495864(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthRemoteNameQuery",
+"u": "ee495564(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthRevokeLinkKey",
+"u": "ee495622(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthRevokePIN",
+"u": "ee495427(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetCODInquiryFilter",
+"u": "ee495879(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetEncryption",
+"u": "ee496026(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetInquiryFilter",
+"u": "ee495358(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetLinkKey",
+"u": "ee495875(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetPIN",
+"u": "ee495963(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetSecurityUI",
+"u": "ee495391(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSwitchRole",
+"u": "ee495608(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthTerminateIdleConnections",
+"u": "ee496023(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWriteAuthenticationEnable",
+"u": "ee495380(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWriteCOD",
+"u": "ee495633(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWriteLinkPolicySettings",
+"u": "ee495661(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWritePageTimeout",
+"u": "ee496042(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWriteScanEnableMask",
+"u": "ee495625(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "WODM_BT_SCO_AUDIO_CONTROL",
+"u": "ee495648(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "WODM_OPEN_CLOSE_A2DP",
+"u": "ee495449(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BASEBAND_CONNECTION_DATA",
+"u": "ee495462(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "NetworkCallFailedInfo",
+"u": "ee495410(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "OID_PAN_AUTHENTICATE",
+"u": "ee495816(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "OID_PAN_CONNECT",
+"u": "ee495374(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "OID_PAN_DISCONNECT",
+"u": "ee495361(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "OID_PAN_ENCRYPT",
+"u": "ee495796(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_RADIO_MODE",
+"u": "ee495609(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "NODECONTAINERTYPE",
+"u": "ee495915(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SDP_SPECIFICTYPE",
+"u": "ee495421(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SDP_TYPE",
+"u": "ee495668(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "accept (Bluetooth)",
+"u": "ee495575(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "bind (Bluetooth)",
+"u": "ee495399(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BthGetMode",
+"u": "ee495631(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BthNotifyEvent",
+"u": "ee495355(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BthSetMode",
+"u": "ee495834(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "connect (Bluetooth)",
+"u": "ee495618(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "getpeername (Bluetooth)",
+"u": "ee495989(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "getsockname (Bluetooth)",
+"u": "ee495768(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "getsockopt (Bluetooth)",
+"u": "ee495384(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "RequestBluetoothNotifications",
+"u": "ee495612(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "setsockopt (Bluetooth)",
+"u": "ee495541(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "socket (Bluetooth)",
+"u": "ee495663(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "StopBluetoothNotifications",
+"u": "ee495572(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSALookupServiceBegin (Bluetooth)",
+"u": "ee495456(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSALookupServiceEnd (Bluetooth)",
+"u": "ee495370(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSALookupServiceNext (Bluetooth)",
+"u": "ee495807(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSASetService (Bluetooth)",
+"u": "ee495418(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "IOCTL_BLUETOOTH_GET_PEER_DEVICE",
+"u": "ee495566(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "IOCTL_BLUETOOTH_GET_RFCOMM_CHANNEL",
+"u": "ee495603(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::CreateFromStream",
+"u": "ee495824(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::GetAttribute",
+"u": "ee495949(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::GetAttributeAsStream",
+"u": "ee495413(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::GetAttributeList",
+"u": "ee495647(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::GetServiceClass",
+"u": "ee495651(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::SetAttribute",
+"u": "ee495841(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::SetAttributeFromStream",
+"u": "ee495461(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::Walk",
+"u": "ee495842(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::WriteToStream",
+"u": "ee495835(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::AppendNode",
+"u": "ee495868(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::CreateFromStream",
+"u": "ee495919(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::CreateStream",
+"u": "ee495414(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetNode",
+"u": "ee495820(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetNodeCount",
+"u": "ee495642(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetNodeStringData",
+"u": "ee495416(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetStreamSize",
+"u": "ee495440(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetType",
+"u": "ee495454(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::LockContainer",
+"u": "ee495782(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::SetNode",
+"u": "ee495812(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::SetType",
+"u": "ee495614(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::Walk",
+"u": "ee495388(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::WriteStream",
+"u": "ee495601(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::ByteSwap*",
+"u": "ee495815(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::NormalizeUuid",
+"u": "ee495678(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::Retrieve*",
+"u": "ee495429(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::RetrieveElementInfo",
+"u": "ee495420(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::RetrieveRecords",
+"u": "ee496031(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::Validate",
+"u": "ee495367(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::VerifySequenceOf",
+"u": "ee495431(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::Walk",
+"u": "ee495785(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpWalk::WalkNode",
+"u": "ee495928(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpWalk::WalkStream",
+"u": "ee495390(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BASEBAND_CONNECTION",
+"u": "ee496007(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BT_AVDTP_STATE_CHANGE",
+"u": "ee495660(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BT_CONNECT_EVENT",
+"u": "ee495996(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BT_DISCONNECT_EVENT",
+"u": "ee495839(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BT_LINK_KEY_EVENT",
+"u": "ee495780(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BT_MODE_CHANGE_EVENT",
+"u": "ee495911(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BT_ROLE_SWITCH_EVENT",
+"u": "ee495610(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTEVENT",
+"u": "ee496010(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_HOLD_MODE",
+"u": "ee496046(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_LOCAL_VERSION",
+"u": "ee495654(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_PARK_MODE",
+"u": "ee495772(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_REMOTE_NAME",
+"u": "ee495616(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_REMOTE_VERSION",
+"u": "ee495623(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BT_SERVICE_REQUEST",
+"u": "ee495863(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_SNIFF_MODE",
+"u": "ee496016(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_SOCKOPT_SECURITY",
+"u": "ee495825(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BthInquiryResult",
+"u": "ee495662(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTHNS_INQUIRYBLOB",
+"u": "ee495448(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTHNS_RESTRICTIONBLOB",
+"u": "ee495874(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTHNS_SETBLOB",
+"u": "ee495365(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "NodeData",
+"u": "ee495806(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "NodeDataUnion",
+"u": "ee495652(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "PORTEMUPortParams",
+"u": "ee495940(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SdpAttributeRange",
+"u": "ee495401(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SdpQueryUuid",
+"u": "ee495975(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SdpQueryUuidUnion",
+"u": "ee495673(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SOCKADDR_BTH",
+"u": "ee495412(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSAQUERYSET (Bluetooth)",
+"u": "ee495613(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCIEventContext",
+"u": "ee496029(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_CloseDeviceContext",
+"u": "ee495800(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_DataPacketDown_In",
+"u": "ee495671(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_DataPacketDown_Out",
+"u": "ee495784(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_DataPacketUp",
+"u": "ee496038(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_DataPacketUpAclUnbuffered",
+"u": "ee495586(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_EstablishDeviceContext",
+"u": "ee495386(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_BASEBAND_CONNECTIONS",
+"u": "ee495419(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_BASEBAND_HANDLES",
+"u": "ee495594(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_BD_FOR_HANDLE",
+"u": "ee495983(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_COMMANDSIZE",
+"u": "ee495926(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_ERRORS",
+"u": "ee495362(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_FLOW",
+"u": "ee495376(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_HANDLE_FOR_BD",
+"u": "ee495539(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_HANDLE_MODE",
+"u": "ee496044(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_HARDWARE_STATUS",
+"u": "ee495619(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_INQUIRY",
+"u": "ee495867(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_LAST_INQUIRY_DATA",
+"u": "ee495627(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_LOOPBACK",
+"u": "ee495770(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_NUM_ONDEVICE",
+"u": "ee495433(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_NUM_PENDING",
+"u": "ee495878(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_NUM_UNSENT",
+"u": "ee495447(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_PERIODIC_INQUIRY",
+"u": "ee495636(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_REMOTE_COD",
+"u": "ee495415(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_SCO_PARAMETERS",
+"u": "ee495425(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_UNDER_TEST",
+"u": "ee495400(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_HANDLE_AUTHENTICATED",
+"u": "ee496008(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_HANDLE_ENCRYPTED",
+"u": "ee495958(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_STACK_IOCTL_GET_CONNECTED",
+"u": "ee495858(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BD_ADDR",
+"u": "ee495641(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BD_BUFFER",
+"u": "ee495852(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "ControllerEvent",
+"u": "ee495464(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_Buffer_Size",
+"u": "ee495382(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "InquiryResultBuffer",
+"u": "ee495900(v=winembedded.60)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "PacketMarker",
+"u": "ee495795(v=winembedded.60)"
+}
+]

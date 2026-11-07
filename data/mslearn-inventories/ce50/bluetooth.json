@@ -1,0 +1,1166 @@
+[
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BTHHID_IOCTL_HIDConnect",
+"u": "ms887860(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BTHHID_IOCTL_HIDDisconnect",
+"u": "ms887861(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_CLOSE_AUDIO",
+"u": "ms891134(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_CLOSE_CONTROL",
+"u": "ms891136(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_GET_MIC_VOL",
+"u": "ms891138(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_GET_SPEAKER_VOL",
+"u": "ms891142(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_OPEN_AUDIO",
+"u": "ms891145(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_OPEN_CONTROL",
+"u": "ms891147(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_SET_MIC_VOL",
+"u": "ms891150(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "IOCTL_AG_SET_SPEAKER_VOL",
+"u": "ms891153(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAcceptSCOConnections",
+"u": "aa450303(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGATHandler",
+"u": "aa450304(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGATSetCallback",
+"u": "aa450305(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGPhoneExtDeinit",
+"u": "aa450306(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGGetLastDialed",
+"u": "aa450307(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGGetNameByPhoneNumber",
+"u": "aa450308(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGGetSpeedDial",
+"u": "aa450309(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGPhoneExtInit",
+"u": "aa450311(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkAnswerCall",
+"u": "aa450312(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkDeinit",
+"u": "aa450313(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkDialNumber",
+"u": "aa450314(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkDropCall",
+"u": "aa450316(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkGetCallState",
+"u": "aa450315(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkHoldCall",
+"u": "aa450317(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkInit",
+"u": "aa450318(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkRejectCall",
+"u": "aa450319(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkSwapCall",
+"u": "aa450320(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkTransmitDTMF",
+"u": "aa450321(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGNetworkUnholdCall",
+"u": "aa450322(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGOnNetworkEvent",
+"u": "aa450323(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGOverrideCallIn",
+"u": "aa450324(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGOverrideCallOut",
+"u": "ms887483(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGPhoneExtEvent",
+"u": "ms880975(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAGSetServiceCallback",
+"u": "aa450310(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAuthenticate",
+"u": "ms887570(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthAnswerPairRequest",
+"u": "ms887558(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthCancelInquiry",
+"u": "ms887578(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthClearInquiryFilter",
+"u": "ms887586(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthCloseConnection",
+"u": "ms887598(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthCreateACLConnection",
+"u": "ms887605(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthCreateSCOConnection",
+"u": "ms887612(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthEnterHoldMode",
+"u": "ms887712(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthEnterParkMode",
+"u": "ms887822(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthEnterSniffMode",
+"u": "ms887829(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthExitParkMode",
+"u": "ms887830(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthExitSniffMode",
+"u": "ms887831(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetAddress",
+"u": "ms887833(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetBasebandConnections",
+"u": "ms887834(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetBasebandHandles",
+"u": "ms887835(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetCurrentMode",
+"u": "ms887836(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetHardwareStatus",
+"u": "ms887837(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetLinkKey",
+"u": "ms887838(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetPINRequest",
+"u": "ms887839(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthGetRemoteCOD",
+"u": "ms887840(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthNsLookupServiceBegin",
+"u": "ms887865(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthNsLookupServiceEnd",
+"u": "ms887866(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthNsLookupServiceNext",
+"u": "ms887867(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthNsSetService",
+"u": "ms887870(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthPairRequest",
+"u": "ms887871(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthPerformInquiry",
+"u": "ms887872(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadAuthenticationEnable",
+"u": "ms887873(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadCOD",
+"u": "ms887874(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadLocalAddr",
+"u": "ms887876(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadLocalVersion",
+"u": "ms887877(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadPageTimeout",
+"u": "ms887878(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadRemoteVersion",
+"u": "ms887879(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadScanEnableMask",
+"u": "ms887880(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthRefusePINRequest",
+"u": "ms887881(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthRemoteNameQuery",
+"u": "ms887883(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthRevokeLinkKey",
+"u": "ms887885(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthRevokePIN",
+"u": "ms887886(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetEncryption",
+"u": "ms887887(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetInquiryFilter",
+"u": "ms887889(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetLinkKey",
+"u": "ms887890(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetPIN",
+"u": "ms887891(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthSetSecurityUI",
+"u": "ms887892(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthTerminateIdleConnections",
+"u": "ms887895(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWriteAuthenticationEnable",
+"u": "ms887896(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWriteCOD",
+"u": "ms887897(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthReadLinkPolicySettings",
+"u": "ms887875(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWriteLinkPolicySettings",
+"u": "ms887898(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWritePageTimeout",
+"u": "ms887899(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BthWriteScanEnableMask",
+"u": "ms887900(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "WODM_BT_SCO_AUDIO_CONTROL",
+"u": "ms887549(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "BASEBAND_CONNECTION_DATA",
+"u": "aa450297(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "NetworkCallFailedInfo",
+"u": "ms895682(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "OID_PAN_AUTHENTICATE",
+"u": "ms895809(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "OID_PAN_CONNECT",
+"u": "ms895812(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "OID_PAN_DISCONNECT",
+"u": "ms895819(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth OS Reference",
+"t": "OID_PAN_ENCRYPT",
+"u": "ms895824(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "NODECONTAINERTYPE",
+"u": "ms895690(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SDP_SPECIFICTYPE",
+"u": "aa450879(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SDP_TYPE",
+"u": "aa450880(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "accept (Bluetooth)",
+"u": "aa450276(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "bind (Bluetooth)",
+"u": "aa450300(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "connect (Bluetooth)",
+"u": "ms887909(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "getpeername (Bluetooth)",
+"u": "aa450419(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "getsockname (Bluetooth)",
+"u": "ms890233(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "getsockopt (Bluetooth)",
+"u": "ms890301(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "setsockopt (Bluetooth)",
+"u": "aa450933(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "socket (Bluetooth)",
+"u": "aa450956(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSALookupServiceBegin (Bluetooth)",
+"u": "ms898747(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSALookupServiceEnd (Bluetooth)",
+"u": "ms898749(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSALookupServiceNext (Bluetooth)",
+"u": "ms898751(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSASetService (Bluetooth)",
+"u": "ms898771(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "IOCTL_BLUETOOTH_GET_PEER_DEVICE",
+"u": "ms891157(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "IOCTL_BLUETOOTH_GET_RFCOMM_CHANNEL",
+"u": "ms891159(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::AppendNode",
+"u": "aa450534(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::CreateFromStream",
+"u": "aa450536(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::CreateStream",
+"u": "aa450539(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetNode",
+"u": "aa450540(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetNodeCount",
+"u": "aa450543(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetNodeStringData",
+"u": "aa450545(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetStreamSize",
+"u": "aa450547(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::GetType",
+"u": "aa450549(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::LockContainer",
+"u": "aa450553(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::SetNode",
+"u": "aa450556(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::SetType",
+"u": "aa450557(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::Walk",
+"u": "aa450560(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpNodeContainer::WriteStream",
+"u": "aa450562(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::CreateFromStream",
+"u": "aa450579(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::GetAttribute",
+"u": "aa450582(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::GetAttributeAsStream",
+"u": "aa450583(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::GetAttributeList",
+"u": "aa450586(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::GetServiceClass",
+"u": "aa450588(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::SetAttribute",
+"u": "aa450591(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::SetAttributeFromStream",
+"u": "aa450593(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::Walk",
+"u": "aa450595(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpRecord::WriteToStream",
+"u": "aa450597(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::ByteSwap*",
+"u": "aa450599(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::NormalizeUuid",
+"u": "aa450603(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::Retrieve*",
+"u": "aa450605(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::RetrieveElementInfo",
+"u": "aa450607(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::RetrieveRecords",
+"u": "aa450609(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::Validate",
+"u": "aa450611(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::VerifySequenceOf",
+"u": "aa450613(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpStream::Walk",
+"u": "aa450615(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpWalk::WalkNode",
+"u": "aa450619(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "ISdpWalk::WalkStream",
+"u": "aa450622(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_HOLD_MODE",
+"u": "ms887904(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_PARK_MODE",
+"u": "ms887905(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_SNIFF_MODE",
+"u": "ms887906(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BASEBAND_CONNECTION",
+"u": "aa450296(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_LOCAL_VERSION",
+"u": "ms887863(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_REMOTE_NAME",
+"u": "ms887882(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_REMOTE_VERSION",
+"u": "ms887884(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTH_SOCKOPT_SECURITY",
+"u": "ms887893(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BthInquiryResult",
+"u": "ms887862(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTHNS_INQUIRYBLOB",
+"u": "ms887864(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTHNS_RESTRICTIONBLOB",
+"u": "ms887868(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "BTHNS_SETBLOB",
+"u": "ms887869(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "NodeData",
+"u": "ms895699(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "NodeDataUnion",
+"u": "ms895706(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SdpAttributeRange",
+"u": "aa450876(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SdpQueryUuid",
+"u": "aa450877(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SdpQueryUuidUnion",
+"u": "aa450878(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "SOCKADDR_BTH",
+"u": "aa450944(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "WSAQUERYSET (Bluetooth)",
+"u": "ms898761(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Application Development Reference",
+"t": "PORTEMUPortParams",
+"u": "ms896282(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCIEventContext",
+"u": "ms890318(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_CloseDeviceContext",
+"u": "ms890316(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_DataPacketDown_In",
+"u": "ms881896(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_DataPacketDown_Out",
+"u": "ms881897(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_DataPacketUp",
+"u": "ms881898(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_DataPacketUpAclUnbuffered",
+"u": "ms881899(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_EstablishDeviceContext",
+"u": "ms890317(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_BASEBAND_HANDLES",
+"u": "ms887842(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_BD_FOR_HANDLE",
+"u": "ms887843(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_COMMANDSIZE",
+"u": "ms887844(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_ERRORS",
+"u": "ms887845(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_FLOW",
+"u": "ms887846(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_HANDLE_FOR_BD",
+"u": "ms887847(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_HANDLE_MODE",
+"u": "ms887848(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_HARDWARE_STATUS",
+"u": "ms887849(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_INQUIRY",
+"u": "ms887850(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_LAST_INQUIRY_DATA",
+"u": "ms887851(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_LOOPBACK",
+"u": "ms887852(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_NUM_ONDEVICE",
+"u": "ms887853(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_NUM_PENDING",
+"u": "ms887854(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_NUM_UNSENT",
+"u": "ms887855(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_PERIODIC_INQUIRY",
+"u": "ms887856(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_UNDER_TEST",
+"u": "ms887857(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_HANDLE_AUTHENTICATED",
+"u": "ms887858(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_HANDLE_ENCRYPTED",
+"u": "ms887859(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_BASEBAND_CONNECTIONS",
+"u": "ms887901(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_REMOTE_COD",
+"u": "ms887902(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_HCI_IOCTL_GET_SCO_PARAMETERS",
+"u": "ms887903(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BTH_STACK_IOCTL_GET_CONNECTED",
+"u": "ms887894(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BD_ADDR",
+"u": "aa450298(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "BD_BUFFER",
+"u": "aa450299(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "ControllerEvent",
+"u": "ms887915(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "HCI_Buffer_Size",
+"u": "ms890315(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "InquiryResultBuffer",
+"u": "ms890987(v=msdn.10)"
+},
+{
+"area": "bluetooth",
+"sub": "Bluetooth Stack Extension Layer Reference",
+"t": "PacketMarker",
+"u": "ms895828(v=msdn.10)"
+}
+]

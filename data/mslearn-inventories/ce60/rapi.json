@@ -1,0 +1,1244 @@
+[
+{
+"area": "rapi",
+"sub": "RAPI Enumerations",
+"t": "RAPISTREAMFLAG",
+"u": "ee496387(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeCheckPassword (RAPI)",
+"u": "ee496632(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeCloseHandle (RAPI)",
+"u": "ee496436(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeCopyFile (RAPI)",
+"u": "ee496602(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeCreateDatabase (RAPI)",
+"u": "ee496971(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeCreateDatabaseEx (RAPI)",
+"u": "ee496765(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeCreateDirectory (RAPI)",
+"u": "ee497470(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeCreateFile (RAPI)",
+"u": "ee496605(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeCreateProcess (RAPI)",
+"u": "ee496255(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeDeleteDatabase (RAPI)",
+"u": "ee496404(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeDeleteDatabaseEx (RAPI)",
+"u": "ee497193(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeDeleteFile (RAPI)",
+"u": "ee496815(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeDeleteRecord (RAPI)",
+"u": "ee497248(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeEnumDBVolumes (RAPI)",
+"u": "ee496258(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFindAllDatabases (RAPI)",
+"u": "ee497487(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFindAllFiles (RAPI)",
+"u": "ee497577(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFindClose (RAPI)",
+"u": "ee496194(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFindFirstDatabase (RAPI)",
+"u": "ee497579(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFindFirstDatabaseEx (RAPI)",
+"u": "ee497477(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFindFirstFile (RAPI)",
+"u": "ee497576(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFindNextDatabase (RAPI)",
+"u": "ee497498(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFindNextDatabaseEx (RAPI)",
+"u": "ee496431(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFindNextFile (RAPI)",
+"u": "ee497313(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeFlushDBVol (RAPI)",
+"u": "ee497196(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetClassName (RAPI)",
+"u": "ee496373(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetDesktopDeviceCaps (RAPI)",
+"u": "ee497528(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetDiskFreeSpaceEx (RAPI)",
+"u": "ee496420(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetFileAttributes (RAPI)",
+"u": "ee497216(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetFileSize (RAPI)",
+"u": "ee496424(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetFileTime (RAPI)",
+"u": "ee497530(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetLastError (RAPI)",
+"u": "ee496760(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetSpecialFolderPath (RAPI)",
+"u": "ee496786(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetStoreInformation (RAPI)",
+"u": "ee497593(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetSystemInfo (RAPI)",
+"u": "ee497556(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetSystemMetrics (RAPI)",
+"u": "ee496385(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetSystemPowerStatusEx (RAPI)",
+"u": "ee496824(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetTempPath (RAPI)",
+"u": "ee497052(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetVersionEx (RAPI)",
+"u": "ee497494(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetWindow (RAPI)",
+"u": "ee496227(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetWindowLong (RAPI)",
+"u": "ee496775(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGetWindowText (RAPI)",
+"u": "ee496160(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeGlobalMemoryStatus (RAPI)",
+"u": "ee496627(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeMountDBVol (RAPI)",
+"u": "ee496636(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeMoveFile (RAPI)",
+"u": "ee497524(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeOidGetInfo (RAPI)",
+"u": "ee496257(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeOidGetInfoEx (RAPI)",
+"u": "ee496593(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeOpenDatabase (RAPI)",
+"u": "ee496413(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeOpenDatabaseEx (RAPI)",
+"u": "ee496600(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeQueryInstructionSet (RAPI)",
+"u": "ee496238(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRapiFreeBuffer (RAPI)",
+"u": "ee496986(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRapiGetError (RAPI)",
+"u": "ee497566(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRapiInit (RAPI)",
+"u": "ee496569(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRapiInitEx (RAPI)",
+"u": "ee496193(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRapiInvoke (RAPI)",
+"u": "ee496788(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRapiUninit (RAPI)",
+"u": "ee496378(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeReadFile (RAPI)",
+"u": "ee497567(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeReadRecordProps (RAPI)",
+"u": "ee497493(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeReadRecordPropsEx (RAPI)",
+"u": "ee496638(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegCloseKey (RAPI)",
+"u": "ee497318(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegCreateKeyEx (RAPI)",
+"u": "ee496450(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegDeleteKey (RAPI)",
+"u": "ee497306(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegDeleteValue (RAPI)",
+"u": "ee496223(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegEnumKeyEx (RAPI)",
+"u": "ee497283(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegEnumValue (RAPI)",
+"u": "ee496771(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegOpenKeyEx (RAPI)",
+"u": "ee496804(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegQueryInfoKey (RAPI)",
+"u": "ee496652(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegQueryValueEx (RAPI)",
+"u": "ee496398(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRegSetValueEx (RAPI)",
+"u": "ee496625(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeRemoveDirectory (RAPI)",
+"u": "ee496604(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSeekDatabase (RAPI)",
+"u": "ee496430(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSetDatabaseInfo (RAPI)",
+"u": "ee497256(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSetDatabaseInfoEx (RAPI)",
+"u": "ee497548(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSetEndOfFile (RAPI)",
+"u": "ee496656(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSetFileAttributes (RAPI)",
+"u": "ee496984(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSetFilePointer (RAPI)",
+"u": "ee497032(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSetFileTime (RAPI)",
+"u": "ee497157(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSHCreateShortcut (RAPI)",
+"u": "ee496828(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSHGetShortcutTarget (RAPI)",
+"u": "ee496841(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSyncStart",
+"u": "ee497258(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeSyncStop",
+"u": "ee496864(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeUnmountDBVol (RAPI)",
+"u": "ee497578(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeWriteFile (RAPI)",
+"u": "ee497515(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "CeWriteRecordProps (RAPI)",
+"u": "ee497015(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Functions",
+"t": "RAPIEXT",
+"u": "ee496608(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Interfaces",
+"t": "IDccManSink2::OnLogIpAddrEx",
+"u": "ee496210(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Interfaces",
+"t": "IRAPIStream::GetRapiStat",
+"u": "ee497212(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Interfaces",
+"t": "IRAPIStream::SetRapiStat",
+"u": "ee496565(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CE_FIND_DATA",
+"u": "ee497239(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CEBLOB",
+"u": "ee497489(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CEDB_FIND_DATA",
+"u": "ee496610(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CEDBASEINFO",
+"u": "ee496225(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CEDIRINFO (RAPI)",
+"u": "ee496587(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CEFILEINFO (RAPI)",
+"u": "ee496411(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CEGUID",
+"u": "ee496215(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CENOTIFICATION",
+"u": "ee496209(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CENOTIFYREQUEST",
+"u": "ee496235(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CEOIDINFO",
+"u": "ee496609(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CEOSVERSIONINFO",
+"u": "ee497088(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CEPROPVAL",
+"u": "ee497561(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "CERECORDINFO",
+"u": "ee497520(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "RAPIINIT",
+"u": "ee496393(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "SORTORDERSPEC",
+"u": "ee496369(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "STORE_INFORMATION (RAPI)",
+"u": "ee496179(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Structures",
+"t": "SYSTEM_POWER_STATUS_EX (RAPI)",
+"u": "ee496972(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI Unions",
+"t": "CEVALUNION",
+"u": "ee496597(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Enumerations",
+"t": "RAPI_CONNECTIONTYPE",
+"u": "ee497483(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Enumerations",
+"t": "RAPI_DEVICESTATUS",
+"u": "ee496793(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Enumerations",
+"t": "RAPI_GETDEVICEOPCODE",
+"u": "ee497485(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIDesktop::Advise",
+"u": "ee497241(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIDesktop::EnumDevices",
+"u": "ee496960(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIDesktop::FindDevice",
+"u": "ee496612(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIDesktop::UnAdvise",
+"u": "ee496566(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIDevice::CreateSession",
+"u": "ee497539(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIDevice::GetConnectionInfo",
+"u": "ee496631(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIDevice::GetConnectStat",
+"u": "ee497028(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIDevice::GetDeviceInfo",
+"u": "ee496189(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIEnumDevices::Clone",
+"u": "ee496976(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIEnumDevices::GetCount",
+"u": "ee496180(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIEnumDevices::Next",
+"u": "ee496637(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIEnumDevices::Reset",
+"u": "ee497166(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPIEnumDevices::Skip",
+"u": "ee496827(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeCheckPassword",
+"u": "ee497009(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeCloseHandle",
+"u": "ee497545(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeCopyFile",
+"u": "ee497243(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeCreateDatabase",
+"u": "ee496580(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeCreateDatabaseEx",
+"u": "ee497544(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeCreateDirectory",
+"u": "ee497575(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeCreateFile",
+"u": "ee496774(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeCreateProcess",
+"u": "ee497078(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeDeleteDatabase",
+"u": "ee497584(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeDeleteDatabaseEx",
+"u": "ee497569(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeDeleteFile",
+"u": "ee496368(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeDeleteRecord",
+"u": "ee496260(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeEnumDBVolumes",
+"u": "ee497507(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFindAllDatabases",
+"u": "ee496155(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFindAllFiles",
+"u": "ee497290(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFindClose",
+"u": "ee496954(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFindFirstDatabase",
+"u": "ee497405(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFindFirstDatabaseEx",
+"u": "ee496585(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFindFirstFile",
+"u": "ee497275(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFindNextDatabase",
+"u": "ee496982(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFindNextDatabaseEx",
+"u": "ee497161(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFindNextFile",
+"u": "ee496428(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeFlushDBVol",
+"u": "ee497591(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetClassName",
+"u": "ee497552(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetDesktopDeviceCaps",
+"u": "ee496969(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetDiskFreeSpaceEx",
+"u": "ee496409(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetFileAttributes",
+"u": "ee497072(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetFileSize",
+"u": "ee497532(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetFileTime",
+"u": "ee496821(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetLastError",
+"u": "ee497574(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetSpecialFolderPath",
+"u": "ee496443(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetStoreInformation",
+"u": "ee496220(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetSystemInfo",
+"u": "ee496822(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetSystemMetrics",
+"u": "ee496371(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetSystemPowerStatusEx",
+"u": "ee496679(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetTempPath",
+"u": "ee497165(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetVersionEx",
+"u": "ee496958(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetWindow",
+"u": "ee497223(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetWindowLong",
+"u": "ee497398(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGetWindowText",
+"u": "ee496790(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeGlobalMemoryStatus",
+"u": "ee496161(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeMountDBVol",
+"u": "ee496766(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeMoveFile",
+"u": "ee496457(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeOidGetInfo",
+"u": "ee497326(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeOidGetInfoEx",
+"u": "ee497281(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeOpenDatabase",
+"u": "ee497152(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeOpenDatabaseEx",
+"u": "ee496626(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeQueryInstructionSet",
+"u": "ee497401(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRapiFreeBuffer",
+"u": "ee496624(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRapiGetError",
+"u": "ee497155(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRapiInit",
+"u": "ee496394(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRapiInvoke",
+"u": "ee497322(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRapiUninit",
+"u": "ee497309(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeReadFile",
+"u": "ee496814(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeReadRecordProps",
+"u": "ee497559(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeReadRecordPropsEx",
+"u": "ee496396(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegCloseKey",
+"u": "ee496755(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegCreateKeyEx",
+"u": "ee497174(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegDeleteKey",
+"u": "ee497067(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegDeleteValue",
+"u": "ee496975(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegEnumKeyEx",
+"u": "ee496208(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegEnumValue",
+"u": "ee497440(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegOpenKeyEx",
+"u": "ee496579(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegQueryInfoKey",
+"u": "ee497010(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegQueryValueEx",
+"u": "ee496758(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRegSetValueEx",
+"u": "ee496363(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeRemoveDirectory",
+"u": "ee496206(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSeekDatabase",
+"u": "ee496364(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSetDatabaseInfo",
+"u": "ee496576(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSetDatabaseInfoEx",
+"u": "ee496438(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSetEndOfFile",
+"u": "ee496167(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSetFileAttributes",
+"u": "ee496594(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSetFilePointer",
+"u": "ee497013(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSetFileTime",
+"u": "ee497045(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSHCreateShortcut",
+"u": "ee496997(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSHGetShortcutTarget",
+"u": "ee496173(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSyncStart",
+"u": "ee496196(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeSyncStop",
+"u": "ee496440(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeUnmountDBVol",
+"u": "ee497587(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeWriteFile",
+"u": "ee497269(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISession::CeWriteRecordProps",
+"u": "ee496847(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISink::OnDeviceConnected",
+"u": "ee496863(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Interfaces",
+"t": "IRAPISink::OnDeviceDisconnected",
+"u": "ee497019(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Structures",
+"t": "RAPI_CONNECTIONINFO",
+"u": "ee496978(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Structures",
+"t": "RAPI_DEVICEINFO",
+"u": "ee496614(v=winembedded.60)"
+},
+{
+"area": "rapi",
+"sub": "RAPI2 Data Types",
+"t": "RAPIDEVICEID",
+"u": "ee496442(v=winembedded.60)"
+}
+]

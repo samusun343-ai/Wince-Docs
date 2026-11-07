@@ -21,5 +21,94 @@
    "Winsock Functions": 60,
    "Winsock Structures": 5
   }
+ },
+ "security": {
+  "pages": 200,
+  "subareas": {
+   "Certificates Functions": 76,
+   "Cryptography Data Types": 4,
+   "Cryptography Functions": 35,
+   "Cryptography Structures": 54,
+   "Smart Card Functions": 27,
+   "Smart Card Structures": 3,
+   "(top)": 1
+  }
+ },
+ "urlmon": {
+  "pages": 144,
+  "subareas": {
+   "URL Moniker Services Enumerations": 9,
+   "URL Moniker Services Errors": 1,
+   "URL Moniker Services Functions": 32,
+   "URL Moniker Services Interfaces": 29,
+   "URL Moniker Services Structures": 2,
+   "Asynchronous Pluggable Protocols Enumerations": 3,
+   "Asynchronous Pluggable Protocols Functions": 3,
+   "Asynchronous Pluggable Protocols Interfaces": 28,
+   "Asynchronous Pluggable Protocols Structures": 2,
+   "URL Security Zones Constants": 2,
+   "URL Security Zones Enumerations": 7,
+   "URL Security Zones Functions": 1,
+   "URL Security Zones Interfaces": 22,
+   "URL Security Zones Objects": 2,
+   "URL Security Zones Structures": 1
+  }
+ },
+ "obex": {
+  "pages": 48,
+  "subareas": {
+   "OBEX Enumerations": 1,
+   "OBEX Interfaces": 44,
+   "OBEX Structures": 3
+  }
+ },
+ "tapi": {
+  "pages": 204,
+  "subareas": {
+   "TAPI Constants": 65,
+   "TAPI Functions": 91,
+   "TAPI Messages": 21,
+   "TAPI Structures": 27
+  }
+ },
+ "ras": {
+  "pages": 35,
+  "subareas": {
+   "RAS Enumerations": 2,
+   "RAS Functions": 21,
+   "RAS Messages": 1,
+   "RAS Structures": 11
+  }
+ },
+ "wnet": {
+  "pages": 16,
+  "subareas": {
+   "Windows Networking API/Redirector Functions": 11,
+   "Windows Networking API/Redirector Structures": 5
+  }
+ },
+ "bluetooth": {
+  "pages": 63,
+  "subareas": {
+   "Bluetooth Enumerations": 3,
+   "Bluetooth Functions": 12,
+   "Bluetooth Interfaces": 32,
+   "Bluetooth Structures": 16
+  }
+ },
+ "fonts": {
+  "pages": 27,
+  "subareas": {
+   "Fonts Functions": 21,
+   "Fonts Messages": 1,
+   "Fonts Structures": 5
+  }
+ },
+ "snmp": {
+  "pages": 42,
+  "subareas": {
+   "SNMP Functions": 36,
+   "SNMP Structures": 6
+  }
  }
 }

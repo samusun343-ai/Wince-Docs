@@ -1,0 +1,254 @@
+[
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionClose",
+"u": "ms896018(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionInit",
+"u": "ms896019(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionInitEx",
+"u": "ms896020(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionQuery",
+"u": "ms896021(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionQueryEx",
+"u": "ms896022(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionTrap",
+"u": "ms896023(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpSvcGetUptime",
+"u": "ms896024(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpSvcSetLogLevel",
+"u": "ms896025(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpSvcSetLogType",
+"u": "ms896026(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpTfxClose",
+"u": "ms896028(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpTfxOpen",
+"u": "ms896029(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpTfxQuery",
+"u": "ms896030(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilAsnAnyCpy",
+"u": "ms896031(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilAsnAnyFree",
+"u": "ms896032(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilDbgPrint",
+"u": "ms896033(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilIdsToA",
+"u": "ms896034(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilIdsToW",
+"u": "ms896035(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilMemAlloc",
+"u": "ms896036(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilMemFree",
+"u": "ms896037(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilMemReAlloc",
+"u": "ms896038(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOctetsCmp",
+"u": "ms896039(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOctetsCpy",
+"u": "ms896040(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOctetsFree",
+"u": "ms896041(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOctetsNCmp",
+"u": "ms896042(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidAppend",
+"u": "ms896043(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidCmp",
+"u": "ms896044(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidCpy",
+"u": "ms896045(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidFree",
+"u": "ms896046(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidNCmp",
+"u": "ms896047(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidToA",
+"u": "ms896048(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidToW",
+"u": "ms896049(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilPrintToStrAsnAny",
+"u": "ms896050(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilVarBindCpy",
+"u": "ms896051(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilVarBindFree",
+"u": "ms896052(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilVarBindListCpy",
+"u": "ms896053(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilVarBindListFree",
+"u": "ms896054(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "AsnAny",
+"u": "ms894988(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "AsnCounter64",
+"u": "ms894989(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "AsnObjectIdentifier",
+"u": "ms894991(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "AsnOctetString",
+"u": "ms894993(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "SnmpVarBind",
+"u": "ms896055(v=msdn.10)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "SnmpVarBindList",
+"u": "ms896056(v=msdn.10)"
+}
+]

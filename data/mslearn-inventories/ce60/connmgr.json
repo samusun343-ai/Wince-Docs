@@ -1,0 +1,188 @@
+[
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrApiReadyEvent",
+"u": "ee497295(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrConnectionStatus",
+"u": "ee497349(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrEnumDestinations",
+"u": "ee496934(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrEstablishConnection",
+"u": "ee497506(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrEstablishConnectionSync",
+"u": "ee498273(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrMapConRef",
+"u": "ee497804(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrMapURL",
+"u": "ee497810(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrProviderMessage",
+"u": "ee496830(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrQueryDetailedStatus",
+"u": "ee497106(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrRegisterForStatusChangeNotification",
+"u": "ee497299(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrRegisterScheduledConnection",
+"u": "ee498068(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrReleaseConnection",
+"u": "ee497660(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrSetConnectionPriority",
+"u": "ee497253(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Functions",
+"t": "ConnMgrUnregisterScheduledConnection",
+"u": "ee497602(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Structures",
+"t": "CONNMGR_CONNECTION_DETAILED_STATUS",
+"u": "ee498254(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Structures",
+"t": "CONNMGR_CONNECTION_IPADDR",
+"u": "ee496901(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Structures",
+"t": "CONNMGR_CONNECTIONINFO",
+"u": "ee498058(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Structures",
+"t": "CONNMGR_DESTINATION_INFO",
+"u": "ee496840(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Structures",
+"t": "PROXY_CONFIG",
+"u": "ee497871(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Structures",
+"t": "SCHEDULEDCONNECTIONINFO",
+"u": "ee496918(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Enumerations",
+"t": "ConnMgrConRefTypeEnum",
+"u": "ee498245(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Constants",
+"t": "Connection Manager Connection Options Constants",
+"u": "ee497126(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Constants",
+"t": "Connection Manager Connection Subtype Constants",
+"u": "ee497421(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Constants",
+"t": "Connection Manager Connection Type Constants",
+"u": "ee497523(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Constants",
+"t": "Connection Manager Control Flag Constants",
+"u": "ee497109(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Constants",
+"t": "Connection Manager Detailed Status Parameter Constants",
+"u": "ee497501(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Constants",
+"t": "Connection Manager Parameter Constants",
+"u": "ee497226(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Constants",
+"t": "Connection Manager Priority Constants",
+"u": "ee497391(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Constants",
+"t": "Connection Manager Proxy Flag Constants",
+"u": "ee497168(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "Connection Manager Constants",
+"t": "Connection Manager Status Constants",
+"u": "ee497215(v=winembedded.60)"
+},
+{
+"area": "connmgr",
+"sub": "(top)",
+"t": "Connection Manager Messages",
+"u": "ee497659(v=winembedded.60)"
+}
+]

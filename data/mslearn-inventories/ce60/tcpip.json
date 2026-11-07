@@ -1,0 +1,770 @@
+[
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "AddIPAddress",
+"u": "ee494059(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "CreateIpForwardEntry",
+"u": "ee495149(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "CreateIpNetEntry",
+"u": "ee494507(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "CreateProxyArpEntry",
+"u": "ee495049(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "DeleteIPAddress",
+"u": "ee494912(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "DeleteIpForwardEntry",
+"u": "ee494082(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "DeleteIpNetEntry",
+"u": "ee493029(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "DeleteProxyArpEntry",
+"u": "ee494913(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "FlushIpNetTable",
+"u": "ee493293(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetAdapterIndex",
+"u": "ee494496(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetAdaptersAddresses",
+"u": "ee493691(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetAdaptersInfo",
+"u": "ee494906(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetBestInterface",
+"u": "ee494939(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetBestInterfaceEx",
+"u": "ee494927(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetBestRoute",
+"u": "ee494119(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetFriendlyIfIndex",
+"u": "ee494694(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIcmpStatistics",
+"u": "ee494858(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIcmpStatisticsEx",
+"u": "ee493871(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIfEntry",
+"u": "ee493262(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIfTable",
+"u": "ee494305(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetInterfaceInfo",
+"u": "ee493639(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpAddrTable",
+"u": "ee493850(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpForwardTable",
+"u": "ee493868(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpNetTable",
+"u": "ee494695(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpStatistics",
+"u": "ee494847(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetIpStatisticsEx",
+"u": "ee494842(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetNetworkParams",
+"u": "ee494470(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetNumberOfInterfaces",
+"u": "ee494841(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetPerAdapterInfo",
+"u": "ee495165(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetRTTAndHopCount",
+"u": "ee493207(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetTcpStatistics",
+"u": "ee493828(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetTcpStatisticsEx",
+"u": "ee493860(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetTcpTable",
+"u": "ee493852(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetUdpStatistics",
+"u": "ee494233(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetUdpStatisticsEx",
+"u": "ee494652(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetUdpTable",
+"u": "ee493220(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "GetUniDirectionalAdapterInfo",
+"u": "ee493427(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IpReleaseAddress",
+"u": "ee494303(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IpRenewAddress",
+"u": "ee493830(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "NotifyAddrChange",
+"u": "ee494121(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "NotifyRouteChange",
+"u": "ee494079(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SendARP",
+"u": "ee493683(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIfEntry",
+"u": "ee494296(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIpForwardEntry",
+"u": "ee494909(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIpNetEntry",
+"u": "ee493663(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIpStatistics",
+"u": "ee494885(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetIpTTL",
+"u": "ee494316(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SetTcpEntry",
+"u": "ee494687(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IF_OPER_STATUS",
+"u": "ee494103(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_DAD_STATE",
+"u": "ee493296(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_PREFIX_ORIGIN",
+"u": "ee493857(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_SUFFIX_ORIGIN",
+"u": "ee494713(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "SCOPE_LEVEL",
+"u": "ee493468(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "FIXED_INFO",
+"u": "ee495077(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_ADDRESSES",
+"u": "ee493670(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_ANYCAST_ADDRESS",
+"u": "ee494260(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_INDEX_MAP",
+"u": "ee493627(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_INFO",
+"u": "ee495057(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_MULTICAST_ADDRESS",
+"u": "ee494078(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_PREFIX",
+"u": "ee495247(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADAPTER_UNICAST_ADDRESS",
+"u": "ee494101(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADDR_STRING",
+"u": "ee494680(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_ADDRESS_STRING",
+"u": "ee493829(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_INTERFACE_INFO",
+"u": "ee494671(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_PER_ADAPTER_INFO",
+"u": "ee494900(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "IP_UNIDIRECTIONAL_ADAPTER_ADDRESS",
+"u": "ee494663(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_BEST_IF",
+"u": "ee493435(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_ICMP",
+"u": "ee493717(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IFROW",
+"u": "ee493426(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IFTABLE",
+"u": "ee493482(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPADDRROW",
+"u": "ee493891(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPADDRTABLE",
+"u": "ee493235(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPFORWARDROW",
+"u": "ee493630(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPFORWARDTABLE",
+"u": "ee494537(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPNETROW",
+"u": "ee494237(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPNETTABLE",
+"u": "ee493487(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_IPSTATS",
+"u": "ee494462(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_PROXYARP",
+"u": "ee494275(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_TCPROW",
+"u": "ee494936(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_TCPSTATS",
+"u": "ee493099(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_TCPTABLE",
+"u": "ee494880(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_UDPROW",
+"u": "ee495087(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_UDPSTATS",
+"u": "ee494515(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIB_UDPTABLE",
+"u": "ee493512(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIBICMPINFO",
+"u": "ee493626(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "IP Helper Reference",
+"t": "MIBICMPSTATS",
+"u": "ee495064(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "ICMP_ECHO_REPLY",
+"u": "ee494534(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IP_OPTION_INFORMATION",
+"u": "ee493644(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "Icmp6ParseReplies",
+"u": "ee493459(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "Icmp6CreateFile",
+"u": "ee493277(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "Icmp6SendEcho2",
+"u": "ee494497(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpCloseHandle",
+"u": "ee493485(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpCreateFile",
+"u": "ee493517(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpParseReplies",
+"u": "ee493011(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpSendEcho",
+"u": "ee494520(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "ICMP Reference",
+"t": "IcmpSendEcho2",
+"u": "ee493861(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_AAAA_DATA",
+"u": "ee494324(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_A_DATA",
+"u": "ee493227(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_ATMA_DATA",
+"u": "ee494653(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_KEY_DATA",
+"u": "ee494312(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_LOC_DATA",
+"u": "ee493875(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_HEADER",
+"u": "ee493226(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_MESSAGE_BUFFER",
+"u": "ee493015(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_MINFO_DATA",
+"u": "ee493878(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_MX_DATA",
+"u": "ee494060(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_NULL_DATA",
+"u": "ee493473(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_NXT_DATA",
+"u": "ee493693(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_PTR_DATA",
+"u": "ee493215(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_RECORD",
+"u": "ee493229(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_RECORD_FLAGS",
+"u": "ee493622(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_RRSET",
+"u": "ee494245(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_SIG_DATA",
+"u": "ee494505(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_SOA_DATA",
+"u": "ee494117(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_SRV_DATA",
+"u": "ee494311(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_TKEY_DATA",
+"u": "ee493291(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_TSIG_DATA",
+"u": "ee493705(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_TXT_DATA",
+"u": "ee494855(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WINS_DATA",
+"u": "ee493719(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WINSR_DATA",
+"u": "ee493294(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WIRE_QUESTION",
+"u": "ee494519(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WIRE_RECORD",
+"u": "ee493039(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DNS_WKS_DATA",
+"u": "ee493245(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "IP4_ARRAY",
+"u": "ee494243(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "IP6_ADDRESS",
+"u": "ee494236(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DnsModifyRecordsInSet_W",
+"u": "ee493441(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DnsQuery_W",
+"u": "ee494031(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DnsRecordListFree",
+"u": "ee493040(v=winembedded.60)"
+},
+{
+"area": "tcpip",
+"sub": "DNS Reference",
+"t": "DnsReplaceRecordSetW",
+"u": "ee494708(v=winembedded.60)"
+}
+]

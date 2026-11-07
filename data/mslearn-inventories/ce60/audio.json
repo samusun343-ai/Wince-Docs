@@ -1,0 +1,596 @@
+[
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "PlaySound",
+"u": "ee487517(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "sndPlaySound",
+"u": "ee487375(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInAddBuffer",
+"u": "ee487419(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInClose",
+"u": "ee487332(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetDevCaps",
+"u": "ee487563(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetErrorText",
+"u": "ee487366(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetID",
+"u": "ee487427(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetNumDevs",
+"u": "ee487416(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetPosition",
+"u": "ee487370(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetProperty",
+"u": "ee487342(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInMessage",
+"u": "ee487539(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInOpen",
+"u": "ee487353(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInPrepareHeader",
+"u": "ee487389(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInProc",
+"u": "ee487337(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInReset",
+"u": "ee487358(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInSetProperty",
+"u": "ee487372(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInStart",
+"u": "ee487418(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInStop",
+"u": "ee487509(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInUnprepareHeader",
+"u": "ee487425(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutBreakLoop",
+"u": "ee487388(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutClose",
+"u": "ee487411(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetDevCaps",
+"u": "ee487537(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetErrorText",
+"u": "ee487430(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetID",
+"u": "ee487510(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetNumDevs",
+"u": "ee487334(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetPitch",
+"u": "ee487506(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetPlaybackRate",
+"u": "ee487400(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetPosition",
+"u": "ee487385(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetProperty",
+"u": "ee487572(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetVolume",
+"u": "ee487351(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutMessage",
+"u": "ee487355(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutOpen",
+"u": "ee487546(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutPause",
+"u": "ee487380(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutPrepareHeader",
+"u": "ee487526(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutProc",
+"u": "ee487520(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutReset",
+"u": "ee487570(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutRestart",
+"u": "ee487339(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutSetPitch",
+"u": "ee487410(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutSetPlaybackRate",
+"u": "ee487501(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutSetProperty",
+"u": "ee487341(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutSetVolume",
+"u": "ee487384(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutUnprepareHeader",
+"u": "ee487360(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutWrite",
+"u": "ee487550(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WIM_CLOSE",
+"u": "ee487403(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WIM_DATA",
+"u": "ee487357(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WIM_OPEN",
+"u": "ee487398(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_ATTENUATED",
+"u": "ee487522(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_CLOSE",
+"u": "ee487561(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_DONE",
+"u": "ee487397(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_OPEN",
+"u": "ee487374(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WIM_CLOSE",
+"u": "ee487359(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WIM_DATA",
+"u": "ee487343(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WIM_OPEN",
+"u": "ee487496(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WOM_CLOSE",
+"u": "ee487408(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WOM_DONE",
+"u": "ee487356(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WOM_OPEN",
+"u": "ee487386(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "DRVM_MAPPER_PREFERRED_GET",
+"u": "ee487336(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "DRVM_MAPPER_PREFERRED_SET",
+"u": "ee487335(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_SETSECONDARYGAINCLASS",
+"u": "ee487345(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_SETSECONDARYGAINLIMIT",
+"u": "ee487422(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_FORCESPEAKER",
+"u": "ee487347(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MIDI_MESSAGE_FREQGENOFF",
+"u": "ee487365(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MIDI_MESSAGE_FREQGENON",
+"u": "ee487545(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MIDI_MESSAGE_UPDATETEMPO",
+"u": "ee487518(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "AUDIOGAINCLASS",
+"u": "ee487350(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "STREAMPROPS",
+"u": "ee487543(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEFORMATEX (Waveform Audio)",
+"u": "ee487527(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEHDR",
+"u": "ee487530(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEINCAPS",
+"u": "ee487396(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEOUTCAPS",
+"u": "ee487573(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEFORMAT_MIDI",
+"u": "ee487515(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEFORMAT_MIDI_MESSAGE",
+"u": "ee487534(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Mixer Architecture",
+"u": "ee487364(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Control Types",
+"u": "ee487558(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Mixer Device Queries",
+"u": "ee487393(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Opening and Closing Mixer Devices",
+"u": "ee487568(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Window Callback Services",
+"u": "ee487402(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Audio Line and Control Queries",
+"u": "ee487560(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerClose",
+"u": "ee487381(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerGetControlDetails",
+"u": "ee487387(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerGetDevCaps",
+"u": "ee487426(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerGetID",
+"u": "ee487524(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerGetLineControls",
+"u": "ee487554(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerGetLineInfo",
+"u": "ee487406(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerGetNumDevs",
+"u": "ee487500(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerMessage",
+"u": "ee487340(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerOpen",
+"u": "ee487377(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "mixerSetControlDetails",
+"u": "ee487344(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MM_MIXM_CONTROL_CHANGE",
+"u": "ee487368(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MM_MIXM_LINE_CHANGE",
+"u": "ee487556(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MIXERCAPS",
+"u": "ee487363(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MIXERCONTROL",
+"u": "ee487533(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MIXERCONTROLDETAILS",
+"u": "ee487548(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MIXERCONTROLDETAILS_BOOLEAN",
+"u": "ee487421(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MIXERCONTROLDETAILS_LISTTEXT",
+"u": "ee487413(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MIXERCONTROLDETAILS_SIGNED",
+"u": "ee487367(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MIXERCONTROLDETAILS_UNSIGNED",
+"u": "ee487420(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MIXERLINE",
+"u": "ee487432(v=winembedded.60)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Reference",
+"t": "MIXERLINECONTROLS",
+"u": "ee487346(v=winembedded.60)"
+}
+]

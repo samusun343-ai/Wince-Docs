@@ -1,0 +1,104 @@
+[
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Constants",
+"t": "GPS_DATA_FLAGS_",
+"u": "ee485328(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Constants",
+"t": "GPS_MAX_",
+"u": "ee483540(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Constants",
+"t": "GPS_VALID_",
+"u": "ee485197(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Enumerations",
+"t": "GPS_FIX_QUALITY",
+"u": "ee485759(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Enumerations",
+"t": "GPS_FIX_SELECTION",
+"u": "ee487278(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Enumerations",
+"t": "GPS_FIX_TYPE",
+"u": "ee484122(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Functions",
+"t": "GPSOpenDevice",
+"u": "ee485975(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Functions",
+"t": "GPSCloseDevice",
+"u": "ee483557(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Functions",
+"t": "GPSGetPosition",
+"u": "ee483312(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Functions",
+"t": "GPSGetDeviceState",
+"u": "ee483702(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver IOCTLs",
+"t": "IOCTL_GPS_DRIVER_GET_LOCATION_V1",
+"u": "ee484331(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver IOCTLs",
+"t": "IOCTL_GPS_READ_ALMANAC",
+"u": "ee487181(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver IOCTLs",
+"t": "IOCTL_GPS_READ_ASSISTED",
+"u": "ee484589(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver IOCTLs",
+"t": "IOCTL_GPS_WRITE_ALMANAC",
+"u": "ee486565(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver IOCTLs",
+"t": "IOCTL_GPS_WRITE_ASSISTED",
+"u": "ee487312(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Structures",
+"t": "GPS_DEVICE",
+"u": "ee485319(v=winembedded.60)"
+},
+{
+"area": "gps",
+"sub": "GPS Intermediate Driver Structures",
+"t": "GPS_POSITION",
+"u": "ee484992(v=winembedded.60)"
+}
+]

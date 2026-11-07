@@ -1,0 +1,536 @@
+[
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "PlaySound",
+"u": "ms932262(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "sndPlaySound",
+"u": "ms932314(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInAddBuffer",
+"u": "aa452421(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInClose",
+"u": "aa452423(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetDevCaps",
+"u": "aa452424(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetErrorText",
+"u": "aa452425(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetID",
+"u": "aa452426(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetNumDevs",
+"u": "aa452427(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetPosition",
+"u": "aa452428(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInGetProperty",
+"u": "aa452429(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInMessage",
+"u": "aa452430(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInOpen",
+"u": "aa452431(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInPrepareHeader",
+"u": "aa452432(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInProc",
+"u": "aa452435(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInReset",
+"u": "aa452436(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInSetProperty",
+"u": "aa452437(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInStart",
+"u": "aa452438(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInStop",
+"u": "aa452439(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveInUnprepareHeader",
+"u": "aa452440(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutBreakLoop",
+"u": "aa452441(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutClose",
+"u": "aa452443(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetDevCaps",
+"u": "aa452445(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetErrorText",
+"u": "aa452446(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetID",
+"u": "aa452447(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetNumDevs",
+"u": "aa452448(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetPitch",
+"u": "aa452449(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetPlaybackRate",
+"u": "aa452450(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetPosition",
+"u": "aa452451(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetProperty",
+"u": "aa452452(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutGetVolume",
+"u": "aa452453(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutMessage",
+"u": "aa452454(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutOpen",
+"u": "aa452455(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutPause",
+"u": "aa452456(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutPrepareHeader",
+"u": "aa452457(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutProc",
+"u": "aa452458(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutReset",
+"u": "aa452459(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutRestart",
+"u": "aa452460(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutSetPitch",
+"u": "aa452461(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutSetPlaybackRate",
+"u": "aa452462(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutSetProperty",
+"u": "aa452463(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutSetVolume",
+"u": "aa452464(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutUnprepareHeader",
+"u": "aa452465(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Functions",
+"t": "waveOutWrite",
+"u": "aa452466(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WIM_CLOSE",
+"u": "ms932057(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WIM_DATA",
+"u": "ms932058(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WIM_OPEN",
+"u": "ms932059(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_ATTENUATED",
+"u": "ms932063(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_CLOSE",
+"u": "ms932060(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_DONE",
+"u": "ms932061(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "MM_WOM_OPEN",
+"u": "ms932062(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WIM_CLOSE",
+"u": "aa452468(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WIM_DATA",
+"u": "aa452469(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WIM_OPEN",
+"u": "aa452470(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WOM_CLOSE",
+"u": "aa452471(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WOM_DONE",
+"u": "aa452472(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Messages",
+"t": "WOM_OPEN",
+"u": "aa452473(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "AUDIOGAINCLASS",
+"u": "ms925607(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "STREAMPROPS",
+"u": "aa452383(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEFORMATEX (Waveform Audio)",
+"u": "aa452419(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEHDR",
+"u": "aa452420(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEINCAPS",
+"u": "aa452422(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Waveform Audio Structures",
+"t": "WAVEOUTCAPS",
+"u": "aa452442(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Mixer Architecture",
+"u": "ms924149(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Control Types",
+"u": "aa451257(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Mixer Device Queries",
+"u": "ms924150(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Opening and Closing Mixer Devices",
+"u": "ms924171(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Window Callback Services",
+"u": "ms925265(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "(top)",
+"t": "Audio Line and Control Queries",
+"u": "aa451189(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerClose",
+"u": "ms932037(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerGetControlDetails",
+"u": "ms932044(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerGetDevCaps",
+"u": "ms932045(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerGetID",
+"u": "ms932046(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerGetLineControls",
+"u": "ms932047(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerGetLineInfo",
+"u": "ms932048(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerGetNumDevs",
+"u": "ms932049(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerMessage",
+"u": "ms932052(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerOpen",
+"u": "ms932053(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Functions",
+"t": "mixerSetControlDetails",
+"u": "ms932054(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Messages",
+"t": "MM_MIXM_CONTROL_CHANGE",
+"u": "ms932055(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Messages",
+"t": "MM_MIXM_LINE_CHANGE",
+"u": "ms932056(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Structures",
+"t": "MIXERCAPS",
+"u": "ms932036(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Structures",
+"t": "MIXERCONTROL",
+"u": "ms932038(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Structures",
+"t": "MIXERCONTROLDETAILS",
+"u": "ms932039(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Structures",
+"t": "MIXERCONTROLDETAILS_BOOLEAN",
+"u": "ms932040(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Structures",
+"t": "MIXERCONTROLDETAILS_LISTTEXT",
+"u": "ms932041(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Structures",
+"t": "MIXERCONTROLDETAILS_SIGNED",
+"u": "ms932042(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Structures",
+"t": "MIXERCONTROLDETAILS_UNSIGNED",
+"u": "ms932043(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Structures",
+"t": "MIXERLINE",
+"u": "ms932050(v=msdn.10)"
+},
+{
+"area": "audio",
+"sub": "Hardware Audio Mixer Structures",
+"t": "MIXERLINECONTROLS",
+"u": "ms932051(v=msdn.10)"
+}
+]

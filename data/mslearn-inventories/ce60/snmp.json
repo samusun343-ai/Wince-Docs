@@ -1,0 +1,254 @@
+[
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionClose",
+"u": "ee489097(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionInit",
+"u": "ee489093(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionInitEx",
+"u": "ee489339(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionQuery",
+"u": "ee489304(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionQueryEx",
+"u": "ee489416(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpExtensionTrap",
+"u": "ee489068(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpSvcGetUptime",
+"u": "ee489404(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpSvcSetLogLevel",
+"u": "ee489296(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpSvcSetLogType",
+"u": "ee489352(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpTfxClose",
+"u": "ee489435(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpTfxOpen",
+"u": "ee489090(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpTfxQuery",
+"u": "ee489248(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilAsnAnyCpy",
+"u": "ee489357(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilAsnAnyFree",
+"u": "ee489319(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilDbgPrint",
+"u": "ee489448(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilIdsToA",
+"u": "ee489430(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilIdsToW",
+"u": "ee489054(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilMemAlloc",
+"u": "ee489293(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilMemFree",
+"u": "ee489331(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilMemReAlloc",
+"u": "ee489311(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOctetsCmp",
+"u": "ee489065(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOctetsCpy",
+"u": "ee489344(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOctetsFree",
+"u": "ee489114(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOctetsNCmp",
+"u": "ee489117(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidAppend",
+"u": "ee489466(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidCmp",
+"u": "ee489490(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidCpy",
+"u": "ee489088(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidFree",
+"u": "ee489113(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidNCmp",
+"u": "ee489247(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidToA",
+"u": "ee489120(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilOidToW",
+"u": "ee489330(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilPrintToStrAsnAny",
+"u": "ee489051(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilVarBindCpy",
+"u": "ee489317(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilVarBindFree",
+"u": "ee489384(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilVarBindListCpy",
+"u": "ee489128(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Functions",
+"t": "SnmpUtilVarBindListFree",
+"u": "ee489315(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "AsnAny",
+"u": "ee489287(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "AsnCounter64",
+"u": "ee489124(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "AsnObjectIdentifier",
+"u": "ee489297(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "AsnOctetString",
+"u": "ee489131(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "SnmpVarBind",
+"u": "ee489290(v=winembedded.60)"
+},
+{
+"area": "snmp",
+"sub": "SNMP Structures",
+"t": "SnmpVarBindList",
+"u": "ee489381(v=winembedded.60)"
+}
+]

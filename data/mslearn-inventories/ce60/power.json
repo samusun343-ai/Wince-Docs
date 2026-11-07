@@ -1,0 +1,176 @@
+[
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "DevicePowerNotify",
+"u": "ee497768(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "GetDevicePower",
+"u": "ee497765(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "GetSystemPowerState",
+"u": "ee497701(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformDeviceListInit",
+"u": "ee497754(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformManageSystemPower",
+"u": "ee497711(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformMapPowerStateHint",
+"u": "ee497703(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformResumeSystem",
+"u": "ee497716(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformSendInitialNotifications",
+"u": "ee497712(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformSetSystemPowerState",
+"u": "ee497739(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PlatformValidatePMRegistry",
+"u": "ee497738(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "PowerPolicyNotify",
+"u": "ee497744(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "RegisterPowerRelationship",
+"u": "ee497709(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "ReleasePowerRelationship",
+"u": "ee497743(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "ReleasePowerRequirement",
+"u": "ee497762(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "RequestPowerNotifications",
+"u": "ee497721(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "SetDevicePower",
+"u": "ee497782(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "SetPowerRequirement",
+"u": "ee497694(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "SetSystemPowerState",
+"u": "ee497735(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Functions",
+"t": "StopPowerNotifications",
+"u": "ee497727(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Structures",
+"t": "POWER_BROADCAST",
+"u": "ee497747(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Structures",
+"t": "POWER_CAPABILITIES",
+"u": "ee497783(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Structures",
+"t": "POWER_RELATIONSHIP",
+"u": "ee497725(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Structures",
+"t": "POWER_BROADCAST_POWER_INFO",
+"u": "ee497755(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management Enumerations",
+"t": "CEDEVICE_POWER_STATE",
+"u": "ee497766(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management I/O Controls",
+"t": "IOCTL_POWER_CAPABILITIES",
+"u": "ee497700(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management I/O Controls",
+"t": "IOCTL_POWER_GET",
+"u": "ee497723(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management I/O Controls",
+"t": "IOCTL_POWER_QUERY",
+"u": "ee497758(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management I/O Controls",
+"t": "IOCTL_POWER_SET",
+"u": "ee497737(v=winembedded.60)"
+},
+{
+"area": "power",
+"sub": "Power Management I/O Controls",
+"t": "IOCTL_REGISTER_POWER_RELATIONSHIP",
+"u": "ee497714(v=winembedded.60)"
+}
+]

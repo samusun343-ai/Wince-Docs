@@ -1,0 +1,32 @@
+[
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "EnumUILanguages",
+"u": "ee491750(v=winembedded.60)"
+},
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "EnumUILanguagesProc",
+"u": "ee491133(v=winembedded.60)"
+},
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "GetSystemDefaultUILanguage",
+"u": "ee491372(v=winembedded.60)"
+},
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "GetUserDefaultUILanguage",
+"u": "ee491641(v=winembedded.60)"
+},
+{
+"area": "mui",
+"sub": "Multilingual User Interface (MUI) Functions",
+"t": "SetUserDefaultUILanguage",
+"u": "ee491351(v=winembedded.60)"
+}
+]

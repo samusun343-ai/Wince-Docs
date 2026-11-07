@@ -1,0 +1,212 @@
+[
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasDevConfigDialogEdit",
+"u": "ee496850(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasDeleteEntry",
+"u": "ee497338(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasDial",
+"u": "ee496966(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasEnumConnections",
+"u": "ee496203(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasEnumDevices",
+"u": "ee497423(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasEnumEntries",
+"u": "ee496207(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetConnectStatus",
+"u": "ee497517(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetDispPhoneNum",
+"u": "ee497505(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetEapConnectionData",
+"u": "ee496643(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetEapUserData",
+"u": "ee496401(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetEntryDialParams",
+"u": "ee496835(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetEntryProperties",
+"u": "ee496231(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetLinkStatistics",
+"u": "ee496606(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetProjectionInfo",
+"u": "ee496239(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasHangUp",
+"u": "ee497206(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasRenameEntry",
+"u": "ee497260(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasSetEapConnectionData",
+"u": "ee496985(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasSetEapUserData",
+"u": "ee496200(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasSetEntryDialParams",
+"u": "ee496751(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasSetEntryProperties",
+"u": "ee497296(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasValidateEntryName",
+"u": "ee496752(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Messages",
+"t": "WM_RASDIALEVENT",
+"u": "ee497264(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "DIALER_NOTIFICATION",
+"u": "ee496233(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RAS_STATS",
+"u": "ee497301(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASCONN",
+"u": "ee497565(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASCONNSTATUS",
+"u": "ee497411(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASDEVINFO",
+"u": "ee497426(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASDIALPARAMS",
+"u": "ee496581(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASENTRY",
+"u": "ee496191(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASENTRYNAME",
+"u": "ee496429(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASIPADDR",
+"u": "ee497043(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASPPPIP",
+"u": "ee497546(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASPPPIPV6",
+"u": "ee496784(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Enumerations",
+"t": "RASCONNSTATE",
+"u": "ee496970(v=winembedded.60)"
+},
+{
+"area": "ras",
+"sub": "RAS Enumerations",
+"t": "RASPROJECTION",
+"u": "ee496410(v=winembedded.60)"
+}
+]

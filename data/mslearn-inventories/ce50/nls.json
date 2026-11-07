@@ -1,0 +1,254 @@
+[
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "CompareString",
+"u": "ms904713(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "ConvertDefaultLocale",
+"u": "ms904716(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumCalendarInfo",
+"u": "ms904721(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumCalendarInfoProc",
+"u": "ms904722(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumCodePagesProc",
+"u": "ms904723(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumDateFormats",
+"u": "ms904724(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumDateFormatsProc",
+"u": "ms904740(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumLocalesProc",
+"u": "ms904848(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumSystemCodePages",
+"u": "ms905062(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumSystemLocales",
+"u": "ms905070(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumTimeFormats",
+"u": "ms905077(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "EnumTimeFormatsProc",
+"u": "ms905083(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "FoldString",
+"u": "ms905209(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetACP",
+"u": "ms905215(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetCPInfo",
+"u": "ms905221(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetCurrencyFormat",
+"u": "ms905229(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetDateFormat",
+"u": "ms905235(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetLocaleInfo",
+"u": "ms905243(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetNumberFormat",
+"u": "ms905250(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetOEMCP",
+"u": "ms905256(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetStringTypeW",
+"u": "ms905272(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetStringTypeEx",
+"u": "ms905283(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetSystemDefaultLangID",
+"u": "ms905289(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetSystemDefaultLCID",
+"u": "ms905298(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetTimeFormat",
+"u": "ms905310(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetUserDefaultLangID",
+"u": "ms905315(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "GetUserDefaultLCID",
+"u": "ms905323(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "IsValidCodePage",
+"u": "ms906218(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "IsValidLocale",
+"u": "ms906219(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "LCMapString",
+"u": "ms906221(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "SetLocaleInfo",
+"u": "ms906277(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Functions",
+"t": "SetUserDefaultLCID",
+"u": "ms906279(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language support (NLS) Locale Identifiers",
+"t": "LCTYPE Constants",
+"u": "ms906223(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language support (NLS) Locale Identifiers",
+"t": "Language Identifiers and Locales",
+"u": "ms903928(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language support (NLS) Locale Identifiers",
+"t": "Code Pages",
+"u": "ms903783(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Macros",
+"t": "MAKELANGID",
+"u": "ms906225(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Macros",
+"t": "MAKELCID",
+"u": "ms906226(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Macros",
+"t": "PRIMARYLANGID",
+"u": "ms906230(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Macros",
+"t": "SUBLANGID",
+"u": "ms906441(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Structures",
+"t": "CPINFO",
+"u": "ms904717(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Structures",
+"t": "CURRENCYFMT",
+"u": "ms904720(v=msdn.10)"
+},
+{
+"area": "nls",
+"sub": "National Language Support (NLS) Structures",
+"t": "NUMBERFMT",
+"u": "ms906228(v=msdn.10)"
+}
+]

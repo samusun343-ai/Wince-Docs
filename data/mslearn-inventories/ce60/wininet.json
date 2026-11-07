@@ -1,0 +1,650 @@
+[
+{
+"area": "wininet",
+"sub": "(top)",
+"t": "WinInet Error Messages",
+"u": "ee492075(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "CommitUrlCacheEntry",
+"u": "ee492853(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "CreateUrlCacheEntry",
+"u": "ee492427(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "CreateUrlCacheGroup",
+"u": "ee492254(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "DeleteUrlCacheEntry",
+"u": "ee491822(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "DeleteUrlCacheGroup",
+"u": "ee492189(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FindCloseUrlCache",
+"u": "ee492163(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FindFirstUrlCacheEntry",
+"u": "ee492186(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FindFirstUrlCacheEntryEx",
+"u": "ee491797(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FindFirstUrlCacheGroup",
+"u": "ee492070(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FindNextUrlCacheEntry",
+"u": "ee492035(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FindNextUrlCacheEntryEx",
+"u": "ee491823(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FindNextUrlCacheGroup",
+"u": "ee492578(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpCommand",
+"u": "ee492630(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpCreateDirectory",
+"u": "ee492470(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpDeleteFile",
+"u": "ee492815(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpFindFirstFile",
+"u": "ee492397(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpGetCurrentDirectory",
+"u": "ee492802(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpGetFile",
+"u": "ee492396(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpGetFileEx",
+"u": "ee491828(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpGetFileSize",
+"u": "ee492614(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpOpenFile",
+"u": "ee492663(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpPutFile",
+"u": "ee492833(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpPutFileEx",
+"u": "ee492187(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpRemoveDirectory",
+"u": "ee492589(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpRenameFile",
+"u": "ee492006(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "FtpSetCurrentDirectory",
+"u": "ee492829(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "GetUrlCacheEntryInfo",
+"u": "ee491832(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "GetUrlCacheEntryInfoEx",
+"u": "ee491829(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "GetUrlCacheGroupAttribute",
+"u": "ee492626(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "HttpAddRequestHeaders",
+"u": "ee492818(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "HttpEndRequest",
+"u": "ee492407(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "HttpOpenRequest",
+"u": "ee491851(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "HttpQueryInfo",
+"u": "ee492848(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "HttpSendRequest",
+"u": "ee492362(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "HttpSendRequestEx",
+"u": "ee492193(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetAttemptConnect",
+"u": "ee492581(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetCheckConnection",
+"u": "ee492236(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetClearAllPerSiteCookieDecisions",
+"u": "ee492602(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetCloseHandle",
+"u": "ee492251(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetCombineUrl",
+"u": "ee492584(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetConfirmZoneCrossing",
+"u": "ee492166(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetConnect",
+"u": "ee492231(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetCrackUrl",
+"u": "ee492398(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetCreateUrl",
+"u": "ee492780(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetEnumPerSiteCookieDecisionA",
+"u": "ee492442(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetEnumPerSiteCookieDecisionW",
+"u": "ee491798(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetErrorDlg",
+"u": "ee492869(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetFindNextFile",
+"u": "ee492003(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetGetConnectedState",
+"u": "ee492424(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetGetConnectedStateEx",
+"u": "ee491815(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetGetCookie",
+"u": "ee492451(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetGetLastResponseInfo",
+"u": "ee492799(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetGetPerSiteCookieDecisionA",
+"u": "ee492810(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetGetPerSiteCookieDecisionW",
+"u": "ee492202(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetGoOnline",
+"u": "ee491886(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetLockRequestFile",
+"u": "ee492208(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetOpen",
+"u": "ee492088(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetOpenUrl",
+"u": "ee492089(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetQueryDataAvailable",
+"u": "ee491998(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetQueryOption",
+"u": "ee492415(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetReadFile",
+"u": "ee491861(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetReadFileEx",
+"u": "ee492164(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetSetCookie",
+"u": "ee492074(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetSetCookieEx",
+"u": "ee492855(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetSetFilePointer",
+"u": "ee492858(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetSetOption",
+"u": "ee492811(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetSetOptionEx",
+"u": "ee492610(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetSetPerSiteCookieDecisionA",
+"u": "ee492093(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetSetPerSiteCookieDecisionW",
+"u": "ee491817(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetSetStatusCallback",
+"u": "ee492013(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetTimeFromSystemTime",
+"u": "ee492591(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetTimeToSystemTime",
+"u": "ee492864(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetUnlockRequestFile",
+"u": "ee492872(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "InternetWriteFile",
+"u": "ee492463(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "PrivacySetZonePreferenceW",
+"u": "ee492181(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "PrivacyGetZonePreferenceW",
+"u": "ee492807(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "RetrieveUrlCacheEntryFile",
+"u": "ee492063(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "ReadUrlCacheEntryStream",
+"u": "ee492009(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "RetrieveUrlCacheEntryStream",
+"u": "ee491819(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "SetUrlCacheConfigInfo",
+"u": "ee492619(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "SetUrlCacheEntryGroup",
+"u": "ee492057(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "SetUrlCacheEntryInfo",
+"u": "ee492792(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "SetUrlCacheGroupAttribute",
+"u": "ee492385(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "UnlockUrlCacheEntryFile",
+"u": "ee492887(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Functions",
+"t": "UnlockUrlCacheEntryStream",
+"u": "ee491889(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "HTTP_VERSION_INFO",
+"u": "ee491813(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_ASYNC_RESULT",
+"u": "ee492789(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_AUTH_NOTIFY_DATA",
+"u": "ee492191(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_BUFFERS",
+"u": "ee492175(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_CACHE_ENTRY_INFO",
+"u": "ee492007(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_CACHE_TIMESTAMPS",
+"u": "ee492174(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_CERTIFICATE_INFO",
+"u": "ee491887(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_CONNECTED_INFO",
+"u": "ee492889(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_PER_CONN_OPTION",
+"u": "ee492431(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_PER_CONN_OPTION_LIST",
+"u": "ee492031(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_PROXY_INFO",
+"u": "ee492002(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_STATUS_CALLBACK",
+"u": "ee492059(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "INTERNET_VERSION_INFO",
+"u": "ee492083(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Structures",
+"t": "URL_COMPONENTS",
+"u": "ee491864(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Constants",
+"t": "API Flags",
+"u": "ee491836(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Constants",
+"t": "HTTP Status Codes",
+"u": "ee492039(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Constants",
+"t": "Option Flags",
+"u": "ee492812(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Constants",
+"t": "Query Info Flags",
+"u": "ee492813(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Constants",
+"t": "Privacy Flags",
+"u": "ee492267(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Constants",
+"t": "HTTP Response Headers",
+"u": "ee491881(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Enumerations",
+"t": "InternetCookieState",
+"u": "ee491841(v=winembedded.60)"
+},
+{
+"area": "wininet",
+"sub": "WinInet Enumerations",
+"t": "INTERNET_SCHEME",
+"u": "ee492774(v=winembedded.60)"
+}
+]

@@ -1,0 +1,212 @@
+[
+{
+"area": "ras",
+"sub": "RAS Enumerations",
+"t": "RASCONNSTATE",
+"u": "ms896360(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Enumerations",
+"t": "RASPROJECTION",
+"u": "aa450856(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasDeleteEntry",
+"u": "ms896363(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasDevConfigDialogEdit",
+"u": "aa450832(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasDial",
+"u": "aa450834(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasEnumConnections",
+"u": "aa450838(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasEnumDevices",
+"u": "aa450839(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasEnumEntries",
+"u": "aa450840(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetConnectStatus",
+"u": "aa450843(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetDispPhoneNum",
+"u": "aa450844(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetEapConnectionData",
+"u": "aa450845(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetEapUserData",
+"u": "aa450846(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetEntryDialParams",
+"u": "aa450847(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetEntryProperties",
+"u": "aa450848(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetLinkStatistics",
+"u": "aa450849(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasGetProjectionInfo",
+"u": "aa450850(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasHangUp",
+"u": "aa450851(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasRenameEntry",
+"u": "aa450858(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasSetEapConnectionData",
+"u": "aa450861(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasSetEapUserData",
+"u": "aa450862(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasSetEntryDialParams",
+"u": "aa450863(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasSetEntryProperties",
+"u": "aa450864(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Functions",
+"t": "RasValidateEntryName",
+"u": "aa450866(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Messages",
+"t": "WM_RASDIALEVENT",
+"u": "ms898580(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "DIALER_NOTIFICATION",
+"u": "aa450331(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RAS_STATS",
+"u": "aa450865(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASCONN",
+"u": "ms896359(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASCONNSTATUS",
+"u": "ms896361(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASDEVINFO",
+"u": "aa450833(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASDIALPARAMS",
+"u": "aa450835(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASENTRY",
+"u": "aa450836(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASENTRYNAME",
+"u": "aa450837(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASIPADDR",
+"u": "aa450853(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASPPPIP",
+"u": "aa450854(v=msdn.10)"
+},
+{
+"area": "ras",
+"sub": "RAS Structures",
+"t": "RASPPPIPV6",
+"u": "aa450855(v=msdn.10)"
+}
+]

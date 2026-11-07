@@ -1,0 +1,4021 @@
+[
+ {
+  "name": "CEL_CRITSEC_DELETE",
+  "title": "CEL_CRITSEC_DELETE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885146(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_CRITSEC_DELETE {HANDLEhCS;} CEL_CRITSEC_DELETE, *PCEL_CRITSEC_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_CRITSEC_DELETE {HANDLEhCS;} CEL_CRITSEC_DELETE, *PCEL_CRITSEC_DELETE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_CRITSEC_ENTER",
+  "title": "CEL_CRITSEC_ENTER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450798(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_CRITSEC_ENTER {HANDLEhCS;HANDLEhOwnerThread;}CEL_CRITSEC_ENTER, *PCEL_CRITSEC_ENTER;",
+  "code_blocks": [
+   "typedef struct __CEL_CRITSEC_ENTER {HANDLEhCS;HANDLEhOwnerThread;}CEL_CRITSEC_ENTER, *PCEL_CRITSEC_ENTER;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_CRITSEC_INIT",
+  "title": "CEL_CRITSEC_INIT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885147(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_CRITSEC_INIT {HANDLEhCS;}CEL_CRITSEC_INIT, *PCEL_CRITSEC_INIT;",
+  "code_blocks": [
+   "typedef struct __CEL_CRITSEC_INIT {HANDLEhCS;}CEL_CRITSEC_INIT, *PCEL_CRITSEC_INIT;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_CRITSEC_LEAVE",
+  "title": "CEL_CRITSEC_LEAVE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450799(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_CRITSEC_LEAVE {HANDLEhCS;HANDLEhOwnerThread;} CEL_CRITSEC_LEAVE, *PCEL_CRITSEC_LEAVE;",
+  "code_blocks": [
+   "typedef struct __CEL_CRITSEC_LEAVE {HANDLEhCS;HANDLEhOwnerThread;} CEL_CRITSEC_LEAVE, *PCEL_CRITSEC_LEAVE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_DATA_LOSS",
+  "title": "CEL_DATA_LOSS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450800(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_DATA_LOSS {DWORDdwBytes;} CEL_DATA_LOSS, *PCEL_DATA_LOSS;",
+  "code_blocks": [
+   "typedef struct __CEL_DATA_LOSS {DWORDdwBytes;} CEL_DATA_LOSS, *PCEL_DATA_LOSS;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_DEBUG_MSG",
+  "title": "CEL_DEBUG_MSG (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451045(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_DEBUG_MSG {DWORDpid;DWORDtid;WCHAR szMessage[0]; } CEL_CEL_DEBUG_MSG, *PCEL_CEL_DEBUG_MSG;",
+  "code_blocks": [
+   "typedef struct __CEL_DEBUG_MSG {DWORDpid;DWORDtid;WCHAR szMessage[0]; } CEL_CEL_DEBUG_MSG, *PCEL_CEL_DEBUG_MSG;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_CLOSE",
+  "title": "CEL_EVENT_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450801(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_CLOSE {HANDLEhEvent;} CEL_EVENT_CLOSE, *PCEL_EVENT_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_CLOSE {HANDLEhEvent;} CEL_EVENT_CLOSE, *PCEL_EVENT_CLOSE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_CREATE",
+  "title": "CEL_EVENT_CREATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450802(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_CREATE {HANDLEhEvent;DWORDfManual:1;DWORDfInitialState:1;DWORDfCreate:1;DWORDdwReserved:29;WCHARszName[0];} CEL_EVENT1, *PCEL_EVENT1;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_CREATE {HANDLEhEvent;DWORDfManual:1;DWORDfInitialState:1;DWORDfCreate:1;DWORDdwReserved:29;WCHARszName[0];} CEL_EVENT1, *PCEL_EVENT1;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_DELETE",
+  "title": "CEL_EVENT_DELETE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450803(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_DELETE {HANDLEhEvent;} CEL_EVENT_DELETE, *PCEL_EVENT_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_DELETE {HANDLEhEvent;} CEL_EVENT_DELETE, *PCEL_EVENT_DELETE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_PULSE",
+  "title": "CEL_EVENT_PULSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450804(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_PULSE {HANDLEhEvent;} CEL_EVENT_PULSE, *PCEL_EVENT_PULSE;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_PULSE {HANDLEhEvent;} CEL_EVENT_PULSE, *PCEL_EVENT_PULSE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_RESET",
+  "title": "CEL_EVENT_RESET (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450805(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_RESET {HANDLEhEvent;} CEL_EVENT_RESET, *PCEL_EVENT_RESET;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_RESET {HANDLEhEvent;} CEL_EVENT_RESET, *PCEL_EVENT_RESET;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_SET",
+  "title": "CEL_EVENT_SET (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450806(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_SET {HANDLEhEvent;} CEL_EVENT_SET, *PCEL_EVENT_SET;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_SET {HANDLEhEvent;} CEL_EVENT_SET, *PCEL_EVENT_SET;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EXTRA_MODULE_INFO",
+  "title": "CEL_EXTRA_MODULE_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885148(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EXTRA_MODULE_INFO {HANDLEhModule;DWORDdwVMLen;DWORDdwModuleFlags;DWORDdwOID;WCHARszFullPath[0];} CEL_EXTRA_MODULE_INFO, *PCEL_EXTRA_MODULE_INFO;",
+  "code_blocks": [
+   "typedef struct __CEL_EXTRA_MODULE_INFO {HANDLEhModule;DWORDdwVMLen;DWORDdwModuleFlags;DWORDdwOID;WCHARszFullPath[0];} CEL_EXTRA_MODULE_INFO, *PCEL_EXTRA_MODULE_INFO;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EXTRA_PROCESS_INFO",
+  "title": "CEL_EXTRA_PROCESS_INFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885149(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EXTRA_PROCESS_INFO {HANDLEhProcess; DWORD dwCodeBaseDWORDdwVMLen;DWORDdwOID;WCHARszFullPath[0];} CEL_EXTRA_PROCESS_INFO, *PCEL_EXTRA_PROCESS_INFO;",
+  "code_blocks": [
+   "typedef struct __CEL_EXTRA_PROCESS_INFO {HANDLEhProcess; DWORD dwCodeBaseDWORDdwVMLen;DWORDdwOID;WCHARszFullPath[0];} CEL_EXTRA_PROCESS_INFO, *PCEL_EXTRA_PROCESS_INFO;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEADER",
+  "title": "CEL_HEADER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450807(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEADER {DWORDLength:16;DWORDID:14;DWORDReserved:1;DWORDfTimeStamp:1;} CEL_HEADER, *PCEL_HEADER;",
+  "code_blocks": [
+   "typedef struct __CEL_HEADER {DWORDLength:16;DWORDID:14;DWORDReserved:1;DWORDfTimeStamp:1;} CEL_HEADER, *PCEL_HEADER;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_ALLOC",
+  "title": "CEL_HEAP_ALLOC (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450808(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_ALLOC {HANDLEhHeap;DWORDdwFlags;DWORDdwBytes;DWORDlpMem;DWORD dwTID;DWORD dwPID;DWORD dwCallerPID;DWORD adwStackTrace[0];} CEL_HEAP_ALLOC, *PCEL_HEAP_ALLOC;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_ALLOC {HANDLEhHeap;DWORDdwFlags;DWORDdwBytes;DWORDlpMem;DWORD dwTID;DWORD dwPID;DWORD dwCallerPID;DWORD adwStackTrace[0];} CEL_HEAP_ALLOC, *PCEL_HEAP_ALLOC;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_CREATE",
+  "title": "CEL_HEAP_CREATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450809(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_CREATE {DWORDdwOptions;DWORDdwInitSize;DWORDdwMaxSize;HANDLEhHeap;DWORD dwTID;DWORD dwPID;} CEL_HEAP_CREATE, *PCEL_HEAP_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_CREATE {DWORDdwOptions;DWORDdwInitSize;DWORDdwMaxSize;HANDLEhHeap;DWORD dwTID;DWORD dwPID;} CEL_HEAP_CREATE, *PCEL_HEAP_CREATE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_DESTROY",
+  "title": "CEL_HEAP_DESTROY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450810(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_DESTROY {HANDLEhHeap;DWORD dwTID;DWORD dwPID;} CEL_HEAP_DESTROY, *PCEL_HEAP_DESTROY;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_DESTROY {HANDLEhHeap;DWORD dwTID;DWORD dwPID;} CEL_HEAP_DESTROY, *PCEL_HEAP_DESTROY;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_FREE",
+  "title": "CEL_HEAP_FREE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450811(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_FREE {HANDLEhHeap;DWORDdwFlags;DWORDlpMem;DWORD dwTID;DWORD dwPID;DWORD dwCallerPID;DWORD adwStackTrace[0];} CEL_HEAP_FREE, *PCEL_HEAP_FREE;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_FREE {HANDLEhHeap;DWORDdwFlags;DWORDlpMem;DWORD dwTID;DWORD dwPID;DWORD dwCallerPID;DWORD adwStackTrace[0];} CEL_HEAP_FREE, *PCEL_HEAP_FREE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_REALLOC",
+  "title": "CEL_HEAP_REALLOC (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450812(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_REALLOC {HANDLEhHeap;DWORDdwFlags;DWORDdwBytes;DWORDlpMemOld;DWORDlpMem;DWORD dwTID;DWORD dwPID;DWORD dwCallerPID;DWORD adwStackTrace[0];} CEL_HEAP_REALLOC, *PCEL_HEAP_REALLOC;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_REALLOC {HANDLEhHeap;DWORDdwFlags;DWORDdwBytes;DWORDlpMemOld;DWORDlpMem;DWORD dwTID;DWORD dwPID;DWORD dwCallerPID;DWORD adwStackTrace[0];} CEL_HEAP_REALLOC, *PCEL_HEAP_REALLOC;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_INTERRUPTS",
+  "title": "CEL_INTERRUPTS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450814(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_INTERRUPTS {DWORDdwDiscarded;CEL_INT_DATAIntData[0];} CEL_INTERRUPTS, *PCEL_INTERRUPTS;",
+  "code_blocks": [
+   "typedef struct __CEL_INTERRUPTS {DWORDdwDiscarded;CEL_INT_DATAIntData[0];} CEL_INTERRUPTS, *PCEL_INTERRUPTS;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_INT_DATA",
+  "title": "CEL_INT_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450813(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_INT_DATA {DWORDdwTimeStamp;WORDwSysIntr;WORDwNestingLevel;} CEL_INT_DATA, *PCEL_INT_DATA;",
+  "code_blocks": [
+   "typedef __CEL_INT_DATA {DWORDdwTimeStamp;WORDwSysIntr;WORDwNestingLevel;} CEL_INT_DATA, *PCEL_INT_DATA;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_LOG_MARKER",
+  "title": "CEL_LOG_MARKER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450815(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_LOG_MARKER {DWORDdwFrequency;DWORDdwDefaultQuantum;DWORDdwVersion;} CEL_LOG_MARKER, *PCEL_LOG_MARKER;",
+  "code_blocks": [
+   "typedef struct __CEL_LOG_MARKER {DWORDdwFrequency;DWORDdwDefaultQuantum;DWORDdwVersion;} CEL_LOG_MARKER, *PCEL_LOG_MARKER;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_CREATE",
+  "title": "CEL_MAPFILE_CREATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451047(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_CREATE {HANDLEhMap; DWORD flProtect; DWORD dwMapFlags; DWORD dwMaxSize; WCHAR szName[0]; } CEL_MAPFILE_CREATE, *PCEL_MAPFILE_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_CREATE {HANDLEhMap; DWORD flProtect; DWORD dwMapFlags; DWORD dwMaxSize; WCHAR szName[0]; } CEL_MAPFILE_CREATE, *PCEL_MAPFILE_CREATE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_DESTROY",
+  "title": "CEL_MAPFILE_DESTROY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451049(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_DESTROY {HANDLEhMap; } CEL_MAPFILE_DESTROY , *PCEL_MAPFILE_DESTROY ;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_DESTROY {HANDLEhMap; } CEL_MAPFILE_DESTROY , *PCEL_MAPFILE_DESTROY ;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_FLUSH",
+  "title": "CEL_MAPFILE_FLUSH (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451051(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_FLUSH {LPVOIDlpBaseAddress; DWORD dwLen; WORD wFlushFlags; WORD wNumPages; } CEL_MAPFILE_FLUSH, *PCEL_MAPFILE_FLUSH;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_FLUSH {LPVOIDlpBaseAddress; DWORD dwLen; WORD wFlushFlags; WORD wNumPages; } CEL_MAPFILE_FLUSH, *PCEL_MAPFILE_FLUSH;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_VIEW_CLOSE",
+  "title": "CEL_MAPFILE_VIEW_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451053(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_VIEW_CLOSE {HANDLEhMap;LPVOID lpBaseAddress; } CEL_MAPFILE_VIEW_CLOSE, *CEL_MAPFILE_VIEW_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_VIEW_CLOSE {HANDLEhMap;LPVOID lpBaseAddress; } CEL_MAPFILE_VIEW_CLOSE, *CEL_MAPFILE_VIEW_CLOSE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_VIEW_OPEN",
+  "title": "CEL_MAPFILE_VIEW_OPEN (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451055(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_VIEW_OPEN { HANDLE hMap; HANDLE hProcess; DWORD dwDesiredAccess; DWORD dwFileOffset; DWORD dwLen; LPVOID lpBaseAddress; } CEL_MAPFILE_VIEW_OPEN, *CEL_MAPFILE_VIEW_OPEN;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_VIEW_OPEN { HANDLE hMap; HANDLE hProcess; DWORD dwDesiredAccess; DWORD dwFileOffset; DWORD dwLen; LPVOID lpBaseAddress; } CEL_MAPFILE_VIEW_OPEN, *CEL_MAPFILE_VIEW_OPEN;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFLUSH_TYPE",
+  "title": "CEL_MAPFLUSH_TYPE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451058(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { CEL_INVALID_MAPFLUSH = 0, CEL_FlushMapSimple = 1, CEL_FlushMapAtomic = 2, CEL_ValidateFile = 3, CEL_FlushMapGather = 4, CEL_NUM_MAPFLUSH_TYPES} CEL_MAPFLUSH_TYPE;",
+  "code_blocks": [
+   "typedef enum { CEL_INVALID_MAPFLUSH = 0, CEL_FlushMapSimple = 1, CEL_FlushMapAtomic = 2, CEL_ValidateFile = 3, CEL_FlushMapGather = 4, CEL_NUM_MAPFLUSH_TYPES} CEL_MAPFLUSH_TYPE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MEMTRACK_BASELINE",
+  "title": "CEL_MEMTRACK_BASELINE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450816(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MEMTRACK_BASELINE {DWORDdwReserved; } CEL_MEMTRACK_BASELINE, *PCEL_MEMTRACK_BASELINE;",
+  "code_blocks": [
+   "typedef struct __CEL_MEMTRACK_BASELINE {DWORDdwReserved; } CEL_MEMTRACK_BASELINE, *PCEL_MEMTRACK_BASELINE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MODULE_FREE",
+  "title": "CEL_MODULE_FREE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450817(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_MODULE_FREE {HANDLEhProcess;HANDLEhModule;} CEL_MODULE_FREE, *PCEL_MODULE_FREE;",
+  "code_blocks": [
+   "typedef __CEL_MODULE_FREE {HANDLEhProcess;HANDLEhModule;} CEL_MODULE_FREE, *PCEL_MODULE_FREE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE 5.0, CEL_MODULE_FREE is logged each time a process unloads the module for the last time.",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MODULE_LOAD",
+  "title": "CEL_MODULE_LOAD (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450818(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_MODULE_LOAD {HANDLEhProcess;HANDLEhModule;DWORD dwBase;WCHARszName[0];} CEL_MODULE_LOAD, *PCEL_MODULE_LOAD;",
+  "code_blocks": [
+   "typedef __CEL_MODULE_LOAD {HANDLEhProcess;HANDLEhModule;DWORD dwBase;WCHARszName[0];} CEL_MODULE_LOAD, *PCEL_MODULE_LOAD;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MODULE_REFERENCES",
+  "title": "CEL_MODULE_REFERENCES (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885150(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MODULE_REFERENCES {HANDLEhModule;CEL_PROCESS_REFCOUNTref[1];} CEL_MODULE_REFERENCES, *PCEL_MODULE_REFERENCES;",
+  "code_blocks": [
+   "typedef struct __CEL_MODULE_REFERENCES {HANDLEhModule;CEL_PROCESS_REFCOUNTref[1];} CEL_MODULE_REFERENCES, *PCEL_MODULE_REFERENCES;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MUTEX_CLOSE",
+  "title": "CEL_MUTEX_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450819(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MUTEX_CLOSE {HANDLEhMutex;} CEL_MUTEX_CLOSE, *PCEL_MUTEX_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_MUTEX_CLOSE {HANDLEhMutex;} CEL_MUTEX_CLOSE, *PCEL_MUTEX_CLOSE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MUTEX_CREATE",
+  "title": "CEL_MUTEX_CREATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450820(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MUTEX_CREATE {HANDLEhMutex;WCHARszName[0];} CEL_MUTEX_CREATE, *PCEL_MUTEX_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_MUTEX_CREATE {HANDLEhMutex;WCHARszName[0];} CEL_MUTEX_CREATE, *PCEL_MUTEX_CREATE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MUTEX_DELETE",
+  "title": "CEL_MUTEX_DELETE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450821(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MUTEX_DELETE {HANDLEhMutex;} CEL_MUTEX_DELETE, *PCEL_MUTEX_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_MUTEX_DELETE {HANDLEhMutex;} CEL_MUTEX_DELETE, *PCEL_MUTEX_DELETE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MUTEX_RELEASE",
+  "title": "CEL_MUTEX_RELEASE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450822(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_MUTEX_RELEASE {HANDLEhMutex;} CEL_MUTEX_RELEASE, *PCEL_MUTEX_RELEASE;",
+  "code_blocks": [
+   "typedef __CEL_MUTEX_RELEASE {HANDLEhMutex;} CEL_MUTEX_RELEASE, *PCEL_MUTEX_RELEASE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_CLOSE",
+  "title": "CEL_PROCESS_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450829(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_CLOSE {HANDLEhProcess;} CEL_PROCESS_CLOSE, *PCEL_PROCESS_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_CLOSE {HANDLEhProcess;} CEL_PROCESS_CLOSE, *PCEL_PROCESS_CLOSE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_CREATE",
+  "title": "CEL_PROCESS_CREATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450830(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_CREATE {HANDLEhProcess;DWORD dwVMBase;WCHARszName[0];} CEL_PROCESS_CREATE, *PCEL_PROCESS_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_CREATE {HANDLEhProcess;DWORD dwVMBase;WCHARszName[0];} CEL_PROCESS_CREATE, *PCEL_PROCESS_CREATE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_DELETE",
+  "title": "CEL_PROCESS_DELETE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms884894(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_DELETE {HANDLEhProcess;} CEL_PROCESS_DELETE, *PCEL_PROCESS_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_DELETE {HANDLEhProcess;} CEL_PROCESS_DELETE, *PCEL_PROCESS_DELETE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_REFCOUNT",
+  "title": "CEL_PROCESS_REFCOUNT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885151(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_REFCOUNT {HANDLEhProcess;DWORDdwRefCount} CEL_PROCESS_REFCOUNT, *PCEL_PROCESS_REFCOUNT;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_REFCOUNT {HANDLEhProcess;DWORDdwRefCount} CEL_PROCESS_REFCOUNT, *PCEL_PROCESS_REFCOUNT;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_TERMINATE",
+  "title": "CEL_PROCESS_TERMINATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms884998(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_TERMINATE {HANDLEhProcess;} CEL_PROCESS_TERMINATE, *PCEL_PROCESS_TERMINATE;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_TERMINATE {HANDLEhProcess;} CEL_PROCESS_TERMINATE, *PCEL_PROCESS_TERMINATE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SEM_CLOSE",
+  "title": "CEL_SEM_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885107(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SEM_CLOSE {HANDLEhSem;} CEL_SEM_CLOSE, *PCEL_SEM_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_SEM_CLOSE {HANDLEhSem;} CEL_SEM_CLOSE, *PCEL_SEM_CLOSE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SEM_CREATE",
+  "title": "CEL_SEM_CREATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885117(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SEM_CREATE {HANDLEhSem;DWORDdwInitCount;DWORDdwMaxCount;WCHARszName[0];} CEL_SEM_CREATE, *PCEL_SEM_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_SEM_CREATE {HANDLEhSem;DWORDdwInitCount;DWORDdwMaxCount;WCHARszName[0];} CEL_SEM_CREATE, *PCEL_SEM_CREATE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SEM_DELETE",
+  "title": "CEL_SEM_DELETE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885125(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SEM_DELETE {HANDLEhSem;} CEL_SEM_DELETE, *PCEL_SEM_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_SEM_DELETE {HANDLEhSem;} CEL_SEM_DELETE, *PCEL_SEM_DELETE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SEM_RELEASE",
+  "title": "CEL_SEM_RELEASE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885126(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SEM_RELEASE {HANDLEhSem;DWORDdwReleaseCount;DWORDdwPreviousCount;} CEL_SEM_RELEASE, *PCEL_SEM_RELEASE;",
+  "code_blocks": [
+   "typedef struct __CEL_SEM_RELEASE {HANDLEhSem;DWORDdwReleaseCount;DWORDdwPreviousCount;} CEL_SEM_RELEASE, *PCEL_SEM_RELEASE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SLEEP",
+  "title": "CEL_SLEEP (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885127(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SLEEP {DWORDdwTimeout;} CEL_SLEEP, *PCEL_SLEEP;",
+  "code_blocks": [
+   "typedef struct __CEL_SLEEP {DWORDdwTimeout;} CEL_SLEEP, *PCEL_SLEEP;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SYSTEM_INVERT",
+  "title": "CEL_SYSTEM_INVERT (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885128(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_SYSTEM_INVERT {HANDLEhThread;intnPriority;} CEL_SYSTEM_INVERT, *PCEL_SYSTEM_INVERT;",
+  "code_blocks": [
+   "typedef __CEL_SYSTEM_INVERT {HANDLEhThread;intnPriority;} CEL_SYSTEM_INVERT, *PCEL_SYSTEM_INVERT;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SYSTEM_PAGE",
+  "title": "CEL_SYSTEM_PAGE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885129(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_SYSTEM_PAGE {DWORDdwAddress;DWORDfReadWrite:1;DWORDfEndPageIn:1; DWORD fSuccess: 1 DWORDdwReserved: 29 } CEL_SYSTEM_PAGE, *PCEL_SYSTEM_PAGE;",
+  "code_blocks": [
+   "typedef __CEL_SYSTEM_PAGE {DWORDdwAddress;DWORDfReadWrite:1;DWORDfEndPageIn:1; DWORD fSuccess: 1 DWORDdwReserved: 29 } CEL_SYSTEM_PAGE, *PCEL_SYSTEM_PAGE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SYSTEM_TLB",
+  "title": "CEL_SYSTEM_TLB (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885130(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_SYSTEM_TLB {DWORDdwCount;} CEL_SYSTEM_TLB, *PCEL_SYSTEM_TLB;",
+  "code_blocks": [
+   "typedef __CEL_SYSTEM_TLB {DWORDdwCount;} CEL_SYSTEM_TLB, *PCEL_SYSTEM_TLB;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_CLOSE",
+  "title": "CEL_THREAD_CLOSE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885131(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_CLOSE {HANDLEhThread;} CEL_THREAD_CLOSE, *PCEL_THREAD_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_CLOSE {HANDLEhThread;} CEL_THREAD_CLOSE, *PCEL_THREAD_CLOSE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_CREATE",
+  "title": "CEL_THREAD_CREATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885132(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_CREATE {HANDLEhThread;HANDLEhProcess;HANDLE hModule;DWORD dwStartAddr;intnPriority;WCHARszName[0];} CEL_THREAD_CREATE, *PCEL_THREAD_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_CREATE {HANDLEhThread;HANDLEhProcess;HANDLE hModule;DWORD dwStartAddr;intnPriority;WCHARszName[0];} CEL_THREAD_CREATE, *PCEL_THREAD_CREATE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_DELETE",
+  "title": "CEL_THREAD_DELETE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885133(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_DELETE {HANDLEhThread;} CEL_THREAD_DELETE, *PCEL_THREAD_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_DELETE {HANDLEhThread;} CEL_THREAD_DELETE, *PCEL_THREAD_DELETE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_MIGRATE",
+  "title": "CEL_THREAD_MIGRATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885134(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_THREAD_MIGRATE {HANDLEhProcess;DWORDdwReserved;} CEL_THREAD_MIGRATE, *PCEL_THREAD_MIGRATE;",
+  "code_blocks": [
+   "typedef __CEL_THREAD_MIGRATE {HANDLEhProcess;DWORDdwReserved;} CEL_THREAD_MIGRATE, *PCEL_THREAD_MIGRATE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_PRIORITY",
+  "title": "CEL_THREAD_PRIORITY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885135(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_THREAD_PRIORITY {HANDLEhThread;intnPriority;} CEL_THREAD_PRIORITY, *PCEL_THREAD_PRIORITY;",
+  "code_blocks": [
+   "typedef __CEL_THREAD_PRIORITY {HANDLEhThread;intnPriority;} CEL_THREAD_PRIORITY, *PCEL_THREAD_PRIORITY;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_QUANTUM",
+  "title": "CEL_THREAD_QUANTUM (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885136(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_THREAD_QUANTUM {HANDLEhThread;DWORDdwQuantum;} CEL_THREAD_QUANTUM, *PCEL_THREAD_QUANTUM;",
+  "code_blocks": [
+   "typedef __CEL_THREAD_QUANTUM {HANDLEhThread;DWORDdwQuantum;} CEL_THREAD_QUANTUM, *PCEL_THREAD_QUANTUM;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_RESUME",
+  "title": "CEL_THREAD_RESUME (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885137(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_RESUME {HANDLEhThread; } CEL_THREAD_RESUME, *PCEL_THREAD_RESUME;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_RESUME {HANDLEhThread; } CEL_THREAD_RESUME, *PCEL_THREAD_RESUME;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_SUSPEND",
+  "title": "CEL_THREAD_SUSPEND (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885138(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_SUSPEND {HANDLEhThread; } CEL_THREAD_SUSPEND, *PCEL_THREAD_SUSPEND;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_SUSPEND {HANDLEhThread; } CEL_THREAD_SUSPEND, *PCEL_THREAD_SUSPEND;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_SWITCH",
+  "title": "CEL_THREAD_SWITCH (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885139(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_SWITCH {HANDLEhThread;} CEL_THREAD_SWITCH, *PCEL_THREAD_SWITCH;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_SWITCH {HANDLEhThread;} CEL_THREAD_SWITCH, *PCEL_THREAD_SWITCH;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_TERMINATE",
+  "title": "CEL_THREAD_TERMINATE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885140(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_TERMINATE {HANDLEhThread;} CEL_THREAD_TERMINATE, *PCEL_THREAD_TERMINATE;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_TERMINATE {HANDLEhThread;} CEL_THREAD_TERMINATE, *PCEL_THREAD_TERMINATE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_VIRTUAL_ALLOC",
+  "title": "CEL_VIRTUAL_ALLOC (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885141(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_VIRTUAL_ALLOC {DWORDdwResult;DWORDdwAddress;DWORDdwSize;DWORD dwType;DWORDdwProtect;BYTEbReserved[0];} CEL_VIRTUAL_ALLOC, *PCEL_VIRTUAL_ALLOC;",
+  "code_blocks": [
+   "typedef struct __CEL_VIRTUAL_ALLOC {DWORDdwResult;DWORDdwAddress;DWORDdwSize;DWORD dwType;DWORDdwProtect;BYTEbReserved[0];} CEL_VIRTUAL_ALLOC, *PCEL_VIRTUAL_ALLOC;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_VIRTUAL_COPY",
+  "title": "CEL_VIRTUAL_COPY (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885142(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_VIRTUAL_COPY {DWORDdwDest;DWORDdwSource;DWORDdwSize;DWORDdwProtect;} CEL_VIRTUAL_COPY, *PCEL_VIRTUAL_COPY;",
+  "code_blocks": [
+   "typedef struct __CEL_VIRTUAL_COPY {DWORDdwDest;DWORDdwSource;DWORDdwSize;DWORDdwProtect;} CEL_VIRTUAL_COPY, *PCEL_VIRTUAL_COPY;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_VIRTUAL_FREE",
+  "title": "CEL_VIRTUAL_FREE (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885143(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_VIRTUAL_FREE {DWORDdwAddress;DWORDdwSize;DWORDdwType;BYTEbReserved[0];} CEL_VIRTUAL_FREE, *PCEL_VIRTUAL_FREE;",
+  "code_blocks": [
+   "typedef struct __CEL_VIRTUAL_FREE {DWORDdwAddress;DWORDdwSize;DWORDdwType;BYTEbReserved[0];} CEL_VIRTUAL_FREE, *PCEL_VIRTUAL_FREE;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_WAIT_MULTI",
+  "title": "CEL_WAIT_MULTI (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885145(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_WAIT_MULTI {DWORDdwTimeout;DWORDfWaitAll:1;DWORDdwReserved:31;HANDLEhHandles[0];} CEL_WAIT_MULTI, *PCEL_WAIT_MULTI;",
+  "code_blocks": [
+   "typedef struct __CEL_WAIT_MULTI {DWORDdwTimeout;DWORDfWaitAll:1;DWORDdwReserved:31;HANDLEhHandles[0];} CEL_WAIT_MULTI, *PCEL_WAIT_MULTI;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLog Event Identifiers",
+  "title": "CeLog Event Identifiers (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450677(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLog Event Tracking Macros",
+  "title": "CeLog Event Tracking Macros (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451019(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "#include <celog.h> LONG lData[10]; // Initialization not shown here... WORD wMyFlag = 1; CELOGDATA(1, CELID_RAW_LONG, &lData, (WORD)(10*sizeof(LONG)), 1, CELZONE_MISC); CELOGDATAFLAGGED(1, CELID_RAW_LONG, &lData, (WORD)(10*sizeof(LONG)), 1, CELZONE_MISC, wMyFlag);",
+  "code_blocks": [
+   "#include <celog.h> LONG lData[10]; // Initialization not shown here... WORD wMyFlag = 1; CELOGDATA(1, CELID_RAW_LONG, &lData, (WORD)(10*sizeof(LONG)), 1, CELZONE_MISC); CELOGDATAFLAGGED(1, CELID_RAW_LONG, &lData, (WORD)(10*sizeof(LONG)), 1, CELZONE_MISC, wMyFlag);"
+  ],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLog Pre-Defined Data Types",
+  "title": "CeLog Pre-Defined Data Types (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451021(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLog Zones",
+  "title": "CeLog Zones (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450700(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogData",
+  "title": "CeLogData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450823(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void CeLogData(BOOLfTimeStamp,WORDwID,PVOIDpData,WORDwLen,DWORDdwZoneUser,DWORDdwZoneCE,WORD wFlag,BOOL fFlagged );",
+  "code_blocks": [
+   "void CeLogData(BOOLfTimeStamp,WORDwID,PVOIDpData,WORDwLen,DWORDdwZoneUser,DWORDdwZoneCE,WORD wFlag,BOOL fFlagged );"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogGetZones",
+  "title": "CeLogGetZones (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450824(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeLogGetZones(LPDWORDlpdwZoneUser,LPDWORDlpdwZoneCE,LPDWORDlpdwZoneProcess,LPDWORDlpdwAvailableZones);",
+  "code_blocks": [
+   "BOOL CeLogGetZones(LPDWORDlpdwZoneUser,LPDWORDlpdwZoneCE,LPDWORDlpdwZoneProcess,LPDWORDlpdwAvailableZones);"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogInterrupt",
+  "title": "CeLogInterrupt (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa451043(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void CeLogInterrupt( DWORD dwlogvalue);",
+  "code_blocks": [
+   "void CeLogInterrupt( DWORD dwlogvalue);"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogMsg",
+  "title": "CeLogMsg (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450825(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void CeLogMsg(WCHAR*format [, argument]);",
+  "code_blocks": [
+   "void CeLogMsg(WCHAR*format [, argument]);"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogQueryZones",
+  "title": "CeLogQueryZones (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450826(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeLogQueryZones(LPDWORDlpdwZoneUser,LPDWORDlpdwZoneCE,LPDWORDldpwZoneProcess);",
+  "code_blocks": [
+   "BOOL CeLogQueryZones(LPDWORDlpdwZoneUser,LPDWORDlpdwZoneCE,LPDWORDldpwZoneProcess);"
+  ],
+  "requirements": {
+   "header": "Not",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogReSync",
+  "title": "CeLogReSync (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450827(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeLogReSync (void);",
+  "code_blocks": [
+   "BOOL CeLogReSync (void);"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogSetZones",
+  "title": "CeLogSetZones (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450828(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "void CeLogSetZones(DWORDdwZoneUser,DWORDdwZoneCE,DWORDdwZoneProcess );",
+  "code_blocks": [
+   "void CeLogSetZones(DWORDdwZoneUser,DWORDdwZoneCE,DWORDdwZoneProcess );"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "MAPHEADER",
+  "title": "MAPHEADER (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886750(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __MAPHEADER {DWORDdwBufSize;LPBYTEpWrite;LPBYTEpRead;BOOLfSetEvent;BYTEbReserved;DWORDdwLostBytes;} MAPHEADER, *PMAPHEADER;",
+  "code_blocks": [
+   "typedef struct __MAPHEADER {DWORDdwBufSize;LPBYTEpWrite;LPBYTEpRead;BOOLfSetEvent;BYTEbReserved;DWORDdwLostBytes;} MAPHEADER, *PMAPHEADER;"
+  ],
+  "requirements": {
+   "header": "Celog.h",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CreateHandler",
+  "title": "CreateHandler (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885179(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUSCreateHandler( PVOIDEditorContext, ULONGPrivateAddress, USHORTPrivatePort, ULONGPublicAddress, USHORTPublicPort, ULONGRemoteAddress, USHORTRemotePort, PVOID* EditorSessionContextp)",
+  "code_blocks": [
+   "NTSTATUSCreateHandler( PVOIDEditorContext, ULONGPrivateAddress, USHORTPrivatePort, ULONGPublicAddress, USHORTPublicPort, ULONGRemoteAddress, USHORTRemotePort, PVOID* EditorSessionContextp)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "CreateTicket",
+  "title": "CreateTicket (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885188(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS CreateTicket(PVOIDInterfaceHandle,UCHARProtocol,ULONGPrivateAddress,USHORTPrivatePort,ULONGRemoteAddress,USHORTRemotePort,PULONGPublicAddress,PUSHORTPublicPort)",
+  "code_blocks": [
+   "NTSTATUS CreateTicket(PVOIDInterfaceHandle,UCHARProtocol,ULONGPrivateAddress,USHORTPrivatePort,ULONGRemoteAddress,USHORTRemotePort,PULONGPublicAddress,PUSHORTPublicPort)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "DataHandler",
+  "title": "DataHandler (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885191(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUSDataHandler(PVOIDInterfaceHandle, PVOIDSessionHandle, PVOIDDataHandle, PVOIDEditorContext, PVOIDEditorSessionContext, PIPRCVBUFRecvBuffer, ULONGDataOffset)",
+  "code_blocks": [
+   "NTSTATUSDataHandler(PVOIDInterfaceHandle, PVOIDSessionHandle, PVOIDDataHandle, PVOIDEditorContext, PVOIDEditorSessionContext, PIPRCVBUFRecvBuffer, ULONGDataOffset)",
+   "NTSTATUS EditorForwardDataHandler( IN PVOID InterfaceHandle, IN PVOID SessionHandle, IN PVOID DataHandle, IN PVOID EditorContext, IN PVOID EditorSessionContext, IN PIPRCVBUF RecvBuffer, IN ULONG DataOffset ) { #define BUFFER_LEN 64 PIPRCVBUF pRcvBuf = RecvBuffer; TCHAR szTextBuffer[BUFFER_LEN]; while (pRcvBuf) { _sntprintf(szTextBuffer, BUFFER_LEN, TEXT(\" ipr_buf: 0x%X, size: %u\\r\\n\"), pRcvBuf, pRcvBuf->ipr_size); szTextBuffer[BUFFER_LEN-1] = TEXT('\\0'); // Guarantee null-termination OutputDebugString(szTextBuffer); pRcvBuf = pRcvBuf->ipr_next; } return STATUS_SUCCESS; }"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "DeleteHandler",
+  "title": "DeleteHandler (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885198(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUSDeleteHandler( PVOIDInterfaceHandle, PVOIDSessionHandle, PVOIDEditorContext, PVOIDEditorSessionContext)",
+  "code_blocks": [
+   "NTSTATUSDeleteHandler( PVOIDInterfaceHandle, PVOIDSessionHandle, PVOIDEditorContext, PVOIDEditorSessionContext)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "DeleteTicket",
+  "title": "DeleteTicket (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885199(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS DeleteTicket(PVOIDInterfaceHandle,ULONGPublicAddress,UCHARProtocol,USHORTPublicPort,ULONGRemoteAddress,USHORTRemotePort)",
+  "code_blocks": [
+   "NTSTATUS DeleteTicket(PVOIDInterfaceHandle,ULONGPublicAddress,UCHARProtocol,USHORTPublicPort,ULONGRemoteAddress,USHORTRemotePort)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "DisassociateSession",
+  "title": "DisassociateSession (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885201(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS DisassociateSession(PVOIDEditorHandle,PVOIDSessionHandle)",
+  "code_blocks": [
+   "NTSTATUS DisassociateSession(PVOIDEditorHandle,PVOIDSessionHandle)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "EditSession",
+  "title": "EditSession (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885211(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS EditSession(PVOIDDataHandle,PIPRCVBUF RecvBuffer,ULONGOldDataOffset,ULONGOldDataLength,PUCHARNewData,ULONGNewDataLength)",
+  "code_blocks": [
+   "NTSTATUS EditSession(PVOIDDataHandle,PIPRCVBUF RecvBuffer,ULONGOldDataOffset,ULONGOldDataLength,PUCHARNewData,ULONGNewDataLength)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "EditorDeregister",
+  "title": "EditorDeregister (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885209(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS EditorDeregister( PVOIDEditorHandle)",
+  "code_blocks": [
+   "NTSTATUS EditorDeregister( PVOIDEditorHandle)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "EditorInitialize",
+  "title": "EditorInitialize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885210(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS EditorInitialize(PNAT_REGISTER_EDITORRegisterEditor)",
+  "code_blocks": [
+   "NTSTATUS EditorInitialize(PNAT_REGISTER_EDITORRegisterEditor)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "IPRcvBuf",
+  "title": "IPRcvBuf (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885685(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {struct IPRcvBuf* ipr_next;uintipr_reserved1;uchar* ipr_buffer;uintipr_size;uintipr_reserved2;} IPRcvBuf;",
+  "code_blocks": [
+   "typedef struct {struct IPRcvBuf* ipr_next;uintipr_reserved1;uchar* ipr_buffer;uintipr_size;uintipr_reserved2;} IPRcvBuf;"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "IP_NAT_DIRECTION",
+  "title": "IP_NAT_DIRECTION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885682(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "enum IP_NAT_DIRECTION {NatInboundDirection,NatOutboundDirection};",
+  "code_blocks": [
+   "enum IP_NAT_DIRECTION {NatInboundDirection,NatOutboundDirection};"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "IP_NAT_REGISTER_EDITOR",
+  "title": "IP_NAT_REGISTER_EDITOR (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885683(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {ULONGVersion;ULONGFlags;UCHARProtocol;USHORTPort;IP_NAT_DIRECTIONDirection;PVOIDEditorContext;PNAT_EDITOR_CREATE_HANDLERCreateHandler;PNAT_EDITOR_DELETE_HANDLERDeleteHandler;PNAT_EDITOR_DATA_HANDLERForwardDataHandler;PNAT_EDITOR_DATA_HANDLERReverseDataHandler;PVOIDEditorHandle;PNAT_EDITOR_CREATE_TICKETCreateTicket;PNAT_EDITOR_DELETE_TICKETDeleteTicket;PNAT_EDITOR_DEREGISTERDeregister;PNAT_EDITOR_DISSOCIATE_SESSIONDissociateSession;PNAT_EDITOR_EDIT_SESSIONEditSession;PNAT_EDITOR_QUERY_INFO_SESSIONQueryInfoSession;PNAT_EDITOR_TIMEOUT_SESSIONTimeoutSession;} IP_NAT_REGISTER_EDITOR;",
+  "code_blocks": [
+   "typedef struct {ULONGVersion;ULONGFlags;UCHARProtocol;USHORTPort;IP_NAT_DIRECTIONDirection;PVOIDEditorContext;PNAT_EDITOR_CREATE_HANDLERCreateHandler;PNAT_EDITOR_DELETE_HANDLERDeleteHandler;PNAT_EDITOR_DATA_HANDLERForwardDataHandler;PNAT_EDITOR_DATA_HANDLERReverseDataHandler;PVOIDEditorHandle;PNAT_EDITOR_CREATE_TICKETCreateTicket;PNAT_EDITOR_DELETE_TICKETDeleteTicket;PNAT_EDITOR_DEREGISTERDeregister;PNAT_EDITOR_DISSOCIATE_SESSIONDissociateSession;PNAT_EDITOR_EDIT_SESSIONEditSession;PNAT_EDITOR_QUERY_INFO_SESSIONQueryInfoSession;PNAT_EDITOR_TIMEOUT_SESSIONTimeoutSession;} IP_NAT_REGISTER_EDITOR;"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE–based computers are currently all little-endian, so host byte order stores the bytes in reverse order.",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "IP_NAT_SESSION_MAPPING_STATISTICS",
+  "title": "IP_NAT_SESSION_MAPPING_STATISTICS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms885684(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct {ULONG64BytesForward;ULONG64BytesReverse;ULONG64PacketsForward;ULONG64PacketsReverse;ULONG64RejectsForward;ULONG64RejectsReverse;} IP_NAT_SESSION_MAPPING_STATISTICS;",
+  "code_blocks": [
+   "typedef struct {ULONG64BytesForward;ULONG64BytesReverse;ULONG64PacketsForward;ULONG64PacketsReverse;ULONG64RejectsForward;ULONG64RejectsReverse;} IP_NAT_SESSION_MAPPING_STATISTICS;"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "LogConnectionCreation",
+  "title": "LogConnectionCreation (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886745(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PNAT_LOG_CONNECTION_CREATION) (DWORDLocalAddress,DWORDRemoteAddress,USHORTLocalPort,USHORTRemotePort,UCHARProtocol,BOOLEANInboundConnection);",
+  "code_blocks": [
+   "typedef VOID (*PNAT_LOG_CONNECTION_CREATION) (DWORDLocalAddress,DWORDRemoteAddress,USHORTLocalPort,USHORTRemotePort,UCHARProtocol,BOOLEANInboundConnection);"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "LogConnectionDeletion",
+  "title": "LogConnectionDeletion (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886746(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PNAT_LOG_CONNECTION_DELETION) (DWORDLocalAddress,DWORDRemoteAddress,USHORTLocalPort,USHORTRemotePort,UCHARProtocol,BOOLEANInboundConnection);",
+  "code_blocks": [
+   "typedef VOID (*PNAT_LOG_CONNECTION_DELETION) (DWORDLocalAddress,DWORDRemoteAddress,USHORTLocalPort,USHORTRemotePort,UCHARProtocol,BOOLEANInboundConnection);"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "LogDroppedPacket",
+  "title": "LogDroppedPacket (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886747(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PNAT_LOG_DROPPED_PACKET)(DWORDSourceAddr,DWORDDestAddr,USHORTSourcePort,USHORTDestPort,DWORDPacketSize,BYTEProtocol,DWORDProto1,DWORDProto2,DWORDProto3,DWORDProto4);",
+  "code_blocks": [
+   "typedef VOID (*PNAT_LOG_DROPPED_PACKET)(DWORDSourceAddr,DWORDDestAddr,USHORTSourcePort,USHORTDestPort,DWORDPacketSize,BYTEProtocol,DWORDProto1,DWORDProto2,DWORDProto3,DWORDProto4);"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "LogInit",
+  "title": "LogInit (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886748(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PNAT_LOG_INIT) ();",
+  "code_blocks": [
+   "typedef VOID (*PNAT_LOG_INIT) ();"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "QueryInfoSession",
+  "title": "QueryInfoSession (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886786(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS QueryInfoSession(PVOIDSessionHandle,PULONGPrivateAddress,PUSHORTPrivatePort,PULONGRemoteAddress,PUSHORTRemotePort,PULONGPublicAddress,PUSHORTPublicPort,PIP_NAT_SESSION_MAPPING_STATISTICSStatistics)",
+  "code_blocks": [
+   "NTSTATUS QueryInfoSession(PVOIDSessionHandle,PULONGPrivateAddress,PUSHORTPrivatePort,PULONGRemoteAddress,PUSHORTRemotePort,PULONGPublicAddress,PUSHORTPublicPort,PIP_NAT_SESSION_MAPPING_STATISTICSStatistics)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "RegisterEditor",
+  "title": "RegisterEditor (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms886796(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS RegisterEditor(PIP_NAT_REGISTER_EDITORRegisterContext)",
+  "code_blocks": [
+   "NTSTATUS RegisterEditor(PIP_NAT_REGISTER_EDITORRegisterContext)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "TimeoutSession",
+  "title": "TimeoutSession (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa450941(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS TimeoutSession(PVOIDEditorHandle,PVOIDSessionHandle)",
+  "code_blocks": [
+   "NTSTATUS TimeoutSession(PVOIDEditorHandle,PVOIDSessionHandle)"
+  ],
+  "requirements": {
+   "header": "Natedit.h",
+   "library": "Coredll.dll",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "CEL_BOOT_TIME",
+  "title": "CEL_BOOT_TIME (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488770(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CEL_BOOT_TIME { DWORD dwAction; WCHAR szName[0]; } CEL_BOOT_TIME, *PCEL_BOOT_TIME;",
+  "code_blocks": [
+   "typedef struct _CEL_BOOT_TIME { DWORD dwAction; WCHAR szName[0]; } CEL_BOOT_TIME, *PCEL_BOOT_TIME;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_CRITSEC_DELETE",
+  "title": "CEL_CRITSEC_DELETE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488553(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_CRITSEC_DELETE { HANDLE hCS; } CEL_CRITSEC_DELETE, *PCEL_CRITSEC_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_CRITSEC_DELETE { HANDLE hCS; } CEL_CRITSEC_DELETE, *PCEL_CRITSEC_DELETE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_CRITSEC_ENTER",
+  "title": "CEL_CRITSEC_ENTER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488566(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_CRITSEC_ENTER { HANDLE hCS; HANDLE hOwnerThread; } CEL_CRITSEC_ENTER, *PCEL_CRITSEC_ENTER;",
+  "code_blocks": [
+   "typedef struct __CEL_CRITSEC_ENTER { HANDLE hCS; HANDLE hOwnerThread; } CEL_CRITSEC_ENTER, *PCEL_CRITSEC_ENTER;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_CRITSEC_INIT",
+  "title": "CEL_CRITSEC_INIT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488206(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_CRITSEC_INIT { HANDLE hCS; } CEL_CRITSEC_INIT, *PCEL_CRITSEC_INIT;",
+  "code_blocks": [
+   "typedef struct __CEL_CRITSEC_INIT { HANDLE hCS; } CEL_CRITSEC_INIT, *PCEL_CRITSEC_INIT;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_CRITSEC_LEAVE",
+  "title": "CEL_CRITSEC_LEAVE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488179(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_CRITSEC_LEAVE { HANDLE hCS; HANDLE hOwnerThread; } CEL_CRITSEC_LEAVE, *PCEL_CRITSEC_LEAVE;",
+  "code_blocks": [
+   "typedef struct __CEL_CRITSEC_LEAVE { HANDLE hCS; HANDLE hOwnerThread; } CEL_CRITSEC_LEAVE, *PCEL_CRITSEC_LEAVE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_DATA_LOSS",
+  "title": "CEL_DATA_LOSS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487975(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_DATA_LOSS { DWORD dwBytes; } CEL_DATA_LOSS, *PCEL_DATA_LOSS;",
+  "code_blocks": [
+   "typedef struct __CEL_DATA_LOSS { DWORD dwBytes; } CEL_DATA_LOSS, *PCEL_DATA_LOSS;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_DEBUG_MSG",
+  "title": "CEL_DEBUG_MSG (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488213(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_DEBUG_MSG { DWORD pid; DWORD tid; WCHAR szMessage[0]; } CEL_CEL_DEBUG_MSG, *PCEL_CEL_DEBUG_MSG;",
+  "code_blocks": [
+   "typedef struct __CEL_DEBUG_MSG { DWORD pid; DWORD tid; WCHAR szMessage[0]; } CEL_CEL_DEBUG_MSG, *PCEL_CEL_DEBUG_MSG;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_CLOSE",
+  "title": "CEL_EVENT_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488190(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_CLOSE { HANDLE hEvent; } CEL_EVENT_CLOSE, *PCEL_EVENT_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_CLOSE { HANDLE hEvent; } CEL_EVENT_CLOSE, *PCEL_EVENT_CLOSE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_CREATE",
+  "title": "CEL_EVENT_CREATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488634(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_CREATE { HANDLE hEvent; DWORD fManual:1; DWORD fInitialState:1; DWORD fCreate:1; DWORD dwReserved:29; WCHAR szName[0]; } CEL_EVENT1, *PCEL_EVENT1;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_CREATE { HANDLE hEvent; DWORD fManual:1; DWORD fInitialState:1; DWORD fCreate:1; DWORD dwReserved:29; WCHAR szName[0]; } CEL_EVENT1, *PCEL_EVENT1;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_DELETE",
+  "title": "CEL_EVENT_DELETE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487946(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_DELETE { HANDLE hEvent; } CEL_EVENT_DELETE, *PCEL_EVENT_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_DELETE { HANDLE hEvent; } CEL_EVENT_DELETE, *PCEL_EVENT_DELETE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_PULSE",
+  "title": "CEL_EVENT_PULSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487956(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_PULSE { HANDLE hEvent; } CEL_EVENT_PULSE, *PCEL_EVENT_PULSE;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_PULSE { HANDLE hEvent; } CEL_EVENT_PULSE, *PCEL_EVENT_PULSE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_RESET",
+  "title": "CEL_EVENT_RESET (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488006(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_RESET { HANDLE hEvent; } CEL_EVENT_RESET, *PCEL_EVENT_RESET;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_RESET { HANDLE hEvent; } CEL_EVENT_RESET, *PCEL_EVENT_RESET;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EVENT_SET",
+  "title": "CEL_EVENT_SET (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488633(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EVENT_SET { HANDLE hEvent; } CEL_EVENT_SET, *PCEL_EVENT_SET;",
+  "code_blocks": [
+   "typedef struct __CEL_EVENT_SET { HANDLE hEvent; } CEL_EVENT_SET, *PCEL_EVENT_SET;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EXTRA_MODULE_INFO",
+  "title": "CEL_EXTRA_MODULE_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488774(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EXTRA_MODULE_INFO { HANDLE hModule; DWORD dwVMLen; DWORD dwModuleFlags; DWORD dwOID; WCHAR szFullPath[0]; } CEL_EXTRA_MODULE_INFO, *PCEL_EXTRA_MODULE_INFO;",
+  "code_blocks": [
+   "typedef struct __CEL_EXTRA_MODULE_INFO { HANDLE hModule; DWORD dwVMLen; DWORD dwModuleFlags; DWORD dwOID; WCHAR szFullPath[0]; } CEL_EXTRA_MODULE_INFO, *PCEL_EXTRA_MODULE_INFO;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "For Windows Embedded CE, the OID is nonzero, the full path will not be provided.",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_EXTRA_PROCESS_INFO",
+  "title": "CEL_EXTRA_PROCESS_INFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487961(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_EXTRA_PROCESS_INFO { HANDLE hProcess; DWORD dwCodeBase DWORD dwVMLen; DWORD dwOID; WCHAR szFullPath[0]; } CEL_EXTRA_PROCESS_INFO, *PCEL_EXTRA_PROCESS_INFO;",
+  "code_blocks": [
+   "typedef struct __CEL_EXTRA_PROCESS_INFO { HANDLE hProcess; DWORD dwCodeBase DWORD dwVMLen; DWORD dwOID; WCHAR szFullPath[0]; } CEL_EXTRA_PROCESS_INFO, *PCEL_EXTRA_PROCESS_INFO;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "If the OID is nonzero, the full path will not be provided.** For Windows Embedded CE, use the OID and the CREATE_SYSTEMGUID macro to call CeOidGetInfoEx2 (CEDB) to obtain the full path and other information about the file.**",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEADER",
+  "title": "CEL_HEADER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488389(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEADER { DWORD Length:16; DWORD ID:14; DWORD Reserved:1; DWORD fTimeStamp:1; } CEL_HEADER, *PCEL_HEADER;",
+  "code_blocks": [
+   "typedef struct __CEL_HEADER { DWORD Length:16; DWORD ID:14; DWORD Reserved:1; DWORD fTimeStamp:1; } CEL_HEADER, *PCEL_HEADER;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_ALLOC",
+  "title": "CEL_HEAP_ALLOC (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488571(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_ALLOC { HANDLE hHeap; DWORD dwFlags; DWORD dwBytes; DWORD lpMem; DWORD dwTID; DWORD dwPID; DWORD dwCallerPID; DWORD adwStackTrace[0]; } CEL_HEAP_ALLOC, *PCEL_HEAP_ALLOC;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_ALLOC { HANDLE hHeap; DWORD dwFlags; DWORD dwBytes; DWORD lpMem; DWORD dwTID; DWORD dwPID; DWORD dwCallerPID; DWORD adwStackTrace[0]; } CEL_HEAP_ALLOC, *PCEL_HEAP_ALLOC;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_CREATE",
+  "title": "CEL_HEAP_CREATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488643(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_CREATE { DWORD dwOptions; DWORD dwInitSize; DWORD dwMaxSize; HANDLE hHeap; DWORD dwTID; DWORD dwPID; } CEL_HEAP_CREATE, *PCEL_HEAP_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_CREATE { DWORD dwOptions; DWORD dwInitSize; DWORD dwMaxSize; HANDLE hHeap; DWORD dwTID; DWORD dwPID; } CEL_HEAP_CREATE, *PCEL_HEAP_CREATE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_DESTROY",
+  "title": "CEL_HEAP_DESTROY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488212(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_DESTROY { HANDLE hHeap; DWORD dwTID; DWORD dwPID; } CEL_HEAP_DESTROY, *PCEL_HEAP_DESTROY;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_DESTROY { HANDLE hHeap; DWORD dwTID; DWORD dwPID; } CEL_HEAP_DESTROY, *PCEL_HEAP_DESTROY;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_FREE",
+  "title": "CEL_HEAP_FREE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488360(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_FREE { HANDLE hHeap; DWORD dwFlags; DWORD lpMem; DWORD dwTID; DWORD dwPID; DWORD dwCallerPID; DWORD adwStackTrace[0]; } CEL_HEAP_FREE, *PCEL_HEAP_FREE;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_FREE { HANDLE hHeap; DWORD dwFlags; DWORD lpMem; DWORD dwTID; DWORD dwPID; DWORD dwCallerPID; DWORD adwStackTrace[0]; } CEL_HEAP_FREE, *PCEL_HEAP_FREE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_HEAP_REALLOC",
+  "title": "CEL_HEAP_REALLOC (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488647(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_HEAP_REALLOC { HANDLE hHeap; DWORD dwFlags; DWORD dwBytes; DWORD lpMemOld; DWORD lpMem; DWORD dwTID; DWORD dwPID; DWORD dwCallerPID; DWORD adwStackTrace[0]; } CEL_HEAP_REALLOC, *PCEL_HEAP_REALLOC;",
+  "code_blocks": [
+   "typedef struct __CEL_HEAP_REALLOC { HANDLE hHeap; DWORD dwFlags; DWORD dwBytes; DWORD lpMemOld; DWORD lpMem; DWORD dwTID; DWORD dwPID; DWORD dwCallerPID; DWORD adwStackTrace[0]; } CEL_HEAP_REALLOC, *PCEL_HEAP_REALLOC;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_INTERRUPTS",
+  "title": "CEL_INTERRUPTS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488029(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_INTERRUPTS { DWORD dwDiscarded; CEL_INT_DATA IntData[0]; } CEL_INTERRUPTS, *PCEL_INTERRUPTS;",
+  "code_blocks": [
+   "typedef struct __CEL_INTERRUPTS { DWORD dwDiscarded; CEL_INT_DATA IntData[0]; } CEL_INTERRUPTS, *PCEL_INTERRUPTS;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_INT_DATA",
+  "title": "CEL_INT_DATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488210(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_INT_DATA { DWORD dwTimeStamp; WORD wSysIntr; WORD wNestingLevel; } CEL_INT_DATA, *PCEL_INT_DATA;",
+  "code_blocks": [
+   "typedef __CEL_INT_DATA { DWORD dwTimeStamp; WORD wSysIntr; WORD wNestingLevel; } CEL_INT_DATA, *PCEL_INT_DATA;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_LOG_MARKER",
+  "title": "CEL_LOG_MARKER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488782(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_LOG_MARKER { DWORD dwFrequency; DWORD dwDefaultQuantum; DWORD dwVersion; } CEL_LOG_MARKER, *PCEL_LOG_MARKER;",
+  "code_blocks": [
+   "typedef struct __CEL_LOG_MARKER { DWORD dwFrequency; DWORD dwDefaultQuantum; DWORD dwVersion; } CEL_LOG_MARKER, *PCEL_LOG_MARKER;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_CREATE",
+  "title": "CEL_MAPFILE_CREATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488044(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_CREATE { HANDLE hMap; DWORD flProtect; DWORD dwMapFlags; DWORD dwMaxSize; WCHAR szName[0]; } CEL_MAPFILE_CREATE, *PCEL_MAPFILE_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_CREATE { HANDLE hMap; DWORD flProtect; DWORD dwMapFlags; DWORD dwMaxSize; WCHAR szName[0]; } CEL_MAPFILE_CREATE, *PCEL_MAPFILE_CREATE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_DESTROY",
+  "title": "CEL_MAPFILE_DESTROY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488760(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_DESTROY { HANDLE hMap; } CEL_MAPFILE_DESTROY , *PCEL_MAPFILE_DESTROY ;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_DESTROY { HANDLE hMap; } CEL_MAPFILE_DESTROY , *PCEL_MAPFILE_DESTROY ;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_FLUSH",
+  "title": "CEL_MAPFILE_FLUSH (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488425(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_FLUSH { LPVOID lpBaseAddress; DWORD dwLen; WORD wFlushFlags; WORD wNumPages; } CEL_MAPFILE_FLUSH, *PCEL_MAPFILE_FLUSH;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_FLUSH { LPVOID lpBaseAddress; DWORD dwLen; WORD wFlushFlags; WORD wNumPages; } CEL_MAPFILE_FLUSH, *PCEL_MAPFILE_FLUSH;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_VIEW_CLOSE",
+  "title": "CEL_MAPFILE_VIEW_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488589(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_VIEW_CLOSE { HANDLE hMap; LPVOID lpBaseAddress; } CEL_MAPFILE_VIEW_CLOSE, *CEL_MAPFILE_VIEW_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_VIEW_CLOSE { HANDLE hMap; LPVOID lpBaseAddress; } CEL_MAPFILE_VIEW_CLOSE, *CEL_MAPFILE_VIEW_CLOSE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFILE_VIEW_OPEN",
+  "title": "CEL_MAPFILE_VIEW_OPEN (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488407(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MAPFILE_VIEW_OPEN { HANDLE hMap; HANDLE hProcess; DWORD dwDesiredAccess; DWORD dwFileOffset; DWORD dwLen; LPVOID lpBaseAddress; } CEL_MAPFILE_VIEW_OPEN, *CEL_MAPFILE_VIEW_OPEN;",
+  "code_blocks": [
+   "typedef struct __CEL_MAPFILE_VIEW_OPEN { HANDLE hMap; HANDLE hProcess; DWORD dwDesiredAccess; DWORD dwFileOffset; DWORD dwLen; LPVOID lpBaseAddress; } CEL_MAPFILE_VIEW_OPEN, *CEL_MAPFILE_VIEW_OPEN;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MAPFLUSH_TYPE",
+  "title": "CEL_MAPFLUSH_TYPE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488396(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum { CEL_INVALID_MAPFLUSH = 0, CEL_FlushMapSimple = 1, CEL_FlushMapAtomic = 2, CEL_ValidateFile = 3, CEL_FlushMapGather = 4, CEL_NUM_MAPFLUSH_TYPES } CEL_MAPFLUSH_TYPE;",
+  "code_blocks": [
+   "typedef enum { CEL_INVALID_MAPFLUSH = 0, CEL_FlushMapSimple = 1, CEL_FlushMapAtomic = 2, CEL_ValidateFile = 3, CEL_FlushMapGather = 4, CEL_NUM_MAPFLUSH_TYPES } CEL_MAPFLUSH_TYPE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MEMTRACK_BASELINE",
+  "title": "CEL_MEMTRACK_BASELINE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488775(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MEMTRACK_BASELINE { DWORD dwReserved; } CEL_MEMTRACK_BASELINE, *PCEL_MEMTRACK_BASELINE;",
+  "code_blocks": [
+   "typedef struct __CEL_MEMTRACK_BASELINE { DWORD dwReserved; } CEL_MEMTRACK_BASELINE, *PCEL_MEMTRACK_BASELINE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MODULE_FREE",
+  "title": "CEL_MODULE_FREE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488936(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_MODULE_FREE { HANDLE hProcess; HANDLE hModule; } CEL_MODULE_FREE, *PCEL_MODULE_FREE;",
+  "code_blocks": [
+   "typedef __CEL_MODULE_FREE { HANDLE hProcess; HANDLE hModule; } CEL_MODULE_FREE, *PCEL_MODULE_FREE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "In Windows CE 5.0, CEL_MODULE_FREE is logged each time a process unloads the module for the last time.",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MODULE_LOAD",
+  "title": "CEL_MODULE_LOAD (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488239(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_MODULE_LOAD { HANDLE hProcess; HANDLE hModule; DWORD dwBase; WCHAR szName[0]; } CEL_MODULE_LOAD, *PCEL_MODULE_LOAD;",
+  "code_blocks": [
+   "typedef __CEL_MODULE_LOAD { HANDLE hProcess; HANDLE hModule; DWORD dwBase; WCHAR szName[0]; } CEL_MODULE_LOAD, *PCEL_MODULE_LOAD;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MODULE_REFERENCES",
+  "title": "CEL_MODULE_REFERENCES (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488559(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MODULE_REFERENCES { HANDLE hModule; CEL_PROCESS_REFCOUNT ref[1]; } CEL_MODULE_REFERENCES, *PCEL_MODULE_REFERENCES;",
+  "code_blocks": [
+   "typedef struct __CEL_MODULE_REFERENCES { HANDLE hModule; CEL_PROCESS_REFCOUNT ref[1]; } CEL_MODULE_REFERENCES, *PCEL_MODULE_REFERENCES;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MUTEX_CLOSE",
+  "title": "CEL_MUTEX_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488015(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MUTEX_CLOSE { HANDLE hMutex; } CEL_MUTEX_CLOSE, *PCEL_MUTEX_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_MUTEX_CLOSE { HANDLE hMutex; } CEL_MUTEX_CLOSE, *PCEL_MUTEX_CLOSE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MUTEX_CREATE",
+  "title": "CEL_MUTEX_CREATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488397(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MUTEX_CREATE { HANDLE hMutex; WCHAR szName[0]; } CEL_MUTEX_CREATE, *PCEL_MUTEX_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_MUTEX_CREATE { HANDLE hMutex; WCHAR szName[0]; } CEL_MUTEX_CREATE, *PCEL_MUTEX_CREATE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MUTEX_DELETE",
+  "title": "CEL_MUTEX_DELETE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488359(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_MUTEX_DELETE { HANDLE hMutex; } CEL_MUTEX_DELETE, *PCEL_MUTEX_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_MUTEX_DELETE { HANDLE hMutex; } CEL_MUTEX_DELETE, *PCEL_MUTEX_DELETE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_MUTEX_RELEASE",
+  "title": "CEL_MUTEX_RELEASE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488424(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_MUTEX_RELEASE { HANDLE hMutex; } CEL_MUTEX_RELEASE, *PCEL_MUTEX_RELEASE;",
+  "code_blocks": [
+   "typedef __CEL_MUTEX_RELEASE { HANDLE hMutex; } CEL_MUTEX_RELEASE, *PCEL_MUTEX_RELEASE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_CLOSE",
+  "title": "CEL_PROCESS_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488224(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_CLOSE { HANDLE hProcess; } CEL_PROCESS_CLOSE, *PCEL_PROCESS_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_CLOSE { HANDLE hProcess; } CEL_PROCESS_CLOSE, *PCEL_PROCESS_CLOSE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_CREATE",
+  "title": "CEL_PROCESS_CREATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488001(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_CREATE { HANDLE hProcess; DWORD dwVMBase; WCHAR szName[0]; } CEL_PROCESS_CREATE, *PCEL_PROCESS_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_CREATE { HANDLE hProcess; DWORD dwVMBase; WCHAR szName[0]; } CEL_PROCESS_CREATE, *PCEL_PROCESS_CREATE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_DELETE",
+  "title": "CEL_PROCESS_DELETE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488598(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_DELETE { HANDLE hProcess; } CEL_PROCESS_DELETE, *PCEL_PROCESS_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_DELETE { HANDLE hProcess; } CEL_PROCESS_DELETE, *PCEL_PROCESS_DELETE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_REFCOUNT",
+  "title": "CEL_PROCESS_REFCOUNT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488217(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_REFCOUNT { HANDLE hProcess; DWORD dwRefCount } CEL_PROCESS_REFCOUNT, *PCEL_PROCESS_REFCOUNT;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_REFCOUNT { HANDLE hProcess; DWORD dwRefCount } CEL_PROCESS_REFCOUNT, *PCEL_PROCESS_REFCOUNT;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_PROCESS_TERMINATE",
+  "title": "CEL_PROCESS_TERMINATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488226(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_PROCESS_TERMINATE { HANDLE hProcess; } CEL_PROCESS_TERMINATE, *PCEL_PROCESS_TERMINATE;",
+  "code_blocks": [
+   "typedef struct __CEL_PROCESS_TERMINATE { HANDLE hProcess; } CEL_PROCESS_TERMINATE, *PCEL_PROCESS_TERMINATE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SEM_CLOSE",
+  "title": "CEL_SEM_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488602(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SEM_CLOSE { HANDLE hSem; } CEL_SEM_CLOSE, *PCEL_SEM_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_SEM_CLOSE { HANDLE hSem; } CEL_SEM_CLOSE, *PCEL_SEM_CLOSE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SEM_CREATE",
+  "title": "CEL_SEM_CREATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488759(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SEM_CREATE { HANDLE hSem; DWORD dwInitCount; DWORD dwMaxCount; WCHAR szName[0]; } CEL_SEM_CREATE, *PCEL_SEM_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_SEM_CREATE { HANDLE hSem; DWORD dwInitCount; DWORD dwMaxCount; WCHAR szName[0]; } CEL_SEM_CREATE, *PCEL_SEM_CREATE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SEM_DELETE",
+  "title": "CEL_SEM_DELETE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488905(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SEM_DELETE { HANDLE hSem; } CEL_SEM_DELETE, *PCEL_SEM_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_SEM_DELETE { HANDLE hSem; } CEL_SEM_DELETE, *PCEL_SEM_DELETE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SEM_RELEASE",
+  "title": "CEL_SEM_RELEASE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488788(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SEM_RELEASE { HANDLE hSem; DWORD dwReleaseCount; DWORD dwPreviousCount; } CEL_SEM_RELEASE, *PCEL_SEM_RELEASE;",
+  "code_blocks": [
+   "typedef struct __CEL_SEM_RELEASE { HANDLE hSem; DWORD dwReleaseCount; DWORD dwPreviousCount; } CEL_SEM_RELEASE, *PCEL_SEM_RELEASE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SLEEP",
+  "title": "CEL_SLEEP (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488597(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_SLEEP { DWORD dwTimeout; } CEL_SLEEP, *PCEL_SLEEP;",
+  "code_blocks": [
+   "typedef struct __CEL_SLEEP { DWORD dwTimeout; } CEL_SLEEP, *PCEL_SLEEP;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SYSTEM_INVERT",
+  "title": "CEL_SYSTEM_INVERT (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488594(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_SYSTEM_INVERT { HANDLE hThread; int nPriority; } CEL_SYSTEM_INVERT, *PCEL_SYSTEM_INVERT;",
+  "code_blocks": [
+   "typedef __CEL_SYSTEM_INVERT { HANDLE hThread; int nPriority; } CEL_SYSTEM_INVERT, *PCEL_SYSTEM_INVERT;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SYSTEM_PAGE",
+  "title": "CEL_SYSTEM_PAGE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487952(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_SYSTEM_PAGE { DWORD dwAddress; DWORD fReadWrite:1; DWORD fEndPageIn:1; DWORD fSuccess: 1 DWORD dwReserved: 29 } CEL_SYSTEM_PAGE, *PCEL_SYSTEM_PAGE;",
+  "code_blocks": [
+   "typedef __CEL_SYSTEM_PAGE { DWORD dwAddress; DWORD fReadWrite:1; DWORD fEndPageIn:1; DWORD fSuccess: 1 DWORD dwReserved: 29 } CEL_SYSTEM_PAGE, *PCEL_SYSTEM_PAGE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_SYSTEM_TLB",
+  "title": "CEL_SYSTEM_TLB (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488790(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_SYSTEM_TLB { DWORD dwCount; } CEL_SYSTEM_TLB, *PCEL_SYSTEM_TLB;",
+  "code_blocks": [
+   "typedef __CEL_SYSTEM_TLB { DWORD dwCount; } CEL_SYSTEM_TLB, *PCEL_SYSTEM_TLB;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_CLOSE",
+  "title": "CEL_THREAD_CLOSE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488935(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_CLOSE { HANDLE hThread; } CEL_THREAD_CLOSE, *PCEL_THREAD_CLOSE;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_CLOSE { HANDLE hThread; } CEL_THREAD_CLOSE, *PCEL_THREAD_CLOSE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_CREATE",
+  "title": "CEL_THREAD_CREATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488018(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_CREATE { HANDLE hThread; HANDLE hProcess; HANDLE hModule; DWORD dwStartAddr; int nPriority; WCHAR szName[0]; } CEL_THREAD_CREATE, *PCEL_THREAD_CREATE;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_CREATE { HANDLE hThread; HANDLE hProcess; HANDLE hModule; DWORD dwStartAddr; int nPriority; WCHAR szName[0]; } CEL_THREAD_CREATE, *PCEL_THREAD_CREATE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_DELETE",
+  "title": "CEL_THREAD_DELETE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488229(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_DELETE { HANDLE hThread; } CEL_THREAD_DELETE, *PCEL_THREAD_DELETE;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_DELETE { HANDLE hThread; } CEL_THREAD_DELETE, *PCEL_THREAD_DELETE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_MIGRATE",
+  "title": "CEL_THREAD_MIGRATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488371(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_THREAD_MIGRATE { HANDLE hProcess; DWORD dwReserved; } CEL_THREAD_MIGRATE, *PCEL_THREAD_MIGRATE;",
+  "code_blocks": [
+   "typedef __CEL_THREAD_MIGRATE { HANDLE hProcess; DWORD dwReserved; } CEL_THREAD_MIGRATE, *PCEL_THREAD_MIGRATE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_PRIORITY",
+  "title": "CEL_THREAD_PRIORITY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488628(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_THREAD_PRIORITY { HANDLE hThread; int nPriority; } CEL_THREAD_PRIORITY, *PCEL_THREAD_PRIORITY;",
+  "code_blocks": [
+   "typedef __CEL_THREAD_PRIORITY { HANDLE hThread; int nPriority; } CEL_THREAD_PRIORITY, *PCEL_THREAD_PRIORITY;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_QUANTUM",
+  "title": "CEL_THREAD_QUANTUM (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488198(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef __CEL_THREAD_QUANTUM { HANDLE hThread; DWORD dwQuantum; } CEL_THREAD_QUANTUM, *PCEL_THREAD_QUANTUM;",
+  "code_blocks": [
+   "typedef __CEL_THREAD_QUANTUM { HANDLE hThread; DWORD dwQuantum; } CEL_THREAD_QUANTUM, *PCEL_THREAD_QUANTUM;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_RESUME",
+  "title": "CEL_THREAD_RESUME (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488584(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_RESUME { HANDLE hThread; } CEL_THREAD_RESUME, *PCEL_THREAD_RESUME;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_RESUME { HANDLE hThread; } CEL_THREAD_RESUME, *PCEL_THREAD_RESUME;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_SUSPEND",
+  "title": "CEL_THREAD_SUSPEND (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488420(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_SUSPEND { HANDLE hThread; } CEL_THREAD_SUSPEND, *PCEL_THREAD_SUSPEND;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_SUSPEND { HANDLE hThread; } CEL_THREAD_SUSPEND, *PCEL_THREAD_SUSPEND;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_SWITCH",
+  "title": "CEL_THREAD_SWITCH (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488435(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_SWITCH { HANDLE hThread; } CEL_THREAD_SWITCH, *PCEL_THREAD_SWITCH;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_SWITCH { HANDLE hThread; } CEL_THREAD_SWITCH, *PCEL_THREAD_SWITCH;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_THREAD_TERMINATE",
+  "title": "CEL_THREAD_TERMINATE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488411(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_THREAD_TERMINATE { HANDLE hThread; } CEL_THREAD_TERMINATE, *PCEL_THREAD_TERMINATE;",
+  "code_blocks": [
+   "typedef struct __CEL_THREAD_TERMINATE { HANDLE hThread; } CEL_THREAD_TERMINATE, *PCEL_THREAD_TERMINATE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_VIRTUAL_ALLOC",
+  "title": "CEL_VIRTUAL_ALLOC (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488395(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_VIRTUAL_ALLOC { DWORD dwResult; DWORD dwAddress; DWORD dwSize; DWORD dwType; DWORD dwProtect; BYTE bReserved[0]; } CEL_VIRTUAL_ALLOC, *PCEL_VIRTUAL_ALLOC;",
+  "code_blocks": [
+   "typedef struct __CEL_VIRTUAL_ALLOC { DWORD dwResult; DWORD dwAddress; DWORD dwSize; DWORD dwType; DWORD dwProtect; BYTE bReserved[0]; } CEL_VIRTUAL_ALLOC, *PCEL_VIRTUAL_ALLOC;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_VIRTUAL_COPY",
+  "title": "CEL_VIRTUAL_COPY (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488194(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_VIRTUAL_COPY { DWORD dwDest; DWORD dwSource; DWORD dwSize; DWORD dwProtect; } CEL_VIRTUAL_COPY, *PCEL_VIRTUAL_COPY;",
+  "code_blocks": [
+   "typedef struct __CEL_VIRTUAL_COPY { DWORD dwDest; DWORD dwSource; DWORD dwSize; DWORD dwProtect; } CEL_VIRTUAL_COPY, *PCEL_VIRTUAL_COPY;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_VIRTUAL_FREE",
+  "title": "CEL_VIRTUAL_FREE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488195(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_VIRTUAL_FREE { DWORD dwAddress; DWORD dwSize; DWORD dwType; BYTE bReserved[0]; } CEL_VIRTUAL_FREE, *PCEL_VIRTUAL_FREE;",
+  "code_blocks": [
+   "typedef struct __CEL_VIRTUAL_FREE { DWORD dwAddress; DWORD dwSize; DWORD dwType; BYTE bReserved[0]; } CEL_VIRTUAL_FREE, *PCEL_VIRTUAL_FREE;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CEL_WAIT_MULTI",
+  "title": "CEL_WAIT_MULTI (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488914(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct __CEL_WAIT_MULTI { DWORD dwTimeout; DWORD fWaitAll:1; DWORD dwReserved:31; HANDLE hHandles[0]; } CEL_WAIT_MULTI, *PCEL_WAIT_MULTI;",
+  "code_blocks": [
+   "typedef struct __CEL_WAIT_MULTI { DWORD dwTimeout; DWORD fWaitAll:1; DWORD dwReserved:31; HANDLE hHandles[0]; } CEL_WAIT_MULTI, *PCEL_WAIT_MULTI;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLog Event Identifiers",
+  "title": "CeLog Event Identifiers (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487955(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLog Event Tracking Macros",
+  "title": "CeLog Event Tracking Macros (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487967(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "#include <celog.h> LONG lData[10]; // Initialization not shown here... WORD wMyFlag = 1; CELOGDATA(1, CELID_RAW_LONG, &lData, (WORD)(10*sizeof(LONG)), 1, CELZONE_MISC); CELOGDATAFLAGGED(1, CELID_RAW_LONG, &lData, (WORD)(10*sizeof(LONG)), 1, CELZONE_MISC, wMyFlag);",
+  "code_blocks": [
+   "#include <celog.h> LONG lData[10]; // Initialization not shown here... WORD wMyFlag = 1; CELOGDATA(1, CELID_RAW_LONG, &lData, (WORD)(10*sizeof(LONG)), 1, CELZONE_MISC); CELOGDATAFLAGGED(1, CELID_RAW_LONG, &lData, (WORD)(10*sizeof(LONG)), 1, CELZONE_MISC, wMyFlag);"
+  ],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLog Pre-Defined Data Types",
+  "title": "CeLog Pre-Defined Data Types (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488011(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLog Zones",
+  "title": "CeLog Zones (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488414(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": null,
+  "code_blocks": [],
+  "requirements": {},
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogData",
+  "title": "CeLogData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488639(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void CeLogData( BOOL fTimeStamp, WORD wID, PVOID pData, WORD wLen, DWORD dwZoneUser, DWORD dwZoneCE, WORD wFlag, BOOL fFlagged );",
+  "code_blocks": [
+   "void CeLogData( BOOL fTimeStamp, WORD wID, PVOID pData, WORD wLen, DWORD dwZoneUser, DWORD dwZoneCE, WORD wFlag, BOOL fFlagged );"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogGetZones",
+  "title": "CeLogGetZones (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488351(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeLogGetZones( LPDWORD lpdwZoneUser, LPDWORD lpdwZoneCE, LPDWORD lpdwZoneProcess, LPDWORD lpdwAvailableZones );",
+  "code_blocks": [
+   "BOOL CeLogGetZones( LPDWORD lpdwZoneUser, LPDWORD lpdwZoneCE, LPDWORD lpdwZoneProcess, LPDWORD lpdwAvailableZones );"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogInterrupt",
+  "title": "CeLogInterrupt (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488562(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void CeLogInterrupt( DWORD dwlogvalue );",
+  "code_blocks": [
+   "void CeLogInterrupt( DWORD dwlogvalue );"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogMsg",
+  "title": "CeLogMsg (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488366(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void CeLogMsg( WCHAR* format [, argument] );",
+  "code_blocks": [
+   "void CeLogMsg( WCHAR* format [, argument] );"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogQueryZones",
+  "title": "CeLogQueryZones (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488630(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeLogQueryZones( LPDWORD lpdwZoneUser, LPDWORD lpdwZoneCE, LPDWORD ldpwZoneProcess );",
+  "code_blocks": [
+   "BOOL CeLogQueryZones( LPDWORD lpdwZoneUser, LPDWORD lpdwZoneCE, LPDWORD ldpwZoneProcess );"
+  ],
+  "requirements": {
+   "header": "Developer",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogReSync",
+  "title": "CeLogReSync (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488638(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeLogReSync (void);",
+  "code_blocks": [
+   "BOOL CeLogReSync (void);"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "CeLogSetZones",
+  "title": "CeLogSetZones (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487969(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "void CeLogSetZones( DWORD dwZoneUser, DWORD dwZoneCE, DWORD dwZoneProcess );",
+  "code_blocks": [
+   "void CeLogSetZones( DWORD dwZoneUser, DWORD dwZoneCE, DWORD dwZoneProcess );"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "MAPHEADER",
+  "title": "MAPHEADER (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488608(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _MAPHEADER { // // VERSION 1 DATA DWORD dwBufSize; LPBYTE pWrite; LPBYTE pRead; BOOL fSetEvent; BYTE bReserved; DWORD dwLostBytes; // // VERSION 2 DATA DWORD dwVersion; DWORD dwBufferStart; DWORD dwWriteOffset; DWORD dwReadOffset; } MAPHEADER, *PMAPHEADER;",
+  "code_blocks": [
+   "typedef struct _MAPHEADER { // // VERSION 1 DATA DWORD dwBufSize; LPBYTE pWrite; LPBYTE pRead; BOOL fSetEvent; BYTE bReserved; DWORD dwLostBytes; // // VERSION 2 DATA DWORD dwVersion; DWORD dwBufferStart; DWORD dwWriteOffset; DWORD dwReadOffset; } MAPHEADER, *PMAPHEADER;"
+  ],
+  "requirements": {
+   "header": "celog.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "This structure specifies different members for different versions of Windows Embedded CE. Version 1 data applies to all versions of Windows Embedded CE. ** Windows Embedded CE 6.0 and later versions support version 2 data of the structure.",
+  "area": "core-os",
+  "sub": "CeLog Event Tracking Reference"
+ },
+ {
+  "name": "AsynchronousBuffer_t",
+  "title": "AsynchronousBuffer_t (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487986(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "AsynchronousBuffer_t();",
+  "code_blocks": [
+   "AsynchronousBuffer_t();",
+   "AsynchronousBuffer_t( PVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+   "AsynchronousBuffer_t( PCVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+   "~AsynchronousBuffer_t();",
+   "HRESULT Free();",
+   "HRESULT Allocate( PVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );"
+  ],
+  "requirements": {
+   "header": "marshal.hpp",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "CeAllocAsynchronousBuffer",
+  "title": "CeAllocAsynchronousBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488604(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CeAllocAsynchronousBuffer( PVOID * ppDestAsyncMarshalled, PVOID pSrcSyncMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+  "code_blocks": [
+   "HRESULT CeAllocAsynchronousBuffer( PVOID * ppDestAsyncMarshalled, PVOID pSrcSyncMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "CeAllocDuplicateBuffer",
+  "title": "CeAllocDuplicateBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488789(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CeAllocDuplicateBuffer( PVOID * ppDestDuplicate, PVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+  "code_blocks": [
+   "HRESULT CeAllocDuplicateBuffer( PVOID * ppDestDuplicate, PVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "CeCloseCallerBuffer",
+  "title": "CeCloseCallerBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488934(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CeCloseCallerBuffer( PVOID pDestMarshalled, PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+  "code_blocks": [
+   "HRESULT CeCloseCallerBuffer( PVOID pDestMarshalled, PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "CeFlushAsynchronousBuffer",
+  "title": "CeFlushAsynchronousBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488374(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CeFlushAsynchronousBuffer( PVOID pDestAsyncMarshalled, PVOID pSrcSyncMarshalled, PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+  "code_blocks": [
+   "HRESULT CeFlushAsynchronousBuffer( PVOID pDestAsyncMarshalled, PVOID pSrcSyncMarshalled, PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "CeFreeAsynchronousBuffer",
+  "title": "CeFreeAsynchronousBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488607(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CeFreeAsynchronousBuffer( PVOID pDestAsyncMarshalled, PVOID pSrcSyncMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+  "code_blocks": [
+   "HRESULT CeFreeAsynchronousBuffer( PVOID pDestAsyncMarshalled, PVOID pSrcSyncMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "CeFreeDuplicateBuffer",
+  "title": "CeFreeDuplicateBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488644(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CeFreeDuplicateBuffer( PVOID pDestDuplicate, PVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+  "code_blocks": [
+   "HRESULT CeFreeDuplicateBuffer( PVOID pDestDuplicate, PVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "CeOpenCallerBuffer",
+  "title": "CeOpenCallerBuffer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488382(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT CeOpenCallerBuffer( PVOID * ppDestMarshalled, PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor BOOL ForceDuplicate );",
+  "code_blocks": [
+   "HRESULT CeOpenCallerBuffer( PVOID * ppDestMarshalled, PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor BOOL ForceDuplicate );"
+  ],
+  "requirements": {
+   "header": "pkfuncs.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "DuplicatedBuffer_t",
+  "title": "DuplicatedBuffer_t (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488791(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DuplicatedBuffer_t();",
+  "code_blocks": [
+   "DuplicatedBuffer_t();",
+   "DuplicatedBuffer_t( PVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+   "DuplicatedBuffer_t( PCVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );",
+   "~DuplicatedBuffer_t();",
+   "HRESULT Free();",
+   "HRESULT Allocate( PVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor );"
+  ],
+  "requirements": {
+   "header": "marshal.hpp",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "MarshalledBuffer_t",
+  "title": "MarshalledBuffer_t (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488570(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "class MarshalledBuffer_t { public: MarshalledBuffer_t() MarshalledBuffer_t() MarshalledBuffer_t( PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE ); MarshalledBuffer_t( PCVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE ); HRESULT Marshal( PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE ); HRESULT Marshal( PCVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE ); HRESULT Flush(); HRESULT Unmarshal(); LPVOID ptr() const; DWORD size() const; };",
+  "code_blocks": [
+   "class MarshalledBuffer_t { public: MarshalledBuffer_t() MarshalledBuffer_t() MarshalledBuffer_t( PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE ); MarshalledBuffer_t( PCVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE ); HRESULT Marshal( PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE ); HRESULT Marshal( PCVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE ); HRESULT Flush(); HRESULT Unmarshal(); LPVOID ptr() const; DWORD size() const; };",
+   "MarshalledBuffer_t(); ~MarshalledBuffer_t();",
+   "MarshalledBuffer_t( PVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE );",
+   "MarshalledBuffer_t( PCVOID pSrcUnmarshalled, DWORD cbSrc, DWORD ArgumentDescriptor, BOOL ForceDuplicate = TRUE, BOOL Asynchronous = FALSE );",
+   "AsynchronousBuffer_t { PVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor };",
+   "AsynchronousBuffer_t { PCVOID pSrcMarshalled, DWORD cbSrc, DWORD ArgumentDescriptor };"
+  ],
+  "requirements": {
+   "header": "marshal.hpp",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "ARG_I_WSTR Input-only Unicode string.",
+  "area": "core-os",
+  "sub": "Kernel Buffer Marshaling Reference"
+ },
+ {
+  "name": "CreateHandler",
+  "title": "CreateHandler (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488445(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS CreateHandler( PVOID EditorContext, ULONG PrivateAddress, USHORT PrivatePort, ULONG PublicAddress, USHORT PublicPort, ULONG RemoteAddress, USHORT RemotePort, PVOID* EditorSessionContextp )",
+  "code_blocks": [
+   "NTSTATUS CreateHandler( PVOID EditorContext, ULONG PrivateAddress, USHORT PrivatePort, ULONG PublicAddress, USHORT PublicPort, ULONG RemoteAddress, USHORT RemotePort, PVOID* EditorSessionContextp )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "CreateTicket",
+  "title": "CreateTicket (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488031(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS CreateTicket( PVOID InterfaceHandle, UCHAR Protocol, ULONG PrivateAddress, USHORT PrivatePort, ULONG RemoteAddress, USHORT RemotePort, PULONG PublicAddress, PUSHORT PublicPort )",
+  "code_blocks": [
+   "NTSTATUS CreateTicket( PVOID InterfaceHandle, UCHAR Protocol, ULONG PrivateAddress, USHORT PrivatePort, ULONG RemoteAddress, USHORT RemotePort, PULONG PublicAddress, PUSHORT PublicPort )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "DataHandler",
+  "title": "DataHandler (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488191(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS DataHandler( PVOID InterfaceHandle, PVOID SessionHandle, PVOID DataHandle, PVOID EditorContext, PVOID EditorSessionContext, PIPRCVBUF RecvBuffer, ULONG DataOffset )",
+  "code_blocks": [
+   "NTSTATUS DataHandler( PVOID InterfaceHandle, PVOID SessionHandle, PVOID DataHandle, PVOID EditorContext, PVOID EditorSessionContext, PIPRCVBUF RecvBuffer, ULONG DataOffset )",
+   "NTSTATUS EditorForwardDataHandler( IN PVOID InterfaceHandle, IN PVOID SessionHandle, IN PVOID DataHandle, IN PVOID EditorContext, IN PVOID EditorSessionContext, IN PIPRCVBUF RecvBuffer, IN ULONG DataOffset ) { #define BUFFER_LEN 64 PIPRCVBUF pRcvBuf = RecvBuffer; TCHAR szTextBuffer[BUFFER_LEN]; while (pRcvBuf) { _sntprintf(szTextBuffer, BUFFER_LEN, TEXT(\" ipr_buf: 0x%X, size: %u\\r\\n\"), pRcvBuf, pRcvBuf->ipr_size); szTextBuffer[BUFFER_LEN-1] = TEXT('\\0'); // Guarantee null-termination OutputDebugString(szTextBuffer); pRcvBuf = pRcvBuf->ipr_next; } return STATUS_SUCCESS; }"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "DeleteHandler",
+  "title": "DeleteHandler (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488399(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS DeleteHandler( PVOID InterfaceHandle, PVOID SessionHandle, PVOID EditorContext, PVOID EditorSessionContext )",
+  "code_blocks": [
+   "NTSTATUS DeleteHandler( PVOID InterfaceHandle, PVOID SessionHandle, PVOID EditorContext, PVOID EditorSessionContext )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "DeleteTicket",
+  "title": "DeleteTicket (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488574(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS DeleteTicket( PVOID InterfaceHandle, ULONG PublicAddress, UCHAR Protocol, USHORT PublicPort, ULONG RemoteAddress, USHORT RemotePort )",
+  "code_blocks": [
+   "NTSTATUS DeleteTicket( PVOID InterfaceHandle, ULONG PublicAddress, UCHAR Protocol, USHORT PublicPort, ULONG RemoteAddress, USHORT RemotePort )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "DisassociateSession",
+  "title": "DisassociateSession (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488779(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS DisassociateSession( PVOID EditorHandle, PVOID SessionHandle )",
+  "code_blocks": [
+   "NTSTATUS DisassociateSession( PVOID EditorHandle, PVOID SessionHandle )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "EditSession",
+  "title": "EditSession (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488177(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS EditSession( PVOID DataHandle, PIPRCVBUF RecvBuffer, ULONG OldDataOffset, ULONG OldDataLength, PUCHAR NewData, ULONG NewDataLength )",
+  "code_blocks": [
+   "NTSTATUS EditSession( PVOID DataHandle, PIPRCVBUF RecvBuffer, ULONG OldDataOffset, ULONG OldDataLength, PUCHAR NewData, ULONG NewDataLength )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "EditorDeregister",
+  "title": "EditorDeregister (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487982(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS EditorDeregister( PVOID EditorHandle )",
+  "code_blocks": [
+   "NTSTATUS EditorDeregister( PVOID EditorHandle )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "EditorInitialize",
+  "title": "EditorInitialize (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487968(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS EditorInitialize( PNAT_REGISTER_EDITOR RegisterEditor )",
+  "code_blocks": [
+   "NTSTATUS EditorInitialize( PNAT_REGISTER_EDITOR RegisterEditor )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "IPRcvBuf",
+  "title": "IPRcvBuf (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488023(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { struct IPRcvBuf* ipr_next; uint ipr_reserved1; uchar* ipr_buffer; uint ipr_size; uint ipr_reserved2; } IPRcvBuf;",
+  "code_blocks": [
+   "typedef struct { struct IPRcvBuf* ipr_next; uint ipr_reserved1; uchar* ipr_buffer; uint ipr_size; uint ipr_reserved2; } IPRcvBuf;"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "IP_NAT_DIRECTION",
+  "title": "IP_NAT_DIRECTION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488393(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "enum IP_NAT_DIRECTION { NatInboundDirection, NatOutboundDirection };",
+  "code_blocks": [
+   "enum IP_NAT_DIRECTION { NatInboundDirection, NatOutboundDirection };"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "IP_NAT_REGISTER_EDITOR",
+  "title": "IP_NAT_REGISTER_EDITOR (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488577(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { ULONG Version; ULONG Flags; UCHAR Protocol; USHORT Port; IP_NAT_DIRECTION Direction; PVOID EditorContext; PNAT_EDITOR_CREATE_HANDLER CreateHandler; PNAT_EDITOR_DELETE_HANDLER DeleteHandler; PNAT_EDITOR_DATA_HANDLER ForwardDataHandler; PNAT_EDITOR_DATA_HANDLER ReverseDataHandler; PVOID EditorHandle; PNAT_EDITOR_CREATE_TICKET CreateTicket; PNAT_EDITOR_DELETE_TICKET DeleteTicket; PNAT_EDITOR_DEREGISTER Deregister; PNAT_EDITOR_DISSOCIATE_SESSION DissociateSession; PNAT_EDITOR_EDIT_SESSION EditSession; PNAT_EDITOR_QUERY_INFO_SESSION QueryInfoSession; PNAT_EDITOR_TIMEOUT_SESSION TimeoutSession; } IP_NAT_REGISTER_EDITOR;",
+  "code_blocks": [
+   "typedef struct { ULONG Version; ULONG Flags; UCHAR Protocol; USHORT Port; IP_NAT_DIRECTION Direction; PVOID EditorContext; PNAT_EDITOR_CREATE_HANDLER CreateHandler; PNAT_EDITOR_DELETE_HANDLER DeleteHandler; PNAT_EDITOR_DATA_HANDLER ForwardDataHandler; PNAT_EDITOR_DATA_HANDLER ReverseDataHandler; PVOID EditorHandle; PNAT_EDITOR_CREATE_TICKET CreateTicket; PNAT_EDITOR_DELETE_TICKET DeleteTicket; PNAT_EDITOR_DEREGISTER Deregister; PNAT_EDITOR_DISSOCIATE_SESSION DissociateSession; PNAT_EDITOR_EDIT_SESSION EditSession; PNAT_EDITOR_QUERY_INFO_SESSION QueryInfoSession; PNAT_EDITOR_TIMEOUT_SESSION TimeoutSession; } IP_NAT_REGISTER_EDITOR;"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE–based computers are currently all little-endian, so host byte order stores the bytes in reverse order.",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "IP_NAT_SESSION_MAPPING_STATISTICS",
+  "title": "IP_NAT_SESSION_MAPPING_STATISTICS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488635(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct { ULONG64 BytesForward; ULONG64 BytesReverse; ULONG64 PacketsForward; ULONG64 PacketsReverse; ULONG64 RejectsForward; ULONG64 RejectsReverse; } IP_NAT_SESSION_MAPPING_STATISTICS;",
+  "code_blocks": [
+   "typedef struct { ULONG64 BytesForward; ULONG64 BytesReverse; ULONG64 PacketsForward; ULONG64 PacketsReverse; ULONG64 RejectsForward; ULONG64 RejectsReverse; } IP_NAT_SESSION_MAPPING_STATISTICS;"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "LogConnectionCreation",
+  "title": "LogConnectionCreation (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488586(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PNAT_LOG_CONNECTION_CREATION) ( DWORD LocalAddress, DWORD RemoteAddress, USHORT LocalPort, USHORT RemotePort, UCHAR Protocol, BOOLEAN InboundConnection );",
+  "code_blocks": [
+   "typedef VOID (*PNAT_LOG_CONNECTION_CREATION) ( DWORD LocalAddress, DWORD RemoteAddress, USHORT LocalPort, USHORT RemotePort, UCHAR Protocol, BOOLEAN InboundConnection );"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "LogConnectionDeletion",
+  "title": "LogConnectionDeletion (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488387(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PNAT_LOG_CONNECTION_DELETION) ( DWORD LocalAddress, DWORD RemoteAddress, USHORT LocalPort, USHORT RemotePort, UCHAR Protocol, BOOLEAN InboundConnection );",
+  "code_blocks": [
+   "typedef VOID (*PNAT_LOG_CONNECTION_DELETION) ( DWORD LocalAddress, DWORD RemoteAddress, USHORT LocalPort, USHORT RemotePort, UCHAR Protocol, BOOLEAN InboundConnection );"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "LogDroppedPacket",
+  "title": "LogDroppedPacket (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488367(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PNAT_LOG_DROPPED_PACKET)( DWORD SourceAddr, DWORD DestAddr, USHORT SourcePort, USHORT DestPort, DWORD PacketSize, BYTE Protocol, DWORD Proto1, DWORD Proto2, DWORD Proto3, DWORD Proto4 );",
+  "code_blocks": [
+   "typedef VOID (*PNAT_LOG_DROPPED_PACKET)( DWORD SourceAddr, DWORD DestAddr, USHORT SourcePort, USHORT DestPort, DWORD PacketSize, BYTE Protocol, DWORD Proto1, DWORD Proto2, DWORD Proto3, DWORD Proto4 );"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "LogInit",
+  "title": "LogInit (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488567(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef VOID (*PNAT_LOG_INIT) ();",
+  "code_blocks": [
+   "typedef VOID (*PNAT_LOG_INIT) ();"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "QueryInfoSession",
+  "title": "QueryInfoSession (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488157(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS QueryInfoSession( PVOID SessionHandle, PULONG PrivateAddress, PUSHORT PrivatePort, PULONG RemoteAddress, PUSHORT RemotePort, PULONG PublicAddress, PUSHORT PublicPort, PIP_NAT_SESSION_MAPPING_STATISTICS Statistics )",
+  "code_blocks": [
+   "NTSTATUS QueryInfoSession( PVOID SessionHandle, PULONG PrivateAddress, PUSHORT PrivatePort, PULONG RemoteAddress, PUSHORT RemotePort, PULONG PublicAddress, PUSHORT PublicPort, PIP_NAT_SESSION_MAPPING_STATISTICS Statistics )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "RegisterEditor",
+  "title": "RegisterEditor (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488599(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS RegisterEditor( PIP_NAT_REGISTER_EDITOR RegisterContext )",
+  "code_blocks": [
+   "NTSTATUS RegisterEditor( PIP_NAT_REGISTER_EDITOR RegisterContext )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "TimeoutSession",
+  "title": "TimeoutSession (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488438(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "NTSTATUS TimeoutSession( PVOID EditorHandle, PVOID SessionHandle )",
+  "code_blocks": [
+   "NTSTATUS TimeoutSession( PVOID EditorHandle, PVOID SessionHandle )"
+  ],
+  "requirements": {
+   "header": "natedit.h",
+   "library": "coredll.dll",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "Network Address Translation Reference"
+ },
+ {
+  "name": "NOTIFICATIONCONDITION",
+  "title": "NOTIFICATIONCONDITION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488645(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagNOTIFICATIONCONDITION { REG_COMPARISONTYPE ctComparisonType; DWORD dwMask; union TargetValue { LPCTSTR psz; DWORD dw; }; } NOTIFICATIONCONDITION;",
+  "code_blocks": [
+   "typedef struct tagNOTIFICATIONCONDITION { REG_COMPARISONTYPE ctComparisonType; DWORD dwMask; union TargetValue { LPCTSTR psz; DWORD dw; }; } NOTIFICATIONCONDITION;"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "NOTIFYMSGQUEUEPACKET",
+  "title": "NOTIFYMSGQUEUEPACKET (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488220(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct tagNOTIFYMSGQUEUEPACKET { HREGNOTIFY hNotify; DWORD dwUserData; UINT cbData; BYTE rgData[1]; } NOTIFYMSGQUEUEPACKET;",
+  "code_blocks": [
+   "typedef struct tagNOTIFYMSGQUEUEPACKET { HREGNOTIFY hNotify; DWORD dwUserData; UINT cbData; BYTE rgData[1]; } NOTIFYMSGQUEUEPACKET;"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "REGISTRYNOTIFYCALLBACK Structure",
+  "title": "REGISTRYNOTIFYCALLBACK Structure (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488033(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef void REGISTRYNOTIFYCALLBACK( HREGNOTIFY hNotify, DWORD dwUserData, const PBYTE pData, const UINT cbData );",
+  "code_blocks": [
+   "typedef void REGISTRYNOTIFYCALLBACK( HREGNOTIFY hNotify, DWORD dwUserData, const PBYTE pData, const UINT cbData );"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "However, this type of notification is transient.",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "REG_COMPARISONTYPE",
+  "title": "REG_COMPARISONTYPE (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488568(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum tagREG_COMPARISONTYPE { REG_CT_ANYCHANGE, REG_CT_EQUAL, REG_CT_NOT_EQUAL, REG_CT_GREATER, REG_CT_GREATER_OR_EQUAL, REG_CT_LESS, REG_CT_LESS_OR_EQUAL, REG_CT_CONTAINS, REG_CT_STARTS_WITH, REG_CT_ENDS_WITH } REG_COMPARISONTYPE;",
+  "code_blocks": [
+   "typedef enum tagREG_COMPARISONTYPE { REG_CT_ANYCHANGE, REG_CT_EQUAL, REG_CT_NOT_EQUAL, REG_CT_GREATER, REG_CT_GREATER_OR_EQUAL, REG_CT_LESS, REG_CT_LESS_OR_EQUAL, REG_CT_CONTAINS, REG_CT_STARTS_WITH, REG_CT_ENDS_WITH } REG_COMPARISONTYPE;"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryBatchNotification",
+  "title": "RegistryBatchNotification (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488009(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryBatchNotificaton( HREGNOTIFY hNotify, DWORD dwMillisecondsIdle, DWORD dwMillesecondsMax );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryBatchNotificaton( HREGNOTIFY hNotify, DWORD dwMillisecondsIdle, DWORD dwMillesecondsMax );"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryCloseNotification",
+  "title": "RegistryCloseNotification (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488922(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryCloseNotification( HREGNOTIFY hNotify );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryCloseNotification( HREGNOTIFY hNotify );"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryDeleteValue",
+  "title": "RegistryDeleteValue (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488640(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryDeleteValue( HKEY hKey LPCTSTR pszSubKey, LPCTSTR pszValueName );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryDeleteValue( HKEY hKey LPCTSTR pszSubKey, LPCTSTR pszValueName );",
+   "void ClearRegistrySettings() { HKEY hkey; // Clear one value from HKEY_LOCAL_MACHINE. RegistryDeleteValue(HKEY_LOCAL_MACHINE, TEXT(\"Software\\\\MyApplication\"), TEXT(\"SystemValue\")); // Re-use the HKEY_CURRENT_USER handle. 0, 0, &hkey); RegistryDeleteValue(hkey, NULL, TEXT(\"UserValue1\")); RegistryDeleteValue(hkey, NULL, TEXT(\"UserValue2\")); // Clean up RegCloseKey(hkey); }"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryGetDWORD",
+  "title": "RegistryGetDWORD (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488582(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryGetDWORD( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, DWORD* pdwData );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryGetDWORD( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, DWORD* pdwData );",
+   "DWORD GetNumberOfBlueToothConnections() { DWORD cBluetoothConnections = 0; HRESULT hr; hr = RegistryGetDWORD(SN_CONNECTIONSBLUETOOTHCOUNT_ROOT, SN_CONNECTIONSBLUETOOTHCOUNT_PATH, SN_CONNECTIONSBLUETOOTHCOUNT_VALUE, &cBluetoothConnections); if (SUCCEEDED(hr)) return cBluetoothConnections; else return 0;"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryGetString",
+  "title": "RegistryGetString (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488928(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryGetString( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, LPTSTR pszData, UINT cchData );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryGetString( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, LPTSTR pszData, UINT cchData );"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryNotifyApp",
+  "title": "RegistryNotifyApp (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488776(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryNotifyApp( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, LPCTSTR pszName, LPCTSTR pszApp, LPCTSTR pszClass, LPCTSTR pszWindow, UINT msg, DWORD dwFlags, NOTIFICATIONCONDITION* pCondition );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryNotifyApp( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, LPCTSTR pszName, LPCTSTR pszApp, LPCTSTR pszClass, LPCTSTR pszWindow, UINT msg, DWORD dwFlags, NOTIFICATIONCONDITION* pCondition );",
+   "TCHAR szApp[] = TEXT(\"\\\"\\\\Program Files\\\\myApp\\\\myApp.exe\\\"\");",
+   "HRESULT RegistryNotifyAppExample() { NOTIFICATIONCONDITION nc; HRESULT hr = S_OK; // The notification name must be unique across the device. // It is considered good practice to prefix this name with the name of your application. TCHAR szNotificationName[] = TEXT(\"myAppCradled\"); TCHAR szAppName[] = TEXT(\"myApp.exe param1 param2\"); // Receive notifications whenever the device is cradled. nc.ctComparisonType = REG_CT_EQUAL; nc.TargetValue.dw = 1; // Since you are not masking, dwMask must be non-zero for dwords. nc.dwMask = 0xFFFFFFFF; // The application is launched from the command line with: myApp.exe param1 param2 /notify \"myAppCradled\". hr = RegistryNotifyApp(SN_CRADLEPRESENT_ROOT, SN_CRADLEPRESENT_PATH, SN_CRADLEPRESENT_VALUE, szNotificationName, szAppName, NULL, NULL, 0, 0, &nc); // When you are done, call RegistryStopNotification to remove the notification. // hr = RegistryStopNotification(szNotificationName); return hr; }"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryNotifyCallback",
+  "title": "RegistryNotifyCallback (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee487978(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryNotifyCallback( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, REGISTRYNOTIFYCALLBACK pfnRegistryNotifyCallback, DWORD dwUserData, NOTIFICATIONCONDITION * pCondition, HREGNOTIFY * phNotify );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryNotifyCallback( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, REGISTRYNOTIFYCALLBACK pfnRegistryNotifyCallback, DWORD dwUserData, NOTIFICATIONCONDITION * pCondition, HREGNOTIFY * phNotify );",
+   "void AdjustPowerConsumption(HREGNOTIFY hNotify, DWORD dwUserData, const PBYTE pData, const UINT cbData); // Register to be notified of changes to the eighth bit // in SN_POWERBATTERYSTATE_VALUE. The eighth bit is set to one when // the battery is critically low (and set to zero and when it is not). HRESULT RegistryNotifyCallbackExample() { NOTIFICATIONCONDITION nc; HRESULT hr = S_OK; HREGNOTIFY hNotify = NULL; // Initialize the notification structure. // The mask for the eighth bit. nc.dwMask = 0x8; // Receive a notification whenever that bit toggles. nc.ctComparisonType = REG_CT_ANYCHANGE; // dw is ignored for REG_CT_ANYCHANGE. nc.TargetValue.dw = 0; hr = RegistryNotifyCallback(SN_POWERBATTERYSTATE_ROOT, SN_POWERBATTERYSTATE_PATH, SN_POWERBATTERYSTATE_VALUE, AdjustPowerConsumption, 0, &nc, &hNotify); // Close the notification using RegistryCloseNotification when done. // Note that it is alright to call RegistryCloseNotification from the callback function. // hr = RegistryCloseNotification(hNotify); return hr; } // This is the callback function. void AdjustPowerConsumption(HREGNOTIFY hNotify, DWORD dwUserData, const PBYTE pData, const UINT cbData) { DWORD dwCritical; HRESULT hr = S_OK; // pData contains the new value for SN_POWERBATTERYSTATE_VALUE. dwCritical = (*(DWORD*) pData); // Extract the eighth bit. dwCritical = dwCritical & 0x8; critically low. { your statements for preserving energy, here. } // The battery level was critically low, but it is not now. else { // Add your statements for returning to the normal battery state, here. } }",
+   "#include <regext.h> #include \"snapi.h\" const TCHAR c_szPhoneRegistryRootkey[] = TEXT(\"System\\\\State\"); const TCHAR c_szPhoneRegistrySubkey[] = TEXT(\"Phone\"); const TCHAR c_szPhoneSignalStrength[] = TEXT(\"Signal Strength\"); const TCHAR c_szPhoneIncomingCallerNumber[] = TEXT(\"Incoming Caller Number\"); const TCHAR c_szPhoneStatus[] = TEXT(\"Status\"); #define MAX_NOTIF 3 enum NotifType { SignalStrength = 0, IncomingCallerNumber, PhoneRoaming }; HREGNOTIFY g_hRegNotify[ MAX_NOTIF ] ; // The call-back function for Registry Notifications. void RegistryNotifyCallbackFunc(HREGNOTIFY hNotify, DWORD dwUserData, const PBYTE pData, const UINT cbData) { TCHAR szOutput[MAX_PATH]; // Identify the Notification received, based upon the User Data passed in, while registering for the notification. switch( dwUserData ) { case SignalStrength: StringCchPrintf(szOutput, MAX_PATH, _T(\"The Signal Strength is %d\"), (DWORD) *pData); break; case IncomingCallerNumber: StringCchPrintf(szOutput, MAX_PATH, _T(\"The Incoming Caller Number is %s\"), (TCHAR*)pData); break; case PhoneRoaming: { DWORD dw = 0; // Copy the data sent to us into a local buffer. memcpy(&dw, pData, cbData); // Find out if the roaming status has been set by logically ANDing the data with the value 512 (the bitmask for roaming). StringCchPrintf(szOutput, MAX_PATH, _T(\"The Roam Status of the Phone is %s\"), ( dw & SN_PHONEROAMING_BITMASK ) == SN_PHONEROAMING_BITMASK ? _T(\"TRUE\") : _T(\"FALSE\") ); } break; default : break; } OutputDebugString( szOutput ); return; } void RegisterForPhoneNotifications() { HKEY hKey; // Let us open the registry to get a handle to the Phone Registry key. if (S_OK == RegOpenKeyEx(HKEY_LOCAL_MACHINE, c_szPhoneRegistryRootkey, 0, KEY_QUERY_VALUE, &hKey)) { // Since we are registering for multiple notifications, let's pass some unique User Data for each notification ( 5th param ), // which will help us identify the notification in the Call Back. // Let us register for Signal strength notifications. HRESULT hr = RegistryNotifyCallback(hKey, c_szPhoneRegistrySubkey, c_szPhoneSignalStrength, RegistryNotifyCallbackFunc, SignalStrength, NULL, &g_hRegNotify[ SignalStrength ] ); // Let us register for Incoming Caller Number notifications. hr = RegistryNotifyCallback(hKey, c_szPhoneRegistrySubkey, c_szPhoneIncomingCallerNumber, RegistryNotifyCallbackFunc, IncomingCallerNumber, NULL, &g_hRegNotify [ IncomingCallerNumber ] ); // Let us register for Roaming status change notifications. hr = RegistryNotifyCallback(hKey, c_szPhoneRegistrySubkey, c_szPhoneStatus, RegistryNotifyCallbackFunc, PhoneRoaming, NULL, &g_hRegNotify [ PhoneRoaming ] ); RegCloseKey(hKey); } } void CloseAllNotifications () { for (int i = 0; i < MAX_NOTIF; i++) { RegistryCloseNotification(g_hRegNotify[i]); } }"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "However, this type of notification is transient. nc.ctComparisonType = REG_CT_ANYCHANGE; // dw is ignored for REG_CT_ANYCHANGE. } } Code Example The following code example demonstrates how to register transient notification requests for phone StatStore values.",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryNotifyMsgQueue",
+  "title": "RegistryNotifyMsgQueue (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488614(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryNotifyMsgQueue( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, LPCTSTR pszMsgQueue, DWORD dwUserData, NOTIFICATIONCONDITION* pCondition, HREGNOTIFY* phNotify );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryNotifyMsgQueue( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, LPCTSTR pszMsgQueue, DWORD dwUserData, NOTIFICATIONCONDITION* pCondition, HREGNOTIFY* phNotify );",
+   "| HREGNOTIFY hNotify | DWORD dwUserData | UINT byte count | BYTE[] new value |",
+   "// The maximum size of data allowed in Windows Embedded CE is 4 KB. #define MAX_DATA_LEN_CB 4096 #define MAX_MSGQUEUE_BUFFER_CB (sizeof(NOTIFYMSGQUEUEPACKET) + MAX_DATA_LEN_CB) HRESULT RegistryNotifyMsgQueueExample() { DWORD dwBytesRead; TCHAR szBuffer[1024]; DWORD dwOldSignalStrength; TCHAR szOldOperatorName[256]; NOTIFYMSGQUEUEPACKET * pPacket; HRESULT hr = S_OK; HREGNOTIFY hNotifyStrength = NULL; HREGNOTIFY hNotifyOperator = NULL; HANDLE hMsgQueue = NULL; DWORD dwFlags = 0; MSGQUEUEOPTIONS msgQueueOpts = {0}; msgQueueOpts.dwSize = sizeof(msgQueueOpts); msgQueueOpts.dwFlags = MSGQUEUE_ALLOW_BROKEN; msgQueueOpts.cbMaxMessage = MAX_MSGQUEUE_BUFFER_CB; msgQueueOpts.bReadAccess = TRUE; hMsgQueue = CreateMsgQueue(TEXT(\"MyMsgQueue\"), &msgQueueOpts); // Because MAX_MSGQUEUE_BUFFER_CB is quite large, allocate memory from the heap. pPacket = (NOTIFYMSGQUEUEPACKET*) LocalAlloc(LPTR, MAX_MSGQUEUE_BUFFER_CB); // Send a notification whenever Signal Strength and Operator Name change. hr = RegistryNotifyMsgQueue(SN_PHONESIGNALSTRENGTH_ROOT, SN_PHONESIGNALSTRENGTH_PATH, SN_PHONESIGNALSTRENGTH_VALUE, TEXT(\"MyMsgQueue\"), 1, NULL, &hNotifyStrength); hr = RegistryNotifyMsgQueue(SN_PHONEOPERATORNAME_ROOT, SN_PHONEOPERATORNAME_PATH, SN_PHONEOPERATORNAME_VALUE, TEXT(\"MyMsgQueue\"), 2, NULL, &hNotifyOperator); // Read the inital values. RegistryGetDWORD(SN_PHONESIGNALSTRENGTH_ROOT, SN_PHONESIGNALSTRENGTH_PATH, SN_PHONESIGNALSTRENGTH_VALUE, &dwOldSignalStrength); RegistryGetString(SN_PHONEOPERATORNAME_ROOT, SN_PHONEOPERATORNAME_PATH, SN_PHONEOPERATORNAME_VALUE, szOldOperatorName, 256); // Wait to be notified. while(ReadMsgQueue(hMsgQueue, pPacket, MAX_MSGQUEUE_BUFFER_CB, &dwBytesRead, INFINITE, &dwFlags)) { // dwUserData can be used to distinguish between different notifications // when there are more than one notification requests in the same application. // Signal Strength changed. if(1 == pPacket->dwUserData) { // Put the new value into the string buffer. StringCchPrintf(szBuffer, 1024, TEXT(\"Signal strength changed from %d to %d\\n\"), dwOldSignalStrength, *(DWORD*) pPacket->rgData); MessageBox(NULL, szBuffer, TEXT(\"Signal\"), MB_SETFOREGROUND | MB_OK); dwOldSignalStrength = *(DWORD*) pPacket->rgData; } // Operator name changed. else if(2 == pPacket->dwUserData) { // Put the new value into the string buffer. StringCchPrintf(szBuffer, 1024, TEXT(\"Operator changed from %s to %s\\n\"), szOldOperatorName, (LPCTSTR) pPacket->rgData); MessageBox(NULL, szBuffer, TEXT(\"Operator\"), MB_SETFOREGROUND | MB_OK); StringCchCopy(szOldOperatorName, 256, (LPCTSTR) pPacket->rgData); } } // Clean up. hr = RegistryCloseNotification(hNotifyStrength); hr = RegistryCloseNotification(hNotifyOperator); CloseMsgQueue(hMsgQueue); LocalFree(pPacket); return hr; }"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "However, this type of notification is transient. // The maximum size of data allowed in Windows Embedded CE is 4 KB.",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryNotifyWindow",
+  "title": "RegistryNotifyWindow (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488231(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryNotifyWindow( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, HWND hWnd, UINT msg, DWORD dwUserData, NOTIFICATIONCONDITION* pCondition, HREGNOTIFY* phNotify );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryNotifyWindow( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, HWND hWnd, UINT msg, DWORD dwUserData, NOTIFICATIONCONDITION* pCondition, HREGNOTIFY* phNotify );",
+   "// Register to be notified when the next Appointment location changes, // and contains the string \"Downtown\". LRESULT RegistryNotifyWindowProc(HWND hDlg, UINT msg, UINT wParam, LONG lParam) { TCHAR szLocation[256]; NOTIFICATIONCONDITION nc; LRESULT lRet = FALSE; HREGNOTIFY hNotify = NULL; TCHAR szDowntown[] = TEXT(\"Downtown\"); switch (msg) { case WM_CREATE: // Initialize the notification structure // Note that StatStor is not case sensitive. nc.ctComparisonType = REG_CT_CONTAINS; nc.TargetValue.psz = szDowntown; // A value of zero indicates a string comparison. nc.dwMask = 0; RegistryNotifyWindow(SN_CALENDARNEXTAPPOINTMENTLOCATION_ROOT, SN_CALENDARNEXTAPPOINTMENTLOCATION_PATH, SN_CALENDARNEXTAPPOINTMENTLOCATION_VALUE, hDlg, WM_USER, 0, &nc, &hNotify); lRet = 0; break; case WM_USER: // You can read the full location with the RegistryGetString function. RegistryGetString(SN_CALENDARNEXTAPPOINTMENTLOCATION_ROOT, SN_CALENDARNEXTAPPOINTMENTLOCATION_PATH, SN_CALENDARNEXTAPPOINTMENTLOCATION_VALUE, szLocation, 256); // Add your own processing statements here. lRet = TRUE; break; case WM_DESTROY: RegistryCloseNotification(hNotify); lRet = 0; break; // Add your own statements for handling other messages, here. return lRet;"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "However, this type of notification is transient.",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistrySetDWORD",
+  "title": "RegistrySetDWORD (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488764(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistrySetDWORD( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, DWORD dwData );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistrySetDWORD( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, DWORD dwData );"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistrySetString",
+  "title": "RegistrySetString (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488611(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistrySetString( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, LPCTSTR pszData );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistrySetString( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, LPCTSTR pszData );"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryStopNotification",
+  "title": "RegistryStopNotification (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488205(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryStopNotification( LPCTSTR pszName );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryStopNotification( LPCTSTR pszName );"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ },
+ {
+  "name": "RegistryTestExchangeDWORD",
+  "title": "RegistryTestExchangeDWORD (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee488186(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HRESULT WINAPI RegistryTestExchangeDWORD( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, DWORD dwOldValue, DWORD dwNewValue );",
+  "code_blocks": [
+   "HRESULT WINAPI RegistryTestExchangeDWORD( HKEY hKey, LPCTSTR pszSubKey, LPCTSTR pszValueName, DWORD dwOldValue, DWORD dwNewValue );"
+  ],
+  "requirements": {
+   "header": "regext.h",
+   "library": "aygshell.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "core-os",
+  "sub": "State and Notifications Broker Reference"
+ }
+]

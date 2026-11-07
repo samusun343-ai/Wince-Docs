@@ -145,5 +145,228 @@
    "(top)": 10,
    "Error Functions": 3
   }
+ },
+ "ole-com": {
+  "pages": 860,
+  "subareas": {
+   "COM Reference": 341,
+   "OLE Reference": 150,
+   "Storage Reference": 66,
+   "Automation Reference": 303
+  }
+ },
+ "security": {
+  "pages": 322,
+  "subareas": {
+   "Authentication Services Functions": 30,
+   "Authentication Services Structures": 22,
+   "Certificates Functions": 85,
+   "Credential Manager Functions": 8,
+   "Credential Manager Type Provider Functions": 5,
+   "Credential Manager Structures": 2,
+   "(top)": 2,
+   "Cryptography Data Types": 4,
+   "Cryptography Functions": 43,
+   "Cryptography Structures": 71,
+   "LASS Functions": 7,
+   "LAP-Exported Functions": 11,
+   "LASS Structures": 1,
+   "Smart Card Functions": 28,
+   "Smart Card Structures": 3
+  }
+ },
+ "nls": {
+  "pages": 42,
+  "subareas": {
+   "National Language Support (NLS) Functions": 32,
+   "National Language Support (NLS) Locale Identifiers": 3,
+   "National Language Support (NLS) Macros": 4,
+   "National Language Support (NLS) Structures": 3
+  }
+ },
+ "imm": {
+  "pages": 152,
+  "subareas": {
+   "Input Method Manager (IMM) Functions": 57,
+   "Input Method Manager (IMM) Function Identifiers": 30,
+   "Input Method Manager (IMM) Messages": 48,
+   "Input Method Manager (IMM) Structures": 12,
+   "Input Method Editor (IME) Constants": 5
+  }
+ },
+ "mui": {
+  "pages": 5,
+  "subareas": {
+   "Multilingual User Interface (MUI) Functions": 5
+  }
+ },
+ "wininet": {
+  "pages": 108,
+  "subareas": {
+   "(top)": 1,
+   "WinInet Functions": 85,
+   "WinInet Structures": 14,
+   "WinInet Constants": 6,
+   "WinInet Enumerations": 2
+  }
+ },
+ "urlmon": {
+  "pages": 149,
+  "subareas": {
+   "URL Moniker Services Functions": 32,
+   "URL Moniker Services Interfaces": 29,
+   "URL Moniker Services Structures": 1,
+   "URL Moniker Services Enumerations": 9,
+   "URL Moniker Services Errors": 1,
+   "Asynchronous Pluggable Protocols Enumerations": 3,
+   "Asynchronous Pluggable Protocols Interfaces": 28,
+   "Asynchronous Pluggable Protocols Structures": 2,
+   "Asynchronous Pluggable Protocols Functions": 3,
+   "URL Security Zones Settings": 4,
+   "URL Security Zones Enumerations": 7,
+   "URL Security Zones Functions": 3,
+   "URL Security Zones Interfaces": 22,
+   "URL Security Zones Objects": 2,
+   "URL Security Zones Structures": 1,
+   "URL Security Zones Constants": 2
+  }
+ },
+ "obex": {
+  "pages": 58,
+  "subareas": {
+   "OBEX Functions": 2,
+   "OBEX Enumerations": 1,
+   "OBEX Interfaces": 50,
+   "OBEX Structures": 5
+  }
+ },
+ "rapi": {
+  "pages": 207,
+  "subareas": {
+   "RAPI Enumerations": 1,
+   "RAPI Functions": 83,
+   "RAPI Interfaces": 3,
+   "RAPI Structures": 17,
+   "RAPI Unions": 1,
+   "RAPI2 Enumerations": 3,
+   "RAPI2 Interfaces": 96,
+   "RAPI2 Structures": 2,
+   "RAPI2 Data Types": 1
+  }
+ },
+ "tapi": {
+  "pages": 205,
+  "subareas": {
+   "TAPI Functions": 91,
+   "TAPI Messages": 21,
+   "TAPI Structures": 28,
+   "TAPI Constants": 65
+  }
+ },
+ "ras": {
+  "pages": 35,
+  "subareas": {
+   "RAS Functions": 21,
+   "RAS Messages": 1,
+   "RAS Structures": 11,
+   "RAS Enumerations": 2
+  }
+ },
+ "wnet": {
+  "pages": 16,
+  "subareas": {
+   "Windows Networking API/Redirector Structures": 5,
+   "Windows Networking API/Redirector Functions": 11
+  }
+ },
+ "tcpip": {
+  "pages": 128,
+  "subareas": {
+   "IP Helper Reference": 86,
+   "ICMP Reference": 10,
+   "DNS Reference": 32
+  }
+ },
+ "ipv6": {
+  "pages": 35,
+  "subareas": {
+   "(top)": 2,
+   "Core Protocol Stack for IPv6": 29,
+   "Assigning an IPv6 Address to a Device": 3,
+   "Converting to IPv6": 1
+  }
+ },
+ "audio": {
+  "pages": 99,
+  "subareas": {
+   "Waveform Audio Functions": 43,
+   "Waveform Audio Messages": 21,
+   "Waveform Audio Structures": 8,
+   "(top)": 6,
+   "Hardware Audio Mixer Reference": 21
+  }
+ },
+ "power": {
+  "pages": 29,
+  "subareas": {
+   "Power Management Functions": 19,
+   "Power Management Structures": 4,
+   "Power Management Enumerations": 1,
+   "Power Management I/O Controls": 5
+  }
+ },
+ "connmgr": {
+  "pages": 31,
+  "subareas": {
+   "Connection Manager Functions": 14,
+   "Connection Manager Structures": 6,
+   "Connection Manager Enumerations": 1,
+   "Connection Manager Constants": 9,
+   "(top)": 1
+  }
+ },
+ "bluetooth": {
+  "pages": 216,
+  "subareas": {
+   "Bluetooth OS Reference": 98,
+   "Bluetooth Application Development Reference": 83,
+   "Bluetooth Stack Extension Layer Reference": 35
+  }
+ },
+ "fonts": {
+  "pages": 50,
+  "subareas": {
+   "Fonts Messages": 1,
+   "Fonts Structures": 15,
+   "Fonts Functions": 34
+  }
+ },
+ "kernel": {
+  "pages": 102,
+  "subareas": {
+   "Kernel Functions": 87,
+   "Kernel Structures": 11,
+   "Kernel Enumerations": 1,
+   "Kernel Global Variables": 1,
+   "Kernel I/O Controls": 1,
+   "Kernel Macros": 1
+  }
+ },
+ "gps": {
+  "pages": 17,
+  "subareas": {
+   "GPS Intermediate Driver Constants": 3,
+   "GPS Intermediate Driver Enumerations": 3,
+   "GPS Intermediate Driver Functions": 4,
+   "GPS Intermediate Driver IOCTLs": 5,
+   "GPS Intermediate Driver Structures": 2
+  }
+ },
+ "snmp": {
+  "pages": 42,
+  "subareas": {
+   "SNMP Functions": 36,
+   "SNMP Structures": 6
+  }
  }
 }
