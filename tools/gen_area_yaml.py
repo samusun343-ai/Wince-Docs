@@ -32,6 +32,7 @@ OS_VER = [
     (r'CE \.NET 4\.1|Windows CE \.NET \(4\.1\)', '4.1'),
     (r'CE \.NET 4\.2|Windows CE \.NET \(4\.2\)', '4.2'),
     (r'Windows CE 5\.0', '5.0'), (r'Windows Embedded CE 6\.0', '6.0'),
+    (r'Windows CE 6\.0', '6.0'),  # reached after the 'Embedded ' strip below
 ]
 
 

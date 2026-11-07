@@ -29,24 +29,57 @@ The header set is derived from the **official API reference organization** (inve
 
 *Status update (P1 session):* **`winuser.h` core, `wingdi.h` core, `winsock2.h`, `commctrl.h`/`commdlg.h` CE core specs delivered** (`spec-winuser-core.md`, `spec-wingdi-core.md`, `spec-winsock2.md`, `spec-commctrl-ce.md`); fact DBs `winuser-core.yaml` (688), `wingdi-core.yaml` (176), `winsock.yaml` (202), `commctrl-ce.yaml` (237).
 
+*Status update (P2 session):* **3,173 further pages harvested (0 failures)** — the remaining Core-OS app subareas, File I/O/Registry/User-Mgmt/File-Sys-Password, the GWES remainder (incl. the internal-surface exclusion register), AYGShell/Standard Shell/Console/Winsock-SPI, and the full remaining common-controls set. Ten further specs delivered (`spec-winbase-file-io.md`, `spec-winreg.md`, `spec-winbase-os.md`, `spec-toolhelp.md`, `spec-msgqueue.md`, `spec-notify.md`, `spec-aygshell.md`, `spec-shellapi.md`, `spec-commctrl-controls.md`, `spec-gwes-misc.md`); 14 new fact YAMLs bring the DB to **3,177 unique records**.
+
 | Header | Documentation source area (CE6/CE5 pages) | Notes |
 | --- | --- | --- |
-| `winbase.h` (remainder) | File I/O (48), File Mapping, Registry (30 CE6), Database (134 CE6 — legacy CE database API), Find/FindNext pages, ToolHelp, Interlocked/other subareas of Core OS Reference (408 total) | includes CE-modified items e.g. `BY_HANDLE_FILE_INFORMATION.dwOID` |
+| `winbase.h` (remainder) | File I/O (48), File Mapping, Registry (30 CE6), Database (134 CE6 — legacy CE database API), Find/FindNext pages, ToolHelp, Interlocked/other subareas of Core OS Reference (408 total) | **File I/O + File Mapping + User Mgmt + File Sys Password + all Core-OS app subareas delivered (P2)**: `spec-winbase-file-io.md`, `spec-winbase-os.md`; remaining within this row: CeLog/NAT/State-Broker/Kernel-Marshaling subareas + Database area (P2) |
+| `winreg.h` | Registry Reference (30 CE6 / 14 CE5) + pwinreg.h multi-user set | **delivered (P2)** — `spec-winreg.md` (33 records; Nkstub.lib CE6 bindings recorded) |
+| `toolhelp.h` | ToolHelp Reference (18+18) | **delivered (P2)** — `spec-toolhelp.md` (Toolhelp.lib) |
+| `msgqueue.h` | Message Queue Point-to-Point (9+8) | **delivered (P2)** — `spec-msgqueue.md` (ce-only) |
+| `notify.h` | Notify Reference (13+13) | **delivered (P2)** — `spec-notify.md` (ce-only) |
+| `windbase.h` (initial) | object-store structs + password API (File Sys Password 6+6) | **initial set delivered (P2)** in `spec-winbase-file-io.md` §3.3; full Database area (134) remains P2 |
 | `winuser.h` | GWES › Windows Reference (56), Window and Control Styles (24), Window Class Reference, Window Properties, Windows Timer, Keyboard Reference (49 CE5 tree / 51 CE6 index supplement), Menus, Carets, Atoms | **core spec delivered**; 20 documented link libraries; `pwinuser.h` finding below |
 | `wingdi.h` | GDI Reference — Functions (132), Structures (29), Macros (7), Messages (5), Raster Operation Codes (2) | **core spec delivered**; `coredll.lib`+`rectapi.lib`+4 specialty libs |
-| `windowsx.h`, `winuser` macros | Window Control Reference pages | P1 tail |
+| `windowsx.h`, `winuser` macros | Window Control Reference pages | P1 tail (macros; message records already in fact DB) |
 | `winsock2.h` / `winsock.h` | Winsock Reference (110 CE6) + SPI (57) | **core spec delivered**; `Ws2.lib` for all documented bindings; 35 documented WSAE values |
 | `ws2tcpip.h`, `ws2ip6.h` | Winsock IPv6 / getaddrinfo pages; CeGCC ChangeLog.ce documents the CE availability of `getaddrinfo` family | |
 | `msgqueue.h` | Core OS › Message Queue Point-to-Point (msqueued APIs) | CE-only header |
 | `toolhelp.h` | Core OS › ToolHelp Reference (snapshot/process APIs) | CE-specific toolhelp surface |
-| `pwindow.h`/`aygshell.h` | AYGShell Reference (60) | CE/PocketPC shell extension |
-| `commctrl.h` | Common Controls Reference (828 CE6/826 CE5) | **CE core spec delivered** (command bars/bands + image lists + dialogs); remaining ~700 control pages P2 |
+| `pwindow.h`/`aygshell.h` | AYGShell Reference (60) | **delivered (P2)** — `spec-aygshell.md` (46 new + 45 pre-existing records; Aygshell.lib per-page) |
+| `commctrl.h` | Common Controls Reference (828 CE6/826 CE5) | **complete (P2)** — `spec-commctrl-controls.md` adds the 760-record full control set to the P1 command surface; `prsht.h` standalone (R-HDR-17) |
 | `commdlg.h` | Common Dialog Boxes (within Common Controls area, 37 Dialog Boxes pages + others) | **CE subset spec delivered**; `fileopen.lib` split recorded |
+| `shellapi.h`/`shlobj.h`/`cpl.h`/`newmenu.h`/`console.h` | Standard Shell (83+83) + Console (10) + Shell OS (4) | **delivered (P2)** — `spec-shellapi.md` (56 records; shobjidl COM interfaces deferred to P2) |
+| `dbgapi.h` | Debugging Reference debug macros | **delivered (P2)** — `spec-winbase-os.md` §3.11 (ce-only) |
 | `stdlib`-boundary | n/a — see `include-tree.md` §5 (CRT is out of the OS-header set) | |
 
 ### P1 header-placement decisions
 
 * **R-HDR-9.** `pwinuser.h` (documented header of `GetAsyncShiftFlags`, `GetForegroundInfo`, `GetForegroundKeyboardLayoutHandle`, `GetForegroundKeyboardTarget`, `KeybdGetDeviceInfo`): declarations live in the project's `winuser.h`; `pwinuser.h` ships as an include-compatibility shim only.
+* **R-HDR-10 (P2).** `pwinreg.h`-documented functions (`SetCurrentUser`, `SetUserData`, `GetUserDirectory`): declarations in the project's `winreg.h`; `pwinreg.h` ships as shim.
+* **R-HDR-11 (P2).** `Kfuncs.h`-documented basics (`GetCurrentProcess`, `SetEvent`, `DebugBreak`, …): declarations in `winbase.h`; `kfuncs.h` ships as shim. `pkfuncs.h`-only functions (`VirtualCopyEx` family, `CeRemoteHeap*`): kernel-surface — gated declarations, `.def` entry only after Role C confirms export.
+* **R-HDR-12 (P2).** ToolHelp ships as `tlhelp32.h` (desktop-conventional lowercase) with documented-casing compatibility.
+* **R-HDR-13 (P2).** `msgqueue.h` is its own header (ce-only); not folded into `winbase.h`.
+* **R-HDR-14 (P2).** `notify.h` is its own header (ce-only); `windows.h` does not include it.
+* **R-HDR-15 (P2).** `aygshell.h` is its own header; not re-exported by `shlobj.h`/`shellapi.h`.
+* **R-HDR-16 (P2).** `newmenu.h`, `cpl.h`, `console.h` are standalone CE-only headers.
+* **R-HDR-17 (P2).** `prsht.h` remains a standalone header; `commctrl.h` does not include it.
+
+### CE-only register additions (P2 session)
+
+| `WM_HIBERNATE` (0x3FF, ce-only low-memory broadcast) | ce-only | CE Resources Reference pages + w32api CE-gated lineage |
+| `CeSetThreadPriority`/`CeGetThreadPriority`/`CeSetThreadQuantum`/`CeGetThreadQuantum` (0–255 native model) | ce-only | Process and Thread Reference |
+| `VirtualAllocEx`/`VirtualFreeEx`/`VirtualProtectEx`/`VirtualQueryEx`/`VirtualCopyEx`/`VirtualSetAttributesEx`/`VirtualAllocCopyEx` (pkfuncs.h, CE 6.0) | ce-only | Memory Management Reference (CE 6.0 docset only) |
+| `CeRemoteHeapCreate`/`CeRemoteHeapTranslatePointer`, `CeZeroPointer`, `CeGetRawTime(Offset)`, `KernelIoControl`, `GetDeviceUniqueID` | ce-only | CE 6.0 pages |
+| `ReadMsgQueueEx` (6.0), `CeRegGetInfo`/`CeRegGetNotificationInfo` (6.0), `CeFindFirst/Next/CloseRegChange` (5.0), `CeRegTestSetValueW` | ce-only | msgqueue/registry pages |
+| `CreateFileForMapping`, `CeGenRandom`, `CeGetCanonicalPathName`, `CeGetFileNotificationInfo`, `GetStoreInformation`, `DeleteAndRenameFile` | ce-only | File I/O Reference |
+| `ReadRegData`/`WriteRegData`/`ReadGenericData`/`WriteGenericData`/`RegistryOperation` (4.2 multi-user registry) | ce-only | Registry Reference |
+| `MSGQUEUE` API (`CreateMsgQueue` family) | ce-only (whole header) | Message Queue Point-to-Point Reference |
+| `CeSetUserNotification(Ex)` / `CeRunAppAtTime` / `CeRunAppAtEvent` family | ce-only (whole header) | Notify Reference |
+| `dbgapi.h` debug macros (`DEBUGMSG`, `RETAILMSG`, `NKDbgPrintfW`, …) | ce-only (whole header) | Debugging Reference |
+| `UDM_SETPOS32`/`UDM_GETPOS32` (CE 6.0 docset only) | ce-only | Up-Down Controls Reference |
+| `IOCTL_CONSOLE_*` (9 ioctls), `NMN_*` new-menu set, CapEdit/SbEdit controls | ce-only | Console/newmenu/controls references (CE 6.0) |
+| Serdev/Coreloc/Coremain/Oemmain/Toolhelp/Mgprint/Msgque/ceshell import-library bindings | ce-only bindings | P2 harvest Requirements blocks |
 
 ### P2 — full documented surface (selection; full lists in `data/mslearn-inventories/`)
 

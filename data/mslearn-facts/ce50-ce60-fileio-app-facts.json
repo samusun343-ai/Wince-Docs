@@ -1,0 +1,3195 @@
+[
+ {
+  "name": "BY_HANDLE_FILE_INFORMATION",
+  "title": "BY_HANDLE_FILE_INFORMATION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa516973(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BY_HANDLE_FILE_INFORMATION { DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD dwVolumeSerialNumber; DWORD nFileSizeHigh; DWORD nFileSizeLow; DWORD nNumberOfLinks; DWORD nFileIndexHigh; DWORD nFileIndexLow;DWORDdwOID;} BY_HANDLE_FILE_INFORMATION;",
+  "code_blocks": [
+   "typedef struct _BY_HANDLE_FILE_INFORMATION { DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD dwVolumeSerialNumber; DWORD nFileSizeHigh; DWORD nFileSizeLow; DWORD nNumberOfLinks; DWORD nFileIndexHigh; DWORD nFileIndexLow;DWORDdwOID;} BY_HANDLE_FILE_INFORMATION;"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For example, the object store RAM file system maintains only the last modified time.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CEDIRINFO",
+  "title": "CEDIRINFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517001(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CEDIRINFO {DWORD dwAttributes; CEOID oidParent; WCHAR szDirName[MAX_PATH]; } CEDIRINFO;",
+  "code_blocks": [
+   "typedef struct _CEDIRINFO {DWORD dwAttributes; CEOID oidParent; WCHAR szDirName[MAX_PATH]; } CEDIRINFO;"
+  ],
+  "requirements": {
+   "header": "Windbase.h",
+   "os": "Windows CE 1.01 and later."
+  },
+  "ce_notes_excerpt": "Earlier versions of Windows CE assigned object identifiers to objects in other file systems, such as the FAT file system. In Windows CE 3.0 and later, only objects in the object store have valid, unique object identifiers and the object store is the only volume that can return an object identifier.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CEFILEINFO",
+  "title": "CEFILEINFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517101(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CEFILEINFO {DWORD dwAttributes; CEOID oidParent; WCHAR szFileName[MAX_PATH]; FILETIME ftLastChanged; DWORD dwLength; } CEFILEINFO;",
+  "code_blocks": [
+   "typedef struct _CEFILEINFO {DWORD dwAttributes; CEOID oidParent; WCHAR szFileName[MAX_PATH]; FILETIME ftLastChanged; DWORD dwLength; } CEFILEINFO;"
+  ],
+  "requirements": {
+   "header": "Windbase.h",
+   "os": "Windows CE 1.01 and later."
+  },
+  "ce_notes_excerpt": "Earlier versions of Windows CE assigned object identifiers to objects in other file systems, such as the FAT file system. In Windows CE 3.0 and later, only objects in the object store have valid, unique object identifers and the object store is the only volume that can return an object identifier.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CeGenRandom",
+  "title": "CeGenRandom (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517140(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeGenRandom(DWORDdwLen,BYTE*pbBuffer );",
+  "code_blocks": [
+   "BOOL CeGenRandom(DWORDdwLen,BYTE*pbBuffer );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.1 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CeGetCanonicalPathName",
+  "title": "CeGetCanonicalPathName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517144(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CeGetCanonicalPathName(LPCWSTRlpPathName,LPWSTRlpCanonicalPathName,DWORD cchCanonicalPathName,DWORD dwReserved);",
+  "code_blocks": [
+   "DWORD CeGetCanonicalPathName(LPCWSTRlpPathName,LPWSTRlpCanonicalPathName,DWORD cchCanonicalPathName,DWORD dwReserved);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CeGetFileNotificationInfo",
+  "title": "CeGetFileNotificationInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517158(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLCeGetFileNotificationInfo( HANDLEh,DWORD dwFlags,LPVOID lpBuffer,DWORD nBufferLength,LPDWORD lpBytesReturned,LPDWORD lpBytesAvailable);",
+  "code_blocks": [
+   "BOOLCeGetFileNotificationInfo( HANDLEh,DWORD dwFlags,LPVOID lpBuffer,DWORD nBufferLength,LPDWORD lpBytesReturned,LPDWORD lpBytesAvailable);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.2 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CloseHandle",
+  "title": "CloseHandle (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517300(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLCloseHandle( HANDLEhObject);",
+  "code_blocks": [
+   "BOOLCloseHandle( HANDLEhObject);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CopyFile",
+  "title": "CopyFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517309(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLCopyFile(LPCTSTRlpExistingFileName, LPCTSTRlpNewFileName, BOOLbFailIfExists );",
+  "code_blocks": [
+   "BOOLCopyFile(LPCTSTRlpExistingFileName, LPCTSTRlpNewFileName, BOOLbFailIfExists );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CopyFileEx",
+  "title": "CopyFileEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517311(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLCopyFileEx(LPCTSTRlpExistingFileName, LPCTSTRlpNewFileName, LPPROGRESS_ROUTINE lpProgressRoutine, LPVOID lpData, LPBOOL pbCancel, DWORD dwCopyFlags);",
+  "code_blocks": [
+   "BOOLCopyFileEx(LPCTSTRlpExistingFileName, LPCTSTRlpNewFileName, LPPROGRESS_ROUTINE lpProgressRoutine, LPVOID lpData, LPBOOL pbCancel, DWORD dwCopyFlags);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CreateDirectory",
+  "title": "CreateDirectory (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517316(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLCreateDirectory(LPCTSTRlpPathName, LPSECURITY_ATTRIBUTESlpSecurityAttributes );",
+  "code_blocks": [
+   "BOOLCreateDirectory(LPCTSTRlpPathName, LPSECURITY_ATTRIBUTESlpSecurityAttributes );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "In Windows CE 5.0 and later, full path canonicalization is performed before CreateDirectory processes a path name. As a result, trailing backslashes that may appear in a user-provided path name are ignored.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CreateFile",
+  "title": "CreateFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517318(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLECreateFile(LPCTSTRlpFileName, DWORDdwDesiredAccess, DWORDdwShareMode, LPSECURITY_ATTRIBUTESlpSecurityAttributes, DWORDdwCreationDisposition, DWORDdwFlagsAndAttributes, HANDLEhTemplateFile);",
+  "code_blocks": [
+   "HANDLECreateFile(LPCTSTRlpFileName, DWORDdwDesiredAccess, DWORDdwShareMode, LPSECURITY_ATTRIBUTESlpSecurityAttributes, DWORDdwCreationDisposition, DWORDdwFlagsAndAttributes, HANDLEhTemplateFile);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "FILE_FLAG_OVERLAPPED This flag is not supported; however, multiple read/write operations pending on a device at a time are allowed. For Windows CE 2.01 and earlier, an application cannot use GetLastError to determine whether a file existed before the call to CreateFile . Using the FILE_FLAG_RANDOM_ACCESS flag in the RAM file system, which places files in the object store, will prevent a file from being compressed. The OS does not support the concept of a current directory.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "DeleteAndRenameFile",
+  "title": "DeleteAndRenameFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms887981(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DeleteAndRenameFile( LPCWSTRlpszDestFile,LPCWSTRlpszSourceFile );",
+  "code_blocks": [
+   "BOOL DeleteAndRenameFile( LPCWSTRlpszDestFile,LPCWSTRlpszSourceFile );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.01 and later."
+  },
+  "ce_notes_excerpt": "The DeleteAndRenameFile function works for the object store RAM-based file system only.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "DeleteFile",
+  "title": "DeleteFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889001(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLDeleteFile(LPCTSTRlpFileName );",
+  "code_blocks": [
+   "BOOLDeleteFile(LPCTSTRlpFileName );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FILECHANGEINFO",
+  "title": "FILECHANGEINFO (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889030(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "struct _FILECHANGEINFO {DWORD cbSize;LONG wEventId;ULONG uFlags;DWORD dwItem1;DWORD dwItem2;DWORD dwAttributes;FILETIME ftModified;ULONG nFileSize;} FILECHANGEINFO, *LPFILECHANGEINFO;",
+  "code_blocks": [
+   "struct _FILECHANGEINFO {DWORD cbSize;LONG wEventId;ULONG uFlags;DWORD dwItem1;DWORD dwItem2;DWORD dwAttributes;FILETIME ftModified;ULONG nFileSize;} FILECHANGEINFO, *LPFILECHANGEINFO;"
+  ],
+  "requirements": {
+   "header": "Extfile.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FILE_NOTIFY_INFORMATION",
+  "title": "FILE_NOTIFY_INFORMATION (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889597(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILE_NOTIFY_INFORMATION {DWORD NextEntryOffset; DWORD Action; DWORD FileNameLength; WCHAR FileName[1]; } FILE_NOTIFY_INFORMATION, *PFILE_NOTIFY_INFORMATION;",
+  "code_blocks": [
+   "typedef struct _FILE_NOTIFY_INFORMATION {DWORD NextEntryOffset; DWORD Action; DWORD FileNameLength; WCHAR FileName[1]; } FILE_NOTIFY_INFORMATION, *PFILE_NOTIFY_INFORMATION;"
+  ],
+  "requirements": {
+   "header": "Winnt.h",
+   "os": "Windows CE 1.01 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FINDEX_INFO_LEVELS",
+  "title": "FINDEX_INFO_LEVELS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889654(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _FINDEX_INFO_LEVELS { FindExInfoStandard, FindExInfoMaxInfoLevel} FINDEX_INFO_LEVELS;",
+  "code_blocks": [
+   "typedef enum _FINDEX_INFO_LEVELS { FindExInfoStandard, FindExInfoMaxInfoLevel} FINDEX_INFO_LEVELS;"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FINDEX_SEARCH_OPS",
+  "title": "FINDEX_SEARCH_OPS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889664(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _FINDEX_SEARCH_OPS { FindExSearchNameMatch, FindExSearchLimitToDirectories, FindExSearchLimitToDevices } FINDEX_SEARCH_OPS;",
+  "code_blocks": [
+   "typedef enum _FINDEX_SEARCH_OPS { FindExSearchNameMatch, FindExSearchLimitToDirectories, FindExSearchLimitToDevices } FINDEX_SEARCH_OPS;"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "When the FindExSearchLimitToDirectories search operation is used, the lpSearchFilter parameter of FindFirstFileEx must be NULL.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindClose",
+  "title": "FindClose (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889619(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLFindClose( HANDLEhFindFile );",
+  "code_blocks": [
+   "BOOLFindClose( HANDLEhFindFile );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindCloseChangeNotification",
+  "title": "FindCloseChangeNotification (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889625(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindCloseChangeNotification(HANDLE hChangeHandle);",
+  "code_blocks": [
+   "BOOL FindCloseChangeNotification(HANDLE hChangeHandle);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindFirstChangeNotification",
+  "title": "FindFirstChangeNotification (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889670(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstChangeNotification(LPCTSTR lpPathName,BOOL bWatchSubtree,DWORD dwNotifyFilter);",
+  "code_blocks": [
+   "HANDLE FindFirstChangeNotification(LPCTSTR lpPathName,BOOL bWatchSubtree,DWORD dwNotifyFilter);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindFirstFile",
+  "title": "FindFirstFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889678(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLEFindFirstFile(LPCTSTRlpFileName, LPWIN32_FIND_DATAlpFindFileData );",
+  "code_blocks": [
+   "HANDLEFindFirstFile(LPCTSTRlpFileName, LPWIN32_FIND_DATAlpFindFileData );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindFirstFileEx",
+  "title": "FindFirstFileEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889683(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstFileEx(LPCTSTR lpFileName, FINDEX_INFO_LEVELS fInfoLevelId, LPVOID lpFindFileData, FINDEX_SEARCH_OPS fSearchOp, LPVOID lpSearchFilter, DWORD dwAdditionalFlags );",
+  "code_blocks": [
+   "HANDLE FindFirstFileEx(LPCTSTR lpFileName, FINDEX_INFO_LEVELS fInfoLevelId, LPVOID lpFindFileData, FINDEX_SEARCH_OPS fSearchOp, LPVOID lpSearchFilter, DWORD dwAdditionalFlags );",
+   "FindFirstFileEx( lpFileName, FindExInfoStandard, lpFindData, FindExSearchNameMatch, NULL, 0 ); FindFirstFile( lpFileName, lpFindData);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "If the underlying file system does not support the specified type of filtering, other than directory filtering, FindFirstFileEx fails with the error ERROR_NOT_SUPPORTED.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindNextChangeNotification",
+  "title": "FindNextChangeNotification (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889784(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindNextChangeNotification(HANDLE hChangeHandle);",
+  "code_blocks": [
+   "BOOL FindNextChangeNotification(HANDLE hChangeHandle);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindNextFile",
+  "title": "FindNextFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms889873(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLFindNextFile( HANDLEhFindFile, LPWIN32_FIND_DATAlpFindFileData );",
+  "code_blocks": [
+   "BOOLFindNextFile( HANDLEhFindFile, LPWIN32_FIND_DATAlpFindFileData );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FlushFileBuffers",
+  "title": "FlushFileBuffers (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890238(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FlushFileBuffers(HANDLE hFile );",
+  "code_blocks": [
+   "BOOL WINAPI FlushFileBuffers(HANDLE hFile );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GET_FILEEX_INFO_LEVELS",
+  "title": "GET_FILEEX_INFO_LEVELS (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890917(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _GET_FILEEX_INFO_LEVELS { GetFileExInfoStandard } GET_FILEEX_INFO_LEVELS;",
+  "code_blocks": [
+   "typedef enum _GET_FILEEX_INFO_LEVELS { GetFileExInfoStandard } GET_FILEEX_INFO_LEVELS;"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetDiskFreeSpaceEx",
+  "title": "GetDiskFreeSpaceEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890887(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLGetDiskFreeSpaceEx( LPCWSTR lpDirectoryName, PULARGE_INTEGER lpFreeBytesAvailableToCaller, PULARGE_INTEGER lpTotalNumberOfBytes, PULARGE_INTEGER lpTotalNumberOfFreeBytes );",
+  "code_blocks": [
+   "BOOLGetDiskFreeSpaceEx( LPCWSTR lpDirectoryName, PULARGE_INTEGER lpFreeBytesAvailableToCaller, PULARGE_INTEGER lpTotalNumberOfBytes, PULARGE_INTEGER lpTotalNumberOfFreeBytes );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileAttributes",
+  "title": "GetFileAttributes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890895(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDGetFileAttributes(LPCTSTRlpFileName );",
+  "code_blocks": [
+   "DWORDGetFileAttributes(LPCTSTRlpFileName );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileAttributesEx",
+  "title": "GetFileAttributesEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890909(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetFileAttributesEx(LPCTSTR lpFileName, GET_FILEEX_INFO_LEVELS fInfoLevelId, LPVOID lpFileInformation );",
+  "code_blocks": [
+   "BOOL GetFileAttributesEx(LPCTSTR lpFileName, GET_FILEEX_INFO_LEVELS fInfoLevelId, LPVOID lpFileInformation );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileInformationByHandle",
+  "title": "GetFileInformationByHandle (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890926(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLGetFileInformationByHandle( HANDLEhFile, LPBY_HANDLE_FILE_INFORMATIONlpFileInformation);",
+  "code_blocks": [
+   "BOOLGetFileInformationByHandle( HANDLEhFile, LPBY_HANDLE_FILE_INFORMATIONlpFileInformation);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileSize",
+  "title": "GetFileSize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890939(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDGetFileSize( HANDLEhFile, LPDWORDlpFileSizeHigh);",
+  "code_blocks": [
+   "DWORDGetFileSize( HANDLEhFile, LPDWORDlpFileSizeHigh);",
+   "// // Case One: calling the function with // lpFileSizeHigh == NULL // Try to obtain hFile's size dwSize = GetFileSize (hFile, NULL) ; // Result on failure. if (dwSize == 0xFFFFFFFF) { // Obtain the error code. dwError = GetLastError() ; // Resolve the failure. . . . } // End of error handler // // Case Two: calling the function with // lpFileSizeHigh != NULL // Try to obtain hFile's huge size. dwSizeLow = GetFileSize (hFile, & dwSizeHigh) ; // Result on failure. if (dwSizeLow == 0xFFFFFFFF && (dwError = GetLastError()) != NO_ERROR ){ // Resolve the failure. . . . } // End of error handler."
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileVersionInfo",
+  "title": "GetFileVersionInfo (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890951(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetFileVersionInfo(LPTSTR lptstrFilename,DWORD dwHandle,DWORD dwLen,LPVOID lpData);",
+  "code_blocks": [
+   "BOOL GetFileVersionInfo(LPTSTR lptstrFilename,DWORD dwHandle,DWORD dwLen,LPVOID lpData);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileVersionInfoSize",
+  "title": "GetFileVersionInfoSize (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890963(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetFileVersionInfoSize(LPTSTR lptstrFilename,LPDWORD lpdwHandle);",
+  "code_blocks": [
+   "DWORD GetFileVersionInfoSize(LPTSTR lptstrFilename,LPDWORD lpdwHandle);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetStoreInformation",
+  "title": "GetStoreInformation (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891023(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLGetStoreInformation( LPSTORE_INFORMATIONlpsi );",
+  "code_blocks": [
+   "BOOLGetStoreInformation( LPSTORE_INFORMATIONlpsi );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetTempFileName",
+  "title": "GetTempFileName (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891186(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "UINT GetTempFileName(LPCTSTR lpPathName, LPCTSTR lpPrefixString, UINT uUnique, LPTSTR lpTempFileName);",
+  "code_blocks": [
+   "UINT GetTempFileName(LPCTSTR lpPathName, LPCTSTR lpPrefixString, UINT uUnique, LPTSTR lpTempFileName);",
+   "path\\preuuuu.TMP"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "When a Windows CE-based device is powered down, temporary files whose names have been created by this function are not automatically deleted. To avoid problems resulting from converting an ANSI character set string to a Windows string, an application should call the CreateFile function to create a temporary file. Windows CE pads a file name with zeroes when it has fewer than four hexadecimal digits as part of its name. For example, Windows 2000 creates < File Name >34.tmp, while Windows CE creates < File Name >0034.tmp.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetTempPath",
+  "title": "GetTempPath (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891189(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetTempPath(DWORD ccBuffer, LPTSTRlpszBuffer);",
+  "code_blocks": [
+   "DWORD GetTempPath(DWORD ccBuffer, LPTSTRlpszBuffer);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.11 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "LockFileEx",
+  "title": "LockFileEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891385(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LockFileEx(HANDLE hFile, DWORDdwFlags,DWORD dwReserved,DWORD nNumberOfBytesToLockLow,DWORD nNumberOfBytesToLockHigh,LPOVERLAPPED lpOverlapped);",
+  "code_blocks": [
+   "BOOL LockFileEx(HANDLE hFile, DWORDdwFlags,DWORD dwReserved,DWORD nNumberOfBytesToLockLow,DWORD nNumberOfBytesToLockHigh,LPOVERLAPPED lpOverlapped);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "MoveFile",
+  "title": "MoveFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891388(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLMoveFile(LPCTSTRlpExistingFileName, LPCTSTRlpNewFileName);",
+  "code_blocks": [
+   "BOOLMoveFile(LPCTSTRlpExistingFileName, LPCTSTRlpNewFileName);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "OVERLAPPED",
+  "title": "OVERLAPPED (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891422(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _OVERLAPPED {ULONG_PTR Internal; ULONG_PTR InternalHigh; DWORD Offset; DWORD OffsetHigh; HANDLE hEvent; } OVERLAPPED;",
+  "code_blocks": [
+   "typedef struct _OVERLAPPED {ULONG_PTR Internal; ULONG_PTR InternalHigh; DWORD Offset; DWORD OffsetHigh; HANDLE hEvent; } OVERLAPPED;"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "ReadFile",
+  "title": "ReadFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891445(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLReadFile( HANDLEhFile, LPVOIDlpBuffer, DWORDnNumberOfBytesToRead, LPDWORDlpNumberOfBytesRead, LPOVERLAPPEDlpOverlapped);",
+  "code_blocks": [
+   "BOOLReadFile( HANDLEhFile, LPVOIDlpBuffer, DWORDnNumberOfBytesToRead, LPDWORDlpNumberOfBytesRead, LPOVERLAPPEDlpOverlapped);",
+   "// Attempt a synchronous read operation. bResult = ReadFile(hFile, &inBuffer, nBytesToRead, &nBytesRead, NULL) ; // Check for end of file. if (bResult && (nBytesRead == 0) ) { // you are at the end of the file. }"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE does not support asynchronous read operations on files.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "RemoveDirectory",
+  "title": "RemoveDirectory (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891470(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLRemoveDirectory(LPCTSTRlpPathName);",
+  "code_blocks": [
+   "BOOLRemoveDirectory(LPCTSTRlpPathName);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "SetEndOfFile",
+  "title": "SetEndOfFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891916(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLSetEndOfFile( HANDLEhFile);",
+  "code_blocks": [
+   "BOOLSetEndOfFile( HANDLEhFile);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "SetFileAttributes",
+  "title": "SetFileAttributes (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891925(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLSetFileAttributes(LPCTSTRlpFileName, DWORDdwFileAttributes);",
+  "code_blocks": [
+   "BOOLSetFileAttributes(LPCTSTRlpFileName, DWORDdwFileAttributes);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "SetFilePointer",
+  "title": "SetFilePointer (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891933(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORDSetFilePointer( HANDLEhFile, LONGlDistanceToMove, PLONGlpDistanceToMoveHigh, DWORDdwMoveMethod);",
+  "code_blocks": [
+   "DWORDSetFilePointer( HANDLEhFile, LONGlDistanceToMove, PLONGlpDistanceToMoveHigh, DWORDdwMoveMethod);",
+   "// Try to move hFile's file pointer some distance. dwPtr = SetFilePointer (hFile, lDistance, NULL, FILE_BEGIN) ; if (dwPtr == 0xFFFFFFFF) // Test for failure. { // Obtain the error code. dwError = GetLastError() ; // Resolve the failure. // . . . } // End of error handler."
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "UnlockFileEx",
+  "title": "UnlockFileEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms892364(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnlockFileEx(HANDLE hFile, DWORDdwReserved,DWORD nNumberOfBytesToLockLow,DWORD nNumberOfBytesToLockHigh,LPOVERLAPPED lpOverlapped);",
+  "code_blocks": [
+   "BOOL UnlockFileEx(HANDLE hFile, DWORDdwReserved,DWORD nNumberOfBytesToLockLow,DWORD nNumberOfBytesToLockHigh,LPOVERLAPPED lpOverlapped);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "WIN32_FILE_ATTRIBUTE_DATA",
+  "title": "WIN32_FILE_ATTRIBUTE_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms892377(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _WIN32_FILE_ATTRIBUTE_DATA{ DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD nFileSizeHigh; DWORD nFileSizeLow; } WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA;",
+  "code_blocks": [
+   "typedef struct _WIN32_FILE_ATTRIBUTE_DATA{ DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD nFileSizeHigh; DWORD nFileSizeLow; } WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA;"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "os": "Windows CE 3.0 and later."
+  },
+  "ce_notes_excerpt": "For example, the object store (RAM) file system maintains only the last modified time.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "WIN32_FIND_DATA",
+  "title": "WIN32_FIND_DATA (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms892378(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _WIN32_FIND_DATA { DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD nFileSizeHigh; DWORD nFileSizeLow; DWORD dwOID; TCHAR cFileName[MAX_PATH]; } WIN32_FIND_DATA;",
+  "code_blocks": [
+   "typedef struct _WIN32_FIND_DATA { DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD nFileSizeHigh; DWORD nFileSizeLow; DWORD dwOID; TCHAR cFileName[MAX_PATH]; } WIN32_FIND_DATA;"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "For example, the object store (RAM) file system maintains only the last modified time.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "WriteFile",
+  "title": "WriteFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms892380(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLWriteFile( HANDLEhFile, LPCVOIDlpBuffer, DWORDnNumberOfBytesToWrite, LPDWORDlpNumberOfBytesWritten, LPOVERLAPPEDlpOverlapped);",
+  "code_blocks": [
+   "BOOLWriteFile( HANDLEhFile, LPCVOIDlpBuffer, DWORDnNumberOfBytesToWrite, LPDWORDlpNumberOfBytesWritten, LPOVERLAPPEDlpOverlapped);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CreateFileForMapping",
+  "title": "CreateFileForMapping (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517321(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateFileForMapping( LPCTSTRlpFileName,DWORD dwDesiredAccess,DWORD dwShareMode,LPSECURITY_ATTRIBUTESlpSecurityAttributes,DWORD dwCreationDisposition,DWORD dwFlagsAndAttributes,HANDLEhTemplateFile);",
+  "code_blocks": [
+   "HANDLE CreateFileForMapping( LPCTSTRlpFileName,DWORD dwDesiredAccess,DWORD dwShareMode,LPSECURITY_ATTRIBUTESlpSecurityAttributes,DWORD dwCreationDisposition,DWORD dwFlagsAndAttributes,HANDLEhTemplateFile);",
+   "// pseudocode fragment to show call sequence, use of the handle HANDLE hFile; hFile = CreateFileForMapping(...); CreateFileMapping(hFile, ...);"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.01 and later."
+  },
+  "ce_notes_excerpt": "For Windows CE, it is only necessary to close the mapping handle as the file handle is automatically closed when you close the mapping handle.",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "CreateFileMapping",
+  "title": "CreateFileMapping (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517331(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateFileMapping(HANDLEhFile,LPSECURITY_ATTRIBUTESlpFileMappingAttributes,DWORDflProtect,DWORDdwMaximumSizeHigh,DWORDdwMaximumSizeLow,LPCTSTRlpName );",
+  "code_blocks": [
+   "HANDLE CreateFileMapping(HANDLEhFile,LPSECURITY_ATTRIBUTESlpFileMappingAttributes,DWORDflProtect,DWORDdwMaximumSizeHigh,DWORDdwMaximumSizeLow,LPCTSTRlpName );",
+   "hMap = CreateFileMapping(...); if (hMap != NULL && GetLastError() == ERROR_ALREADY_EXISTS) { CloseHandle(hMap); hMap = NULL; } return hMap;"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.01 and later."
+  },
+  "ce_notes_excerpt": "This function will not work on a Windows CE–based platform that does not support demand paging. For Windows CE, it is only necessary to close the mapping handle as the file handle is automatically closed when you close the mapping handle.",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "FlushViewOfFile",
+  "title": "FlushViewOfFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890303(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FlushViewOfFile( LPCVOID lpBaseAddress,DWORDdwNumberOfBytesToFlush );",
+  "code_blocks": [
+   "BOOL FlushViewOfFile( LPCVOID lpBaseAddress,DWORDdwNumberOfBytesToFlush );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.01 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "MapViewOfFile",
+  "title": "MapViewOfFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891386(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID MapViewOfFile( HANDLEhFileMappingObject,DWORDdwDesiredAccess,DWORDdwFileOffsetHigh,DWORDdwFileOffsetLow,DWORD dwNumberOfBytesToMap );",
+  "code_blocks": [
+   "LPVOID MapViewOfFile( HANDLEhFileMappingObject,DWORDdwDesiredAccess,DWORDdwFileOffsetHigh,DWORDdwFileOffsetLow,DWORD dwNumberOfBytesToMap );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.01 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "UnmapViewOfFile",
+  "title": "UnmapViewOfFile (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms892373(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnmapViewOfFile( LPCVOID lpBaseAddress );",
+  "code_blocks": [
+   "BOOL UnmapViewOfFile( LPCVOID lpBaseAddress );"
+  ],
+  "requirements": {
+   "header": "Winbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.01 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "CheckPassword",
+  "title": "CheckPassword (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517297(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CheckPassword(LPWSTRlpszPassword );",
+  "code_blocks": [
+   "BOOL CheckPassword(LPWSTRlpszPassword );"
+  ],
+  "requirements": {
+   "header": "Windbase.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "GetPasswordActive",
+  "title": "GetPasswordActive (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms890993(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetPasswordActive(void);",
+  "code_blocks": [
+   "BOOL GetPasswordActive(void);"
+  ],
+  "requirements": {
+   "header": "Windbase.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "GetPasswordStatus",
+  "title": "GetPasswordStatus (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891004(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetPasswordStatus(void);",
+  "code_blocks": [
+   "DWORD GetPasswordStatus(void);"
+  ],
+  "requirements": {
+   "header": "Pwinbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "SetPassword",
+  "title": "SetPassword (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891953(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetPassword(LPWSTRlpszOldPassword,LPWSTRlpszNewPassword );",
+  "code_blocks": [
+   "BOOL SetPassword(LPWSTRlpszOldPassword,LPWSTRlpszNewPassword );"
+  ],
+  "requirements": {
+   "header": "Windbase.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "SetPasswordActive",
+  "title": "SetPasswordActive (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891968(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetPasswordActive(BOOLbActive,LPWSTRlpszPassword );",
+  "code_blocks": [
+   "BOOL SetPasswordActive(BOOLbActive,LPWSTRlpszPassword );"
+  ],
+  "requirements": {
+   "header": "Windbase.h",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "SetPasswordStatus",
+  "title": "SetPasswordStatus (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891976(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetPasswordStatus(DWORDdwStatus,LPWSTRlpszPassword);",
+  "code_blocks": [
+   "BOOL SetPasswordStatus(DWORDdwStatus,LPWSTRlpszPassword);"
+  ],
+  "requirements": {
+   "header": "Pwinbase.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "CeFindCloseRegChange",
+  "title": "CeFindCloseRegChange (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517103(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeFindCloseRegChange (HANDLEhChangeHandle );",
+  "code_blocks": [
+   "BOOL CeFindCloseRegChange (HANDLEhChangeHandle );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "CeFindFirstRegChange",
+  "title": "CeFindFirstRegChange (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517116(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CeFindFirstRegChange (HKEYhKey, BOOLbWatchSubtree, DWORDdwNotifyFilter);",
+  "code_blocks": [
+   "HANDLE CeFindFirstRegChange (HKEYhKey, BOOLbWatchSubtree, DWORDdwNotifyFilter);"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "CeFindNextRegChange",
+  "title": "CeFindNextRegChange (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa517123(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeFindNextRegChange (HANDLEhChangeHandle );",
+  "code_blocks": [
+   "BOOL CeFindNextRegChange (HANDLEhChangeHandle );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegCloseKey",
+  "title": "RegCloseKey (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891448(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegCloseKey( HKEYhKey );",
+  "code_blocks": [
+   "LONGRegCloseKey( HKEYhKey );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "The RegCloseKey function always writes information to the registry before returning, eliminating the need to flush keys in the Windows CE registry.",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegCreateKeyEx",
+  "title": "RegCreateKeyEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891450(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegCreateKeyEx( HKEYhKey, LPCWSTRlpSubKey, DWORDReserved, LPWSTRlpClass, DWORDdwOptions, REGSAMsamDesired, LPSECURITY_ATTRIBUTESlpSecurityAttributes, PHKEYphkResult, LPDWORDlpdwDisposition );",
+  "code_blocks": [
+   "LONGRegCreateKeyEx( HKEYhKey, LPCWSTRlpSubKey, DWORDReserved, LPWSTRlpClass, DWORDdwOptions, REGSAMsamDesired, LPSECURITY_ATTRIBUTESlpSecurityAttributes, PHKEYphkResult, LPDWORDlpdwDisposition );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegDeleteKey",
+  "title": "RegDeleteKey (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891451(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegDeleteKey( HKEYhKey, LPCWSTRlpSubKey );",
+  "code_blocks": [
+   "LONGRegDeleteKey( HKEYhKey, LPCWSTRlpSubKey );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegDeleteValue",
+  "title": "RegDeleteValue (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891452(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegDeleteValue( HKEYhKey, LPCWSTRlpValueName );",
+  "code_blocks": [
+   "LONGRegDeleteValue( HKEYhKey, LPCWSTRlpValueName );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegEnumKeyEx",
+  "title": "RegEnumKeyEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891453(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegEnumKeyEx(HKEYhKey, DWORDdwIndex, LPWSTRlpName, LPDWORDlpcName, LPDWORDlpReserved, LPWSTRlpClass, LPDWORDlpcbClass, PFILETIMElpftLastWriteTime );",
+  "code_blocks": [
+   "LONGRegEnumKeyEx(HKEYhKey, DWORDdwIndex, LPWSTRlpName, LPDWORDlpcName, LPDWORDlpReserved, LPWSTRlpClass, LPDWORDlpcbClass, PFILETIMElpftLastWriteTime );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegEnumValue",
+  "title": "RegEnumValue (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891454(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegEnumValue( HKEYhKey, DWORDdwIndex, LPWSTRlpValueName, LPDWORDlpcchValueName, LPDWORDlpReserved, LPDWORDlpType, LPBYTElpData, LPDWORDlpcbData );",
+  "code_blocks": [
+   "LONGRegEnumValue( HKEYhKey, DWORDdwIndex, LPWSTRlpValueName, LPDWORDlpcchValueName, LPDWORDlpReserved, LPDWORDlpType, LPBYTElpData, LPDWORDlpcbData );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegFlushKey",
+  "title": "RegFlushKey (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891455(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegFlushKey( HKEY hKey );",
+  "code_blocks": [
+   "LONG RegFlushKey( HKEY hKey );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 2.10 and later."
+  },
+  "ce_notes_excerpt": "By default, Windows CE does not support a lazy flush of the registry, though the OEM may choose to implement a lazy-flush or power-down flush.",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegOpenKeyEx",
+  "title": "RegOpenKeyEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891460(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegOpenKeyEx( HKEYhKey, LPCWSTRlpSubKey, DWORDulOptions, REGSAMsamDesired, PHKEYphkResult );",
+  "code_blocks": [
+   "LONGRegOpenKeyEx( HKEYhKey, LPCWSTRlpSubKey, DWORDulOptions, REGSAMsamDesired, PHKEYphkResult );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegQueryInfoKey",
+  "title": "RegQueryInfoKey (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891461(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegQueryInfoKey( HKEYhKey, LPWSTRlpClass, LPDWORDlpcbClass, LPDWORDlpReserved, LPDWORDlpcSubKeys, LPDWORDlpcbMaxSubKeyLen, LPDWORDlpcbMaxClassLen, LPDWORDlpcValues, LPDWORDlpcbMaxValueNameLen, LPDWORDlpcbMaxValueLen, LPDWORDlpcbSecurityDescriptor, PFILETIMElpftLastWriteTime );",
+  "code_blocks": [
+   "LONGRegQueryInfoKey( HKEYhKey, LPWSTRlpClass, LPDWORDlpcbClass, LPDWORDlpReserved, LPDWORDlpcSubKeys, LPDWORDlpcbMaxSubKeyLen, LPDWORDlpcbMaxClassLen, LPDWORDlpcValues, LPDWORDlpcbMaxValueNameLen, LPDWORDlpcbMaxValueLen, LPDWORDlpcbSecurityDescriptor, PFILETIMElpftLastWriteTime );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegQueryValueEx",
+  "title": "RegQueryValueEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891462(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegQueryValueEx( HKEYhKey, LPCWSTRlpValueName, LPDWORDlpReserved, LPDWORDlpType, LPBYTElpData, LPDWORDlpcbData );",
+  "code_blocks": [
+   "LONGRegQueryValueEx( HKEYhKey, LPCWSTRlpValueName, LPDWORDlpReserved, LPDWORDlpType, LPBYTElpData, LPDWORDlpcbData );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegSetValueEx",
+  "title": "RegSetValueEx (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891469(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "LONGRegSetValueEx( HKEYhKey, LPCWSTRlpValueName, DWORDReserved, DWORDdwType, constBYTE* lpData, DWORDcbData );",
+  "code_blocks": [
+   "LONGRegSetValueEx( HKEYhKey, LPCWSTRlpValueName, DWORDReserved, DWORDdwType, constBYTE* lpData, DWORDcbData );"
+  ],
+  "requirements": {
+   "header": "Winreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE 1.0 and later."
+  },
+  "ce_notes_excerpt": "Windows CE supports only the Unicode version of this function.",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "GetUserDirectory",
+  "title": "GetUserDirectory (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891226(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetUserDirectory( LPWSTRlpszBuffer, LPDWORDlpdwSize);",
+  "code_blocks": [
+   "BOOL GetUserDirectory( LPWSTRlpszBuffer, LPDWORDlpdwSize);"
+  ],
+  "requirements": {
+   "header": "Pwinreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "User Management Reference"
+ },
+ {
+  "name": "SetCurrentUser",
+  "title": "SetCurrentUser (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891903(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetCurrentUser( LPCWSTRlpszUserName, LPBYTElpbUserSecret, DWORDdwDataSize,BOOLbCreateIfNew );",
+  "code_blocks": [
+   "BOOL SetCurrentUser( LPCWSTRlpszUserName, LPBYTElpbUserSecret, DWORDdwDataSize,BOOLbCreateIfNew );"
+  ],
+  "requirements": {
+   "header": "Pwinreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "User Management Reference"
+ },
+ {
+  "name": "SetUserData",
+  "title": "SetUserData (Windows CE 5.0)",
+  "docset": "ce50",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms891984(v=msdn.10)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetUserData( LPBYTElpbUserData, DWORDdwDataSize);",
+  "code_blocks": [
+   "BOOL SetUserData( LPBYTElpbUserData, DWORDdwDataSize);"
+  ],
+  "requirements": {
+   "header": "Pwinreg.h",
+   "library": "Coredll.lib",
+   "os": "Windows CE .NET 4.0 and later."
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "User Management Reference"
+ },
+ {
+  "name": "BY_HANDLE_FILE_INFORMATION",
+  "title": "BY_HANDLE_FILE_INFORMATION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490365(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _BY_HANDLE_FILE_INFORMATION { DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD dwVolumeSerialNumber; DWORD nFileSizeHigh; DWORD nFileSizeLow; DWORD nNumberOfLinks; DWORD nFileIndexHigh; DWORD nFileIndexLow; DWORD dwOID; } BY_HANDLE_FILE_INFORMATION;",
+  "code_blocks": [
+   "typedef struct _BY_HANDLE_FILE_INFORMATION { DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD dwVolumeSerialNumber; DWORD nFileSizeHigh; DWORD nFileSizeLow; DWORD nNumberOfLinks; DWORD nFileIndexHigh; DWORD nFileIndexLow; DWORD dwOID; } BY_HANDLE_FILE_INFORMATION;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "For example, the object store RAM file system maintains only the last modified time.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CEDIRINFO",
+  "title": "CEDIRINFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490596(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CEDIRINFO { DWORD dwAttributes; CEOID oidParent; WCHAR szDirName[MAX_PATH]; } CEDIRINFO;",
+  "code_blocks": [
+   "typedef struct _CEDIRINFO { DWORD dwAttributes; CEOID oidParent; WCHAR szDirName[MAX_PATH]; } CEDIRINFO;"
+  ],
+  "requirements": {
+   "header": "windbase.h",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "Earlier versions of Windows Embedded CE assigned OIDs to objects in other file systems, such as the FAT file system. In Windows CE 3.0 and later, only objects in the object store have valid, unique OIDs, and the object store is the only volume that can return an OID.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CEFILEINFO",
+  "title": "CEFILEINFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490784(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _CEFILEINFO { DWORD dwAttributes; CEOID oidParent; WCHAR szFileName[MAX_PATH]; FILETIME ftLastChanged; DWORD dwLength; } CEFILEINFO;",
+  "code_blocks": [
+   "typedef struct _CEFILEINFO { DWORD dwAttributes; CEOID oidParent; WCHAR szFileName[MAX_PATH]; FILETIME ftLastChanged; DWORD dwLength; } CEFILEINFO;"
+  ],
+  "requirements": {
+   "header": "windbase.h",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "Earlier versions of Windows Embedded CE assigned OIDs to objects in other file systems, such as the FAT file system. In Windows CE 3.0 and later, only objects in the object store have valid, unique OIDs, and the object store is the only volume that can return an OID.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CeGenRandom",
+  "title": "CeGenRandom (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490181(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeGenRandom( DWORD dwLen, BYTE* pbBuffer );",
+  "code_blocks": [
+   "BOOL CeGenRandom( DWORD dwLen, BYTE* pbBuffer );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.1 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CeGetCanonicalPathName",
+  "title": "CeGetCanonicalPathName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490595(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD CeGetCanonicalPathName( LPCWSTR lpPathName, LPWSTR lpCanonicalPathName, DWORD cchCanonicalPathName, DWORD dwReserved );",
+  "code_blocks": [
+   "DWORD CeGetCanonicalPathName( LPCWSTR lpPathName, LPWSTR lpCanonicalPathName, DWORD cchCanonicalPathName, DWORD dwReserved );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CeGetFileNotificationInfo",
+  "title": "CeGetFileNotificationInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489582(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeGetFileNotificationInfo( HANDLE h, DWORD dwFlags, LPVOID lpBuffer, DWORD nBufferLength, LPDWORD lpBytesReturned, LPDWORD lpBytesAvailable );",
+  "code_blocks": [
+   "BOOL CeGetFileNotificationInfo( HANDLE h, DWORD dwFlags, LPVOID lpBuffer, DWORD nBufferLength, LPDWORD lpBytesReturned, LPDWORD lpBytesAvailable );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CloseHandle",
+  "title": "CloseHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490442(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CloseHandle( HANDLE hObject );",
+  "code_blocks": [
+   "BOOL CloseHandle( HANDLE hObject );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "With Windows Embedded CE 6.0 and later, this function succeeds on any valid handle, regardless of results that might be returned by the internal preclose and close functions.**",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CopyFile",
+  "title": "CopyFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490577(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CopyFile( LPCTSTR lpExistingFileName, LPCTSTR lpNewFileName, BOOL bFailIfExists );",
+  "code_blocks": [
+   "BOOL CopyFile( LPCTSTR lpExistingFileName, LPCTSTR lpNewFileName, BOOL bFailIfExists );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CopyFileEx",
+  "title": "CopyFileEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490791(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CopyFileEx( LPCTSTR lpExistingFileName, LPCTSTR lpNewFileName, LPPROGRESS_ROUTINE lpProgressRoutine, LPVOID lpData, LPBOOL pbCancel, DWORD dwCopyFlags );",
+  "code_blocks": [
+   "BOOL CopyFileEx( LPCTSTR lpExistingFileName, LPCTSTR lpNewFileName, LPPROGRESS_ROUTINE lpProgressRoutine, LPVOID lpData, LPBOOL pbCancel, DWORD dwCopyFlags );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CreateDirectory",
+  "title": "CreateDirectory (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490797(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CreateDirectory( LPCTSTR lpPathName, LPSECURITY_ATTRIBUTES lpSecurityAttributes );",
+  "code_blocks": [
+   "BOOL CreateDirectory( LPCTSTR lpPathName, LPSECURITY_ATTRIBUTES lpSecurityAttributes );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "In Windows CE 5.0 and later, the full path is put into canonical form before this function processes a path name. Therefore, trailing backslashes in a user-provided path name are ignored.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CreateFile",
+  "title": "CreateFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490417(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateFile( LPCTSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile );",
+  "code_blocks": [
+   "HANDLE CreateFile( LPCTSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "DeleteAndRenameFile",
+  "title": "DeleteAndRenameFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489617(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DeleteAndRenameFile( LPCWSTR lpszDestFile, LPCWSTR lpszSourceFile );",
+  "code_blocks": [
+   "BOOL DeleteAndRenameFile( LPCWSTR lpszDestFile, LPCWSTR lpszSourceFile );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "This function works for the object store RAM-based file system only.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "DeleteFile",
+  "title": "DeleteFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490038(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL DeleteFile( LPCTSTR lpFileName );",
+  "code_blocks": [
+   "BOOL DeleteFile( LPCTSTR lpFileName );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FILECHANGEINFO",
+  "title": "FILECHANGEINFO (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490403(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "struct _FILECHANGEINFO { DWORD cbSize; LONG wEventId; ULONG uFlags; DWORD dwItem1; DWORD dwItem2; DWORD dwAttributes; FILETIME ftModified; ULONG nFileSize; } FILECHANGEINFO, *LPFILECHANGEINFO;",
+  "code_blocks": [
+   "struct _FILECHANGEINFO { DWORD cbSize; LONG wEventId; ULONG uFlags; DWORD dwItem1; DWORD dwItem2; DWORD dwAttributes; FILETIME ftModified; ULONG nFileSize; } FILECHANGEINFO, *LPFILECHANGEINFO;"
+  ],
+  "requirements": {
+   "header": "extfile.h, shlobj.h",
+   "library": "ceshell.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FILE_NOTIFY_INFORMATION",
+  "title": "FILE_NOTIFY_INFORMATION (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489743(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _FILE_NOTIFY_INFORMATION { DWORD NextEntryOffset; DWORD Action; DWORD FileNameLength; WCHAR FileName[1]; } FILE_NOTIFY_INFORMATION, *PFILE_NOTIFY_INFORMATION;",
+  "code_blocks": [
+   "typedef struct _FILE_NOTIFY_INFORMATION { DWORD NextEntryOffset; DWORD Action; DWORD FileNameLength; WCHAR FileName[1]; } FILE_NOTIFY_INFORMATION, *PFILE_NOTIFY_INFORMATION;"
+  ],
+  "requirements": {
+   "header": "winnt.h",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FINDEX_INFO_LEVELS",
+  "title": "FINDEX_INFO_LEVELS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490216(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _FINDEX_INFO_LEVELS { FindExInfoStandard, FindExInfoMaxInfoLevel } FINDEX_INFO_LEVELS;",
+  "code_blocks": [
+   "typedef enum _FINDEX_INFO_LEVELS { FindExInfoStandard, FindExInfoMaxInfoLevel } FINDEX_INFO_LEVELS;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FINDEX_SEARCH_OPS",
+  "title": "FINDEX_SEARCH_OPS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490608(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _FINDEX_SEARCH_OPS { FindExSearchNameMatch, FindExSearchLimitToDirectories, FindExSearchLimitToDevices } FINDEX_SEARCH_OPS;",
+  "code_blocks": [
+   "typedef enum _FINDEX_SEARCH_OPS { FindExSearchNameMatch, FindExSearchLimitToDirectories, FindExSearchLimitToDevices } FINDEX_SEARCH_OPS;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "When the FindExSearchLimitToDirectories search operation is used, the lpSearchFilter parameter of FindFirstFileEx must be set to NULL.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindClose",
+  "title": "FindClose (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489804(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindClose( HANDLE hFindFile );",
+  "code_blocks": [
+   "BOOL FindClose( HANDLE hFindFile );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindCloseChangeNotification",
+  "title": "FindCloseChangeNotification (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489773(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindCloseChangeNotification( HANDLE hChangeHandle );",
+  "code_blocks": [
+   "BOOL FindCloseChangeNotification( HANDLE hChangeHandle );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindFirstChangeNotification",
+  "title": "FindFirstChangeNotification (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490599(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstChangeNotification( LPCTSTR lpPathName, BOOL bWatchSubtree, DWORD dwNotifyFilter );",
+  "code_blocks": [
+   "HANDLE FindFirstChangeNotification( LPCTSTR lpPathName, BOOL bWatchSubtree, DWORD dwNotifyFilter );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindFirstFile",
+  "title": "FindFirstFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489744(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstFile( LPCTSTR lpFileName, LPWIN32_FIND_DATA lpFindFileData );",
+  "code_blocks": [
+   "HANDLE FindFirstFile( LPCTSTR lpFileName, LPWIN32_FIND_DATA lpFindFileData );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindFirstFileEx",
+  "title": "FindFirstFileEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490404(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE FindFirstFileEx( LPCTSTR lpFileName, FINDEX_INFO_LEVELS fInfoLevelId, LPVOID lpFindFileData, FINDEX_SEARCH_OPS fSearchOp, LPVOID lpSearchFilter, DWORD dwAdditionalFlags );",
+  "code_blocks": [
+   "HANDLE FindFirstFileEx( LPCTSTR lpFileName, FINDEX_INFO_LEVELS fInfoLevelId, LPVOID lpFindFileData, FINDEX_SEARCH_OPS fSearchOp, LPVOID lpSearchFilter, DWORD dwAdditionalFlags );",
+   "FindFirstFileEx(lpFileName, FindExInfoStandard, lpFindData, FindExSearchNameMatch, NULL, 0); FindFirstFile(lpFileName, lpFindData);"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "If the underlying file system does not support the specified type of filtering other than directory filtering, this function fails and returns ERROR_NOT_SUPPORTED.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindNextChangeNotification",
+  "title": "FindNextChangeNotification (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490370(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindNextChangeNotification( HANDLE hChangeHandle );",
+  "code_blocks": [
+   "BOOL FindNextChangeNotification( HANDLE hChangeHandle );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FindNextFile",
+  "title": "FindNextFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490628(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FindNextFile( HANDLE hFindFile, LPWIN32_FIND_DATA lpFindFileData );",
+  "code_blocks": [
+   "BOOL FindNextFile( HANDLE hFindFile, LPWIN32_FIND_DATA lpFindFileData );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "FlushFileBuffers",
+  "title": "FlushFileBuffers (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489770(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WINAPI FlushFileBuffers( HANDLE hFile );",
+  "code_blocks": [
+   "BOOL WINAPI FlushFileBuffers( HANDLE hFile );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GET_FILEEX_INFO_LEVELS",
+  "title": "GET_FILEEX_INFO_LEVELS (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489792(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef enum _GET_FILEEX_INFO_LEVELS { GetFileExInfoStandard } GET_FILEEX_INFO_LEVELS;",
+  "code_blocks": [
+   "typedef enum _GET_FILEEX_INFO_LEVELS { GetFileExInfoStandard } GET_FILEEX_INFO_LEVELS;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetDiskFreeSpaceEx",
+  "title": "GetDiskFreeSpaceEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490421(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetDiskFreeSpaceEx( LPCWSTR lpDirectoryName, PULARGE_INTEGER lpFreeBytesAvailableToCaller, PULARGE_INTEGER lpTotalNumberOfBytes, PULARGE_INTEGER lpTotalNumberOfFreeBytes );",
+  "code_blocks": [
+   "BOOL GetDiskFreeSpaceEx( LPCWSTR lpDirectoryName, PULARGE_INTEGER lpFreeBytesAvailableToCaller, PULARGE_INTEGER lpTotalNumberOfBytes, PULARGE_INTEGER lpTotalNumberOfFreeBytes );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileAttributes",
+  "title": "GetFileAttributes (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489560(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetFileAttributes( LPCTSTR lpFileName );",
+  "code_blocks": [
+   "DWORD GetFileAttributes( LPCTSTR lpFileName );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileAttributesEx",
+  "title": "GetFileAttributesEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490758(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetFileAttributesEx( LPCTSTR lpFileName, GET_FILEEX_INFO_LEVELS fInfoLevelId, LPVOID lpFileInformation );",
+  "code_blocks": [
+   "BOOL GetFileAttributesEx( LPCTSTR lpFileName, GET_FILEEX_INFO_LEVELS fInfoLevelId, LPVOID lpFileInformation );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileInformationByHandle",
+  "title": "GetFileInformationByHandle (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489735(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetFileInformationByHandle( HANDLE hFile, LPBY_HANDLE_FILE_INFORMATION lpFileInformation );",
+  "code_blocks": [
+   "BOOL GetFileInformationByHandle( HANDLE hFile, LPBY_HANDLE_FILE_INFORMATION lpFileInformation );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileSize",
+  "title": "GetFileSize (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490353(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetFileSize( HANDLE hFile, LPDWORD lpFileSizeHigh );",
+  "code_blocks": [
+   "DWORD GetFileSize( HANDLE hFile, LPDWORD lpFileSizeHigh );",
+   "// // Case One: calling the function with lpFileSizeHigh == NULL. // Try to obtain the size of hFile. dwSize = GetFileSize (hFile, NULL); // Result on failure. if (dwSize == 0xFFFFFFFF) { // Obtain the error code. dwError = GetLastError(); // Resolve the failure. } // End of error handler. // // Case Two: calling the function with lpFileSizeHigh != NULL. // Try to obtain the size of hFile. dwSizeLow = GetFileSize (hFile, & dwSizeHigh); // Result on failure. if (dwSizeLow == 0xFFFFFFFF && (dwError = GetLastError()) != NO_ERROR ) { // Resolve the failure. } // End of error handler."
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileVersionInfo",
+  "title": "GetFileVersionInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489818(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetFileVersionInfo( LPTSTR lptstrFilename, DWORD dwHandle, DWORD dwLen, LPVOID lpData );",
+  "code_blocks": [
+   "BOOL GetFileVersionInfo( LPTSTR lptstrFilename, DWORD dwHandle, DWORD dwLen, LPVOID lpData );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetFileVersionInfoSize",
+  "title": "GetFileVersionInfoSize (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489808(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetFileVersionInfoSize( LPTSTR lptstrFilename, LPDWORD lpdwHandle );",
+  "code_blocks": [
+   "DWORD GetFileVersionInfoSize( LPTSTR lptstrFilename, LPDWORD lpdwHandle );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetStoreInformation",
+  "title": "GetStoreInformation (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490015(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetStoreInformation( LPSTORE_INFORMATION lpsi );",
+  "code_blocks": [
+   "BOOL GetStoreInformation( LPSTORE_INFORMATION lpsi );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetTempFileName",
+  "title": "GetTempFileName (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489761(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "UINT GetTempFileName( LPCTSTR lpPathName, LPCTSTR lpPrefixString, UINT uUnique, LPTSTR lpTempFileName );",
+  "code_blocks": [
+   "UINT GetTempFileName( LPCTSTR lpPathName, LPCTSTR lpPrefixString, UINT uUnique, LPTSTR lpTempFileName );",
+   "path\\preuuuu.TMP"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "When a Windows Embedded CE-based device is turned off, temporary files whose names have been created by this function are not automatically deleted. To avoid problems resulting from converting an ANSI character set string to a Windows string, the CreateFile function to create a temporary file. Windows Embedded CE pads a file name with zeros when it has fewer than four hexadecimal digits in its name. For example, a Windows desktop OS creates < File Name >34.tmp, whereas Windows Embedded CE creates < File Name >0034.tmp.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "GetTempPath",
+  "title": "GetTempPath (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489558(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetTempPath( DWORD ccBuffer, LPTSTR lpszBuffer );",
+  "code_blocks": [
+   "DWORD GetTempPath( DWORD ccBuffer, LPTSTR lpszBuffer );",
+   "[HKEY_LOCAL_MACHINE\\SYSTEM\\FileSys] \"TempPath\"=\"\\My\\New\\Temp\\Path\\\""
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.11 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "LockFileEx",
+  "title": "LockFileEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489737(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL LockFileEx( HANDLE hFile, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL LockFileEx( HANDLE hFile, DWORD dwFlags, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "MoveFile",
+  "title": "MoveFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490016(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL MoveFile( LPCTSTR lpExistingFileName, LPCTSTR lpNewFileName );",
+  "code_blocks": [
+   "BOOL MoveFile( LPCTSTR lpExistingFileName, LPCTSTR lpNewFileName );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "OVERLAPPED",
+  "title": "OVERLAPPED (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490367(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _OVERLAPPED { ULONG_PTR Internal; ULONG_PTR InternalHigh; DWORD Offset; DWORD OffsetHigh; HANDLE hEvent; } OVERLAPPED;",
+  "code_blocks": [
+   "typedef struct _OVERLAPPED { ULONG_PTR Internal; ULONG_PTR InternalHigh; DWORD Offset; DWORD OffsetHigh; HANDLE hEvent; } OVERLAPPED;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "ReadFile",
+  "title": "ReadFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489594(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ReadFile( HANDLE hFile, LPVOID lpBuffer, DWORD nNumberOfBytesToRead, LPDWORD lpNumberOfBytesRead, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL ReadFile( HANDLE hFile, LPVOID lpBuffer, DWORD nNumberOfBytesToRead, LPDWORD lpNumberOfBytesRead, LPOVERLAPPED lpOverlapped );",
+   "// Attempt a synchronous read operation. bResult = ReadFile(hFile, &inBuffer, nBytesToRead, &nBytesRead, NULL) ; // Check for end of file. if (bResult && (nBytesRead == 0) ) { // you are at the end of the file. }"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE does not support asynchronous read operations on files.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "RemoveDirectory",
+  "title": "RemoveDirectory (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490356(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RemoveDirectory( LPCTSTR lpPathName );",
+  "code_blocks": [
+   "BOOL RemoveDirectory( LPCTSTR lpPathName );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "SetEndOfFile",
+  "title": "SetEndOfFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490369(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetEndOfFile( HANDLE hFile );",
+  "code_blocks": [
+   "BOOL SetEndOfFile( HANDLE hFile );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "SetFileAttributes",
+  "title": "SetFileAttributes (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490205(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetFileAttributes( LPCTSTR lpFileName, DWORD dwFileAttributes );",
+  "code_blocks": [
+   "BOOL SetFileAttributes( LPCTSTR lpFileName, DWORD dwFileAttributes );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "SetFilePointer",
+  "title": "SetFilePointer (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490790(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD SetFilePointer( HANDLE hFile, LONG lDistanceToMove, PLONG lpDistanceToMoveHigh, DWORD dwMoveMethod );",
+  "code_blocks": [
+   "DWORD SetFilePointer( HANDLE hFile, LONG lDistanceToMove, PLONG lpDistanceToMoveHigh, DWORD dwMoveMethod );",
+   "// Try to move the hFile file pointer some distance. dwPtr = SetFilePointer (hFile, lDistance, NULL, FILE_BEGIN); if (dwPtr == 0xFFFFFFFF) // Test for failure. { // Obtain the error code. dwError = GetLastError(); // Resolve the failure. } // End of error handler."
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "UnlockFileEx",
+  "title": "UnlockFileEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490757(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnlockFileEx( HANDLE hFile, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL UnlockFileEx( HANDLE hFile, DWORD dwReserved, DWORD nNumberOfBytesToLockLow, DWORD nNumberOfBytesToLockHigh, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "WIN32_FILE_ATTRIBUTE_DATA",
+  "title": "WIN32_FILE_ATTRIBUTE_DATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489644(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _WIN32_FILE_ATTRIBUTE_DATA{ DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD nFileSizeHigh; DWORD nFileSizeLow; } WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA;",
+  "code_blocks": [
+   "typedef struct _WIN32_FILE_ATTRIBUTE_DATA{ DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD nFileSizeHigh; DWORD nFileSizeLow; } WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 3.0 and later"
+  },
+  "ce_notes_excerpt": "For example, the object store (RAM) file system maintains only the last modified time.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "WIN32_FIND_DATA",
+  "title": "WIN32_FIND_DATA (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489924(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct _WIN32_FIND_DATA { DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD nFileSizeHigh; DWORD nFileSizeLow; DWORD dwOID; TCHAR cFileName[MAX_PATH]; } WIN32_FIND_DATA;",
+  "code_blocks": [
+   "typedef struct _WIN32_FIND_DATA { DWORD dwFileAttributes; FILETIME ftCreationTime; FILETIME ftLastAccessTime; FILETIME ftLastWriteTime; DWORD nFileSizeHigh; DWORD nFileSizeLow; DWORD dwOID; TCHAR cFileName[MAX_PATH]; } WIN32_FIND_DATA;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "For example, the object store (RAM) file system maintains only the last modified time.",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "WriteFile",
+  "title": "WriteFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490774(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WriteFile( HANDLE hFile, LPCVOID lpBuffer, DWORD nNumberOfBytesToWrite, LPDWORD lpNumberOfBytesWritten, LPOVERLAPPED lpOverlapped );",
+  "code_blocks": [
+   "BOOL WriteFile( HANDLE hFile, LPCVOID lpBuffer, DWORD nNumberOfBytesToWrite, LPDWORD lpNumberOfBytesWritten, LPOVERLAPPED lpOverlapped );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File I/O Reference"
+ },
+ {
+  "name": "CreateFileForMapping",
+  "title": "CreateFileForMapping (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489638(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateFileForMapping( LPCTSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile );",
+  "code_blocks": [
+   "HANDLE CreateFileForMapping( LPCTSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile );",
+   "// Shows call sequence, use of the handle. HANDLE hFile; hFile = CreateFileForMapping(...); CreateFileMapping(hFile, ...);"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "For Windows Embedded CE, it is only necessary to close the mapping handle because the file handle is automatically closed when you close the mapping handle. The FILE_SHARE_WRITE flag is ignored and should not be used.",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "CreateFileMapping",
+  "title": "CreateFileMapping (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490172(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CreateFileMapping( HANDLE hFile, LPSECURITY_ATTRIBUTES lpFileMappingAttributes, DWORD flProtect, DWORD dwMaximumSizeHigh, DWORD dwMaximumSizeLow, LPCTSTR lpName );",
+  "code_blocks": [
+   "HANDLE CreateFileMapping( HANDLE hFile, LPSECURITY_ATTRIBUTES lpFileMappingAttributes, DWORD flProtect, DWORD dwMaximumSizeHigh, DWORD dwMaximumSizeLow, LPCTSTR lpName );",
+   "hMap = CreateFileMapping(...); if (hMap != NULL && GetLastError() == ERROR_ALREADY_EXISTS) { CloseHandle(hMap); hMap = NULL; } return hMap;"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "This function does not work on Windows Embedded CE devices that do not support demand paging. For Windows Embedded CE, it is necessary only to close the mapping handle as the file handle is automatically closed when you close the mapping handle.",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "FlushViewOfFile",
+  "title": "FlushViewOfFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490145(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL FlushViewOfFile( LPCVOID lpBaseAddress, DWORD dwNumberOfBytesToFlush );",
+  "code_blocks": [
+   "BOOL FlushViewOfFile( LPCVOID lpBaseAddress, DWORD dwNumberOfBytesToFlush );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "MapViewOfFile",
+  "title": "MapViewOfFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490226(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LPVOID MapViewOfFile( HANDLE hFileMappingObject, DWORD dwDesiredAccess, DWORD dwFileOffsetHigh, DWORD dwFileOffsetLow, DWORD dwNumberOfBytesToMap );",
+  "code_blocks": [
+   "LPVOID MapViewOfFile( HANDLE hFileMappingObject, DWORD dwDesiredAccess, DWORD dwFileOffsetHigh, DWORD dwFileOffsetLow, DWORD dwNumberOfBytesToMap );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "UnmapViewOfFile",
+  "title": "UnmapViewOfFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490630(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL UnmapViewOfFile( LPCVOID lpBaseAddress );",
+  "code_blocks": [
+   "BOOL UnmapViewOfFile( LPCVOID lpBaseAddress );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.01 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File Mapping Reference"
+ },
+ {
+  "name": "CheckPassword",
+  "title": "CheckPassword (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490382(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CheckPassword( LPWSTR lpszPassword );",
+  "code_blocks": [
+   "BOOL CheckPassword( LPWSTR lpszPassword );"
+  ],
+  "requirements": {
+   "header": "windbase.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "GetPasswordActive",
+  "title": "GetPasswordActive (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490428(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetPasswordActive(void);",
+  "code_blocks": [
+   "BOOL GetPasswordActive(void);"
+  ],
+  "requirements": {
+   "header": "windbase.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "GetPasswordStatus",
+  "title": "GetPasswordStatus (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490771(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD GetPasswordStatus(void);",
+  "code_blocks": [
+   "DWORD GetPasswordStatus(void);"
+  ],
+  "requirements": {
+   "header": "pwinbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "SetPassword",
+  "title": "SetPassword (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490550(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetPassword( LPWSTR lpszOldPassword, LPWSTR lpszNewPassword );",
+  "code_blocks": [
+   "BOOL SetPassword( LPWSTR lpszOldPassword, LPWSTR lpszNewPassword );"
+  ],
+  "requirements": {
+   "header": "windbase.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "SetPasswordActive",
+  "title": "SetPasswordActive (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490208(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetPasswordActive( BOOL bActive, LPWSTR lpszPassword );",
+  "code_blocks": [
+   "BOOL SetPasswordActive( BOOL bActive, LPWSTR lpszPassword );"
+  ],
+  "requirements": {
+   "header": "windbase.h",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "SetPasswordStatus",
+  "title": "SetPasswordStatus (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489742(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetPasswordStatus( DWORD dwStatus, LPWSTR lpszPassword );",
+  "code_blocks": [
+   "BOOL SetPasswordStatus( DWORD dwStatus, LPWSTR lpszPassword );"
+  ],
+  "requirements": {
+   "header": "pwinbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "File System Password Reference"
+ },
+ {
+  "name": "CeFindCloseRegChange",
+  "title": "CeFindCloseRegChange (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490235(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeFindCloseRegChange ( HANDLE hChangeHandle );",
+  "code_blocks": [
+   "BOOL CeFindCloseRegChange ( HANDLE hChangeHandle );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "CeFindFirstRegChange",
+  "title": "CeFindFirstRegChange (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489978(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "HANDLE CeFindFirstRegChange ( HKEY hKey, BOOL bWatchSubtree, DWORD dwNotifyFilter );",
+  "code_blocks": [
+   "HANDLE CeFindFirstRegChange ( HKEY hKey, BOOL bWatchSubtree, DWORD dwNotifyFilter );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "CeFindNextRegChange",
+  "title": "CeFindNextRegChange (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490027(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL CeFindNextRegChange ( HANDLE hChangeHandle );",
+  "code_blocks": [
+   "BOOL CeFindNextRegChange ( HANDLE hChangeHandle );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "CeRegGetInfo",
+  "title": "CeRegGetInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490230(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG CeRegGetInfo( __in HKEY hKey, __inout PCE_REGISTRY_INFO pInfo",
+  "code_blocks": [
+   "LONG CeRegGetInfo( __in HKEY hKey, __inout PCE_REGISTRY_INFO pInfo"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "CeRegGetNotificationInfo",
+  "title": "CeRegGetNotificationInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490197(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG CeRegGetNotificationInfo( __in HANDLE hChangeHandle, __in DWORD dwFlags, __inout_bcount(nBufferLength) __opt LPVOID lpBuffer, __in DWORD nBufferLength, __out LPDWORD lpBytesReturned, __out LPDWORD lpBytesAvailable );",
+  "code_blocks": [
+   "LONG CeRegGetNotificationInfo( __in HANDLE hChangeHandle, __in DWORD dwFlags, __inout_bcount(nBufferLength) __opt LPVOID lpBuffer, __in DWORD nBufferLength, __out LPDWORD lpBytesReturned, __out LPDWORD lpBytesAvailable );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows Embedded CE 6.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "CeRegTestSetValueW",
+  "title": "CeRegTestSetValueW (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490635(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG CeRegTestSetValueW( __in HKEY hKey, __in LPCWSTR lpValueName, DWORD dwType, __in_bcount(cbOldData) __opt CONST BYTE* lpOldData, DWORD cbOldData, __in_bcount(cbNewData) __opt CONST BYTE* lpNewData, DWORD cbNewData, DWORD dwFlags );",
+  "code_blocks": [
+   "LONG CeRegTestSetValueW( __in HKEY hKey, __in LPCWSTR lpValueName, DWORD dwType, __in_bcount(cbOldData) __opt CONST BYTE* lpOldData, DWORD cbOldData, __in_bcount(cbNewData) __opt CONST BYTE* lpNewData, DWORD cbNewData, DWORD dwFlags );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 5.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "HiveRAMInfo",
+  "title": "HiveRAMInfo (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489984(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct HiveRAMInfo { WORD wVersion; WORD wFlags; HiveRAMRegion SystemRegion; } HiveRAMInfo;",
+  "code_blocks": [
+   "typedef struct HiveRAMInfo { WORD wVersion; WORD wFlags; HiveRAMRegion SystemRegion; } HiveRAMInfo;"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "HiveRAMRegion",
+  "title": "HiveRAMRegion (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490401(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct HiveRAMRegion { LPVOID lpStart; DWORD dwLength; DWORD dwVirtCopyFlags; } HiveRAMRegion;",
+  "code_blocks": [
+   "typedef struct HiveRAMRegion { LPVOID lpStart; DWORD dwLength; DWORD dwVirtCopyFlags; } HiveRAMRegion;"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "ReadGenericData",
+  "title": "ReadGenericData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490021(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL ReadGenericData( WORD dwId, DWORD dwIndex, DWORD dwFlags, LPBYTE pBuf, DWORD dwLength, DWORD pdwBytesReturned );",
+  "code_blocks": [
+   "BOOL ReadGenericData( WORD dwId, DWORD dwIndex, DWORD dwFlags, LPBYTE pBuf, DWORD dwLength, DWORD pdwBytesReturned );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "ReadRegData",
+  "title": "ReadRegData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489796(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "DWORD ReadRegData( DWORD dwFlags, LPBYTE pBuf, DWORD len );",
+  "code_blocks": [
+   "DWORD ReadRegData( DWORD dwFlags, LPBYTE pBuf, DWORD len );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegCloseKey",
+  "title": "RegCloseKey (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489566(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegCloseKey( HKEY hKey );",
+  "code_blocks": [
+   "LONG RegCloseKey( HKEY hKey );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "This function always writes information to the registry before returning, eliminating the need to flush keys in the Windows Embedded CE registry.",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegCopyFile",
+  "title": "RegCopyFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489979(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RegCopyFile( LPCWSTR lpszFile );",
+  "code_blocks": [
+   "BOOL RegCopyFile( LPCWSTR lpszFile );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegCreateKeyEx",
+  "title": "RegCreateKeyEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490393(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegCreateKeyEx( HKEY hKey, LPCWSTR lpSubKey, DWORD Reserved, LPWSTR lpClass, DWORD dwOptions, REGSAM samDesired, LPSECURITY_ATTRIBUTES lpSecurityAttributes, PHKEY phkResult, LPDWORD lpdwDisposition );",
+  "code_blocks": [
+   "LONG RegCreateKeyEx( HKEY hKey, LPCWSTR lpSubKey, DWORD Reserved, LPWSTR lpClass, DWORD dwOptions, REGSAM samDesired, LPSECURITY_ATTRIBUTES lpSecurityAttributes, PHKEY phkResult, LPDWORD lpdwDisposition );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegDeleteKey",
+  "title": "RegDeleteKey (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489528(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegDeleteKey( HKEY hKey, LPCWSTR lpSubKey );",
+  "code_blocks": [
+   "LONG RegDeleteKey( HKEY hKey, LPCWSTR lpSubKey );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegDeleteValue",
+  "title": "RegDeleteValue (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490238(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegDeleteValue( HKEY hKey, LPCWSTR lpValueName );",
+  "code_blocks": [
+   "LONG RegDeleteValue( HKEY hKey, LPCWSTR lpValueName );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegEnumKeyEx",
+  "title": "RegEnumKeyEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490030(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegEnumKeyEx( HKEY hKey, DWORD dwIndex, LPWSTR lpName, LPDWORD lpcName, LPDWORD lpReserved, LPWSTR lpClass, LPDWORD lpcbClass, PFILETIME lpftLastWriteTime );",
+  "code_blocks": [
+   "LONG RegEnumKeyEx( HKEY hKey, DWORD dwIndex, LPWSTR lpName, LPDWORD lpcName, LPDWORD lpReserved, LPWSTR lpClass, LPDWORD lpcbClass, PFILETIME lpftLastWriteTime );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegEnumValue",
+  "title": "RegEnumValue (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489970(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegEnumValue( HKEY hKey, DWORD dwIndex, LPWSTR lpValueName, LPDWORD lpcchValueName, LPDWORD lpReserved, LPDWORD lpType, LPBYTE lpData, LPDWORD lpcbData );",
+  "code_blocks": [
+   "LONG RegEnumValue( HKEY hKey, DWORD dwIndex, LPWSTR lpValueName, LPDWORD lpcchValueName, LPDWORD lpReserved, LPDWORD lpType, LPBYTE lpData, LPDWORD lpcbData );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegFlushKey",
+  "title": "RegFlushKey (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490431(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegFlushKey( HKEY hKey );",
+  "code_blocks": [
+   "LONG RegFlushKey( HKEY hKey );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "By default, Windows Embedded CE does not support a lazy flush of the registry, although the OEM can implement a lazy-flush or power-down flush.",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegOpenKeyEx",
+  "title": "RegOpenKeyEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489985(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegOpenKeyEx( HKEY hKey, LPCWSTR lpSubKey, DWORD ulOptions, REGSAM samDesired, PHKEY phkResult );",
+  "code_blocks": [
+   "LONG RegOpenKeyEx( HKEY hKey, LPCWSTR lpSubKey, DWORD ulOptions, REGSAM samDesired, PHKEY phkResult );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegQueryInfoKey",
+  "title": "RegQueryInfoKey (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490425(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegQueryInfoKey( HKEY hKey, LPWSTR lpClass, LPDWORD lpcbClass, LPDWORD lpReserved, LPDWORDlpcSubKeys, LPDWORD lpcbMaxSubKeyLen, LPDWORD lpcbMaxClassLen, LPDWORD lpcValues, LPDWORD lpcbMaxValueNameLen, LPDWORD lpcbMaxValueLen, LPDWORD lpcbSecurityDescriptor, PFILETIME lpftLastWriteTime );",
+  "code_blocks": [
+   "LONG RegQueryInfoKey( HKEY hKey, LPWSTR lpClass, LPDWORD lpcbClass, LPDWORD lpReserved, LPDWORDlpcSubKeys, LPDWORD lpcbMaxSubKeyLen, LPDWORD lpcbMaxClassLen, LPDWORD lpcValues, LPDWORD lpcbMaxValueNameLen, LPDWORD lpcbMaxValueLen, LPDWORD lpcbSecurityDescriptor, PFILETIME lpftLastWriteTime );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegQueryValueEx",
+  "title": "RegQueryValueEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490180(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegQueryValueEx( HKEY hKey, LPCWSTR lpValueName, LPDWORD lpReserved, LPDWORD lpType, LPBYTE lpData, LPDWORD lpcbData );",
+  "code_blocks": [
+   "LONG RegQueryValueEx( HKEY hKey, LPCWSTR lpValueName, LPDWORD lpReserved, LPDWORD lpType, LPBYTE lpData, LPDWORD lpcbData );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "Nkstub.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegReplaceKey",
+  "title": "RegReplaceKey (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489789(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegReplaceKey( HKEY hKey, LPCTSTR lpSubKey, LPCTSTR lpNewFile, LPCTSTR lpOldFile );",
+  "code_blocks": [
+   "LONG RegReplaceKey( HKEY hKey, LPCTSTR lpSubKey, LPCTSTR lpNewFile, LPCTSTR lpOldFile );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "To save and restore data in the object store-based registry, see RegCopyFile and RegRestoreFile .",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegRestoreFile",
+  "title": "RegRestoreFile (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490780(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RegRestoreFile( LPCWSTR lpszFile );",
+  "code_blocks": [
+   "BOOL RegRestoreFile( LPCWSTR lpszFile );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 2.10 and later"
+  },
+  "ce_notes_excerpt": "This function is supported only for the object store-based registry.",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegSaveKey",
+  "title": "RegSaveKey (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489766(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegSaveKey( HKEY hKey, LPCTSTR lpFile, LPSECURITY_ATTRIBUTES lpSecurityAttributes );",
+  "code_blocks": [
+   "LONG RegSaveKey( HKEY hKey, LPCTSTR lpFile, LPSECURITY_ATTRIBUTES lpSecurityAttributes );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "To save and restore data in the object store-based registry, see RegCopyFile and RegRestoreFile .",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegSecureKey",
+  "title": "RegSecureKey (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490612(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct RegSecureKey { WORD wRoots; WORD wLen; LPWSTR pName; } RegSecureKey;",
+  "code_blocks": [
+   "typedef struct RegSecureKey { WORD wRoots; WORD wLen; LPWSTR pName; } RegSecureKey;"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegSecureKeyList",
+  "title": "RegSecureKeyList (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490570(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "typedef struct RegSecureKeyList { DWORD dwNumKeys; RegSecureKey* pList; } RegSecureKeyList;",
+  "code_blocks": [
+   "typedef struct RegSecureKeyList { DWORD dwNumKeys; RegSecureKey* pList; } RegSecureKeyList;"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegSetValueEx",
+  "title": "RegSetValueEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490645(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "LONG RegSetValueEx( HKEY hKey, LPCWSTR lpValueName, DWORD Reserved, DWORD dwType, const BYTE* lpData, DWORD cbData );",
+  "code_blocks": [
+   "LONG RegSetValueEx( HKEY hKey, LPCWSTR lpValueName, DWORD Reserved, DWORD dwType, const BYTE* lpData, DWORD cbData );"
+  ],
+  "requirements": {
+   "header": "winreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE 1.0 and later"
+  },
+  "ce_notes_excerpt": "Windows Embedded CE supports only the Unicode version of this function.",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "RegistryOperation",
+  "title": "RegistryOperation (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490573(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL RegistryOperation( DWORD dwOp );",
+  "code_blocks": [
+   "BOOL RegistryOperation( DWORD dwOp );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "WriteGenericData",
+  "title": "WriteGenericData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489570(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WriteGenericData( WORD dwId, DWORD dwIndex, DWORD dwFlags, LPBYTE pBuf, DWORD dwLength, );",
+  "code_blocks": [
+   "BOOL WriteGenericData( WORD dwId, DWORD dwIndex, DWORD dwFlags, LPBYTE pBuf, DWORD dwLength, );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "WriteRegData",
+  "title": "WriteRegData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490177(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL WriteRegData( DWORD dwFlags, LPBYTE lpBuf, DWORD len );",
+  "code_blocks": [
+   "BOOL WriteRegData( DWORD dwFlags, LPBYTE lpBuf, DWORD len );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.2 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "Registry Reference"
+ },
+ {
+  "name": "GetUserDirectory",
+  "title": "GetUserDirectory (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489784(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL GetUserDirectory( LPWSTR lpszBuffer, LPDWORD lpdwSize );",
+  "code_blocks": [
+   "BOOL GetUserDirectory( LPWSTR lpszBuffer, LPDWORD lpdwSize );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "User Management Reference"
+ },
+ {
+  "name": "GetUserNameEx",
+  "title": "GetUserNameEx (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489621(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOLEAN GetUserNameEx( EXTENDED_NAME_FORMAT NameFormat, LPTSTR lpNameBuffer, PULONG nSize );",
+  "code_blocks": [
+   "BOOLEAN GetUserNameEx( EXTENDED_NAME_FORMAT NameFormat, LPTSTR lpNameBuffer, PULONG nSize );"
+  ],
+  "requirements": {
+   "header": "winbase.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "User Management Reference"
+ },
+ {
+  "name": "SetCurrentUser",
+  "title": "SetCurrentUser (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee490214(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetCurrentUser( LPCWSTR lpszUserName, LPBYTE lpbUserSecret, DWORD dwDataSize, BOOL bCreateIfNew );",
+  "code_blocks": [
+   "BOOL SetCurrentUser( LPCWSTR lpszUserName, LPBYTE lpbUserSecret, DWORD dwDataSize, BOOL bCreateIfNew );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "User Management Reference"
+ },
+ {
+  "name": "SetUserData",
+  "title": "SetUserData (Windows Embedded CE 6.0)",
+  "docset": "ce60",
+  "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ee489661(v=winembedded.60)",
+  "retrieved": "2026-11-07",
+  "signature": "BOOL SetUserData( LPBYTE lpbUserData, DWORD dwDataSize );",
+  "code_blocks": [
+   "BOOL SetUserData( LPBYTE lpbUserData, DWORD dwDataSize );"
+  ],
+  "requirements": {
+   "header": "pwinreg.h",
+   "library": "coredll.lib",
+   "os": "Windows CE .NET 4.0 and later"
+  },
+  "ce_notes_excerpt": "",
+  "area": "file-io",
+  "sub": "User Management Reference"
+ }
+]

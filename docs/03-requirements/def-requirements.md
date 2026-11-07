@@ -13,8 +13,16 @@ The documentation's per-function `Requirements → Link Library` field is the au
 | Import library | Bindings (P0+P1 harvests) | Status |
 | --- | --- | --- |
 | `coredll.lib` | core OS (§ winbase spec) + 39 winuser + 100 wingdi + `GetMessage` … | documented (CE 5.0 + 6.0 pages; case-normalised identical) |
-| `Nk.lib` | `WaitForMultipleObjects` (both docsets) | documented |
-| `Nkstub.lib` | `Sleep` (CE 6.0 page) | documented (CE5→CE6 binding change) |
+| `Nk.lib` | `WaitForMultipleObjects` (both docsets) + 7 further core-os bindings (P2 harvest) | documented |
+| `Nkstub.lib` | `Sleep` + `RegCloseKey`/`RegCreateKeyEx`/`RegFlushKey`/`RegOpenKeyEx`/`RegQueryValueEx` + `CompareFileTime`/`FileTimeToSystemTime`/`SystemTimeToFileTime` (all CE 6.0 pages; CE 5.0 pages say coredll.lib) | documented (CE5→CE6 binding change) |
+| `Oemmain.lib` | `GetTickCount`, `IsProcessorFeaturePresent`, `WriteDebugLED` (CE 6.0 pages) | documented (new, P2 harvest) |
+| `Serdev.lib` | serial communications set (32 bindings: `SetCommState`, `WaitCommEvent`, `EscapeCommFunction`, …) | documented (new, P2 harvest) |
+| `Coreloc.lib` | `LoadDriver` + locale group (22 bindings) | documented (new, P2 harvest) |
+| `Coremain.lib` | core-main group (8 bindings) | documented (new, P2 harvest) |
+| `Toolhelp.lib` | ToolHelp set (26 bindings: `CreateToolhelp32Snapshot`, `Process32*`, `Toolhelp32ReadProcessMemory`, …) | documented (new, P2 harvest) |
+| `Mgprint.lib` | printing set (14 bindings: `StartDoc`, `EndDoc`, `StartPage`, `AbortDoc`, …) | documented (new, P2 harvest) |
+| `Msgque.lib` | GWES message-queue sub-group (4 bindings) | documented (new, P2 harvest) |
+| `ceshell.lib` | shell file-change group (24 bindings: `FILECHANGENOTIFY`, `SHChangeNotify*`, `FILECHANGEINFO` CE 6.0 page) | documented (new, P2 harvest) |
 | `Msgbox.lib` | `MessageBox` | documented |
 | `Ws2.lib` | **all 117 winsock function pages that document a library** | documented |
 | `commctrl.lib` | Command Bars/Bands, image lists, `InitCommonControls(Ex)` — 50 bindings | documented |
@@ -25,7 +33,7 @@ The documentation's per-function `Requirements → Link Library` field is the au
 | `clipbd.lib` | clipboard set (14, incl. CE-only `GetClipboardDataAlloc`) | documented |
 | `caret.lib` | caret set (12) | documented |
 | `kbdui.lib` | keyboard-UI set (8, incl. CE-only `GetAsyncShiftFlags`) | documented |
-| `icon.lib` | icon set (5) | documented |
+| `icon.lib` | icon set (10 bindings: `LoadIcon`, `LoadImage`, `DrawIconEx`, `CreateIconIndirect`, …) | documented (P2 harvest: icon support IS documented on CE) |
 | `accel.lib` | accelerator set (4) | documented |
 | `sbcmn.lib` | scroll-bar set (4) | documented |
 | `rectapi.lib` | RECT helpers (11) | documented |
@@ -36,10 +44,10 @@ The documentation's per-function `Requirements → Link Library` field is the au
 | `msgbeep.lib` | `MessageBeep` | documented |
 | `hotkey.lib` | `RegisterHotKey`/`UnregisterHotKey` group | documented |
 | `nclient.lib` | `DrawFrameControl` | documented |
-| `aygshell.lib` | AYGShell Reference area (60 pages) | documented at area level; per-page harvest pending (P2) |
+| `aygshell.lib` | AYGShell Reference area (88 per-page bindings, P2 harvest) | documented (per-page harvest complete) |
 | `ole32.lib`, `oleaut32.lib`, `uuid.lib`, … | COM areas | per-page harvest pending (P2) |
 
-The complete module set SHALL be derived by harvesting the Requirements blocks of the full inventories (`data/mslearn-inventories/`), which is a mechanical extension of `tools/harvest_facts.py` (realised for area harvests as `tools/harvest_area.py`). Functions whose pages document **no** Link Library line (98 in the winuser set, 10 in the GDI set) are tracked as binding-hypothesis items (OQ-14) and default to the GWES runtime-module hypothesis.
+The complete module set SHALL be derived by harvesting the Requirements blocks of the full inventories (`data/mslearn-inventories/`), which is a mechanical extension of `tools/harvest_facts.py` (realised for area harvests as `tools/harvest_area.py`). Functions whose pages document **no** Link Library line (98 in the winuser set, 10 in the GDI set, ~700 macro-only common-control pages) are tracked as binding-hypothesis items (OQ-14) and default to the GWES runtime-module hypothesis. The P2 session added the CE 6.0 kernel-split bindings (`Nkstub.lib`, `Oemmain.lib` above) — nine functions total change import library between CE 5.0 and CE 6.0 documentation, joining `Sleep`.
 
 ## 3. `.def` file requirements (normative)
 

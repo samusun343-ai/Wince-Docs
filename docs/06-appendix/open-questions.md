@@ -113,3 +113,42 @@ Status: living document | Each item has an owner-role and a resolution method. N
 
 * **State:** `REBARBANDINFO`, `OPENFILENAME`, `CHOOSECOLOR`, `TBBUTTON`, `NMCUSTOMDRAW`-family pages live in the unharvested ~700 pages of the common-controls area.
 * **Resolution (Role A):** extend the commctrl harvest to the full area (mechanical; `tools/harvest_area.py` ready).
+
+## OQ-21a — Common-control structure closure — RESOLVED (P2 session)
+
+* **State (resolved):** the remaining ~700 common-control pages (1,524 page harvests incl. both docsets) are now in `data/facts/commctrl-controls.yaml` (760 records); structure pages (`REBARBANDINFO`, `TBBUTTON`, `NMCUSTOMDRAW` family, …) carry verbatim layouts. Member-level diff vs desktop continues under OQ-18's method.
+
+## OQ-22 — ToolHelp predecessor spellings (CE 1.x–2.x)
+
+* **State:** the docs document `CreateToolhelp32Snapshot` (2.0+); early-era spellings (`Toolhelp32CreateSnapshot`) are historical.
+* **Resolution (Role A):** only if CE 1/2 support is ever targeted (OQ-9); headers document the modern names only.
+
+## OQ-23 — `MSGQUEUE_*` flag values
+
+* **State:** `MSGQUEUE_ALLOW_BROWSE`, `MSGQUEUE_MSGSIZE_*`, `MSGQUEUE_FIFO`, `MSGQUEUE_PRIORITY_NORMAL` etc. are CE-documented names without numeric values; two carry w32api-lineage values (`verify-runtime`).
+* **Resolution (Role C):** behaviour probe — create queues with candidate flag bits and observe semantics; record before use.
+
+## OQ-24 — `NOTIFICATION_EVENT_*` values
+
+* **State:** event-type names documented on the `CeRunAppAtEvent` page; values lineage-only.
+* **Resolution (Role C):** behaviour probe with candidate values on CE 5/6 (event ids are stable GWES constants).
+
+## OQ-25 — `NMN_*` new-menu message values
+
+* **State:** CE 6.0 newmenu.h set (`NMN_GETAPPREGKEY`, `NMN_INVOKECOMMAND`, …) documented without values; w32api lineage predates them.
+* **Resolution (Role A):** locate a permissively-licensed Windows Mobile-era article; else Role C behaviour probe on a CE 6.0 standard-shell image.
+
+## OQ-26 — `IOCTL_CONSOLE_*` numeric values
+
+* **State:** the nine CE 6.0 console ioctls (`console.h`) are documented by name only.
+* **Resolution (Role C):** `DeviceIoControl` sweep on a CE 6.0 console image with CTL_CODE candidates derived from the documented console device type; record before defining.
+
+## OQ-27 — Undocumented region/alpha exports in GWES
+
+* **State:** the GWES internal reference documents `Gdi::CombineRgn_I`, `Gdi::AlphaBlend_I`, `Gdi::CreateRectRgn_I` — internal implementations with no public API page (public GDI pages omit regions entirely on CE).
+* **Resolution (Role C):** `GetProcAddress(L"CombineRgn")`-class probes on CE 5/6 images. Even if exported, headers stay documentation-driven (absent a Class A page) — findings feed a documented-exports addendum, not the base set.
+
+## OQ-28 — `WM_IM_INFO` value
+
+* **State:** CE-only IME message documented by name (winuser.h page) with no value in any approved source.
+* **Resolution (Role A):** permissively-licensed IME-era article; else the name ships in a commented block only (never an invented value).
